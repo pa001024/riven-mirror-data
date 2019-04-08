@@ -1,0 +1,27 @@
+{
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "module": "commonjs",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "isolatedModules": false,
+    "lib": [
+      "esnext",
+      "scripthost"
+    ],
+    "sourceMap": false,
+    "pretty": false
+  }
+}

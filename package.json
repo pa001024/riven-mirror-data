@@ -1,0 +1,29 @@
+{
+  "name": "riven-mirror-data",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "repository": "https://github.com/pa001024/riven-mirror-data",
+  "author": "pa001024",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "fetch": "ts-node src/index.ts fetch",
+    "clean": "ts-node src/index.ts clean",
+    "build": "ts-node src/index.ts",
+    "build:all": "ts-node src/index.ts clean && ts-node src/index.ts fetch && ts-node src/index.ts"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "fengari": "^0.1.4",
+    "fengari-interop": "^0.1.2",
+    "fs-extra": "^7.0.1",
+    "lodash": "^4.17.11",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.4.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^5.0.5",
+    "@types/lodash": "^4.14.123",
+    "@types/node": "^11.13.0"
+  }
+}
