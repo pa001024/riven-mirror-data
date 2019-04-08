@@ -1,7 +1,7 @@
 import * as fs from "fs-extra";
 import * as _ from "lodash";
-import { Warframe, Upgrade } from "./exports";
-import { TMP_PREFIX } from "./var";
+import { Warframe, Upgrade } from "../exports";
+import { TMP_PREFIX } from "../var";
 import { propMap, extPropMap, extRexProp } from "./mod.props";
 
 // let polarities = new Set(mods.map(v => v.polarity));

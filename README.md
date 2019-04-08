@@ -2,7 +2,7 @@
 
 Data source and build tools used by [Riven Mirror](https://github.com/pa001024/riven-mirror)
 
-极镜所使用的游戏数据及构建工具
+[极镜](https://github.com/pa001024/riven-mirror)所使用的游戏数据及构建工具
 
 ## Usage (使用)
 

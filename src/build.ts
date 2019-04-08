@@ -1,6 +1,6 @@
 import * as fs from "fs-extra";
 import { TMP_PREFIX, TARGET_PREFIX } from "./var";
-import { convertMods } from "./mod";
+import { convertMods } from "./parser/mod";
 const {
   lua: { lua_setfield, lua_pushliteral },
   lauxlib: { luaL_dostring, luaL_newstate, luaL_requiref, luaL_dofile },
