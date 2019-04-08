@@ -1,52 +1,7 @@
 import * as fs from "fs-extra";
 import { TMP_PREFIX, TARGET_PREFIX } from "./var";
 import { convertMods } from "./parser/mod";
-const {
-  lua: { lua_setfield, lua_pushliteral },
-  lauxlib: { luaL_dostring, luaL_newstate, luaL_requiref, luaL_dofile },
-  lualib: { luaL_openlibs },
-  to_luastring
-} = require("fengari");
-
-const { luaopen_js, tojs } = require("fengari-interop");
-
-type LuaVM = any;
-
-class LuaContext {
-  private L: LuaVM;
-  constructor() {
-    process.env["LUA_PATH"] = "src/lua/?.lua;tmp/?.lua";
-    const L = luaL_newstate();
-    luaL_openlibs(L);
-    luaL_requiref(L, to_luastring("js"), luaopen_js, 0);
-    this.L = L;
-  }
-
-  runCode(code: string) {
-    const { L } = this;
-    luaL_dostring(L, to_luastring(code));
-    return tojs(L, -1);
-  }
-
-  setLocal(name: string, value: string) {
-    const { L } = this;
-    lua_pushliteral(L, value);
-    lua_setfield(L, -2, to_luastring(name));
-  }
-}
-
-class LuaFileConverter {
-  luac = new LuaContext();
-
-  toJSON(file: string) {
-    // this.luac.setLocal("data", source);
-    return this.luac.runCode(`
-    local json = require("json")
-    local data = require("${file}")
-    return json.encode(data)
-    `);
-  }
-}
+import { LuaFileConverter } from "./lib/lua2json";
 
 // 转换Lua到JSON格式
 const convertLuaToJSON = async () => {
@@ -56,9 +11,9 @@ const convertLuaToJSON = async () => {
     fl
       .filter(f => f.endsWith(".lua"))
       .map(async fn => {
-        fn = fn.substr(0, fn.length - 4);
-        let json = lc.toJSON(fn);
-        await fs.outputFile(TMP_PREFIX + fn + ".json", json);
+        let src = await fs.readFile(TMP_PREFIX + fn, "utf-8");
+        let json = lc.toJSON(src);
+        await fs.outputFile(TMP_PREFIX + fn.substr(0, fn.length - 4) + ".json", json);
       })
   );
 };
