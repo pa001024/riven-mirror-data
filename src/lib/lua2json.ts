@@ -58,6 +58,6 @@ export class LuaFileConverter {
    */
   toJSON(src: string) {
     this.luac.loadLib("data", src);
-    return this.luac.runCode("json.encode(data)");
+    return this.luac.runCode("return json.encode(data)");
   }
 }

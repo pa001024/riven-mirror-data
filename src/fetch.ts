@@ -24,6 +24,10 @@ const fetchTargets = [
     dist: "de-Mods.json"
   },
   {
+    src: "http://content.warframe.com/MobileExport/Manifest/ExportWeapons.json",
+    dist: "de-Weapons.json"
+  },
+  {
     src: "http://content.warframe.com/MobileExport/Manifest/ExportWarframes.json",
     dist: "de-Warframes.json"
   },

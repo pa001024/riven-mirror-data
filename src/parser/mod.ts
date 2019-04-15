@@ -1,6 +1,5 @@
 import * as fs from "fs-extra";
 import * as _ from "lodash";
-import { Warframe, Upgrade } from "../exports";
 import { TMP_PREFIX } from "../var";
 import { propMap, extPropMap, extRexProp } from "./mod.props";
 
@@ -57,9 +56,9 @@ const parseDescription = (desc: string[]) => {
 };
 
 export const convertMods = (rawmods: any, rawwfs: any) => {
-  const mods = (rawmods as Upgrade).ExportUpgrades.filter(mod => !mod.uniqueName.includes("/Randomized/")) // filter riven mods
+  const mods = (rawmods as DEUpgrade).ExportUpgrades.filter(mod => !mod.uniqueName.includes("/Randomized/")) // filter riven mods
     .map(mod => ({ ...mod, description: [].concat(...mod.description.map(k => k.split("\r\n"))) as string[] })); // split description by \r\n
-  const warframes = (rawwfs as Warframe).ExportWarframes;
+  const warframes = (rawwfs as DEWarframe).ExportWarframes;
 
   const baseToWarframe = new Map(
     warframes
