@@ -1,4 +1,4 @@
-export declare namespace WikiWeapon {
+export declare namespace WikiWeapons {
   interface Root {
     IgnoreInCount: string[];
     Weapons: { [key: string]: Weapon };
@@ -24,9 +24,42 @@ export declare namespace WikiWeapon {
   }
 
   interface Weapon {
+    // base
     Name: string;
+    Family?: string;
     Class?: string;
-    Cost?: Cost;
+    Mastery?: number;
+    Disposition?: number;
+    Type: string;
+    FireRate?: number;
+    Polarities?: string[];
+
+    // gun
+    Accuracy?: number | string; // xx (100 when aimed)
+    Range?: number;
+    NoiseLevel?: string;
+    Trigger?: string;
+    Reload?: number;
+    Magazine?: number;
+    MaxAmmo?: number;
+    Zoom?: string[]; // "3x (+20% Critical Chance)"
+    Spool?: number;
+
+    // melee
+    StancePolarity?: string;
+    BlockResist?: number;
+    FinisherDamage?: number;
+    ChannelCost?: number;
+    ChannelMult?: number;
+
+    // burst
+    BurstCount?: number;
+    BurstFireRate?: number;
+
+    // attack
+    SlideAttack?: number;
+    JumpAttack?: number;
+    WallAttack?: number;
     NormalAttack?: Attack;
     SecondaryAttack?: Attack;
     ChargedThrowAttack?: Attack;
@@ -34,49 +67,33 @@ export declare namespace WikiWeapon {
     ChargeAttack?: Attack;
     AreaAttack?: Attack;
     SecondaryAreaAttack?: Attack;
-    BlockResist?: number;
-    Conclave?: boolean;
-    Disposition?: number;
-    Image?: string;
-    Introduced?: string;
-    JumpAttack?: number;
-    Mastery?: number;
-    SlideAttack?: number;
-    StancePolarity?: string;
+
+    // deep extra
+    SniperComboMin?: number;
+    SniperComboReset?: number;
+    ReloadStyle?: "Regenerate" | "ByRound";
+
+    // neutral extra
     Traits?: string[];
-    Type: string;
+    SyndicateEffect?: string;
+    Introduced?: string;
+    Conclave?: boolean;
+    AmmoType?: string;
+
+    // wiki extra
+    Link?: string;
+    Image?: string;
+    Cost?: Cost;
+    ComparisonDisplay?: ComparisonDisplay[];
     Users?: string[];
-    WallAttack?: number;
-    JumpElement?: string;
-    JumpRadius?: number;
-    Polarities?: string[];
-    Stagger?: string;
-    Family?: string;
-    Accuracy?: number | string;
-    Magazine?: number;
-    MaxAmmo?: number;
-    NoiseLevel?: string;
-    Reload?: number;
-    Trigger?: string;
+    IgnoreCategories?: boolean;
+
+    // useless
     SlideElement?: string;
     WallElement?: string;
-    ChannelCost?: number;
-    ChannelMult?: number;
-    FinisherDamage?: number;
-    FireRate?: number;
-    SniperComboReset?: number;
-    Zoom?: string[];
-    BurstCount?: number;
-    BurstFireRate?: number;
-    Range?: number;
-    SyndicateEffect?: string;
-    ComparisonDisplay?: ComparisonDisplay[];
-    Spool?: number;
-    SniperComboMin?: number;
-    AmmoType?: string;
-    ReloadStyle?: string;
-    IgnoreCategories?: boolean;
-    Link?: string;
+    JumpElement?: string;
+    JumpRadius?: number;
+    Stagger?: string;
   }
 
   interface Damage {
@@ -102,29 +119,30 @@ export declare namespace WikiWeapon {
   }
 
   interface Attack {
-    Accuracy?: number;
-    AmmoCost?: number;
     AttackName?: string;
-    BurstCount?: number;
-    ChargeTime?: number;
+    Damage: Damage;
+    FireRate?: number;
+    Accuracy?: number;
+    StatusChance?: number;
     CritChance?: number;
     CritMultiplier?: number;
-    Damage: Damage;
-    Falloff?: Falloff;
-    FireRate?: number;
-    NoiseLevel?: string;
-    PelletCount?: number;
-    PelletName?: string;
-    Polarities?: string[];
     PunchThrough?: number;
+    PelletCount?: number;
+    Falloff?: Falloff;
     Radius?: number;
     Range?: number;
-    Reload?: number;
-    ShotSpeed?: number | "???";
-    ShotType?: string;
-    StatusChance?: number;
-    Traits?: string[];
+    AmmoCost?: number;
+    ChargeTime?: number;
     Trigger?: string;
+    BurstCount?: number;
+    ShotSpeed?: number | "???";
+
+    // useless
+    Reload?: number; // ???
+    NoiseLevel?: string;
+    PelletName?: string;
+    ShotType?: string;
+    Traits?: string[];
   }
 
   interface Falloff {
@@ -154,5 +172,5 @@ export declare namespace WikiWeapon {
 }
 
 declare global {
-  type WikiWeapon = WikiWeapon.Root;
+  type WikiWeapon = WikiWeapons.Root;
 }

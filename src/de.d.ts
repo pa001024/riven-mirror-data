@@ -1,4 +1,4 @@
-export declare namespace DEUpgrade {
+export declare namespace DEUpgrades {
   interface Root {
     ExportUpgrades: ExportUpgrade[];
   }
@@ -29,7 +29,7 @@ export declare namespace DEUpgrade {
     locTag?: string;
   }
 }
-export declare namespace DEWarframe {
+export declare namespace DEWarframes {
   interface Root {
     ExportWarframes: ExportWarframe[];
   }
@@ -56,7 +56,7 @@ export declare namespace DEWarframe {
     description: string;
   }
 }
-export declare namespace DEWeapon {
+export declare namespace DEWeapons {
   interface ExportWeapon {
     name: string;
     uniqueName: string;
@@ -91,7 +91,7 @@ export declare namespace DEWeapon {
 }
 
 declare global {
-  type DEUpgrade = DEUpgrade.Root;
-  type DEWarframe = DEWarframe.Root;
-  type DEWeapon = DEWeapon.Root;
+  type DEUpgrade = DEUpgrades.Root;
+  type DEWarframe = DEWarframes.Root;
+  type DEWeapon = DEWeapons.Root;
 }
