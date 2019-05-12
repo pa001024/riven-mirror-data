@@ -5,6 +5,7 @@ import { LuaFileConverter } from "./lib/lua2json";
 import { convertWeapons } from "./parser/weapon";
 import * as prettier from "prettier";
 import * as protobuf from "protobufjs";
+import { convertCN } from "./parser/cn";
 
 const formatJSON = (src: any) => {
   return prettier.format(typeof src === "string" ? src : JSON.stringify(src), { parser: "json" });
@@ -44,29 +45,35 @@ const customJSONFormat = async () => {
   const fl = await fs.readdir(TMP_PREFIX);
 
   return await Promise.all(
-    fl
-      .filter(f => f.startsWith("de-"))
-      .map(async fn => {
-        switch (fn) {
-          case "de-Mods.json":
-            {
-              const rawmods = JSON.parse(await fs.readFile(TMP_PREFIX + fn, "utf-8"));
-              const rawwfs = JSON.parse(await fs.readFile(TMP_PREFIX + "de-Warframes.json", "utf-8"));
-              const result = convertMods(rawmods, rawwfs);
-              await fs.outputFile(TARGET_PREFIX + "mods.json", formatJSON(result));
-            }
-            return;
-          case "de-Weapons.json":
-            {
-              const deWeapons = JSON.parse(await fs.readFile(TMP_PREFIX + fn, "utf-8"));
-              const wikiWeapons = JSON.parse(await fs.readFile(TMP_PREFIX + "wikia-Weapons.json", "utf-8"));
-              const [result, disposition] = convertWeapons(deWeapons, wikiWeapons);
-              await fs.outputFile(TARGET_PREFIX + "weapons.json", formatJSON(result));
-              await fs.outputFile(TARGET_PREFIX + "disposition.json", formatJSON(disposition));
-            }
-            return;
-        }
-      })
+    fl.map(async fn => {
+      switch (fn) {
+        case "de-Mods.json":
+          {
+            const rawmods = JSON.parse(await fs.readFile(TMP_PREFIX + fn, "utf-8"));
+            const rawwfs = JSON.parse(await fs.readFile(TMP_PREFIX + "de-Warframes.json", "utf-8"));
+            const result = convertMods(rawmods, rawwfs);
+            await fs.outputFile(TARGET_PREFIX + "mods.json", formatJSON(result));
+          }
+          return;
+        case "de-Weapons.json":
+          {
+            const deWeapons = JSON.parse(await fs.readFile(TMP_PREFIX + fn, "utf-8"));
+            const wikiWeapons = JSON.parse(await fs.readFile(TMP_PREFIX + "wikia-Weapons.json", "utf-8"));
+            const [result, disposition] = convertWeapons(deWeapons, wikiWeapons);
+            await fs.outputFile(TARGET_PREFIX + "weapons.json", formatJSON(result));
+            await fs.outputFile(TARGET_PREFIX + "disposition.json", formatJSON(disposition));
+          }
+          return;
+        case "huiji-CYDict.json":
+          {
+            const cn = JSON.parse(await fs.readFile(TMP_PREFIX + "huiji-UserDict.json", "utf-8"));
+            const cy = JSON.parse(await fs.readFile(TMP_PREFIX + "huiji-CYDict.json", "utf-8"));
+            const result = convertCN(cn, cy);
+            await fs.outputFile(TARGET_PREFIX + "zh-CY.json", formatJSON(result));
+          }
+          return;
+      }
+    })
   );
 };
 

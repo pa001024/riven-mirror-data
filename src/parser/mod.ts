@@ -6,36 +6,51 @@ import { propMap, extPropMap, extRexProp } from "./mod.props";
 // let polarities = new Set(mods.map(v => v.polarity));
 // let rarities = new Set(mods.map(v => v.rarity));
 
-const polarityMap = {
-  AP_POWER: "=",
-  AP_DEFENSE: "d",
-  AP_TACTIC: "-",
-  AP_ATTACK: "r",
-  AP_WARD: "t",
-  AP_UMBRA: "w",
-  AP_PRECEPT: "k",
-  AP_UNIVERSAL: ""
-};
+enum polarityMap {
+  AP_POWER = "=",
+  AP_DEFENSE = "d",
+  AP_TACTIC = "-",
+  AP_ATTACK = "r",
+  AP_WARD = "t",
+  AP_UMBRA = "w",
+  AP_PRECEPT = "k",
+  AP_UNIVERSAL = "",
+}
 
-const rarityMap = {
-  COMMON: "n",
-  UNCOMMON: "c",
-  RARE: "r",
-  LEGENDARY: "l"
-};
+enum rarityMap {
+  COMMON = "n",
+  UNCOMMON = "c",
+  RARE = "r",
+  LEGENDARY = "l",
+}
 
-const damageTypeMap = {
-  DT_POISON: "T",
-  DT_SLASH: "S",
-  DT_PUNCTURE: "P",
-  DT_IMPACT: "I",
-  DT_FREEZE: "C",
-  DT_FIRE: "H",
-  DT_ELECTRICITY: "E",
-  DT_RADIATION: "R",
-  DT_EXPLOSION: "B",
-  DT_SENTIENT: "U"
-};
+enum damageTypeMap {
+  DT_POISON = "T",
+  DT_SLASH = "S",
+  DT_PUNCTURE = "P",
+  DT_IMPACT = "I",
+  DT_FREEZE = "C",
+  DT_FIRE = "H",
+  DT_ELECTRICITY = "E",
+  DT_RADIATION = "R",
+  DT_EXPLOSION = "B",
+  DT_SENTIENT = "U",
+}
+
+export interface ModProp {
+  key: string;
+  value: number;
+}
+
+export interface Mod {
+  name: string;
+  type: string;
+  props: ModProp[];
+  polarity: string;
+  rarity: string;
+  baseDrain: number;
+  fusionLimit: number;
+}
 
 const filterProps = [/^\D+$/];
 
@@ -52,6 +67,7 @@ const parseDescription = (desc: string[]) => {
         else return [dd];
       })
       .filter(Boolean)
+      .map(([key, value]) => ({ key, value } as ModProp))
   );
 };
 
@@ -81,15 +97,18 @@ export const convertMods = (rawmods: any, rawwfs: any) => {
   fs.outputFile(TMP_PREFIX + "collectedProps.json", JSON.stringify(props));
 
   const converted = mods
-    .map(({ name, polarity, rarity, type, subtype, baseDrain, fusionLimit, description }) => ({
-      name,
-      type: [type, baseToWarframe.get(subtype)].filter(Boolean).join(","),
-      props: parseDescription(description),
-      polarity: polarityMap[polarity],
-      rarity: rarityMap[rarity],
-      baseDrain,
-      fusionLimit
-    }))
+    .map(({ name, polarity, rarity, type, subtype, baseDrain, fusionLimit, description }) => {
+      const props = parseDescription(description);
+      return {
+        name,
+        type: [type, baseToWarframe.get(subtype)].filter(Boolean).join(","),
+        props: props.length > 1 ? props : undefined,
+        polarity: polarityMap[polarity],
+        rarity: rarityMap[rarity],
+        baseDrain,
+        fusionLimit,
+      } as Mod;
+    })
     .filter(v => v.polarity);
   return converted;
 };

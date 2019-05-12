@@ -298,7 +298,7 @@ const toWeaponDE = (raw: DEWeapons.ExportWeapon) =>
     // sentinel: raw.sentinel || undefined,
     modes: [
       {
-        damage: undefined,//raw.damagePerShot.map((v, i) => [DMG_NAMES[i], +v.toFixed(2)]).filter(([_, v]) => v),
+        damage: undefined, //raw.damagePerShot.map((v, i) => [DMG_NAMES[i], +v.toFixed(2)]).filter(([_, v]) => v),
         critChance: +raw.criticalChance.toFixed(3),
         critMul: +raw.criticalMultiplier.toFixed(2),
         procChance: +raw.procChance.toFixed(3),
