@@ -1,7 +1,7 @@
 node_modules/
 
 tmp/
-dist/
 
 *.log
 .vscode/
+dist/weapons.reve.json

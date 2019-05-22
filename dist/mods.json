@@ -1,0 +1,7816 @@
+[
+  {
+    "name": "Coiling Viper",
+    "type": "STANCE",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Burning Wasp",
+    "type": "STANCE",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Slicing Feathers",
+    "type": "STANCE",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Sovereign Outcast",
+    "type": "STANCE",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Gemini Cross",
+    "type": "STANCE",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Defiled Snapdragon",
+    "type": "STANCE",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Eleventh Storm",
+    "type": "STANCE",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Swooping Falcon",
+    "type": "STANCE",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Vengeful Revenant",
+    "type": "STANCE",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Flailing Branch",
+    "type": "STANCE",
+    "polarity": "t",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Clashing Forest",
+    "type": "STANCE",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Stalking Fan",
+    "type": "STANCE",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Reaping Spiral",
+    "type": "STANCE",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Final Harbinger",
+    "type": "STANCE",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Vulpine Mask",
+    "type": "STANCE",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Brutal Tide",
+    "type": "STANCE",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Grim Fury",
+    "type": "STANCE",
+    "polarity": "t",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Bleeding Willow",
+    "type": "STANCE",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Twirling Spire",
+    "type": "STANCE",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Shimmering Blight",
+    "type": "STANCE",
+    "polarity": "=",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Atlantis Vulcan",
+    "type": "STANCE",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Cyclone Kraken",
+    "type": "STANCE",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Sundering Weave",
+    "type": "STANCE",
+    "polarity": "=",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Wise Razor",
+    "type": "STANCE",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Decisive Judgement",
+    "type": "STANCE",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Blind Justice",
+    "type": "STANCE",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Tranquil Cleave",
+    "type": "STANCE",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Iron Phoenix",
+    "type": "STANCE",
+    "polarity": "t",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Crushing Ruin",
+    "type": "STANCE",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Shattering Storm",
+    "type": "STANCE",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Bullet Dance",
+    "type": "STANCE",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "High Noon",
+    "type": "STANCE",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Astral Twilight",
+    "type": "STANCE",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Gleaming Talon",
+    "type": "STANCE",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Seismic Palm",
+    "type": "STANCE",
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Gaia's Tragedy",
+    "type": "STANCE",
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Fracturing Wind",
+    "type": "STANCE",
+    "polarity": "t",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Crossing Snakes",
+    "type": "STANCE",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Carving Mantis",
+    "type": "STANCE",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Swirling Tiger",
+    "type": "STANCE",
+    "polarity": "=",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Gnashing Payara",
+    "type": "STANCE",
+    "polarity": "t",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Spinning Needle",
+    "type": "STANCE",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Sinking Talon",
+    "type": "STANCE",
+    "polarity": "=",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Pointed Wind",
+    "type": "STANCE",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Stinging Thorn",
+    "type": "STANCE",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Homing Fang",
+    "type": "STANCE",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Crimson Dervish",
+    "type": "STANCE",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Vermillion Storm",
+    "type": "STANCE",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Four Riders",
+    "type": "STANCE",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Malicious Raptor",
+    "type": "STANCE",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Cleaving Whirlwind",
+    "type": "STANCE",
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Tempo Royale",
+    "type": "STANCE",
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Rending Crane",
+    "type": "STANCE",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Toxic Flight",
+    "type": "WARFRAME",
+    "props": [
+      { "key": "v", "value": 2.2 },
+      { "key": "at", "value": 2.2 },
+      { "key": "+25% <DT_POISON>Toxin on Bullet Jump" }
+    ],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Patagium",
+    "type": "WARFRAME",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Rending Turn",
+    "type": "WARFRAME",
+    "props": [
+      { "key": "v", "value": 3 },
+      { "key": "at", "value": 3 },
+      { "key": "+10% <DT_SLASH>Slash on Bullet Jump" }
+    ],
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Piercing Step",
+    "type": "WARFRAME",
+    "props": [
+      { "key": "v", "value": 3 },
+      { "key": "at", "value": 3 },
+      { "key": "+10% <DT_PUNCTURE>Puncture on Bullet Jump" }
+    ],
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Mobilize",
+    "type": "WARFRAME",
+    "props": [{ "key": "v", "value": 5 }, { "key": "at", "value": 5 }],
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Battering Maneuver",
+    "type": "WARFRAME",
+    "props": [
+      { "key": "v", "value": 3 },
+      { "key": "at", "value": 3 },
+      { "key": "+10% <DT_IMPACT>Impact on Bullet Jump" }
+    ],
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Ice Spring",
+    "type": "WARFRAME",
+    "props": [
+      { "key": "v", "value": 2.2 },
+      { "key": "at", "value": 2.2 },
+      { "key": "+25% <DT_FREEZE>Cold on Bullet Jump" }
+    ],
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Health Conversion",
+    "type": "WARFRAME",
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Firewalker",
+    "type": "WARFRAME",
+    "props": [
+      { "key": "v", "value": 2.2 },
+      { "key": "at", "value": 2.2 },
+      { "key": "+25% <DT_FIRE>Heat on Bullet Jump" }
+    ],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Energy Conversion",
+    "type": "WARFRAME",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Lightning Dash",
+    "type": "WARFRAME",
+    "props": [
+      { "key": "v", "value": 2.2 },
+      { "key": "at", "value": 2.2 },
+      { "key": "+25% <DT_ELECTRICITY>Electricity on Bullet Jump" }
+    ],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Intruder",
+    "type": "WARFRAME",
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Rush",
+    "type": "WARFRAME",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Maglev",
+    "type": "WARFRAME",
+    "props": [{ "key": "l", "value": 5 }, { "key": "i", "value": -5 }],
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Fast Deflection",
+    "type": "WARFRAME",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Redirection",
+    "type": "WARFRAME",
+    "polarity": "d",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Retribution",
+    "type": "WARFRAME",
+    "props": [
+      {
+        "key": "+15% Chance to deal Electrical Damage when shield struck by melee enemies."
+      },
+      { "key": "7", "value": 20 }
+    ],
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Adaptation",
+    "type": "WARFRAME",
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Rapid Resilience",
+    "type": "WARFRAME",
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Quick Thinking",
+    "type": "WARFRAME",
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Flow",
+    "type": "WARFRAME",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Equilibrium",
+    "type": "WARFRAME",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Reflection",
+    "type": "WARFRAME",
+    "polarity": "d",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Parry",
+    "type": "MELEE",
+    "polarity": "d",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Warm Coat",
+    "type": "WARFRAME",
+    "polarity": "d",
+    "rarity": "n",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Thief's Wit",
+    "type": "WARFRAME",
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Sure Footed",
+    "type": "WARFRAME",
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Handspring",
+    "type": "WARFRAME",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Rolling Guard",
+    "type": "WARFRAME",
+    "props": [
+      { "key": "onDodge" },
+      {
+        "key": "Become invulnerable for 2s and remove all Status Effects. 12s cooldown."
+      }
+    ],
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Vigorous Swap",
+    "type": "WARFRAME",
+    "props": [
+      { "key": "onEquip" },
+      { "key": "dmg", "value": 15 },
+      { "key": "hr", "value": 15 }
+    ],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Vitality",
+    "type": "WARFRAME",
+    "polarity": "d",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Provoked",
+    "type": "WARFRAME",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Heavy Impact",
+    "type": "WARFRAME",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Enemy Sense",
+    "type": "WARFRAME",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Rage",
+    "type": "WARFRAME",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Antitoxin",
+    "type": "WARFRAME",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Diamond Skin",
+    "type": "WARFRAME",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Shock Absorbers",
+    "type": "WARFRAME",
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Insulation",
+    "type": "WARFRAME",
+    "polarity": "d",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Flame Repellent",
+    "type": "WARFRAME",
+    "polarity": "d",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Lightning Rod",
+    "type": "WARFRAME",
+    "polarity": "d",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Aviator",
+    "type": "WARFRAME",
+    "polarity": "d",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Master Thief",
+    "type": "WARFRAME",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Natural Talent",
+    "type": "WARFRAME",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Undying Will",
+    "type": "WARFRAME",
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Reflex Guard",
+    "type": "WARFRAME",
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Steel Fiber",
+    "type": "WARFRAME",
+    "polarity": "d",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Intensify",
+    "type": "WARFRAME",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Stretch",
+    "type": "WARFRAME",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Streamline",
+    "type": "WARFRAME",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Continuity",
+    "type": "WARFRAME",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Primed Vigor",
+    "type": "WARFRAME",
+    "props": [{ "key": "s", "value": 20 }, { "key": "h", "value": 20 }],
+    "polarity": "d",
+    "rarity": "l",
+    "baseDrain": 6,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Primed Flow",
+    "type": "WARFRAME",
+    "polarity": "-",
+    "rarity": "l",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Primed Sure Footed",
+    "type": "WARFRAME",
+    "polarity": "d",
+    "rarity": "l",
+    "baseDrain": 6,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Primed Continuity",
+    "type": "WARFRAME",
+    "polarity": "r",
+    "rarity": "l",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Pain Threshold",
+    "type": "WARFRAME",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Vigor",
+    "type": "WARFRAME",
+    "props": [{ "key": "s", "value": 20 }, { "key": "h", "value": 20 }],
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Armored Agility",
+    "type": "WARFRAME",
+    "props": [{ "key": "f", "value": 2.5 }, { "key": "a", "value": 7.5 }],
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Streamlined Form",
+    "type": "WARFRAME",
+    "props": [
+      { "key": "hr", "value": 10 },
+      { "key": "l", "value": 2.5 },
+      { "key": "i", "value": -2.5 }
+    ],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Fortitude",
+    "type": "WARFRAME",
+    "props": [{ "key": "k", "value": 5 }, { "key": "r", "value": 20 }],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Overextended",
+    "type": "WARFRAME",
+    "props": [{ "key": "g", "value": 15 }, { "key": "t", "value": -10 }],
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Transient Fortitude",
+    "type": "WARFRAME",
+    "props": [{ "key": "t", "value": 5 }, { "key": "u", "value": -2.5 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Blind Rage",
+    "type": "WARFRAME",
+    "props": [{ "key": "t", "value": 9 }, { "key": "x", "value": -5 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Fleeting Expertise",
+    "type": "WARFRAME",
+    "props": [{ "key": "x", "value": 10 }, { "key": "u", "value": -10 }],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Narrow Minded",
+    "type": "WARFRAME",
+    "props": [{ "key": "u", "value": 9 }, { "key": "g", "value": -6 }],
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Constitution",
+    "type": "WARFRAME",
+    "props": [{ "key": "y", "value": 10 }, { "key": "u", "value": 7 }],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Redirection",
+    "type": "WARFRAME",
+    "polarity": "d",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Flow",
+    "type": "WARFRAME",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Equilibrium",
+    "type": "WARFRAME",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Vitality",
+    "type": "WARFRAME",
+    "polarity": "d",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Enemy Sense",
+    "type": "WARFRAME",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Intensify",
+    "type": "WARFRAME",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Stretch",
+    "type": "WARFRAME",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Continuity",
+    "type": "WARFRAME",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Naramon Transmute Core",
+    "type": "---",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 0,
+    "fusionLimit": 0
+  },
+  {
+    "name": "Vazarin Transmute Core",
+    "type": "---",
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 0,
+    "fusionLimit": 0
+  },
+  {
+    "name": "Madurai Transmute Core",
+    "type": "---",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 0,
+    "fusionLimit": 0
+  },
+  {
+    "name": "Lasting Purity",
+    "type": "PRIMARY",
+    "props": [{ "key": "da", "value": 15 }, { "key": "vp", "value": 0.3 }],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Stinging Truth",
+    "type": "SECONDARY",
+    "props": [{ "key": "bL", "value": 10 }, { "key": "vt", "value": 0.3 }],
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Entropy Burst",
+    "type": "PRIMARY",
+    "props": [{ "key": "i2", "value": 5 }, { "key": "ve", "value": 0.3 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Sequence Burn",
+    "type": "SECONDARY",
+    "props": [{ "key": "ar", "value": 5 }, { "key": "vs", "value": 0.3 }],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Shattering Justice",
+    "type": "PRIMARY",
+    "props": [{ "key": "2", "value": 5 }, { "key": "vj", "value": 0.3 }],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Bright Purity",
+    "type": "MELEE",
+    "props": [{ "key": "K", "value": 25 }, { "key": "vp", "value": 0.3 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Avenging Truth",
+    "type": "MELEE",
+    "props": [
+      {
+        "key": "Blocking absorbs 20% of incoming damage, stored as Extra Damage for the next charge attack."
+      },
+      { "key": "vt", "value": 0.3 }
+    ],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Disarming Purity",
+    "type": "PRIMARY",
+    "props": [
+      { "key": "Secondary Fire mode has a 10% chance to disarm enemies." },
+      { "key": "vp", "value": 0.3 }
+    ],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Entropy Detonation",
+    "type": "MELEE",
+    "props": [
+      { "key": "Lethal ground attacks cause enemies to explode dealing +250" },
+      { "key": "(+5% Enemy Max Health) <DT_EXPLOSION>Blast Damage" },
+      { "key": "in a +2.5m radius." },
+      { "key": "ve", "value": 0.3 }
+    ],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Neutralizing Justice",
+    "type": "PRIMARY",
+    "props": [
+      {
+        "key": "Each Miter blade has a +22.5% chance to immediately destroy a Nullifier field."
+      },
+      { "key": "vj", "value": 0.3 }
+    ],
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Toxic Blight",
+    "type": "MELEE",
+    "props": [{ "key": "6", "value": 25 }, { "key": "vb", "value": 0.3 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Spring-Loaded Blade",
+    "type": "MELEE",
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Voltage Sequence",
+    "type": "PRIMARY",
+    "props": [
+      {
+        "key": "Killing a flying enemy creates a lightning trap from their remains, lasting 2s"
+      },
+      { "key": "vs", "value": 0.3 }
+    ],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Stockpiled Blight",
+    "type": "SECONDARY",
+    "props": [{ "key": "L", "value": 50 }, { "key": "vb", "value": 0.3 }],
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Entropy Flight",
+    "type": "MELEE",
+    "props": [{ "key": "V", "value": 35 }, { "key": "ve", "value": 0.3 }],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Blade of Truth",
+    "type": "MELEE",
+    "props": [{ "key": "K", "value": 25 }, { "key": "vt", "value": 0.3 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Scattered Justice",
+    "type": "PRIMARY",
+    "props": [{ "key": "S", "value": 50 }, { "key": "vj", "value": 0.3 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Deadly Sequence",
+    "type": "PRIMARY",
+    "props": [{ "key": "0", "value": 50 }, { "key": "vs", "value": 0.3 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Winds of Purity",
+    "type": "SECONDARY",
+    "props": [{ "key": "ls", "value": 5 }, { "key": "vp", "value": 0.3 }],
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Eroding Blight",
+    "type": "SECONDARY",
+    "props": [{ "key": "L", "value": 50 }, { "key": "vb", "value": 0.3 }],
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Justice Blades",
+    "type": "MELEE",
+    "props": [{ "key": "K", "value": 25 }, { "key": "vj", "value": 0.3 }],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Gleaming Blight",
+    "type": "MELEE",
+    "props": [{ "key": "2", "value": 25 }, { "key": "vb", "value": 0.3 }],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Gilded Truth",
+    "type": "PRIMARY",
+    "props": [{ "key": "R", "value": 20 }, { "key": "vt", "value": 0.3 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Entropy Spike",
+    "type": "SECONDARY",
+    "props": [{ "key": "exp", "value": 5 }, { "key": "ve", "value": 0.3 }],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Toxic Sequence",
+    "type": "SECONDARY",
+    "props": [{ "key": "3", "value": 50 }, { "key": "vs", "value": 0.3 }],
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Contagious Spread",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Shotgun Savvy",
+    "type": "PRIMARY",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Shredder",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Cleanse Infested",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Cleanse Grineer",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Cleanse Corrupted",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Cleanse Corpus",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Shotgun Ammo Mutation",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Tactical Pump",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Seeking Force",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Fatal Acceleration",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Lingering Torment",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "n",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Disruptor",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Chilling Grasp",
+    "type": "PRIMARY",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Shotgun Spazz",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Hell's Chamber",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Incendiary Coat",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Sweeping Serration",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Full Contact",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Breach Loader",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Charged Shell",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Point Blank",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Ravage",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Blunderbuss",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Ammo Stock",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Flechette",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Shell Compression",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Primed Shotgun Ammo Mutation",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "l",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Primed Charged Shell",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "l",
+    "baseDrain": 6,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Primed Point Blank",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "l",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Primed Ravage",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "l",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Nano-Applicator",
+    "type": "PRIMARY",
+    "props": [{ "key": "onAbilityCast" }, { "key": "2", "value": 15 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Repeater Clip",
+    "type": "PRIMARY",
+    "props": [{ "key": "onReload" }, { "key": "R", "value": 17.5 }],
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Shrapnel Shot",
+    "type": "PRIMARY",
+    "props": [{ "key": "onKill" }, { "key": "1", "value": 16.5 }],
+    "polarity": "r",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Laser Sight",
+    "type": "PRIMARY",
+    "props": [{ "key": "onHeadshot" }, { "key": "0", "value": 20 }],
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Narrow Barrel",
+    "type": "PRIMARY",
+    "props": [{ "key": "onHit" }, { "key": "acc", "value": 5 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Silent Battery",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Acid Shells",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Fomorian Accelerant",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Seeking Fury",
+    "type": "PRIMARY",
+    "props": [{ "key": "F", "value": 2.5 }, { "key": "P", "value": 0.2 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Toxic Barrage",
+    "type": "PRIMARY",
+    "props": [{ "key": "6", "value": 15 }, { "key": "2", "value": 15 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Frigid Blast",
+    "type": "PRIMARY",
+    "props": [{ "key": "5", "value": 15 }, { "key": "2", "value": 15 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Scattering Inferno",
+    "type": "PRIMARY",
+    "props": [{ "key": "4", "value": 15 }, { "key": "2", "value": 15 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Shell Shock",
+    "type": "PRIMARY",
+    "props": [{ "key": "7", "value": 15 }, { "key": "2", "value": 15 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Burdened Magazine",
+    "type": "PRIMARY",
+    "props": [{ "key": "L", "value": 10 }, { "key": "F", "value": -3 }],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Frail Momentum",
+    "type": "PRIMARY",
+    "props": [{ "key": "R", "value": 15 }, { "key": "D", "value": -2.5 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Vicious Spread",
+    "type": "PRIMARY",
+    "props": [{ "key": "D", "value": 15 }, { "key": "spr", "value": 10 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Critical Deceleration",
+    "type": "PRIMARY",
+    "props": [{ "key": "0", "value": 8 }, { "key": "R", "value": -5 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Tainted Shell",
+    "type": "PRIMARY",
+    "props": [{ "key": "spr", "value": -7 }, { "key": "R", "value": -5 }],
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Chilling Reload",
+    "type": "PRIMARY",
+    "props": [{ "key": "5", "value": 15 }, { "key": "F", "value": 10 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Blaze",
+    "type": "PRIMARY",
+    "props": [{ "key": "D", "value": 15 }, { "key": "4", "value": 15 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Accelerated Blast",
+    "type": "PRIMARY",
+    "props": [{ "key": "R", "value": 15 }, { "key": "9", "value": 15 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Vigilante Vigor",
+    "type": "WARFRAME",
+    "polarity": "d",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Vigilante Pursuit",
+    "type": "WARFRAME",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Vigilante Supplies",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Vigilante Offense",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Vigilante Fervor",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Vigilante Armaments",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Umbral Intensify",
+    "type": "WARFRAME",
+    "props": [{ "key": "t", "value": 4 }, { "key": "tr", "value": 1 }],
+    "polarity": "w",
+    "rarity": "l",
+    "baseDrain": 6,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Umbral Fiber",
+    "type": "WARFRAME",
+    "props": [{ "key": "a", "value": 10 }, { "key": "tr", "value": 1 }],
+    "polarity": "w",
+    "rarity": "l",
+    "baseDrain": 6,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Umbral Vitality",
+    "type": "WARFRAME",
+    "props": [{ "key": "h", "value": 40 }, { "key": "tr", "value": 1 }],
+    "polarity": "w",
+    "rarity": "l",
+    "baseDrain": 6,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Tek Collateral",
+    "type": "WARFRAME",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Tek Gravity",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Tek Enhance",
+    "type": "KAVAT",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Tek Assault",
+    "type": "KAVAT",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Synth Reflex",
+    "type": "WARFRAME",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Synth Fiber",
+    "type": "SENTINEL",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Synth Deconstruct",
+    "type": "SENTINEL",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Synth Charge",
+    "type": "SECONDARY",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Strain Consume",
+    "type": "WARFRAME",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Strain Infection",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Strain Fever",
+    "type": "KUBROW",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Strain Eruption",
+    "type": "KUBROW",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Sacrificial Steel",
+    "type": "MELEE",
+    "props": [{ "key": "0", "value": 8 }, { "key": "smd", "value": 3 }],
+    "polarity": "w",
+    "rarity": "l",
+    "baseDrain": 6,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Sacrificial Pressure",
+    "type": "MELEE",
+    "props": [{ "key": "K", "value": 10 }, { "key": "smd", "value": 3 }],
+    "polarity": "w",
+    "rarity": "l",
+    "baseDrain": 6,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Mecha Pulse",
+    "type": "WARFRAME",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Mecha Empowered",
+    "type": "AURA",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Mecha Recharge",
+    "type": "KUBROW",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Mecha Overdrive",
+    "type": "KUBROW",
+    "props": [{ "key": "+10% Status-Link" }, { "key": "3", "value": 15 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Hunter Adrenaline",
+    "type": "WARFRAME",
+    "polarity": "r",
+    "rarity": "n",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Hunter Track",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Hunter Munitions",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Hunter Synergy",
+    "type": "SENTINEL",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Hunter Recovery",
+    "type": "SENTINEL",
+    "polarity": "r",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Hunter Command",
+    "type": "SENTINEL",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Gladiator Resolve",
+    "type": "WARFRAME",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Gladiator Finesse",
+    "type": "WARFRAME",
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Gladiator Aegis",
+    "type": "WARFRAME",
+    "polarity": "d",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Gladiator Vice",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Gladiator Rush",
+    "type": "MELEE",
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Gladiator Might",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Augur Secrets",
+    "type": "WARFRAME",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Augur Reach",
+    "type": "WARFRAME",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Augur Message",
+    "type": "WARFRAME",
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Augur Accord",
+    "type": "WARFRAME",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Augur Seeker",
+    "type": "SECONDARY",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Augur Pact",
+    "type": "SECONDARY",
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Accelerated Deflection",
+    "type": "SENTINEL",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Calculated Redirection",
+    "type": "SENTINEL",
+    "polarity": "d",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Fired Up",
+    "type": "SENTINEL",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Animal Instinct",
+    "type": "SENTINEL",
+    "props": [{ "key": "lr", "value": 5 }, { "key": "er", "value": 3 }],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Enhanced Vitality",
+    "type": "SENTINEL",
+    "polarity": "d",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Self Destruct",
+    "type": "SENTINEL",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Spare Parts",
+    "type": "SENTINEL",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Metal Fiber",
+    "type": "SENTINEL",
+    "polarity": "d",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Hastened Deflection",
+    "type": "SENTINEL",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Pack Leader",
+    "type": "SENTINEL",
+    "polarity": "r",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Maul",
+    "type": "SENTINEL",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Loyal Companion",
+    "type": "SENTINEL",
+    "polarity": "d",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Link Shields",
+    "type": "SENTINEL",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Link Health",
+    "type": "SENTINEL",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Link Armor",
+    "type": "SENTINEL",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Ferocity",
+    "type": "KUBROW",
+    "polarity": "k",
+    "rarity": "r",
+    "baseDrain": 0,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Bite",
+    "type": "SENTINEL",
+    "props": [{ "key": "0", "value": 30 }, { "key": "1", "value": 20 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Savagery",
+    "type": "KUBROW",
+    "polarity": "k",
+    "rarity": "r",
+    "baseDrain": 0,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Venom Teeth",
+    "type": "SENTINEL",
+    "props": [{ "key": "6", "value": 15 }, { "key": "2", "value": 15 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Frost Jaw",
+    "type": "SENTINEL",
+    "props": [{ "key": "5", "value": 15 }, { "key": "2", "value": 15 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Flame Gland",
+    "type": "SENTINEL",
+    "props": [{ "key": "4", "value": 15 }, { "key": "2", "value": 15 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Shock Collar",
+    "type": "SENTINEL",
+    "props": [{ "key": "7", "value": 15 }, { "key": "2", "value": 15 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Medi-Pet Kit",
+    "type": "SENTINEL",
+    "props": [{ "key": "hps", "value": 1 }, { "key": "br", "value": 12 }],
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Eagle Eye",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Infected Clip",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Rifle Aptitude",
+    "type": "PRIMARY",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Sniper Ammo Mutation",
+    "type": "---",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Sawtooth Clip",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Rifle Ammo Mutation",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Cautious Shot",
+    "type": "PRIMARY",
+    "props": [{ "key": "sb", "value": -9 }, { "key": "oad", "value": -5 }],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Fast Hands",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Stabilizer",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Metal Auger",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Terminal Velocity",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Continuous Misery",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Hush",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Firestorm",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Rupture",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Adhesive Blast",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Cryo Rounds",
+    "type": "PRIMARY",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Speed Trigger",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Split Chamber",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Hellfire",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Bane of Infested",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Bane of Grineer",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Bane of Corrupted",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Bane of Corpus",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Fanged Fusillade",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Crash Course",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Piercing Caliber",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Stormbringer",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Serration",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Vital Sense",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Point Strike",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Magazine Warp",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Arrow Mutation",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Combustion Beam",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Sinister Reach",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Piercing Hit",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Ammo Drum",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Charged Chamber",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Target Acquired",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Napalm Grenades",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Primed Chamber",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Sharpshooter",
+    "type": "PRIMARY",
+    "props": [{ "key": "onHeadshotKill" }, { "key": "her", "value": 5 }],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Thunderbolt",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Primed Rifle Ammo Mutation",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "l",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Primed Fast Hands",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "l",
+    "baseDrain": 2,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Primed Cryo Rounds",
+    "type": "PRIMARY",
+    "polarity": "d",
+    "rarity": "l",
+    "baseDrain": 6,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Primed Bane of Infested",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "l",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Primed Bane of Grineer",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "l",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Primed Bane of Corrupted",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "l",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Primed Bane of Corpus",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "l",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Catalyzer Link",
+    "type": "PRIMARY",
+    "props": [{ "key": "onAbilityCast" }, { "key": "2", "value": 10 }],
+    "polarity": "r",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Spring-Loaded Chamber",
+    "type": "PRIMARY",
+    "props": [{ "key": "onReload" }, { "key": "R", "value": 12.5 }],
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Bladed Rounds",
+    "type": "PRIMARY",
+    "props": [{ "key": "onKill" }, { "key": "1", "value": 20 }],
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Argon Scope",
+    "type": "PRIMARY",
+    "props": [{ "key": "onHeadshot" }, { "key": "0", "value": 22.5 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Guided Ordnance",
+    "type": "PRIMARY",
+    "props": [{ "key": "onHit" }, { "key": "acc", "value": 5 }],
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Harkonar Scope",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Nightwatch Napalm",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Kinetic Ricochet",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Thermagnetic Shells",
+    "type": "SECONDARY",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Tether Grenades",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Flux Overdrive",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Bursting Mass",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Wild Frenzy",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Wildfire",
+    "type": "PRIMARY",
+    "props": [{ "key": "L", "value": 5 }, { "key": "4", "value": 15 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Shred",
+    "type": "PRIMARY",
+    "props": [{ "key": "R", "value": 5 }, { "key": "P", "value": 0.2 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Primed Shred",
+    "type": "PRIMARY",
+    "props": [{ "key": "R", "value": 5 }, { "key": "P", "value": 0.2 }],
+    "polarity": "r",
+    "rarity": "l",
+    "baseDrain": 6,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Malignant Force",
+    "type": "PRIMARY",
+    "props": [{ "key": "6", "value": 15 }, { "key": "2", "value": 15 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Rime Rounds",
+    "type": "PRIMARY",
+    "props": [{ "key": "5", "value": 15 }, { "key": "2", "value": 15 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Hammer Shot",
+    "type": "PRIMARY",
+    "props": [{ "key": "1", "value": 15 }, { "key": "2", "value": 10 }],
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Thermite Rounds",
+    "type": "PRIMARY",
+    "props": [{ "key": "4", "value": 15 }, { "key": "2", "value": 15 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "High Voltage",
+    "type": "PRIMARY",
+    "props": [{ "key": "7", "value": 15 }, { "key": "2", "value": 15 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Depleted Reload",
+    "type": "PRIMARY",
+    "props": [{ "key": "L", "value": -10 }, { "key": "F", "value": 8 }],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Vile Precision",
+    "type": "PRIMARY",
+    "props": [{ "key": "Z", "value": -10 }, { "key": "R", "value": -6 }],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Tainted Mag",
+    "type": "PRIMARY",
+    "props": [{ "key": "L", "value": 6 }, { "key": "F", "value": -3 }],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Vile Acceleration",
+    "type": "PRIMARY",
+    "props": [{ "key": "R", "value": 15 }, { "key": "D", "value": -2.5 }],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Heavy Caliber",
+    "type": "PRIMARY",
+    "props": [{ "key": "D", "value": 15 }, { "key": "acc", "value": -5 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Critical Delay",
+    "type": "PRIMARY",
+    "props": [{ "key": "0", "value": 8 }, { "key": "R", "value": -6 }],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Bane of Grineer",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Bane of Corpus",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Serration",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Anticipation",
+    "type": "WARFRAME",
+    "props": [
+      {
+        "key": "Immune to Knockdown for an additional +1s after being Knocked Down."
+      },
+      {
+        "key": "Immune to Stagger for an additional +1s after being Staggered."
+      }
+    ],
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Quick Charge",
+    "type": "WARFRAME",
+    "props": [{ "key": "r", "value": -5 }, { "key": "-5 Shield Capacity" }],
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Armored Recovery",
+    "type": "WARFRAME",
+    "props": [
+      { "key": "+12.5% Damage Resistance when Knocked Down" },
+      { "key": "l", "value": -5 }
+    ],
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Venomous Rise",
+    "type": "WARFRAME",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 0,
+    "fusionLimit": 0
+  },
+  {
+    "name": "Tempered Bound",
+    "type": "WARFRAME",
+    "props": [{ "key": "-2.5% Mobility" }, { "key": "+7.5 Shield Capacity" }],
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Calculated Spring",
+    "type": "WARFRAME",
+    "props": [{ "key": "-2.5% Mobility" }, { "key": "h", "value": 6.3 }],
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Adrenaline Boost",
+    "type": "WARFRAME",
+    "props": [{ "key": "+12.5% Energy" }, { "key": "h", "value": -5 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Rising Skill",
+    "type": "WARFRAME",
+    "props": [{ "key": "+2.5% Mobility" }, { "key": "-7.5 Shield Capacity" }],
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Adept Surge",
+    "type": "WARFRAME",
+    "props": [{ "key": "+2.5% Mobility" }, { "key": "-6.2 Health" }],
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "No Current Leap",
+    "type": "WARFRAME",
+    "props": [{ "key": "+2.5% Mobility" }, { "key": "0 Energy Rate" }],
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Tactical Retreat",
+    "type": "WARFRAME",
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Final Act",
+    "type": "WARFRAME",
+    "props": [
+      { "key": "t", "value": 7.5 },
+      { "key": "+7.5% Casting Speed for 2s" }
+    ],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Vital Systems Bypass",
+    "type": "WARFRAME",
+    "props": [
+      { "key": "hps", "value": 0.3 },
+      { "key": "+12.5% Shield Recharge Delay" }
+    ],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Rime Vault",
+    "type": "WARFRAME",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 0,
+    "fusionLimit": 0
+  },
+  {
+    "name": "Searing Leap",
+    "type": "WARFRAME",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 0,
+    "fusionLimit": 0
+  },
+  {
+    "name": "Hastened Steps",
+    "type": "WARFRAME",
+    "props": [{ "key": "f", "value": 5 }, { "key": "s", "value": -5 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Heightened Reflexes",
+    "type": "WARFRAME",
+    "props": [{ "key": "c", "value": 5 }, { "key": "x", "value": -5 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Overcharged",
+    "type": "WARFRAME",
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Follow Through",
+    "type": "WARFRAME",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Surplus Diverters",
+    "type": "WARFRAME",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Voltaic Lance",
+    "type": "WARFRAME",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 0,
+    "fusionLimit": 0
+  },
+  {
+    "name": "Overcharge Detectors",
+    "type": "WARFRAME",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Armored Evade",
+    "type": "WARFRAME",
+    "props": [
+      { "key": "+10% Damage Resistance while Dodging" },
+      { "key": "-2.5% Mobility" }
+    ],
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Armored Acrobatics",
+    "type": "WARFRAME",
+    "props": [
+      { "key": "+5% Damage Resistance during Bullet Jump" },
+      { "key": "+0 Mobility" }
+    ],
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Anti-Flak Plating",
+    "type": "WARFRAME",
+    "props": [
+      { "key": "+5 <DT_EXPLOSION>Blast Resistance" },
+      { "key": "-2.5% Mobility" }
+    ],
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Air Thrusters",
+    "type": "WARFRAME",
+    "props": [
+      { "key": "+25% Slide Boost when Airborne" },
+      { "key": "-5% Mobility" }
+    ],
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Lashing Coil",
+    "type": "STANCE",
+    "polarity": "=",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Star Divide",
+    "type": "STANCE",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Tainted Hydra",
+    "type": "STANCE",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Rising Steel",
+    "type": "STANCE",
+    "polarity": "t",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Last Herald",
+    "type": "STANCE",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Crashing Timber",
+    "type": "STANCE",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Shadow Harvest",
+    "type": "STANCE",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Cunning Aspect",
+    "type": "STANCE",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Vicious Approach",
+    "type": "STANCE",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Argent Scourge",
+    "type": "STANCE",
+    "polarity": "=",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Mafic Rain",
+    "type": "STANCE",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Rending Wind",
+    "type": "STANCE",
+    "polarity": "=",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Fateful Truth",
+    "type": "STANCE",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Noble Cadence",
+    "type": "STANCE",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Crashing Havoc",
+    "type": "STANCE",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Celestial Nightfall",
+    "type": "STANCE",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Quaking Hand",
+    "type": "STANCE",
+    "polarity": "t",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Dividing Blades",
+    "type": "STANCE",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Biting Piranha",
+    "type": "STANCE",
+    "polarity": "t",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Piercing Fury",
+    "type": "STANCE",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Scarlet Hurricane",
+    "type": "STANCE",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Prize Kill",
+    "type": "PRIMARY",
+    "props": [
+      { "key": "onKill" },
+      { "key": "-25% Shield Recharge Delay for 2.5s" },
+      { "key": "-6.2% from Health Orbs" }
+    ],
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Momentary Pause",
+    "type": "PRIMARY",
+    "props": [
+      { "key": "onKill" },
+      { "key": "+3.8 Heal Rate for 2.5s" },
+      { "key": "-6.2% from Health Orbs" }
+    ],
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Lock and Load",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Double-Barrel Drift",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Bounty Hunter",
+    "type": "PRIMARY",
+    "props": [
+      { "key": "onHit" },
+      { "key": "Reveals target on Minimap for +1s." }
+    ],
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Hydraulic Chamber",
+    "type": "PRIMARY",
+    "props": [{ "key": "Z", "value": -15 }, { "key": "L", "value": -2.5 }],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Loaded Capacity",
+    "type": "PRIMARY",
+    "props": [{ "key": "L", "value": 5 }, { "key": "F", "value": -2.5 }],
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Soft Hands",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Broad Eye",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Kill Switch",
+    "type": "PRIMARY",
+    "props": [{ "key": "onKill" }, { "key": "+12.5% Reload Speed for 0.75s" }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Loose Chamber",
+    "type": "PRIMARY",
+    "props": [{ "key": "F", "value": 5 }, { "key": "Z", "value": 8.3 }],
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Snap Shot",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Flak Shot",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Shred Shot",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Crash Shot",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Precision Munition",
+    "type": "PRIMARY",
+    "props": [{ "key": "acc", "value": 100 }, { "key": "V", "value": 50 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 0
+  },
+  {
+    "name": "Measured Burst",
+    "type": "PRIMARY",
+    "props": [{ "key": "R", "value": -15 }, { "key": "D", "value": 7.5 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Focused Acceleration",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Sudden Justice",
+    "type": "PRIMARY",
+    "props": [
+      { "key": "On 2 Hits within 0.2s:" },
+      { "key": "+7.5% Fire Rate for 0.5s" }
+    ],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Directed Convergence",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Ambush Optics",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Vanquished Prey",
+    "type": "PRIMARY",
+    "props": [
+      { "key": "onKill" },
+      { "key": "-25% Shield Recharge Delay for 2.5s" },
+      { "key": "-6.2% from Health Orbs" }
+    ],
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Recover",
+    "type": "PRIMARY",
+    "props": [
+      { "key": "onKill" },
+      { "key": "+3.8 Heal Rate for 2.5s" },
+      { "key": "-6.2% from Health Orbs" }
+    ],
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Tactical Reload",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Double Tap",
+    "type": "PRIMARY",
+    "props": [
+      { "key": "onHit" },
+      { "key": "5% Bonus Damage on next Hit for 0.5s" }
+    ],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Triple Tap",
+    "type": "PRIMARY",
+    "props": [
+      { "key": "On 2 Hits within .02s:" },
+      { "key": "+10% Damage for 0.05s" }
+    ],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Grinloked",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Gun Glide",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Apex Predator",
+    "type": "PRIMARY",
+    "props": [
+      { "key": "onHit" },
+      { "key": "Reveals target on Minimap for +1s." }
+    ],
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Hydraulic Gauge",
+    "type": "PRIMARY",
+    "props": [{ "key": "Z", "value": -15 }, { "key": "L", "value": -2.5 }],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Maximum Capacity",
+    "type": "PRIMARY",
+    "props": [{ "key": "L", "value": 5 }, { "key": "F", "value": -2.5 }],
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Twitch",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Final Tap",
+    "type": "PRIMARY",
+    "props": [
+      { "key": "On 4 Hits within .05s:" },
+      { "key": "+25% Damage for 0.05s" }
+    ],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Feathered Arrows",
+    "type": "PRIMARY",
+    "props": [{ "key": "V", "value": 15 }, { "key": "D", "value": -5 }],
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Lucky Shot",
+    "type": "PRIMARY",
+    "props": [{ "key": "V", "value": 10 }, { "key": "acc", "value": -0.5 }],
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Overview",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Lie In Wait",
+    "type": "PRIMARY",
+    "props": [
+      { "key": "+5% Fire Rate when Crouching" },
+      { "key": "Z", "value": 25 }
+    ],
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Brain Storm",
+    "type": "PRIMARY",
+    "props": [
+      { "key": "onHeadshot" },
+      { "key": "+25% Ammo Efficiency for 0.13s" }
+    ],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Gorgon Frenzy",
+    "type": "PRIMARY",
+    "props": [{ "key": "onKill" }, { "key": "+7.5% Fire Rate for 0.75s" }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Emergent Aftermath",
+    "type": "PRIMARY",
+    "props": [{ "key": "onKill" }, { "key": "+12.5% Reload Speed for 0.75s" }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Loose Hatch",
+    "type": "PRIMARY",
+    "props": [{ "key": "F", "value": 5 }, { "key": "Z", "value": 8.3 }],
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Plan B",
+    "type": "PRIMARY",
+    "props": [
+      { "key": "onHit" },
+      { "key": "+5% Secondary Weapon Fire Rate for 0.75s" }
+    ],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Agile Aim",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Soaring Strike",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Deft Tempo",
+    "type": "PRIMARY",
+    "props": [{ "key": "onHeadshot" }, { "key": "+2.5 Mobility for 1s" }],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Thundermiter",
+    "type": "PRIMARY",
+    "props": [
+      { "key": "+25% chance charged Projectiles explode" },
+      { "key": "L", "value": -15 }
+    ],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Serrated Rounds",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Ripper Rounds",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Comet Rounds",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Spring-Loaded Broadhead",
+    "type": "PRIMARY",
+    "props": [{ "key": "!oad", "value": 40 }, { "key": "ify", "value": 15 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Skull Shots",
+    "type": "SECONDARY",
+    "props": [
+      { "key": "onHeadshot" },
+      { "key": "+25% Ammo Efficiency for 0.5s" }
+    ],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Static Alacrity",
+    "type": "SECONDARY",
+    "props": [{ "key": "V", "value": 12.5 }, { "key": "brad", "value": -12.5 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Calculated Victory",
+    "type": "SECONDARY",
+    "props": [
+      { "key": "onKill" },
+      { "key": "-25% Shield Recharge Delay for 2.5s" },
+      { "key": "-6.2% from Health Orbs" }
+    ],
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Recuperate",
+    "type": "SECONDARY",
+    "props": [
+      { "key": "onKill" },
+      { "key": "+3.8 Heal Rate for 2.5s" },
+      { "key": "-6.2% from Health Orbs" }
+    ],
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Eject Magazine",
+    "type": "SECONDARY",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Strafing Slide",
+    "type": "SECONDARY",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Night Stalker",
+    "type": "SECONDARY",
+    "props": [
+      { "key": "onHit" },
+      { "key": "Reveals target on Minimap for +1s." }
+    ],
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Shrapnel Rounds",
+    "type": "SECONDARY",
+    "props": [{ "key": "S", "value": 200 }, { "key": "D", "value": -66 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 0
+  },
+  {
+    "name": "Hydraulic Barrel",
+    "type": "SECONDARY",
+    "props": [{ "key": "Z", "value": -10 }, { "key": "L", "value": -5 }],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Full Capacity",
+    "type": "SECONDARY",
+    "props": [{ "key": "L", "value": 5 }, { "key": "F", "value": -2.5 }],
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Reflex Draw",
+    "type": "SECONDARY",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Blind Shot",
+    "type": "SECONDARY",
+    "props": [{ "key": "V", "value": 10 }, { "key": "acc", "value": -1 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Air Recon",
+    "type": "SECONDARY",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Secondary Wind",
+    "type": "SECONDARY",
+    "props": [{ "key": "onKill" }, { "key": "+12.5% Reload Speed for 1s" }],
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Loose Magazine",
+    "type": "SECONDARY",
+    "props": [{ "key": "F", "value": 8.3 }, { "key": "Z", "value": 8.3 }],
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Spry Sights",
+    "type": "SECONDARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Draining Gloom",
+    "type": "SECONDARY",
+    "props": [
+      { "key": "+25% chance of Energy Drain explosion" },
+      { "key": "L", "value": -15 },
+      { "key": "M", "value": -15 }
+    ],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Razor Munitions",
+    "type": "SECONDARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Impaler Munitions",
+    "type": "SECONDARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Meteor Munitions",
+    "type": "SECONDARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Heavy Warhead",
+    "type": "SECONDARY",
+    "props": [{ "key": "brad", "value": 25 }, { "key": "V", "value": -12.5 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Relentless Assault",
+    "type": "MELEE",
+    "props": [{ "key": "onKill" }, { "key": "+0.5 Energy Rate for 1s" }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Martial Fury",
+    "type": "MELEE",
+    "props": [{ "key": "J", "value": 5 }, { "key": "-12.5% Energy Rate" }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Sword Alone",
+    "type": "MELEE",
+    "props": [{ "key": "+2.5% Mobility" }, { "key": "+0.3 Sprint Speed" }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Explosive Demise",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Sharpened Blade",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Serrated Edges",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Counterweight",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Heartseeker",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Mortal Conduct",
+    "type": "MELEE",
+    "props": [
+      { "key": "At Less than 50 Health:" },
+      {
+        "key": "+15% Damage taken is reflected when Blocking attacks while Channeling for 2s"
+      }
+    ],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Impenetrable Offense",
+    "type": "MELEE",
+    "props": [{ "key": "+7.5% Damage Block" }, { "key": "K", "value": -2.5 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Stand Ground",
+    "type": "MELEE",
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Pathogen Rounds",
+    "type": "SECONDARY",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Sure Shot",
+    "type": "SECONDARY",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Razor Shot",
+    "type": "SECONDARY",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Quickdraw",
+    "type": "SECONDARY",
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Steady Hands",
+    "type": "SECONDARY",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Seeker",
+    "type": "SECONDARY",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Lethal Momentum",
+    "type": "SECONDARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Perpetual Agony",
+    "type": "SECONDARY",
+    "polarity": "r",
+    "rarity": "n",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Hawk Eye",
+    "type": "SECONDARY",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Expel Infested",
+    "type": "SECONDARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Expel Grineer",
+    "type": "SECONDARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Expel Corrupted",
+    "type": "SECONDARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Expel Corpus",
+    "type": "SECONDARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Pistol Ammo Mutation",
+    "type": "SECONDARY",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Suppress",
+    "type": "SECONDARY",
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Concussion Rounds",
+    "type": "SECONDARY",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Deep Freeze",
+    "type": "SECONDARY",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Gunslinger",
+    "type": "SECONDARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Barrel Diffusion",
+    "type": "SECONDARY",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Heated Charge",
+    "type": "SECONDARY",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Maim",
+    "type": "SECONDARY",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Bore",
+    "type": "SECONDARY",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Pummel",
+    "type": "SECONDARY",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Convulsion",
+    "type": "SECONDARY",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Hornet Strike",
+    "type": "SECONDARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Target Cracker",
+    "type": "SECONDARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Pistol Gambit",
+    "type": "SECONDARY",
+    "polarity": "r",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Slip Magazine",
+    "type": "SECONDARY",
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Ruinous Extension",
+    "type": "SECONDARY",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "No Return",
+    "type": "SECONDARY",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Trick Mag",
+    "type": "SECONDARY",
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Concealed Explosives",
+    "type": "SECONDARY",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Primed Quickdraw",
+    "type": "SECONDARY",
+    "polarity": "-",
+    "rarity": "l",
+    "baseDrain": 2,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Primed Expel Infested",
+    "type": "SECONDARY",
+    "polarity": "r",
+    "rarity": "l",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Primed Expel Grineer",
+    "type": "SECONDARY",
+    "polarity": "r",
+    "rarity": "l",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Primed Expel Corrupted",
+    "type": "SECONDARY",
+    "polarity": "r",
+    "rarity": "l",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Primed Expel Corpus",
+    "type": "SECONDARY",
+    "polarity": "r",
+    "rarity": "l",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Primed Pistol Ammo Mutation",
+    "type": "SECONDARY",
+    "polarity": "-",
+    "rarity": "l",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Primed Heated Charge",
+    "type": "SECONDARY",
+    "polarity": "-",
+    "rarity": "l",
+    "baseDrain": 6,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Primed Pistol Gambit",
+    "type": "SECONDARY",
+    "polarity": "r",
+    "rarity": "l",
+    "baseDrain": 2,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Primed Slip Magazine",
+    "type": "SECONDARY",
+    "polarity": "-",
+    "rarity": "l",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Primed Target Cracker",
+    "type": "SECONDARY",
+    "polarity": "r",
+    "rarity": "l",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Embedded Catalyzer",
+    "type": "SECONDARY",
+    "props": [{ "key": "onAbilityCast" }, { "key": "2", "value": 15 }],
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Pressurized Magazine",
+    "type": "SECONDARY",
+    "props": [{ "key": "onReload" }, { "key": "R", "value": 15 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Sharpened Bullets",
+    "type": "SECONDARY",
+    "props": [{ "key": "onKill" }, { "key": "1", "value": 12.5 }],
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Hydraulic Crosshairs",
+    "type": "SECONDARY",
+    "props": [{ "key": "onHeadshot" }, { "key": "0", "value": 22.5 }],
+    "polarity": "r",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Targeting Subsystem",
+    "type": "SECONDARY",
+    "props": [{ "key": "onHit" }, { "key": "acc", "value": 5 }],
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Fulmination",
+    "type": "SECONDARY",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Stunning Speed",
+    "type": "SECONDARY",
+    "props": [{ "key": "F", "value": 10 }, { "key": "2", "value": 2.5 }],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Pistol Pestilence",
+    "type": "SECONDARY",
+    "props": [{ "key": "6", "value": 15 }, { "key": "2", "value": 15 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Ice Storm",
+    "type": "SECONDARY",
+    "props": [{ "key": "L", "value": 10 }, { "key": "5", "value": 10 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Frostbite",
+    "type": "SECONDARY",
+    "props": [{ "key": "5", "value": 15 }, { "key": "2", "value": 15 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Lethal Torrent",
+    "type": "SECONDARY",
+    "props": [{ "key": "R", "value": 10 }, { "key": "S", "value": 10 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Scorch",
+    "type": "SECONDARY",
+    "props": [{ "key": "4", "value": 15 }, { "key": "2", "value": 15 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Jolt",
+    "type": "SECONDARY",
+    "props": [{ "key": "7", "value": 15 }, { "key": "2", "value": 15 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Tainted Clip",
+    "type": "SECONDARY",
+    "props": [{ "key": "L", "value": 10 }, { "key": "F", "value": -5 }],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Anemic Agility",
+    "type": "SECONDARY",
+    "props": [{ "key": "R", "value": 15 }, { "key": "D", "value": -2.5 }],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Magnum Force",
+    "type": "SECONDARY",
+    "props": [{ "key": "D", "value": 15 }, { "key": "acc", "value": -5 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Hollow Point",
+    "type": "SECONDARY",
+    "props": [{ "key": "1", "value": 10 }, { "key": "D", "value": -2.5 }],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Creeping Bullseye",
+    "type": "SECONDARY",
+    "props": [{ "key": "0", "value": 8 }, { "key": "R", "value": -6 }],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Heated Charge",
+    "type": "SECONDARY",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Convulsion",
+    "type": "SECONDARY",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Hornet Strike",
+    "type": "SECONDARY",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Fever Strike",
+    "type": "MELEE",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Melee Prowess",
+    "type": "MELEE",
+    "polarity": "d",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Jagged Edge",
+    "type": "MELEE",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Lasting Sting",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "n",
+    "baseDrain": 6,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Energy Channel",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Covert Lethality",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Seismic Wave",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Reach",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Killing Blow",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Finishing Touch",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Smite Infested",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Smite Grineer",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Smite Corrupted",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Smite Corpus",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Pressure Point",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Relentless Combination",
+    "type": "MELEE",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Reflex Coil",
+    "type": "MELEE",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Shattering Impact",
+    "type": "MELEE",
+    "polarity": "d",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Heavy Trauma",
+    "type": "MELEE",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Healing Return",
+    "type": "MELEE",
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Whirlwind",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Rebound",
+    "type": "MELEE",
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Quick Return",
+    "type": "MELEE",
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Power Throw",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "North Wind",
+    "type": "MELEE",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Fury",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Molten Impact",
+    "type": "MELEE",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Buzz Kill",
+    "type": "MELEE",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Auger Strike",
+    "type": "MELEE",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Collision Force",
+    "type": "MELEE",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Shocking Touch",
+    "type": "MELEE",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Condition Overload",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Berserker",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Organ Shatter",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "True Steel",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Guardian Derision",
+    "type": "MELEE",
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Sundering Strike",
+    "type": "MELEE",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Dispatch Overdrive",
+    "type": "MELEE",
+    "props": [{ "key": "onMeleeChannelKill" }, { "key": "ckm", "value": 10 }],
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Primed Fever Strike",
+    "type": "MELEE",
+    "polarity": "-",
+    "rarity": "l",
+    "baseDrain": 6,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Primed Reach",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "l",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Primed Pressure Point",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "l",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Primed Heavy Trauma",
+    "type": "MELEE",
+    "polarity": "-",
+    "rarity": "l",
+    "baseDrain": 2,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Primed Fury",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "l",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Maiming Strike",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Weeping Wounds",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Body Count",
+    "type": "MELEE",
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Blood Rush",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Rift Strike",
+    "type": "MELEE",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Hunter's Bonesaw",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Vulcan Blitz",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Electromagnetic Shielding",
+    "type": "MELEE",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Static Discharge",
+    "type": "MELEE",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Rending Strike",
+    "type": "MELEE",
+    "props": [{ "key": "A", "value": 15 }, { "key": "9", "value": 20 }],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Virulent Scourge",
+    "type": "MELEE",
+    "props": [{ "key": "6", "value": 15 }, { "key": "2", "value": 15 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Vicious Frost",
+    "type": "MELEE",
+    "props": [{ "key": "5", "value": 15 }, { "key": "2", "value": 15 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Focus Energy",
+    "type": "MELEE",
+    "props": [{ "key": "U", "value": 10 }, { "key": "7", "value": 15 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Volcanic Edge",
+    "type": "MELEE",
+    "props": [{ "key": "4", "value": 15 }, { "key": "2", "value": 15 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Voltaic Strike",
+    "type": "MELEE",
+    "props": [{ "key": "7", "value": 15 }, { "key": "2", "value": 15 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Corrupt Charge",
+    "type": "MELEE",
+    "props": [{ "key": "B", "value": 25 }, { "key": "U", "value": -10 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Spoiled Strike",
+    "type": "MELEE",
+    "props": [{ "key": "D", "value": 25 }, { "key": "J", "value": -5 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Drifting Contact",
+    "type": "MELEE",
+    "props": [{ "key": "N", "value": 2.5 }, { "key": "2", "value": 10 }],
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Life Strike",
+    "type": "MELEE",
+    "props": [{ "key": "ls", "value": 5 }, { "key": "U", "value": -35 }],
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Enduring Strike",
+    "type": "MELEE",
+    "props": [{ "key": "2", "value": 15 }, { "key": "U", "value": -10 }],
+    "polarity": "=",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Enduring Affliction",
+    "type": "MELEE",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Quickening",
+    "type": "MELEE",
+    "props": [{ "key": "J", "value": 5 }, { "key": "U", "value": -20 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "True Punishment",
+    "type": "MELEE",
+    "props": [{ "key": "0", "value": 10 }, { "key": "U", "value": -15 }],
+    "polarity": "=",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Focused Defense",
+    "type": "MELEE",
+    "props": [{ "key": "a", "value": 5 }, { "key": "U", "value": -35 }],
+    "polarity": "d",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Pressure Point",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Thrash Landing",
+    "type": "---",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Nitro Boost",
+    "type": "---",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Extreme Velocity",
+    "type": "---",
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Sonic Boost",
+    "type": "---",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Slay Board",
+    "type": "---",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Inertia Dampeners",
+    "type": "---",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Venerdo Hoverdrive",
+    "type": "---",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Kinetic Friction",
+    "type": "---",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Rail Guards",
+    "type": "---",
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Mag Locks",
+    "type": "---",
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Trail Blazer",
+    "type": "---",
+    "polarity": "d",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Air Time",
+    "type": "---",
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Amalgam Shotgun Spazz",
+    "type": "PRIMARY",
+    "props": [{ "key": "R", "value": 14 }, { "key": "+8% Revive Speed" }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Amalgam Serration",
+    "type": "PRIMARY",
+    "props": [{ "key": "D", "value": 14 }, { "key": "f", "value": 2 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Amalgam Barrel Diffusion",
+    "type": "SECONDARY",
+    "props": [{ "key": "S", "value": 18 }, { "key": "+10% Dodge Speed" }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Amalgam Organ Shatter",
+    "type": "MELEE",
+    "props": [
+      { "key": "1", "value": 14 },
+      { "key": "+10% Charge Attack Speed" }
+    ],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "EMP Aura",
+    "type": "AURA",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Sprint Boost",
+    "type": "AURA",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Dead Eye",
+    "type": "AURA",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Sniper Scavenger",
+    "type": "AURA",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Shotgun Amp",
+    "type": "AURA",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Shotgun Scavenger",
+    "type": "AURA",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Rifle Amp",
+    "type": "AURA",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Rifle Scavenger",
+    "type": "AURA",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Toxin Resistance",
+    "type": "AURA",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Pistol Amp",
+    "type": "AURA",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Pistol Scavenger",
+    "type": "AURA",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Steel Charge",
+    "type": "AURA",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": -4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Loot Detector",
+    "type": "AURA",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Speed Holster",
+    "type": "AURA",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Rejuvenation",
+    "type": "AURA",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Physique",
+    "type": "AURA",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Energy Siphon",
+    "type": "AURA",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Enemy Radar",
+    "type": "AURA",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Infested Impedance",
+    "type": "AURA",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Shield Disruption",
+    "type": "AURA",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Corrosive Projection",
+    "type": "AURA",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Power Donation",
+    "type": "AURA",
+    "props": [{ "key": "t", "value": -5 }, { "key": "tt", "value": 5 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": -4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Stand United",
+    "type": "AURA",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Empowered Blades",
+    "type": "AURA",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Growing Power",
+    "type": "AURA",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": -2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Brief Respite",
+    "type": "AURA",
+    "props": [
+      { "key": "onAbilityCast" },
+      {
+        "key": "Converts 25% of Energy spent to Shields while Overshields are inactive."
+      }
+    ],
+    "polarity": "=",
+    "rarity": "c",
+    "baseDrain": -2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Hyperion Thrusters",
+    "type": "ARCHWING",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Superior Defenses",
+    "type": "ARCHWING",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Energy Inversion",
+    "type": "ARCHWING",
+    "polarity": "d",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Auxiliary Power",
+    "type": "ARCHWING",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Enhanced Durability",
+    "type": "ARCHWING",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Argon Plating",
+    "type": "ARCHWING",
+    "polarity": "d",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Morphic Transformer",
+    "type": "ARCHWING",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Energy Amplifier",
+    "type": "ARCHWING",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "System Reroute",
+    "type": "ARCHWING",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Efficient Transferral",
+    "type": "ARCHWING",
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Kinetic Diversion",
+    "type": "ARCHWING",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Venomous Clip",
+    "type": "ARCH-GUN",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Polar Magazine",
+    "type": "ARCH-GUN",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Combustion Rounds",
+    "type": "ARCH-GUN",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Electrified Barrel",
+    "type": "ARCH-GUN",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Modified Munitions",
+    "type": "ARCH-GUN",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Marked Target",
+    "type": "ARCH-GUN",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Quick Reload",
+    "type": "ARCH-GUN",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Sabot Rounds",
+    "type": "ARCH-GUN",
+    "props": [{ "key": "D", "value": 10 }, { "key": "P", "value": 0.5 }],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Automatic Trigger",
+    "type": "ARCH-GUN",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Dual Rounds",
+    "type": "ARCH-GUN",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Rubedo-Lined Barrel",
+    "type": "ARCH-GUN",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Hollowed Bullets",
+    "type": "ARCH-GUN",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Parallax Scope",
+    "type": "ARCH-GUN",
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Critical Focus",
+    "type": "ARCH-GUN",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Magazine Extension",
+    "type": "ARCH-GUN",
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Shell Rush",
+    "type": "ARCH-GUN",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Ammo Chain",
+    "type": "ARCH-GUN",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Archgun Ace",
+    "type": "ARCH-GUN",
+    "props": [
+      { "key": "onHeadshotKill" },
+      { "key": "rc", "value": 8 },
+      { "key": "F", "value": 17 }
+    ],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Contamination Casing",
+    "type": "ARCH-GUN",
+    "props": [{ "key": "6", "value": 15 }, { "key": "2", "value": 15 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Magma Chamber",
+    "type": "ARCH-GUN",
+    "props": [{ "key": "4", "value": 15 }, { "key": "2", "value": 15 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Charged Bullets",
+    "type": "ARCH-GUN",
+    "props": [{ "key": "7", "value": 15 }, { "key": "2", "value": 15 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Hypothermic Shell",
+    "type": "ARCH-GUN",
+    "props": [{ "key": "5", "value": 15 }, { "key": "2", "value": 15 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Zodiac Shred",
+    "type": "ARCH-GUN",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Quasar Drill",
+    "type": "ARCH-GUN",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Comet Blast",
+    "type": "ARCH-GUN",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Deadly Efficiency",
+    "type": "ARCH-GUN",
+    "props": [{ "key": "onReloadFromEmpty" }, { "key": "D", "value": 20 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Resolute Focus",
+    "type": "ARCH-GUN",
+    "props": [{ "key": "ck", "value": 17 }, { "key": "spr", "value": -8 }],
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Poisonous Sting",
+    "type": "ARCH-MELEE",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Glacial Edge",
+    "type": "ARCH-MELEE",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Blazing Steel",
+    "type": "ARCH-MELEE",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Galvanized Blade",
+    "type": "ARCH-MELEE",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Sudden Impact",
+    "type": "ARCH-MELEE",
+    "polarity": "d",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Astral Autopsy",
+    "type": "ARCH-MELEE",
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 0
+  },
+  {
+    "name": "Extend",
+    "type": "ARCH-MELEE",
+    "polarity": "r",
+    "rarity": "n",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Furor",
+    "type": "ARCH-MELEE",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Cutting Edge",
+    "type": "ARCH-MELEE",
+    "polarity": "r",
+    "rarity": "n",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Bleeding Edge",
+    "type": "ARCH-MELEE",
+    "polarity": "r",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Tempered Blade",
+    "type": "ARCH-MELEE",
+    "polarity": "r",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Infectious Injection",
+    "type": "ARCH-MELEE",
+    "props": [{ "key": "6", "value": 15 }, { "key": "2", "value": 15 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Searing Steel",
+    "type": "ARCH-MELEE",
+    "props": [{ "key": "4", "value": 15 }, { "key": "2", "value": 15 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Ion Infusion",
+    "type": "ARCH-MELEE",
+    "props": [{ "key": "7", "value": 15 }, { "key": "2", "value": 15 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Cryo Coating",
+    "type": "ARCH-MELEE",
+    "props": [{ "key": "5", "value": 15 }, { "key": "2", "value": 15 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Astral Slash",
+    "type": "ARCH-MELEE",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Nebula Bore",
+    "type": "ARCH-MELEE",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Meteor Crash",
+    "type": "ARCH-MELEE",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Primed Morphic Transformer",
+    "type": "ARCHWING",
+    "polarity": "r",
+    "rarity": "l",
+    "baseDrain": 6,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Peculiar Growth",
+    "type": "WARFRAME",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Peculiar Bloom",
+    "type": "WARFRAME",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Detect Vulnerability",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Vaporize",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Vacuum",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Thumper",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "n",
+    "baseDrain": 0,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Targeting Receptor",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "n",
+    "baseDrain": 0,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Electro Pulse",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Molecular Conversion",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Assault Mode",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "n",
+    "baseDrain": 0,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Sanctuary",
+    "type": "SENTINEL",
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Sacrifice",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Revenge",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "n",
+    "baseDrain": 0,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Reawaken",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Regen",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Negate",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Primed Regen",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "l",
+    "baseDrain": 4,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Looter",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Scan Matter",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "n",
+    "baseDrain": 0,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Ammo Case",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Energy Generator",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Calculated Shot",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "n",
+    "baseDrain": 0,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Guardian",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Ambush",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Ghost",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Crowd Dispersion",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Coolant Leak",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 0
+  },
+  {
+    "name": "Investigator",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Fetch",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Fatal Attraction",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Arc Coil",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Medi-Ray",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "c",
+    "baseDrain": 0,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Shield Charger",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "r",
+    "baseDrain": 0,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Tractor Beam",
+    "type": "SENTINEL",
+    "props": [
+      { "key": "+20% Aim Glide Duration" },
+      { "key": "-12.5% Gravity" }
+    ],
+    "polarity": "k",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Whiplash Mine",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Stasis Field",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Shockwave Actuators",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Anti-Grav Grenade",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Security Override",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Unleashed",
+    "type": "KUBROW",
+    "polarity": "k",
+    "rarity": "r",
+    "baseDrain": 0,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Scavenge",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "n",
+    "baseDrain": 0,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Protect",
+    "type": "KUBROW",
+    "polarity": "k",
+    "rarity": "r",
+    "baseDrain": 0,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Shelter",
+    "type": "SENTINEL",
+    "polarity": "d",
+    "rarity": "c",
+    "baseDrain": 6,
+    "fusionLimit": 10
+  },
+  {
+    "name": "Retrieve",
+    "type": "KUBROW",
+    "polarity": "k",
+    "rarity": "n",
+    "baseDrain": 0,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Proboscis",
+    "type": "HELMINTH CHARGER",
+    "polarity": "k",
+    "rarity": "r",
+    "baseDrain": 0,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Howl",
+    "type": "KUBROW",
+    "polarity": "k",
+    "rarity": "r",
+    "baseDrain": 0,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Neutralize",
+    "type": "KUBROW",
+    "polarity": "k",
+    "rarity": "r",
+    "baseDrain": 0,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Dig",
+    "type": "KUBROW",
+    "polarity": "k",
+    "rarity": "r",
+    "baseDrain": 0,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Stalk",
+    "type": "KUBROW",
+    "polarity": "k",
+    "rarity": "r",
+    "baseDrain": 0,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Hunt",
+    "type": "KUBROW",
+    "polarity": "k",
+    "rarity": "r",
+    "baseDrain": 0,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Trample",
+    "type": "HELMINTH CHARGER",
+    "polarity": "k",
+    "rarity": "r",
+    "baseDrain": 0,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Sense Danger",
+    "type": "KAVAT",
+    "polarity": "k",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Swipe",
+    "type": "KAVAT",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Sharpened Claws",
+    "type": "KAVAT",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Reflect",
+    "type": "KAVAT",
+    "polarity": "k",
+    "rarity": "r",
+    "baseDrain": 0,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Pounce",
+    "type": "KAVAT",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Territorial Aggression",
+    "type": "KAVAT",
+    "polarity": "k",
+    "rarity": "c",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Charm",
+    "type": "KAVAT",
+    "polarity": "k",
+    "rarity": "r",
+    "baseDrain": 0,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Mischief",
+    "type": "KAVAT",
+    "polarity": "k",
+    "rarity": "r",
+    "baseDrain": 0,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Cat's Eye",
+    "type": "KAVAT",
+    "polarity": "k",
+    "rarity": "r",
+    "baseDrain": 0,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Calm & Frenzy",
+    "type": "WARFRAME,EQUINOX",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Push & Pull",
+    "type": "WARFRAME,EQUINOX",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Duality",
+    "type": "WARFRAME,EQUINOX",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Energy Transfer",
+    "type": "WARFRAME,EQUINOX",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Peaceful Provocation",
+    "type": "WARFRAME,EQUINOX",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Kinetic Collision",
+    "type": "WARFRAME,VOLT",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Shocking Speed",
+    "type": "WARFRAME,VOLT",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Shock Trooper",
+    "type": "WARFRAME,VOLT",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Recharge Barrier",
+    "type": "WARFRAME,VOLT",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Transistor Shield",
+    "type": "WARFRAME,VOLT",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Capacitance",
+    "type": "WARFRAME,VOLT",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Pool of Life",
+    "type": "WARFRAME,TRINITY",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Abating Link",
+    "type": "WARFRAME,TRINITY",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Vampire Leech",
+    "type": "WARFRAME,TRINITY",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Tesla Link",
+    "type": "WARFRAME,VAUBAN",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Perpetual Vortex",
+    "type": "WARFRAME,VAUBAN",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Repelling Bastille",
+    "type": "WARFRAME,VAUBAN",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Jet Stream",
+    "type": "WARFRAME,ZEPHYR",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Funnel Clouds",
+    "type": "WARFRAME,ZEPHYR",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Target Fixation",
+    "type": "WARFRAME,ZEPHYR",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Contagion Cloud",
+    "type": "WARFRAME,SARYN",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Regenerative Molt",
+    "type": "WARFRAME,SARYN",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Venom Dose",
+    "type": "WARFRAME,SARYN",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Negation Swarm",
+    "type": "WARFRAME,INAROS",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Elemental Sandstorm",
+    "type": "WARFRAME,INAROS",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Desiccation's Curse",
+    "type": "WARFRAME,INAROS",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Reinforcing Stomp",
+    "type": "WARFRAME,RHINO",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Ironclad Charge",
+    "type": "WARFRAME,RHINO",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Piercing Roar",
+    "type": "WARFRAME,RHINO",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Iron Shrapnel",
+    "type": "WARFRAME,RHINO",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Blinding Reave",
+    "type": "WARFRAME,REVENANT",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Infiltrate",
+    "type": "WARFRAME,IVARA",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Power of Three",
+    "type": "WARFRAME,IVARA",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Empowered Quiver",
+    "type": "WARFRAME,IVARA",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Piercing Navigator",
+    "type": "WARFRAME,IVARA",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Concentrated Arrow",
+    "type": "WARFRAME,IVARA",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Warding Thurible",
+    "type": "WARFRAME,HARROW",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Lasting Covenant",
+    "type": "WARFRAME,HARROW",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Tidal Impunity",
+    "type": "WARFRAME,HYDROID",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Curative Undertow",
+    "type": "WARFRAME,HYDROID",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Pilfering Swarm",
+    "type": "WARFRAME,HYDROID",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Corroding Barrage",
+    "type": "WARFRAME,HYDROID",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Hallowed Eruption",
+    "type": "WARFRAME,OBERON",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Smite Infusion",
+    "type": "WARFRAME,OBERON",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Phoenix Renewal",
+    "type": "WARFRAME,OBERON",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Defiled Reckoning",
+    "type": "WARFRAME,OBERON",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Hallowed Reckoning",
+    "type": "WARFRAME,OBERON",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Fatal Teleport",
+    "type": "WARFRAME,ASH",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Tear Gas",
+    "type": "WARFRAME,ASH",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Smoke Shadow",
+    "type": "WARFRAME,ASH",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Rising Storm",
+    "type": "WARFRAME,ASH",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Seeking Shuriken",
+    "type": "WARFRAME,ASH",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Pyroclastic Flow",
+    "type": "WARFRAME,NEZHA",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Ward Recovery",
+    "type": "WARFRAME,NEZHA",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Safeguard",
+    "type": "WARFRAME,NEZHA",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Reaping Chakram",
+    "type": "WARFRAME,NEZHA",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Creeping Terrify",
+    "type": "WARFRAME,NEKROS",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Discharge Strike",
+    "type": "WARFRAME,NEKROS",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Soul Survivor",
+    "type": "WARFRAME,NEKROS",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Despoil",
+    "type": "WARFRAME,NEKROS",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Shield of Shadows",
+    "type": "WARFRAME,NEKROS",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Primal Rage",
+    "type": "WARFRAME,WUKONG",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Iron Vault",
+    "type": "WARFRAME,WUKONG",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Enveloping Cloud",
+    "type": "WARFRAME,WUKONG",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Rift Torrent",
+    "type": "WARFRAME,LIMBO",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Cataclysmic Continuum",
+    "type": "WARFRAME,LIMBO",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Rift Haven",
+    "type": "WARFRAME,LIMBO",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Shield Overload",
+    "type": "WARFRAME,MAG",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Counter Pulse",
+    "type": "WARFRAME,MAG",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Sapping Reach",
+    "type": "WARFRAME,MAG",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Greedy Pull",
+    "type": "WARFRAME,MAG",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Fracturing Crush",
+    "type": "WARFRAME,MAG",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Magnetized Discharge",
+    "type": "WARFRAME,MAG",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Safeguard Switch",
+    "type": "WARFRAME,LOKI",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Hushed Invisibility",
+    "type": "WARFRAME,LOKI",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Irradiating Disarm",
+    "type": "WARFRAME,LOKI",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Deceptive Bond",
+    "type": "WARFRAME,LOKI",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Savior Decoy",
+    "type": "WARFRAME,LOKI",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Venari Bodyguard",
+    "type": "WARFRAME,KHORA",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Accumulating Whipclaw",
+    "type": "WARFRAME,KHORA",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Pilfering Strangledome",
+    "type": "WARFRAME,KHORA",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Singularity",
+    "type": "WARFRAME,NYX",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Assimilate",
+    "type": "WARFRAME,NYX",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Mind Freak",
+    "type": "WARFRAME,NYX",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Pacifying Bolts",
+    "type": "WARFRAME,NYX",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Chaos Sphere",
+    "type": "WARFRAME,NYX",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Larva Burst",
+    "type": "WARFRAME,NIDUS",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Teeming Virulence",
+    "type": "WARFRAME,NIDUS",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Insatiable",
+    "type": "WARFRAME,NIDUS",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Prism Guard",
+    "type": "WARFRAME,MIRAGE",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Explosive Legerdemain",
+    "type": "WARFRAME,MIRAGE",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Total Eclipse",
+    "type": "WARFRAME,MIRAGE",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Hall of Malevolence",
+    "type": "WARFRAME,MIRAGE",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Mending Splinters",
+    "type": "WARFRAME,GARA",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Spectrosiphon",
+    "type": "WARFRAME,GARA",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Dread Ward",
+    "type": "WARFRAME,GARUDA",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Freeze Force",
+    "type": "WARFRAME,FROST",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Ice Wave Impedance",
+    "type": "WARFRAME,FROST",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Chilling Globe",
+    "type": "WARFRAME,FROST",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Icy Avalanche",
+    "type": "WARFRAME,FROST",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Beguiling Lantern",
+    "type": "WARFRAME,TITANIA",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Razorwing Blitz",
+    "type": "WARFRAME,TITANIA",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Chromatic Blade",
+    "type": "WARFRAME,EXCALIBUR",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Purging Slash",
+    "type": "WARFRAME,EXCALIBUR",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Surging Dash",
+    "type": "WARFRAME,EXCALIBUR",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Furious Javelin",
+    "type": "WARFRAME,EXCALIBUR",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Signal Flare",
+    "type": "WARFRAME,EXCALIBUR",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Radiant Finish",
+    "type": "WARFRAME,EXCALIBUR",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Firequake",
+    "type": "WARFRAME,EMBER",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Flash Accelerant",
+    "type": "WARFRAME,EMBER",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Purifying Flames",
+    "type": "WARFRAME,EMBER",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Fire Fright",
+    "type": "WARFRAME,EMBER",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Fireball Frenzy",
+    "type": "WARFRAME,EMBER",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Vexing Retaliation",
+    "type": "WARFRAME,CHROMA",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Guided Effigy",
+    "type": "WARFRAME,CHROMA",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Everlasting Ward",
+    "type": "WARFRAME,CHROMA",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Afterburn",
+    "type": "WARFRAME,CHROMA",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Muzzle Flash",
+    "type": "WARFRAME,MESA",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Staggering Shield",
+    "type": "WARFRAME,MESA",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Mesa's Waltz",
+    "type": "WARFRAME,MESA",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Ballistic Bullseye",
+    "type": "WARFRAME,MESA",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Rumbled",
+    "type": "WARFRAME,ATLAS",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Titanic Rumbler",
+    "type": "WARFRAME,ATLAS",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Path of Statues",
+    "type": "WARFRAME,ATLAS",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Ore Gaze",
+    "type": "WARFRAME,ATLAS",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Tectonic Fracture",
+    "type": "WARFRAME,ATLAS",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Prolonged Paralysis",
+    "type": "WARFRAME,VALKYR",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Hysterical Fixation",
+    "type": "WARFRAME,VALKYR",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Hysterical Assault",
+    "type": "WARFRAME,VALKYR",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Eternal War",
+    "type": "WARFRAME,VALKYR",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Swing Line",
+    "type": "WARFRAME,VALKYR",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Partitioned Mallet",
+    "type": "WARFRAME,OCTAVIA",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Conductor",
+    "type": "WARFRAME,OCTAVIA",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Resonance",
+    "type": "WARFRAME,BANSHEE",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Savage Silence",
+    "type": "WARFRAME,BANSHEE",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Sonic Fracture",
+    "type": "WARFRAME,BANSHEE",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Resonating Quake",
+    "type": "WARFRAME,BANSHEE",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Cold Snap",
+    "type": "ARCHWING",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Energy Field",
+    "type": "ARCHWING",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Afterburner",
+    "type": "ARCHWING",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Escape Velocity",
+    "type": "WARFRAME,NOVA",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Neutron Star",
+    "type": "WARFRAME,NOVA",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Molecular Fission",
+    "type": "WARFRAME,NOVA",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Antimatter Mine",
+    "type": "WARFRAME,NOVA",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Antimatter Absorb",
+    "type": "WARFRAME,NOVA",
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Stealth Drift",
+    "type": "WARFRAME",
+    "props": [{ "key": "er", "value": 3 }, { "key": "at", "value": 2 }],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Speed Drift",
+    "type": "WARFRAME",
+    "props": [{ "key": "f", "value": 2 }, { "key": "c", "value": 2.5 }],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Power Drift",
+    "type": "WARFRAME",
+    "props": [{ "key": "t", "value": 2.5 }, { "key": "k", "value": 5 }],
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Endurance Drift",
+    "type": "WARFRAME",
+    "props": [{ "key": "e", "value": 2.5 }, { "key": "at", "value": 2 }],
+    "polarity": "=",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Cunning Drift",
+    "type": "WARFRAME",
+    "props": [
+      { "key": "l", "value": 2 },
+      { "key": "i", "value": -5 },
+      { "key": "g", "value": 2.5 }
+    ],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Coaction Drift",
+    "type": "WARFRAME",
+    "props": [{ "key": "as", "value": 2.5 }, { "key": "ae", "value": 2.5 }],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Agility Drift",
+    "type": "WARFRAME",
+    "props": [{ "key": "adr", "value": 2 }, { "key": "ev", "value": 1 }],
+    "polarity": "d",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 5
+  }
+]

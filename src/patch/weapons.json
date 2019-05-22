@@ -1,0 +1,23 @@
+{
+  "Laser Rifle": {
+    "modes": [
+      {
+        "critMul": 1.25
+      }
+    ]
+  },
+  "Multron": {
+    "modes": [
+      {
+        "critMul": 1.75
+      }
+    ]
+  },
+  "Burst Laser": {
+    "modes": [
+      {
+        "critMul": 1.25
+      }
+    ]
+  }
+}

@@ -48,11 +48,12 @@ const fetchTasks = fetchTargets.map(v => {
         headers: {
           "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36",
         },
+        timeout: 10e3,
       });
       await fs.outputFile(TMP_PREFIX + v.dist, typeof rst.data === "string" ? rst.data : JSON.stringify(rst.data));
       console.log("[fetch] Download", TMP_PREFIX + v.dist, "from", v.src);
     } catch (e) {
-      console.error(e.message);
+      console.error(`File ${v.src} download failed, please download manually`, e.message);
     }
   };
 });

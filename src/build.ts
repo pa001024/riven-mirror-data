@@ -1,5 +1,5 @@
 import * as fs from "fs-extra";
-import { TMP_PREFIX, TARGET_PREFIX, PROTO_PREFIX } from "./var";
+import { TMP_PREFIX, TARGET_PREFIX, PROTO_PREFIX, PATCH_PREFIX } from "./var";
 import { convertMods } from "./parser/mod";
 import { LuaFileConverter } from "./lib/lua2json";
 import { convertWeapons } from "./parser/weapon";
@@ -59,7 +59,9 @@ const customJSONFormat = async () => {
           {
             const deWeapons = JSON.parse(await fs.readFile(TMP_PREFIX + fn, "utf-8"));
             const wikiWeapons = JSON.parse(await fs.readFile(TMP_PREFIX + "wikia-Weapons.json", "utf-8"));
-            const [result, disposition] = convertWeapons(deWeapons, wikiWeapons);
+            const patch = JSON.parse(await fs.readFile(PATCH_PREFIX + "weapons.json", "utf-8"));
+            const [unpatch, result, disposition] = convertWeapons(deWeapons, wikiWeapons, patch);
+            await fs.outputFile(TARGET_PREFIX + "weapons.unpatch.json", formatJSON(unpatch));
             await fs.outputFile(TARGET_PREFIX + "weapons.json", formatJSON(result));
             await fs.outputFile(TARGET_PREFIX + "disposition.json", formatJSON(disposition));
           }
@@ -106,11 +108,11 @@ const convertProtoBuff = async () => {
     const Weapons = root.lookupType("im.riven.Weapons");
     const target = TARGET_PREFIX + "weapons.json";
     const source = await fs.readFile(target, "utf-8");
-    var payload = JSON.parse(source).map((v: any) => Weapons.lookupType("Weapon").create(v));
-    var message = Weapons.create({ weapons: payload });
-    var buffer = Weapons.encode(message).finish();
-    console.log(JSON.stringify(Weapons.toObject(message)));
-    await fs.writeFile(TARGET_PREFIX + "weapons.bin", buffer);
+    const payload = JSON.parse(source).map((v: any) => Weapons.lookupType("Weapon").create(v));
+    const message = Weapons.create({ weapons: payload });
+    const buffer = Weapons.encode(message).finish();
+    await fs.outputFile(TARGET_PREFIX + "weapons.reve.json", formatJSON(Weapons.toObject(message).weapons));
+    await fs.writeFile(TARGET_PREFIX + "weapons.data", buffer);
   });
 };
 
