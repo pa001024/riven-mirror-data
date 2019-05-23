@@ -14,16 +14,21 @@ const formatJSON = (src: any) => {
 // 转换Lua到JSON格式
 const convertLuaToJSON = async () => {
   const lc = new LuaFileConverter();
-  const fl = await fs.readdir(TMP_PREFIX);
-  return await Promise.all(
-    fl
-      .filter(f => f.endsWith(".lua"))
-      .map(async fn => {
-        const src = await fs.readFile(TMP_PREFIX + fn, "utf-8");
-        const result = lc.toJSON(src);
-        await fs.outputFile(TMP_PREFIX + fn.replace(".lua", ".json"), formatJSON(result));
-      })
-  );
+  try {
+    const fl = await fs.readdir(TMP_PREFIX);
+    return await Promise.all(
+      fl
+        .filter(f => f.endsWith(".lua"))
+        .map(async fn => {
+          const src = await fs.readFile(TMP_PREFIX + fn, "utf-8");
+          const result = lc.toJSON(src);
+          console.log("converted lua format to json: ", fn);
+          await fs.outputFile(TMP_PREFIX + fn.replace(".lua", ".json"), formatJSON(result));
+        })
+    );
+  } catch (e) {
+    console.log("no download data, please run `yarn fetch`");
+  }
 };
 
 // 修复DE API导出的\n被转义以及迷之字符的问题
@@ -34,7 +39,7 @@ const fixDEJSONError = async () => {
       .filter(f => f.startsWith("de-"))
       .map(async fn => {
         const data = await fs.readFile(TMP_PREFIX + fn, "utf-8");
-        await fs.writeFile(TMP_PREFIX + fn, data.replace(/\n/g, "\\n").replace(/﻿/g, ""));
+        await fs.outputFile(TMP_PREFIX + fn, data.replace(/\n/g, "\\n").replace(/﻿/g, ""));
       })
   );
 };
@@ -118,7 +123,7 @@ const convertProtoBuff = async () => {
 
 export default async (fast = true) => {
   if (fast && ["wikia-Warframes.json", "wikia-Weapons.json"].every(v => fs.existsSync(TMP_PREFIX + v))) {
-    console.log("[build] STEP1: convertLuaToJSON Skipped");
+    console.log("[build] STEP1: convertLuaToJSON Skipped (use 'yarn clean' to rebuild)");
   } else {
     console.log("[build] STEP1: convertLuaToJSON Start");
     await convertLuaToJSON();

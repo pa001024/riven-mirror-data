@@ -9,9 +9,9 @@
   "scripts": {
     "fetch": "ts-node src/index.ts fetch",
     "clean": "ts-node src/index.ts clean",
-    "build": "ts-node src/index.ts",
+    "build": "ts-node src/index.ts build",
     "build:all": "ts-node src/index.ts clean && ts-node src/index.ts fetch && ts-node src/index.ts",
-    "dev": "ts-node-dev --respawn src/index.ts"
+    "dev": "ts-node-dev --respawn src/index.ts dev"
   },
   "dependencies": {
     "axios": "^0.18.0",

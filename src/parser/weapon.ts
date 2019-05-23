@@ -136,7 +136,7 @@ const toZoom = (src: string) => {
   } as Zoom;
 };
 
-const toWeaponWiki = (raw: WikiWeapons.Weapon): ProtoWeapon => {
+const toWeaponWiki = (raw: WikiWeapons.Weapon, noproto = false): ProtoWeapon => {
   const normal = toAttackWiki(undefined, raw.NormalAttack) || toAttackWiki("charge", raw.ChargeAttack);
   if (!normal) return null;
   const totalDamage = ~~_.reduce(normal.damage, (a, b) => a + b);
@@ -145,7 +145,7 @@ const toWeaponWiki = (raw: WikiWeapons.Weapon): ProtoWeapon => {
     tags: toTags(raw.Type, raw.Class),
     traits: raw.Traits,
     mastery: raw.Mastery || undefined,
-    disposition: raw.Disposition,
+    disposition: noproto ? undefined : raw.Disposition,
     fireRate: raw.FireRate && +(raw.FireRate * 60).toFixed(0),
     polarities: (raw.Polarities && raw.Polarities.map(v => polarityMap[v]).join("")) || undefined,
     accuracy: +(raw.Accuracy + "").split(" ")[0] || undefined,
@@ -279,7 +279,7 @@ export const convertWeapons = (deWeapons: DEWeapon, wikiWeapons: WikiWeapon, pat
       if (!rst || v.IgnoreCategories) return null;
       if (v.Name === "Dark Split-Sword (Dual Swords)") rst.name = "Dark Split-Sword";
       if (wikiWeapons.Weapons[v.Name + " (Atmosphere)"]) {
-        rst.variants = [toWeaponWiki(wikiWeapons.Weapons[v.Name + " (Atmosphere)"])];
+        rst.variants = [toWeaponWiki(wikiWeapons.Weapons[v.Name + " (Atmosphere)"], true)];
       }
       return purge(rst);
     }).reduce(

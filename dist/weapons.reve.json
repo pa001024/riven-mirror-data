@@ -1062,6 +1062,7 @@
           {
             "type": "charge",
             "damage": { "Impact": 15.2, "Puncture": 167.2, "Slash": 121.6 },
+            "critChance": 0.2,
             "punchThrough": 1,
             "pellets": 4,
             "chargeTime": 0.8,
@@ -5754,6 +5755,7 @@
         "trigger": "Held",
         "reload": 2.5,
         "magazine": 100,
+        "maxAmmo": 400,
         "modes": [
           {
             "damage": { "Impact": 10, "Radiation": 80 },
@@ -6049,7 +6051,7 @@
     "tags": ["Secondary", "Pistol"],
     "traits": ["Tenno"],
     "mastery": 3,
-    "disposition": 1.05,
+    "disposition": 0.7,
     "fireRate": 65,
     "realFirerate": 46,
     "polarities": "r",

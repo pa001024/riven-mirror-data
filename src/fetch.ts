@@ -4,19 +4,19 @@ import { TMP_PREFIX } from "./var";
 
 const fetchTargets = [
   {
-    src: "https://warframe.fandom.com/wiki/Module:Weapons/data?action=raw",
+    src: "https://warframe.huijiwiki.com/wiki/Module:Weapons/data?action=raw",
     dist: "wikia-Weapons.lua",
   },
   {
-    src: "https://warframe.fandom.com/wiki/Module:Warframes/data?action=raw",
+    src: "https://warframe.huijiwiki.com/wiki/Module:Warframes/data?action=raw",
     dist: "wikia-Warframes.lua",
   },
   {
-    src: "https://warframe.fandom.com/wiki/Module:Ability/data?action=raw",
+    src: "https://warframe.huijiwiki.com/wiki/Module:Ability/data?action=raw",
     dist: "wikia-Ability.lua",
   },
   {
-    src: "https://warframe.fandom.com/wiki/Module:Mods/data?action=raw",
+    src: "https://warframe.huijiwiki.com/wiki/Module:Mods/data?action=raw",
     dist: "wikia-Mods.lua",
   },
   {
