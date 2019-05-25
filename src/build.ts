@@ -116,7 +116,7 @@ const convertProtoBuff = async () => {
     const payload = JSON.parse(source).map((v: any) => Weapons.lookupType("Weapon").create(v));
     const message = Weapons.create({ weapons: payload });
     const buffer = Weapons.encode(message).finish();
-    await fs.outputFile(TARGET_PREFIX + "weapons.reve.json", formatJSON(Weapons.toObject(message).weapons));
+    await fs.outputFile(TARGET_PREFIX + "weapons.json", formatJSON(Weapons.toObject(message).weapons));
     await fs.writeFile(TARGET_PREFIX + "weapons.data", buffer);
   });
 };

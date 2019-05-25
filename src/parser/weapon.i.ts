@@ -1,4 +1,4 @@
-// weapon schema V1.0
+// weapon schema V1.0-variants
 
 /** 伤害 */
 export interface Damage {
@@ -20,12 +20,11 @@ export interface Damage {
 
 /** 模式 */
 export interface WeaponMode {
+  type?: string;
+  name?: string;
   damage: Damage;
   /** 衰减 [起始,中止,最大衰减] */
   falloff?: number[];
-
-  type: string;
-  name?: string;
   fireRate?: number;
   accuracy?: number;
   procChance?: number;
@@ -68,12 +67,10 @@ export interface Weapon {
   maxAmmo?: number;
   zoom?: Zoom[]; // "3x (+20% Critical Chance)"
   spool?: number;
-  burstCount?: number;
-  burstFireRate?: number;
   // deep extra
   sniperComboMin?: number;
   sniperComboReset?: number;
-  reloadStyle?: "Regenerate" | "ByRound";
+  reloadStyle?: number; // Normal=0 Regenerate=1 ByRound=2
 
   // melee
   stancePolarity?: string;

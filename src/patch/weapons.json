@@ -21,11 +21,54 @@
     ]
   },
   "Fulmin": {
-    "reloadStyle": "Regenerate",
+    "reloadStyle": 1,
     "modes": [
       {
         "ammoCost": 10
       }
     ]
+  },
+  "Shattered Lash": {
+    "name": "Shattered Lash",
+    "tags": ["Melee", "Exalted", "Virtual"],
+    "traits": ["Tenno"],
+    "disposition": 0,
+    "stancePolarity": "o",
+    "modes": [
+      {
+        "damage": { "Puncture": 800 },
+        "fireRate": 50,
+        "critChance": 0,
+        "critMul": 2,
+        "procChance": 0.1
+      },
+      {
+        "name": "Tap",
+        "damage": { "Slash": 800 },
+        "fireRate": 50,
+        "critChance": 0.2,
+        "critMul": 2,
+        "procChance": 0.1
+      }
+    ]
+  },
+  "Landslide": {
+    "name": "Landslide",
+    "tags": ["Melee", "Exalted", "Virtual"],
+    "traits": ["Tenno"],
+    "disposition": 0,
+    "stancePolarity": "o",
+    "modes": [
+      {
+        "damage": { "Impact": 350 },
+        "fireRate": 50,
+        "critChance": 0.05,
+        "critMul": 2,
+        "procChance": 0.05
+      }
+    ]
+  },
+  "Iron Staff": {
+    "tags": ["Melee", "Exalted", "Staves"]
   }
 }

@@ -521,7 +521,13 @@
     "magazine": 3,
     "maxAmmo": 18,
     "modes": [
-      {},
+      {
+        "type": "secondary",
+        "name": "3-Rocket Barrage Explosion",
+        "damage": { "Blast": 750 },
+        "pellets": 3,
+        "radius": 3
+      },
       {
         "type": "charge",
         "name": "Single Rocket Impact",
@@ -531,13 +537,6 @@
         "procChance": 0.22,
         "chargeTime": 0.5,
         "prjSpeed": 150
-      },
-      {
-        "type": "secondary",
-        "name": "3-Rocket Barrage Explosion",
-        "damage": { "Blast": 750 },
-        "pellets": 3,
-        "radius": 3
       },
       {
         "type": "area",
@@ -572,7 +571,16 @@
         "magazine": 3,
         "maxAmmo": 18,
         "modes": [
-          { "critChance": 0.18, "critMul": 2.2, "procChance": 0.26 },
+          {
+            "name": "3-Rocket Barrage Explosion",
+            "damage": { "Blast": 750 },
+            "critChance": 0.18,
+            "critMul": 2.2,
+            "procChance": 0.26,
+            "type": "secondary",
+            "pellets": 3,
+            "radius": 3
+          },
           {
             "type": "charge",
             "name": "Single Rocket Impact",
@@ -582,13 +590,6 @@
             "procChance": 0.26,
             "chargeTime": 0.2,
             "prjSpeed": 150
-          },
-          {
-            "type": "secondary",
-            "name": "3-Rocket Barrage Explosion",
-            "damage": { "Blast": 750 },
-            "pellets": 3,
-            "radius": 3
           },
           {
             "type": "area",
@@ -970,7 +971,6 @@
     "polarities": "rr",
     "accuracy": 100,
     "trigger": "Charge",
-    "maxAmmo": 0,
     "spool": 2,
     "modes": [
       {
@@ -996,17 +996,6 @@
     "reload": 2,
     "magazine": 16,
     "modes": [
-      {},
-      {
-        "type": "charge",
-        "damage": { "Impact": 10, "Puncture": 80, "Slash": 10 },
-        "fireRate": 200,
-        "critChance": 0.15,
-        "critMul": 1.5,
-        "procChance": 0.1,
-        "chargeTime": 1,
-        "prjSpeed": 100
-      },
       {
         "type": "secondary",
         "name": "Burst Shot",
@@ -1016,6 +1005,16 @@
         "critMul": 1.5,
         "procChance": 0.025,
         "burstCount": 4,
+        "prjSpeed": 100
+      },
+      {
+        "type": "charge",
+        "damage": { "Impact": 10, "Puncture": 80, "Slash": 10 },
+        "fireRate": 200,
+        "critChance": 0.15,
+        "critMul": 1.5,
+        "procChance": 0.1,
+        "chargeTime": 1,
         "prjSpeed": 100
       }
     ],
@@ -1031,7 +1030,6 @@
         "reload": 1.2,
         "magazine": 32,
         "maxAmmo": 210,
-        "burstCount": 4,
         "modes": [
           {
             "damage": { "Impact": 7.6, "Puncture": 83.6, "Slash": 60.8 },
@@ -1067,7 +1065,17 @@
         "magazine": 20,
         "maxAmmo": 210,
         "modes": [
-          { "critChance": 0.05, "critMul": 1.5, "procChance": 0.05 },
+          {
+            "name": "Burst Shot",
+            "damage": { "Impact": 3.75, "Puncture": 67.5, "Slash": 3.75 },
+            "fireRate": 686,
+            "critChance": 0.05,
+            "critMul": 1.5,
+            "procChance": 0.025,
+            "type": "secondary",
+            "burstCount": 4,
+            "prjSpeed": 100
+          },
           {
             "type": "charge",
             "damage": { "Impact": 15, "Puncture": 270, "Slash": 15 },
@@ -1076,17 +1084,6 @@
             "critMul": 1.5,
             "procChance": 0.1,
             "chargeTime": 1,
-            "prjSpeed": 100
-          },
-          {
-            "type": "secondary",
-            "name": "Burst Shot",
-            "damage": { "Impact": 3.75, "Puncture": 67.5, "Slash": 3.75 },
-            "fireRate": 686,
-            "critChance": 0.05,
-            "critMul": 1.5,
-            "procChance": 0.025,
-            "burstCount": 4,
             "prjSpeed": 100
           }
         ]
@@ -1622,7 +1619,6 @@
         "trigger": "Burst",
         "reload": 0,
         "magazine": 15,
-        "burstFireRate": 1,
         "modes": [
           {
             "damage": { "Impact": 1, "Puncture": 8.5, "Slash": 0.5 },
@@ -1646,7 +1642,6 @@
     "reload": 2,
     "magazine": 45,
     "maxAmmo": 540,
-    "burstFireRate": 5,
     "modes": [
       {
         "damage": { "Impact": 10, "Puncture": 10, "Slash": 10 },
@@ -1669,7 +1664,6 @@
         "reload": 2,
         "magazine": 45,
         "maxAmmo": 540,
-        "burstFireRate": 10,
         "modes": [
           {
             "damage": { "Impact": 10.8, "Puncture": 10.8, "Slash": 14.4 },
@@ -2126,7 +2120,7 @@
     "trigger": "Charge",
     "reload": 5,
     "magazine": 25,
-    "reloadStyle": "Regenerate",
+    "reloadStyle": 1,
     "modes": [
       {
         "damage": { "Impact": 336, "Puncture": 42, "Slash": 42 },
@@ -2291,8 +2285,7 @@
     "trigger": "Burst",
     "reload": 50,
     "magazine": 30,
-    "burstFireRate": 6.67,
-    "reloadStyle": "Regenerate",
+    "reloadStyle": 1,
     "modes": [
       {
         "damage": { "Impact": 66, "Puncture": 66, "Slash": 68 },
@@ -2314,7 +2307,6 @@
         "reload": 1.2,
         "magazine": 30,
         "maxAmmo": 480,
-        "burstFireRate": 6.67,
         "modes": [
           {
             "damage": { "Impact": 39.6, "Puncture": 39.6, "Slash": 40.8 },
@@ -2342,7 +2334,6 @@
     "magazine": 1,
     "maxAmmo": 72,
     "modes": [
-      {},
       {
         "type": "charge",
         "damage": { "Impact": 138, "Puncture": 184, "Slash": 138 },
@@ -2970,7 +2961,7 @@
     "trigger": "Auto",
     "reload": 50,
     "magazine": 32,
-    "reloadStyle": "Regenerate",
+    "reloadStyle": 1,
     "modes": [
       {
         "damage": { "Impact": 27, "Puncture": 16.5, "Slash": 16.5 },
@@ -3533,17 +3524,6 @@
     "magazine": 10,
     "maxAmmo": 540,
     "modes": [
-      {},
-      {
-        "type": "charge",
-        "damage": { "Impact": 35, "Puncture": 245, "Slash": 70 },
-        "fireRate": 80,
-        "critChance": 0.32,
-        "critMul": 2.8,
-        "procChance": 0.1,
-        "punchThrough": 1.5,
-        "chargeTime": 0.5
-      },
       {
         "type": "secondary",
         "name": "Throw Spear",
@@ -3554,6 +3534,16 @@
         "procChance": 0.33,
         "chargeTime": 0.5,
         "trigger": "Charge"
+      },
+      {
+        "type": "charge",
+        "damage": { "Impact": 35, "Puncture": 245, "Slash": 70 },
+        "fireRate": 80,
+        "critChance": 0.32,
+        "critMul": 2.8,
+        "procChance": 0.1,
+        "punchThrough": 1.5,
+        "chargeTime": 0.5
       }
     ]
   },
@@ -3568,7 +3558,7 @@
     "trigger": "Semi-Auto",
     "reload": 10,
     "magazine": 25,
-    "reloadStyle": "Regenerate",
+    "reloadStyle": 1,
     "modes": [
       {
         "damage": { "Impact": 40, "Puncture": 20, "Slash": 140 },
@@ -3681,10 +3671,12 @@
     "mastery": 8,
     "disposition": 1,
     "accuracy": 9.1,
+    "silent": true,
     "trigger": "Auto / Semi",
     "reload": 1,
     "magazine": 60,
     "maxAmmo": 500,
+    "reloadStyle": 1,
     "modes": [
       {
         "name": "Semi-Auto Mode",
@@ -3706,8 +3698,7 @@
         "procChance": 0.1,
         "trigger": "Semi-Auto"
       }
-    ],
-    "reloadStyle": "Regenerate"
+    ]
   },
   "Furax": {
     "name": "Furax",
@@ -4154,7 +4145,6 @@
       {
         "name": "Glaxion Vandal",
         "tags": ["Primary", "Rifle", "Assault Rifle"],
-        "traits": ["Corpus"],
         "mastery": 12,
         "accuracy": 100,
         "trigger": "Held",
@@ -4339,7 +4329,7 @@
     "trigger": "Auto",
     "reload": 10,
     "magazine": 60,
-    "reloadStyle": "Regenerate",
+    "reloadStyle": 1,
     "modes": [
       {
         "name": "Projectile Impact",
@@ -4524,7 +4514,6 @@
     "reload": 2,
     "magazine": 45,
     "maxAmmo": 540,
-    "burstFireRate": 5,
     "modes": [
       {
         "damage": { "Impact": 5, "Puncture": 37.5, "Slash": 7.5 },
@@ -4787,7 +4776,6 @@
     "reload": 2,
     "magazine": 65,
     "maxAmmo": 540,
-    "burstFireRate": 5,
     "modes": [
       {
         "name": "Burst Mode",
@@ -4921,7 +4909,7 @@
     "trigger": "Auto",
     "reload": 50,
     "magazine": 250,
-    "reloadStyle": "Regenerate",
+    "reloadStyle": 1,
     "modes": [
       {
         "damage": { "Impact": 16, "Puncture": 14, "Slash": 10 },
@@ -4962,7 +4950,7 @@
         "trigger": "Auto-Spool",
         "reload": 75,
         "magazine": 300,
-        "reloadStyle": "Regenerate",
+        "reloadStyle": 1,
         "modes": [
           {
             "damage": { "Impact": 16, "Puncture": 14, "Slash": 10 },
@@ -4999,7 +4987,7 @@
   },
   "Iron Staff": {
     "name": "Iron Staff",
-    "tags": ["Melee", "Exalted"],
+    "tags": ["Melee", "Exalted", "Staves"],
     "traits": ["Tenno"],
     "polarities": "r--",
     "blockResist": 0.6,
@@ -5073,18 +5061,6 @@
     "magazine": 6,
     "maxAmmo": 300,
     "modes": [
-      {},
-      {
-        "type": "charge",
-        "name": "Projectile Impact",
-        "damage": { "Heat": 230 },
-        "fireRate": 200,
-        "accuracy": 100,
-        "critChance": 0.2,
-        "critMul": 2,
-        "procChance": 0.25,
-        "chargeTime": 0.3
-      },
       {
         "type": "secondary",
         "name": "Throw Spear",
@@ -5095,6 +5071,17 @@
         "critMul": 2,
         "procChance": 0.25,
         "chargeTime": 0.5
+      },
+      {
+        "type": "charge",
+        "name": "Projectile Impact",
+        "damage": { "Heat": 230 },
+        "fireRate": 200,
+        "accuracy": 100,
+        "critChance": 0.2,
+        "critMul": 2,
+        "procChance": 0.25,
+        "chargeTime": 0.3
       },
       {
         "type": "area",
@@ -5503,8 +5490,6 @@
     "reload": 2.45,
     "magazine": 14,
     "maxAmmo": 210,
-    "burstCount": 2,
-    "burstFireRate": 2.83,
     "modes": [
       {
         "damage": { "Impact": 36.8, "Puncture": 6.1, "Slash": 6.1 },
@@ -5707,6 +5692,22 @@
       }
     ]
   },
+  "Landslide": {
+    "name": "Landslide",
+    "tags": ["Melee", "Exalted", "Virtual"],
+    "traits": ["Tenno"],
+    "disposition": 0,
+    "stancePolarity": "o",
+    "modes": [
+      {
+        "damage": { "Impact": 350 },
+        "fireRate": 50,
+        "critChance": 0.05,
+        "critMul": 2,
+        "procChance": 0.05
+      }
+    ]
+  },
   "Lanka": {
     "name": "Lanka",
     "tags": ["Primary", "Rifle", "Sniper"],
@@ -5766,7 +5767,7 @@
     "trigger": "Held",
     "reload": 50,
     "magazine": 600,
-    "reloadStyle": "Regenerate",
+    "reloadStyle": 1,
     "modes": [
       {
         "damage": { "Impact": 10, "Radiation": 80 },
@@ -6024,7 +6025,6 @@
     "magazine": 1,
     "maxAmmo": 6,
     "modes": [
-      {},
       {
         "type": "charge",
         "damage": { "Impact": 50 },
@@ -6728,7 +6728,6 @@
     "magazine": 5,
     "maxAmmo": 20,
     "modes": [
-      {},
       {
         "type": "charge",
         "name": "Rocket Impact",
@@ -6824,7 +6823,6 @@
     "magazine": 5,
     "maxAmmo": 200,
     "modes": [
-      {},
       {
         "type": "charge",
         "damage": { "Impact": 100, "Puncture": 850, "Slash": 50 },
@@ -6851,14 +6849,13 @@
         "magazine": 8,
         "maxAmmo": 200,
         "modes": [
-          { "critChance": 0.24, "critMul": 2.6, "procChance": 0.3 },
           {
-            "type": "charge",
             "damage": { "Impact": 40, "Puncture": 280, "Slash": 80 },
             "fireRate": 120,
             "critChance": 0.24,
             "critMul": 2.6,
             "procChance": 0.3,
+            "type": "charge",
             "punchThrough": 1,
             "range": 300,
             "chargeTime": 0.6
@@ -7063,7 +7060,6 @@
     "trigger": "Burst",
     "reload": 2,
     "magazine": 60,
-    "burstFireRate": 8.33,
     "modes": [
       {
         "damage": { "Toxin": 33 },
@@ -7299,7 +7295,7 @@
     "trigger": "Auto-Spool",
     "reload": 50,
     "magazine": 250,
-    "reloadStyle": "Regenerate",
+    "reloadStyle": 1,
     "modes": [
       {
         "damage": { "Impact": 11.25, "Puncture": 29.25, "Slash": 4.5 },
@@ -8119,6 +8115,30 @@
       }
     ]
   },
+  "Shattered Lash": {
+    "name": "Shattered Lash",
+    "tags": ["Melee", "Exalted", "Virtual"],
+    "traits": ["Tenno"],
+    "disposition": 0,
+    "stancePolarity": "o",
+    "modes": [
+      {
+        "damage": { "Puncture": 800 },
+        "fireRate": 50,
+        "critChance": 0,
+        "critMul": 2,
+        "procChance": 0.1
+      },
+      {
+        "name": "Tap",
+        "damage": { "Slash": 800 },
+        "fireRate": 50,
+        "critChance": 0.2,
+        "critMul": 2,
+        "procChance": 0.1
+      }
+    ]
+  },
   "Sheev": {
     "name": "Sheev",
     "tags": ["Melee", "Dagger"],
@@ -8173,7 +8193,6 @@
     "trigger": "Burst",
     "reload": 2,
     "magazine": 15,
-    "burstFireRate": 3.5,
     "modes": [
       {
         "damage": { "Impact": 21, "Puncture": 4.5, "Slash": 4.5 },
@@ -8196,7 +8215,6 @@
         "reload": 2,
         "magazine": 24,
         "maxAmmo": 210,
-        "burstFireRate": 5,
         "modes": [
           {
             "damage": { "Impact": 20, "Puncture": 15, "Slash": 15 },
@@ -8611,7 +8629,6 @@
       {
         "name": "Spectra Vandal",
         "tags": ["Secondary", "Pistol"],
-        "traits": ["Corpus"],
         "mastery": 10,
         "accuracy": 100,
         "trigger": "Held",
@@ -8824,7 +8841,7 @@
     "reload": 3.75,
     "magazine": 6,
     "maxAmmo": 120,
-    "reloadStyle": "ByRound",
+    "reloadStyle": 2,
     "modes": [
       {
         "damage": { "Impact": 165, "Puncture": 45, "Slash": 90 },
@@ -8847,7 +8864,7 @@
         "reload": 3.75,
         "magazine": 6,
         "maxAmmo": 120,
-        "reloadStyle": "ByRound",
+        "reloadStyle": 2,
         "modes": [
           {
             "damage": { "Impact": 99, "Puncture": 27, "Slash": 54 },
@@ -8871,7 +8888,7 @@
         "reload": 5,
         "magazine": 10,
         "maxAmmo": 120,
-        "reloadStyle": "ByRound",
+        "reloadStyle": 2,
         "modes": [
           {
             "damage": { "Impact": 260, "Puncture": 60, "Slash": 80 },
@@ -9035,7 +9052,6 @@
     "reload": 2,
     "magazine": 10,
     "maxAmmo": 540,
-    "burstFireRate": 3.33,
     "modes": [
       {
         "damage": { "Impact": 26.4, "Puncture": 26.4, "Slash": 27.2 },
@@ -9057,7 +9073,6 @@
         "reload": 1.5,
         "magazine": 14,
         "maxAmmo": 540,
-        "burstFireRate": 3.33,
         "modes": [
           {
             "damage": { "Impact": 22.5, "Puncture": 18.75, "Slash": 33.75 },
@@ -9080,7 +9095,6 @@
         "reload": 2,
         "magazine": 20,
         "maxAmmo": 540,
-        "burstFireRate": 3.33,
         "modes": [
           {
             "damage": { "Impact": 29, "Puncture": 29, "Slash": 29.9 },
@@ -9343,7 +9357,6 @@
     "reload": 2.26,
     "magazine": 30,
     "maxAmmo": 540,
-    "burstFireRate": 6.67,
     "modes": [
       {
         "damage": { "Impact": 11, "Puncture": 22, "Slash": 11 },
@@ -10011,7 +10024,7 @@
     "trigger": "Charge",
     "reload": 25,
     "magazine": 100,
-    "reloadStyle": "Regenerate",
+    "reloadStyle": 1,
     "modes": [
       { "damage": { "Magnetic": 200 }, "fireRate": 300 },
       {
@@ -10211,7 +10224,6 @@
     "reload": 6,
     "magazine": 1,
     "modes": [
-      {},
       {
         "type": "charge",
         "damage": { "Heat": 35 },
@@ -10448,16 +10460,16 @@
         "procChance": 0.25
       },
       {
-        "type": "charge",
-        "name": "Disc Impact",
-        "damage": { "Impact": 75 },
-        "range": 9
-      },
-      {
         "type": "secondary",
         "name": "Attacks while disc deployed",
         "damage": { "Impact": 13, "Puncture": 13, "Slash": 104 },
         "fireRate": 58
+      },
+      {
+        "type": "charge",
+        "name": "Disc Impact",
+        "damage": { "Impact": 75 },
+        "range": 9
       },
       {
         "type": "area",

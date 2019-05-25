@@ -140,6 +140,12 @@ const toZoom = (src: string) => {
   } as Zoom;
 };
 
+enum ReloadStyle {
+  Normal,
+  Regenerate,
+  ByRound,
+}
+
 const toWeaponWiki = (raw: WikiWeapons.Weapon, noproto = false): ProtoWeapon => {
   const normal = toAttackWiki(undefined, raw.NormalAttack) || toAttackWiki("charge", raw.ChargeAttack);
   if (!normal) return null;
@@ -158,7 +164,7 @@ const toWeaponWiki = (raw: WikiWeapons.Weapon, noproto = false): ProtoWeapon => 
     trigger: raw.Trigger,
     reload: raw.Reload,
     magazine: raw.Magazine,
-    maxAmmo: raw.MaxAmmo,
+    maxAmmo: raw.MaxAmmo || undefined,
     zoom: raw.Zoom && raw.Zoom.map(toZoom),
     spool: raw.Spool,
     stancePolarity: raw.StancePolarity && polarityMap[raw.StancePolarity],
@@ -166,23 +172,23 @@ const toWeaponWiki = (raw: WikiWeapons.Weapon, noproto = false): ProtoWeapon => 
     finisherDamage: raw.FinisherDamage,
     channelCost: raw.ChannelCost,
     channelMult: raw.ChannelMult,
-    burstCount: raw.BurstCount,
-    burstFireRate: raw.BurstFireRate,
+    // burstCount: raw.BurstCount,
+    // burstFireRate: raw.BurstFireRate,
     spinAttack: +(raw.SlideAttack / totalDamage).toFixed(2) || undefined,
     jumpAttack: +(raw.JumpAttack / totalDamage).toFixed(2) || undefined,
     wallAttack: +(raw.WallAttack / totalDamage).toFixed(2) || undefined,
     sniperComboMin: raw.SniperComboMin,
     sniperComboReset: raw.SniperComboReset,
-    reloadStyle: raw.ReloadStyle,
+    reloadStyle: ReloadStyle[raw.ReloadStyle],
     modes: [
       merge(toAttackWiki(undefined, raw.NormalAttack), { fireRate: raw.FireRate && +(raw.FireRate * 60).toFixed(0) } as WeaponMode),
-      toAttackWiki("charge", raw.ChargeAttack),
       toAttackWiki("secondary", raw.SecondaryAttack),
+      toAttackWiki("charge", raw.ChargeAttack),
       toAttackWiki("chargedThrow", raw.ChargedThrowAttack),
       toAttackWiki("throw", raw.ThrowAttack),
       toAttackWiki("area", raw.AreaAttack),
       toAttackWiki("secondaryArea", raw.SecondaryAreaAttack),
-    ].filter(Boolean),
+    ].filter(v => Boolean(v) && Object.keys(v).length),
   };
 };
 
@@ -211,8 +217,8 @@ const toWeaponDE = (raw: DEWeapons.ExportWeapon) =>
     maxAmmo: undefined,
     zoom: undefined,
     spool: undefined,
-    burstCount: undefined,
-    burstFireRate: undefined,
+    // burstCount: undefined,
+    // burstFireRate: undefined,
     sniperComboMin: undefined,
     sniperComboReset: undefined,
     reloadStyle: undefined,
@@ -337,7 +343,7 @@ export const convertWeapons = (deWeapons: DEWeapon, wikiWeapons: WikiWeapon, pat
       const { disposition, ...thisVariant } = {
         ...(weapon_DE ? merge(weapon_DE, bases[baseName]) : bases[baseName]),
         ...extra,
-        modes: !wikimodes[0].type && [
+        modes: [
           {
             ...(weapon_DE ? weapon_DE.modes[0] : {}),
             ...purge(wikimodes[0]),
