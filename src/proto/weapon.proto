@@ -1,48 +1,14 @@
 syntax = "proto3";
 package im.riven;
 
+// ver 1.0
+
 message Weapons {
   message Weapon {
-    // base
-    string name = 1;
-    repeated string tags = 2;
-    repeated string traits = 4;
-    int32 mastery = 5;
-    float disposition = 6;
-    int32 fireRate = 7;
-    string polarities = 8;
-
-    // gun
-    float accuracy = 9; // xx (100 when aimed)
-    int32 range = 10;
-    bool silent = 11;
-    string trigger = 12;
-    float reload = 13;
-    int32 magazine = 14;
-    int32 maxAmmo = 15;
     message Zoom {
       float ratio = 1;
       map<string, float> props = 2;
     }
-    repeated Zoom zoom = 16; // "3x (+20% Critical Chance)"
-    int32 spool = 17;
-    // deep extra
-    int32 sniperComboMin = 18;
-    int32 sniperComboReset = 19;
-    int32 reloadStyle = 21;
-
-    // melee
-    string stancePolarity = 22;
-    float blockResist = 23;
-    int32 finisherDamage = 24;
-    int32 channelCost = 25;
-    float channelMult = 26;
-    float spinAttack = 27;
-    float jumpAttack = 28;
-    float leapAttack = 29;
-    float wallAttack = 30;
-
-    // attack
     message WeaponMode {
       string type = 1;
       string name = 2;
@@ -64,25 +30,62 @@ message Weapons {
         float True = 15;
       }
       Damage damage = 3;
-      float fireRate = 4;
+      int32 fireRate = 4;
       float accuracy = 5;
       float critChance = 6;
       float critMul = 7;
       float procChance = 8;
       float punchThrough = 9;
-      float pellets = 10;
+      int32 pellets = 10;
       float radius = 11;
       float range = 12;
-      float ammoCost = 13;
+      int32 ammoCost = 13;
       float chargeTime = 14;
       string trigger = 15;
       float burstCount = 16;
       repeated float falloff = 17;
       float prjSpeed = 18;
     }
-    // other
-    repeated WeaponMode modes = 31;
-    repeated Weapon variants = 32;
+    // base
+    string name = 1;
+    repeated string tags = 2;
+    repeated string traits = 3;
+    int32 mastery = 4;
+    float disposition = 5;
+    string polarities = 6;
+
+    // gun
+    bool silent = 7;
+    string trigger = 8;
+    float reload = 9;
+    int32 magazine = 10;
+    int32 maxAmmo = 11;
+    // mode
+    // xx (100 when aimed)
+    float accuracy = 12;
+    int32 range = 13;
+    // deep extra
+    int32 spool = 14;
+    int32 sniperComboMin = 15;
+    int32 sniperComboReset = 16;
+    int32 reloadStyle = 17;
+
+    // melee
+    string stancePolarity = 18;
+    float blockResist = 19;
+    int32 finisherDamage = 20;
+    int32 channelCost = 21;
+    float channelMult = 22;
+    float spinAttack = 23;
+    float jumpAttack = 24;
+    float leapAttack = 25;
+    float wallAttack = 26;
+
+    // attack
+    // "3x (+20% Critical Chance)"
+    repeated Zoom zoom = 27;
+    repeated WeaponMode modes = 28;
+    repeated Weapon variants = 29;
   }
   repeated Weapon weapons = 1;
 }

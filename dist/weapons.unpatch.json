@@ -532,6 +532,7 @@
         "type": "charge",
         "name": "Single Rocket Impact",
         "damage": { "Blast": 200 },
+        "fireRate": 120,
         "critChance": 0.16,
         "critMul": 2,
         "procChance": 0.22,
@@ -557,7 +558,6 @@
         "prjSpeed": 150
       }
     ],
-    "fireRate": 120,
     "variants": [
       {
         "name": "Prisma Angstrum",
@@ -585,6 +585,7 @@
             "type": "charge",
             "name": "Single Rocket Impact",
             "damage": { "Blast": 200 },
+            "fireRate": 120,
             "critChance": 0.18,
             "critMul": 2.2,
             "procChance": 0.26,
@@ -609,8 +610,7 @@
             "chargeTime": 0.6,
             "prjSpeed": 150
           }
-        ],
-        "fireRate": 120
+        ]
       }
     ]
   },

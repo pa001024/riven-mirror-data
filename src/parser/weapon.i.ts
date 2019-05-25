@@ -20,8 +20,11 @@ export interface Damage {
 
 /** 模式 */
 export interface WeaponMode {
+  /** 类型 secondary/charge/chargedThrow/throw/area/secondaryArea */
   type?: string;
+  /** 名字 */
   name?: string;
+  /** 伤害 {Heat:100} */
   damage: Damage;
   /** 衰减 [起始,中止,最大衰减] */
   falloff?: number[];
@@ -30,21 +33,32 @@ export interface WeaponMode {
   procChance?: number;
   critChance?: number;
   critMul?: number;
+  /** 自带穿透 */
   punchThrough?: number;
+  /** 弹片数 */
   pellets?: number;
+  /** 溅射半径 */
   radius?: number;
+  /** 射程 */
   range?: number;
+  /** 子弹消耗 */
   ammoCost?: number;
+  /** 蓄力时间 */
   chargeTime?: number;
+  /** 扳机 Semi-Auto/Held/Auto/Charge*/
   trigger?: string;
+  /** 点射数量 */
   burstCount?: number;
+  /** 投射物速度 */
   prjSpeed?: number;
 }
 
 /** 变焦 */
 export interface Zoom {
+  /** 变焦倍率 */
   ratio: number;
-  props: { [key: string]: number };
+  /** 额外属性 */
+  props?: { [key: string]: number };
 }
 
 /** 武器 */
@@ -52,9 +66,11 @@ export interface Weapon {
   // base
   name: string;
   tags?: string[];
+  /** 次要tag Tenno/G/C/I/Prime 等 */
   traits?: string[];
+  /** 段位 */
   mastery?: number;
-  fireRate?: number;
+  /** 极性 */
   polarities?: string;
 
   // gun
@@ -66,8 +82,8 @@ export interface Weapon {
   magazine?: number;
   maxAmmo?: number;
   zoom?: Zoom[]; // "3x (+20% Critical Chance)"
-  spool?: number;
   // deep extra
+  spool?: number;
   sniperComboMin?: number;
   sniperComboReset?: number;
   reloadStyle?: number; // Normal=0 Regenerate=1 ByRound=2
@@ -90,5 +106,6 @@ export interface Weapon {
 
 /** 基础 */
 export interface ProtoWeapon extends Weapon {
+  /** 裂罅倾向 */
   disposition?: number;
 }
