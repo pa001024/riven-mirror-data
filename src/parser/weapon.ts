@@ -21,9 +21,9 @@ const DMG_NAMES = [
 ];
 
 const getBaseName = (name: string) => {
-  const WEAPON_PREFIX = /^MK1-|^(?:Prisma|Mara|Dex|Secura|Rakta|Telos|Synoid|Sancti|Vaykor) /;
-  const WEAPON_SUBFIX = / (?:Prime|Wraith|Vandal)$/;
-  const WEAPON_SINGLE = ["Euphona Prime", "Dex Dakra", "Reaper Prime", "Dakra Prime"];
+  const WEAPON_PREFIX = /^MK1-|^(?:Prisma|Mara|Dex|Secura|Rakta|Telos|Synoid|Sancti|Vaykor|Carmine) /;
+  const WEAPON_SUBFIX = / (?:Prime|Wraith|Vandal|\(Heavy Blade\)|\(Umbra\))$/;
+  const WEAPON_SINGLE = ["Euphona Prime", "Dex Dakra", "Reaper Prime", "Dakra Prime", "Dex Pixia"];
   if (WEAPON_SINGLE.includes(name)) return name;
   if (WEAPON_PREFIX.test(name)) return name.replace(WEAPON_PREFIX, "");
   if (WEAPON_SUBFIX.test(name)) return name.replace(WEAPON_SUBFIX, "");
@@ -90,6 +90,7 @@ const toAttackWiki = (type: string, attack: WikiWeapons.Attack): WeaponMode => {
 
 const tagsMap = {
   "Sniper Rifle": ["Rifle", "Sniper"],
+  Sniper: ["Rifle", "Sniper"],
   "Dual Pistols": ["Pistol", "Dual Pistols"],
   Thrown: ["Pistol", "Thrown"],
   "Shotgun Sidearm": ["Pistol", "Shotgun Sidearm"],
@@ -99,11 +100,14 @@ const tagsMap = {
   Bow: ["Rifle", "Bow"],
   Speargun: ["Rifle", "Speargun"],
   Rifle: ["Rifle", "Assault Rifle"],
+  "Exalted Weapon": ["Exalted"],
 };
 
 const toTags = (type: string, clas: string): string[] => {
   if (clas === "Crossbow" && type === "Secondary") return [type, "Pistol", "Crossbow"];
   if (clas === "Glaive" && type === "Robotic") return [type, "Melee", clas];
+  if (clas === "Exalted Weapon" && type === "Primary") return [type, "Rifle", "Assault Rifle", "Exalted"];
+  if (clas === "Exalted Weapon" && type === "Secondary") return [type, "Pistol", "Exalted"];
   return clas ? [type, ...(tagsMap[clas] || [clas])] : [type];
 };
 
@@ -192,9 +196,9 @@ const toWeaponDE = (raw: DEWeapons.ExportWeapon) =>
     traits: undefined,
     mastery: +raw.masteryReq.toFixed(0) || undefined,
     disposition: +raw.omegaAttenuation.toFixed(3),
-    fireRate: (raw.fireRate && +(raw.fireRate * 60).toFixed(0)) || undefined,
-    realFirerate:
-      (raw.fireRate && +(raw.fireRate * 60).toFixed(0) !== +((raw.damagePerSecond * 60) / raw.totalDamage).toFixed(0) && +((raw.damagePerSecond * 60) / raw.totalDamage).toFixed(0)) || undefined,
+    // fireRate: (raw.fireRate && +(raw.fireRate * 60).toFixed(0)) || undefined,
+    // realFirerate:
+    //   (raw.fireRate && +(raw.fireRate * 60).toFixed(0) !== +((raw.damagePerSecond * 60) / raw.totalDamage).toFixed(0) && +((raw.damagePerSecond * 60) / raw.totalDamage).toFixed(0)) || undefined,
     polarities: undefined,
 
     // gun
@@ -270,9 +274,10 @@ const diffAndDelete = <T>(ori: T, diff: T, keys: (keyof T)[]) => {
 type Pair<T> = { [key: string]: T };
 
 // 转换武器
-export const convertWeapons = (deWeapons: DEWeapon, wikiWeapons: WikiWeapon, patch: any) => {
-  const DE = deWeapons.ExportWeapons.filter(v => typeof v.omegaAttenuation !== "undefined");
-  const WIKI = _.merge(
+export const convertWeapons = (deWeapons: DEWeapon, wikiWeapons: WikiWeapon, patch: Pair<ProtoWeapon>) => {
+  const weaponDE = deWeapons.ExportWeapons.filter(v => typeof v.omegaAttenuation !== "undefined").map(toWeaponDE);
+  const weaponMapDE = weaponDE.reduce((rst, weapon) => ((rst[weapon.name] = weapon), rst), {} as Pair<ProtoWeapon>);
+  const weaponMapWIKI = _.merge(
     _.map(wikiWeapons.Weapons, v => {
       if (v.Type.endsWith(" (Atmosphere)")) return null;
       let rst: Weapon = toWeaponWiki(v);
@@ -292,45 +297,54 @@ export const convertWeapons = (deWeapons: DEWeapon, wikiWeapons: WikiWeapon, pat
     ),
     patch
   );
+  const weaponNames = Object.keys(weaponMapWIKI).sort();
+  const weaponWIKI = weaponNames.map(v => weaponMapWIKI[v]);
 
-  const convertedDE = DE.map(toWeaponDE);
-
-  const bases = convertedDE.reduce(
+  // 字母顺序排序
+  let weaponNamesDE = Object.keys(weaponMapDE);
+  // 获取基础版本的武器 (ProtoWeapon)
+  const bases = weaponWIKI.reduce(
     (rst, weapon) => {
+      weaponNamesDE = weaponNamesDE.filter(v => v != weapon.name);
       const baseName = getBaseName(weapon.name),
         variants = weapon.name.replace(baseName, "").trim(),
-        extra = WIKI[baseName];
-      if (!variants) rst[baseName] = { ...weapon, ...extra };
+        extra = weaponMapWIKI[baseName];
+      const weapon_DE = weaponMapDE[weapon.name];
+      if (!variants) rst[baseName] = { ...weapon_DE, ...weapon, ...extra };
       return rst;
     },
     {} as Pair<ProtoWeapon>
   );
+  // DE数据中没有的
+  if (weaponNamesDE.length) {
+    console.warn("Follow is missing in DE file");
+    console.warn(weaponNamesDE.join("\n"));
+  }
 
-  const all = convertedDE.reduce((rst, weapon_de) => {
-    const baseName = getBaseName(weapon_de.name),
-      variant = weapon_de.name.replace(baseName, "").trim();
-    const { modes: wikimodes, ...extra } = WIKI[weapon_de.name];
-    !extra && console.log("miss wiki weapon", weapon_de.name);
-    diff(weapon_de.name, weapon_de, extra);
+  const all = weaponWIKI.reduce((rst, weapon) => {
+    const weapon_DE = weaponMapDE[weapon.name];
+    const baseName = getBaseName(weapon.name),
+      variant = weapon.name.replace(baseName, "").trim();
+    const { modes: wikimodes, ...extra } = weaponMapWIKI[weapon.name];
+    !extra && console.log("miss wiki weapon", weapon.name);
+    diff(weapon.name, weapon, extra);
     const wikimode = wikimodes.find(v => typeof v.critChance !== "undefined");
-    diff(weapon_de.name, weapon_de.modes[0], wikimode || wikimodes[0]);
-    if (!wikimode) console.log(weapon_de.name);
+    diff(weapon.name, weapon.modes[0], wikimode || wikimodes[0]);
+    if (!wikimode) console.log("can't find in DE:", weapon.name);
 
     // 同紫卡武器
     if (variant) {
       const { disposition, ...thisVariant } = {
-        ...merge(weapon_de, bases[baseName]),
+        ...(weapon_DE ? merge(weapon_DE, bases[baseName]) : bases[baseName]),
         ...extra,
         modes: !wikimodes[0].type && [
           {
-            ...weapon_de.modes[0],
+            ...(weapon_DE ? weapon_DE.modes[0] : {}),
             ...purge(wikimodes[0]),
           },
           ...wikimodes.slice(1),
         ],
       } as ProtoWeapon;
-
-      // console.log(extra, "!!!!!!!!!merge!!!!!!!", merge(extra, weapon));
 
       rst[baseName] = {
         ...rst[baseName],
@@ -359,11 +373,11 @@ export const convertWeapons = (deWeapons: DEWeapon, wikiWeapons: WikiWeapon, pat
   // 输出倾向性表
   const disposition = _.map(all, v => {
     const mode = v.tags.find(v => ["Arch-Gun", "Arch-Melee", "Melee", "Glaive", "Shotgun", "Rifle", "Pistol"].includes(v));
-    if (!mode) console.warn("no mode found", v.tags);
+    if (!mode) console.warn("no mode found", v.name, v.tags);
     return [
       v.name, //
       mode ? mode.replace("Glaive", "Melee") : "Rifle",
-      v.disposition,
+      v.disposition || 0,
     ] as [string, string, number];
   })
     .concat([

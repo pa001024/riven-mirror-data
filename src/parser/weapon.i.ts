@@ -53,11 +53,9 @@ export interface Weapon {
   // base
   name: string;
   tags?: string[];
-  // class?: string;
   traits?: string[];
   mastery?: number;
   fireRate?: number;
-  realFirerate?: number;
   polarities?: string;
 
   // gun

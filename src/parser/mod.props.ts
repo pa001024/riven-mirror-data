@@ -45,7 +45,7 @@ export const propMap = {
   "% <DT_POISON>Toxin": "6",
   " 'Blight'": "vb",
   "% Weapon Range for 4s on Status Effect.": "rse",
-  "% Projectile Flight Speed": "V",
+  "% Projectile Speed": "V",
   "% Multishot": "S",
   "% Critical Chance": "0",
   "% Life Steal": "ls",

@@ -10,40 +10,40 @@ message Weapons {
     int32 mastery = 5;
     float disposition = 6;
     int32 fireRate = 7;
-    int32 realFirerate = 8;
-    string polarities = 9;
+    // int32 realFirerate = 8;
+    string polarities = 8;
 
     // gun
-    float accuracy = 10; // xx (100 when aimed)
-    int32 range = 11;
-    bool silent = 12;
-    string trigger = 13;
-    float reload = 14;
-    int32 magazine = 15;
-    int32 maxAmmo = 16;
+    float accuracy = 9; // xx (100 when aimed)
+    int32 range = 10;
+    bool silent = 11;
+    string trigger = 12;
+    float reload = 13;
+    int32 magazine = 14;
+    int32 maxAmmo = 15;
     message Zoom {
       float ratio = 1;
       map<string, float> props = 2;
     }
-    repeated Zoom zoom = 17; // "3x (+20% Critical Chance)"
-    int32 spool = 18;
-    int32 burstCount = 19;
-    int32 burstFireRate = 20;
+    repeated Zoom zoom = 16; // "3x (+20% Critical Chance)"
+    int32 spool = 17;
+    int32 burstCount = 18;
+    int32 burstFireRate = 19;
     // deep extra
-    int32 sniperComboMin = 21;
-    int32 sniperComboReset = 22;
-    string reloadStyle = 23;
+    int32 sniperComboMin = 20;
+    int32 sniperComboReset = 21;
+    string reloadStyle = 22;
 
     // melee
-    string stancePolarity = 24;
-    float blockResist = 25;
-    int32 finisherDamage = 26;
-    int32 channelCost = 27;
-    float channelMult = 28;
-    float spinAttack = 29;
-    float jumpAttack = 30;
-    float leapAttack = 31;
-    float wallAttack = 32;
+    string stancePolarity = 23;
+    float blockResist = 24;
+    int32 finisherDamage = 25;
+    int32 channelCost = 26;
+    float channelMult = 27;
+    float spinAttack = 28;
+    float jumpAttack = 29;
+    float leapAttack = 30;
+    float wallAttack = 31;
 
     // attack
     message WeaponMode {
@@ -84,8 +84,8 @@ message Weapons {
       float prjSpeed = 18;
     }
     // other
-    repeated WeaponMode modes = 33;
-    repeated Weapon variants = 34;
+    repeated WeaponMode modes = 32;
+    repeated Weapon variants = 33;
   }
   repeated Weapon weapons = 1;
 }

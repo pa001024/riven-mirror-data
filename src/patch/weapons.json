@@ -19,5 +19,13 @@
         "critMul": 1.25
       }
     ]
+  },
+  "Fulmin": {
+    "reloadStyle": "Regenerate",
+    "modes": [
+      {
+        "ammoCost": 10
+      }
+    ]
   }
 }

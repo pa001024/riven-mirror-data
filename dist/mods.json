@@ -424,6 +424,22 @@
     "fusionLimit": 3
   },
   {
+    "name": "Gale Kick",
+    "type": "WARFRAME",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Kavat's Grace",
+    "type": "WARFRAME",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
     "name": "Toxic Flight",
     "type": "WARFRAME",
     "props": [
@@ -1961,6 +1977,34 @@
     "fusionLimit": 3
   },
   {
+    "name": "Proton Snap",
+    "type": "MELEE",
+    "props": [
+      { "key": "Hold Wall Latch for 2s to gain +25% <DT_POISON>Toxin Damage" },
+      { "key": " and +12.5% Status Chance for 5s." }
+    ],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Proton Jet",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Proton Pulse",
+    "type": "WARFRAME",
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
     "name": "Sacrificial Steel",
     "type": "MELEE",
     "props": [{ "key": "0", "value": 8 }, { "key": "smd", "value": 3 }],
@@ -1977,6 +2021,30 @@
     "rarity": "l",
     "baseDrain": 6,
     "fusionLimit": 10
+  },
+  {
+    "name": "Motus Impact",
+    "type": "MELEE",
+    "polarity": "r",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Motus Setup",
+    "type": "PRIMARY",
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Motus Signal",
+    "type": "WARFRAME",
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 4,
+    "fusionLimit": 3
   },
   {
     "name": "Mecha Pulse",
@@ -2058,6 +2126,30 @@
     "rarity": "r",
     "baseDrain": 4,
     "fusionLimit": 5
+  },
+  {
+    "name": "Aero Periphery",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "n",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Aero Agility",
+    "type": "PRIMARY",
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
+  },
+  {
+    "name": "Aero Vantage",
+    "type": "WARFRAME",
+    "polarity": "-",
+    "rarity": "c",
+    "baseDrain": 4,
+    "fusionLimit": 3
   },
   {
     "name": "Gladiator Resolve",
@@ -2189,6 +2281,15 @@
     "fusionLimit": 5
   },
   {
+    "name": "Primed Animal Instinct",
+    "type": "SENTINEL",
+    "props": [{ "key": "lr", "value": 5 }, { "key": "er", "value": 3 }],
+    "polarity": "-",
+    "rarity": "l",
+    "baseDrain": 6,
+    "fusionLimit": 10
+  },
+  {
     "name": "Enhanced Vitality",
     "type": "SENTINEL",
     "polarity": "d",
@@ -2300,6 +2401,14 @@
     "rarity": "r",
     "baseDrain": 0,
     "fusionLimit": 5
+  },
+  {
+    "name": "Primed Pack Leader",
+    "type": "SENTINEL",
+    "polarity": "r",
+    "rarity": "l",
+    "baseDrain": 4,
+    "fusionLimit": 10
   },
   {
     "name": "Venom Teeth",
@@ -5395,12 +5504,76 @@
     "fusionLimit": 10
   },
   {
+    "name": "Amalgam Javlok Magazine Warp",
+    "type": "PRIMARY",
+    "props": [
+      { "key": "L", "value": 7.5 },
+      { "key": "Parrying with a Shield reflects +1000% Damage" },
+      { "key": "+15% Channeling Efficiency while Parrying" }
+    ],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Amalgam Daikyu Target Acquired",
+    "type": "PRIMARY",
+    "props": [
+      { "key": "hm", "value": 12.5 },
+      { "key": "+0.5% Life Steal on Nikanas" },
+      { "key": "10% chance to pickup used arrows." }
+    ],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 10,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Amalgam Argonak Metal Auger",
+    "type": "PRIMARY",
+    "props": [
+      { "key": "P", "value": 0.5 },
+      { "key": "Damage from daggers reduces Armor by +1." }
+    ],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
     "name": "Amalgam Barrel Diffusion",
     "type": "SECONDARY",
     "props": [{ "key": "S", "value": 18 }, { "key": "+10% Dodge Speed" }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 10,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Amalgam Ripkas True Steel",
+    "type": "MELEE",
+    "props": [
+      { "key": "0", "value": 13 },
+      { "key": "+3% Reload Speed on Shotguns" },
+      { "key": "+17% Gore Chance" }
+    ],
+    "polarity": "r",
+    "rarity": "r",
+    "baseDrain": 6,
+    "fusionLimit": 5
+  },
+  {
+    "name": "Amalgam Furax Body Count",
+    "type": "MELEE",
+    "props": [
+      { "key": "N", "value": 2.5 },
+      { "key": "+3% Blast Radius on Specialized Launchers" },
+      { "key": "Melee kills knockdown enemies within 2.5m" }
+    ],
+    "polarity": "-",
+    "rarity": "r",
+    "baseDrain": 6,
     "fusionLimit": 5
   },
   {
@@ -6271,6 +6444,14 @@
     "fusionLimit": 5
   },
   {
+    "name": "Odomedic",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "r",
+    "baseDrain": 2,
+    "fusionLimit": 3
+  },
+  {
     "name": "Calculated Shot",
     "type": "SENTINEL",
     "polarity": "k",
@@ -6349,6 +6530,14 @@
     "rarity": "n",
     "baseDrain": 2,
     "fusionLimit": 5
+  },
+  {
+    "name": "Anti-Grav Array",
+    "type": "SENTINEL",
+    "polarity": "k",
+    "rarity": "r",
+    "baseDrain": 4,
+    "fusionLimit": 3
   },
   {
     "name": "Medi-Ray",
