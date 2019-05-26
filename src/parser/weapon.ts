@@ -375,15 +375,27 @@ export const convertWeapons = (deWeapons: DEWeapon, wikiWeapons: WikiWeapon, pat
     Zaw = 3,
     "Arch-Gun",
     "Arch-Melee",
+    Amp,
+  }
+  enum MainTag {
+    Rifle,
+    Shotgun,
+    Pistol,
+    Kitgun,
+    Melee,
+    Zaw,
+    "Arch-Gun",
+    "Arch-Melee",
+    Amp,
   }
 
   // 输出倾向性表
   const disposition = _.map(all, v => {
-    const mode = v.tags.find(v => ["Arch-Gun", "Arch-Melee", "Melee", "Glaive", "Shotgun", "Rifle", "Pistol"].includes(v));
+    const mode = v.tags.find(v => ["Arch-Gun", "Arch-Melee", "Melee", "Shotgun", "Rifle", "Pistol", "Amp"].includes(v));
     if (!mode) console.warn("no mode found", v.name, v.tags);
     return [
       v.name, //
-      mode ? mode.replace("Glaive", "Melee") : "Rifle",
+      mode || "Rifle",
       v.disposition || 0,
     ] as [string, string, number];
   })
@@ -405,9 +417,14 @@ export const convertWeapons = (deWeapons: DEWeapon, wikiWeapons: WikiWeapon, pat
       ["Sepfahn", "Zaw", 1],
       ["Plague Keewar", "Zaw", 1],
       ["Plague Kripath", "Zaw", 1],
+      // Amp
+      ["Amp", "Amp", 0],
     ])
     .sort((a, b) => {
       return TYPES[a[1]] - TYPES[b[1]] || b[2] - a[2] || a[0].localeCompare(b[0]);
+    })
+    .map(v => {
+      return [v[0], MainTag[v[1]], v[2]] as [string, number, number];
     });
 
   const weapons = Object.keys(all)
