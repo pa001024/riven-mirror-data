@@ -26,13 +26,13 @@ export interface WeaponMode {
   name?: string;
   /** 伤害 {Heat:100} */
   damage: Damage;
-  /** 衰减 [起始,中止,最大衰减] */
-  falloff?: number[];
+  // 隐性必填
   fireRate?: number;
-  accuracy?: number;
-  procChance?: number;
   critChance?: number;
   critMul?: number;
+  procChance?: number;
+  /** 精准 xx (100 when aimed) */
+  accuracy?: number;
   /** 自带穿透 */
   punchThrough?: number;
   /** 弹片数 */
@@ -51,6 +51,17 @@ export interface WeaponMode {
   burstCount?: number;
   /** 投射物速度 */
   prjSpeed?: number;
+  /** 启动子弹数 */
+  spool?: number;
+  /** 静音 */
+  silent?: boolean;
+  /** 衰减 [起始,中止,最大衰减] */
+  falloff?: number[];
+}
+
+export interface Reach {
+  base: number;
+  min: number;
 }
 
 /** 变焦 */
@@ -74,19 +85,15 @@ export interface Weapon {
   polarities?: string;
 
   // gun
-  accuracy?: number; // xx (100 when aimed)
-  range?: number;
-  silent?: boolean;
-  trigger?: string;
   reload?: number;
   magazine?: number;
   maxAmmo?: number;
-  zoom?: Zoom[]; // "3x (+20% Critical Chance)"
+  reloadStyle?: number; // Normal=0 Regenerate=1 ByRound=2
   // deep extra
-  spool?: number;
   sniperComboMin?: number;
   sniperComboReset?: number;
-  reloadStyle?: number; // Normal=0 Regenerate=1 ByRound=2
+  /** 缩放 */
+  zoom?: Zoom[]; // "3x (+20% Critical Chance)"
 
   // melee
   stancePolarity?: string;
@@ -98,6 +105,8 @@ export interface Weapon {
   jumpAttack?: number;
   leapAttack?: number;
   wallAttack?: number;
+  /** 近战范围 */
+  reach?: Reach;
 
   // attack
   modes: WeaponMode[];

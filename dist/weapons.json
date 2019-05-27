@@ -26,11 +26,9 @@
     "traits": ["Grineer"],
     "mastery": 7,
     "disposition": 1.33,
-    "trigger": "Semi-Auto",
     "reload": 1.2,
     "magazine": 15,
     "maxAmmo": 210,
-    "accuracy": 100,
     "modes": [
       {
         "damage": { "Toxin": 35 },
@@ -38,6 +36,8 @@
         "critChance": 0.05,
         "critMul": 2,
         "procChance": 0.1,
+        "accuracy": 100,
+        "trigger": "Semi-Auto",
         "prjSpeed": 65
       }
     ]
@@ -49,18 +49,18 @@
     "mastery": 4,
     "disposition": 1.39,
     "polarities": "-",
-    "trigger": "Auto",
     "reload": 2,
     "magazine": 70,
     "maxAmmo": 210,
-    "accuracy": 15.4,
     "modes": [
       {
         "damage": { "Impact": 3, "Puncture": 14, "Slash": 3 },
         "fireRate": 750,
         "critChance": 0.05,
         "critMul": 2,
-        "procChance": 0.12
+        "procChance": 0.12,
+        "accuracy": 15.4,
+        "trigger": "Auto"
       }
     ]
   },
@@ -90,11 +90,9 @@
     "mastery": 9,
     "disposition": 0.8,
     "polarities": "d",
-    "trigger": "Semi-Auto",
     "reload": 2.6,
     "magazine": 30,
     "maxAmmo": 210,
-    "accuracy": 26.7,
     "modes": [
       {
         "damage": { "Impact": 4, "Puncture": 36 },
@@ -102,6 +100,8 @@
         "critChance": 0.16,
         "critMul": 2.4,
         "procChance": 0.022,
+        "accuracy": 26.7,
+        "trigger": "Semi-Auto",
         "prjSpeed": 75
       }
     ],
@@ -111,11 +111,9 @@
         "tags": ["Secondary", "Pistol", "Dual Pistols"],
         "mastery": 13,
         "polarities": "-rrr",
-        "trigger": "Semi-Auto",
         "reload": 1.3,
         "magazine": 40,
         "maxAmmo": 210,
-        "accuracy": 26.7,
         "modes": [
           {
             "damage": { "Impact": 3.2, "Puncture": 27.5, "Slash": 1.3 },
@@ -123,6 +121,8 @@
             "critChance": 0.36,
             "critMul": 2.8,
             "procChance": 0.14,
+            "accuracy": 26.7,
+            "trigger": "Semi-Auto",
             "prjSpeed": 75
           }
         ]
@@ -133,11 +133,9 @@
         "traits": ["Syndicate", "Arbiters of Hexis"],
         "mastery": 11,
         "polarities": "d-",
-        "trigger": "Semi-Auto",
         "reload": 2.6,
         "magazine": 30,
         "maxAmmo": 210,
-        "accuracy": 26.7,
         "modes": [
           {
             "damage": { "Impact": 4.7, "Puncture": 42.3 },
@@ -145,6 +143,8 @@
             "critChance": 0.13,
             "critMul": 2,
             "procChance": 0.29,
+            "accuracy": 26.7,
+            "trigger": "Semi-Auto",
             "prjSpeed": 75
           }
         ]
@@ -158,11 +158,9 @@
     "mastery": 2,
     "disposition": 1.25,
     "polarities": "r",
-    "trigger": "Semi-Auto",
     "reload": 2.25,
     "magazine": 4,
     "maxAmmo": 210,
-    "accuracy": 3.7,
     "modes": [
       {
         "damage": { "Impact": 224, "Puncture": 28, "Slash": 28 },
@@ -170,7 +168,9 @@
         "critChance": 0.06,
         "critMul": 2,
         "procChance": 0.22,
+        "accuracy": 3.7,
         "pellets": 7,
+        "trigger": "Semi-Auto",
         "falloff": [7, 14, 0.75]
       }
     ],
@@ -181,11 +181,9 @@
         "traits": ["Prime", "Never Vaulted"],
         "mastery": 10,
         "polarities": "rr",
-        "trigger": "Semi-Auto",
         "reload": 2.25,
         "magazine": 8,
         "maxAmmo": 210,
-        "accuracy": 3.7,
         "modes": [
           {
             "damage": { "Impact": 280, "Puncture": 35, "Slash": 35 },
@@ -193,7 +191,9 @@
             "critChance": 0.06,
             "critMul": 2,
             "procChance": 0.3,
+            "accuracy": 3.7,
             "pellets": 7,
+            "trigger": "Semi-Auto",
             "falloff": [9, 18, 0.74]
           }
         ]
@@ -207,11 +207,9 @@
     "mastery": 8,
     "disposition": 1.25,
     "polarities": "-",
-    "trigger": "Burst",
     "reload": 2.25,
     "magazine": 36,
     "maxAmmo": 210,
-    "accuracy": 15.4,
     "modes": [
       {
         "damage": { "Impact": 4.5, "Puncture": 4.5, "Slash": 21 },
@@ -219,6 +217,8 @@
         "critChance": 0.06,
         "critMul": 2,
         "procChance": 0.28,
+        "accuracy": 15.4,
+        "trigger": "Burst",
         "burstCount": 2
       }
     ],
@@ -229,11 +229,9 @@
         "traits": ["Prime"],
         "mastery": 12,
         "polarities": "rr",
-        "trigger": "Burst",
         "reload": 1.4,
         "magazine": 40,
         "maxAmmo": 320,
-        "accuracy": 33.3,
         "modes": [
           {
             "damage": { "Impact": 3.6, "Puncture": 3.6, "Slash": 28.8 },
@@ -241,7 +239,9 @@
             "critChance": 0.18,
             "critMul": 2.2,
             "procChance": 0.32,
+            "accuracy": 33.3,
             "punchThrough": 0.2,
+            "trigger": "Burst",
             "burstCount": 2
           }
         ]
@@ -253,18 +253,18 @@
     "tags": ["Secondary", "Pistol", "Dual Pistols"],
     "mastery": 3,
     "disposition": 1.52,
-    "trigger": "Semi-Auto",
     "reload": 2.4,
     "magazine": 30,
     "maxAmmo": 210,
-    "accuracy": 11.1,
     "modes": [
       {
         "damage": { "Impact": 4.5, "Puncture": 7.5, "Slash": 18 },
         "fireRate": 450,
         "critChance": 0.1,
         "critMul": 1.8,
-        "procChance": 0.06
+        "procChance": 0.06,
+        "accuracy": 11.1,
+        "trigger": "Semi-Auto"
       }
     ]
   },
@@ -274,18 +274,18 @@
     "traits": ["Tenno"],
     "mastery": 4,
     "disposition": 0.85,
-    "trigger": "Semi-Auto",
     "reload": 3,
     "magazine": 12,
     "maxAmmo": 210,
-    "accuracy": 9.8,
     "modes": [
       {
         "damage": { "Impact": 13, "Puncture": 104, "Slash": 13 },
         "fireRate": 95,
         "critChance": 0.2,
         "critMul": 2,
-        "procChance": 0.1
+        "procChance": 0.1,
+        "accuracy": 9.8,
+        "trigger": "Semi-Auto"
       }
     ],
     "variants": [
@@ -294,18 +294,18 @@
         "tags": ["Secondary", "Pistol", "Dual Pistols"],
         "traits": ["Prime", "Baro"],
         "mastery": 15,
-        "trigger": "Semi-Auto",
         "reload": 3,
         "magazine": 16,
         "maxAmmo": 210,
-        "accuracy": 9.8,
         "modes": [
           {
             "damage": { "Impact": 15, "Puncture": 120, "Slash": 15 },
             "fireRate": 160,
             "critChance": 0.25,
             "critMul": 2,
-            "procChance": 0.25
+            "procChance": 0.25,
+            "accuracy": 9.8,
+            "trigger": "Semi-Auto"
           }
         ]
       }
@@ -317,17 +317,17 @@
     "traits": ["Tenno"],
     "mastery": 12,
     "disposition": 1.28,
-    "trigger": "Semi-Auto",
     "reload": 2.4,
     "magazine": 16,
-    "accuracy": 11.1,
     "modes": [
       {
         "damage": { "Impact": 34.2, "Puncture": 20.9, "Slash": 20.9 },
         "fireRate": 370,
         "critChance": 0.22,
         "critMul": 2,
-        "procChance": 0.22
+        "procChance": 0.22,
+        "accuracy": 11.1,
+        "trigger": "Semi-Auto"
       }
     ]
   },
@@ -338,18 +338,18 @@
     "mastery": 9,
     "disposition": 1.2,
     "polarities": "-",
-    "trigger": "Auto-Spool",
     "reload": 1.4,
     "magazine": 70,
     "maxAmmo": 420,
-    "accuracy": 15.4,
     "modes": [
       {
         "damage": { "Impact": 1.8, "Puncture": 7.2, "Slash": 9 },
         "fireRate": 750,
         "critChance": 0.24,
         "critMul": 3,
-        "procChance": 0.08
+        "procChance": 0.08,
+        "accuracy": 15.4,
+        "trigger": "Auto-Spool"
       }
     ]
   },
@@ -360,18 +360,18 @@
     "mastery": 8,
     "disposition": 0.5,
     "polarities": "-",
-    "trigger": "Auto",
     "reload": 1.1,
     "magazine": 28,
     "maxAmmo": 210,
-    "accuracy": 23.5,
     "modes": [
       {
         "damage": { "Impact": 16.8, "Puncture": 2.8, "Slash": 8.4 },
         "fireRate": 600,
         "critChance": 0.18,
         "critMul": 1.8,
-        "procChance": 0.18
+        "procChance": 0.18,
+        "accuracy": 23.5,
+        "trigger": "Auto"
       }
     ],
     "variants": [
@@ -381,18 +381,18 @@
         "traits": ["Prime"],
         "mastery": 10,
         "polarities": "-r",
-        "trigger": "Auto",
         "reload": 1.1,
         "magazine": 40,
         "maxAmmo": 400,
-        "accuracy": 23.5,
         "modes": [
           {
             "damage": { "Impact": 21.6, "Puncture": 3.6, "Slash": 10.8 },
             "fireRate": 425,
             "critChance": 0.15,
             "critMul": 2,
-            "procChance": 0.3
+            "procChance": 0.3,
+            "accuracy": 23.5,
+            "trigger": "Auto"
           }
         ]
       }
@@ -404,18 +404,18 @@
     "traits": ["Tenno"],
     "mastery": 8,
     "disposition": 1.2,
-    "trigger": "Semi-Auto",
     "reload": 2,
     "magazine": 12,
     "maxAmmo": 210,
-    "accuracy": 11.1,
     "modes": [
       {
         "damage": { "Impact": 14.5, "Puncture": 14.5, "Slash": 29 },
         "fireRate": 520,
         "critChance": 0.16,
         "critMul": 1.8,
-        "procChance": 0.12
+        "procChance": 0.12,
+        "accuracy": 11.1,
+        "trigger": "Semi-Auto"
       }
     ],
     "variants": [
@@ -425,18 +425,18 @@
         "traits": ["Prime", "Vaulted"],
         "mastery": 12,
         "polarities": "rr",
-        "trigger": "Semi-Auto",
         "reload": 1.4,
         "magazine": 12,
         "maxAmmo": 210,
-        "accuracy": 16,
         "modes": [
           {
             "damage": { "Impact": 9.9, "Puncture": 9.9, "Slash": 46.2 },
             "fireRate": 380,
             "critChance": 0.22,
             "critMul": 2.4,
-            "procChance": 0.22
+            "procChance": 0.22,
+            "accuracy": 16,
+            "trigger": "Semi-Auto"
           }
         ]
       }
@@ -449,18 +449,18 @@
     "mastery": 4,
     "disposition": 1.52,
     "polarities": "-",
-    "trigger": "Auto",
     "reload": 2,
     "magazine": 100,
     "maxAmmo": 400,
-    "accuracy": 16.7,
     "modes": [
       {
         "damage": { "Impact": 1.8, "Puncture": 8.4, "Slash": 1.8 },
         "fireRate": 1200,
         "critChance": 0.14,
         "critMul": 2,
-        "procChance": 0.14
+        "procChance": 0.14,
+        "accuracy": 16.7,
+        "trigger": "Auto"
       }
     ]
   },
@@ -491,11 +491,9 @@
     "traits": ["Corpus"],
     "mastery": 10,
     "disposition": 0.7,
-    "trigger": "Held",
     "reload": 2.6,
     "magazine": 100,
     "maxAmmo": 700,
-    "accuracy": 12.5,
     "modes": [
       {
         "damage": { "Electricity": 22 },
@@ -503,8 +501,10 @@
         "critChance": 0.32,
         "critMul": 2.2,
         "procChance": 0.22,
+        "accuracy": 12.5,
         "range": 18,
-        "ammoCost": 0.5
+        "ammoCost": 0.5,
+        "trigger": "Held"
       }
     ]
   },
@@ -515,11 +515,9 @@
     "mastery": 4,
     "disposition": 1.3,
     "polarities": "d",
-    "trigger": "Charge",
     "reload": 2.5,
     "magazine": 3,
     "maxAmmo": 18,
-    "accuracy": 26.7,
     "modes": [
       {
         "type": "secondary",
@@ -536,7 +534,9 @@
         "critChance": 0.16,
         "critMul": 2,
         "procChance": 0.22,
+        "accuracy": 26.7,
         "chargeTime": 0.5,
+        "trigger": "Charge",
         "prjSpeed": 150
       },
       {
@@ -565,11 +565,9 @@
         "traits": ["Prisma", "Baro"],
         "mastery": 8,
         "polarities": "d",
-        "trigger": "Charge",
         "reload": 1.8,
         "magazine": 3,
         "maxAmmo": 18,
-        "accuracy": 26.7,
         "modes": [
           {
             "type": "secondary",
@@ -589,7 +587,9 @@
             "critChance": 0.18,
             "critMul": 2.2,
             "procChance": 0.26,
+            "accuracy": 26.7,
             "chargeTime": 0.2,
+            "trigger": "Charge",
             "prjSpeed": 150
           },
           {
@@ -685,11 +685,9 @@
     "mastery": 10,
     "disposition": 0.6,
     "polarities": "rr",
-    "trigger": "Semi-Auto",
     "reload": 2.8,
     "magazine": 10,
     "maxAmmo": 48,
-    "accuracy": 9.1,
     "modes": [
       {
         "damage": { "Radiation": 600 },
@@ -697,9 +695,11 @@
         "critChance": 0.22,
         "critMul": 1.6,
         "procChance": 0.28,
+        "accuracy": 9.1,
         "range": 30,
-        "falloff": [10, 20, 0.6667],
-        "prjSpeed": 60
+        "trigger": "Semi-Auto",
+        "prjSpeed": 60,
+        "falloff": [10, 20, 0.6667]
       }
     ]
   },
@@ -710,11 +710,9 @@
     "mastery": 10,
     "disposition": 1,
     "polarities": "rr",
-    "trigger": "Semi-Auto",
     "reload": 2.2,
     "magazine": 36,
     "maxAmmo": 288,
-    "accuracy": 32,
     "sniperComboReset": 2,
     "zoom": [{ "ratio": 2 }, { "ratio": 4 }],
     "modes": [
@@ -723,7 +721,9 @@
         "fireRate": 280,
         "critChance": 0.18,
         "critMul": 1.6,
-        "procChance": 0.26
+        "procChance": 0.26,
+        "accuracy": 32,
+        "trigger": "Semi-Auto"
       }
     ]
   },
@@ -755,11 +755,9 @@
     "mastery": 7,
     "disposition": 1.2,
     "polarities": "r-",
-    "trigger": "Auto / Semi",
     "reload": 2.4,
     "magazine": 43,
     "maxAmmo": 473,
-    "accuracy": 28.6,
     "modes": [
       {
         "name": "Full Auto Mode",
@@ -767,17 +765,19 @@
         "fireRate": 360,
         "critChance": 0.09,
         "critMul": 1.5,
-        "procChance": 0.27
+        "procChance": 0.27,
+        "accuracy": 28.6,
+        "trigger": "Auto / Semi"
       },
       {
         "type": "secondary",
         "name": "Semi-Auto Mode",
         "damage": { "Impact": 24.5, "Puncture": 6.3, "Slash": 26.2 },
         "fireRate": 260,
-        "accuracy": 28.6,
         "critChance": 0.27,
         "critMul": 2.3,
         "procChance": 0.19,
+        "accuracy": 28.6,
         "trigger": "Semi-Auto"
       }
     ]
@@ -787,17 +787,17 @@
     "tags": ["Robotic", "Rifle", "Assault Rifle"],
     "traits": ["Tenno"],
     "disposition": 1,
-    "trigger": "Held",
     "reload": 1.5,
     "magazine": 100,
-    "accuracy": 12.5,
     "modes": [
       {
         "damage": { "Cold": 5 },
         "fireRate": 60,
         "critChance": 0.02,
         "critMul": 1.5,
-        "procChance": 0.03
+        "procChance": 0.03,
+        "accuracy": 12.5,
+        "trigger": "Held"
       }
     ]
   },
@@ -806,18 +806,18 @@
     "tags": ["Primary", "Rifle", "Assault Rifle", "Exalted"],
     "traits": ["Tenno"],
     "polarities": "rr-",
-    "trigger": "Charge",
     "reload": 0.9,
     "magazine": 1,
-    "accuracy": 100,
     "modes": [
       {
         "damage": { "Impact": 235.2, "Puncture": 1344, "Slash": 100.8 },
         "critChance": 0.25,
         "critMul": 2,
         "procChance": 0.2,
+        "accuracy": 100,
         "punchThrough": 1,
         "pellets": 7,
+        "trigger": "Charge",
         "prjSpeed": 70
       },
       {
@@ -840,11 +840,9 @@
     "mastery": 10,
     "disposition": 1.1,
     "polarities": "r-",
-    "trigger": "Auto",
     "reload": 2,
     "magazine": 16,
     "maxAmmo": 112,
-    "accuracy": 25,
     "modes": [
       {
         "name": "Slug Impact",
@@ -853,8 +851,10 @@
         "critChance": 0.17,
         "critMul": 1.9,
         "procChance": 0.33,
-        "falloff": [30, 60, 0.5],
-        "prjSpeed": 75
+        "accuracy": 25,
+        "trigger": "Auto",
+        "prjSpeed": 75,
+        "falloff": [30, 60, 0.5]
       },
       {
         "type": "area",
@@ -873,11 +873,9 @@
     "mastery": 5,
     "disposition": 0.8,
     "polarities": "d",
-    "trigger": "Held",
     "reload": 2,
     "magazine": 70,
     "maxAmmo": 350,
-    "accuracy": 12.5,
     "modes": [
       {
         "damage": { "Heat": 29 },
@@ -885,7 +883,9 @@
         "critChance": 0.15,
         "critMul": 1.7,
         "procChance": 0.21,
-        "range": 15
+        "accuracy": 12.5,
+        "range": 15,
+        "trigger": "Held"
       }
     ]
   },
@@ -917,12 +917,9 @@
     "mastery": 7,
     "disposition": 1.415,
     "polarities": "r",
-    "silent": true,
-    "trigger": "Auto",
     "reload": 2.83,
     "magazine": 20,
     "maxAmmo": 540,
-    "accuracy": 40,
     "modes": [
       {
         "damage": { "Impact": 4, "Puncture": 60, "Slash": 16 },
@@ -930,7 +927,10 @@
         "critChance": 0.25,
         "critMul": 3,
         "procChance": 0.1,
-        "prjSpeed": 90
+        "accuracy": 40,
+        "trigger": "Auto",
+        "prjSpeed": 90,
+        "silent": true
       }
     ]
   },
@@ -941,18 +941,18 @@
     "mastery": 6,
     "disposition": 1.25,
     "polarities": "-r",
-    "trigger": "Auto",
     "reload": 1.4,
     "magazine": 75,
     "maxAmmo": 525,
-    "accuracy": 22.2,
     "modes": [
       {
         "damage": { "Impact": 2, "Puncture": 5, "Slash": 13 },
         "fireRate": 600,
         "critChance": 0.16,
         "critMul": 2,
-        "procChance": 0.16
+        "procChance": 0.16,
+        "accuracy": 22.2,
+        "trigger": "Auto"
       },
       {
         "type": "secondary",
@@ -969,9 +969,6 @@
     "tags": ["Secondary", "Pistol", "Exalted"],
     "traits": ["Tenno"],
     "polarities": "rr",
-    "trigger": "Charge",
-    "accuracy": 100,
-    "spool": 2,
     "modes": [
       {
         "damage": { "Electricity": 500 },
@@ -979,7 +976,10 @@
         "critChance": 0.05,
         "critMul": 1.5,
         "procChance": 0.1,
-        "prjSpeed": 20
+        "accuracy": 100,
+        "trigger": "Charge",
+        "prjSpeed": 20,
+        "spool": 2
       }
     ]
   },
@@ -990,11 +990,8 @@
     "mastery": 2,
     "disposition": 1.05,
     "polarities": "d",
-    "silent": true,
-    "trigger": "Burst / Charge",
     "reload": 2,
     "magazine": 16,
-    "accuracy": 4,
     "modes": [
       {
         "type": "secondary",
@@ -1014,8 +1011,11 @@
         "critChance": 0.15,
         "critMul": 1.5,
         "procChance": 0.1,
+        "accuracy": 4,
         "chargeTime": 1,
-        "prjSpeed": 100
+        "trigger": "Burst / Charge",
+        "prjSpeed": 100,
+        "silent": true
       }
     ],
     "variants": [
@@ -1024,12 +1024,9 @@
         "tags": ["Secondary", "Pistol", "Crossbow"],
         "mastery": 14,
         "polarities": "-rr",
-        "silent": true,
-        "trigger": "Burst / Charge",
         "reload": 1.2,
         "magazine": 32,
         "maxAmmo": 210,
-        "accuracy": 4,
         "modes": [
           {
             "damage": { "Impact": 7.6, "Puncture": 83.6, "Slash": 60.8 },
@@ -1037,9 +1034,12 @@
             "critChance": 0.2,
             "critMul": 2,
             "procChance": 0.2,
+            "accuracy": 4,
             "pellets": 4,
             "ammoCost": 4,
-            "prjSpeed": 100
+            "trigger": "Burst / Charge",
+            "prjSpeed": 100,
+            "silent": true
           },
           {
             "type": "charge",
@@ -1058,12 +1058,9 @@
         "traits": ["Syndicate", "Red Veil"],
         "mastery": 6,
         "polarities": "dr",
-        "silent": true,
-        "trigger": "Burst / Charge",
         "reload": 2,
         "magazine": 20,
         "maxAmmo": 210,
-        "accuracy": 4,
         "modes": [
           {
             "type": "secondary",
@@ -1083,8 +1080,11 @@
             "critChance": 0.2,
             "critMul": 1.5,
             "procChance": 0.1,
+            "accuracy": 4,
             "chargeTime": 1,
-            "prjSpeed": 100
+            "trigger": "Burst / Charge",
+            "prjSpeed": 100,
+            "silent": true
           }
         ]
       }
@@ -1096,19 +1096,18 @@
     "traits": ["Corpus"],
     "mastery": 10,
     "disposition": 1,
-    "trigger": "Auto Burst",
     "reload": 2,
     "magazine": 60,
     "maxAmmo": 720,
-    "accuracy": 25,
     "modes": [
       {
         "damage": { "Puncture": 24, "Magnetic": 42 },
         "fireRate": 214,
-        "accuracy": 25,
         "critChance": 0.32,
         "critMul": 2.4,
         "procChance": 0.18,
+        "accuracy": 25,
+        "trigger": "Auto Burst",
         "burstCount": 2,
         "prjSpeed": 115
       },
@@ -1116,10 +1115,10 @@
         "type": "secondary",
         "damage": { "Radiation": 208 },
         "fireRate": 60,
-        "accuracy": 100,
         "critChance": 0.34,
         "critMul": 3,
         "procChance": 0.08,
+        "accuracy": 100,
         "punchThrough": 2,
         "ammoCost": 1,
         "chargeTime": 0.4,
@@ -1134,12 +1133,9 @@
     "mastery": 7,
     "disposition": 1,
     "polarities": "r",
-    "silent": true,
-    "trigger": "Auto",
     "reload": 1.4,
     "magazine": 40,
     "maxAmmo": 800,
-    "accuracy": 80,
     "modes": [
       {
         "damage": { "Impact": 5.8, "Puncture": 6.7, "Slash": 3.5 },
@@ -1147,6 +1143,9 @@
         "critChance": 0.26,
         "critMul": 3,
         "procChance": 0.1,
+        "accuracy": 80,
+        "trigger": "Auto",
+        "silent": true,
         "falloff": [22, 34, 0.5]
       }
     ]
@@ -1221,11 +1220,9 @@
     "traits": ["Tenno"],
     "mastery": 2,
     "disposition": 1.34,
-    "trigger": "Auto",
     "reload": 2.7,
     "magazine": 20,
     "maxAmmo": 120,
-    "accuracy": 5,
     "modes": [
       {
         "damage": { "Impact": 96.8, "Puncture": 26.4, "Slash": 52.8 },
@@ -1233,7 +1230,9 @@
         "critChance": 0.1,
         "critMul": 1.5,
         "procChance": 0.2,
+        "accuracy": 5,
         "pellets": 8,
+        "trigger": "Auto",
         "falloff": [15, 25, 0.5]
       }
     ],
@@ -1243,11 +1242,9 @@
         "tags": ["Primary", "Shotgun"],
         "traits": ["Prime", "Vaulted"],
         "mastery": 11,
-        "trigger": "Auto",
         "reload": 2.75,
         "magazine": 20,
         "maxAmmo": 120,
-        "accuracy": 5,
         "modes": [
           {
             "damage": { "Impact": 208, "Puncture": 48, "Slash": 64 },
@@ -1255,7 +1252,9 @@
             "critChance": 0.15,
             "critMul": 2,
             "procChance": 0.3,
+            "accuracy": 5,
             "pellets": 8,
+            "trigger": "Auto",
             "falloff": [18, 25, 0.7]
           }
         ]
@@ -1313,11 +1312,9 @@
     "mastery": 7,
     "disposition": 1.51,
     "polarities": "d",
-    "trigger": "Semi-Auto",
     "reload": 1.3,
     "magazine": 15,
     "maxAmmo": 210,
-    "accuracy": 26.7,
     "modes": [
       {
         "damage": { "Impact": 4, "Puncture": 36 },
@@ -1325,6 +1322,8 @@
         "critChance": 0.16,
         "critMul": 2.4,
         "procChance": 0.022,
+        "accuracy": 26.7,
+        "trigger": "Semi-Auto",
         "prjSpeed": 75
       }
     ]
@@ -1336,11 +1335,9 @@
     "mastery": 2,
     "disposition": 0.95,
     "polarities": "d",
-    "trigger": "Auto",
     "reload": 2.6,
     "magazine": 60,
     "maxAmmo": 540,
-    "accuracy": 25,
     "modes": [
       {
         "damage": { "Impact": 2.5, "Puncture": 20, "Slash": 2.5 },
@@ -1348,6 +1345,8 @@
         "critChance": 0.1,
         "critMul": 1.8,
         "procChance": 0.14,
+        "accuracy": 25,
+        "trigger": "Auto",
         "prjSpeed": 85
       }
     ],
@@ -1358,11 +1357,9 @@
         "traits": ["Prime", "Vaulted"],
         "mastery": 13,
         "polarities": "dr",
-        "trigger": "Auto",
         "reload": 2.4,
         "magazine": 60,
         "maxAmmo": 540,
-        "accuracy": 50,
         "modes": [
           {
             "damage": { "Impact": 4.6, "Puncture": 41.4 },
@@ -1370,6 +1367,8 @@
             "critChance": 0.12,
             "critMul": 2,
             "procChance": 0.34,
+            "accuracy": 50,
+            "trigger": "Auto",
             "prjSpeed": 100
           }
         ]
@@ -1380,11 +1379,9 @@
         "traits": ["Syndicate", "Arbiters of Hexis"],
         "mastery": 12,
         "polarities": "dr",
-        "trigger": "Auto",
         "reload": 2.4,
         "magazine": 90,
         "maxAmmo": 540,
-        "accuracy": 25,
         "modes": [
           {
             "damage": { "Impact": 3, "Puncture": 27 },
@@ -1392,6 +1389,8 @@
             "critChance": 0.3,
             "critMul": 2.4,
             "procChance": 0.16,
+            "accuracy": 25,
+            "trigger": "Auto",
             "prjSpeed": 65
           }
         ]
@@ -1405,11 +1404,9 @@
     "mastery": 6,
     "disposition": 1.1,
     "polarities": "-r",
-    "trigger": "Semi-Auto",
     "reload": 1.05,
     "magazine": 5,
     "maxAmmo": 210,
-    "accuracy": 7.7,
     "modes": [
       {
         "damage": { "Impact": 90, "Puncture": 50, "Slash": 60 },
@@ -1417,7 +1414,9 @@
         "critChance": 0.17,
         "critMul": 2,
         "procChance": 0.17,
+        "accuracy": 7.7,
         "pellets": 10,
+        "trigger": "Semi-Auto",
         "falloff": [11, 22, 0.6]
       }
     ]
@@ -1427,18 +1426,18 @@
     "tags": ["Primary", "Rifle", "Assault Rifle"],
     "traits": ["Tenno"],
     "disposition": 1.1,
-    "trigger": "Auto",
     "reload": 2,
     "magazine": 45,
     "maxAmmo": 540,
-    "accuracy": 28.6,
     "modes": [
       {
         "damage": { "Impact": 7.9, "Puncture": 7.9, "Slash": 8.2 },
         "fireRate": 525,
         "critChance": 0.12,
         "critMul": 1.6,
-        "procChance": 0.06
+        "procChance": 0.06,
+        "accuracy": 28.6,
+        "trigger": "Auto"
       }
     ],
     "variants": [
@@ -1447,18 +1446,18 @@
         "tags": ["Primary", "Rifle", "Assault Rifle"],
         "traits": ["Prime", "Never Vaulted"],
         "mastery": 8,
-        "trigger": "Auto",
         "reload": 2.15,
         "magazine": 75,
         "maxAmmo": 600,
-        "accuracy": 28.6,
         "modes": [
           {
             "damage": { "Impact": 1.75, "Puncture": 12.25, "Slash": 21 },
             "fireRate": 575,
             "critChance": 0.12,
             "critMul": 2,
-            "procChance": 0.26
+            "procChance": 0.26,
+            "accuracy": 28.6,
+            "trigger": "Auto"
           }
         ]
       },
@@ -1468,18 +1467,18 @@
         "traits": ["Tenno", "Vandal"],
         "mastery": 4,
         "polarities": "r",
-        "trigger": "Auto",
         "reload": 1.75,
         "magazine": 50,
         "maxAmmo": 550,
-        "accuracy": 33.3,
         "modes": [
           {
             "damage": { "Impact": 12.25, "Puncture": 1.75, "Slash": 21 },
             "fireRate": 450,
             "critChance": 0.16,
             "critMul": 2,
-            "procChance": 0.16
+            "procChance": 0.16,
+            "accuracy": 33.3,
+            "trigger": "Auto"
           }
         ]
       },
@@ -1487,18 +1486,18 @@
         "name": "MK1-Braton",
         "tags": ["Primary", "Rifle", "Assault Rifle"],
         "traits": ["Tenno"],
-        "trigger": "Auto",
         "reload": 2,
         "magazine": 60,
         "maxAmmo": 540,
-        "accuracy": 40,
         "modes": [
           {
             "damage": { "Impact": 4.5, "Puncture": 4.5, "Slash": 9 },
             "fireRate": 450,
             "critChance": 0.08,
             "critMul": 1.5,
-            "procChance": 0.05
+            "procChance": 0.05,
+            "accuracy": 40,
+            "trigger": "Auto"
           }
         ]
       }
@@ -1551,11 +1550,9 @@
     "tags": ["Secondary", "Pistol", "Shotgun Sidearm"],
     "traits": ["Tenno"],
     "disposition": 1.35,
-    "trigger": "Semi-Auto",
     "reload": 1.05,
     "magazine": 2,
     "maxAmmo": 210,
-    "accuracy": 3.7,
     "modes": [
       {
         "damage": { "Impact": 224, "Puncture": 28, "Slash": 28 },
@@ -1563,7 +1560,9 @@
         "critChance": 0.06,
         "critMul": 2,
         "procChance": 0.22,
+        "accuracy": 3.7,
         "pellets": 7,
+        "trigger": "Semi-Auto",
         "falloff": [7, 14, 0.75]
       }
     ],
@@ -1573,11 +1572,9 @@
         "tags": ["Secondary", "Pistol", "Shotgun Sidearm"],
         "traits": ["Prime", "Never Vaulted"],
         "mastery": 4,
-        "trigger": "Semi-Auto",
         "reload": 2,
         "magazine": 4,
         "maxAmmo": 210,
-        "accuracy": 3.7,
         "modes": [
           {
             "damage": { "Impact": 280, "Puncture": 35, "Slash": 35 },
@@ -1585,7 +1582,9 @@
             "critChance": 0.06,
             "critMul": 2,
             "procChance": 0.3,
+            "accuracy": 3.7,
             "pellets": 7,
+            "trigger": "Semi-Auto",
             "falloff": [9, 18, 0.74]
           }
         ]
@@ -1597,17 +1596,17 @@
     "tags": ["Robotic", "Pistol"],
     "traits": ["Tenno"],
     "disposition": 1.45,
-    "trigger": "Burst",
     "reload": 0,
     "magazine": 15,
-    "accuracy": 100,
     "modes": [
       {
         "damage": { "Impact": 0.7, "Puncture": 6, "Slash": 0.3 },
         "fireRate": 90,
         "critChance": 0.025,
         "critMul": 1.25,
-        "procChance": 0.02
+        "procChance": 0.02,
+        "accuracy": 100,
+        "trigger": "Burst"
       }
     ],
     "variants": [
@@ -1615,17 +1614,17 @@
         "name": "Prisma Burst Laser",
         "tags": ["Robotic", "Pistol"],
         "traits": ["Tenno", "Prisma"],
-        "trigger": "Burst",
         "reload": 0,
         "magazine": 15,
-        "accuracy": 100,
         "modes": [
           {
             "damage": { "Impact": 1, "Puncture": 8.5, "Slash": 0.5 },
             "fireRate": 97,
             "critChance": 0.05,
             "critMul": 2,
-            "procChance": 0.1
+            "procChance": 0.1,
+            "accuracy": 100,
+            "trigger": "Burst"
           }
         ]
       }
@@ -1637,11 +1636,9 @@
     "traits": ["Tenno"],
     "disposition": 1.3,
     "polarities": "r",
-    "trigger": "Burst",
     "reload": 2,
     "magazine": 45,
     "maxAmmo": 540,
-    "accuracy": 25,
     "modes": [
       {
         "damage": { "Impact": 10, "Puncture": 10, "Slash": 10 },
@@ -1649,6 +1646,8 @@
         "critChance": 0.06,
         "critMul": 1.6,
         "procChance": 0.18,
+        "accuracy": 25,
+        "trigger": "Burst",
         "burstCount": 3
       }
     ],
@@ -1659,11 +1658,9 @@
         "traits": ["Prime", "Never Vaulted"],
         "mastery": 12,
         "polarities": "r",
-        "trigger": "Burst",
         "reload": 2,
         "magazine": 45,
         "maxAmmo": 540,
-        "accuracy": 25,
         "modes": [
           {
             "damage": { "Impact": 10.8, "Puncture": 10.8, "Slash": 14.4 },
@@ -1671,6 +1668,8 @@
             "critChance": 0.18,
             "critMul": 1.8,
             "procChance": 0.3,
+            "accuracy": 25,
+            "trigger": "Burst",
             "burstCount": 3
           }
         ]
@@ -1683,11 +1682,9 @@
     "traits": ["Grineer"],
     "mastery": 11,
     "disposition": 1.45,
-    "trigger": "Auto",
     "reload": 3,
     "magazine": 50,
     "maxAmmo": 540,
-    "accuracy": 13.3,
     "modes": [
       {
         "damage": { "Impact": 30, "Puncture": 24, "Slash": 6 },
@@ -1695,6 +1692,8 @@
         "critChance": 0.23,
         "critMul": 2.5,
         "procChance": 0.21,
+        "accuracy": 13.3,
+        "trigger": "Auto",
         "prjSpeed": 40
       },
       {
@@ -1702,10 +1701,10 @@
         "name": "Beacon",
         "damage": { "Puncture": 3 },
         "fireRate": 100,
-        "accuracy": 16.7,
         "critChance": 0,
         "critMul": 1,
         "procChance": 0,
+        "accuracy": 16.7,
         "trigger": "Semi-Auto"
       }
     ]
@@ -1759,12 +1758,9 @@
     "mastery": 3,
     "disposition": 1.35,
     "polarities": "rr",
-    "silent": true,
-    "trigger": "Active",
     "reload": 1,
     "magazine": 2,
     "maxAmmo": 18,
-    "accuracy": 100,
     "modes": [
       {
         "damage": { "Electricity": 160 },
@@ -1772,6 +1768,8 @@
         "critChance": 0.08,
         "critMul": 1.5,
         "procChance": 0.22,
+        "accuracy": 100,
+        "trigger": "Active",
         "prjSpeed": 30
       }
     ],
@@ -1782,11 +1780,9 @@
         "traits": ["Syndicate", "New Loka"],
         "mastery": 10,
         "polarities": "rrd",
-        "trigger": "Active",
         "reload": 1,
         "magazine": 2,
         "maxAmmo": 18,
-        "accuracy": 100,
         "modes": [
           {
             "damage": { "Electricity": 300 },
@@ -1794,7 +1790,9 @@
             "critChance": 0.24,
             "critMul": 2,
             "procChance": 0.34,
+            "accuracy": 100,
             "radius": 3,
+            "trigger": "Active",
             "prjSpeed": 30
           }
         ]
@@ -1909,18 +1907,17 @@
     "mastery": 6,
     "disposition": 1.1,
     "polarities": "r",
-    "silent": true,
-    "trigger": "Charge",
     "reload": 0.6,
     "magazine": 1,
     "maxAmmo": 72,
-    "accuracy": 16.7,
     "modes": [
       {
         "damage": { "Impact": 99, "Puncture": 5.5, "Slash": 5.5 },
         "critChance": 0.2,
         "critMul": 1.5,
         "procChance": 0.18,
+        "accuracy": 16.7,
+        "trigger": "Charge",
         "prjSpeed": 70
       },
       {
@@ -1941,18 +1938,18 @@
         "traits": ["Prime"],
         "mastery": 12,
         "polarities": "rr",
-        "trigger": "Charge",
         "reload": 0.65,
         "magazine": 1,
         "maxAmmo": 72,
-        "accuracy": 16.7,
         "modes": [
           {
             "damage": { "Impact": 162, "Puncture": 9, "Slash": 9 },
             "critChance": 0.2,
             "critMul": 1.5,
             "procChance": 0.3,
+            "accuracy": 16.7,
             "pellets": 3,
+            "trigger": "Charge",
             "prjSpeed": 70
           },
           {
@@ -1974,17 +1971,17 @@
         "traits": ["Syndicate", "Red Veil"],
         "mastery": 12,
         "polarities": "rr-",
-        "trigger": "Charge",
         "reload": 0.6,
         "magazine": 1,
         "maxAmmo": 72,
-        "accuracy": 16.7,
         "modes": [
           {
             "damage": { "Impact": 135, "Puncture": 7.5, "Slash": 7.5 },
             "critChance": 0.2,
             "critMul": 2,
             "procChance": 0.15,
+            "accuracy": 16.7,
+            "trigger": "Charge",
             "prjSpeed": 100
           },
           {
@@ -2006,11 +2003,9 @@
     "traits": ["Corpus"],
     "mastery": 4,
     "disposition": 1.52,
-    "trigger": "Auto",
     "reload": 2,
     "magazine": 60,
     "maxAmmo": 420,
-    "accuracy": 33.3,
     "modes": [
       {
         "damage": { "Impact": 5.2, "Puncture": 20.8 },
@@ -2018,6 +2013,8 @@
         "critChance": 0.06,
         "critMul": 1.6,
         "procChance": 0.2,
+        "accuracy": 33.3,
+        "trigger": "Auto",
         "prjSpeed": 100
       }
     ]
@@ -2050,11 +2047,9 @@
     "traits": ["Corpus"],
     "mastery": 7,
     "disposition": 1.46,
-    "trigger": "Held",
     "reload": 2,
     "magazine": 70,
     "maxAmmo": 700,
-    "accuracy": 50,
     "modes": [
       {
         "damage": { "Impact": 2.4, "Puncture": 2.4, "Slash": 19.2 },
@@ -2062,9 +2057,11 @@
         "critChance": 0.16,
         "critMul": 2.4,
         "procChance": 0.3,
+        "accuracy": 50,
         "pellets": 2,
         "range": 30,
-        "ammoCost": 0.5
+        "ammoCost": 0.5,
+        "trigger": "Held"
       }
     ]
   },
@@ -2075,11 +2072,9 @@
     "mastery": 8,
     "disposition": 0.95,
     "polarities": "rr",
-    "trigger": "Semi-Auto",
     "reload": 2.3,
     "magazine": 5,
     "maxAmmo": 132,
-    "accuracy": 9.1,
     "modes": [
       {
         "damage": { "Impact": 151.2, "Puncture": 226.8, "Slash": 162 },
@@ -2087,7 +2082,9 @@
         "critChance": 0.3,
         "critMul": 2.8,
         "procChance": 0.12,
+        "accuracy": 9.1,
         "pellets": 6,
+        "trigger": "Semi-Auto",
         "falloff": [18, 36, 0.6667]
       },
       {
@@ -2116,10 +2113,8 @@
     "mastery": 1,
     "disposition": 1.05,
     "polarities": "-",
-    "trigger": "Charge",
     "reload": 5,
     "magazine": 25,
-    "accuracy": 9.1,
     "reloadStyle": 1,
     "modes": [
       {
@@ -2128,7 +2123,9 @@
         "critChance": 0.15,
         "critMul": 2,
         "procChance": 0.1,
-        "pellets": 12
+        "accuracy": 9.1,
+        "pellets": 12,
+        "trigger": "Charge"
       },
       {
         "type": "charge",
@@ -2148,11 +2145,9 @@
         "traits": ["Tenno"],
         "mastery": 1,
         "polarities": "-",
-        "trigger": "Charge",
         "reload": 2,
         "magazine": 25,
         "maxAmmo": 100,
-        "accuracy": 9.1,
         "modes": [
           {
             "damage": { "Impact": 384, "Puncture": 48, "Slash": 48 },
@@ -2160,7 +2155,9 @@
             "critChance": 0.4,
             "critMul": 2.6,
             "procChance": 0.14,
-            "pellets": 12
+            "accuracy": 9.1,
+            "pellets": 12,
+            "trigger": "Charge"
           },
           {
             "type": "charge",
@@ -2203,17 +2200,17 @@
     "traits": ["Corpus"],
     "mastery": 3,
     "disposition": 1,
-    "trigger": "Held",
     "reload": 4,
     "magazine": 80,
-    "accuracy": 12.5,
     "modes": [
       {
         "damage": { "Cold": 10 },
         "fireRate": 60,
         "critChance": 0.05,
         "critMul": 2,
-        "procChance": 0.35
+        "procChance": 0.35,
+        "accuracy": 12.5,
+        "trigger": "Held"
       }
     ]
   },
@@ -2222,11 +2219,9 @@
     "tags": ["Secondary", "Pistol"],
     "mastery": 8,
     "disposition": 1,
-    "trigger": "Auto / Burst",
     "reload": 2.2,
     "magazine": 11,
     "maxAmmo": 110,
-    "accuracy": 1.8,
     "modes": [
       {
         "name": "Full Auto Mode",
@@ -2234,17 +2229,19 @@
         "fireRate": 280,
         "critChance": 0.08,
         "critMul": 1.4,
-        "procChance": 0.32
+        "procChance": 0.32,
+        "accuracy": 1.8,
+        "trigger": "Auto / Burst"
       },
       {
         "type": "secondary",
         "name": "Burst Mode",
         "damage": { "Impact": 2.9, "Puncture": 30.2, "Slash": 38.9 },
         "fireRate": 603,
-        "accuracy": 80,
         "critChance": 0.08,
         "critMul": 1.4,
         "procChance": 0.32,
+        "accuracy": 80,
         "punchThrough": 0.5,
         "trigger": "Burst"
       }
@@ -2257,11 +2254,9 @@
     "mastery": 8,
     "disposition": 1.1,
     "polarities": "--",
-    "trigger": "Held",
     "reload": 1,
     "magazine": 40,
     "maxAmmo": 40,
-    "accuracy": 100,
     "modes": [
       {
         "damage": { "Puncture": 8, "Slash": 5, "Radiation": 10 },
@@ -2269,9 +2264,11 @@
         "critChance": 0.12,
         "critMul": 1.8,
         "procChance": 0.3,
+        "accuracy": 100,
         "punchThrough": 1,
         "range": 24,
-        "ammoCost": 0.5
+        "ammoCost": 0.5,
+        "trigger": "Held"
       }
     ]
   },
@@ -2281,10 +2278,8 @@
     "traits": ["Tenno"],
     "mastery": 4,
     "disposition": 1.3,
-    "trigger": "Burst",
     "reload": 50,
     "magazine": 30,
-    "accuracy": 33.3,
     "reloadStyle": 1,
     "modes": [
       {
@@ -2293,6 +2288,8 @@
         "critChance": 0.05,
         "critMul": 2,
         "procChance": 0.3,
+        "accuracy": 33.3,
+        "trigger": "Burst",
         "burstCount": 3
       }
     ],
@@ -2302,11 +2299,9 @@
         "tags": ["Arch-Gun (Atmosphere)"],
         "traits": ["Tenno"],
         "mastery": 4,
-        "trigger": "Burst",
         "reload": 1.2,
         "magazine": 30,
         "maxAmmo": 480,
-        "accuracy": 33.3,
         "modes": [
           {
             "damage": { "Impact": 39.6, "Puncture": 39.6, "Slash": 40.8 },
@@ -2314,6 +2309,8 @@
             "critChance": 0.2,
             "critMul": 2.2,
             "procChance": 0.3,
+            "accuracy": 33.3,
+            "trigger": "Burst",
             "burstCount": 3
           }
         ]
@@ -2327,12 +2324,9 @@
     "mastery": 10,
     "disposition": 1.3,
     "polarities": "r",
-    "silent": true,
-    "trigger": "Charge",
     "reload": 0.6,
     "magazine": 1,
     "maxAmmo": 72,
-    "accuracy": 16.7,
     "modes": [
       {
         "type": "charge",
@@ -2340,9 +2334,12 @@
         "critChance": 0.2,
         "critMul": 2,
         "procChance": 0.5,
+        "accuracy": 16.7,
         "punchThrough": 3,
         "chargeTime": 1,
-        "prjSpeed": 85
+        "trigger": "Charge",
+        "prjSpeed": 85,
+        "silent": true
       }
     ]
   },
@@ -2419,7 +2416,6 @@
     "mastery": 5,
     "disposition": 1.21,
     "polarities": "r",
-    "accuracy": 100,
     "stancePolarity": "=",
     "blockResist": 0.6,
     "spinAttack": 6,
@@ -2441,7 +2437,6 @@
         "traits": ["Tenno"],
         "mastery": 5,
         "polarities": "r",
-        "accuracy": 100,
         "stancePolarity": "=",
         "blockResist": 0.85,
         "spinAttack": 2,
@@ -2484,16 +2479,16 @@
     "tags": ["Robotic", "Melee", "Glaive"],
     "traits": ["Tenno"],
     "disposition": 1.25,
-    "trigger": "Auto",
     "reload": 3,
     "magazine": 6,
-    "accuracy": 100,
     "modes": [
       {
         "damage": { "Impact": 50 },
         "fireRate": 78,
         "critChance": 0,
-        "procChance": 0.25
+        "procChance": 0.25,
+        "accuracy": 100,
+        "trigger": "Auto"
       }
     ],
     "variants": [
@@ -2502,17 +2497,17 @@
         "tags": ["Robotic", "Melee", "Glaive"],
         "traits": ["Prime", "Vaulted"],
         "mastery": 8,
-        "trigger": "Auto",
         "reload": 3,
         "magazine": 6,
-        "accuracy": 100,
         "modes": [
           {
             "damage": { "Impact": 75 },
             "fireRate": 80,
             "critChance": 0,
             "critMul": 1,
-            "procChance": 0.25
+            "procChance": 0.25,
+            "accuracy": 100,
+            "trigger": "Auto"
           }
         ]
       }
@@ -2523,11 +2518,9 @@
     "tags": ["Primary", "Rifle", "Assault Rifle"],
     "mastery": 4,
     "disposition": 1.3,
-    "trigger": "Auto",
     "reload": 1.8,
     "magazine": 45,
     "maxAmmo": 540,
-    "accuracy": 100,
     "modes": [
       {
         "damage": { "Impact": 6, "Puncture": 22.5, "Slash": 1.5 },
@@ -2535,6 +2528,8 @@
         "critChance": 0.08,
         "critMul": 1.6,
         "procChance": 0.22,
+        "accuracy": 100,
+        "trigger": "Auto",
         "prjSpeed": 100
       }
     ],
@@ -2544,11 +2539,9 @@
         "tags": ["Primary", "Rifle", "Assault Rifle"],
         "traits": ["Corpus"],
         "mastery": 7,
-        "trigger": "Auto",
         "reload": 1.8,
         "magazine": 60,
         "maxAmmo": 540,
-        "accuracy": 100,
         "modes": [
           {
             "damage": { "Impact": 6.4, "Puncture": 24, "Slash": 1.6 },
@@ -2556,6 +2549,8 @@
             "critChance": 0.08,
             "critMul": 2,
             "procChance": 0.3,
+            "accuracy": 100,
+            "trigger": "Auto",
             "prjSpeed": 100
           }
         ]
@@ -2585,12 +2580,9 @@
     "mastery": 4,
     "disposition": 1.3,
     "polarities": "rr",
-    "silent": true,
-    "trigger": "Auto",
     "reload": 0.75,
     "magazine": 10,
     "maxAmmo": 210,
-    "accuracy": 100,
     "modes": [
       {
         "damage": { "Impact": 2.9, "Puncture": 46.4, "Slash": 8.7 },
@@ -2598,6 +2590,8 @@
         "critChance": 0.16,
         "critMul": 1.6,
         "procChance": 0.16,
+        "accuracy": 100,
+        "trigger": "Auto",
         "prjSpeed": 70
       }
     ]
@@ -2652,17 +2646,17 @@
     "tags": ["Robotic", "Rifle", "Assault Rifle"],
     "traits": ["Tenno"],
     "disposition": 1.455,
-    "trigger": "Auto",
     "reload": 2,
     "magazine": 100,
-    "accuracy": 100,
     "modes": [
       {
         "damage": { "Impact": 0.5, "Puncture": 0.3, "Slash": 4.3 },
         "fireRate": 498,
         "critChance": 0.05,
         "critMul": 2,
-        "procChance": 0.01
+        "procChance": 0.01,
+        "accuracy": 100,
+        "trigger": "Auto"
       }
     ]
   },
@@ -2672,11 +2666,9 @@
     "traits": ["Corpus"],
     "mastery": 6,
     "disposition": 1,
-    "trigger": "Semi-Auto",
     "reload": 1.05,
     "magazine": 5,
     "maxAmmo": 210,
-    "accuracy": 7.1,
     "modes": [
       {
         "damage": { "Radiation": 280 },
@@ -2684,9 +2676,11 @@
         "critChance": 0.04,
         "critMul": 1.5,
         "procChance": 0.3,
+        "accuracy": 7.1,
         "pellets": 7,
-        "falloff": [13, 22, 0.6231],
-        "prjSpeed": 150
+        "trigger": "Semi-Auto",
+        "prjSpeed": 150,
+        "falloff": [13, 22, 0.6231]
       }
     ],
     "variants": [
@@ -2695,10 +2689,8 @@
         "tags": ["Secondary", "Pistol", "Shotgun Sidearm"],
         "traits": ["Corpus"],
         "mastery": 9,
-        "trigger": "Semi-Auto",
         "reload": 1.05,
         "magazine": 8,
-        "accuracy": 13.3,
         "modes": [
           {
             "damage": { "Radiation": 280 },
@@ -2706,7 +2698,9 @@
             "critChance": 0.08,
             "critMul": 1.5,
             "procChance": 0.32,
+            "accuracy": 13.3,
             "pellets": 7,
+            "trigger": "Semi-Auto",
             "falloff": [16, 30, 0.625]
           }
         ]
@@ -2740,17 +2734,17 @@
     "tags": ["Secondary", "Pistol", "Exalted"],
     "traits": ["Tenno"],
     "polarities": "rr-",
-    "trigger": "Auto",
     "reload": 0.3,
     "magazine": 60,
-    "accuracy": 23,
     "modes": [
       {
         "damage": { "Impact": 16, "Puncture": 16, "Slash": 128 },
         "fireRate": 350,
         "critChance": 0.1,
         "critMul": 2,
-        "procChance": 0.25
+        "procChance": 0.25,
+        "accuracy": 23,
+        "trigger": "Auto"
       }
     ]
   },
@@ -2800,10 +2794,8 @@
     "traits": ["Grineer"],
     "mastery": 5,
     "disposition": 1.48,
-    "trigger": "Charge",
     "reload": 2.3,
     "magazine": 7,
-    "accuracy": 1.4,
     "modes": [
       {
         "damage": { "Impact": 40, "Puncture": 40, "Slash": 320 },
@@ -2811,8 +2803,10 @@
         "critChance": 0.075,
         "critMul": 2,
         "procChance": 0.1,
+        "accuracy": 1.4,
         "punchThrough": 1.5,
         "pellets": 10,
+        "trigger": "Charge",
         "prjSpeed": 100
       },
       {
@@ -2832,19 +2826,19 @@
     "mastery": 5,
     "disposition": 1.1,
     "polarities": "rr",
-    "silent": true,
-    "trigger": "Charge",
     "reload": 0.7,
     "magazine": 1,
     "maxAmmo": 72,
-    "accuracy": 16.7,
     "modes": [
       {
         "damage": { "Impact": 6.5, "Puncture": 6.5, "Slash": 117 },
         "critChance": 0.25,
         "critMul": 2,
         "procChance": 0.2,
-        "prjSpeed": 70
+        "accuracy": 16.7,
+        "trigger": "Charge",
+        "prjSpeed": 70,
+        "silent": true
       },
       {
         "type": "charge",
@@ -2865,11 +2859,9 @@
     "mastery": 7,
     "disposition": 1.3,
     "polarities": "r",
-    "trigger": "Auto",
     "reload": 3.5,
     "magazine": 120,
     "maxAmmo": 480,
-    "accuracy": 20,
     "modes": [
       {
         "damage": { "Impact": 5.2, "Puncture": 20.8 },
@@ -2877,6 +2869,8 @@
         "critChance": 0.06,
         "critMul": 1.6,
         "procChance": 0.2,
+        "accuracy": 20,
+        "trigger": "Auto",
         "prjSpeed": 100
       }
     ],
@@ -2887,11 +2881,9 @@
         "traits": ["Syndicate", "Perrin Sequence"],
         "mastery": 10,
         "polarities": "r-",
-        "trigger": "Auto",
         "reload": 3.5,
         "magazine": 120,
         "maxAmmo": 480,
-        "accuracy": 20,
         "modes": [
           {
             "damage": { "Impact": 5.6, "Puncture": 22.4 },
@@ -2899,6 +2891,8 @@
             "critChance": 0.16,
             "critMul": 1.6,
             "procChance": 0.28,
+            "accuracy": 20,
+            "trigger": "Auto",
             "prjSpeed": 100
           }
         ]
@@ -2957,10 +2951,8 @@
     "traits": ["Tenno"],
     "mastery": 1,
     "disposition": 1.25,
-    "trigger": "Auto",
     "reload": 50,
     "magazine": 32,
-    "accuracy": 100,
     "reloadStyle": 1,
     "modes": [
       {
@@ -2968,7 +2960,9 @@
         "fireRate": 498,
         "critChance": 0.25,
         "critMul": 2,
-        "procChance": 0.1
+        "procChance": 0.1,
+        "accuracy": 100,
+        "trigger": "Auto"
       }
     ],
     "variants": [
@@ -2977,18 +2971,18 @@
         "tags": ["Arch-Gun (Atmosphere)"],
         "traits": ["Tenno"],
         "mastery": 1,
-        "trigger": "Auto",
         "reload": 1.4,
         "magazine": 32,
         "maxAmmo": 512,
-        "accuracy": 100,
         "modes": [
           {
             "damage": { "Impact": 49.6, "Puncture": 30.25, "Slash": 30.25 },
             "fireRate": 498,
             "critChance": 0.28,
             "critMul": 2.2,
-            "procChance": 0.14
+            "procChance": 0.14,
+            "accuracy": 100,
+            "trigger": "Auto"
           }
         ]
       }
@@ -3167,18 +3161,18 @@
     "mastery": 11,
     "disposition": 1.3,
     "polarities": "r-",
-    "trigger": "Semi-Auto",
     "reload": 2.35,
     "magazine": 12,
     "maxAmmo": 72,
-    "accuracy": 16,
     "modes": [
       {
         "damage": { "Impact": 7.5, "Puncture": 60, "Slash": 7.5 },
         "fireRate": 60,
         "critChance": 0.05,
         "critMul": 2,
-        "procChance": 0.37
+        "procChance": 0.37,
+        "accuracy": 16,
+        "trigger": "Semi-Auto"
       }
     ]
   },
@@ -3211,11 +3205,9 @@
     "mastery": 9,
     "disposition": 1.45,
     "polarities": "-",
-    "trigger": "Held",
     "reload": 1.3,
     "magazine": 33,
     "maxAmmo": 210,
-    "accuracy": 100,
     "modes": [
       {
         "damage": { "Toxin": 35 },
@@ -3223,8 +3215,10 @@
         "critChance": 0.03,
         "critMul": 1.5,
         "procChance": 0.41,
+        "accuracy": 100,
         "range": 9,
-        "ammoCost": 0.5
+        "ammoCost": 0.5,
+        "trigger": "Held"
       }
     ]
   },
@@ -3319,11 +3313,9 @@
     "mastery": 14,
     "disposition": 0.7,
     "polarities": "rrr",
-    "trigger": "Semi-Auto",
     "reload": 2,
     "magazine": 5,
     "maxAmmo": 40,
-    "accuracy": 100,
     "modes": [
       {
         "damage": { "Impact": 292.5, "Puncture": 16.25, "Slash": 16.25 },
@@ -3331,6 +3323,8 @@
         "critChance": 0.3,
         "critMul": 2.5,
         "procChance": 0.02,
+        "accuracy": 100,
+        "trigger": "Semi-Auto",
         "prjSpeed": 180
       },
       {
@@ -3393,11 +3387,9 @@
     "tags": ["Primary", "Shotgun"],
     "mastery": 8,
     "disposition": 1,
-    "trigger": "Semi",
     "reload": 1.6,
     "magazine": 1,
     "maxAmmo": 47,
-    "accuracy": 15.4,
     "modes": [
       {
         "damage": {
@@ -3410,8 +3402,10 @@
         "critChance": 0.08,
         "critMul": 1.4,
         "procChance": 0.36,
+        "accuracy": 15.4,
         "punchThrough": 0.5,
         "pellets": 3,
+        "trigger": "Semi",
         "falloff": [30, 60, 0.508]
       }
     ]
@@ -3518,11 +3512,9 @@
     "mastery": 14,
     "disposition": 1.15,
     "polarities": "rd",
-    "trigger": "Charge",
     "reload": 1.8,
     "magazine": 10,
     "maxAmmo": 540,
-    "accuracy": 16.7,
     "modes": [
       {
         "type": "secondary",
@@ -3542,8 +3534,10 @@
         "critChance": 0.32,
         "critMul": 2.8,
         "procChance": 0.1,
+        "accuracy": 16.7,
         "punchThrough": 1.5,
-        "chargeTime": 0.5
+        "chargeTime": 0.5,
+        "trigger": "Charge"
       }
     ]
   },
@@ -3554,10 +3548,8 @@
     "mastery": 2,
     "disposition": 0.9,
     "polarities": "-",
-    "trigger": "Semi-Auto",
     "reload": 10,
     "magazine": 25,
-    "accuracy": 100,
     "reloadStyle": 1,
     "modes": [
       {
@@ -3566,7 +3558,9 @@
         "critChance": 0.15,
         "critMul": 2,
         "procChance": 0.1,
-        "range": 450
+        "accuracy": 100,
+        "range": 450,
+        "trigger": "Semi-Auto"
       }
     ],
     "variants": [
@@ -3576,11 +3570,9 @@
         "traits": ["Tenno"],
         "mastery": 2,
         "polarities": "-",
-        "trigger": "Semi-Auto",
         "reload": 3,
         "magazine": 40,
         "maxAmmo": 160,
-        "accuracy": 100,
         "modes": [
           {
             "damage": { "Impact": 50, "Puncture": 25, "Slash": 175 },
@@ -3588,7 +3580,9 @@
             "critChance": 0.22,
             "critMul": 2,
             "procChance": 0.16,
-            "range": 450
+            "accuracy": 100,
+            "range": 450,
+            "trigger": "Semi-Auto"
           }
         ]
       }
@@ -3600,11 +3594,9 @@
     "traits": ["Corpus"],
     "mastery": 6,
     "disposition": 1.55,
-    "trigger": "Held",
     "reload": 2.25,
     "magazine": 50,
     "maxAmmo": 50,
-    "accuracy": 100,
     "modes": [
       {
         "damage": { "Puncture": 4.8, "Slash": 17.2 },
@@ -3612,9 +3604,11 @@
         "critChance": 0.1,
         "critMul": 2,
         "procChance": 0.24,
+        "accuracy": 100,
         "punchThrough": 0.5,
         "range": 30,
-        "ammoCost": 0.5
+        "ammoCost": 0.5,
+        "trigger": "Held"
       }
     ]
   },
@@ -3670,12 +3664,9 @@
     "tags": ["Primary", "Rifle", "Assault Rifle"],
     "mastery": 8,
     "disposition": 1,
-    "silent": true,
-    "trigger": "Auto / Semi",
     "reload": 1,
     "magazine": 60,
     "maxAmmo": 500,
-    "accuracy": 9.1,
     "reloadStyle": 1,
     "modes": [
       {
@@ -3685,17 +3676,19 @@
         "critChance": 0.3,
         "critMul": 2.2,
         "procChance": 0.16,
-        "ammoCost": 10
+        "accuracy": 9.1,
+        "ammoCost": 10,
+        "trigger": "Auto / Semi"
       },
       {
         "type": "secondary",
         "name": "Full Auto Mode",
         "damage": { "Puncture": 8, "Electricity": 25 },
         "fireRate": 560,
-        "accuracy": 111.1,
         "critChance": 0.28,
         "critMul": 2.4,
         "procChance": 0.1,
+        "accuracy": 111.1,
         "trigger": "Semi-Auto"
       }
     ]
@@ -3771,18 +3764,18 @@
     "mastery": 2,
     "disposition": 1.35,
     "polarities": "-",
-    "trigger": "Auto",
     "reload": 1.4,
     "magazine": 35,
     "maxAmmo": 210,
-    "accuracy": 22.2,
     "modes": [
       {
         "damage": { "Impact": 3, "Puncture": 14, "Slash": 3 },
         "fireRate": 600,
         "critChance": 0.05,
         "critMul": 2,
-        "procChance": 0.12
+        "procChance": 0.12,
+        "accuracy": 22.2,
+        "trigger": "Auto"
       }
     ],
     "variants": [
@@ -3792,18 +3785,18 @@
         "traits": ["Tenno"],
         "mastery": 10,
         "polarities": "-",
-        "trigger": "Auto",
         "reload": 2,
         "magazine": 100,
         "maxAmmo": 400,
-        "accuracy": 15.4,
         "modes": [
           {
             "damage": { "Impact": 2.4, "Puncture": 11.2, "Slash": 2.4 },
             "fireRate": 1200,
             "critChance": 0.14,
             "critMul": 2,
-            "procChance": 0.28
+            "procChance": 0.28,
+            "accuracy": 15.4,
+            "trigger": "Auto"
           }
         ]
       },
@@ -3812,18 +3805,18 @@
         "tags": ["Secondary", "Pistol"],
         "traits": ["Tenno"],
         "polarities": "-",
-        "trigger": "Auto",
         "reload": 1.4,
         "magazine": 35,
         "maxAmmo": 210,
-        "accuracy": 22.2,
         "modes": [
           {
             "damage": { "Impact": 1.95, "Puncture": 9.1, "Slash": 1.95 },
             "fireRate": 500,
             "critChance": 0.05,
             "critMul": 2,
-            "procChance": 0.01
+            "procChance": 0.01,
+            "accuracy": 22.2,
+            "trigger": "Auto"
           }
         ]
       }
@@ -3836,12 +3829,9 @@
     "mastery": 7,
     "disposition": 1.3,
     "polarities": "r",
-    "silent": true,
-    "trigger": "Auto / Semi",
     "reload": 0.8,
     "magazine": 6,
     "maxAmmo": 72,
-    "accuracy": 100,
     "modes": [
       {
         "name": "Full Auto Mode",
@@ -3849,7 +3839,10 @@
         "fireRate": 170,
         "critChance": 0.23,
         "critMul": 1.7,
-        "procChance": 0.29
+        "procChance": 0.29,
+        "accuracy": 100,
+        "trigger": "Auto / Semi",
+        "silent": true
       },
       {
         "type": "secondary",
@@ -3945,11 +3938,9 @@
     "mastery": 2,
     "disposition": 0.8,
     "polarities": "d",
-    "trigger": "Held",
     "reload": 1.4,
     "magazine": 60,
     "maxAmmo": 240,
-    "accuracy": 100,
     "modes": [
       {
         "damage": { "Magnetic": 16 },
@@ -3957,8 +3948,10 @@
         "critChance": 0.08,
         "critMul": 1.8,
         "procChance": 0.2,
+        "accuracy": 100,
         "range": 25,
-        "ammoCost": 0.5
+        "ammoCost": 0.5,
+        "trigger": "Held"
       }
     ],
     "variants": [
@@ -3968,11 +3961,9 @@
         "traits": ["Syndicate", "Cephalon Suda"],
         "mastery": 7,
         "polarities": "d-",
-        "trigger": "Held",
         "reload": 1.8,
         "magazine": 80,
         "maxAmmo": 400,
-        "accuracy": 100,
         "modes": [
           {
             "damage": { "Magnetic": 20 },
@@ -3980,8 +3971,10 @@
             "critChance": 0.2,
             "critMul": 2,
             "procChance": 0.28,
+            "accuracy": 100,
             "range": 40,
-            "ammoCost": 0.5
+            "ammoCost": 0.5,
+            "trigger": "Held"
           }
         ]
       }
@@ -4125,11 +4118,9 @@
     "traits": ["Corpus"],
     "mastery": 8,
     "disposition": 1.35,
-    "trigger": "Held",
     "reload": 2.2,
     "magazine": 80,
     "maxAmmo": 720,
-    "accuracy": 100,
     "modes": [
       {
         "damage": { "Cold": 26 },
@@ -4137,8 +4128,10 @@
         "critChance": 0.08,
         "critMul": 2,
         "procChance": 0.34,
+        "accuracy": 100,
         "range": 24,
-        "ammoCost": 0.5
+        "ammoCost": 0.5,
+        "trigger": "Held"
       }
     ],
     "variants": [
@@ -4146,11 +4139,9 @@
         "name": "Glaxion Vandal",
         "tags": ["Primary", "Rifle", "Assault Rifle"],
         "mastery": 12,
-        "trigger": "Held",
         "reload": 1.8,
         "magazine": 100,
         "maxAmmo": 1000,
-        "accuracy": 100,
         "modes": [
           {
             "damage": { "Cold": 29 },
@@ -4158,7 +4149,9 @@
             "critChance": 0.14,
             "critMul": 2,
             "procChance": 0.38,
-            "range": 24
+            "accuracy": 100,
+            "range": 24,
+            "trigger": "Held"
           }
         ]
       }
@@ -4170,19 +4163,19 @@
     "traits": ["Grineer"],
     "mastery": 3,
     "disposition": 1.4,
-    "trigger": "Auto-Spool",
     "reload": 4.2,
     "magazine": 90,
     "maxAmmo": 540,
-    "accuracy": 12.5,
-    "spool": 15,
     "modes": [
       {
         "damage": { "Impact": 18.75, "Puncture": 3.75, "Slash": 2.5 },
         "fireRate": 750,
         "critChance": 0.17,
         "critMul": 1.5,
-        "procChance": 0.09
+        "procChance": 0.09,
+        "accuracy": 12.5,
+        "trigger": "Auto-Spool",
+        "spool": 15
       }
     ],
     "variants": [
@@ -4191,19 +4184,19 @@
         "tags": ["Primary", "Rifle", "Assault Rifle"],
         "traits": ["Wraith", "Grineer"],
         "mastery": 7,
-        "trigger": "Auto-Spool",
         "reload": 3,
         "magazine": 90,
         "maxAmmo": 900,
-        "accuracy": 16.7,
-        "spool": 10,
         "modes": [
           {
             "damage": { "Impact": 23, "Puncture": 2.7, "Slash": 1.3 },
             "fireRate": 798,
             "critChance": 0.15,
             "critMul": 1.9,
-            "procChance": 0.21
+            "procChance": 0.21,
+            "accuracy": 16.7,
+            "trigger": "Auto-Spool",
+            "spool": 10
           }
         ]
       },
@@ -4212,19 +4205,19 @@
         "tags": ["Primary", "Rifle", "Assault Rifle"],
         "traits": ["Prisma", "Baro"],
         "mastery": 11,
-        "trigger": "Auto-Spool",
         "reload": 3,
         "magazine": 120,
         "maxAmmo": 840,
-        "accuracy": 20,
-        "spool": 12,
         "modes": [
           {
             "damage": { "Impact": 17.3, "Puncture": 3.5, "Slash": 2.3 },
             "fireRate": 850,
             "critChance": 0.3,
             "critMul": 2.3,
-            "procChance": 0.15
+            "procChance": 0.15,
+            "accuracy": 20,
+            "trigger": "Auto-Spool",
+            "spool": 12
           }
         ]
       }
@@ -4236,18 +4229,18 @@
     "traits": ["Grineer"],
     "mastery": 5,
     "disposition": 1.2,
-    "trigger": "Auto",
     "reload": 2.4,
     "magazine": 60,
     "maxAmmo": 750,
-    "accuracy": 28.6,
     "modes": [
       {
         "damage": { "Impact": 4.4, "Puncture": 3.7, "Slash": 2.9 },
         "fireRate": 1200,
         "critChance": 0.25,
         "critMul": 2,
-        "procChance": 0.2
+        "procChance": 0.2,
+        "accuracy": 28.6,
+        "trigger": "Auto"
       }
     ],
     "variants": [
@@ -4256,18 +4249,18 @@
         "tags": ["Primary", "Rifle", "Assault Rifle"],
         "traits": ["Prisma", "Baro"],
         "mastery": 11,
-        "trigger": "Auto",
         "reload": 2,
         "magazine": 120,
         "maxAmmo": 1000,
-        "accuracy": 28.6,
         "modes": [
           {
             "damage": { "Impact": 6, "Puncture": 5, "Slash": 4 },
             "fireRate": 1300,
             "critChance": 0.25,
             "critMul": 2.5,
-            "procChance": 0.21
+            "procChance": 0.21,
+            "accuracy": 28.6,
+            "trigger": "Auto"
           }
         ]
       }
@@ -4325,10 +4318,8 @@
     "mastery": 4,
     "disposition": 0.95,
     "polarities": "r",
-    "trigger": "Auto",
     "reload": 10,
     "magazine": 60,
-    "accuracy": 25,
     "reloadStyle": 1,
     "modes": [
       {
@@ -4337,7 +4328,9 @@
         "fireRate": 375,
         "critChance": 0.25,
         "critMul": 2,
-        "procChance": 0.25
+        "procChance": 0.25,
+        "accuracy": 25,
+        "trigger": "Auto"
       },
       {
         "type": "area",
@@ -4352,11 +4345,9 @@
         "traits": ["Grineer"],
         "mastery": 4,
         "polarities": "r",
-        "trigger": "Auto",
         "reload": 2,
         "magazine": 30,
         "maxAmmo": 180,
-        "accuracy": 25,
         "modes": [
           {
             "name": "Projectile Impact",
@@ -4364,7 +4355,9 @@
             "fireRate": 375,
             "critChance": 0.25,
             "critMul": 2,
-            "procChance": 0.25
+            "procChance": 0.25,
+            "accuracy": 25,
+            "trigger": "Auto"
           },
           {
             "type": "area",
@@ -4382,18 +4375,18 @@
     "mastery": 7,
     "disposition": 1.245,
     "polarities": "r",
-    "trigger": "Semi-Auto",
     "reload": 1.7,
     "magazine": 9,
     "maxAmmo": 540,
-    "accuracy": 44.4,
     "modes": [
       {
         "damage": { "Impact": 93.5, "Puncture": 18.7, "Slash": 74.8 },
         "fireRate": 100,
         "critChance": 0.15,
         "critMul": 2.5,
-        "procChance": 0.35
+        "procChance": 0.35,
+        "accuracy": 44.4,
+        "trigger": "Semi-Auto"
       }
     ],
     "variants": [
@@ -4403,18 +4396,18 @@
         "traits": ["Prisma", "Baro"],
         "mastery": 11,
         "polarities": "r",
-        "trigger": "Semi-Auto",
         "reload": 1.7,
         "magazine": 21,
         "maxAmmo": 540,
-        "accuracy": 32,
         "modes": [
           {
             "damage": { "Impact": 74.8, "Puncture": 18.7, "Slash": 93.5 },
             "fireRate": 100,
             "critChance": 0.21,
             "critMul": 2.9,
-            "procChance": 0.37
+            "procChance": 0.37,
+            "accuracy": 32,
+            "trigger": "Semi-Auto"
           }
         ]
       }
@@ -4509,19 +4502,18 @@
     "mastery": 7,
     "disposition": 1.55,
     "polarities": "r",
-    "trigger": "Burst",
     "reload": 2,
     "magazine": 45,
     "maxAmmo": 540,
-    "accuracy": 18.2,
     "modes": [
       {
         "damage": { "Impact": 5, "Puncture": 37.5, "Slash": 7.5 },
         "fireRate": 360,
-        "accuracy": 18.2,
         "critChance": 0.2,
         "critMul": 2.3,
         "procChance": 0.17,
+        "accuracy": 18.2,
+        "trigger": "Burst",
         "burstCount": 3
       },
       {
@@ -4529,10 +4521,10 @@
         "name": "Harpoon",
         "damage": { "Impact": 40, "Puncture": 50, "Slash": 10 },
         "fireRate": 90,
-        "accuracy": 100,
         "critChance": 0.25,
         "critMul": 2.3,
         "procChance": 0.13,
+        "accuracy": 100,
         "range": 40
       }
     ]
@@ -4606,11 +4598,9 @@
     "traits": ["Grineer"],
     "mastery": 4,
     "disposition": 0.85,
-    "trigger": "Semi-Auto",
     "reload": 2,
     "magazine": 4,
     "maxAmmo": 120,
-    "accuracy": 9.1,
     "modes": [
       {
         "damage": { "Impact": 78.75, "Puncture": 341.25, "Slash": 105 },
@@ -4618,7 +4608,9 @@
         "critChance": 0.1,
         "critMul": 2,
         "procChance": 0.25,
+        "accuracy": 9.1,
         "pellets": 7,
+        "trigger": "Semi-Auto",
         "falloff": [10, 20, 0.8]
       }
     ],
@@ -4629,11 +4621,9 @@
         "traits": ["Syndicate", "Steel Meridian"],
         "mastery": 12,
         "polarities": "dr",
-        "trigger": "Semi-Auto",
         "reload": 2.25,
         "magazine": 8,
         "maxAmmo": 120,
-        "accuracy": 9.1,
         "modes": [
           {
             "damage": { "Impact": 78.75, "Puncture": 341.25, "Slash": 105 },
@@ -4641,7 +4631,9 @@
             "critChance": 0.25,
             "critMul": 2,
             "procChance": 0.25,
+            "accuracy": 9.1,
             "pellets": 7,
+            "trigger": "Semi-Auto",
             "falloff": [10, 25, 0.7333]
           }
         ]
@@ -4701,11 +4693,9 @@
     "mastery": 7,
     "disposition": 1.2,
     "polarities": "r",
-    "trigger": "Burst",
     "reload": 2,
     "magazine": 60,
     "maxAmmo": 60,
-    "accuracy": 20,
     "modes": [
       {
         "damage": { "Viral": 47 },
@@ -4713,6 +4703,8 @@
         "critChance": 0.11,
         "critMul": 2,
         "procChance": 0.25,
+        "accuracy": 20,
+        "trigger": "Burst",
         "burstCount": 3
       }
     ]
@@ -4724,12 +4716,9 @@
     "mastery": 2,
     "disposition": 0.95,
     "polarities": "rr",
-    "silent": true,
-    "trigger": "Auto",
     "reload": 0.75,
     "magazine": 20,
     "maxAmmo": 210,
-    "accuracy": 100,
     "modes": [
       {
         "damage": { "Impact": 2.6, "Puncture": 15.6, "Slash": 7.8 },
@@ -4737,6 +4726,8 @@
         "critChance": 0.04,
         "critMul": 1.6,
         "procChance": 0.1,
+        "accuracy": 100,
+        "trigger": "Auto",
         "prjSpeed": 70
       }
     ],
@@ -4747,11 +4738,9 @@
         "traits": ["Prime", "Vaulted"],
         "mastery": 4,
         "polarities": "rr",
-        "trigger": "Auto",
         "reload": 0.5,
         "magazine": 26,
         "maxAmmo": 210,
-        "accuracy": 100,
         "modes": [
           {
             "damage": { "Impact": 3.6, "Puncture": 30.6, "Slash": 1.8 },
@@ -4759,6 +4748,8 @@
             "critChance": 0.06,
             "critMul": 1.8,
             "procChance": 0.28,
+            "accuracy": 100,
+            "trigger": "Auto",
             "prjSpeed": 70
           }
         ]
@@ -4771,20 +4762,19 @@
     "traits": ["Grineer"],
     "disposition": 1.42,
     "polarities": "r",
-    "trigger": "Burst",
     "reload": 2,
     "magazine": 65,
     "maxAmmo": 540,
-    "accuracy": 33.3,
     "modes": [
       {
         "name": "Burst Mode",
         "damage": { "Impact": 7.5, "Puncture": 7.5, "Slash": 15 },
         "fireRate": 375,
-        "accuracy": 33.3,
         "critChance": 0.07,
         "critMul": 1.5,
         "procChance": 0.15,
+        "accuracy": 33.3,
+        "trigger": "Burst",
         "burstCount": 5
       },
       {
@@ -4792,10 +4782,10 @@
         "name": "Semi-Auto Mode",
         "damage": { "Impact": 12, "Puncture": 12, "Slash": 36 },
         "fireRate": 150,
-        "accuracy": 28.6,
         "critChance": 0.15,
         "critMul": 2,
         "procChance": 0.1,
+        "accuracy": 28.6,
         "trigger": "Semi-Auto"
       }
     ]
@@ -4829,20 +4819,19 @@
     "mastery": 7,
     "disposition": 1.1,
     "polarities": "r",
-    "trigger": "Auto",
     "reload": 1.7,
     "magazine": 16,
     "maxAmmo": 320,
-    "accuracy": 14.3,
     "modes": [
       {
         "name": "Poison / Ice Quill",
         "damage": { "Impact": 2.2, "Puncture": 31, "Slash": 2.9 },
         "fireRate": 420,
-        "accuracy": 14.3,
         "critChance": 0.24,
         "critMul": 2.2,
-        "procChance": 0.1
+        "procChance": 0.1,
+        "accuracy": 14.3,
+        "trigger": "Auto"
       },
       {
         "type": "secondary",
@@ -4860,11 +4849,9 @@
     "traits": ["Grineer"],
     "mastery": 5,
     "disposition": 0.6,
-    "trigger": "Held",
     "reload": 2,
     "magazine": 150,
     "maxAmmo": 750,
-    "accuracy": 100,
     "modes": [
       {
         "damage": { "Heat": 33 },
@@ -4872,7 +4859,9 @@
         "critChance": 0.11,
         "critMul": 2,
         "procChance": 0.27,
-        "range": 20
+        "accuracy": 100,
+        "range": 20,
+        "trigger": "Held"
       }
     ],
     "variants": [
@@ -4881,11 +4870,9 @@
         "tags": ["Primary", "Rifle", "Assault Rifle"],
         "traits": ["Wraith", "Grineer"],
         "mastery": 9,
-        "trigger": "Held",
         "reload": 1.7,
         "magazine": 200,
         "maxAmmo": 800,
-        "accuracy": 100,
         "modes": [
           {
             "damage": { "Heat": 35 },
@@ -4893,7 +4880,9 @@
             "critChance": 0.17,
             "critMul": 2.5,
             "procChance": 0.29,
-            "range": 27
+            "accuracy": 100,
+            "range": 27,
+            "trigger": "Held"
           }
         ]
       }
@@ -4905,10 +4894,8 @@
     "traits": ["Tenno"],
     "disposition": 0.85,
     "polarities": "r",
-    "trigger": "Auto",
     "reload": 50,
     "magazine": 250,
-    "accuracy": 25,
     "reloadStyle": 1,
     "modes": [
       {
@@ -4916,7 +4903,9 @@
         "fireRate": 1002,
         "critChance": 0.1,
         "critMul": 2,
-        "procChance": 0.05
+        "procChance": 0.05,
+        "accuracy": 25,
+        "trigger": "Auto"
       }
     ],
     "variants": [
@@ -4925,18 +4914,18 @@
         "tags": ["Arch-Gun (Atmosphere)"],
         "traits": ["Tenno"],
         "polarities": "r",
-        "trigger": "Auto",
         "reload": 2,
         "magazine": 200,
         "maxAmmo": 800,
-        "accuracy": 25,
         "modes": [
           {
             "damage": { "Impact": 20, "Puncture": 17.5, "Slash": 12.5 },
             "fireRate": 1002,
             "critChance": 0.24,
             "critMul": 2,
-            "procChance": 0.12
+            "procChance": 0.12,
+            "accuracy": 25,
+            "trigger": "Auto"
           }
         ]
       },
@@ -4946,10 +4935,8 @@
         "traits": ["Tenno", "Vandal"],
         "mastery": 5,
         "polarities": "r",
-        "trigger": "Auto-Spool",
         "reload": 75,
         "magazine": 300,
-        "accuracy": 25,
         "reloadStyle": 1,
         "modes": [
           {
@@ -4957,7 +4944,9 @@
             "fireRate": 1000,
             "critChance": 0.15,
             "critMul": 2,
-            "procChance": 0.1
+            "procChance": 0.1,
+            "accuracy": 25,
+            "trigger": "Auto-Spool"
           }
         ],
         "variants": [
@@ -4966,18 +4955,18 @@
             "tags": ["Arch-Gun (Atmosphere)"],
             "traits": ["Tenno", "Vandal"],
             "mastery": 5,
-            "trigger": "Auto-Spool",
             "reload": 2,
             "magazine": 300,
             "maxAmmo": 1200,
-            "accuracy": 25,
             "modes": [
               {
                 "damage": { "Impact": 20, "Puncture": 17.5, "Slash": 12.5 },
                 "fireRate": 1500,
                 "critChance": 0.28,
                 "critMul": 2.4,
-                "procChance": 0.12
+                "procChance": 0.12,
+                "accuracy": 25,
+                "trigger": "Auto-Spool"
               }
             ]
           }
@@ -5055,21 +5044,19 @@
     "mastery": 7,
     "disposition": 1.2,
     "polarities": "rr",
-    "trigger": "Charge",
     "reload": 1.9,
     "magazine": 6,
     "maxAmmo": 300,
-    "accuracy": 100,
     "modes": [
       {
         "type": "secondary",
         "name": "Throw Spear",
         "damage": { "Impact": 45, "Puncture": 75, "Slash": 30 },
         "fireRate": 60,
-        "accuracy": 16.7,
         "critChance": 0.2,
         "critMul": 2,
         "procChance": 0.25,
+        "accuracy": 16.7,
         "chargeTime": 0.5
       },
       {
@@ -5077,11 +5064,12 @@
         "name": "Projectile Impact",
         "damage": { "Heat": 230 },
         "fireRate": 200,
-        "accuracy": 100,
         "critChance": 0.2,
         "critMul": 2,
         "procChance": 0.25,
-        "chargeTime": 0.3
+        "accuracy": 100,
+        "chargeTime": 0.3,
+        "trigger": "Charge"
       },
       {
         "type": "area",
@@ -5153,18 +5141,18 @@
     "mastery": 1,
     "disposition": 1.28,
     "polarities": "r",
-    "trigger": "Auto",
     "reload": 2,
     "magazine": 30,
     "maxAmmo": 540,
-    "accuracy": 28.6,
     "modes": [
       {
         "damage": { "Impact": 13, "Puncture": 8.7, "Slash": 7.3 },
         "fireRate": 700,
         "critChance": 0.09,
         "critMul": 1.5,
-        "procChance": 0.15
+        "procChance": 0.15,
+        "accuracy": 28.6,
+        "trigger": "Auto"
       }
     ],
     "variants": [
@@ -5174,18 +5162,18 @@
         "traits": ["Wraith", "Invasion Reward", "Grineer"],
         "mastery": 7,
         "polarities": "r",
-        "trigger": "Auto",
         "reload": 2,
         "magazine": 60,
         "maxAmmo": 540,
-        "accuracy": 28.6,
         "modes": [
           {
             "damage": { "Impact": 14.1, "Puncture": 9.3, "Slash": 7.8 },
             "fireRate": 700,
             "critChance": 0.13,
             "critMul": 2,
-            "procChance": 0.25
+            "procChance": 0.25,
+            "accuracy": 28.6,
+            "trigger": "Auto"
           }
         ]
       }
@@ -5296,11 +5284,9 @@
     "traits": ["Tenno"],
     "mastery": 10,
     "disposition": 1.15,
-    "trigger": "Auto",
     "reload": 2,
     "magazine": 1,
     "maxAmmo": 10,
-    "accuracy": 32,
     "sniperComboReset": 2,
     "modes": [
       {
@@ -5308,7 +5294,9 @@
         "fireRate": 240,
         "critChance": 0.2,
         "critMul": 1.5,
-        "procChance": 0.05
+        "procChance": 0.05,
+        "accuracy": 32,
+        "trigger": "Auto"
       }
     ]
   },
@@ -5382,11 +5370,9 @@
     "mastery": 5,
     "disposition": 1.4,
     "polarities": "d",
-    "trigger": "Auto-Spool",
     "reload": 2,
     "magazine": 245,
     "maxAmmo": 960,
-    "accuracy": 8,
     "modes": [
       {
         "name": "Single Pellet",
@@ -5395,7 +5381,9 @@
         "critChance": 0.11,
         "critMul": 2.3,
         "procChance": 0.25,
+        "accuracy": 8,
         "punchThrough": 1.5,
+        "trigger": "Auto-Spool",
         "falloff": [15, 25, 0.4667]
       },
       {
@@ -5415,10 +5403,8 @@
     "mastery": 5,
     "disposition": 1.35,
     "polarities": "d",
-    "trigger": "Auto-Spool",
     "reload": 2,
     "magazine": 40,
-    "accuracy": 8,
     "modes": [
       {
         "name": "Single Pellet",
@@ -5427,7 +5413,9 @@
         "critChance": 0.11,
         "critMul": 2,
         "procChance": 0.23,
+        "accuracy": 8,
         "punchThrough": 1.5,
+        "trigger": "Auto-Spool",
         "falloff": [12, 24, 0.6667]
       },
       {
@@ -5444,11 +5432,9 @@
     "tags": ["Primary", "Rifle", "Sniper"],
     "mastery": 8,
     "disposition": 1,
-    "trigger": "Semi",
     "reload": 3,
     "magazine": 20,
     "maxAmmo": 100,
-    "accuracy": 20,
     "modes": [
       {
         "name": "Semi-Auto Mode",
@@ -5456,7 +5442,9 @@
         "fireRate": 360,
         "critChance": 0.16,
         "critMul": 2.1,
-        "procChance": 0.35
+        "procChance": 0.35,
+        "accuracy": 20,
+        "trigger": "Semi"
       }
     ]
   },
@@ -5485,11 +5473,9 @@
     "tags": ["Secondary", "Pistol"],
     "traits": ["Grineer"],
     "disposition": 1.53,
-    "trigger": "Burst",
     "reload": 2.45,
     "magazine": 14,
     "maxAmmo": 210,
-    "accuracy": 16,
     "modes": [
       {
         "damage": { "Impact": 36.8, "Puncture": 6.1, "Slash": 6.1 },
@@ -5497,6 +5483,8 @@
         "critChance": 0.05,
         "critMul": 2,
         "procChance": 0.13,
+        "accuracy": 16,
+        "trigger": "Burst",
         "burstCount": 2
       }
     ]
@@ -5593,11 +5581,9 @@
     "mastery": 5,
     "disposition": 1.25,
     "polarities": "d",
-    "trigger": "Semi-Auto",
     "reload": 2,
     "magazine": 3,
     "maxAmmo": 15,
-    "accuracy": 26.7,
     "modes": [
       {
         "name": "Rocket Impact",
@@ -5605,7 +5591,9 @@
         "fireRate": 120,
         "critChance": 0.17,
         "critMul": 2.3,
-        "procChance": 0.19
+        "procChance": 0.19,
+        "accuracy": 26.7,
+        "trigger": "Semi-Auto"
       },
       {
         "type": "area",
@@ -5630,12 +5618,9 @@
     "mastery": 2,
     "disposition": 1.51,
     "polarities": "rr",
-    "silent": true,
-    "trigger": "Auto",
     "reload": 0.75,
     "magazine": 10,
     "maxAmmo": 210,
-    "accuracy": 100,
     "modes": [
       {
         "damage": { "Impact": 4.6, "Puncture": 34.5, "Slash": 6.9 },
@@ -5643,6 +5628,8 @@
         "critChance": 0.08,
         "critMul": 1.6,
         "procChance": 0.08,
+        "accuracy": 100,
+        "trigger": "Auto",
         "prjSpeed": 70
       }
     ],
@@ -5652,11 +5639,9 @@
         "tags": ["Secondary", "Pistol", "Thrown"],
         "traits": ["Tenno"],
         "polarities": "rr",
-        "trigger": "Auto",
         "reload": 0.75,
         "magazine": 10,
         "maxAmmo": 210,
-        "accuracy": 100,
         "modes": [
           {
             "damage": { "Impact": 4, "Puncture": 30, "Slash": 6 },
@@ -5664,6 +5649,8 @@
             "critChance": 0.05,
             "critMul": 2,
             "procChance": 0.025,
+            "accuracy": 100,
+            "trigger": "Auto",
             "prjSpeed": 70
           }
         ]
@@ -5714,11 +5701,9 @@
     "traits": ["Corpus"],
     "mastery": 10,
     "disposition": 0.85,
-    "trigger": "Charge",
     "reload": 2,
     "magazine": 10,
     "maxAmmo": 72,
-    "accuracy": 100,
     "sniperComboMin": 2,
     "sniperComboReset": 6,
     "zoom": [
@@ -5733,9 +5718,11 @@
         "critChance": 0.25,
         "critMul": 2,
         "procChance": 0.25,
+        "accuracy": 100,
         "chargeTime": 0.33,
-        "falloff": [400, 600, null],
-        "prjSpeed": 200
+        "trigger": "Charge",
+        "prjSpeed": 200,
+        "falloff": [400, 600, null]
       },
       {
         "type": "charge",
@@ -5753,9 +5740,15 @@
     "name": "Lanzo",
     "tags": ["Gear", "Pistol", "Thrown"],
     "traits": ["Cetus"],
-    "trigger": "Semi-Auto",
-    "range": 20,
-    "modes": [{ "damage": { "Impact": 10 }, "critMul": 2, "procChance": 0 }]
+    "modes": [
+      {
+        "damage": { "Impact": 10 },
+        "critMul": 2,
+        "procChance": 0,
+        "range": 20,
+        "trigger": "Semi-Auto"
+      }
+    ]
   },
   {
     "name": "Larkspur",
@@ -5763,10 +5756,8 @@
     "traits": ["Tenno"],
     "mastery": 8,
     "disposition": 0.8,
-    "trigger": "Held",
     "reload": 50,
     "magazine": 600,
-    "accuracy": 8.3,
     "reloadStyle": 1,
     "modes": [
       {
@@ -5774,16 +5765,18 @@
         "fireRate": 720,
         "critChance": 0.1,
         "critMul": 1.4,
-        "procChance": 0.5
+        "procChance": 0.5,
+        "accuracy": 8.3,
+        "trigger": "Held"
       },
       {
         "type": "charge",
         "damage": { "Impact": 200, "Blast": 250, "Radiation": 1300 },
         "fireRate": 60,
-        "accuracy": 100,
         "critChance": 0.26,
         "critMul": 2.2,
         "procChance": 0.34,
+        "accuracy": 100,
         "chargeTime": 0.5
       }
     ],
@@ -5793,27 +5786,27 @@
         "tags": ["Arch-Gun (Atmosphere)"],
         "traits": ["Tenno"],
         "mastery": 8,
-        "trigger": "Held",
         "reload": 2.5,
         "magazine": 100,
         "maxAmmo": 400,
-        "accuracy": 8.3,
         "modes": [
           {
             "damage": { "Impact": 10, "Radiation": 80 },
             "fireRate": 720,
             "critChance": 0.1,
             "critMul": 1.4,
-            "procChance": 0.5
+            "procChance": 0.5,
+            "accuracy": 8.3,
+            "trigger": "Held"
           },
           {
             "type": "charge",
             "damage": { "Impact": 200, "Blast": 250, "Radiation": 1300 },
             "fireRate": 60,
-            "accuracy": 100,
             "critChance": 0.26,
             "critMul": 2.2,
             "procChance": 0.34,
+            "accuracy": 100,
             "chargeTime": 0.5
           }
         ]
@@ -5825,17 +5818,17 @@
     "tags": ["Robotic", "Rifle", "Assault Rifle"],
     "traits": ["Tenno"],
     "disposition": 1.21,
-    "trigger": "Auto",
     "reload": 1.2,
     "magazine": 5,
-    "accuracy": 100,
     "modes": [
       {
         "damage": { "Impact": 0.8, "Puncture": 6.4, "Slash": 0.8 },
         "fireRate": 402,
         "critChance": 0.025,
         "critMul": 1.25,
-        "procChance": 0.02
+        "procChance": 0.02,
+        "accuracy": 100,
+        "trigger": "Auto"
       }
     ]
   },
@@ -5844,18 +5837,18 @@
     "tags": ["Secondary", "Pistol"],
     "traits": ["Tutorial", "Tenno"],
     "disposition": 1.35,
-    "trigger": "Semi-Auto",
     "reload": 1,
     "magazine": 15,
     "maxAmmo": 210,
-    "accuracy": 18.2,
     "modes": [
       {
         "damage": { "Impact": 7.5, "Puncture": 7.5, "Slash": 15 },
         "fireRate": 400,
         "critChance": 0.1,
         "critMul": 1.8,
-        "procChance": 0.06
+        "procChance": 0.06,
+        "accuracy": 18.2,
+        "trigger": "Semi-Auto"
       }
     ],
     "variants": [
@@ -5865,18 +5858,18 @@
         "traits": ["Prime", "Vaulted", "Founder"],
         "mastery": 14,
         "polarities": "r-",
-        "trigger": "Semi-Auto",
         "reload": 1,
         "magazine": 20,
         "maxAmmo": 210,
-        "accuracy": 18.2,
         "modes": [
           {
             "damage": { "Impact": 4.8, "Puncture": 9.6, "Slash": 33.6 },
             "fireRate": 400,
             "critChance": 0.3,
             "critMul": 2,
-            "procChance": 0.2
+            "procChance": 0.2,
+            "accuracy": 18.2,
+            "trigger": "Semi-Auto"
           }
         ]
       },
@@ -5886,18 +5879,18 @@
         "traits": ["Tenno", "Vandal"],
         "mastery": 7,
         "polarities": "r",
-        "trigger": "Semi-Auto",
         "reload": 1,
         "magazine": 15,
         "maxAmmo": 210,
-        "accuracy": 23,
         "modes": [
           {
             "damage": { "Impact": 6.9, "Puncture": 11.5, "Slash": 27.6 },
             "fireRate": 300,
             "critChance": 0.26,
             "critMul": 2.4,
-            "procChance": 0.1
+            "procChance": 0.1,
+            "accuracy": 23,
+            "trigger": "Semi-Auto"
           }
         ]
       }
@@ -5909,18 +5902,18 @@
     "traits": ["Tenno"],
     "disposition": 1.25,
     "polarities": "r",
-    "trigger": "Semi-Auto",
     "reload": 2.4,
     "magazine": 15,
     "maxAmmo": 540,
-    "accuracy": 28.6,
     "modes": [
       {
         "damage": { "Impact": 8.25, "Puncture": 38.5, "Slash": 8.25 },
         "fireRate": 250,
         "critChance": 0.12,
         "critMul": 2,
-        "procChance": 0.12
+        "procChance": 0.12,
+        "accuracy": 28.6,
+        "trigger": "Semi-Auto"
       }
     ],
     "variants": [
@@ -5930,18 +5923,18 @@
         "traits": ["Prime", "Vaulted"],
         "mastery": 10,
         "polarities": "r-",
-        "trigger": "Semi-Auto",
         "reload": 2.4,
         "magazine": 15,
         "maxAmmo": 540,
-        "accuracy": 28.6,
         "modes": [
           {
             "damage": { "Impact": 9, "Puncture": 72, "Slash": 9 },
             "fireRate": 250,
             "critChance": 0.22,
             "critMul": 2.8,
-            "procChance": 0.26
+            "procChance": 0.26,
+            "accuracy": 28.6,
+            "trigger": "Semi-Auto"
           }
         ]
       },
@@ -5951,18 +5944,18 @@
         "traits": ["Wraith", "Invasion Reward", "Tenno"],
         "mastery": 7,
         "polarities": "r",
-        "trigger": "Semi-Auto",
         "reload": 2.4,
         "magazine": 15,
         "maxAmmo": 540,
-        "accuracy": 28.6,
         "modes": [
           {
             "damage": { "Impact": 15, "Puncture": 42, "Slash": 3 },
             "fireRate": 325,
             "critChance": 0.26,
             "critMul": 2.8,
-            "procChance": 0.14
+            "procChance": 0.14,
+            "accuracy": 28.6,
+            "trigger": "Semi-Auto"
           }
         ]
       }
@@ -6019,11 +6012,9 @@
     "mastery": 8,
     "disposition": 0.9,
     "polarities": "--",
-    "trigger": "Charge",
     "reload": 0.6,
     "magazine": 1,
     "maxAmmo": 6,
-    "accuracy": 16.7,
     "modes": [
       {
         "type": "charge",
@@ -6032,7 +6023,9 @@
         "critChance": 0.5,
         "critMul": 2,
         "procChance": 0.05,
-        "chargeTime": 1.2
+        "accuracy": 16.7,
+        "chargeTime": 1.2,
+        "trigger": "Charge"
       },
       {
         "type": "area",
@@ -6077,18 +6070,18 @@
     "mastery": 3,
     "disposition": 0.7,
     "polarities": "r",
-    "trigger": "Semi-Auto",
     "reload": 2.35,
     "magazine": 6,
     "maxAmmo": 210,
-    "accuracy": 16,
     "modes": [
       {
         "damage": { "Impact": 13, "Puncture": 104, "Slash": 13 },
         "fireRate": 65,
         "critChance": 0.2,
         "critMul": 2,
-        "procChance": 0.1
+        "procChance": 0.1,
+        "accuracy": 16,
+        "trigger": "Semi-Auto"
       }
     ],
     "variants": [
@@ -6098,18 +6091,18 @@
         "traits": ["Prime", "Never Vaulted"],
         "mastery": 8,
         "polarities": "r",
-        "trigger": "Semi-Auto",
         "reload": 2.35,
         "magazine": 8,
         "maxAmmo": 210,
-        "accuracy": 16,
         "modes": [
           {
             "damage": { "Impact": 15, "Puncture": 120, "Slash": 15 },
             "fireRate": 125,
             "critChance": 0.25,
             "critMul": 2,
-            "procChance": 0.25
+            "procChance": 0.25,
+            "accuracy": 16,
+            "trigger": "Semi-Auto"
           }
         ]
       }
@@ -6230,18 +6223,18 @@
     "mastery": 10,
     "disposition": 1.53,
     "polarities": "r",
-    "trigger": "Semi-Auto",
     "reload": 1.4,
     "magazine": 8,
     "maxAmmo": 210,
-    "accuracy": 16,
     "modes": [
       {
         "damage": { "Impact": 34.2, "Puncture": 20.9, "Slash": 20.9 },
         "fireRate": 350,
         "critChance": 0.22,
         "critMul": 2,
-        "procChance": 0.22
+        "procChance": 0.22,
+        "accuracy": 16,
+        "trigger": "Semi-Auto"
       }
     ]
   },
@@ -6252,17 +6245,17 @@
     "mastery": 7,
     "disposition": 0.8,
     "polarities": "r",
-    "trigger": "Semi-Auto",
     "reload": 1.667,
     "magazine": 6,
-    "accuracy": 10,
     "modes": [
       {
         "damage": { "Impact": 80, "Puncture": 16, "Slash": 64 },
         "fireRate": 120,
         "critChance": 0.15,
         "critMul": 1.5,
-        "procChance": 0.3
+        "procChance": 0.3,
+        "accuracy": 10,
+        "trigger": "Semi-Auto"
       }
     ],
     "variants": [
@@ -6272,17 +6265,17 @@
         "traits": ["Syndicate", "Steel Meridian"],
         "mastery": 10,
         "polarities": "rd",
-        "trigger": "Semi-Auto",
         "reload": 1.667,
         "magazine": 10,
-        "accuracy": 10,
         "modes": [
           {
             "damage": { "Impact": 96, "Puncture": 16, "Slash": 48 },
             "fireRate": 120,
             "critChance": 0.2,
             "critMul": 1.5,
-            "procChance": 0.35
+            "procChance": 0.35,
+            "accuracy": 10,
+            "trigger": "Semi-Auto"
           }
         ]
       }
@@ -6338,11 +6331,9 @@
     "mastery": 6,
     "disposition": 1.55,
     "polarities": "-",
-    "trigger": "Charge",
     "reload": 2,
     "magazine": 20,
     "maxAmmo": 72,
-    "accuracy": 100,
     "modes": [
       {
         "damage": { "Impact": 5, "Puncture": 5, "Slash": 90 },
@@ -6350,6 +6341,8 @@
         "critChance": 0.05,
         "critMul": 2,
         "procChance": 0.25,
+        "accuracy": 100,
+        "trigger": "Charge",
         "prjSpeed": 60
       },
       {
@@ -6371,10 +6364,8 @@
     "mastery": 3,
     "disposition": 1,
     "polarities": "r",
-    "trigger": "Auto",
     "reload": 3,
     "magazine": 60,
-    "accuracy": 18.2,
     "modes": [
       {
         "damage": { "Impact": 1.3, "Puncture": 3.8 },
@@ -6382,7 +6373,9 @@
         "critChance": 0.125,
         "critMul": 1.75,
         "procChance": 0.05,
-        "punchThrough": 0.1
+        "accuracy": 18.2,
+        "punchThrough": 0.1,
+        "trigger": "Auto"
       }
     ]
   },
@@ -6393,18 +6386,17 @@
     "mastery": 7,
     "disposition": 1.35,
     "polarities": "-",
-    "silent": true,
-    "trigger": "Charge",
     "reload": 0.6,
     "magazine": 1,
     "maxAmmo": 72,
-    "accuracy": 16.7,
     "modes": [
       {
         "damage": { "Impact": 108, "Puncture": 6, "Slash": 6 },
         "critChance": 0.1,
         "critMul": 1.5,
         "procChance": 0.49,
+        "accuracy": 16.7,
+        "trigger": "Charge",
         "prjSpeed": 70
       },
       {
@@ -6427,19 +6419,18 @@
     "mastery": 2,
     "disposition": 1.55,
     "polarities": "d",
-    "trigger": "Auto",
     "reload": 3,
     "magazine": 60,
     "maxAmmo": 540,
-    "accuracy": 100,
     "modes": [
       {
         "damage": { "Impact": 2.5, "Puncture": 15, "Slash": 7.5 },
         "fireRate": 600,
-        "accuracy": 100,
         "critChance": 0.025,
         "critMul": 1.5,
         "procChance": 0.15,
+        "accuracy": 100,
+        "trigger": "Auto",
         "prjSpeed": 100
       },
       {
@@ -6447,10 +6438,10 @@
         "name": "Orb Explosion",
         "damage": { "Toxin": 100 },
         "fireRate": 600,
-        "accuracy": 25,
         "critChance": 0.05,
         "critMul": 1.5,
         "procChance": 0,
+        "accuracy": 25,
         "radius": 8
       },
       {
@@ -6469,31 +6460,30 @@
     "mastery": 9,
     "disposition": 1.05,
     "polarities": "r",
-    "silent": true,
-    "trigger": "Semi / Burst",
     "reload": 2.3,
     "magazine": 9,
     "maxAmmo": 540,
-    "accuracy": 40,
     "modes": [
       {
         "name": "Semi-Auto",
         "damage": { "Impact": 1.6, "Puncture": 14.3, "Slash": 143.1 },
         "fireRate": 150,
-        "accuracy": 40,
         "critChance": 0.15,
         "critMul": 2.3,
-        "procChance": 0.39
+        "procChance": 0.39,
+        "accuracy": 40,
+        "trigger": "Semi / Burst",
+        "silent": true
       },
       {
         "type": "secondary",
         "name": "Burst Shot",
         "damage": { "Impact": 1.6, "Puncture": 14.3, "Slash": 143.1 },
         "fireRate": 349,
-        "accuracy": 40,
         "critChance": 0.15,
         "critMul": 2.3,
         "procChance": 0.39,
+        "accuracy": 40,
         "burstCount": 9,
         "prjSpeed": 100
       }
@@ -6632,11 +6622,9 @@
     "traits": ["Grineer"],
     "mastery": 4,
     "disposition": 1.45,
-    "trigger": "Held",
     "reload": 2,
     "magazine": 50,
     "maxAmmo": 210,
-    "accuracy": 100,
     "modes": [
       {
         "damage": { "Radiation": 22 },
@@ -6644,8 +6632,10 @@
         "critChance": 0.03,
         "critMul": 4,
         "procChance": 0.29,
+        "accuracy": 100,
         "range": 25,
-        "ammoCost": 0.5
+        "ammoCost": 0.5,
+        "trigger": "Held"
       }
     ]
   },
@@ -6699,11 +6689,9 @@
     "traits": ["Corpus"],
     "mastery": 8,
     "disposition": 1.1,
-    "trigger": "Held",
     "reload": 1.6,
     "magazine": 60,
     "maxAmmo": 300,
-    "accuracy": 100,
     "modes": [
       {
         "damage": { "Puncture": 2, "Radiation": 20 },
@@ -6711,8 +6699,10 @@
         "critChance": 0.16,
         "critMul": 1.8,
         "procChance": 0.24,
+        "accuracy": 100,
         "range": 20,
-        "ammoCost": 0.5
+        "ammoCost": 0.5,
+        "trigger": "Held"
       }
     ]
   },
@@ -6722,11 +6712,9 @@
     "traits": ["Grineer"],
     "mastery": 9,
     "disposition": 1.3,
-    "trigger": "Charge",
     "reload": 2.5,
     "magazine": 5,
     "maxAmmo": 20,
-    "accuracy": 100,
     "modes": [
       {
         "type": "charge",
@@ -6736,7 +6724,9 @@
         "critChance": 0.05,
         "critMul": 2,
         "procChance": 0.35,
+        "accuracy": 100,
         "chargeTime": 0.3,
+        "trigger": "Charge",
         "prjSpeed": 40
       },
       {
@@ -6817,11 +6807,9 @@
     "mastery": 14,
     "disposition": 1.15,
     "polarities": "r",
-    "trigger": "Charge",
     "reload": 2,
     "magazine": 5,
     "maxAmmo": 200,
-    "accuracy": 100,
     "modes": [
       {
         "type": "charge",
@@ -6830,9 +6818,11 @@
         "critChance": 0.2,
         "critMul": 2.5,
         "procChance": 0.2,
+        "accuracy": 100,
         "punchThrough": 1,
         "range": 300,
-        "chargeTime": 2
+        "chargeTime": 2,
+        "trigger": "Charge"
       },
       { "type": "area", "damage": { "Magnetic": 400 }, "radius": 5 }
     ],
@@ -6843,11 +6833,9 @@
         "traits": ["Corpus"],
         "mastery": 14,
         "polarities": "r",
-        "trigger": "Charge",
         "reload": 1.4,
         "magazine": 8,
         "maxAmmo": 200,
-        "accuracy": 100,
         "modes": [
           {
             "type": "charge",
@@ -6856,9 +6844,11 @@
             "critChance": 0.24,
             "critMul": 2.6,
             "procChance": 0.3,
+            "accuracy": 100,
             "punchThrough": 1,
             "range": 300,
-            "chargeTime": 0.6
+            "chargeTime": 0.6,
+            "trigger": "Charge"
           },
           { "type": "area", "damage": { "Magnetic": 200 }, "radius": 5 }
         ]
@@ -6951,18 +6941,18 @@
     "traits": ["Tenno"],
     "mastery": 8,
     "disposition": 0.95,
-    "trigger": "Semi-Auto",
     "reload": 1,
     "magazine": 8,
     "maxAmmo": 210,
-    "accuracy": 16,
     "modes": [
       {
         "damage": { "Impact": 18, "Puncture": 18, "Slash": 36 },
         "fireRate": 180,
         "critChance": 0.3,
         "critMul": 2.8,
-        "procChance": 0.1
+        "procChance": 0.1,
+        "accuracy": 16,
+        "trigger": "Semi-Auto"
       },
       {
         "type": "secondary",
@@ -7002,10 +6992,8 @@
     "mastery": 7,
     "disposition": 1.4,
     "polarities": "-",
-    "trigger": "Auto",
     "reload": 2,
     "magazine": 60,
-    "accuracy": 100,
     "modes": [
       {
         "damage": { "Impact": 20, "Puncture": 10, "Slash": 70 },
@@ -7013,7 +7001,9 @@
         "critChance": 0.12,
         "critMul": 2,
         "procChance": 0.24,
+        "accuracy": 100,
         "ammoCost": 2,
+        "trigger": "Auto",
         "prjSpeed": 40
       },
       {
@@ -7056,18 +7046,17 @@
     "mastery": 7,
     "disposition": 1.315,
     "polarities": "d",
-    "trigger": "Burst",
     "reload": 2,
     "magazine": 60,
-    "accuracy": 50,
     "modes": [
       {
         "damage": { "Toxin": 33 },
         "fireRate": 667,
-        "accuracy": 50,
         "critChance": 0.1,
         "critMul": 2,
         "procChance": 0.3,
+        "accuracy": 50,
+        "trigger": "Burst",
         "burstCount": 3
       },
       {
@@ -7075,10 +7064,10 @@
         "name": "Infested Harpoon",
         "damage": { "Toxin": 33 },
         "fireRate": 667,
-        "accuracy": 50,
         "critChance": 0.1,
         "critMul": 2,
         "procChance": 0.3,
+        "accuracy": 50,
         "range": 50
       }
     ]
@@ -7090,18 +7079,17 @@
     "mastery": 3,
     "disposition": 1.2,
     "polarities": "-",
-    "silent": true,
-    "trigger": "Charge",
     "reload": 0.65,
     "magazine": 1,
     "maxAmmo": 72,
-    "accuracy": 16.7,
     "modes": [
       {
         "damage": { "Impact": 6, "Puncture": 96, "Slash": 18 },
         "critChance": 0.2,
         "critMul": 1.5,
         "procChance": 0.1,
+        "accuracy": 16.7,
+        "trigger": "Charge",
         "prjSpeed": 70
       },
       {
@@ -7121,17 +7109,17 @@
         "tags": ["Primary", "Rifle", "Bow"],
         "traits": ["Tenno"],
         "polarities": "-",
-        "trigger": "Charge",
         "reload": 0.55,
         "magazine": 1,
         "maxAmmo": 72,
-        "accuracy": 16.7,
         "modes": [
           {
             "damage": { "Impact": 5, "Puncture": 80, "Slash": 15 },
             "critChance": 0.2,
             "critMul": 1.5,
             "procChance": 0.15,
+            "accuracy": 16.7,
+            "trigger": "Charge",
             "prjSpeed": 70
           },
           {
@@ -7152,17 +7140,17 @@
         "traits": ["Prime", "Never Vaulted"],
         "mastery": 8,
         "polarities": "-r",
-        "trigger": "Charge",
         "reload": 0.7,
         "magazine": 1,
         "maxAmmo": 72,
-        "accuracy": 16.7,
         "modes": [
           {
             "damage": { "Impact": 3.25, "Puncture": 104, "Slash": 22.75 },
             "critChance": 0.25,
             "critMul": 2,
             "procChance": 0.2,
+            "accuracy": 16.7,
+            "trigger": "Charge",
             "prjSpeed": 70
           },
           {
@@ -7185,12 +7173,9 @@
     "traits": ["Corpus"],
     "mastery": 6,
     "disposition": 1.3,
-    "silent": true,
-    "trigger": "Active",
     "reload": 2.5,
     "magazine": 5,
     "maxAmmo": 20,
-    "accuracy": 100,
     "modes": [
       {
         "name": "Grenade Impact",
@@ -7199,7 +7184,10 @@
         "critChance": 0.1,
         "critMul": 2,
         "procChance": 0.1,
-        "prjSpeed": 20
+        "accuracy": 100,
+        "trigger": "Active",
+        "prjSpeed": 20,
+        "silent": true
       },
       {
         "type": "secondary",
@@ -7215,12 +7203,9 @@
         "tags": ["Primary", "Rifle", "Assault Rifle", "Launcher"],
         "traits": ["Corpus"],
         "mastery": 6,
-        "silent": true,
-        "trigger": "Active",
         "reload": 2.5,
         "magazine": 10,
         "maxAmmo": 20,
-        "accuracy": 100,
         "modes": [
           {
             "name": "Grenade Impact",
@@ -7229,7 +7214,10 @@
             "critChance": 0.1,
             "critMul": 2,
             "procChance": 0.1,
-            "prjSpeed": 20
+            "accuracy": 100,
+            "trigger": "Active",
+            "prjSpeed": 20,
+            "silent": true
           },
           {
             "type": "secondary",
@@ -7246,12 +7234,9 @@
         "traits": ["Syndicate", "The Perrin Sequence"],
         "mastery": 12,
         "polarities": "-dr",
-        "silent": true,
-        "trigger": "Active",
         "reload": 2.5,
         "magazine": 7,
         "maxAmmo": 28,
-        "accuracy": 100,
         "modes": [
           {
             "name": "Grenade Impact",
@@ -7260,7 +7245,10 @@
             "critChance": 0.26,
             "critMul": 2,
             "procChance": 0.26,
-            "prjSpeed": 25
+            "accuracy": 100,
+            "trigger": "Active",
+            "prjSpeed": 25,
+            "silent": true
           },
           {
             "type": "secondary",
@@ -7280,9 +7268,15 @@
     "name": "Peram",
     "tags": ["Gear", "Pistol", "Thrown"],
     "traits": ["Cetus"],
-    "trigger": "Semi-Auto",
-    "range": 20,
-    "modes": [{ "damage": { "Slash": 10 }, "critMul": 2, "procChance": 0 }]
+    "modes": [
+      {
+        "damage": { "Slash": 10 },
+        "critMul": 2,
+        "procChance": 0,
+        "range": 20,
+        "trigger": "Semi-Auto"
+      }
+    ]
   },
   {
     "name": "Phaedra",
@@ -7291,10 +7285,8 @@
     "mastery": 3,
     "disposition": 1.15,
     "polarities": "r",
-    "trigger": "Auto-Spool",
     "reload": 50,
     "magazine": 250,
-    "accuracy": 10.5,
     "reloadStyle": 1,
     "modes": [
       {
@@ -7302,7 +7294,9 @@
         "fireRate": 1125,
         "critChance": 0.1,
         "critMul": 2,
-        "procChance": 0.25
+        "procChance": 0.25,
+        "accuracy": 10.5,
+        "trigger": "Auto-Spool"
       }
     ],
     "variants": [
@@ -7312,18 +7306,18 @@
         "traits": ["Tenno"],
         "mastery": 3,
         "polarities": "r",
-        "trigger": "Auto-Spool",
         "reload": 2,
         "magazine": 250,
         "maxAmmo": 960,
-        "accuracy": 10.5,
         "modes": [
           {
             "damage": { "Impact": 14, "Puncture": 36.4, "Slash": 6 },
             "fireRate": 1125,
             "critChance": 0.14,
             "critMul": 2,
-            "procChance": 0.3
+            "procChance": 0.3,
+            "accuracy": 10.5,
+            "trigger": "Auto-Spool"
           }
         ]
       }
@@ -7336,11 +7330,9 @@
     "mastery": 11,
     "disposition": 1.46,
     "polarities": "-",
-    "trigger": "Held",
     "reload": 2,
     "magazine": 90,
     "maxAmmo": 720,
-    "accuracy": 50,
     "modes": [
       {
         "damage": { "Viral": 35 },
@@ -7348,9 +7340,11 @@
         "critChance": 0.19,
         "critMul": 2,
         "procChance": 0.31,
+        "accuracy": 50,
         "pellets": 7,
         "range": 25,
-        "ammoCost": 0.5
+        "ammoCost": 0.5,
+        "trigger": "Held"
       }
     ]
   },
@@ -7361,11 +7355,9 @@
     "mastery": 9,
     "disposition": 1,
     "polarities": "-r",
-    "trigger": "Held",
     "reload": 0.5,
     "magazine": 11,
     "maxAmmo": 275,
-    "accuracy": 100,
     "modes": [
       {
         "damage": { "Impact": 25, "Radiation": 50 },
@@ -7373,8 +7365,10 @@
         "critChance": 0.03,
         "critMul": 1.5,
         "procChance": 0.37,
+        "accuracy": 100,
         "pellets": 5,
-        "range": 20
+        "range": 20,
+        "trigger": "Held"
       },
       {
         "type": "charge",
@@ -7413,12 +7407,9 @@
     "traits": ["Corpus"],
     "mastery": 6,
     "disposition": 1.1,
-    "trigger": "Semi-Auto",
     "reload": 0.8,
     "magazine": 10,
     "maxAmmo": 10,
-    "accuracy": 50,
-    "range": 100,
     "modes": [
       {
         "damage": { "Puncture": 26, "Heat": 20 },
@@ -7426,7 +7417,9 @@
         "critChance": 0.32,
         "critMul": 3,
         "procChance": 0.04,
-        "range": 100
+        "accuracy": 50,
+        "range": 100,
+        "trigger": "Semi-Auto"
       }
     ]
   },
@@ -7437,12 +7430,9 @@
     "mastery": 9,
     "disposition": 1.05,
     "polarities": "rr",
-    "silent": true,
-    "trigger": "Auto",
     "reload": 1,
     "magazine": 4,
     "maxAmmo": 20,
-    "accuracy": 100,
     "modes": [
       {
         "name": "Spore Impact",
@@ -7450,7 +7440,10 @@
         "fireRate": 125,
         "critChance": 0.01,
         "critMul": 2,
-        "procChance": 0.35
+        "procChance": 0.35,
+        "accuracy": 100,
+        "trigger": "Auto",
+        "silent": true
       },
       { "type": "area", "name": "Poison Cloud", "damage": { "Toxin": 100 } }
     ]
@@ -7460,17 +7453,17 @@
     "tags": ["Robotic", "Rifle", "Assault Rifle"],
     "traits": ["Prime", "Vaulted"],
     "disposition": 1.21,
-    "trigger": "Auto",
     "reload": 1.2,
     "magazine": 5,
-    "accuracy": 100,
     "modes": [
       {
         "damage": { "Impact": 1.2, "Puncture": 8.4, "Slash": 2.4 },
         "fireRate": 600,
         "critChance": 0.15,
         "critMul": 1.5,
-        "procChance": 0.05
+        "procChance": 0.05,
+        "accuracy": 100,
+        "trigger": "Auto"
       }
     ]
   },
@@ -7545,11 +7538,9 @@
     "traits": ["Tenno"],
     "mastery": 12,
     "disposition": 0.8,
-    "trigger": "Auto",
     "reload": 2,
     "magazine": 10,
     "maxAmmo": 210,
-    "accuracy": 5,
     "modes": [
       {
         "damage": { "Impact": 26.4, "Puncture": 26.4, "Slash": 211.2 },
@@ -7557,7 +7548,9 @@
         "critChance": 0.2,
         "critMul": 2,
         "procChance": 0.1,
+        "accuracy": 5,
         "pellets": 12,
+        "trigger": "Auto",
         "falloff": [15, 30, 0.7273]
       }
     ],
@@ -7568,11 +7561,9 @@
         "traits": ["Prime"],
         "mastery": 13,
         "polarities": "rr",
-        "trigger": "Auto",
         "reload": 1.6,
         "magazine": 12,
         "maxAmmo": 210,
-        "accuracy": 6.1,
         "modes": [
           {
             "damage": { "Impact": 19.2, "Puncture": 19.2, "Slash": 201.6 },
@@ -7580,7 +7571,9 @@
             "critChance": 0.24,
             "critMul": 2.2,
             "procChance": 0.12,
+            "accuracy": 6.1,
             "pellets": 12,
+            "trigger": "Auto",
             "falloff": [18, 36, 0.7273]
           }
         ]
@@ -7594,11 +7587,9 @@
     "mastery": 4,
     "disposition": 1.1,
     "polarities": "d",
-    "trigger": "Held",
     "reload": 2,
     "magazine": 60,
     "maxAmmo": 540,
-    "accuracy": 100,
     "modes": [
       {
         "damage": { "Electricity": 20 },
@@ -7606,8 +7597,10 @@
         "critChance": 0.16,
         "critMul": 2.2,
         "procChance": 0.16,
+        "accuracy": 100,
         "range": 50,
-        "ammoCost": 0.5
+        "ammoCost": 0.5,
+        "trigger": "Held"
       },
       {
         "type": "area",
@@ -7629,11 +7622,9 @@
         "traits": ["Corpus", "Vandal"],
         "mastery": 10,
         "polarities": "r",
-        "trigger": "Held",
         "reload": 1.8,
         "magazine": 80,
         "maxAmmo": 560,
-        "accuracy": 100,
         "modes": [
           {
             "damage": { "Electricity": 26 },
@@ -7641,18 +7632,20 @@
             "critChance": 0.22,
             "critMul": 2.4,
             "procChance": 0.3,
+            "accuracy": 100,
             "range": 50,
-            "ammoCost": 0.5
+            "ammoCost": 0.5,
+            "trigger": "Held"
           },
           {
             "type": "area",
             "name": "Cube (Hits enemy)",
             "damage": { "Blast": 250 },
             "fireRate": 240,
-            "accuracy": 25,
             "critChance": 0.05,
             "critMul": 1.5,
             "procChance": 0.26,
+            "accuracy": 25,
             "range": 15,
             "ammoCost": 10
           },
@@ -7661,10 +7654,10 @@
             "name": "Cube (Shot by player)",
             "damage": { "Blast": 600 },
             "fireRate": 240,
-            "accuracy": 25,
             "critChance": 0.05,
             "critMul": 1.5,
-            "procChance": 0.26
+            "procChance": 0.26,
+            "accuracy": 25
           }
         ]
       }
@@ -7676,11 +7669,9 @@
     "traits": ["Grineer"],
     "mastery": 10,
     "disposition": 1.25,
-    "trigger": "Burst",
     "reload": 1.9,
     "magazine": 84,
     "maxAmmo": 840,
-    "accuracy": 90.9,
     "modes": [
       {
         "damage": { "Impact": 18.1, "Puncture": 14.2, "Slash": 16.7 },
@@ -7688,7 +7679,9 @@
         "critChance": 0.19,
         "critMul": 2.3,
         "procChance": 0.27,
+        "accuracy": 90.9,
         "punchThrough": 0.5,
+        "trigger": "Burst",
         "burstCount": 4
       }
     ]
@@ -7789,7 +7782,6 @@
     "tags": ["Secondary", "Pistol", "Exalted"],
     "traits": ["Tenno"],
     "polarities": "r--",
-    "trigger": "Auto",
     "reload": 1.8,
     "magazine": 100,
     "modes": [
@@ -7799,7 +7791,8 @@
         "critChance": 0.25,
         "critMul": 3,
         "procChance": 0.1,
-        "range": 50
+        "range": 50,
+        "trigger": "Auto"
       }
     ],
     "variants": [
@@ -7808,7 +7801,6 @@
         "tags": ["Secondary", "Pistol", "Exalted"],
         "traits": ["Tenno"],
         "polarities": "r--",
-        "trigger": "Auto",
         "reload": 1.8,
         "magazine": 100,
         "modes": [
@@ -7818,7 +7810,8 @@
             "critChance": 0.25,
             "critMul": 3,
             "procChance": 0.1,
-            "range": 50
+            "range": 50,
+            "trigger": "Auto"
           }
         ]
       }
@@ -7852,11 +7845,9 @@
     "traits": ["Tenno"],
     "mastery": 6,
     "disposition": 0.8,
-    "trigger": "Semi-Auto",
     "reload": 2.4,
     "magazine": 5,
     "maxAmmo": 72,
-    "accuracy": 13.3,
     "sniperComboMin": 1,
     "sniperComboReset": 2,
     "zoom": [
@@ -7870,7 +7861,9 @@
         "critChance": 0.3,
         "critMul": 3,
         "procChance": 0.12,
+        "accuracy": 13.3,
         "punchThrough": 1,
+        "trigger": "Semi-Auto",
         "falloff": [400, 600, null]
       }
     ],
@@ -7881,11 +7874,9 @@
         "traits": ["Prime"],
         "mastery": 12,
         "polarities": "rr",
-        "trigger": "Semi-Auto",
         "reload": 2,
         "magazine": 5,
         "maxAmmo": 72,
-        "accuracy": 13.3,
         "sniperComboMin": 1,
         "sniperComboReset": 2,
         "zoom": [
@@ -7899,7 +7890,9 @@
             "critChance": 0.38,
             "critMul": 3,
             "procChance": 0.16,
+            "accuracy": 13.3,
             "punchThrough": 1,
+            "trigger": "Semi-Auto",
             "falloff": [400, 600, null]
           }
         ]
@@ -8010,20 +8003,19 @@
     "mastery": 6,
     "disposition": 1.15,
     "polarities": "-r",
-    "trigger": "Auto",
     "reload": 2.5,
     "magazine": 20,
     "maxAmmo": 100,
-    "accuracy": 100,
     "modes": [
       {
         "name": "Projectile Impact",
         "damage": { "Corrosive": 70 },
         "fireRate": 160,
-        "accuracy": 100,
         "critChance": 0.02,
         "critMul": 1.5,
-        "procChance": 0.3
+        "procChance": 0.3,
+        "accuracy": 100,
+        "trigger": "Auto"
       },
       {
         "type": "secondary",
@@ -8035,10 +8027,10 @@
           "Corrosive": 50
         },
         "fireRate": 60,
-        "accuracy": 16.7,
         "critChance": 0.04,
         "critMul": 2,
         "procChance": 0.3,
+        "accuracy": 16.7,
         "chargeTime": 0.5,
         "trigger": "Charge"
       },
@@ -8057,11 +8049,9 @@
     "tags": ["Secondary", "Pistol"],
     "traits": ["Grineer"],
     "disposition": 1.5,
-    "trigger": "Semi-Auto",
     "reload": 2.8,
     "magazine": 8,
     "maxAmmo": 210,
-    "accuracy": 16,
     "modes": [
       {
         "damage": { "Impact": 33.67, "Puncture": 33.67, "Slash": 33.67 },
@@ -8069,6 +8059,8 @@
         "critChance": 0.05,
         "critMul": 1.5,
         "procChance": 0.13,
+        "accuracy": 16,
+        "trigger": "Semi-Auto",
         "prjSpeed": 200
       }
     ]
@@ -8189,10 +8181,8 @@
     "mastery": 3,
     "disposition": 1.15,
     "polarities": "r",
-    "trigger": "Burst",
     "reload": 2,
     "magazine": 15,
-    "accuracy": 20,
     "modes": [
       {
         "damage": { "Impact": 21, "Puncture": 4.5, "Slash": 4.5 },
@@ -8200,6 +8190,8 @@
         "critChance": 0.16,
         "critMul": 2,
         "procChance": 0.06,
+        "accuracy": 20,
+        "trigger": "Burst",
         "burstCount": 3
       }
     ],
@@ -8210,11 +8202,9 @@
         "traits": ["Prime", "Vaulted"],
         "mastery": 14,
         "polarities": "r",
-        "trigger": "Burst",
         "reload": 2,
         "magazine": 24,
         "maxAmmo": 210,
-        "accuracy": 25,
         "modes": [
           {
             "damage": { "Impact": 20, "Puncture": 15, "Slash": 15 },
@@ -8222,6 +8212,8 @@
             "critChance": 0.25,
             "critMul": 2,
             "procChance": 0.2,
+            "accuracy": 25,
+            "trigger": "Burst",
             "burstCount": 3
           }
         ]
@@ -8298,17 +8290,17 @@
     "mastery": 5,
     "disposition": 0.85,
     "polarities": "d-",
-    "trigger": "Active",
     "reload": 3,
     "magazine": 8,
     "maxAmmo": 72,
-    "accuracy": 28.6,
     "modes": [
       {
         "name": "Orb Damage",
         "damage": { "Magnetic": 50 },
         "fireRate": 180,
-        "range": 12
+        "accuracy": 28.6,
+        "range": 12,
+        "trigger": "Active"
       },
       {
         "type": "secondary",
@@ -8328,11 +8320,9 @@
         "traits": ["Syndicate", "Cephalon Suda", "Cephalon"],
         "mastery": 12,
         "polarities": "rd-",
-        "trigger": "Active",
         "reload": 2,
         "magazine": 16,
         "maxAmmo": 96,
-        "accuracy": 28.6,
         "modes": [
           {
             "name": "Orb Damage",
@@ -8340,7 +8330,9 @@
             "fireRate": 200,
             "critChance": 0.14,
             "critMul": 2,
-            "procChance": 0.35
+            "procChance": 0.35,
+            "accuracy": 28.6,
+            "trigger": "Active"
           },
           {
             "type": "secondary",
@@ -8444,11 +8436,9 @@
     "traits": ["Corpus"],
     "disposition": 1.25,
     "polarities": "r",
-    "trigger": "Semi-Auto",
     "reload": 3.5,
     "magazine": 4,
     "maxAmmo": 72,
-    "accuracy": 13.3,
     "sniperComboMin": 3,
     "sniperComboReset": 2,
     "zoom": [
@@ -8462,7 +8452,9 @@
         "critChance": 0.3,
         "critMul": 1.5,
         "procChance": 0.12,
+        "accuracy": 13.3,
         "punchThrough": 2.5,
+        "trigger": "Semi-Auto",
         "falloff": [400, 600, null]
       }
     ],
@@ -8473,11 +8465,9 @@
         "traits": ["Corpus", "Vandal"],
         "mastery": 5,
         "polarities": "r",
-        "trigger": "Semi-Auto",
         "reload": 2,
         "magazine": 6,
         "maxAmmo": 72,
-        "accuracy": 13.3,
         "sniperComboMin": 3,
         "sniperComboReset": 2,
         "zoom": [
@@ -8491,7 +8481,9 @@
             "critChance": 0.28,
             "critMul": 2,
             "procChance": 0.16,
+            "accuracy": 13.3,
             "punchThrough": 3,
+            "trigger": "Semi-Auto",
             "falloff": [400, 600, null]
           }
         ]
@@ -8504,11 +8496,9 @@
     "traits": ["Grineer"],
     "mastery": 7,
     "disposition": 1.33,
-    "trigger": "Auto",
     "reload": 2.7,
     "magazine": 20,
     "maxAmmo": 240,
-    "accuracy": 9.1,
     "modes": [
       {
         "damage": { "Impact": 262.5, "Puncture": 43.75, "Slash": 43.75 },
@@ -8516,7 +8506,9 @@
         "critChance": 0.11,
         "critMul": 2,
         "procChance": 0.27,
+        "accuracy": 9.1,
         "pellets": 5,
+        "trigger": "Auto",
         "falloff": [20, 30, 0.5]
       }
     ]
@@ -8528,19 +8520,19 @@
     "mastery": 6,
     "disposition": 0.75,
     "polarities": "rr",
-    "trigger": "Auto-Spool",
     "reload": 3,
     "magazine": 100,
     "maxAmmo": 540,
-    "accuracy": 28.6,
-    "spool": 8,
     "modes": [
       {
         "damage": { "Impact": 1.2, "Puncture": 4.8, "Slash": 6 },
         "fireRate": 900,
         "critChance": 0.3,
         "critMul": 3,
-        "procChance": 0.07
+        "procChance": 0.07,
+        "accuracy": 28.6,
+        "trigger": "Auto-Spool",
+        "spool": 8
       }
     ],
     "variants": [
@@ -8550,19 +8542,19 @@
         "traits": ["Prime", "Vaulted"],
         "mastery": 7,
         "polarities": "rr",
-        "trigger": "Auto-Spool",
         "reload": 3,
         "magazine": 200,
         "maxAmmo": 800,
-        "accuracy": 28.6,
-        "spool": 5,
         "modes": [
           {
             "damage": { "Impact": 1.2, "Puncture": 4.8, "Slash": 6 },
             "fireRate": 900,
             "critChance": 0.3,
             "critMul": 3,
-            "procChance": 0.1
+            "procChance": 0.1,
+            "accuracy": 28.6,
+            "trigger": "Auto-Spool",
+            "spool": 5
           }
         ]
       }
@@ -8575,11 +8567,9 @@
     "mastery": 2,
     "disposition": 0.8,
     "polarities": "d",
-    "trigger": "Semi-Auto",
     "reload": 3,
     "magazine": 15,
     "maxAmmo": 150,
-    "accuracy": 100,
     "modes": [
       {
         "name": "Projectile Impact",
@@ -8587,9 +8577,11 @@
         "fireRate": 75,
         "critChance": 0,
         "procChance": 0,
+        "accuracy": 100,
         "range": 15,
-        "falloff": [0, 20, 0.8333],
-        "prjSpeed": 80
+        "trigger": "Semi-Auto",
+        "prjSpeed": 80,
+        "falloff": [0, 20, 0.8333]
       },
       {
         "type": "area",
@@ -8608,11 +8600,9 @@
     "traits": ["Corpus"],
     "mastery": 4,
     "disposition": 1.49,
-    "trigger": "Held",
     "reload": 1.8,
     "magazine": 60,
     "maxAmmo": 360,
-    "accuracy": 100,
     "modes": [
       {
         "damage": { "Puncture": 7.6, "Slash": 10.4 },
@@ -8620,9 +8610,11 @@
         "critChance": 0.14,
         "critMul": 2,
         "procChance": 0.22,
+        "accuracy": 100,
         "punchThrough": 0.5,
         "range": 18,
-        "ammoCost": 0.5
+        "ammoCost": 0.5,
+        "trigger": "Held"
       }
     ],
     "variants": [
@@ -8630,11 +8622,9 @@
         "name": "Spectra Vandal",
         "tags": ["Secondary", "Pistol"],
         "mastery": 10,
-        "trigger": "Held",
         "reload": 1.2,
         "magazine": 80,
         "maxAmmo": 720,
-        "accuracy": 100,
         "modes": [
           {
             "damage": { "Puncture": 9.2, "Slash": 12.8 },
@@ -8642,7 +8632,9 @@
             "critChance": 0.2,
             "critMul": 2,
             "procChance": 0.28,
-            "punchThrough": 0.5
+            "accuracy": 100,
+            "punchThrough": 0.5,
+            "trigger": "Held"
           }
         ]
       }
@@ -8655,19 +8647,18 @@
     "mastery": 8,
     "disposition": 1,
     "polarities": "rr",
-    "silent": true,
-    "trigger": "Auto",
     "reload": 1,
     "magazine": 10,
     "maxAmmo": 210,
-    "accuracy": 100,
     "modes": [
       {
         "damage": { "Impact": 8.2, "Puncture": 49.2, "Slash": 24.6 },
         "fireRate": 150,
         "critChance": 0.3,
         "critMul": 2,
-        "procChance": 0.08
+        "procChance": 0.08,
+        "accuracy": 100,
+        "trigger": "Auto"
       }
     ],
     "variants": [
@@ -8677,11 +8668,9 @@
         "traits": ["Prime"],
         "mastery": 10,
         "polarities": "rr",
-        "trigger": "Auto",
         "reload": 0.75,
         "magazine": 12,
         "maxAmmo": 210,
-        "accuracy": 100,
         "modes": [
           {
             "damage": { "Impact": 6, "Puncture": 48, "Slash": 6 },
@@ -8689,6 +8678,8 @@
             "critChance": 0.3,
             "critMul": 3,
             "procChance": 0.14,
+            "accuracy": 100,
+            "trigger": "Auto",
             "prjSpeed": 70
           }
         ]
@@ -8702,11 +8693,9 @@
     "mastery": 10,
     "disposition": 0.53,
     "polarities": "-",
-    "trigger": "Charge",
     "reload": 1.5,
     "magazine": 48,
     "maxAmmo": 288,
-    "accuracy": 16.7,
     "modes": [
       {
         "name": "Uncharged Projectile",
@@ -8715,6 +8704,8 @@
         "critChance": 0.14,
         "critMul": 2.2,
         "procChance": 0.28,
+        "accuracy": 16.7,
+        "trigger": "Charge",
         "prjSpeed": 50
       },
       {
@@ -8743,17 +8734,17 @@
     "tags": ["Robotic", "Rifle", "Assault Rifle"],
     "traits": ["Infested"],
     "disposition": 1.315,
-    "trigger": "Semi-Auto",
     "reload": 1.2,
     "magazine": 4,
-    "accuracy": 100,
     "modes": [
       {
         "damage": { "Toxin": 15 },
         "fireRate": 198,
         "critChance": 0.025,
         "critMul": 1.5,
-        "procChance": 0.05
+        "procChance": 0.05,
+        "accuracy": 100,
+        "trigger": "Semi-Auto"
       }
     ]
   },
@@ -8764,30 +8755,29 @@
     "mastery": 8,
     "disposition": 1.15,
     "polarities": "rr",
-    "trigger": "Auto / Semi",
     "reload": 2,
     "magazine": 65,
     "maxAmmo": 540,
-    "accuracy": 14.3,
     "modes": [
       {
         "name": "Full Auto Mode",
         "damage": { "Impact": 9.8, "Puncture": 9.8, "Slash": 8.4 },
         "fireRate": 600,
-        "accuracy": 14.3,
         "critChance": 0.24,
         "critMul": 2,
-        "procChance": 0.12
+        "procChance": 0.12,
+        "accuracy": 14.3,
+        "trigger": "Auto / Semi"
       },
       {
         "type": "secondary",
         "name": "Semi-Auto Mode",
         "damage": { "Impact": 7.5, "Puncture": 30, "Slash": 12.5 },
         "fireRate": 300,
-        "accuracy": 28.6,
         "critChance": 0.28,
         "critMul": 2,
         "procChance": 0.16,
+        "accuracy": 28.6,
         "trigger": "Semi-Auto"
       }
     ],
@@ -8798,30 +8788,29 @@
         "traits": ["Prime"],
         "mastery": 12,
         "polarities": "rrr",
-        "trigger": "Auto / Semi",
         "reload": 2,
         "magazine": 90,
         "maxAmmo": 540,
-        "accuracy": 25,
         "modes": [
           {
             "name": "Full Auto Mode",
             "damage": { "Impact": 10.5, "Puncture": 10.5, "Slash": 9 },
             "fireRate": 600,
-            "accuracy": 25,
             "critChance": 0.24,
             "critMul": 2.6,
-            "procChance": 0.12
+            "procChance": 0.12,
+            "accuracy": 25,
+            "trigger": "Auto / Semi"
           },
           {
             "type": "secondary",
             "name": "Semi-Auto Mode",
             "damage": { "Impact": 8, "Puncture": 24, "Slash": 48 },
             "fireRate": 200,
-            "accuracy": 66.7,
             "critChance": 0.3,
             "critMul": 2.8,
             "procChance": 0.22,
+            "accuracy": 66.7,
             "punchThrough": 1,
             "trigger": "Semi-Auto"
           }
@@ -8836,11 +8825,9 @@
     "mastery": 1,
     "disposition": 1.35,
     "polarities": "-",
-    "trigger": "Semi-Auto",
     "reload": 3.75,
     "magazine": 6,
     "maxAmmo": 120,
-    "accuracy": 4,
     "reloadStyle": 2,
     "modes": [
       {
@@ -8849,7 +8836,9 @@
         "critChance": 0.075,
         "critMul": 1.5,
         "procChance": 0.2,
+        "accuracy": 4,
         "pellets": 12,
+        "trigger": "Semi-Auto",
         "falloff": [12, 25, 0.4]
       }
     ],
@@ -8859,11 +8848,9 @@
         "tags": ["Primary", "Shotgun"],
         "traits": ["Tenno"],
         "polarities": "-",
-        "trigger": "Semi-Auto",
         "reload": 3.75,
         "magazine": 6,
         "maxAmmo": 120,
-        "accuracy": 4,
         "reloadStyle": 2,
         "modes": [
           {
@@ -8872,7 +8859,9 @@
             "critChance": 0.075,
             "critMul": 2,
             "procChance": 0.2,
+            "accuracy": 4,
             "pellets": 10,
+            "trigger": "Semi-Auto",
             "falloff": [15, 25, 0.5]
           }
         ]
@@ -8883,11 +8872,9 @@
         "traits": ["Tenno", "Invasion Reward", "Wraith"],
         "mastery": 10,
         "polarities": "-",
-        "trigger": "Semi-Auto",
         "reload": 5,
         "magazine": 10,
         "maxAmmo": 120,
-        "accuracy": 6.7,
         "reloadStyle": 2,
         "modes": [
           {
@@ -8896,7 +8883,9 @@
             "critChance": 0.18,
             "critMul": 2.2,
             "procChance": 0.4,
+            "accuracy": 6.7,
             "pellets": 10,
+            "trigger": "Semi-Auto",
             "falloff": [15, 30, 0.5]
           }
         ]
@@ -8909,18 +8898,18 @@
     "traits": ["Grineer"],
     "mastery": 7,
     "disposition": 1.3,
-    "trigger": "Auto",
     "reload": 1.3,
     "magazine": 57,
     "maxAmmo": 399,
-    "accuracy": 16,
     "modes": [
       {
         "damage": { "Impact": 14.2, "Puncture": 3.3, "Slash": 15.5 },
         "fireRate": 380,
         "critChance": 0.23,
         "critMul": 1.9,
-        "procChance": 0.13
+        "procChance": 0.13,
+        "accuracy": 16,
+        "trigger": "Auto"
       }
     ]
   },
@@ -8931,10 +8920,8 @@
     "mastery": 2,
     "disposition": 1.48,
     "polarities": "d",
-    "trigger": "Charge",
     "reload": 2,
     "magazine": 20,
-    "accuracy": 100,
     "modes": [
       {
         "damage": { "Corrosive": 156 },
@@ -8942,6 +8929,7 @@
         "critChance": 0.05,
         "critMul": 1.5,
         "procChance": 0,
+        "trigger": "Charge",
         "prjSpeed": 35
       },
       {
@@ -8958,11 +8946,9 @@
     "traits": ["Corpus"],
     "mastery": 12,
     "disposition": 0.85,
-    "trigger": "Auto-Spool",
     "reload": 3,
     "magazine": 180,
     "maxAmmo": 1080,
-    "accuracy": 14.3,
     "modes": [
       {
         "damage": { "Impact": 4, "Puncture": 30, "Slash": 6 },
@@ -8970,6 +8956,8 @@
         "critChance": 0.12,
         "critMul": 1.8,
         "procChance": 0.3,
+        "accuracy": 14.3,
+        "trigger": "Auto-Spool",
         "prjSpeed": 80
       }
     ],
@@ -8980,11 +8968,9 @@
         "traits": ["Corpus", "Vandal"],
         "mastery": 14,
         "polarities": "rr",
-        "trigger": "Auto-Spool",
         "reload": 3,
         "magazine": 300,
         "maxAmmo": 1600,
-        "accuracy": 28.6,
         "modes": [
           {
             "damage": { "Impact": 4, "Puncture": 30, "Slash": 6 },
@@ -8992,6 +8978,8 @@
             "critChance": 0.16,
             "critMul": 2,
             "procChance": 0.3,
+            "accuracy": 28.6,
+            "trigger": "Auto-Spool",
             "prjSpeed": 80
           }
         ]
@@ -9004,10 +8992,8 @@
     "traits": ["Tenno"],
     "disposition": 1,
     "polarities": "rr",
-    "trigger": "Auto",
     "reload": 2.3,
     "magazine": 10,
-    "accuracy": 3.3,
     "modes": [
       {
         "damage": { "Impact": 35.7, "Puncture": 2.1, "Slash": 4.2 },
@@ -9015,7 +9001,9 @@
         "critChance": 0.05,
         "critMul": 1.5,
         "procChance": 0.14,
-        "pellets": 6
+        "accuracy": 3.3,
+        "pellets": 6,
+        "trigger": "Auto"
       }
     ],
     "variants": [
@@ -9024,10 +9012,8 @@
         "tags": ["Robotic", "Shotgun"],
         "traits": ["Prime", "Vaulted"],
         "polarities": "r",
-        "trigger": "Auto",
         "reload": 2,
         "magazine": 20,
-        "accuracy": 3.3,
         "modes": [
           {
             "damage": { "Impact": 51, "Puncture": 3, "Slash": 6 },
@@ -9035,7 +9021,9 @@
             "critChance": 0.05,
             "critMul": 2,
             "procChance": 0.15,
-            "pellets": 6
+            "accuracy": 3.3,
+            "pellets": 6,
+            "trigger": "Auto"
           }
         ]
       }
@@ -9047,11 +9035,9 @@
     "traits": ["Tenno"],
     "mastery": 5,
     "disposition": 1,
-    "trigger": "Burst",
     "reload": 2,
     "magazine": 10,
     "maxAmmo": 540,
-    "accuracy": 28.6,
     "modes": [
       {
         "damage": { "Impact": 26.4, "Puncture": 26.4, "Slash": 27.2 },
@@ -9059,6 +9045,8 @@
         "critChance": 0.25,
         "critMul": 2,
         "procChance": 0.1,
+        "accuracy": 28.6,
+        "trigger": "Burst",
         "burstCount": 2
       }
     ],
@@ -9068,11 +9056,9 @@
         "tags": ["Primary", "Rifle", "Assault Rifle"],
         "traits": ["Tenno"],
         "mastery": 7,
-        "trigger": "Burst",
         "reload": 1.5,
         "magazine": 14,
         "maxAmmo": 540,
-        "accuracy": 28.6,
         "modes": [
           {
             "damage": { "Impact": 22.5, "Puncture": 18.75, "Slash": 33.75 },
@@ -9080,6 +9066,8 @@
             "critChance": 0.35,
             "critMul": 2,
             "procChance": 0.1,
+            "accuracy": 28.6,
+            "trigger": "Burst",
             "burstCount": 2
           }
         ]
@@ -9090,11 +9078,9 @@
         "traits": ["Prime", "Vaulted"],
         "mastery": 12,
         "polarities": "--r",
-        "trigger": "Burst",
         "reload": 2,
         "magazine": 20,
         "maxAmmo": 540,
-        "accuracy": 25,
         "modes": [
           {
             "damage": { "Impact": 29, "Puncture": 29, "Slash": 29.9 },
@@ -9102,6 +9088,8 @@
             "critChance": 0.3,
             "critMul": 2,
             "procChance": 0.25,
+            "accuracy": 25,
+            "trigger": "Burst",
             "burstCount": 2
           }
         ]
@@ -9158,11 +9146,9 @@
     "traits": ["Infested"],
     "mastery": 11,
     "disposition": 1.315,
-    "trigger": "Held",
     "reload": 1.5,
     "magazine": 70,
     "maxAmmo": 540,
-    "accuracy": 100,
     "modes": [
       {
         "damage": { "Corrosive": 20 },
@@ -9170,8 +9156,10 @@
         "critChance": 0.39,
         "critMul": 2.7,
         "procChance": 0.13,
+        "accuracy": 100,
         "range": 27,
-        "ammoCost": 0.5
+        "ammoCost": 0.5,
+        "trigger": "Held"
       }
     ]
   },
@@ -9182,12 +9170,9 @@
     "mastery": 8,
     "disposition": 1.44,
     "polarities": "rr",
-    "silent": true,
-    "trigger": "Active",
     "reload": 1,
     "magazine": 4,
     "maxAmmo": 12,
-    "accuracy": 100,
     "modes": [
       {
         "damage": { "Blast": 120 },
@@ -9195,6 +9180,8 @@
         "critChance": 0.22,
         "critMul": 2,
         "procChance": 0.26,
+        "accuracy": 100,
+        "trigger": "Active",
         "prjSpeed": 50
       }
     ]
@@ -9231,17 +9218,17 @@
     "traits": ["Corpus"],
     "mastery": 3,
     "disposition": 1,
-    "trigger": "Auto",
     "reload": 2.5,
     "magazine": 4,
-    "accuracy": 25,
     "modes": [
       {
         "damage": { "Electricity": 6 },
         "fireRate": 500,
         "critChance": 0.02,
         "critMul": 1.5,
-        "procChance": 0.15
+        "procChance": 0.15,
+        "accuracy": 25,
+        "trigger": "Auto"
       }
     ]
   },
@@ -9273,18 +9260,18 @@
     "traits": ["Tenno"],
     "mastery": 10,
     "disposition": 1.05,
-    "trigger": "Auto-Spool",
     "reload": 2.5,
     "magazine": 150,
     "maxAmmo": 900,
-    "accuracy": 12.5,
     "modes": [
       {
         "damage": { "Impact": 7.2, "Puncture": 9.6, "Slash": 7.2 },
         "fireRate": 700,
         "critChance": 0.28,
         "critMul": 2,
-        "procChance": 0.16
+        "procChance": 0.16,
+        "accuracy": 12.5,
+        "trigger": "Auto-Spool"
       },
       {
         "type": "secondary",
@@ -9306,11 +9293,9 @@
     "traits": ["Corpus"],
     "mastery": 3,
     "disposition": 1.5,
-    "trigger": "Auto",
     "reload": 2,
     "magazine": 60,
     "maxAmmo": 540,
-    "accuracy": 18.2,
     "modes": [
       {
         "damage": { "Impact": 6.4, "Puncture": 25.6 },
@@ -9318,6 +9303,8 @@
         "critChance": 0.04,
         "critMul": 1.5,
         "procChance": 0.2,
+        "accuracy": 18.2,
+        "trigger": "Auto",
         "prjSpeed": 100
       }
     ],
@@ -9327,11 +9314,9 @@
         "tags": ["Primary", "Rifle", "Assault Rifle"],
         "traits": ["Prisma", "Baro"],
         "mastery": 4,
-        "trigger": "Auto",
         "reload": 2,
         "magazine": 60,
         "maxAmmo": 540,
-        "accuracy": 18.2,
         "modes": [
           {
             "damage": { "Impact": 7.6, "Puncture": 30.4 },
@@ -9339,6 +9324,8 @@
             "critChance": 0.1,
             "critMul": 2,
             "procChance": 0.24,
+            "accuracy": 18.2,
+            "trigger": "Auto",
             "prjSpeed": 100
           }
         ]
@@ -9352,11 +9339,9 @@
     "mastery": 10,
     "disposition": 1.1,
     "polarities": "r",
-    "trigger": "Burst",
     "reload": 2.26,
     "magazine": 30,
     "maxAmmo": 540,
-    "accuracy": 33.3,
     "modes": [
       {
         "damage": { "Impact": 11, "Puncture": 22, "Slash": 11 },
@@ -9364,6 +9349,8 @@
         "critChance": 0.26,
         "critMul": 2.4,
         "procChance": 0.16,
+        "accuracy": 33.3,
+        "trigger": "Burst",
         "burstCount": 3
       }
     ],
@@ -9373,11 +9360,9 @@
         "tags": ["Primary", "Rifle", "Assault Rifle"],
         "mastery": 14,
         "polarities": "r--",
-        "trigger": "Burst/Semi/Auto",
         "reload": 2,
         "magazine": 42,
         "maxAmmo": 540,
-        "accuracy": 33.3,
         "modes": [
           {
             "name": "Burst",
@@ -9386,6 +9371,8 @@
             "critChance": 0.28,
             "critMul": 3,
             "procChance": 0.2,
+            "accuracy": 33.3,
+            "trigger": "Burst/Semi/Auto",
             "burstCount": 3
           },
           {
@@ -9416,11 +9403,9 @@
     "traits": ["Tenno"],
     "mastery": 7,
     "disposition": 0.5,
-    "trigger": "Duplex",
     "reload": 1.8,
     "magazine": 2,
     "maxAmmo": 120,
-    "accuracy": 9.1,
     "modes": [
       {
         "damage": { "Impact": 105, "Puncture": 105, "Slash": 840 },
@@ -9428,7 +9413,9 @@
         "critChance": 0.1,
         "critMul": 2,
         "procChance": 0.28,
+        "accuracy": 9.1,
         "pellets": 5,
+        "trigger": "Duplex",
         "falloff": [10, 20, 0.5238]
       }
     ],
@@ -9439,10 +9426,8 @@
         "traits": ["Syndicate", "New Loka"],
         "mastery": 12,
         "polarities": "d-r",
-        "trigger": "Duplex",
         "reload": 1.5,
         "magazine": 2,
-        "accuracy": 6.5,
         "modes": [
           {
             "damage": { "Impact": 126, "Puncture": 126, "Slash": 1008 },
@@ -9450,7 +9435,9 @@
             "critChance": 0.15,
             "critMul": 1.5,
             "procChance": 0.28,
+            "accuracy": 6.5,
             "pellets": 6,
+            "trigger": "Duplex",
             "falloff": [8, 20, 0.5714]
           }
         ]
@@ -9461,11 +9448,9 @@
         "traits": ["Prime"],
         "mastery": 13,
         "polarities": "r-",
-        "trigger": "Duplex",
         "reload": 1.8,
         "magazine": 2,
         "maxAmmo": 120,
-        "accuracy": 9.1,
         "modes": [
           {
             "damage": { "Impact": 156, "Puncture": 156, "Slash": 1248 },
@@ -9473,7 +9458,9 @@
             "critChance": 0.1,
             "critMul": 2,
             "procChance": 0.3,
+            "accuracy": 9.1,
             "pellets": 8,
+            "trigger": "Duplex",
             "falloff": [10, 20, 0.4872]
           }
         ]
@@ -9553,11 +9540,9 @@
     "traits": ["Grineer"],
     "mastery": 5,
     "disposition": 0.95,
-    "trigger": "Semi-Auto",
     "reload": 1.7,
     "magazine": 1,
     "maxAmmo": 30,
-    "accuracy": 100,
     "modes": [
       {
         "name": "Grenade Impact",
@@ -9566,6 +9551,8 @@
         "critChance": 0.25,
         "critMul": 2.5,
         "procChance": 0.1,
+        "accuracy": 100,
+        "trigger": "Semi-Auto",
         "prjSpeed": 30
       },
       {
@@ -9582,11 +9569,9 @@
     "traits": ["Infested"],
     "mastery": 4,
     "disposition": 1.3,
-    "trigger": "Semi-Auto",
     "reload": 1.7,
     "magazine": 5,
     "maxAmmo": 60,
-    "accuracy": 100,
     "modes": [
       {
         "name": "Grenade Impact",
@@ -9595,6 +9580,8 @@
         "critChance": 0.15,
         "critMul": 2,
         "procChance": 0.23,
+        "accuracy": 100,
+        "trigger": "Semi-Auto",
         "prjSpeed": 25
       },
       {
@@ -9610,9 +9597,15 @@
     "name": "Tulok",
     "tags": ["Gear", "Pistol", "Thrown"],
     "traits": ["Cetus"],
-    "trigger": "Semi-Auto",
-    "range": 20,
-    "modes": [{ "damage": { "Puncture": 10 }, "critMul": 2, "procChance": 0 }]
+    "modes": [
+      {
+        "damage": { "Puncture": 10 },
+        "critMul": 2,
+        "procChance": 0,
+        "range": 20,
+        "trigger": "Semi-Auto"
+      }
+    ]
   },
   {
     "name": "Twin Basolk",
@@ -9643,11 +9636,9 @@
     "mastery": 9,
     "disposition": 1,
     "polarities": "-",
-    "trigger": "Auto",
     "reload": 3,
     "magazine": 120,
     "maxAmmo": 1200,
-    "accuracy": 28.6,
     "modes": [
       {
         "damage": { "Impact": 8, "Puncture": 6.7, "Slash": 5.3 },
@@ -9655,8 +9646,10 @@
         "critChance": 0.25,
         "critMul": 2.7,
         "procChance": 0.11,
+        "accuracy": 28.6,
         "pellets": 2,
-        "ammoCost": 2
+        "ammoCost": 2,
+        "trigger": "Auto"
       }
     ]
   },
@@ -9667,11 +9660,9 @@
     "mastery": 5,
     "disposition": 1.3,
     "polarities": "r",
-    "trigger": "Auto",
     "reload": 1.1,
     "magazine": 30,
     "maxAmmo": 210,
-    "accuracy": 16.7,
     "modes": [
       {
         "damage": { "Impact": 12.33, "Puncture": 12.33, "Slash": 12.33 },
@@ -9679,6 +9670,8 @@
         "critChance": 0.15,
         "critMul": 1.5,
         "procChance": 0.15,
+        "accuracy": 16.7,
+        "trigger": "Auto",
         "prjSpeed": 65
       }
     ],
@@ -9689,11 +9682,9 @@
         "traits": ["Grineer"],
         "mastery": 11,
         "polarities": "r",
-        "trigger": "Auto",
         "reload": 0.9,
         "magazine": 70,
         "maxAmmo": 600,
-        "accuracy": 36.4,
         "modes": [
           {
             "damage": { "Impact": 3, "Puncture": 12.7, "Slash": 11.3 },
@@ -9701,6 +9692,8 @@
             "critChance": 0.23,
             "critMul": 1.9,
             "procChance": 0.23,
+            "accuracy": 36.4,
+            "trigger": "Auto",
             "prjSpeed": 65
           }
         ]
@@ -9714,11 +9707,9 @@
     "mastery": 10,
     "disposition": 1.25,
     "polarities": "d",
-    "trigger": "Auto-Spool",
     "reload": 2.2,
     "magazine": 80,
     "maxAmmo": 240,
-    "accuracy": 5.7,
     "modes": [
       {
         "name": "Single Pellet",
@@ -9727,7 +9718,9 @@
         "critChance": 0.11,
         "critMul": 2,
         "procChance": 0.23,
+        "accuracy": 5.7,
         "punchThrough": 1.5,
+        "trigger": "Auto-Spool",
         "falloff": [12, 24, 0.6667]
       },
       {
@@ -9767,11 +9760,9 @@
     "mastery": 9,
     "disposition": 1.2,
     "polarities": "-r",
-    "trigger": "Semi-Auto",
     "reload": 1.5,
     "magazine": 2,
     "maxAmmo": 120,
-    "accuracy": 8,
     "modes": [
       {
         "damage": { "Impact": 282, "Puncture": 352.5, "Slash": 70.5 },
@@ -9779,7 +9770,9 @@
         "critChance": 0.1,
         "critMul": 2,
         "procChance": 0.33,
+        "accuracy": 8,
         "pellets": 15,
+        "trigger": "Semi-Auto",
         "falloff": [10, 20, 0.7872]
       }
     ]
@@ -9791,18 +9784,18 @@
     "mastery": 5,
     "disposition": 1.41,
     "polarities": "-",
-    "trigger": "Auto",
     "reload": 2,
     "magazine": 28,
     "maxAmmo": 420,
-    "accuracy": 15.4,
     "modes": [
       {
         "damage": { "Impact": 10.2, "Puncture": 1.7, "Slash": 5.1 },
         "fireRate": 1500,
         "critChance": 0.15,
         "critMul": 1.5,
-        "procChance": 0.11
+        "procChance": 0.11,
+        "accuracy": 15.4,
+        "trigger": "Auto"
       }
     ],
     "variants": [
@@ -9812,18 +9805,18 @@
         "traits": ["Wraith", "Invasion Reward", "Grineer"],
         "mastery": 7,
         "polarities": "-",
-        "trigger": "Auto",
         "reload": 2,
         "magazine": 40,
         "maxAmmo": 440,
-        "accuracy": 11.1,
         "modes": [
           {
             "damage": { "Impact": 14.4, "Puncture": 1.8, "Slash": 1.8 },
             "fireRate": 1500,
             "critChance": 0.19,
             "critMul": 2,
-            "procChance": 0.09
+            "procChance": 0.09,
+            "accuracy": 11.1,
+            "trigger": "Auto"
           }
         ]
       }
@@ -9835,11 +9828,9 @@
     "traits": ["Infested"],
     "mastery": 9,
     "disposition": 1.51,
-    "trigger": "Semi-Auto",
     "reload": 1.2,
     "magazine": 11,
     "maxAmmo": 210,
-    "accuracy": 100,
     "modes": [
       {
         "damage": { "Impact": 9, "Puncture": 23, "Slash": 17, "Corrosive": 81 },
@@ -9847,6 +9838,8 @@
         "critChance": 0.03,
         "critMul": 1.5,
         "procChance": 0.5,
+        "accuracy": 100,
+        "trigger": "Semi-Auto",
         "prjSpeed": 75
       }
     ]
@@ -9895,18 +9888,18 @@
     "mastery": 4,
     "disposition": 1.35,
     "polarities": "r",
-    "trigger": "Semi-Auto",
     "reload": 1,
     "magazine": 6,
     "maxAmmo": 210,
-    "accuracy": 16,
     "modes": [
       {
         "damage": { "Impact": 14.5, "Puncture": 14.5, "Slash": 29 },
         "fireRate": 300,
         "critChance": 0.2,
         "critMul": 1.8,
-        "procChance": 0.08
+        "procChance": 0.08,
+        "accuracy": 16,
+        "trigger": "Semi-Auto"
       }
     ],
     "variants": [
@@ -9916,17 +9909,17 @@
         "traits": ["Prime", "Vaulted"],
         "mastery": 10,
         "polarities": "rr",
-        "trigger": "Semi-Auto",
         "reload": 1,
         "magazine": 6,
-        "accuracy": 16,
         "modes": [
           {
             "damage": { "Impact": 9.9, "Puncture": 9.9, "Slash": 46.2 },
             "fireRate": 325,
             "critChance": 0.22,
             "critMul": 2.4,
-            "procChance": 0.22
+            "procChance": 0.22,
+            "accuracy": 16,
+            "trigger": "Semi-Auto"
           }
         ]
       }
@@ -9939,11 +9932,9 @@
     "mastery": 2,
     "disposition": 0.85,
     "polarities": "r",
-    "trigger": "Semi-Auto",
     "reload": 1,
     "magazine": 1,
     "maxAmmo": 72,
-    "accuracy": 13.3,
     "sniperComboMin": 1,
     "sniperComboReset": 2,
     "zoom": [
@@ -9957,7 +9948,9 @@
         "critChance": 0.25,
         "critMul": 2,
         "procChance": 0.3,
+        "accuracy": 13.3,
         "punchThrough": 1,
+        "trigger": "Semi-Auto",
         "falloff": [400, 600, null]
       }
     ],
@@ -9968,11 +9961,9 @@
         "traits": ["Prime", "Vaulted"],
         "mastery": 14,
         "polarities": "r-",
-        "trigger": "Semi-Auto",
         "reload": 0.85,
         "magazine": 2,
         "maxAmmo": 72,
-        "accuracy": 13.3,
         "sniperComboMin": 5,
         "sniperComboReset": 2,
         "zoom": [
@@ -9986,7 +9977,9 @@
             "critChance": 0.3,
             "critMul": 2,
             "procChance": 0.3,
+            "accuracy": 13.3,
             "punchThrough": 1,
+            "trigger": "Semi-Auto",
             "falloff": [400, 600, null]
           }
         ]
@@ -9999,18 +9992,18 @@
     "mastery": 8,
     "disposition": 1.2,
     "polarities": "-",
-    "trigger": "Semi-Auto",
     "reload": 1.8,
     "magazine": 26,
     "maxAmmo": 528,
-    "accuracy": 32,
     "modes": [
       {
         "damage": { "Impact": 23.4, "Puncture": 23.4, "Slash": 43.2 },
         "fireRate": 220,
         "critChance": 0.22,
         "critMul": 2.2,
-        "procChance": 0.22
+        "procChance": 0.22,
+        "accuracy": 32,
+        "trigger": "Semi-Auto"
       }
     ]
   },
@@ -10020,13 +10013,16 @@
     "traits": ["Tenno"],
     "mastery": 4,
     "disposition": 1.05,
-    "trigger": "Charge",
     "reload": 25,
     "magazine": 100,
-    "accuracy": 28.6,
     "reloadStyle": 1,
     "modes": [
-      { "damage": { "Magnetic": 200 }, "fireRate": 300 },
+      {
+        "damage": { "Magnetic": 200 },
+        "fireRate": 300,
+        "accuracy": 28.6,
+        "trigger": "Charge"
+      },
       {
         "type": "charge",
         "damage": { "Magnetic": 1800 },
@@ -10043,13 +10039,16 @@
         "tags": ["Arch-Gun (Atmosphere)"],
         "traits": ["Tenno"],
         "mastery": 4,
-        "trigger": "Charge",
         "reload": 2,
         "magazine": 10,
         "maxAmmo": 60,
-        "accuracy": 28.6,
         "modes": [
-          { "damage": { "Magnetic": 133 }, "fireRate": 300 },
+          {
+            "damage": { "Magnetic": 133 },
+            "fireRate": 300,
+            "accuracy": 28.6,
+            "trigger": "Charge"
+          },
           {
             "type": "charge",
             "damage": { "Magnetic": 1200 },
@@ -10153,18 +10152,18 @@
     "mastery": 4,
     "disposition": 1.45,
     "polarities": "r",
-    "trigger": "Auto",
     "reload": 0.7,
     "magazine": 14,
     "maxAmmo": 420,
-    "accuracy": 15.4,
     "modes": [
       {
         "damage": { "Impact": 10.2, "Puncture": 1.7, "Slash": 5.1 },
         "fireRate": 863,
         "critChance": 0.15,
         "critMul": 1.5,
-        "procChance": 0.11
+        "procChance": 0.11,
+        "accuracy": 15.4,
+        "trigger": "Auto"
       }
     ],
     "variants": [
@@ -10174,18 +10173,18 @@
         "traits": ["Grineer", "Wraith", "Baro"],
         "mastery": 4,
         "polarities": "-",
-        "trigger": "Auto",
         "reload": 0.8,
         "magazine": 20,
         "maxAmmo": 420,
-        "accuracy": 28.6,
         "modes": [
           {
             "damage": { "Impact": 14.4, "Puncture": 1.8, "Slash": 1.8 },
             "fireRate": 863,
             "critChance": 0.19,
             "critMul": 2,
-            "procChance": 0.09
+            "procChance": 0.09,
+            "accuracy": 28.6,
+            "trigger": "Auto"
           }
         ]
       }
@@ -10219,10 +10218,8 @@
     "traits": ["Corpus"],
     "mastery": 14,
     "disposition": 1,
-    "trigger": "Charge",
     "reload": 6,
     "magazine": 1,
-    "accuracy": 100,
     "modes": [
       {
         "type": "charge",
@@ -10231,8 +10228,10 @@
         "critChance": 0.2,
         "critMul": 2.5,
         "procChance": 0.1,
+        "accuracy": 100,
         "punchThrough": 1,
-        "chargeTime": 1
+        "chargeTime": 1,
+        "trigger": "Charge"
       }
     ]
   },
@@ -10242,11 +10241,9 @@
     "traits": ["Grineer"],
     "mastery": 3,
     "disposition": 1.4,
-    "trigger": "Semi-Auto",
     "reload": 3,
     "magazine": 6,
     "maxAmmo": 72,
-    "accuracy": 13.3,
     "sniperComboMin": 2,
     "sniperComboReset": 2,
     "zoom": [
@@ -10261,7 +10258,9 @@
         "critChance": 0.2,
         "critMul": 2,
         "procChance": 0.25,
+        "accuracy": 13.3,
         "punchThrough": 1,
+        "trigger": "Semi-Auto",
         "falloff": [400, 600, null]
       }
     ],
@@ -10272,11 +10271,9 @@
         "traits": ["Wraith", "Baro", "Grineer"],
         "mastery": 7,
         "polarities": "r",
-        "trigger": "Semi-Auto",
         "reload": 3,
         "magazine": 8,
         "maxAmmo": 72,
-        "accuracy": 13.3,
         "sniperComboMin": 2,
         "sniperComboReset": 2,
         "zoom": [
@@ -10291,7 +10288,9 @@
             "critChance": 0.2,
             "critMul": 2,
             "procChance": 0.25,
+            "accuracy": 13.3,
             "punchThrough": 1,
+            "trigger": "Semi-Auto",
             "falloff": [400, 600, null]
           }
         ]
@@ -10303,17 +10302,17 @@
     "tags": ["Robotic", "Rifle", "Sniper"],
     "traits": ["Grineer"],
     "disposition": 1.245,
-    "trigger": "Auto",
     "reload": 2,
     "magazine": 10,
-    "accuracy": 100,
     "modes": [
       {
         "damage": { "Electricity": 85 },
         "fireRate": 9,
         "critChance": 0.35,
         "critMul": 2.5,
-        "procChance": 0.25
+        "procChance": 0.25,
+        "accuracy": 100,
+        "trigger": "Auto"
       }
     ]
   },
@@ -10365,11 +10364,9 @@
     "mastery": 10,
     "disposition": 1.2,
     "polarities": "--",
-    "trigger": "Semi-Auto",
     "reload": 0.8,
     "magazine": 3,
     "maxAmmo": 210,
-    "accuracy": 26.7,
     "modes": [
       {
         "name": "Dart Impact",
@@ -10378,6 +10375,8 @@
         "critChance": 0.02,
         "critMul": 1.5,
         "procChance": 0.2,
+        "accuracy": 26.7,
+        "trigger": "Semi-Auto",
         "prjSpeed": 66
       },
       {
@@ -10395,29 +10394,28 @@
     "mastery": 7,
     "disposition": 1.15,
     "polarities": "r",
-    "trigger": "Semi-Auto",
     "reload": 2.25,
     "magazine": 3,
     "maxAmmo": 84,
-    "accuracy": 100,
     "modes": [
       {
         "name": "Cannon Mode Projectile",
         "damage": { "Impact": 25 },
         "fireRate": 100,
-        "accuracy": 100,
         "critChance": 0.17,
         "critMul": 2.5,
-        "procChance": 0.29
+        "procChance": 0.29,
+        "accuracy": 100,
+        "trigger": "Semi-Auto"
       },
       {
         "type": "secondary",
         "name": "Barrage Mode",
         "damage": { "Impact": 240, "Puncture": 400, "Slash": 160 },
         "fireRate": 180,
-        "accuracy": 1.4,
         "critChance": 0.17,
         "procChance": 0.29,
+        "accuracy": 1.4,
         "punchThrough": 1.6,
         "pellets": 10
       },
@@ -10494,11 +10492,9 @@
     "mastery": 10,
     "disposition": 1.1,
     "polarities": "-r",
-    "trigger": "Auto / Semi",
     "reload": 1.6,
     "magazine": 90,
     "maxAmmo": 540,
-    "accuracy": 33.3,
     "modes": [
       {
         "name": "Full Auto Mode",
@@ -10506,7 +10502,9 @@
         "fireRate": 650,
         "critChance": 0.1,
         "critMul": 2,
-        "procChance": 0.34
+        "procChance": 0.34,
+        "accuracy": 33.3,
+        "trigger": "Auto / Semi"
       },
       {
         "type": "secondary",
@@ -10528,19 +10526,19 @@
     "mastery": 10,
     "disposition": 1.25,
     "polarities": "r",
-    "silent": true,
-    "trigger": "Auto",
     "reload": 2.5,
     "magazine": 20,
     "maxAmmo": 540,
-    "accuracy": 40,
     "modes": [
       {
         "damage": { "Impact": 5, "Puncture": 75, "Slash": 20 },
         "fireRate": 250,
         "critChance": 0.2,
         "critMul": 2,
-        "procChance": 0.35
+        "procChance": 0.35,
+        "accuracy": 40,
+        "trigger": "Auto",
+        "silent": true
       }
     ]
   },
@@ -10550,17 +10548,17 @@
     "traits": ["Tenno"],
     "mastery": 6,
     "disposition": 1.15,
-    "trigger": "Duplex",
     "reload": 1.2,
     "magazine": 8,
-    "accuracy": 23.5,
     "modes": [
       {
         "damage": { "Impact": 44.8, "Puncture": 16.8, "Slash": 78.4 },
         "fireRate": 108,
         "critChance": 0.08,
         "critMul": 2,
-        "procChance": 0.26
+        "procChance": 0.26,
+        "accuracy": 23.5,
+        "trigger": "Duplex"
       }
     ]
   }

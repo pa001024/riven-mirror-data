@@ -151,6 +151,14 @@ const toWeaponWiki = (raw: WikiWeapons.Weapon, noproto = false): ProtoWeapon => 
   if (!normal) return null;
   const totalDamage = ~~_.reduce(normal.damage, (a, b) => a + b);
   const defaultMode = (raw.NormalAttack && "normal") || "";
+  const dataToDefaultMode = {
+    accuracy: +(raw.Accuracy + "").split(" ")[0] || undefined,
+    range: raw.Range,
+    silent: raw.NoiseLevel === "Silent" || undefined,
+    trigger: raw.Trigger,
+    spool: raw.Spool,
+    fireRate: raw.FireRate && +(raw.FireRate * 60).toFixed(0),
+  } as WeaponMode;
   return {
     name: raw.Name,
     tags: toTags(raw.Type, raw.Class),
@@ -159,15 +167,10 @@ const toWeaponWiki = (raw: WikiWeapons.Weapon, noproto = false): ProtoWeapon => 
     disposition: noproto ? undefined : raw.Disposition,
     // fireRate: raw.FireRate && +(raw.FireRate * 60).toFixed(0),
     polarities: (raw.Polarities && raw.Polarities.map(v => polarityMap[v]).join("")) || undefined,
-    accuracy: +(raw.Accuracy + "").split(" ")[0] || undefined,
-    range: raw.Range,
-    silent: raw.NoiseLevel === "Silent" || undefined,
-    trigger: raw.Trigger,
     reload: raw.Reload,
     magazine: raw.Magazine,
     maxAmmo: raw.MaxAmmo || undefined,
     zoom: raw.Zoom && raw.Zoom.map(toZoom),
-    spool: raw.Spool,
     stancePolarity: raw.StancePolarity && polarityMap[raw.StancePolarity],
     blockResist: raw.BlockResist,
     finisherDamage: raw.FinisherDamage,
@@ -182,9 +185,9 @@ const toWeaponWiki = (raw: WikiWeapons.Weapon, noproto = false): ProtoWeapon => 
     sniperComboReset: raw.SniperComboReset,
     reloadStyle: ReloadStyle[raw.ReloadStyle],
     modes: [
-      !defaultMode ? toAttackWiki(undefined, raw.NormalAttack) : _.merge(toAttackWiki(undefined, raw.NormalAttack), { fireRate: raw.FireRate && +(raw.FireRate * 60).toFixed(0) } as WeaponMode),
+      !defaultMode ? toAttackWiki(undefined, raw.NormalAttack) : _.merge(toAttackWiki(undefined, raw.NormalAttack), dataToDefaultMode),
       toAttackWiki("secondary", raw.SecondaryAttack),
-      defaultMode ? toAttackWiki("charge", raw.ChargeAttack) : _.merge(toAttackWiki("charge", raw.ChargeAttack), { fireRate: raw.FireRate && +(raw.FireRate * 60).toFixed(0) } as WeaponMode),
+      defaultMode ? toAttackWiki("charge", raw.ChargeAttack) : _.merge(toAttackWiki("charge", raw.ChargeAttack), dataToDefaultMode),
       toAttackWiki("chargedThrow", raw.ChargedThrowAttack),
       toAttackWiki("throw", raw.ThrowAttack),
       toAttackWiki("area", raw.AreaAttack),

@@ -9,9 +9,11 @@ message Weapons {
       float ratio = 1;
       map<string, float> props = 2;
     }
+    message Reach {
+      float base = 1;
+      float min = 2;
+    }
     message WeaponMode {
-      string type = 1;
-      string name = 2;
       message Damage {
         float Impact = 1;
         float Puncture = 2;
@@ -29,12 +31,14 @@ message Weapons {
         float Void = 14;
         float True = 15;
       }
+      string type = 1;
+      string name = 2;
       Damage damage = 3;
       int32 fireRate = 4;
-      float accuracy = 5;
-      float critChance = 6;
-      float critMul = 7;
-      float procChance = 8;
+      float critChance = 5;
+      float critMul = 6;
+      float procChance = 7;
+      float accuracy = 8;
       float punchThrough = 9;
       int32 pellets = 10;
       float radius = 11;
@@ -43,8 +47,10 @@ message Weapons {
       float chargeTime = 14;
       string trigger = 15;
       float burstCount = 16;
-      repeated float falloff = 17;
-      float prjSpeed = 18;
+      float prjSpeed = 17;
+      int32 spool = 18;
+      bool silent = 19;
+      repeated float falloff = 20;
     }
     // base
     string name = 1;
@@ -55,37 +61,31 @@ message Weapons {
     string polarities = 6;
 
     // gun
-    bool silent = 7;
-    string trigger = 8;
-    float reload = 9;
-    int32 magazine = 10;
-    int32 maxAmmo = 11;
-    // mode
-    // xx (100 when aimed)
-    float accuracy = 12;
-    int32 range = 13;
+    float reload = 7;
+    int32 magazine = 8;
+    int32 maxAmmo = 9;
+    int32 reloadStyle = 10;
     // deep extra
-    int32 spool = 14;
-    int32 sniperComboMin = 15;
-    int32 sniperComboReset = 16;
-    int32 reloadStyle = 17;
+    int32 sniperComboMin = 11;
+    int32 sniperComboReset = 12;
+    // "3x (+20% Critical Chance)"
+    repeated Zoom zoom = 13;
 
     // melee
-    string stancePolarity = 18;
-    float blockResist = 19;
-    int32 finisherDamage = 20;
-    int32 channelCost = 21;
-    float channelMult = 22;
-    float spinAttack = 23;
-    float jumpAttack = 24;
-    float leapAttack = 25;
-    float wallAttack = 26;
+    string stancePolarity = 14;
+    float blockResist = 15;
+    int32 finisherDamage = 16;
+    int32 channelCost = 17;
+    float channelMult = 18;
+    float spinAttack = 19;
+    float jumpAttack = 20;
+    float leapAttack = 21;
+    float wallAttack = 22;
+    Reach reach = 23;
 
     // attack
-    // "3x (+20% Critical Chance)"
-    repeated Zoom zoom = 27;
-    repeated WeaponMode modes = 28;
-    repeated Weapon variants = 29;
+    repeated WeaponMode modes = 24;
+    repeated Weapon variants = 25;
   }
   repeated Weapon weapons = 1;
 }
