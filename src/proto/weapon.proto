@@ -1,17 +1,14 @@
 syntax = "proto3";
-package im.riven;
-
 // ver 1.0
+// complie with:
+// npx pbjs -t static-module --no-encode -w es6 -o weapon.js weapon.proto
+// npx pbts -o weapon.d.ts weapon.js
 
 message Weapons {
   message Weapon {
     message Zoom {
       float ratio = 1;
       map<string, float> props = 2;
-    }
-    message Reach {
-      float base = 1;
-      float min = 2;
     }
     message WeaponMode {
       message Damage {
@@ -81,7 +78,7 @@ message Weapons {
     float jumpAttack = 20;
     float leapAttack = 21;
     float wallAttack = 22;
-    Reach reach = 23;
+    repeated float reach = 23;
 
     // attack
     repeated WeaponMode modes = 24;
