@@ -110,7 +110,7 @@ const convertProtoBuff = async () => {
       console.error(err);
       return;
     }
-    const Weapons = root.lookupType("im.riven.Weapons");
+    const Weapons = root.lookupType("Weapons");
     const target = TARGET_PREFIX + "weapons.json";
     const source = await fs.readFile(target, "utf-8");
     const payload = JSON.parse(source).map((v: any) => Weapons.lookupType("Weapon").create(v));

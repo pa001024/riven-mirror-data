@@ -45,7 +45,7 @@
   },
   "Afuris": {
     "name": "Afuris",
-    "tags": ["Secondary", "Pistol", "Dual Pistols"],
+    "tags": ["Secondary", "Dual Pistols"],
     "traits": ["Tenno"],
     "mastery": 4,
     "disposition": 1.39,
@@ -87,7 +87,7 @@
   },
   "Akbolto": {
     "name": "Akbolto",
-    "tags": ["Secondary", "Pistol", "Dual Pistols"],
+    "tags": ["Secondary", "Dual Pistols"],
     "traits": ["Tenno"],
     "mastery": 9,
     "disposition": 0.8,
@@ -111,7 +111,7 @@
     "variants": [
       {
         "name": "Akbolto Prime",
-        "tags": ["Secondary", "Pistol", "Dual Pistols"],
+        "tags": ["Secondary", "Dual Pistols"],
         "mastery": 13,
         "polarities": "-rrr",
         "reload": 1.3,
@@ -132,7 +132,7 @@
       },
       {
         "name": "Telos Akbolto",
-        "tags": ["Secondary", "Pistol", "Dual Pistols"],
+        "tags": ["Secondary", "Dual Pistols"],
         "traits": ["Syndicate", "Arbiters of Hexis"],
         "mastery": 11,
         "polarities": "d-",
@@ -156,7 +156,7 @@
   },
   "Akbronco": {
     "name": "Akbronco",
-    "tags": ["Secondary", "Pistol", "Dual Shotguns"],
+    "tags": ["Secondary", "Dual Shotguns"],
     "traits": ["Tenno"],
     "mastery": 2,
     "disposition": 1.25,
@@ -181,7 +181,7 @@
     "variants": [
       {
         "name": "Akbronco Prime",
-        "tags": ["Secondary", "Pistol", "Dual Shotguns"],
+        "tags": ["Secondary", "Dual Shotguns"],
         "traits": ["Prime", "Never Vaulted"],
         "mastery": 10,
         "polarities": "rr",
@@ -206,7 +206,7 @@
   },
   "Akjagara": {
     "name": "Akjagara",
-    "tags": ["Secondary", "Pistol", "Dual Pistols"],
+    "tags": ["Secondary", "Dual Pistols"],
     "traits": ["Tenno"],
     "mastery": 8,
     "disposition": 1.25,
@@ -230,7 +230,7 @@
     "variants": [
       {
         "name": "Akjagara Prime",
-        "tags": ["Secondary", "Pistol", "Dual Pistols"],
+        "tags": ["Secondary", "Dual Pistols"],
         "traits": ["Prime"],
         "mastery": 12,
         "polarities": "rr",
@@ -256,7 +256,7 @@
   },
   "Aklato": {
     "name": "Aklato",
-    "tags": ["Secondary", "Pistol", "Dual Pistols"],
+    "tags": ["Secondary", "Dual Pistols"],
     "mastery": 3,
     "disposition": 1.52,
     "accuracy": 11.1,
@@ -277,7 +277,7 @@
   },
   "Aklex": {
     "name": "Aklex",
-    "tags": ["Secondary", "Pistol", "Dual Pistols"],
+    "tags": ["Secondary", "Dual Pistols"],
     "traits": ["Tenno"],
     "mastery": 4,
     "disposition": 0.85,
@@ -299,7 +299,7 @@
     "variants": [
       {
         "name": "Aklex Prime",
-        "tags": ["Secondary", "Pistol", "Dual Pistols"],
+        "tags": ["Secondary", "Dual Pistols"],
         "traits": ["Prime", "Baro"],
         "mastery": 15,
         "reload": 3,
@@ -321,7 +321,7 @@
   },
   "Akmagnus": {
     "name": "Akmagnus",
-    "tags": ["Secondary", "Pistol", "Dual Pistols"],
+    "tags": ["Secondary", "Dual Pistols"],
     "traits": ["Tenno"],
     "mastery": 12,
     "disposition": 1.28,
@@ -342,7 +342,7 @@
   },
   "Aksomati": {
     "name": "Aksomati",
-    "tags": ["Secondary", "Pistol", "Dual Pistols"],
+    "tags": ["Secondary", "Dual Pistols"],
     "traits": ["Tenno"],
     "mastery": 9,
     "disposition": 1.2,
@@ -365,7 +365,7 @@
   },
   "Akstiletto": {
     "name": "Akstiletto",
-    "tags": ["Secondary", "Pistol", "Dual Pistols"],
+    "tags": ["Secondary", "Dual Pistols"],
     "traits": ["Tenno"],
     "mastery": 8,
     "disposition": 0.5,
@@ -388,7 +388,7 @@
     "variants": [
       {
         "name": "Akstiletto Prime",
-        "tags": ["Secondary", "Pistol", "Dual Pistols"],
+        "tags": ["Secondary", "Dual Pistols"],
         "traits": ["Prime"],
         "mastery": 10,
         "polarities": "-r",
@@ -411,7 +411,7 @@
   },
   "Akvasto": {
     "name": "Akvasto",
-    "tags": ["Secondary", "Pistol", "Dual Pistols"],
+    "tags": ["Secondary", "Dual Pistols"],
     "traits": ["Tenno"],
     "mastery": 8,
     "disposition": 1.2,
@@ -433,7 +433,7 @@
     "variants": [
       {
         "name": "Akvasto Prime",
-        "tags": ["Secondary", "Pistol", "Dual Pistols"],
+        "tags": ["Secondary", "Dual Pistols"],
         "traits": ["Prime", "Vaulted"],
         "mastery": 12,
         "polarities": "rr",
@@ -457,7 +457,7 @@
   },
   "Akzani": {
     "name": "Akzani",
-    "tags": ["Secondary", "Pistol", "Dual Pistols"],
+    "tags": ["Secondary", "Dual Pistols"],
     "traits": ["Tenno"],
     "mastery": 4,
     "disposition": 1.52,
@@ -991,7 +991,7 @@
   },
   "Balefire Charger": {
     "name": "Balefire Charger",
-    "tags": ["Secondary", "Pistol", "Exalted"],
+    "tags": ["Secondary", "Dual Pistols", "Exalted"],
     "traits": ["Tenno"],
     "polarities": "rr",
     "modes": [
@@ -1632,7 +1632,7 @@
   },
   "Burst Laser": {
     "name": "Burst Laser",
-    "tags": ["Robotic", "Pistol"],
+    "tags": ["Secondary", "Robotic", "Pistol"],
     "traits": ["Tenno"],
     "disposition": 1.45,
     "accuracy": 100,
@@ -1652,7 +1652,7 @@
     "variants": [
       {
         "name": "Prisma Burst Laser",
-        "tags": ["Robotic", "Pistol"],
+        "tags": ["Secondary", "Robotic", "Pistol"],
         "traits": ["Tenno", "Prisma"],
         "reload": 0,
         "magazine": 15,
@@ -1795,7 +1795,7 @@
   },
   "Castanas": {
     "name": "Castanas",
-    "tags": ["Secondary", "Pistol", "Thrown"],
+    "tags": ["Secondary", "Thrown"],
     "traits": ["Tenno"],
     "mastery": 3,
     "disposition": 1.35,
@@ -1820,7 +1820,7 @@
     "variants": [
       {
         "name": "Sancti Castanas",
-        "tags": ["Secondary", "Pistol", "Thrown"],
+        "tags": ["Secondary", "Thrown"],
         "traits": ["Syndicate", "New Loka"],
         "mastery": 10,
         "polarities": "rrd",
@@ -2191,7 +2191,7 @@
     "variants": [
       {
         "name": "Corvas (Atmosphere)",
-        "tags": ["Arch-Gun (Atmosphere)", "Shotgun"],
+        "tags": ["Arch-Gun", "Atmosphere", "Shotgun"],
         "traits": ["Tenno"],
         "mastery": 1,
         "polarities": "-",
@@ -2307,9 +2307,9 @@
     "disposition": 1.1,
     "polarities": "--",
     "accuracy": 100,
-    "reload": 1,
+    "reload": 40,
     "magazine": 40,
-    "maxAmmo": 40,
+    "reloadStyle": 1,
     "modes": [
       {
         "damage": { "Puncture": 8, "Slash": 5, "Radiation": 10 },
@@ -2350,7 +2350,7 @@
     "variants": [
       {
         "name": "Cyngas (Atmosphere)",
-        "tags": ["Arch-Gun (Atmosphere)"],
+        "tags": ["Arch-Gun", "Atmosphere"],
         "traits": ["Tenno"],
         "mastery": 4,
         "reload": 1.2,
@@ -2636,7 +2636,7 @@
   },
   "Despair": {
     "name": "Despair",
-    "tags": ["Secondary", "Pistol", "Thrown"],
+    "tags": ["Secondary", "Thrown"],
     "mastery": 4,
     "disposition": 1.3,
     "polarities": "rr",
@@ -2796,7 +2796,7 @@
   },
   "Dex Pixia": {
     "name": "Dex Pixia",
-    "tags": ["Secondary", "Pistol", "Exalted"],
+    "tags": ["Secondary", "Dual Pistols", "Exalted"],
     "traits": ["Tenno"],
     "polarities": "rr-",
     "reload": 0.3,
@@ -2922,7 +2922,7 @@
   },
   "Dual Cestra": {
     "name": "Dual Cestra",
-    "tags": ["Secondary", "Pistol", "Dual Pistols"],
+    "tags": ["Secondary", "Dual Pistols"],
     "traits": ["Corpus"],
     "mastery": 7,
     "disposition": 1.3,
@@ -2946,7 +2946,7 @@
     "variants": [
       {
         "name": "Secura Dual Cestra",
-        "tags": ["Secondary", "Pistol", "Dual Pistols"],
+        "tags": ["Secondary", "Dual Pistols"],
         "traits": ["Syndicate", "Perrin Sequence"],
         "mastery": 10,
         "polarities": "r-",
@@ -3038,7 +3038,7 @@
     "variants": [
       {
         "name": "Dual Decurion (Atmosphere)",
-        "tags": ["Arch-Gun (Atmosphere)"],
+        "tags": ["Arch-Gun", "Atmosphere"],
         "traits": ["Tenno"],
         "mastery": 1,
         "reload": 1.4,
@@ -3226,7 +3226,7 @@
   },
   "Dual Toxocyst": {
     "name": "Dual Toxocyst",
-    "tags": ["Secondary", "Pistol", "Dual Pistols"],
+    "tags": ["Secondary", "Dual Pistols"],
     "traits": ["Infested"],
     "mastery": 11,
     "disposition": 1.3,
@@ -3642,7 +3642,7 @@
     "variants": [
       {
         "name": "Fluctus (Atmosphere)",
-        "tags": ["Arch-Gun (Atmosphere)"],
+        "tags": ["Arch-Gun", "Atmosphere"],
         "traits": ["Tenno"],
         "mastery": 2,
         "polarities": "-",
@@ -3743,9 +3743,8 @@
     "disposition": 1,
     "accuracy": 9.1,
     "silent": true,
-    "reload": 1,
+    "reload": 30,
     "magazine": 60,
-    "maxAmmo": 500,
     "reloadStyle": 1,
     "modes": [
       {
@@ -3861,7 +3860,7 @@
     "variants": [
       {
         "name": "Dex Furis",
-        "tags": ["Secondary", "Pistol", "Dual Pistols"],
+        "tags": ["Secondary", "Dual Pistols"],
         "traits": ["Tenno"],
         "mastery": 10,
         "polarities": "-",
@@ -3905,7 +3904,7 @@
   },
   "Fusilai": {
     "name": "Fusilai",
-    "tags": ["Secondary", "Pistol", "Thrown"],
+    "tags": ["Secondary", "Thrown"],
     "traits": ["Tenno"],
     "mastery": 7,
     "disposition": 1.3,
@@ -4431,7 +4430,7 @@
     "variants": [
       {
         "name": "Grattler (Atmosphere)",
-        "tags": ["Arch-Gun (Atmosphere)"],
+        "tags": ["Arch-Gun", "Atmosphere"],
         "traits": ["Grineer"],
         "mastery": 4,
         "polarities": "r",
@@ -4806,7 +4805,7 @@
   },
   "Hikou": {
     "name": "Hikou",
-    "tags": ["Secondary", "Pistol", "Thrown"],
+    "tags": ["Secondary", "Thrown"],
     "traits": ["Tenno"],
     "mastery": 2,
     "disposition": 0.95,
@@ -4831,7 +4830,7 @@
     "variants": [
       {
         "name": "Hikou Prime",
-        "tags": ["Secondary", "Pistol", "Thrown"],
+        "tags": ["Secondary", "Thrown"],
         "traits": ["Prime", "Vaulted"],
         "mastery": 4,
         "polarities": "rr",
@@ -5012,7 +5011,7 @@
     "variants": [
       {
         "name": "Imperator (Atmosphere)",
-        "tags": ["Arch-Gun (Atmosphere)"],
+        "tags": ["Arch-Gun", "Atmosphere"],
         "traits": ["Tenno"],
         "polarities": "r",
         "reload": 2,
@@ -5053,7 +5052,7 @@
         "variants": [
           {
             "name": "Imperator Vandal (Atmosphere)",
-            "tags": ["Arch-Gun (Atmosphere)"],
+            "tags": ["Arch-Gun", "Atmosphere"],
             "traits": ["Tenno", "Vandal"],
             "mastery": 5,
             "reload": 2,
@@ -5077,7 +5076,7 @@
   },
   "Iron Staff": {
     "name": "Iron Staff",
-    "tags": ["Melee", "Exalted", "Staves"],
+    "tags": ["Melee", "Exalted", "Staff"],
     "traits": ["Tenno"],
     "polarities": "r--",
     "blockResist": 0.6,
@@ -5722,7 +5721,7 @@
   },
   "Kunai": {
     "name": "Kunai",
-    "tags": ["Secondary", "Pistol", "Thrown"],
+    "tags": ["Secondary", "Thrown"],
     "traits": ["Tenno"],
     "mastery": 2,
     "disposition": 1.51,
@@ -5747,7 +5746,7 @@
     "variants": [
       {
         "name": "MK1-Kunai",
-        "tags": ["Secondary", "Pistol", "Thrown"],
+        "tags": ["Secondary", "Thrown"],
         "traits": ["Tenno"],
         "polarities": "rr",
         "reload": 0.75,
@@ -5850,7 +5849,7 @@
   },
   "Lanzo": {
     "name": "Lanzo",
-    "tags": ["Gear", "Pistol", "Thrown"],
+    "tags": ["Secondary", "Gear", "Thrown"],
     "traits": ["Cetus"],
     "modes": [
       {
@@ -5896,7 +5895,7 @@
     "variants": [
       {
         "name": "Larkspur",
-        "tags": ["Arch-Gun (Atmosphere)"],
+        "tags": ["Arch-Gun", "Atmosphere"],
         "traits": ["Tenno"],
         "mastery": 8,
         "reload": 2.5,
@@ -5943,6 +5942,26 @@
         "critMul": 1.25,
         "procChance": 0.02,
         "trigger": "Auto"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Prime Laser Rifle",
+        "tags": ["Robotic", "Rifle", "Assault Rifle"],
+        "traits": ["Prime", "Vaulted"],
+        "reload": 1.2,
+        "magazine": 5,
+        "modes": [
+          {
+            "damage": { "Impact": 1.2, "Puncture": 8.4, "Slash": 2.4 },
+            "fireRate": 600,
+            "critChance": 0.15,
+            "critMul": 1.5,
+            "procChance": 0.05,
+            "accuracy": 100,
+            "trigger": "Auto"
+          }
+        ]
       }
     ]
   },
@@ -7405,7 +7424,7 @@
   },
   "Peram": {
     "name": "Peram",
-    "tags": ["Gear", "Pistol", "Thrown"],
+    "tags": ["Secondary", "Gear", "Thrown"],
     "traits": ["Cetus"],
     "modes": [
       {
@@ -7442,7 +7461,7 @@
     "variants": [
       {
         "name": "Phaedra (Atmosphere)",
-        "tags": ["Arch-Gun (Atmosphere)"],
+        "tags": ["Arch-Gun", "Atmosphere"],
         "traits": ["Tenno"],
         "mastery": 3,
         "polarities": "r",
@@ -7568,7 +7587,7 @@
   },
   "Pox": {
     "name": "Pox",
-    "tags": ["Secondary", "Pistol", "Thrown"],
+    "tags": ["Secondary", "Thrown"],
     "traits": ["Infested"],
     "mastery": 9,
     "disposition": 1.05,
@@ -7591,26 +7610,6 @@
         "silent": true
       },
       { "type": "area", "name": "Poison Cloud", "damage": { "Toxin": 100 } }
-    ]
-  },
-  "Prime Laser Rifle": {
-    "name": "Prime Laser Rifle",
-    "tags": ["Robotic", "Rifle", "Assault Rifle"],
-    "traits": ["Prime", "Vaulted"],
-    "disposition": 1.21,
-    "accuracy": 100,
-    "reload": 1.2,
-    "magazine": 5,
-    "modes": [
-      {
-        "damage": { "Impact": 1.2, "Puncture": 8.4, "Slash": 2.4 },
-        "fireRate": 600,
-        "accuracy": 100,
-        "critChance": 0.15,
-        "critMul": 1.5,
-        "procChance": 0.05,
-        "trigger": "Auto"
-      }
     ]
   },
   "Prova": {
@@ -7929,7 +7928,7 @@
   },
   "Regulators": {
     "name": "Regulators",
-    "tags": ["Secondary", "Pistol", "Exalted"],
+    "tags": ["Secondary", "Dual Pistols", "Exalted"],
     "traits": ["Tenno"],
     "polarities": "r--",
     "reload": 1.8,
@@ -7948,7 +7947,7 @@
     "variants": [
       {
         "name": "Regulators Prime",
-        "tags": ["Secondary", "Pistol", "Exalted"],
+        "tags": ["Secondary", "Dual Pistols", "Exalted"],
         "traits": ["Tenno"],
         "polarities": "r--",
         "reload": 1.8,
@@ -8785,7 +8784,7 @@
         "mastery": 10,
         "reload": 1.2,
         "magazine": 80,
-        "maxAmmo": 720,
+        "maxAmmo": 400,
         "modes": [
           {
             "damage": { "Slash": 12.8, "Puncture": 9.2 },
@@ -8803,7 +8802,7 @@
   },
   "Spira": {
     "name": "Spira",
-    "tags": ["Secondary", "Pistol", "Thrown"],
+    "tags": ["Secondary", "Thrown"],
     "traits": ["Tenno"],
     "mastery": 8,
     "disposition": 1,
@@ -8827,7 +8826,7 @@
     "variants": [
       {
         "name": "Spira Prime",
-        "tags": ["Secondary", "Pistol", "Thrown"],
+        "tags": ["Secondary", "Thrown"],
         "traits": ["Prime"],
         "mastery": 10,
         "polarities": "rr",
@@ -8851,7 +8850,7 @@
   },
   "Staticor": {
     "name": "Staticor",
-    "tags": ["Secondary", "Pistol", "Dual Pistols"],
+    "tags": ["Secondary", "Dual Pistols"],
     "traits": ["Corpus"],
     "mastery": 10,
     "disposition": 0.53,
@@ -9342,7 +9341,7 @@
   },
   "Talons": {
     "name": "Talons",
-    "tags": ["Secondary", "Pistol", "Thrown"],
+    "tags": ["Secondary", "Thrown"],
     "traits": ["Tenno"],
     "mastery": 8,
     "disposition": 1.44,
@@ -9782,7 +9781,7 @@
   },
   "Tulok": {
     "name": "Tulok",
-    "tags": ["Gear", "Pistol", "Thrown"],
+    "tags": ["Secondary", "Gear", "Thrown"],
     "traits": ["Cetus"],
     "modes": [
       {
@@ -9818,7 +9817,7 @@
   },
   "Twin Grakatas": {
     "name": "Twin Grakatas",
-    "tags": ["Secondary", "Pistol", "Dual Pistols"],
+    "tags": ["Secondary", "Dual Pistols"],
     "traits": ["Grineer"],
     "mastery": 9,
     "disposition": 1,
@@ -9843,7 +9842,7 @@
   },
   "Twin Gremlins": {
     "name": "Twin Gremlins",
-    "tags": ["Secondary", "Pistol", "Dual Pistols"],
+    "tags": ["Secondary", "Dual Pistols"],
     "traits": ["Grineer"],
     "mastery": 5,
     "disposition": 1.3,
@@ -9867,7 +9866,7 @@
     "variants": [
       {
         "name": "Prisma Twin Gremlins",
-        "tags": ["Secondary", "Pistol", "Dual Pistols"],
+        "tags": ["Secondary", "Dual Pistols"],
         "traits": ["Grineer"],
         "mastery": 11,
         "polarities": "r",
@@ -9892,7 +9891,7 @@
   },
   "Twin Kohmak": {
     "name": "Twin Kohmak",
-    "tags": ["Secondary", "Pistol", "Dual Shotguns"],
+    "tags": ["Secondary", "Dual Shotguns"],
     "traits": ["Grineer"],
     "mastery": 10,
     "disposition": 1.25,
@@ -9946,7 +9945,7 @@
   },
   "Twin Rogga": {
     "name": "Twin Rogga",
-    "tags": ["Secondary", "Pistol", "Dual Shotguns"],
+    "tags": ["Secondary", "Dual Shotguns"],
     "traits": ["Grineer"],
     "mastery": 9,
     "disposition": 1.2,
@@ -9971,7 +9970,7 @@
   },
   "Twin Vipers": {
     "name": "Twin Vipers",
-    "tags": ["Secondary", "Pistol", "Dual Pistols"],
+    "tags": ["Secondary", "Dual Pistols"],
     "traits": ["Grineer"],
     "mastery": 5,
     "disposition": 1.41,
@@ -9994,7 +9993,7 @@
     "variants": [
       {
         "name": "Twin Vipers Wraith",
-        "tags": ["Secondary", "Pistol", "Dual Pistols"],
+        "tags": ["Secondary", "Dual Pistols"],
         "traits": ["Wraith", "Invasion Reward", "Grineer"],
         "mastery": 7,
         "polarities": "-",
@@ -10235,7 +10234,7 @@
     "variants": [
       {
         "name": "Velocitus (Atmosphere)",
-        "tags": ["Arch-Gun (Atmosphere)"],
+        "tags": ["Arch-Gun", "Atmosphere"],
         "traits": ["Tenno"],
         "mastery": 4,
         "reload": 2,
