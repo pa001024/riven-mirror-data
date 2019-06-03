@@ -5781,7 +5781,7 @@
     ],
     "variants": [
       {
-        "name": "Larkspur",
+        "name": "Larkspur (Atmosphere)",
         "tags": ["Arch-Gun", "Atmosphere"],
         "traits": ["Tenno"],
         "mastery": 8,
@@ -8037,7 +8037,7 @@
       {
         "type": "area",
         "name": "Explosion",
-        "damage": { "Corrosive": 30 },
+        "damage": { "Corrosive": 55 },
         "critChance": 0.02,
         "critMul": 1.5,
         "procChance": 0.3

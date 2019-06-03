@@ -87,14 +87,18 @@ export const convertMods = (rawmods: any, rawwfs: any) => {
       ...mods.map(
         v =>
           v.description &&
-          v.description.map(v => {
-            let m = v.match(/^[\+\-]\d+(?:\.\d+)?(.* .+)/);
-            return m ? m[1] : "";
+          v.description.map(desc => {
+            let m = desc.match(/^[\+\-]\d+(?:\.\d+)?(.* .+)/);
+            return m ? m[1] : desc;
           })
       )
     )
-  ).filter(Boolean);
-  fs.outputFile(TMP_PREFIX + "collectedProps.json", JSON.stringify(props));
+  )
+    .filter(Boolean)
+    .reduce((rst, next) => {
+      rst[next] = "???";
+      return rst;
+    }, {});
 
   const converted = mods
     .map(({ name, polarity, rarity, type, subtype, baseDrain, fusionLimit, description }) => {
@@ -110,5 +114,5 @@ export const convertMods = (rawmods: any, rawwfs: any) => {
       } as Mod;
     })
     .filter(v => v.polarity);
-  return converted;
+  return [converted, props];
 };

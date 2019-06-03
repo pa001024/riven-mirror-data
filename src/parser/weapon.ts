@@ -292,11 +292,7 @@ export const convertWeapons = (deWeapons: DEWeapon, wikiWeapons: WikiWeapon, pat
   const weaponDE = deWeapons.ExportWeapons.filter(v => typeof v.omegaAttenuation !== "undefined").map(toWeaponDE);
   const weaponMapDE = weaponDE.reduce((rst, weapon) => ((rst[weapon.name] = weapon), rst), {} as Pair<ProtoWeapon>);
   const weaponMapWIKI = _.merge(
-    _.map(wikiWeapons.Weapons, (v, name) => {
-      if (v.Name.endsWith(" (Atmosphere)") && v.Name !== name) {
-        console.log("fixed name issue:", `${v.Name} => ${name}`);
-        v.Name = name;
-      }
+    _.map(wikiWeapons.Weapons, v => {
       // 作为variants输出
       if (v.Type.endsWith(" (Atmosphere)")) return null;
       let rst: Weapon = toWeaponWiki(v);

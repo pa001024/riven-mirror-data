@@ -6,6 +6,7 @@ import { convertWeapons } from "./parser/weapon";
 import * as prettier from "prettier";
 import * as protobuf from "protobufjs";
 import { convertCN } from "./parser/cn";
+import * as _ from "lodash";
 
 const formatJSON = (src: any) => {
   return prettier.format(typeof src === "string" ? src : JSON.stringify(src), { parser: "json" });
@@ -56,8 +57,9 @@ const customJSONFormat = async () => {
           {
             const rawmods = JSON.parse(await fs.readFile(TMP_PREFIX + fn, "utf-8"));
             const rawwfs = JSON.parse(await fs.readFile(TMP_PREFIX + "de-Warframes.json", "utf-8"));
-            const result = convertMods(rawmods, rawwfs);
+            const [result, props] = convertMods(rawmods, rawwfs);
             await fs.outputFile(TARGET_PREFIX + "mods.json", formatJSON(result));
+            await fs.outputFile(TMP_PREFIX + "collectedProps.json", formatJSON(props));
           }
           return;
         case "de-Weapons.json":
@@ -65,7 +67,8 @@ const customJSONFormat = async () => {
             const deWeapons = JSON.parse(await fs.readFile(TMP_PREFIX + fn, "utf-8"));
             const wikiWeapons = JSON.parse(await fs.readFile(TMP_PREFIX + "wikia-Weapons.json", "utf-8"));
             const patch = JSON.parse(await fs.readFile(PATCH_PREFIX + "weapons.json", "utf-8"));
-            const [unpatch, result, disposition] = convertWeapons(deWeapons, wikiWeapons, patch);
+            const patchWiki = JSON.parse(await fs.readFile(PATCH_PREFIX + "weapons.wiki.json", "utf-8"));
+            const [unpatch, result, disposition] = convertWeapons(deWeapons, _.merge(wikiWeapons, patchWiki), patch);
             await fs.outputFile(TARGET_PREFIX + "weapons.unpatch.json", formatJSON(unpatch));
             await fs.outputFile(TARGET_PREFIX + "weapons.json", formatJSON(result));
             await fs.outputFile(TARGET_PREFIX + "disposition.json", formatJSON(disposition));
