@@ -5847,20 +5847,6 @@
       }
     ]
   },
-  "Lanzo": {
-    "name": "Lanzo",
-    "tags": ["Secondary", "Gear", "Thrown"],
-    "traits": ["Cetus"],
-    "modes": [
-      {
-        "damage": { "Impact": 10 },
-        "critMul": 2,
-        "procChance": 0,
-        "range": 20,
-        "trigger": "Semi-Auto"
-      }
-    ]
-  },
   "Larkspur": {
     "name": "Larkspur",
     "tags": ["Arch-Gun"],
@@ -7419,20 +7405,6 @@
             "trigger": "Detonate"
           }
         ]
-      }
-    ]
-  },
-  "Peram": {
-    "name": "Peram",
-    "tags": ["Secondary", "Gear", "Thrown"],
-    "traits": ["Cetus"],
-    "modes": [
-      {
-        "damage": { "Slash": 10 },
-        "critMul": 2,
-        "procChance": 0,
-        "range": 20,
-        "trigger": "Semi-Auto"
       }
     ]
   },
@@ -9776,20 +9748,6 @@
         "damage": { "Toxin": 400 },
         "critChance": 0.15,
         "critMul": 2
-      }
-    ]
-  },
-  "Tulok": {
-    "name": "Tulok",
-    "tags": ["Secondary", "Gear", "Thrown"],
-    "traits": ["Cetus"],
-    "modes": [
-      {
-        "damage": { "Puncture": 10 },
-        "critMul": 2,
-        "procChance": 0,
-        "range": 20,
-        "trigger": "Semi-Auto"
       }
     ]
   },

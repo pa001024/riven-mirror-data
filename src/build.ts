@@ -7,6 +7,7 @@ import * as prettier from "prettier";
 import * as protobuf from "protobufjs";
 import { convertCN } from "./parser/cn";
 import * as _ from "lodash";
+import chalk from "chalk";
 
 const formatJSON = (src: any) => {
   return prettier.format(typeof src === "string" ? src : JSON.stringify(src), { parser: "json" });
@@ -127,16 +128,16 @@ const convertProtoBuff = async () => {
 
 export default async (fast = true) => {
   if (fast && ["wikia-Warframes.json", "wikia-Weapons.json"].every(v => fs.existsSync(TMP_PREFIX + v))) {
-    console.log("[build] STEP1: convertLuaToJSON Skipped (use 'yarn clean' to rebuild)");
+    console.log(chalk.green("[build]"), "STEP1: convertLuaToJSON Skipped (use 'yarn clean' to rebuild)");
   } else {
-    console.log("[build] STEP1: convertLuaToJSON Start");
+    console.log(chalk.green("[build]"), "STEP1: convertLuaToJSON Start");
     await convertLuaToJSON();
   }
-  console.log("[build] STEP2: fixDEJSONError Start");
+  console.log(chalk.green("[build]"), "STEP2: fixDEJSONError Start");
   await fixDEJSONError();
-  console.log("[build] STEP3: customJSONFormat Start");
+  console.log(chalk.green("[build]"), "STEP3: customJSONFormat Start");
   await customJSONFormat();
-  console.log("[build] STEP4: convertProtoBuff Start");
+  console.log(chalk.green("[build]"), "STEP4: convertProtoBuff Start");
   await convertProtoBuff();
-  console.log("[build] All Finished");
+  console.log(chalk.green("[build]"), "All Finished");
 };

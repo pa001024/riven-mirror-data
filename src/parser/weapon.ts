@@ -1,4 +1,5 @@
 import * as _ from "lodash";
+import chalk from "chalk";
 import { WikiWeapons } from "@/wiki";
 import { DEWeapons } from "@/de";
 import { ProtoWeapon, WeaponMode, Zoom, Weapon } from "./weapon.i";
@@ -265,7 +266,7 @@ const diff = (name: string, a, b) => {
   return diffKeys.map(key => {
     if (key in a && key in b) {
       if (a[key] !== b[key]) {
-        if (!(key === "fireRate" && !a[key])) console.log(`conflict in ${name}.${key}: DE:${a[key]} WIKI:${b[key]}`);
+        if (!(key === "fireRate" && !a[key])) console.log(`${chalk.yellow("conflict in")} ${chalk.green(name + "." + key)}: DE:${a[key]} WIKI:${b[key]}`);
         return [key, false];
       }
     }
@@ -305,6 +306,7 @@ export const convertWeapons = (deWeapons: DEWeapon, wikiWeapons: WikiWeapon, pat
     }).reduce(
       (rst, weapon) => {
         if (!weapon) return rst;
+        if (weapon.tags.includes("Gear")) return rst;
         rst[weapon.name] = { ...weapon };
         return rst;
       },
