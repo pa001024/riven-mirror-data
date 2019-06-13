@@ -70,5 +70,12 @@
   },
   "Iron Staff": {
     "tags": ["Melee", "Exalted", "Staff"]
+  },
+  "Mutalist Cernos": {
+    "modes": [
+      {
+        "fireRate": 60
+      }
+    ]
   }
 }

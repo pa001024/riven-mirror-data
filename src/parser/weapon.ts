@@ -253,7 +253,7 @@ const toWeaponDE = (raw: DEWeapons.ExportWeapon) =>
       {
         name: undefined,
         damage: undefined, //raw.damagePerShot.map((v, i) => [DMG_NAMES[i], +v.toFixed(2)]).filter(([_, v]) => v),
-        fireRate: undefined,
+        fireRate: ~~(raw.fireRate * 60),
         critChance: +raw.criticalChance.toFixed(3),
         critMul: +raw.criticalMultiplier.toFixed(2),
         procChance: +raw.procChance.toFixed(3),
