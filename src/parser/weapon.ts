@@ -191,8 +191,8 @@ const toWeaponWiki = (raw: WikiWeapons.Weapon, noproto = false): ProtoWeapon => 
     reloadStyle: ReloadStyle[raw.ReloadStyle],
     modes: [
       !defaultMode ? toAttackWiki(undefined, raw.NormalAttack) : _.merge(toAttackWiki(undefined, raw.NormalAttack), dataToDefaultMode),
-      toAttackWiki("secondary", raw.SecondaryAttack),
       defaultMode ? toAttackWiki("charge", raw.ChargeAttack) : _.merge(toAttackWiki("charge", raw.ChargeAttack), dataToDefaultMode),
+      toAttackWiki("secondary", raw.SecondaryAttack),
       toAttackWiki("chargedThrow", raw.ChargedThrowAttack),
       toAttackWiki("throw", raw.ThrowAttack),
       toAttackWiki("area", raw.AreaAttack),

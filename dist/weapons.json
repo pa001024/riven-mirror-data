@@ -520,13 +520,6 @@
     "maxAmmo": 18,
     "modes": [
       {
-        "type": "secondary",
-        "name": "3-Rocket Barrage Explosion",
-        "damage": { "Blast": 750 },
-        "pellets": 3,
-        "radius": 3
-      },
-      {
         "type": "charge",
         "name": "Single Rocket Impact",
         "damage": { "Blast": 200 },
@@ -538,6 +531,13 @@
         "chargeTime": 0.5,
         "trigger": "Charge",
         "prjSpeed": 150
+      },
+      {
+        "type": "secondary",
+        "name": "3-Rocket Barrage Explosion",
+        "damage": { "Blast": 750 },
+        "pellets": 3,
+        "radius": 3
       },
       {
         "type": "area",
@@ -570,16 +570,6 @@
         "maxAmmo": 18,
         "modes": [
           {
-            "type": "secondary",
-            "name": "3-Rocket Barrage Explosion",
-            "damage": { "Blast": 750 },
-            "critChance": 0.18,
-            "critMul": 2.2,
-            "procChance": 0.26,
-            "pellets": 3,
-            "radius": 3
-          },
-          {
             "type": "charge",
             "name": "Single Rocket Impact",
             "damage": { "Blast": 200 },
@@ -591,6 +581,13 @@
             "chargeTime": 0.2,
             "trigger": "Charge",
             "prjSpeed": 150
+          },
+          {
+            "type": "secondary",
+            "name": "3-Rocket Barrage Explosion",
+            "damage": { "Blast": 750 },
+            "pellets": 3,
+            "radius": 3
           },
           {
             "type": "area",
@@ -994,17 +991,6 @@
     "magazine": 16,
     "modes": [
       {
-        "type": "secondary",
-        "name": "Burst Shot",
-        "damage": { "Impact": 2.5, "Puncture": 20, "Slash": 2.5 },
-        "fireRate": 686,
-        "critChance": 0.0375,
-        "critMul": 1.5,
-        "procChance": 0.025,
-        "burstCount": 4,
-        "prjSpeed": 100
-      },
-      {
         "type": "charge",
         "damage": { "Impact": 10, "Puncture": 80, "Slash": 10 },
         "fireRate": 200,
@@ -1016,6 +1002,17 @@
         "trigger": "Burst / Charge",
         "prjSpeed": 100,
         "silent": true
+      },
+      {
+        "type": "secondary",
+        "name": "Burst Shot",
+        "damage": { "Impact": 2.5, "Puncture": 20, "Slash": 2.5 },
+        "fireRate": 686,
+        "critChance": 0.0375,
+        "critMul": 1.5,
+        "procChance": 0.025,
+        "burstCount": 4,
+        "prjSpeed": 100
       }
     ],
     "variants": [
@@ -1063,17 +1060,6 @@
         "maxAmmo": 210,
         "modes": [
           {
-            "type": "secondary",
-            "name": "Burst Shot",
-            "damage": { "Impact": 3.75, "Puncture": 67.5, "Slash": 3.75 },
-            "fireRate": 686,
-            "critChance": 0.05,
-            "critMul": 1.5,
-            "procChance": 0.025,
-            "burstCount": 4,
-            "prjSpeed": 100
-          },
-          {
             "type": "charge",
             "damage": { "Impact": 15, "Puncture": 270, "Slash": 15 },
             "fireRate": 200,
@@ -1085,6 +1071,17 @@
             "trigger": "Burst / Charge",
             "prjSpeed": 100,
             "silent": true
+          },
+          {
+            "type": "secondary",
+            "name": "Burst Shot",
+            "damage": { "Impact": 3.75, "Puncture": 67.5, "Slash": 3.75 },
+            "fireRate": 686,
+            "critChance": 0.05,
+            "critMul": 1.5,
+            "procChance": 0.025,
+            "burstCount": 4,
+            "prjSpeed": 100
           }
         ]
       }
@@ -1944,6 +1941,7 @@
         "modes": [
           {
             "damage": { "Impact": 162, "Puncture": 9, "Slash": 9 },
+            "fireRate": 60,
             "critChance": 0.2,
             "critMul": 1.5,
             "procChance": 0.3,
@@ -1977,6 +1975,7 @@
         "modes": [
           {
             "damage": { "Impact": 135, "Puncture": 7.5, "Slash": 7.5 },
+            "fireRate": 60,
             "critChance": 0.2,
             "critMul": 2,
             "procChance": 0.15,
@@ -3517,17 +3516,6 @@
     "maxAmmo": 540,
     "modes": [
       {
-        "type": "secondary",
-        "name": "Throw Spear",
-        "damage": { "Impact": 455, "Puncture": 72.5, "Slash": 122.5 },
-        "fireRate": 60,
-        "critChance": 0.04,
-        "critMul": 2,
-        "procChance": 0.33,
-        "chargeTime": 0.5,
-        "trigger": "Charge"
-      },
-      {
         "type": "charge",
         "damage": { "Impact": 35, "Puncture": 245, "Slash": 70 },
         "fireRate": 80,
@@ -3536,6 +3524,17 @@
         "procChance": 0.1,
         "accuracy": 16.7,
         "punchThrough": 1.5,
+        "chargeTime": 0.5,
+        "trigger": "Charge"
+      },
+      {
+        "type": "secondary",
+        "name": "Throw Spear",
+        "damage": { "Impact": 455, "Puncture": 72.5, "Slash": 122.5 },
+        "fireRate": 60,
+        "critChance": 0.04,
+        "critMul": 2,
+        "procChance": 0.33,
         "chargeTime": 0.5,
         "trigger": "Charge"
       }
@@ -3981,7 +3980,7 @@
   },
   {
     "name": "Garuda's Talons",
-    "tags": ["Melee", "Exalted"],
+    "tags": ["Melee", "Claws"],
     "traits": ["Tenno"],
     "polarities": "r-",
     "stancePolarity": "r",
@@ -5048,17 +5047,6 @@
     "maxAmmo": 300,
     "modes": [
       {
-        "type": "secondary",
-        "name": "Throw Spear",
-        "damage": { "Impact": 45, "Puncture": 75, "Slash": 30 },
-        "fireRate": 60,
-        "critChance": 0.2,
-        "critMul": 2,
-        "procChance": 0.25,
-        "accuracy": 16.7,
-        "chargeTime": 0.5
-      },
-      {
         "type": "charge",
         "name": "Projectile Impact",
         "damage": { "Heat": 230 },
@@ -5069,6 +5057,17 @@
         "accuracy": 100,
         "chargeTime": 0.3,
         "trigger": "Charge"
+      },
+      {
+        "type": "secondary",
+        "name": "Throw Spear",
+        "damage": { "Impact": 45, "Puncture": 75, "Slash": 30 },
+        "fireRate": 60,
+        "critChance": 0.2,
+        "critMul": 2,
+        "procChance": 0.25,
+        "accuracy": 16.7,
+        "chargeTime": 0.5
       },
       {
         "type": "area",
@@ -5687,7 +5686,7 @@
     "modes": [
       {
         "damage": { "Impact": 350 },
-        "fireRate": 50,
+        "fireRate": 60,
         "critChance": 0.05,
         "critMul": 2,
         "procChance": 0.05
@@ -7120,6 +7119,7 @@
         "modes": [
           {
             "damage": { "Impact": 5, "Puncture": 80, "Slash": 15 },
+            "fireRate": 60,
             "critChance": 0.2,
             "critMul": 1.5,
             "procChance": 0.15,
@@ -7151,6 +7151,7 @@
         "modes": [
           {
             "damage": { "Impact": 3.25, "Puncture": 104, "Slash": 22.75 },
+            "fireRate": 60,
             "critChance": 0.25,
             "critMul": 2,
             "procChance": 0.2,
@@ -8088,7 +8089,7 @@
     "modes": [
       {
         "damage": { "Puncture": 800 },
-        "fireRate": 50,
+        "fireRate": 60,
         "critChance": 0,
         "critMul": 2,
         "procChance": 0.1
@@ -8096,7 +8097,7 @@
       {
         "name": "Tap",
         "damage": { "Slash": 800 },
-        "fireRate": 50,
+        "fireRate": 60,
         "critChance": 0.2,
         "critMul": 2,
         "procChance": 0.1
@@ -10416,16 +10417,16 @@
         "procChance": 0.25
       },
       {
-        "type": "secondary",
-        "name": "Attacks while disc deployed",
-        "damage": { "Impact": 13, "Puncture": 13, "Slash": 104 },
-        "fireRate": 58
-      },
-      {
         "type": "charge",
         "name": "Disc Impact",
         "damage": { "Impact": 75 },
         "range": 9
+      },
+      {
+        "type": "secondary",
+        "name": "Attacks while disc deployed",
+        "damage": { "Impact": 13, "Puncture": 13, "Slash": 104 },
+        "fireRate": 58
       },
       {
         "type": "area",
@@ -10473,7 +10474,7 @@
         "critMul": 2.5,
         "procChance": 0.08,
         "punchThrough": 99999,
-        "ammoCost": 5,
+        "ammoCost": 3,
         "trigger": "Semi-Auto"
       }
     ]

@@ -1,6 +1,7 @@
 import $ from "axios";
 import * as fs from "fs-extra";
 import { TMP_PREFIX } from "./var";
+import chalk from "chalk";
 
 const fetchTargets = [
   {
@@ -51,7 +52,7 @@ const fetchTasks = fetchTargets.map(v => {
         timeout: 10e3,
       });
       await fs.outputFile(TMP_PREFIX + v.dist, typeof rst.data === "string" ? rst.data : JSON.stringify(rst.data));
-      console.log("[fetch] Download", TMP_PREFIX + v.dist, "from", v.src);
+      console.log(chalk.blue("[fetch] Download"), TMP_PREFIX + v.dist, "from", v.src);
     } catch (e) {
       console.error(`File ${v.src} download failed, please download manually`, e.message);
     }

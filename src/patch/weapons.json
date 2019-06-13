@@ -37,7 +37,7 @@
     "modes": [
       {
         "damage": { "Puncture": 800 },
-        "fireRate": 50,
+        "fireRate": 60,
         "critChance": 0,
         "critMul": 2,
         "procChance": 0.1
@@ -45,7 +45,7 @@
       {
         "name": "Tap",
         "damage": { "Slash": 800 },
-        "fireRate": 50,
+        "fireRate": 60,
         "critChance": 0.2,
         "critMul": 2,
         "procChance": 0.1
@@ -61,7 +61,7 @@
     "modes": [
       {
         "damage": { "Impact": 350 },
-        "fireRate": 50,
+        "fireRate": 60,
         "critChance": 0.05,
         "critMul": 2,
         "procChance": 0.05
@@ -71,11 +71,7 @@
   "Iron Staff": {
     "tags": ["Melee", "Exalted", "Staff"]
   },
-  "Mutalist Cernos": {
-    "modes": [
-      {
-        "fireRate": 60
-      }
-    ]
+  "Garuda's Talons": {
+    "tags": ["Melee", "Claws"]
   }
 }
