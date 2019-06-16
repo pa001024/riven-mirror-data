@@ -3,6 +3,7 @@ import chalk from "chalk";
 import { WikiWeapons } from "@/wiki";
 import { DEWeapons } from "@/de";
 import { ProtoWeapon, WeaponMode, Zoom, Weapon } from "./weapon.i";
+import { purge } from "@/util";
 
 const DMG_NAMES = [
   "Impact", //
@@ -274,10 +275,6 @@ const diff = (name: string, a, b) => {
   });
 };
 
-const purge = <T>(a: T) => {
-  Object.keys(a).forEach(v => typeof a[v] === "undefined" && delete a[v]);
-  return a;
-};
 
 const diffAndDelete = <T>(ori: T, diff: T, keys: (keyof T)[]) => {
   keys.forEach(key => {
@@ -286,12 +283,10 @@ const diffAndDelete = <T>(ori: T, diff: T, keys: (keyof T)[]) => {
   return ori;
 };
 
-type Pair<T> = { [key: string]: T };
-
 // 转换武器
-export const convertWeapons = (deWeapons: DEWeapon, wikiWeapons: WikiWeapon, patch: Pair<ProtoWeapon>) => {
+export const convertWeapons = (deWeapons: DEWeapon, wikiWeapons: WikiWeapon, patch: Dict<ProtoWeapon>) => {
   const weaponDE = deWeapons.ExportWeapons.filter(v => typeof v.omegaAttenuation !== "undefined").map(toWeaponDE);
-  const weaponMapDE = weaponDE.reduce((rst, weapon) => ((rst[weapon.name] = weapon), rst), {} as Pair<ProtoWeapon>);
+  const weaponMapDE = weaponDE.reduce((rst, weapon) => ((rst[weapon.name] = weapon), rst), {} as Dict<ProtoWeapon>);
   const weaponMapWIKI = _.merge(
     _.map(wikiWeapons.Weapons, v => {
       // 作为variants输出
@@ -310,7 +305,7 @@ export const convertWeapons = (deWeapons: DEWeapon, wikiWeapons: WikiWeapon, pat
         rst[weapon.name] = { ...weapon };
         return rst;
       },
-      {} as Pair<ProtoWeapon>
+      {} as Dict<ProtoWeapon>
     ),
     patch
   );
@@ -334,7 +329,7 @@ export const convertWeapons = (deWeapons: DEWeapon, wikiWeapons: WikiWeapon, pat
       }
       return rst;
     },
-    {} as Pair<ProtoWeapon>
+    {} as Dict<ProtoWeapon>
   );
   // DE数据中没有的
   if (weaponNamesDE.length) {

@@ -46,6 +46,7 @@ export declare namespace DEWarframes {
     stamina: number;
     power: number;
     codexSecret: boolean;
+    sprintSpeed: number;
     abilities: Ability[];
     passiveDescription?: string;
   }

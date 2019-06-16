@@ -171,6 +171,58 @@ export declare namespace WikiWeapons {
   }
 }
 
+export declare namespace WikiWarframes {
+  interface Root {
+    IgnoreInCount: string[];
+    Warframes: { [key: string]: Warframe };
+  }
+
+  interface Warframe {
+    Armor: number;
+    AuraPolarity: string;
+    Conclave: boolean;
+    Energy: number;
+    Health: number;
+    Image: string;
+    Portrait: string;
+    Mastery?: number;
+    Name: string;
+    Polarities: string[];
+    Shield: number;
+    Sprint: number;
+    Introduced: string;
+    Sex: string;
+    MainCost: MainCost;
+    NeuroCost: NeuroCost;
+    ChassisCost: NeuroCost;
+    SystemCost: NeuroCost;
+  }
+
+  interface NeuroCost {
+    Credits: number;
+    Rush: number;
+    Time: number;
+    Parts: Part[];
+  }
+
+  interface MainCost {
+    Credits: number;
+    BPCost: number;
+    MarketCost: number;
+    Rush: number;
+    Time: number;
+    Parts: Part[];
+  }
+
+  interface Part {
+    Name: string;
+    Type: string;
+    Count: number;
+  }
+}
+
 declare global {
+  type Dict<T> = { [key: string]: T };
   type WikiWeapon = WikiWeapons.Root;
+  type WikiWarframe = WikiWarframes.Root;
 }
