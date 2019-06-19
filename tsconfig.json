@@ -16,6 +16,6 @@
     "lib": ["esnext", "scripthost"],
     "sourceMap": false,
     "pretty": false,
-    "types": ["DEUpgrade", "DEWarframe", "DEWeapon", "WikiWeapon"]
+    "types": []
   }
 }

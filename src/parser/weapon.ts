@@ -3,7 +3,7 @@ import chalk from "chalk";
 import { WikiWeapons } from "@/wiki";
 import { DEWeapons } from "@/de";
 import { ProtoWeapon, WeaponMode, Zoom, Weapon } from "./weapon.i";
-import { purge } from "@/util";
+import { purge } from "../util";
 
 const DMG_NAMES = [
   "Impact", //
@@ -274,7 +274,6 @@ const diff = (name: string, a, b) => {
     return [key, true];
   });
 };
-
 
 const diffAndDelete = <T>(ori: T, diff: T, keys: (keyof T)[]) => {
   keys.forEach(key => {
