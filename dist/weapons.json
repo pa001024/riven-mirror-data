@@ -10444,6 +10444,22 @@
     ]
   },
   {
+    "name": "Whipclaw",
+    "tags": ["Melee", "Exalted", "Virtual"],
+    "traits": ["Tenno"],
+    "disposition": 0,
+    "stancePolarity": "o",
+    "modes": [
+      {
+        "damage": { "Impact": 90, "Puncture": 90, "Slash": 120 },
+        "fireRate": 60,
+        "critChance": 0.25,
+        "critMul": 2,
+        "procChance": 0.2
+      }
+    ]
+  },
+  {
     "name": "Wolf Sledge",
     "tags": ["Melee", "Hammer"],
     "mastery": 7,

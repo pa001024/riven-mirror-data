@@ -10646,6 +10646,22 @@
     ],
     "reach": [1.3, 1.4]
   },
+  "Whipclaw": {
+    "name": "Whipclaw",
+    "tags": ["Melee", "Exalted", "Virtual"],
+    "traits": ["Tenno"],
+    "disposition": 0,
+    "stancePolarity": "o",
+    "modes": [
+      {
+        "damage": { "Puncture": 90, "Slash": 120, "Impact": 90 },
+        "fireRate": 60,
+        "critChance": 0.25,
+        "critMul": 2,
+        "procChance": 0.2
+      }
+    ]
+  },
   "Wolf Sledge": {
     "name": "Wolf Sledge",
     "tags": ["Melee", "Hammer"],
