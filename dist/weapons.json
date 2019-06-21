@@ -63,6 +63,29 @@
         "accuracy": 15.4,
         "trigger": "Auto"
       }
+    ],
+    "variants": [
+      {
+        "name": "Dex Furis",
+        "tags": ["Secondary", "Dual Pistols"],
+        "traits": ["Tenno"],
+        "mastery": 10,
+        "polarities": "-",
+        "reload": 2,
+        "magazine": 100,
+        "maxAmmo": 400,
+        "modes": [
+          {
+            "damage": { "Impact": 2.4, "Puncture": 11.2, "Slash": 2.4 },
+            "fireRate": 1200,
+            "critChance": 0.14,
+            "critMul": 2,
+            "procChance": 0.28,
+            "accuracy": 15.4,
+            "trigger": "Auto"
+          }
+        ]
+      }
     ]
   },
   {
@@ -3831,27 +3854,6 @@
       }
     ],
     "variants": [
-      {
-        "name": "Dex Furis",
-        "tags": ["Secondary", "Dual Pistols"],
-        "traits": ["Tenno"],
-        "mastery": 10,
-        "polarities": "-",
-        "reload": 2,
-        "magazine": 100,
-        "maxAmmo": 400,
-        "modes": [
-          {
-            "damage": { "Impact": 2.4, "Puncture": 11.2, "Slash": 2.4 },
-            "fireRate": 1200,
-            "critChance": 0.14,
-            "critMul": 2,
-            "procChance": 0.28,
-            "accuracy": 15.4,
-            "trigger": "Auto"
-          }
-        ]
-      },
       {
         "name": "MK1-Furis",
         "tags": ["Secondary", "Pistol"],
@@ -8215,15 +8217,15 @@
         "fireRate": 60,
         "critChance": 0,
         "critMul": 2,
-        "procChance": 0.1
+        "procChance": 0
       },
       {
         "name": "Tap",
         "damage": { "Slash": 800 },
         "fireRate": 60,
-        "critChance": 0.2,
+        "critChance": 0,
         "critMul": 2,
-        "procChance": 0.1
+        "procChance": 0
       }
     ]
   },

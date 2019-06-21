@@ -26,6 +26,7 @@ const getBaseName = (name: string) => {
   const WEAPON_PREFIX = /^MK1-|^(?:Prisma|Mara|Dex|Secura|Rakta|Telos|Synoid|Sancti|Vaykor|Carmine|Prime) /;
   const WEAPON_SUBFIX = / (?:Prime|Wraith|Vandal|\(Heavy Blade\)|\(Umbra\))$/;
   const WEAPON_SINGLE = ["Euphona Prime", "Dex Dakra", "Reaper Prime", "Dakra Prime", "Dex Pixia"];
+  if (name === "Dex Furis") return "Afuris";
   if (WEAPON_SINGLE.includes(name)) return name;
   if (WEAPON_PREFIX.test(name)) return name.replace(WEAPON_PREFIX, "");
   if (WEAPON_SUBFIX.test(name)) return name.replace(WEAPON_SUBFIX, "");

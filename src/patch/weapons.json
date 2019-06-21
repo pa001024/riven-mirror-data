@@ -40,15 +40,15 @@
         "fireRate": 60,
         "critChance": 0,
         "critMul": 2,
-        "procChance": 0.1
+        "procChance": 0
       },
       {
         "name": "Tap",
         "damage": { "Slash": 800 },
         "fireRate": 60,
-        "critChance": 0.2,
+        "critChance": 0,
         "critMul": 2,
-        "procChance": 0.1
+        "procChance": 0
       }
     ]
   },
