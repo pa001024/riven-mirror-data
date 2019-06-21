@@ -8739,6 +8739,8 @@
             "procChance": 0.28,
             "accuracy": 100,
             "punchThrough": 0.5,
+            "range": 22,
+            "ammoCost": 0.5,
             "trigger": "Held"
           }
         ]
