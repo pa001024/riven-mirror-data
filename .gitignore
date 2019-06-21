@@ -4,4 +4,5 @@ tmp/
 
 *.log
 .vscode/
-dist/weapons.reve.json
+dist/weapons.unpatch.json
+dist/weapons.min.json

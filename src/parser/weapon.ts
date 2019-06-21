@@ -365,12 +365,14 @@ export const convertWeapons = (deWeapons: DEWeapon, wikiWeapons: WikiWeapon, pat
         console.log("warning", "no", baseName);
         return rst;
       }
+      const { variants: subVariants, ...otherProps } = thisVariant;
       rst[baseName] = {
         ...rst[baseName],
         variants: rst[baseName].variants
           ? [
               ...rst[baseName].variants, // -
-              thisVariant,
+              otherProps,
+              ...(subVariants || []),
             ].sort()
           : [thisVariant],
       };

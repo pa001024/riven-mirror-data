@@ -5017,27 +5017,25 @@
             "accuracy": 25,
             "trigger": "Auto-Spool"
           }
-        ],
-        "variants": [
+        ]
+      },
+      {
+        "name": "Imperator Vandal (Atmosphere)",
+        "tags": ["Arch-Gun", "Atmosphere"],
+        "traits": ["Tenno", "Vandal"],
+        "mastery": 5,
+        "reload": 2,
+        "magazine": 300,
+        "maxAmmo": 1200,
+        "modes": [
           {
-            "name": "Imperator Vandal (Atmosphere)",
-            "tags": ["Arch-Gun", "Atmosphere"],
-            "traits": ["Tenno", "Vandal"],
-            "mastery": 5,
-            "reload": 2,
-            "magazine": 300,
-            "maxAmmo": 1200,
-            "modes": [
-              {
-                "damage": { "Impact": 20, "Puncture": 17.5, "Slash": 12.5 },
-                "fireRate": 1500,
-                "critChance": 0.28,
-                "critMul": 2.4,
-                "procChance": 0.12,
-                "accuracy": 25,
-                "trigger": "Auto-Spool"
-              }
-            ]
+            "damage": { "Impact": 20, "Puncture": 17.5, "Slash": 12.5 },
+            "fireRate": 1500,
+            "critChance": 0.28,
+            "critMul": 2.4,
+            "procChance": 0.12,
+            "accuracy": 25,
+            "trigger": "Auto-Spool"
           }
         ]
       }
