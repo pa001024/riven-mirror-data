@@ -166,9 +166,20 @@ const toWeaponWiki = (raw: WikiWeapons.Weapon, noproto = false): ProtoWeapon => 
     spool: raw.Spool,
     fireRate: raw.FireRate && +(raw.FireRate * 60).toFixed(0),
   } as WeaponMode;
+  const tags = toTags(raw.Type, raw.Class);
+  const modes = [
+    !defaultMode ? toAttackWiki(undefined, raw.NormalAttack) : _.merge(toAttackWiki(undefined, raw.NormalAttack), dataToDefaultMode),
+    defaultMode ? toAttackWiki("charge", raw.ChargeAttack) : _.merge(toAttackWiki("charge", raw.ChargeAttack), dataToDefaultMode),
+    toAttackWiki("secondary", raw.SecondaryAttack),
+    toAttackWiki("chargedThrow", raw.ChargedThrowAttack),
+    toAttackWiki("throw", raw.ThrowAttack),
+    toAttackWiki("area", raw.AreaAttack),
+    toAttackWiki("secondaryArea", raw.SecondaryAreaAttack),
+  ].filter(v => Boolean(v) && Object.keys(v).length);
+  if (modes.some(v => v.trigger === "Held")) tags.push("Continuous");
   return {
     name: raw.Name,
-    tags: toTags(raw.Type, raw.Class),
+    tags,
     traits: raw.Traits,
     mastery: raw.Mastery || undefined,
     disposition: noproto ? undefined : raw.Disposition,
@@ -191,15 +202,7 @@ const toWeaponWiki = (raw: WikiWeapons.Weapon, noproto = false): ProtoWeapon => 
     sniperComboMin: raw.SniperComboMin,
     sniperComboReset: raw.SniperComboReset,
     reloadStyle: ReloadStyle[raw.ReloadStyle],
-    modes: [
-      !defaultMode ? toAttackWiki(undefined, raw.NormalAttack) : _.merge(toAttackWiki(undefined, raw.NormalAttack), dataToDefaultMode),
-      defaultMode ? toAttackWiki("charge", raw.ChargeAttack) : _.merge(toAttackWiki("charge", raw.ChargeAttack), dataToDefaultMode),
-      toAttackWiki("secondary", raw.SecondaryAttack),
-      toAttackWiki("chargedThrow", raw.ChargedThrowAttack),
-      toAttackWiki("throw", raw.ThrowAttack),
-      toAttackWiki("area", raw.AreaAttack),
-      toAttackWiki("secondaryArea", raw.SecondaryAreaAttack),
-    ].filter(v => Boolean(v) && Object.keys(v).length),
+    modes,
   };
 };
 

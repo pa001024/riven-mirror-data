@@ -512,7 +512,7 @@
   },
   {
     "name": "Amprex",
-    "tags": ["Primary", "Rifle", "Assault Rifle"],
+    "tags": ["Primary", "Rifle", "Assault Rifle", "Continuous"],
     "traits": ["Corpus"],
     "mastery": 10,
     "disposition": 0.7,
@@ -810,7 +810,7 @@
   },
   {
     "name": "Artax",
-    "tags": ["Robotic", "Rifle", "Assault Rifle"],
+    "tags": ["Robotic", "Rifle", "Assault Rifle", "Continuous"],
     "traits": ["Tenno"],
     "disposition": 1,
     "reload": 1.5,
@@ -894,7 +894,7 @@
   },
   {
     "name": "Atomos",
-    "tags": ["Secondary", "Pistol"],
+    "tags": ["Secondary", "Pistol", "Continuous"],
     "traits": ["Grineer"],
     "mastery": 5,
     "disposition": 0.8,
@@ -2085,7 +2085,7 @@
   },
   {
     "name": "Convectrix",
-    "tags": ["Primary", "Shotgun"],
+    "tags": ["Primary", "Shotgun", "Continuous"],
     "traits": ["Corpus"],
     "mastery": 7,
     "disposition": 1.46,
@@ -2239,7 +2239,7 @@
   },
   {
     "name": "Cryotra",
-    "tags": ["Robotic", "Rifle", "Assault Rifle"],
+    "tags": ["Robotic", "Rifle", "Assault Rifle", "Continuous"],
     "traits": ["Corpus"],
     "mastery": 3,
     "disposition": 1,
@@ -2292,7 +2292,7 @@
   },
   {
     "name": "Cycron",
-    "tags": ["Secondary", "Pistol"],
+    "tags": ["Secondary", "Pistol", "Continuous"],
     "traits": ["Corpus"],
     "mastery": 8,
     "disposition": 1.1,
@@ -3264,7 +3264,7 @@
   },
   {
     "name": "Embolist",
-    "tags": ["Secondary", "Pistol"],
+    "tags": ["Secondary", "Pistol", "Continuous"],
     "traits": ["Infested"],
     "mastery": 9,
     "disposition": 1.45,
@@ -3661,7 +3661,7 @@
   },
   {
     "name": "Flux Rifle",
-    "tags": ["Primary", "Rifle", "Assault Rifle"],
+    "tags": ["Primary", "Rifle", "Assault Rifle", "Continuous"],
     "traits": ["Corpus"],
     "mastery": 6,
     "disposition": 1.55,
@@ -3990,7 +3990,7 @@
   },
   {
     "name": "Gammacor",
-    "tags": ["Secondary", "Pistol"],
+    "tags": ["Secondary", "Pistol", "Continuous"],
     "traits": ["Cephalon"],
     "mastery": 2,
     "disposition": 0.8,
@@ -4014,7 +4014,7 @@
     "variants": [
       {
         "name": "Synoid Gammacor",
-        "tags": ["Secondary", "Pistol"],
+        "tags": ["Secondary", "Pistol", "Continuous"],
         "traits": ["Syndicate", "Cephalon Suda"],
         "mastery": 7,
         "polarities": "d-",
@@ -4174,7 +4174,7 @@
   },
   {
     "name": "Glaxion",
-    "tags": ["Primary", "Rifle", "Assault Rifle"],
+    "tags": ["Primary", "Rifle", "Assault Rifle", "Continuous"],
     "traits": ["Corpus"],
     "mastery": 8,
     "disposition": 1.35,
@@ -4197,7 +4197,7 @@
     "variants": [
       {
         "name": "Glaxion Vandal",
-        "tags": ["Primary", "Rifle", "Assault Rifle"],
+        "tags": ["Primary", "Rifle", "Assault Rifle", "Continuous"],
         "mastery": 12,
         "reload": 1.8,
         "magazine": 100,
@@ -4916,7 +4916,7 @@
   },
   {
     "name": "Ignis",
-    "tags": ["Primary", "Rifle", "Assault Rifle"],
+    "tags": ["Primary", "Rifle", "Assault Rifle", "Continuous"],
     "traits": ["Grineer"],
     "mastery": 5,
     "disposition": 0.6,
@@ -4938,7 +4938,7 @@
     "variants": [
       {
         "name": "Ignis Wraith",
-        "tags": ["Primary", "Rifle", "Assault Rifle"],
+        "tags": ["Primary", "Rifle", "Assault Rifle", "Continuous"],
         "traits": ["Wraith", "Grineer"],
         "mastery": 9,
         "reload": 1.7,
@@ -5822,7 +5822,7 @@
   },
   {
     "name": "Larkspur",
-    "tags": ["Arch-Gun"],
+    "tags": ["Arch-Gun", "Continuous"],
     "traits": ["Tenno"],
     "mastery": 8,
     "disposition": 0.8,
@@ -5853,7 +5853,7 @@
     "variants": [
       {
         "name": "Larkspur (Atmosphere)",
-        "tags": ["Arch-Gun", "Atmosphere"],
+        "tags": ["Arch-Gun", "Atmosphere", "Continuous"],
         "traits": ["Tenno"],
         "mastery": 8,
         "reload": 2.5,
@@ -6724,7 +6724,7 @@
   },
   {
     "name": "Nukor",
-    "tags": ["Secondary", "Pistol"],
+    "tags": ["Secondary", "Pistol", "Continuous"],
     "traits": ["Grineer"],
     "mastery": 4,
     "disposition": 1.45,
@@ -6793,7 +6793,7 @@
   },
   {
     "name": "Ocucor",
-    "tags": ["Secondary", "Pistol"],
+    "tags": ["Secondary", "Pistol", "Continuous"],
     "traits": ["Corpus"],
     "mastery": 8,
     "disposition": 1.1,
@@ -7428,7 +7428,7 @@
   },
   {
     "name": "Phage",
-    "tags": ["Primary", "Shotgun"],
+    "tags": ["Primary", "Shotgun", "Continuous"],
     "traits": ["Infested"],
     "mastery": 11,
     "disposition": 1.46,
@@ -7453,7 +7453,7 @@
   },
   {
     "name": "Phantasma",
-    "tags": ["Primary", "Shotgun"],
+    "tags": ["Primary", "Shotgun", "Continuous"],
     "traits": ["Sentient"],
     "mastery": 9,
     "disposition": 1,
@@ -7670,7 +7670,7 @@
   },
   {
     "name": "Quanta",
-    "tags": ["Primary", "Rifle", "Assault Rifle"],
+    "tags": ["Primary", "Rifle", "Assault Rifle", "Continuous"],
     "traits": ["Corpus"],
     "mastery": 4,
     "disposition": 1.1,
@@ -7706,7 +7706,7 @@
     "variants": [
       {
         "name": "Quanta Vandal",
-        "tags": ["Primary", "Rifle", "Assault Rifle"],
+        "tags": ["Primary", "Rifle", "Assault Rifle", "Continuous"],
         "traits": ["Corpus", "Vandal"],
         "mastery": 10,
         "polarities": "r",
@@ -8703,7 +8703,7 @@
   },
   {
     "name": "Spectra",
-    "tags": ["Secondary", "Pistol"],
+    "tags": ["Secondary", "Pistol", "Continuous"],
     "traits": ["Corpus"],
     "mastery": 4,
     "disposition": 1.49,
@@ -8727,7 +8727,7 @@
     "variants": [
       {
         "name": "Spectra Vandal",
-        "tags": ["Secondary", "Pistol"],
+        "tags": ["Secondary", "Pistol", "Continuous"],
         "mastery": 10,
         "reload": 1.2,
         "magazine": 80,
@@ -9253,7 +9253,7 @@
   },
   {
     "name": "Synapse",
-    "tags": ["Primary", "Rifle", "Assault Rifle"],
+    "tags": ["Primary", "Rifle", "Assault Rifle", "Continuous"],
     "traits": ["Infested"],
     "mastery": 11,
     "disposition": 1.315,
