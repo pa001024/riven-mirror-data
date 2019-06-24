@@ -114,7 +114,8 @@ const toTags = (type: string, clas: string): string[] => {
   if (clas === "Exalted Weapon" && type === "Secondary") return [type, "Dual Pistols", "Exalted"];
   if (clas === "Pistol" && type === "Robotic") return ["Secondary", type, clas];
   if (type === "Gear") return ["Secondary", type, clas];
-  if (type === "Arch-Gun (Atmosphere)") return ["Arch-Gun", "Atmosphere", clas].filter(Boolean);
+  if (type === "Arch-Gun") return ["Arch-Gun"];
+  if (type === "Arch-Gun (Atmosphere)") return ["Arch-Gun", "Atmosphere"];
   return clas ? [type, ...(tagsMap[clas] || [clas])] : [type];
 };
 

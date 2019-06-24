@@ -2150,7 +2150,7 @@
   },
   {
     "name": "Corvas",
-    "tags": ["Arch-Gun", "Shotgun"],
+    "tags": ["Arch-Gun"],
     "traits": ["Tenno"],
     "mastery": 1,
     "disposition": 1.05,
@@ -2183,7 +2183,7 @@
     "variants": [
       {
         "name": "Corvas (Atmosphere)",
-        "tags": ["Arch-Gun", "Atmosphere", "Shotgun"],
+        "tags": ["Arch-Gun", "Atmosphere"],
         "traits": ["Tenno"],
         "mastery": 1,
         "polarities": "-",
