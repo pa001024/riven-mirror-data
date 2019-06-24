@@ -5054,11 +5054,11 @@
     "wallAttack": 1.67,
     "modes": [
       {
-        "damage": { "Impact": 212.5, "Puncture": 37.5 },
+        "damage": { "Impact": 170, "Slash": 80 },
         "fireRate": 60,
         "critChance": 0.25,
         "critMul": 2,
-        "procChance": 0.1
+        "procChance": 0.3
       }
     ]
   },

@@ -68,7 +68,7 @@ const toAttackWiki = (type: string, attack: WikiWeapons.Attack): WeaponMode => {
     BurstCount,
     ShotSpeed,
   } = attack;
-  const damage = Damage; //_.map(Damage, (v, i) => [i, v] as [string, number]);
+  const damage = Damage; //_.reduce(Damage, (r, v, i) => (v && (r[i] = v), r), {}); //_.map(Damage, (v, i) => [i, v] as [string, number]);
   return {
     type,
     name: (!["Uncharged Shot", "Charged Shot", "Buckshot", "Normal Shot"].includes(AttackName) && AttackName) || undefined,

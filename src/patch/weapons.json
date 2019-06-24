@@ -85,7 +85,13 @@
     ]
   },
   "Iron Staff": {
-    "tags": ["Melee", "Exalted", "Staff"]
+    "tags": ["Melee", "Exalted", "Staff"],
+    "modes": [
+      {
+        "damage": { "Impact": 170, "Puncture": null, "Slash": 80 },
+        "procChance": 0.3
+      }
+    ]
   },
   "Garuda's Talons": {
     "tags": ["Melee", "Claws"]
