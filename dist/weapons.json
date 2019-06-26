@@ -7660,7 +7660,7 @@
             "critMul": 2.2,
             "procChance": 0.12,
             "accuracy": 6.1,
-            "pellets": 12,
+            "pellets": 10,
             "trigger": "Auto",
             "falloff": [18, 36, 0.7273]
           }
