@@ -6720,6 +6720,33 @@
         "critMul": 2,
         "procChance": 0.35
       }
+    ],
+    "variants": [
+      {
+        "name": "Ninkondi Prime",
+        "tags": ["Melee", "Nunchaku"],
+        "traits": ["Tenno"],
+        "stancePolarity": "d",
+        "blockResist": 0.35,
+        "spinAttack": 2.15,
+        "jumpAttack": 2.15,
+        "wallAttack": 4,
+        "reach": [0.91, 1.59],
+        "modes": [
+          {
+            "damage": {
+              "Impact": 13,
+              "Puncture": 6,
+              "Slash": 11,
+              "Electricity": 24
+            },
+            "fireRate": 60,
+            "critChance": 0.22,
+            "critMul": 2.4,
+            "procChance": 0.36
+          }
+        ]
+      }
     ]
   },
   {
@@ -10665,6 +10692,30 @@
         "accuracy": 40,
         "trigger": "Auto",
         "silent": true
+      }
+    ],
+    "variants": [
+      {
+        "name": "Zhuge Prime",
+        "tags": ["Primary", "Rifle", "Bow", "Crossbow"],
+        "mastery": 10,
+        "polarities": "r",
+        "reload": 2.5,
+        "magazine": 20,
+        "maxAmmo": 540,
+        "modes": [
+          {
+            "damage": { "Impact": 21.2, "Puncture": 26.5, "Slash": 42.3 },
+            "fireRate": 330,
+            "critChance": 0.26,
+            "critMul": 2,
+            "procChance": 0.3,
+            "accuracy": 40,
+            "trigger": "Auto",
+            "prjSpeed": 85,
+            "silent": true
+          }
+        ]
       }
     ]
   },
