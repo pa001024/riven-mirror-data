@@ -22,6 +22,7 @@
   },
   "Fulmin": {
     "reloadStyle": 1,
+    "reload": 1,
     "modes": [
       {
         "ammoCost": 10
@@ -95,6 +96,12 @@
   },
   "Garuda's Talons": {
     "tags": ["Melee", "Claws"]
+  },
+  "Regulators": {
+    "reload": 0
+  },
+  "Regulators Prime": {
+    "reload": 0
   },
   "Sibear": { "reach": [0.76, 1.54] },
   "Endura": { "reach": [0.91, 1.29] },

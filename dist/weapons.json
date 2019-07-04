@@ -3737,7 +3737,7 @@
     "tags": ["Primary", "Rifle", "Assault Rifle"],
     "mastery": 8,
     "disposition": 1,
-    "reload": 30,
+    "reload": 1,
     "magazine": 60,
     "reloadStyle": 1,
     "modes": [
@@ -7900,7 +7900,7 @@
     "tags": ["Secondary", "Dual Pistols", "Exalted"],
     "traits": ["Tenno"],
     "polarities": "r--",
-    "reload": 1.8,
+    "reload": 0,
     "magazine": 100,
     "modes": [
       {
@@ -7919,7 +7919,7 @@
         "tags": ["Secondary", "Dual Pistols", "Exalted"],
         "traits": ["Tenno"],
         "polarities": "r--",
-        "reload": 1.8,
+        "reload": 0,
         "magazine": 100,
         "modes": [
           {
