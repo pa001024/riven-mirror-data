@@ -7099,7 +7099,6 @@
         "damage": { "Impact": 18, "Puncture": 18, "Slash": 36 },
         "fireRate": 461,
         "accuracy": 8.2,
-        "ammoCost": 8,
         "trigger": "Burst"
       }
     ]

@@ -69,6 +69,7 @@ const toAttackWiki = (type: string, attack: WikiWeapons.Attack): WeaponMode => {
     ShotSpeed,
   } = attack;
   const damage = Damage; //_.reduce(Damage, (r, v, i) => (v && (r[i] = v), r), {}); //_.map(Damage, (v, i) => [i, v] as [string, number]);
+
   return {
     type,
     name: (!["Uncharged Shot", "Charged Shot", "Buckshot", "Normal Shot"].includes(AttackName) && AttackName) || undefined,
@@ -82,7 +83,7 @@ const toAttackWiki = (type: string, attack: WikiWeapons.Attack): WeaponMode => {
     pellets: PelletCount,
     radius: Radius,
     range: Range,
-    ammoCost: AmmoCost,
+    ammoCost: Trigger === "Burst" ? undefined : AmmoCost,
     chargeTime: ChargeTime,
     trigger: Trigger,
     burstCount: BurstCount,
