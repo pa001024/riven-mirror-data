@@ -2,7 +2,7 @@ import * as fs from "fs-extra";
 import { TMP_PREFIX, TARGET_PREFIX, PROTO_PREFIX, PATCH_PREFIX } from "./var";
 import { convertMods } from "./parser/mod";
 import { LuaFileConverter } from "./lib/lua2json";
-import { convertWeapons } from "./parser/weapon";
+import { convertWeapons, MainTag, TYPES } from "./parser/weapon";
 import * as prettier from "prettier";
 import * as protobuf from "protobufjs";
 import { convertCN } from "./parser/cn";
@@ -46,6 +46,35 @@ const fixDEJSONError = async () => {
   );
 };
 
+const mergeRivenPatch = (str: string, table: [string, number, number][]) => {
+  const lines = str.split("\n");
+  const reg = /(.+): (\d+(?:\.\d+)?)->(\d+(?:\.\d+)?)/;
+  const rivenMap = lines.reduce(
+    (r, v) => {
+      const [, name, old, newv] = v.match(reg);
+      r[name] = [+old, +newv];
+      return r;
+    },
+    {} as { [key: string]: [number, number] }
+  );
+  return table
+    .map(([name, typ, val]) => {
+      const imp = rivenMap[name];
+      if (imp) {
+        const [ov, nv] = imp;
+        if (ov === val) {
+          val = nv;
+        } else {
+          console.warn(chalk.red("[error]"), `${name}: ${val} != ${ov} -> ${nv} `);
+        }
+      }
+      return [name, typ, val] as [string, number, number];
+    })
+    .sort((a, b) => {
+      return TYPES[MainTag[a[1]]] - TYPES[MainTag[b[1]]] || b[2] - a[2] || a[0].localeCompare(b[0]);
+    });
+};
+
 // 转换格式
 const customJSONFormat = async () => {
   // TODO
@@ -69,10 +98,12 @@ const customJSONFormat = async () => {
             const wikiWeapons = JSON.parse(await fs.readFile(TMP_PREFIX + "wikia-Weapons.json", "utf-8"));
             const patch = JSON.parse(await fs.readFile(PATCH_PREFIX + "weapons.json", "utf-8"));
             const patchWiki = JSON.parse(await fs.readFile(PATCH_PREFIX + "weapons.wiki.json", "utf-8"));
+            const patchRiven = await fs.readFile(PATCH_PREFIX + "riven-disposition-updates.txt", "utf-8");
             const [unpatch, result, disposition] = convertWeapons(deWeapons, _.merge(wikiWeapons, patchWiki), patch);
+            const riven = mergeRivenPatch(patchRiven, disposition);
             await fs.outputFile(TARGET_PREFIX + "weapons.unpatch.json", formatJSON(unpatch));
             await fs.outputFile(TARGET_PREFIX + "weapons.json", formatJSON(result));
-            await fs.outputFile(TARGET_PREFIX + "disposition.json", formatJSON(disposition));
+            await fs.outputFile(TARGET_PREFIX + "disposition.json", formatJSON(riven));
           }
           return;
         case "huiji-CYDict.json":

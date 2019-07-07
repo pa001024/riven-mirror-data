@@ -287,6 +287,28 @@ const diffAndDelete = <T>(ori: T, diff: T, keys: (keyof T)[]) => {
   return ori;
 };
 
+export enum TYPES {
+  Rifle,
+  Shotgun,
+  Secondary,
+  Kitgun = 2,
+  Melee,
+  Zaw = 3,
+  "Arch-Gun",
+  "Arch-Melee",
+  Amp,
+}
+export enum MainTag {
+  Rifle,
+  Shotgun,
+  Secondary,
+  Kitgun,
+  Melee,
+  Zaw,
+  "Arch-Gun",
+  "Arch-Melee",
+  Amp,
+}
 // 转换武器
 export const convertWeapons = (deWeapons: DEWeapon, wikiWeapons: WikiWeapon, patch: Dict<ProtoWeapon>) => {
   const weaponDE = deWeapons.ExportWeapons.filter(v => typeof v.omegaAttenuation !== "undefined").map(toWeaponDE);
@@ -385,29 +407,6 @@ export const convertWeapons = (deWeapons: DEWeapon, wikiWeapons: WikiWeapon, pat
     return rst;
   }, _.cloneDeep(bases));
 
-  enum TYPES {
-    Rifle,
-    Shotgun,
-    Secondary,
-    Kitgun = 2,
-    Melee,
-    Zaw = 3,
-    "Arch-Gun",
-    "Arch-Melee",
-    Amp,
-  }
-  enum MainTag {
-    Rifle,
-    Shotgun,
-    Secondary,
-    Kitgun,
-    Melee,
-    Zaw,
-    "Arch-Gun",
-    "Arch-Melee",
-    Amp,
-  }
-
   // 输出倾向性表
   const disposition = _.map(all, v => {
     const mode = v.tags.find(v => ["Arch-Gun", "Arch-Melee", "Melee", "Shotgun", "Rifle", "Secondary", "Amp"].includes(v));
@@ -449,5 +448,5 @@ export const convertWeapons = (deWeapons: DEWeapon, wikiWeapons: WikiWeapon, pat
   const weapons = Object.keys(all)
     .sort()
     .map(i => all[i]);
-  return [all, weapons, disposition];
+  return [all, weapons, disposition] as [typeof all, typeof weapons, typeof disposition];
 };

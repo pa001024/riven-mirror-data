@@ -7713,6 +7713,7 @@
         "critMul": 2.2,
         "procChance": 0.16,
         "accuracy": 100,
+        "pellets": 2,
         "range": 50,
         "ammoCost": 0.5,
         "trigger": "Held"
@@ -7748,6 +7749,7 @@
             "critMul": 2.4,
             "procChance": 0.3,
             "accuracy": 100,
+            "pellets": 2,
             "range": 50,
             "ammoCost": 0.5,
             "trigger": "Held"
