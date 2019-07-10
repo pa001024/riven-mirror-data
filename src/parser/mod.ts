@@ -106,7 +106,13 @@ export const convertMods = (rawmods: any, rawwfs: any) => {
       return {
         name,
         type: [type, baseToWarframe.get(subtype)].filter(Boolean).join(","),
-        props: props.length > 1 ? props : undefined,
+        props:
+          props.length > 1
+            ? props
+            : description.map(v => ({
+                key: v,
+                value: 0,
+              })),
         polarity: polarityMap[polarity],
         rarity: rarityMap[rarity],
         baseDrain,

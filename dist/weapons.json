@@ -2192,23 +2192,23 @@
         "maxAmmo": 100,
         "modes": [
           {
-            "damage": { "Impact": 384, "Puncture": 48, "Slash": 48 },
+            "damage": { "Impact": 352, "Puncture": 44, "Slash": 44 },
             "fireRate": 120,
             "critChance": 0.4,
             "critMul": 2.6,
             "procChance": 0.14,
             "accuracy": 9.1,
-            "pellets": 12,
+            "pellets": 11,
             "trigger": "Charge"
           },
           {
             "type": "charge",
-            "damage": { "Impact": 768, "Puncture": 96, "Slash": 96 },
+            "damage": { "Impact": 704, "Puncture": 88, "Slash": 88 },
             "fireRate": 120,
             "critChance": 0.4,
             "critMul": 2.6,
             "procChance": 0.14,
-            "pellets": 12,
+            "pellets": 11,
             "chargeTime": 0.5
           }
         ]
@@ -6726,10 +6726,12 @@
         "name": "Ninkondi Prime",
         "tags": ["Melee", "Nunchaku"],
         "traits": ["Tenno"],
+        "mastery": 10,
+        "polarities": "rr",
         "stancePolarity": "d",
         "blockResist": 0.35,
         "spinAttack": 2.15,
-        "jumpAttack": 2.15,
+        "jumpAttack": 1,
         "wallAttack": 4,
         "reach": [0.91, 1.59],
         "modes": [
@@ -7688,7 +7690,7 @@
             "accuracy": 6.1,
             "pellets": 10,
             "trigger": "Auto",
-            "falloff": [18, 36, 0.7273]
+            "falloff": [18, 36, 0.75]
           }
         ]
       }
@@ -7720,14 +7722,22 @@
       {
         "type": "area",
         "name": "Cube (Hits enemy)",
-        "damage": { "Blast": 250 },
+        "damage": { "Electricity": 100, "Blast": 150 },
+        "fireRate": 240,
+        "critChance": 0.05,
+        "critMul": 1.5,
+        "procChance": 0.26,
         "range": 15,
         "ammoCost": 10
       },
       {
         "type": "secondaryArea",
         "name": "Cube (Shot by player)",
-        "damage": { "Blast": 600 }
+        "damage": { "Blast": 600 },
+        "fireRate": 240,
+        "critChance": 0.05,
+        "critMul": 1.5,
+        "procChance": 0.26
       }
     ],
     "variants": [
@@ -7756,7 +7766,7 @@
           {
             "type": "area",
             "name": "Cube (Hits enemy)",
-            "damage": { "Blast": 250 },
+            "damage": { "Electricity": 100, "Blast": 150 },
             "fireRate": 240,
             "critChance": 0.05,
             "critMul": 1.5,
@@ -7891,7 +7901,7 @@
             "critMul": 2.2,
             "procChance": 0.28
           },
-          { "type": "charge", "damage": { "Blast": 300 }, "pellets": 10 }
+          { "type": "charge", "damage": { "Blast": 800 }, "pellets": 10 }
         ]
       }
     ]
@@ -10699,10 +10709,10 @@
       {
         "name": "Zhuge Prime",
         "tags": ["Primary", "Rifle", "Bow", "Crossbow"],
-        "mastery": 10,
-        "polarities": "r",
-        "reload": 2.5,
-        "magazine": 20,
+        "mastery": 14,
+        "polarities": "rrr",
+        "reload": 3,
+        "magazine": 30,
         "maxAmmo": 540,
         "modes": [
           {

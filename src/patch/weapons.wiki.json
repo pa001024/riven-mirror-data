@@ -2,57 +2,6 @@
   "Weapons": {
     "Larkspur (Atmosphere)": {
       "Name": "Larkspur (Atmosphere)"
-    },
-    "Zhuge Prime": {
-      "Accuracy": 40,
-      "Class": "Crossbow",
-      "Conclave": true,
-      "Disposition": 1.25,
-      "Image": "RepeatingCrossbow.png",
-      "Introduced": "[[Update 18#Update 18.6|Update 18.6]]",
-      "Magazine": 20,
-      "Mastery": 10,
-      "MaxAmmo": 540,
-      "Name": "Zhuge Prime",
-      "NoiseLevel": "Silent",
-      "NormalAttack": {
-        "Damage": { "Impact": 21.2, "Puncture": 26.5, "Slash": 42.3 },
-        "CritChance": 0.26,
-        "CritMultiplier": 2,
-        "StatusChance": 0.3,
-        "FireRate": 5.5,
-        "ShotType": "Projectile",
-        "ShotSpeed": 85
-      },
-      "Polarities": ["V"],
-      "Reload": 2.5,
-      "Trigger": "Auto",
-      "Type": "Primary"
-    },
-    "Ninkondi Prime": {
-      "BlockResist": 0.35,
-      "Class": "Nunchaku",
-      "Conclave": true,
-      "Disposition": 1.41,
-      "Image": "Nunchaku.png",
-      "Introduced": "[[Update 17#Update 17.4|Update 17.4]]",
-      "JumpAttack": 116,
-      "JumpElement": "Electricity",
-      "Mastery": 0,
-      "Name": "Ninkondi Prime",
-      "NormalAttack": {
-        "Damage": { "Electricity": 24, "Impact": 13, "Puncture": 6, "Slash": 11 },
-        "CritChance": 0.22,
-        "CritMultiplier": 2.4,
-        "StatusChance": 0.36,
-        "FireRate": 1
-      },
-      "SlideAttack": 116,
-      "SlideElement": "Electricity",
-      "StancePolarity": "D",
-      "Traits": ["Tenno"],
-      "Type": "Melee",
-      "WallAttack": 216
     }
   }
 }

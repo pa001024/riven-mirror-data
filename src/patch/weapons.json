@@ -1,4 +1,12 @@
 {
+  "Zhuge Prime": {
+    "modes": [
+      {
+        "prjSpeed": 85,
+        "silent": true
+      }
+    ]
+  },
   "Laser Rifle": {
     "modes": [
       {
