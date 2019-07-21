@@ -3455,6 +3455,7 @@
     "tags": ["Primary", "Shotgun"],
     "mastery": 8,
     "disposition": 1,
+    "polarities": "d",
     "reload": 1.6,
     "magazine": 1,
     "maxAmmo": 47,
@@ -3761,7 +3762,7 @@
         "critMul": 2.4,
         "procChance": 0.1,
         "accuracy": 111.1,
-        "trigger": "Semi-Auto"
+        "trigger": "Auto"
       }
     ]
   },
@@ -7808,6 +7809,37 @@
         "accuracy": 90.9,
         "punchThrough": 0.5,
         "trigger": "Burst",
+        "burstCount": 4
+      }
+    ]
+  },
+  {
+    "name": "Quatz",
+    "tags": ["Secondary", "Pistol"],
+    "mastery": 9,
+    "disposition": 1,
+    "reload": 2.7,
+    "magazine": 72,
+    "maxAmmo": 210,
+    "modes": [
+      {
+        "name": "Auto",
+        "damage": { "Impact": 7, "Puncture": 2, "Slash": 9, "Electricity": 11 },
+        "fireRate": 900,
+        "critChance": 0.13,
+        "critMul": 1.5,
+        "procChance": 0.27,
+        "accuracy": 40
+      },
+      {
+        "type": "secondary",
+        "name": "Burst",
+        "damage": { "Impact": 9, "Puncture": 2, "Slash": 7, "Electricity": 11 },
+        "fireRate": 600,
+        "critChance": 0.27,
+        "critMul": 2.5,
+        "procChance": 0.19,
+        "accuracy": 90.9,
         "burstCount": 4
       }
     ]
