@@ -65,7 +65,7 @@ const mergeRivenPatch = (str: string, table: [string, number, number][]) => {
         if (ov === val) {
           val = nv;
         } else {
-          console.warn(chalk.red("[error]"), `${name}: ${val} != ${ov} -> ${nv} `);
+          if (nv !== val) console.warn(chalk.red("[error]"), `${name}: ${val} != ${ov} -> ${nv} `);
         }
       }
       return [name, typ, val] as [string, number, number];

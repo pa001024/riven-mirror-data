@@ -1,4 +1,9 @@
 {
+  "Balefire Charger": {
+    "reload": 0,
+    "magazine": 1,
+    "modes": [{ "type": "charge" }]
+  },
   "Exergis": {
     "polarities": "d"
   },

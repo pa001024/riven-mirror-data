@@ -996,8 +996,11 @@
     "tags": ["Secondary", "Dual Pistols", "Exalted"],
     "traits": ["Tenno"],
     "polarities": "rr",
+    "reload": 0,
+    "magazine": 1,
     "modes": [
       {
+        "type": "charge",
         "damage": { "Electricity": 500 },
         "fireRate": 50,
         "critChance": 0.05,
@@ -2241,7 +2244,6 @@
     "name": "Cryotra",
     "tags": ["Robotic", "Rifle", "Assault Rifle", "Continuous"],
     "traits": ["Corpus"],
-    "mastery": 3,
     "disposition": 1,
     "reload": 4,
     "magazine": 80,
@@ -5592,6 +5594,7 @@
     "mastery": 6,
     "disposition": 1,
     "polarities": "r",
+    "stancePolarity": "=",
     "blockResist": 0.85,
     "spinAttack": 3,
     "jumpAttack": 1,
