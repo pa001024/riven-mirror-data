@@ -5363,7 +5363,7 @@
     "traits": ["Tenno"],
     "mastery": 10,
     "disposition": 1.15,
-    "reload": 2,
+    "reload": 0,
     "magazine": 1,
     "maxAmmo": 10,
     "sniperComboReset": 2,
