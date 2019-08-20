@@ -129,7 +129,7 @@ const toZoom = (src: string) => {
   const props =
     rst[1] &&
     rst[1].split(",").reduce((r, v) => {
-      const rex = /([-+]\d+(?:\.\d+)?)%? (.+)/;
+      const rex = /([-+]\d+(?:\.\d+)?)[%m]? (.+)/;
       if (v) {
         const m = rex.exec(v);
         if (!m) {
@@ -141,6 +141,8 @@ const toZoom = (src: string) => {
           "Critical Chance": "i0",
           "Critical multiplier": "1",
           "Headshot Damage": "hm",
+          "Damage": "D",
+          "Fire Rate": "R",
         };
         if (vnMap[vn]) r[vnMap[vn]] = +vv;
         else console.warn("unknown prop:", v);

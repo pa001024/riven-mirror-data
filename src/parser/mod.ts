@@ -13,7 +13,7 @@ enum polarityMap {
   AP_ATTACK = "r",
   AP_WARD = "t",
   AP_UMBRA = "w",
-  AP_PRECEPT = "k",
+  AP_PRECEPT = "y",
   AP_UNIVERSAL = "",
 }
 
@@ -63,8 +63,7 @@ const parseDescription = (desc: string[]) => {
         if (m && propMap[m[2]]) return [propMap[m[2]], +m[1]];
         if (extPropMap[dd]) return [extPropMap[dd]];
         if (extRexProp[dd]) return extRexProp[dd];
-        if (filterProps.some(r => !!dd.match(r))) return null;
-        else return [dd];
+        return [dd, 0];
       })
       .filter(Boolean)
       .map(([key, value]) => ({ key, value } as ModProp))
@@ -106,13 +105,7 @@ export const convertMods = (rawmods: any, rawwfs: any) => {
       return {
         name,
         type: [type, baseToWarframe.get(subtype)].filter(Boolean).join(","),
-        props:
-          props.length > 1
-            ? props
-            : description.map(v => ({
-                key: v,
-                value: 0,
-              })),
+        props,
         polarity: polarityMap[polarity],
         rarity: rarityMap[rarity],
         baseDrain,
@@ -120,5 +113,5 @@ export const convertMods = (rawmods: any, rawwfs: any) => {
       } as Mod;
     })
     .filter(v => v.polarity);
-  return [converted, props];
+  return [converted, props] as [Mod[], any[]];
 };

@@ -8,7 +8,7 @@ const main = async () => {
   } else if (process.argv[2] === "clean") {
     await clean();
   } else {
-    await build(process.argv[2] === "dev");
+    await build(process.argv[2] === "dev" || process.argv[3] === "fast");
   }
 };
 

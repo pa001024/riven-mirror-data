@@ -565,7 +565,7 @@
     "props": [
       { "key": "v", "value": 2.2 },
       { "key": "at", "value": 2.2 },
-      { "key": "+25% <DT_POISON>Toxin on Bullet Jump" }
+      { "key": "+25% <DT_POISON>Toxin on Bullet Jump", "value": 0 }
     ],
     "polarity": "-",
     "rarity": "r",
@@ -575,7 +575,7 @@
   {
     "name": "Patagium",
     "type": "WARFRAME",
-    "props": [{ "key": "+15% Aim Glide and Wall Latch", "value": 0 }],
+    "props": [{ "key": "at", "value": 15 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 2,
@@ -587,7 +587,7 @@
     "props": [
       { "key": "v", "value": 3 },
       { "key": "at", "value": 3 },
-      { "key": "+10% <DT_SLASH>Slash on Bullet Jump" }
+      { "key": "+10% <DT_SLASH>Slash on Bullet Jump", "value": 0 }
     ],
     "polarity": "r",
     "rarity": "c",
@@ -600,7 +600,7 @@
     "props": [
       { "key": "v", "value": 3 },
       { "key": "at", "value": 3 },
-      { "key": "+10% <DT_PUNCTURE>Puncture on Bullet Jump" }
+      { "key": "+10% <DT_PUNCTURE>Puncture on Bullet Jump", "value": 0 }
     ],
     "polarity": "-",
     "rarity": "c",
@@ -622,7 +622,7 @@
     "props": [
       { "key": "v", "value": 3 },
       { "key": "at", "value": 3 },
-      { "key": "+10% <DT_IMPACT>Impact on Bullet Jump" }
+      { "key": "+10% <DT_IMPACT>Impact on Bullet Jump", "value": 0 }
     ],
     "polarity": "d",
     "rarity": "c",
@@ -635,7 +635,7 @@
     "props": [
       { "key": "v", "value": 2.2 },
       { "key": "at", "value": 2.2 },
-      { "key": "+25% <DT_FREEZE>Cold on Bullet Jump" }
+      { "key": "+25% <DT_FREEZE>Cold on Bullet Jump", "value": 0 }
     ],
     "polarity": "d",
     "rarity": "r",
@@ -645,12 +645,7 @@
   {
     "name": "Health Conversion",
     "type": "WARFRAME",
-    "props": [
-      {
-        "key": "Health Orbs grant 75 Armor, stacking up to 3x. Taking damage will consume a stack after 3s.",
-        "value": 0
-      }
-    ],
+    "props": [{ "key": "hc", "value": 50 }],
     "polarity": "d",
     "rarity": "r",
     "baseDrain": 10,
@@ -662,7 +657,7 @@
     "props": [
       { "key": "v", "value": 2.2 },
       { "key": "at", "value": 2.2 },
-      { "key": "+25% <DT_FIRE>Heat on Bullet Jump" }
+      { "key": "+25% <DT_FIRE>Heat on Bullet Jump", "value": 0 }
     ],
     "polarity": "r",
     "rarity": "r",
@@ -672,12 +667,7 @@
   {
     "name": "Energy Conversion",
     "type": "WARFRAME",
-    "props": [
-      {
-        "key": "Energy orbs grant 9% more Ability Strength to your next cast.",
-        "value": 0
-      }
-    ],
+    "props": [{ "key": "ec", "value": 8.333333333333334 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 10,
@@ -689,7 +679,7 @@
     "props": [
       { "key": "v", "value": 2.2 },
       { "key": "at", "value": 2.2 },
-      { "key": "+25% <DT_ELECTRICITY>Electricity on Bullet Jump" }
+      { "key": "+25% <DT_ELECTRICITY>Electricity on Bullet Jump", "value": 0 }
     ],
     "polarity": "r",
     "rarity": "r",
@@ -708,7 +698,7 @@
   {
     "name": "Rush",
     "type": "WARFRAME",
-    "props": [{ "key": "+5% Sprint Speed", "value": 0 }],
+    "props": [{ "key": "f", "value": 5 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 6,
@@ -726,7 +716,7 @@
   {
     "name": "Fast Deflection",
     "type": "WARFRAME",
-    "props": [{ "key": "+15% Shield Recharge", "value": 0 }],
+    "props": [{ "key": "r", "value": 15 }],
     "polarity": "d",
     "rarity": "c",
     "baseDrain": 4,
@@ -735,7 +725,7 @@
   {
     "name": "Redirection",
     "type": "WARFRAME",
-    "props": [{ "key": "+40% Shield Capacity", "value": 0 }],
+    "props": [{ "key": "s", "value": 40 }],
     "polarity": "d",
     "rarity": "n",
     "baseDrain": 4,
@@ -746,7 +736,8 @@
     "type": "WARFRAME",
     "props": [
       {
-        "key": "+15% Chance to deal Electrical Damage when shield struck by melee enemies."
+        "key": "+15% Chance to deal Electrical Damage when shield struck by melee enemies.",
+        "value": 0
       },
       { "key": "7", "value": 20 }
     ],
@@ -773,7 +764,7 @@
   {
     "name": "Rapid Resilience",
     "type": "WARFRAME",
-    "props": [{ "key": "-12.5% Status Duration on Self", "value": 0 }],
+    "props": [{ "key": "sds", "value": -12.5 }],
     "polarity": "d",
     "rarity": "r",
     "baseDrain": 6,
@@ -782,12 +773,7 @@
   {
     "name": "Quick Thinking",
     "type": "WARFRAME",
-    "props": [
-      {
-        "key": "Drains Energy to stop Lethal Damage with 40% Efficiency.",
-        "value": 0
-      }
-    ],
+    "props": [{ "key": "z", "value": 40 }],
     "polarity": "d",
     "rarity": "r",
     "baseDrain": 10,
@@ -796,7 +782,7 @@
   {
     "name": "Flow",
     "type": "WARFRAME",
-    "props": [{ "key": "+25% Energy Max", "value": 0 }],
+    "props": [{ "key": "e", "value": 25 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 4,
@@ -805,12 +791,7 @@
   {
     "name": "Equilibrium",
     "type": "WARFRAME",
-    "props": [
-      {
-        "key": "Health pickups give +10% Energy. Energy pickups give +10% Health.",
-        "value": 0
-      }
-    ],
+    "props": [{ "key": "eq", "value": 10 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 4,
@@ -819,12 +800,7 @@
   {
     "name": "Reflection",
     "type": "WARFRAME",
-    "props": [
-      {
-        "key": "16% Damage taken is reflected when Blocking attacks while Channeling.",
-        "value": 0
-      }
-    ],
+    "props": [{ "key": "ref", "value": 16 }],
     "polarity": "d",
     "rarity": "n",
     "baseDrain": 2,
@@ -833,7 +809,7 @@
   {
     "name": "Parry",
     "type": "MELEE",
-    "props": [{ "key": "+16% Counter Chance", "value": 0 }],
+    "props": [{ "key": "cc", "value": 16 }],
     "polarity": "d",
     "rarity": "n",
     "baseDrain": 2,
@@ -842,7 +818,7 @@
   {
     "name": "Warm Coat",
     "type": "WARFRAME",
-    "props": [{ "key": "+3% Shield Resistance to Ice Levels", "value": 0 }],
+    "props": [{ "key": "wc", "value": 3 }],
     "polarity": "d",
     "rarity": "n",
     "baseDrain": 6,
@@ -856,7 +832,7 @@
         "key": "Highlights mods through the environment as well as the Minimap.",
         "value": 0
       },
-      { "key": "+7 Loot Radar", "value": 0 }
+      { "key": "lr", "value": 7 }
     ],
     "polarity": "-",
     "rarity": "n",
@@ -866,7 +842,7 @@
   {
     "name": "Sure Footed",
     "type": "WARFRAME",
-    "props": [{ "key": "+15% Chance to Resist Knockdown", "value": 0 }],
+    "props": [{ "key": "k", "value": 15 }],
     "polarity": "d",
     "rarity": "r",
     "baseDrain": 6,
@@ -875,7 +851,7 @@
   {
     "name": "Handspring",
     "type": "WARFRAME",
-    "props": [{ "key": "+40% Faster Knockdown Recovery", "value": 0 }],
+    "props": [{ "key": "y", "value": 40 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 6,
@@ -887,7 +863,8 @@
     "props": [
       { "key": "onDodge" },
       {
-        "key": "Become invulnerable for 2s and remove all Status Effects. 12s cooldown."
+        "key": "Become invulnerable for 2s and remove all Status Effects. 12s cooldown.",
+        "value": 0
       }
     ],
     "polarity": "d",
@@ -911,7 +888,7 @@
   {
     "name": "Vitality",
     "type": "WARFRAME",
-    "props": [{ "key": "+40% Health", "value": 0 }],
+    "props": [{ "key": "h", "value": 40 }],
     "polarity": "d",
     "rarity": "n",
     "baseDrain": 2,
@@ -920,7 +897,7 @@
   {
     "name": "Provoked",
     "type": "WARFRAME",
-    "props": [{ "key": "+10% Damage during Bleedout", "value": 0 }],
+    "props": [{ "key": "ddb", "value": 10 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -943,7 +920,7 @@
   {
     "name": "Enemy Sense",
     "type": "WARFRAME",
-    "props": [{ "key": "+5 Enemy Radar", "value": 0 }],
+    "props": [{ "key": "er", "value": 5 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 4,
@@ -952,9 +929,7 @@
   {
     "name": "Rage",
     "type": "WARFRAME",
-    "props": [
-      { "key": "Convert +10% of Damage on Health to Energy", "value": 0 }
-    ],
+    "props": [{ "key": "rg", "value": 10 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 6,
@@ -963,7 +938,7 @@
   {
     "name": "Antitoxin",
     "type": "WARFRAME",
-    "props": [{ "key": "+7.5% <DT_POISON>Toxin Resistance", "value": 0 }],
+    "props": [{ "key": "pr", "value": 7.5 }],
     "polarity": "d",
     "rarity": "c",
     "baseDrain": 4,
@@ -972,9 +947,7 @@
   {
     "name": "Diamond Skin",
     "type": "WARFRAME",
-    "props": [
-      { "key": "+7.5% <DT_RADIATION>Radiation Resistance", "value": 0 }
-    ],
+    "props": [{ "key": "rr", "value": 7.5 }],
     "polarity": "d",
     "rarity": "c",
     "baseDrain": 4,
@@ -983,7 +956,7 @@
   {
     "name": "Shock Absorbers",
     "type": "WARFRAME",
-    "props": [{ "key": "+5% Damage Resistance on Knockdown", "value": 0 }],
+    "props": [{ "key": "drk", "value": 5 }],
     "polarity": "d",
     "rarity": "r",
     "baseDrain": 4,
@@ -992,7 +965,7 @@
   {
     "name": "Insulation",
     "type": "WARFRAME",
-    "props": [{ "key": "+10% <DT_FREEZE>Cold Resistance", "value": 0 }],
+    "props": [{ "key": "cr", "value": 10 }],
     "polarity": "d",
     "rarity": "n",
     "baseDrain": 4,
@@ -1001,7 +974,7 @@
   {
     "name": "Flame Repellent",
     "type": "WARFRAME",
-    "props": [{ "key": "+10% <DT_FIRE>Heat Resistance", "value": 0 }],
+    "props": [{ "key": "fr", "value": 10 }],
     "polarity": "d",
     "rarity": "n",
     "baseDrain": 4,
@@ -1010,9 +983,7 @@
   {
     "name": "Lightning Rod",
     "type": "WARFRAME",
-    "props": [
-      { "key": "+10% <DT_ELECTRICITY>Electricity Resistance", "value": 0 }
-    ],
+    "props": [{ "key": "ir", "value": 10 }],
     "polarity": "d",
     "rarity": "n",
     "baseDrain": 4,
@@ -1021,7 +992,7 @@
   {
     "name": "Aviator",
     "type": "WARFRAME",
-    "props": [{ "key": "Reduces damage by 10% when Airborne.", "value": 0 }],
+    "props": [{ "key": "adr", "value": 10 }],
     "polarity": "d",
     "rarity": "n",
     "baseDrain": 4,
@@ -1030,7 +1001,7 @@
   {
     "name": "Master Thief",
     "type": "WARFRAME",
-    "props": [{ "key": "+10% chance to unlock locked lockers.", "value": 0 }],
+    "props": [{ "key": "ll", "value": 10 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 10,
@@ -1044,7 +1015,7 @@
         "key": "Improves Casting Speed on Warframe abilities if applicable.",
         "value": 0
       },
-      { "key": "+12.5% Casting Speed", "value": 0 }
+      { "key": "c", "value": 12.5 }
     ],
     "polarity": "-",
     "rarity": "r",
@@ -1054,7 +1025,7 @@
   {
     "name": "Undying Will",
     "type": "WARFRAME",
-    "props": [{ "key": "+7% Bleedout Reduction", "value": 0 }],
+    "props": [{ "key": "br", "value": 7 }],
     "polarity": "d",
     "rarity": "r",
     "baseDrain": 2,
@@ -1072,7 +1043,7 @@
   {
     "name": "Steel Fiber",
     "type": "WARFRAME",
-    "props": [{ "key": "+10% Armor", "value": 0 }],
+    "props": [{ "key": "a", "value": 10 }],
     "polarity": "d",
     "rarity": "n",
     "baseDrain": 4,
@@ -1081,7 +1052,7 @@
   {
     "name": "Intensify",
     "type": "WARFRAME",
-    "props": [{ "key": "+5% Ability Strength", "value": 0 }],
+    "props": [{ "key": "t", "value": 5 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 6,
@@ -1090,7 +1061,7 @@
   {
     "name": "Stretch",
     "type": "WARFRAME",
-    "props": [{ "key": "+7.5% Ability Range", "value": 0 }],
+    "props": [{ "key": "g", "value": 7.5 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 4,
@@ -1099,7 +1070,7 @@
   {
     "name": "Streamline",
     "type": "WARFRAME",
-    "props": [{ "key": "+5% Ability Efficiency", "value": 0 }],
+    "props": [{ "key": "x", "value": 5 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 4,
@@ -1108,7 +1079,7 @@
   {
     "name": "Continuity",
     "type": "WARFRAME",
-    "props": [{ "key": "+5% Ability Duration", "value": 0 }],
+    "props": [{ "key": "u", "value": 5 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 4,
@@ -1126,7 +1097,7 @@
   {
     "name": "Primed Flow",
     "type": "WARFRAME",
-    "props": [{ "key": "+25% Energy Max", "value": 0 }],
+    "props": [{ "key": "e", "value": 25 }],
     "polarity": "-",
     "rarity": "l",
     "baseDrain": 4,
@@ -1135,7 +1106,7 @@
   {
     "name": "Primed Sure Footed",
     "type": "WARFRAME",
-    "props": [{ "key": "+9% Chance to Resist Knockdown", "value": 0 }],
+    "props": [{ "key": "k", "value": 9 }],
     "polarity": "d",
     "rarity": "l",
     "baseDrain": 6,
@@ -1144,7 +1115,7 @@
   {
     "name": "Primed Continuity",
     "type": "WARFRAME",
-    "props": [{ "key": "+5% Ability Duration", "value": 0 }],
+    "props": [{ "key": "u", "value": 5 }],
     "polarity": "r",
     "rarity": "l",
     "baseDrain": 4,
@@ -1153,7 +1124,7 @@
   {
     "name": "Pain Threshold",
     "type": "WARFRAME",
-    "props": [{ "key": "+40% Faster Stagger Recovery", "value": 0 }],
+    "props": [{ "key": "sr", "value": 40 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 6,
@@ -1256,7 +1227,7 @@
   {
     "name": "Redirection",
     "type": "WARFRAME",
-    "props": [{ "key": "+20% Shield Capacity", "value": 0 }],
+    "props": [{ "key": "s", "value": 20 }],
     "polarity": "d",
     "rarity": "n",
     "baseDrain": 2,
@@ -1265,7 +1236,7 @@
   {
     "name": "Flow",
     "type": "WARFRAME",
-    "props": [{ "key": "+18% Energy Max", "value": 0 }],
+    "props": [{ "key": "e", "value": 18 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 2,
@@ -1288,7 +1259,7 @@
   {
     "name": "Vitality",
     "type": "WARFRAME",
-    "props": [{ "key": "+30% Health", "value": 0 }],
+    "props": [{ "key": "h", "value": 30 }],
     "polarity": "d",
     "rarity": "n",
     "baseDrain": 2,
@@ -1297,7 +1268,7 @@
   {
     "name": "Enemy Sense",
     "type": "WARFRAME",
-    "props": [{ "key": "+3 Enemy Radar", "value": 0 }],
+    "props": [{ "key": "er", "value": 3 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 2,
@@ -1306,7 +1277,7 @@
   {
     "name": "Intensify",
     "type": "WARFRAME",
-    "props": [{ "key": "+3% Ability Strength", "value": 0 }],
+    "props": [{ "key": "t", "value": 3 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 4,
@@ -1315,7 +1286,7 @@
   {
     "name": "Stretch",
     "type": "WARFRAME",
-    "props": [{ "key": "+5% Ability Range", "value": 0 }],
+    "props": [{ "key": "g", "value": 5 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 2,
@@ -1324,7 +1295,7 @@
   {
     "name": "Continuity",
     "type": "WARFRAME",
-    "props": [{ "key": "+3% Ability Duration", "value": 0 }],
+    "props": [{ "key": "u", "value": 3 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 2,
@@ -1431,7 +1402,8 @@
     "type": "MELEE",
     "props": [
       {
-        "key": "Blocking absorbs 20% of incoming damage, stored as Extra Damage for the next charge attack."
+        "key": "Blocking absorbs 20% of incoming damage, stored as Extra Damage for the next charge attack.",
+        "value": 0
       },
       { "key": "vt", "value": 0.3 }
     ],
@@ -1444,7 +1416,10 @@
     "name": "Disarming Purity",
     "type": "PRIMARY",
     "props": [
-      { "key": "Secondary Fire mode has a 10% chance to disarm enemies." },
+      {
+        "key": "Secondary Fire mode has a 10% chance to disarm enemies.",
+        "value": 0
+      },
       { "key": "vp", "value": 0.3 }
     ],
     "polarity": "-",
@@ -1456,9 +1431,15 @@
     "name": "Entropy Detonation",
     "type": "MELEE",
     "props": [
-      { "key": "Lethal ground attacks cause enemies to explode dealing +250" },
-      { "key": "(+5% Enemy Max Health) <DT_EXPLOSION>Blast Damage" },
-      { "key": "in a +2.5m radius." },
+      {
+        "key": "Lethal ground attacks cause enemies to explode dealing +250",
+        "value": 0
+      },
+      {
+        "key": "(+5% Enemy Max Health) <DT_EXPLOSION>Blast Damage",
+        "value": 0
+      },
+      { "key": "in a +2.5m radius.", "value": 0 },
       { "key": "ve", "value": 0.3 }
     ],
     "polarity": "-",
@@ -1471,7 +1452,8 @@
     "type": "PRIMARY",
     "props": [
       {
-        "key": "Each Miter blade has a +22.5% chance to immediately destroy a Nullifier field."
+        "key": "Each Miter blade has a +22.5% chance to immediately destroy a Nullifier field.",
+        "value": 0
       },
       { "key": "vj", "value": 0.3 }
     ],
@@ -1492,9 +1474,7 @@
   {
     "name": "Spring-Loaded Blade",
     "type": "MELEE",
-    "props": [
-      { "key": "+5% Weapon Range for 4s on Status Effect.", "value": 0 }
-    ],
+    "props": [{ "key": "rse", "value": 5 }],
     "polarity": "d",
     "rarity": "r",
     "baseDrain": 4,
@@ -1505,7 +1485,8 @@
     "type": "PRIMARY",
     "props": [
       {
-        "key": "Killing a flying enemy creates a lightning trap from their remains, lasting 2s"
+        "key": "Killing a flying enemy creates a lightning trap from their remains, lasting 2s",
+        "value": 0
       },
       { "key": "vs", "value": 0.3 }
     ],
@@ -1625,7 +1606,7 @@
   {
     "name": "Contagious Spread",
     "type": "PRIMARY",
-    "props": [{ "key": "+15% <DT_POISON>Toxin", "value": 0 }],
+    "props": [{ "key": "6", "value": 15 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 6,
@@ -1634,7 +1615,7 @@
   {
     "name": "Shotgun Savvy",
     "type": "PRIMARY",
-    "props": [{ "key": "+5% Status Chance", "value": 0 }],
+    "props": [{ "key": "2", "value": 5 }],
     "polarity": "d",
     "rarity": "c",
     "baseDrain": 4,
@@ -1643,7 +1624,7 @@
   {
     "name": "Shredder",
     "type": "PRIMARY",
-    "props": [{ "key": "+5% <DT_SLASH>Slash", "value": 0 }],
+    "props": [{ "key": "A", "value": 5 }],
     "polarity": "-",
     "rarity": "n",
     "baseDrain": 4,
@@ -1652,7 +1633,7 @@
   {
     "name": "Cleanse Infested",
     "type": "PRIMARY",
-    "props": [{ "key": "+5% Damage to Infested", "value": 0 }],
+    "props": [{ "key": "I", "value": 5 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -1661,7 +1642,7 @@
   {
     "name": "Cleanse Grineer",
     "type": "PRIMARY",
-    "props": [{ "key": "+5% Damage to Grineer", "value": 0 }],
+    "props": [{ "key": "G", "value": 5 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -1670,7 +1651,7 @@
   {
     "name": "Cleanse Corrupted",
     "type": "PRIMARY",
-    "props": [{ "key": "+5% Damage to Corrupted", "value": 0 }],
+    "props": [{ "key": "od", "value": 5 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -1679,7 +1660,7 @@
   {
     "name": "Cleanse Corpus",
     "type": "PRIMARY",
-    "props": [{ "key": "+5% Damage to Corpus", "value": 0 }],
+    "props": [{ "key": "C", "value": 5 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -1702,7 +1683,7 @@
   {
     "name": "Tactical Pump",
     "type": "PRIMARY",
-    "props": [{ "key": "+5% Reload Speed", "value": 0 }],
+    "props": [{ "key": "F", "value": 5 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 2,
@@ -1711,7 +1692,7 @@
   {
     "name": "Seeking Force",
     "type": "PRIMARY",
-    "props": [{ "key": "+0.4 Punch Through", "value": 0 }],
+    "props": [{ "key": "P", "value": 0.4 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 10,
@@ -1720,7 +1701,7 @@
   {
     "name": "Fatal Acceleration",
     "type": "PRIMARY",
-    "props": [{ "key": "+10% Projectile Speed", "value": 0 }],
+    "props": [{ "key": "V", "value": 10 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -1729,7 +1710,7 @@
   {
     "name": "Lingering Torment",
     "type": "PRIMARY",
-    "props": [{ "key": "+5% Status Duration", "value": 0 }],
+    "props": [{ "key": "3", "value": 5 }],
     "polarity": "r",
     "rarity": "n",
     "baseDrain": 6,
@@ -1738,7 +1719,7 @@
   {
     "name": "Disruptor",
     "type": "PRIMARY",
-    "props": [{ "key": "+5% <DT_IMPACT>Impact", "value": 0 }],
+    "props": [{ "key": "8", "value": 5 }],
     "polarity": "-",
     "rarity": "n",
     "baseDrain": 4,
@@ -1747,7 +1728,7 @@
   {
     "name": "Chilling Grasp",
     "type": "PRIMARY",
-    "props": [{ "key": "+15% <DT_FREEZE>Cold", "value": 0 }],
+    "props": [{ "key": "5", "value": 15 }],
     "polarity": "d",
     "rarity": "c",
     "baseDrain": 6,
@@ -1756,7 +1737,7 @@
   {
     "name": "Shotgun Spazz",
     "type": "PRIMARY",
-    "props": [{ "key": "+15% Fire Rate", "value": 0 }],
+    "props": [{ "key": "R", "value": 15 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -1765,7 +1746,7 @@
   {
     "name": "Hell's Chamber",
     "type": "PRIMARY",
-    "props": [{ "key": "+20% Multishot", "value": 0 }],
+    "props": [{ "key": "S", "value": 20 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 10,
@@ -1774,7 +1755,7 @@
   {
     "name": "Incendiary Coat",
     "type": "PRIMARY",
-    "props": [{ "key": "+15% <DT_FIRE>Heat", "value": 0 }],
+    "props": [{ "key": "4", "value": 15 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 6,
@@ -1783,7 +1764,7 @@
   {
     "name": "Sweeping Serration",
     "type": "PRIMARY",
-    "props": [{ "key": "+20% <DT_SLASH>Slash", "value": 0 }],
+    "props": [{ "key": "A", "value": 20 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 6,
@@ -1792,7 +1773,7 @@
   {
     "name": "Full Contact",
     "type": "PRIMARY",
-    "props": [{ "key": "+20% <DT_IMPACT>Impact", "value": 0 }],
+    "props": [{ "key": "8", "value": 20 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 6,
@@ -1801,7 +1782,7 @@
   {
     "name": "Breach Loader",
     "type": "PRIMARY",
-    "props": [{ "key": "+20% <DT_PUNCTURE>Puncture", "value": 0 }],
+    "props": [{ "key": "9", "value": 20 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 6,
@@ -1810,7 +1791,7 @@
   {
     "name": "Charged Shell",
     "type": "PRIMARY",
-    "props": [{ "key": "+15% <DT_ELECTRICITY>Electricity", "value": 0 }],
+    "props": [{ "key": "7", "value": 15 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 6,
@@ -1819,7 +1800,7 @@
   {
     "name": "Point Blank",
     "type": "PRIMARY",
-    "props": [{ "key": "+15% Damage", "value": 0 }],
+    "props": [{ "key": "D", "value": 15 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -1828,7 +1809,7 @@
   {
     "name": "Ravage",
     "type": "PRIMARY",
-    "props": [{ "key": "+10% Critical Damage", "value": 0 }],
+    "props": [{ "key": "1", "value": 10 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 4,
@@ -1837,7 +1818,7 @@
   {
     "name": "Blunderbuss",
     "type": "PRIMARY",
-    "props": [{ "key": "+15% Critical Chance", "value": 0 }],
+    "props": [{ "key": "0", "value": 15 }],
     "polarity": "r",
     "rarity": "n",
     "baseDrain": 4,
@@ -1846,7 +1827,7 @@
   {
     "name": "Ammo Stock",
     "type": "PRIMARY",
-    "props": [{ "key": "+10% Magazine Capacity", "value": 0 }],
+    "props": [{ "key": "L", "value": 10 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 2,
@@ -1855,7 +1836,7 @@
   {
     "name": "Flechette",
     "type": "PRIMARY",
-    "props": [{ "key": "+5% <DT_PUNCTURE>Puncture", "value": 0 }],
+    "props": [{ "key": "9", "value": 5 }],
     "polarity": "-",
     "rarity": "n",
     "baseDrain": 4,
@@ -1864,7 +1845,7 @@
   {
     "name": "Shell Compression",
     "type": "PRIMARY",
-    "props": [{ "key": "+5% Ammo Maximum", "value": 0 }],
+    "props": [{ "key": "M", "value": 5 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 2,
@@ -1887,7 +1868,7 @@
   {
     "name": "Primed Charged Shell",
     "type": "PRIMARY",
-    "props": [{ "key": "+15% <DT_ELECTRICITY>Electricity", "value": 0 }],
+    "props": [{ "key": "7", "value": 15 }],
     "polarity": "-",
     "rarity": "l",
     "baseDrain": 6,
@@ -1896,7 +1877,7 @@
   {
     "name": "Primed Point Blank",
     "type": "PRIMARY",
-    "props": [{ "key": "+15% Damage", "value": 0 }],
+    "props": [{ "key": "D", "value": 15 }],
     "polarity": "r",
     "rarity": "l",
     "baseDrain": 4,
@@ -1905,7 +1886,7 @@
   {
     "name": "Primed Ravage",
     "type": "PRIMARY",
-    "props": [{ "key": "+10% Critical Damage", "value": 0 }],
+    "props": [{ "key": "1", "value": 10 }],
     "polarity": "r",
     "rarity": "l",
     "baseDrain": 4,
@@ -1959,12 +1940,7 @@
   {
     "name": "Silent Battery",
     "type": "PRIMARY",
-    "props": [
-      {
-        "key": "Reduces the chance an enemy will hear gunfire by 25%.",
-        "value": 0
-      }
-    ],
+    "props": [{ "key": "slc", "value": 25 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 2,
@@ -2115,7 +2091,7 @@
   {
     "name": "Vigilante Vigor",
     "type": "WARFRAME",
-    "props": [{ "key": "+10% Shield Recharge", "value": 0 }],
+    "props": [{ "key": "r", "value": 10 }],
     "polarity": "d",
     "rarity": "n",
     "baseDrain": 4,
@@ -2124,7 +2100,7 @@
   {
     "name": "Vigilante Pursuit",
     "type": "WARFRAME",
-    "props": [{ "key": "+5 Enemy Radar", "value": 0 }],
+    "props": [{ "key": "er", "value": 5 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 4,
@@ -2133,12 +2109,7 @@
   {
     "name": "Vigilante Supplies",
     "type": "PRIMARY",
-    "props": [
-      {
-        "key": "Converts unused Ammo Pickups into Primary Weapon Ammo. Pistol <AMMO_MUTATION> 1 and Shotgun/Sniper <AMMO_MUTATION> 2.",
-        "value": 0
-      }
-    ],
+    "props": [{ "key": "am", "value": 30 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 4,
@@ -2147,7 +2118,7 @@
   {
     "name": "Vigilante Offense",
     "type": "PRIMARY",
-    "props": [{ "key": "+0.3 Punch Through", "value": 0 }],
+    "props": [{ "key": "P", "value": 0.3 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 4,
@@ -2156,7 +2127,7 @@
   {
     "name": "Vigilante Fervor",
     "type": "PRIMARY",
-    "props": [{ "key": "+7.5% Fire Rate (x2 for Bows)", "value": 0 }],
+    "props": [{ "key": "R", "value": 7.5 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -2165,7 +2136,7 @@
   {
     "name": "Vigilante Armaments",
     "type": "PRIMARY",
-    "props": [{ "key": "+10% Multishot", "value": 0 }],
+    "props": [{ "key": "S", "value": 10 }],
     "polarity": "-",
     "rarity": "n",
     "baseDrain": 4,
@@ -2250,7 +2221,7 @@
   {
     "name": "Synth Reflex",
     "type": "WARFRAME",
-    "props": [{ "key": "+25% Holster Speed", "value": 0 }],
+    "props": [{ "key": "hr", "value": 25 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 4,
@@ -2287,12 +2258,7 @@
   {
     "name": "Synth Charge",
     "type": "SECONDARY",
-    "props": [
-      {
-        "key": "+50% Bonus Damage on final shot. Requires Magazine 6 or higher.",
-        "value": 0
-      }
-    ],
+    "props": [{ "key": "lsb", "value": 50 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 6,
@@ -2354,8 +2320,11 @@
     "name": "Proton Snap",
     "type": "MELEE",
     "props": [
-      { "key": "Hold Wall Latch for 2s to gain +25% <DT_POISON>Toxin Damage" },
-      { "key": " and +12.5% Status Chance for 5s." }
+      {
+        "key": "Hold Wall Latch for 2s to gain +25% <DT_POISON>Toxin Damage",
+        "value": 0
+      },
+      { "key": " and +12.5% Status Chance for 5s.", "value": 0 }
     ],
     "polarity": "r",
     "rarity": "r",
@@ -2458,7 +2427,7 @@
     "type": "AURA",
     "props": [
       { "key": "Increased Pistol Ammo recovery.", "value": 0 },
-      { "key": "+25% Extra Damage against a Marked Enemy", "value": 0 }
+      { "key": "edm", "value": 25 }
     ],
     "polarity": "-",
     "rarity": "r",
@@ -2468,7 +2437,7 @@
   {
     "name": "Mecha Recharge",
     "type": "KUBROW",
-    "props": [{ "key": "+15% Shield Recharge", "value": 0 }],
+    "props": [{ "key": "r", "value": 15 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 4,
@@ -2477,7 +2446,10 @@
   {
     "name": "Mecha Overdrive",
     "type": "KUBROW",
-    "props": [{ "key": "+10% Status-Link" }, { "key": "3", "value": 15 }],
+    "props": [
+      { "key": "+10% Status-Link", "value": 0 },
+      { "key": "3", "value": 15 }
+    ],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 6,
@@ -2486,9 +2458,7 @@
   {
     "name": "Hunter Adrenaline",
     "type": "WARFRAME",
-    "props": [
-      { "key": "Convert +7.5% of Damage on Health to Energy", "value": 0 }
-    ],
+    "props": [{ "key": "rg", "value": 7.5 }],
     "polarity": "r",
     "rarity": "n",
     "baseDrain": 6,
@@ -2497,7 +2467,7 @@
   {
     "name": "Hunter Track",
     "type": "PRIMARY",
-    "props": [{ "key": "+5% Status Duration", "value": 0 }],
+    "props": [{ "key": "3", "value": 5 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 4,
@@ -2506,9 +2476,7 @@
   {
     "name": "Hunter Munitions",
     "type": "PRIMARY",
-    "props": [
-      { "key": "+5% chance to apply <DT_SLASH> on Critical", "value": 0 }
-    ],
+    "props": [{ "key": "ac", "value": 5 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -2576,7 +2544,7 @@
   {
     "name": "Gladiator Resolve",
     "type": "WARFRAME",
-    "props": [{ "key": "+30% Health", "value": 0 }],
+    "props": [{ "key": "h", "value": 30 }],
     "polarity": "d",
     "rarity": "c",
     "baseDrain": 4,
@@ -2585,12 +2553,7 @@
   {
     "name": "Gladiator Finesse",
     "type": "WARFRAME",
-    "props": [
-      {
-        "key": "Drains Energy to stop Lethal Damage with 10% Efficiency.",
-        "value": 0
-      }
-    ],
+    "props": [{ "key": "z", "value": 10 }],
     "polarity": "d",
     "rarity": "r",
     "baseDrain": 4,
@@ -2599,7 +2562,7 @@
   {
     "name": "Gladiator Aegis",
     "type": "WARFRAME",
-    "props": [{ "key": "+7.5% Armor", "value": 0 }],
+    "props": [{ "key": "a", "value": 7.5 }],
     "polarity": "d",
     "rarity": "n",
     "baseDrain": 4,
@@ -2608,7 +2571,7 @@
   {
     "name": "Gladiator Vice",
     "type": "MELEE",
-    "props": [{ "key": "+5% Attack Speed", "value": 0 }],
+    "props": [{ "key": "J", "value": 5 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 4,
@@ -2617,7 +2580,7 @@
   {
     "name": "Gladiator Rush",
     "type": "MELEE",
-    "props": [{ "key": "+1s Combo Duration", "value": 0 }],
+    "props": [{ "key": "N", "value": 1 }],
     "polarity": "-",
     "rarity": "n",
     "baseDrain": 4,
@@ -2626,7 +2589,7 @@
   {
     "name": "Gladiator Might",
     "type": "MELEE",
-    "props": [{ "key": "+10% Critical Damage", "value": 0 }],
+    "props": [{ "key": "1", "value": 10 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -2635,7 +2598,7 @@
   {
     "name": "Augur Secrets",
     "type": "WARFRAME",
-    "props": [{ "key": "+4% Ability Strength", "value": 0 }],
+    "props": [{ "key": "t", "value": 4 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 2,
@@ -2644,7 +2607,7 @@
   {
     "name": "Augur Reach",
     "type": "WARFRAME",
-    "props": [{ "key": "+5% Ability Range", "value": 0 }],
+    "props": [{ "key": "g", "value": 5 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 2,
@@ -2653,7 +2616,7 @@
   {
     "name": "Augur Message",
     "type": "WARFRAME",
-    "props": [{ "key": "+4% Ability Duration", "value": 0 }],
+    "props": [{ "key": "u", "value": 4 }],
     "polarity": "-",
     "rarity": "n",
     "baseDrain": 2,
@@ -2662,7 +2625,7 @@
   {
     "name": "Augur Accord",
     "type": "WARFRAME",
-    "props": [{ "key": "+30% Shield Capacity", "value": 0 }],
+    "props": [{ "key": "s", "value": 30 }],
     "polarity": "d",
     "rarity": "c",
     "baseDrain": 2,
@@ -2671,7 +2634,7 @@
   {
     "name": "Augur Seeker",
     "type": "SECONDARY",
-    "props": [{ "key": "+5% Status Duration", "value": 0 }],
+    "props": [{ "key": "3", "value": 5 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 2,
@@ -2680,7 +2643,7 @@
   {
     "name": "Augur Pact",
     "type": "SECONDARY",
-    "props": [{ "key": "+15% Damage", "value": 0 }],
+    "props": [{ "key": "D", "value": 15 }],
     "polarity": "-",
     "rarity": "n",
     "baseDrain": 2,
@@ -2689,7 +2652,7 @@
   {
     "name": "Accelerated Deflection",
     "type": "SENTINEL",
-    "props": [{ "key": "+15% Shield Recharge", "value": 0 }],
+    "props": [{ "key": "r", "value": 15 }],
     "polarity": "d",
     "rarity": "c",
     "baseDrain": 4,
@@ -2698,7 +2661,7 @@
   {
     "name": "Calculated Redirection",
     "type": "SENTINEL",
-    "props": [{ "key": "+25% Shield Capacity", "value": 0 }],
+    "props": [{ "key": "s", "value": 25 }],
     "polarity": "d",
     "rarity": "n",
     "baseDrain": 4,
@@ -2734,7 +2697,7 @@
   {
     "name": "Enhanced Vitality",
     "type": "SENTINEL",
-    "props": [{ "key": "+20% Health", "value": 0 }],
+    "props": [{ "key": "h", "value": 20 }],
     "polarity": "d",
     "rarity": "n",
     "baseDrain": 2,
@@ -2766,7 +2729,7 @@
   {
     "name": "Metal Fiber",
     "type": "SENTINEL",
-    "props": [{ "key": "+10% Armor", "value": 0 }],
+    "props": [{ "key": "a", "value": 10 }],
     "polarity": "d",
     "rarity": "n",
     "baseDrain": 4,
@@ -2775,7 +2738,7 @@
   {
     "name": "Hastened Deflection",
     "type": "SENTINEL",
-    "props": [{ "key": "+15% Shield Recharge", "value": 0 }],
+    "props": [{ "key": "r", "value": 15 }],
     "polarity": "d",
     "rarity": "c",
     "baseDrain": 4,
@@ -2799,7 +2762,7 @@
   {
     "name": "Maul",
     "type": "SENTINEL",
-    "props": [{ "key": "+30% Melee Damage", "value": 0 }],
+    "props": [{ "key": "K", "value": 30 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -2849,9 +2812,9 @@
         "key": "Allows the Kubrow to use Finisher attacks on an enemy.",
         "value": 0
       },
-      { "key": "+20% Finisher Damage", "value": 0 }
+      { "key": "X", "value": 20 }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "r",
     "baseDrain": 0,
     "fusionLimit": 5
@@ -2873,9 +2836,9 @@
         "key": "Allows the Kubrow to use Finisher attacks on an enemy.",
         "value": 0
       },
-      { "key": "+20% Finisher Damage", "value": 0 }
+      { "key": "X", "value": 20 }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "r",
     "baseDrain": 0,
     "fusionLimit": 5
@@ -2943,7 +2906,7 @@
   {
     "name": "Eagle Eye",
     "type": "PRIMARY",
-    "props": [{ "key": "+10% Zoom", "value": 0 }],
+    "props": [{ "key": "H", "value": 10 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 4,
@@ -2952,7 +2915,7 @@
   {
     "name": "Infected Clip",
     "type": "PRIMARY",
-    "props": [{ "key": "+15% <DT_POISON>Toxin", "value": 0 }],
+    "props": [{ "key": "6", "value": 15 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 6,
@@ -2961,7 +2924,7 @@
   {
     "name": "Rifle Aptitude",
     "type": "PRIMARY",
-    "props": [{ "key": "+2.5% Status Chance", "value": 0 }],
+    "props": [{ "key": "2", "value": 2.5 }],
     "polarity": "d",
     "rarity": "c",
     "baseDrain": 4,
@@ -2984,7 +2947,7 @@
   {
     "name": "Sawtooth Clip",
     "type": "PRIMARY",
-    "props": [{ "key": "+5% <DT_SLASH>Slash", "value": 0 }],
+    "props": [{ "key": "A", "value": 5 }],
     "polarity": "-",
     "rarity": "n",
     "baseDrain": 4,
@@ -3016,7 +2979,7 @@
   {
     "name": "Fast Hands",
     "type": "PRIMARY",
-    "props": [{ "key": "+5% Reload Speed", "value": 0 }],
+    "props": [{ "key": "F", "value": 5 }],
     "polarity": "-",
     "rarity": "n",
     "baseDrain": 2,
@@ -3025,7 +2988,7 @@
   {
     "name": "Stabilizer",
     "type": "PRIMARY",
-    "props": [{ "key": "-15% Weapon Recoil", "value": 0 }],
+    "props": [{ "key": "Z", "value": -15 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 6,
@@ -3034,7 +2997,7 @@
   {
     "name": "Metal Auger",
     "type": "PRIMARY",
-    "props": [{ "key": "+0.4 Punch Through", "value": 0 }],
+    "props": [{ "key": "P", "value": 0.4 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 10,
@@ -3043,7 +3006,7 @@
   {
     "name": "Terminal Velocity",
     "type": "PRIMARY",
-    "props": [{ "key": "+15% Projectile Speed", "value": 0 }],
+    "props": [{ "key": "V", "value": 15 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -3052,7 +3015,7 @@
   {
     "name": "Continuous Misery",
     "type": "PRIMARY",
-    "props": [{ "key": "+25% Status Duration", "value": 0 }],
+    "props": [{ "key": "3", "value": 25 }],
     "polarity": "r",
     "rarity": "n",
     "baseDrain": 4,
@@ -3061,12 +3024,7 @@
   {
     "name": "Hush",
     "type": "PRIMARY",
-    "props": [
-      {
-        "key": "Reduces the chance an enemy will hear gunfire by 25%.",
-        "value": 0
-      }
-    ],
+    "props": [{ "key": "slc", "value": 25 }],
     "polarity": "-",
     "rarity": "n",
     "baseDrain": 2,
@@ -3080,7 +3038,7 @@
         "key": "Improves the blast radius of Specialized Launchers.",
         "value": 0
       },
-      { "key": "+6% Blast Radius", "value": 0 }
+      { "key": "brad", "value": 6 }
     ],
     "polarity": "r",
     "rarity": "r",
@@ -3090,7 +3048,7 @@
   {
     "name": "Rupture",
     "type": "PRIMARY",
-    "props": [{ "key": "+5% <DT_IMPACT>Impact", "value": 0 }],
+    "props": [{ "key": "8", "value": 5 }],
     "polarity": "-",
     "rarity": "n",
     "baseDrain": 4,
@@ -3099,9 +3057,7 @@
   {
     "name": "Adhesive Blast",
     "type": "PRIMARY",
-    "props": [
-      { "key": "Grenades have 17% chance to stick to surfaces.", "value": 0 }
-    ],
+    "props": [{ "key": "stick", "value": 17 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 4,
@@ -3110,7 +3066,7 @@
   {
     "name": "Cryo Rounds",
     "type": "PRIMARY",
-    "props": [{ "key": "+15% <DT_FREEZE>Cold", "value": 0 }],
+    "props": [{ "key": "5", "value": 15 }],
     "polarity": "d",
     "rarity": "c",
     "baseDrain": 6,
@@ -3119,7 +3075,7 @@
   {
     "name": "Speed Trigger",
     "type": "PRIMARY",
-    "props": [{ "key": "+10% Fire Rate (x2 for Bows)", "value": 0 }],
+    "props": [{ "key": "R", "value": 10 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -3128,7 +3084,7 @@
   {
     "name": "Split Chamber",
     "type": "PRIMARY",
-    "props": [{ "key": "+15% Multishot", "value": 0 }],
+    "props": [{ "key": "S", "value": 15 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 10,
@@ -3137,7 +3093,7 @@
   {
     "name": "Hellfire",
     "type": "PRIMARY",
-    "props": [{ "key": "+15% <DT_FIRE>Heat", "value": 0 }],
+    "props": [{ "key": "4", "value": 15 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 6,
@@ -3146,7 +3102,7 @@
   {
     "name": "Bane of Infested",
     "type": "PRIMARY",
-    "props": [{ "key": "+5% Damage to Infested", "value": 0 }],
+    "props": [{ "key": "I", "value": 5 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -3155,7 +3111,7 @@
   {
     "name": "Bane of Grineer",
     "type": "PRIMARY",
-    "props": [{ "key": "+5% Damage to Grineer", "value": 0 }],
+    "props": [{ "key": "G", "value": 5 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -3164,7 +3120,7 @@
   {
     "name": "Bane of Corrupted",
     "type": "PRIMARY",
-    "props": [{ "key": "+5% Damage to Corrupted", "value": 0 }],
+    "props": [{ "key": "od", "value": 5 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -3173,7 +3129,7 @@
   {
     "name": "Bane of Corpus",
     "type": "PRIMARY",
-    "props": [{ "key": "+5% Damage to Corpus", "value": 0 }],
+    "props": [{ "key": "C", "value": 5 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -3182,7 +3138,7 @@
   {
     "name": "Fanged Fusillade",
     "type": "PRIMARY",
-    "props": [{ "key": "+20% <DT_SLASH>Slash", "value": 0 }],
+    "props": [{ "key": "A", "value": 20 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 6,
@@ -3191,7 +3147,7 @@
   {
     "name": "Crash Course",
     "type": "PRIMARY",
-    "props": [{ "key": "+20% <DT_IMPACT>Impact", "value": 0 }],
+    "props": [{ "key": "8", "value": 20 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 6,
@@ -3200,7 +3156,7 @@
   {
     "name": "Piercing Caliber",
     "type": "PRIMARY",
-    "props": [{ "key": "+20% <DT_PUNCTURE>Puncture", "value": 0 }],
+    "props": [{ "key": "9", "value": 20 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 6,
@@ -3209,7 +3165,7 @@
   {
     "name": "Stormbringer",
     "type": "PRIMARY",
-    "props": [{ "key": "+15% <DT_ELECTRICITY>Electricity", "value": 0 }],
+    "props": [{ "key": "7", "value": 15 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 6,
@@ -3218,7 +3174,7 @@
   {
     "name": "Serration",
     "type": "PRIMARY",
-    "props": [{ "key": "+15% Damage", "value": 0 }],
+    "props": [{ "key": "D", "value": 15 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -3227,7 +3183,7 @@
   {
     "name": "Vital Sense",
     "type": "PRIMARY",
-    "props": [{ "key": "+20% Critical Damage", "value": 0 }],
+    "props": [{ "key": "1", "value": 20 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 4,
@@ -3236,7 +3192,7 @@
   {
     "name": "Point Strike",
     "type": "PRIMARY",
-    "props": [{ "key": "+25% Critical Chance", "value": 0 }],
+    "props": [{ "key": "0", "value": 25 }],
     "polarity": "r",
     "rarity": "n",
     "baseDrain": 4,
@@ -3245,7 +3201,7 @@
   {
     "name": "Magazine Warp",
     "type": "PRIMARY",
-    "props": [{ "key": "+5% Magazine Capacity", "value": 0 }],
+    "props": [{ "key": "L", "value": 5 }],
     "polarity": "-",
     "rarity": "n",
     "baseDrain": 4,
@@ -3268,12 +3224,7 @@
   {
     "name": "Combustion Beam",
     "type": "PRIMARY",
-    "props": [
-      {
-        "key": "Enemies killed explode, dealing 100 Damage shortly after death.",
-        "value": 0
-      }
-    ],
+    "props": [{ "key": "kb", "value": 100 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 4,
@@ -3282,7 +3233,7 @@
   {
     "name": "Sinister Reach",
     "type": "PRIMARY",
-    "props": [{ "key": "+3 Range", "value": 0 }],
+    "props": [{ "key": "ar", "value": 3 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 2,
@@ -3291,7 +3242,7 @@
   {
     "name": "Piercing Hit",
     "type": "PRIMARY",
-    "props": [{ "key": "+5% <DT_PUNCTURE>Puncture", "value": 0 }],
+    "props": [{ "key": "9", "value": 5 }],
     "polarity": "-",
     "rarity": "n",
     "baseDrain": 4,
@@ -3300,7 +3251,7 @@
   {
     "name": "Ammo Drum",
     "type": "PRIMARY",
-    "props": [{ "key": "+5% Ammo Maximum", "value": 0 }],
+    "props": [{ "key": "M", "value": 5 }],
     "polarity": "-",
     "rarity": "n",
     "baseDrain": 2,
@@ -3309,7 +3260,7 @@
   {
     "name": "Charged Chamber",
     "type": "PRIMARY",
-    "props": [{ "key": "+10% Damage on first shot in Magazine", "value": 0 }],
+    "props": [{ "key": "fsb", "value": 10 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 6,
@@ -3318,7 +3269,7 @@
   {
     "name": "Target Acquired",
     "type": "PRIMARY",
-    "props": [{ "key": "+10% to Headshot Multiplier", "value": 0 }],
+    "props": [{ "key": "hm", "value": 10 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 6,
@@ -3329,7 +3280,7 @@
     "type": "PRIMARY",
     "props": [
       { "key": "Grenades leave a burning patch on impact.", "value": 0 },
-      { "key": "+5 Base Status Chance", "value": 0 }
+      { "key": "i2", "value": 5 }
     ],
     "polarity": "-",
     "rarity": "r",
@@ -3339,7 +3290,7 @@
   {
     "name": "Primed Chamber",
     "type": "PRIMARY",
-    "props": [{ "key": "+25% Damage on first shot in Magazine", "value": 0 }],
+    "props": [{ "key": "fsb", "value": 25 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 4,
@@ -3357,9 +3308,7 @@
   {
     "name": "Thunderbolt",
     "type": "PRIMARY",
-    "props": [
-      { "key": "+7.5% Chance to Explode (Use with Caution)", "value": 0 }
-    ],
+    "props": [{ "key": "exp", "value": 7.5 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 6,
@@ -3382,7 +3331,7 @@
   {
     "name": "Primed Fast Hands",
     "type": "PRIMARY",
-    "props": [{ "key": "+5% Reload Speed", "value": 0 }],
+    "props": [{ "key": "F", "value": 5 }],
     "polarity": "-",
     "rarity": "l",
     "baseDrain": 2,
@@ -3391,7 +3340,7 @@
   {
     "name": "Primed Cryo Rounds",
     "type": "PRIMARY",
-    "props": [{ "key": "+15% <DT_FREEZE>Cold", "value": 0 }],
+    "props": [{ "key": "5", "value": 15 }],
     "polarity": "d",
     "rarity": "l",
     "baseDrain": 6,
@@ -3400,7 +3349,7 @@
   {
     "name": "Primed Bane of Infested",
     "type": "PRIMARY",
-    "props": [{ "key": "+5% Damage to Infested", "value": 0 }],
+    "props": [{ "key": "I", "value": 5 }],
     "polarity": "r",
     "rarity": "l",
     "baseDrain": 4,
@@ -3409,7 +3358,7 @@
   {
     "name": "Primed Bane of Grineer",
     "type": "PRIMARY",
-    "props": [{ "key": "+5% Damage to Grineer", "value": 0 }],
+    "props": [{ "key": "G", "value": 5 }],
     "polarity": "r",
     "rarity": "l",
     "baseDrain": 4,
@@ -3418,7 +3367,7 @@
   {
     "name": "Primed Bane of Corrupted",
     "type": "PRIMARY",
-    "props": [{ "key": "+5% Damage to Corrupted", "value": 0 }],
+    "props": [{ "key": "od", "value": 5 }],
     "polarity": "r",
     "rarity": "l",
     "baseDrain": 4,
@@ -3427,7 +3376,7 @@
   {
     "name": "Primed Bane of Corpus",
     "type": "PRIMARY",
-    "props": [{ "key": "+5% Damage to Corpus", "value": 0 }],
+    "props": [{ "key": "C", "value": 5 }],
     "polarity": "r",
     "rarity": "l",
     "baseDrain": 4,
@@ -3481,7 +3430,7 @@
   {
     "name": "Harkonar Scope",
     "type": "PRIMARY",
-    "props": [{ "key": "+2s Combo Duration when Aiming", "value": 0 }],
+    "props": [{ "key": "N", "value": 2 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 4,
@@ -3504,9 +3453,7 @@
   {
     "name": "Kinetic Ricochet",
     "type": "PRIMARY",
-    "props": [
-      { "key": "Shots now bounce up to 1x and travel 5% further.", "value": 0 }
-    ],
+    "props": [{ "key": "but", "value": 1 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 2,
@@ -3529,9 +3476,7 @@
   {
     "name": "Tether Grenades",
     "type": "PRIMARY",
-    "props": [
-      { "key": "Grenades tether up to 2 enemies from 4m away.", "value": 0 }
-    ],
+    "props": [{ "key": "el", "value": 2 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 2,
@@ -3708,7 +3653,7 @@
   {
     "name": "Bane of Grineer",
     "type": "PRIMARY",
-    "props": [{ "key": "+2.5% Damage to Grineer", "value": 0 }],
+    "props": [{ "key": "G", "value": 2.5 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 2,
@@ -3717,7 +3662,7 @@
   {
     "name": "Bane of Corpus",
     "type": "PRIMARY",
-    "props": [{ "key": "+2.5% Damage to Corpus", "value": 0 }],
+    "props": [{ "key": "C", "value": 2.5 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 2,
@@ -3726,7 +3671,7 @@
   {
     "name": "Serration",
     "type": "PRIMARY",
-    "props": [{ "key": "+10% Damage", "value": 0 }],
+    "props": [{ "key": "D", "value": 10 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 2,
@@ -3737,10 +3682,12 @@
     "type": "WARFRAME",
     "props": [
       {
-        "key": "Immune to Knockdown for an additional +1s after being Knocked Down."
+        "key": "Immune to Knockdown for an additional +1s after being Knocked Down.",
+        "value": 0
       },
       {
-        "key": "Immune to Stagger for an additional +1s after being Staggered."
+        "key": "Immune to Stagger for an additional +1s after being Staggered.",
+        "value": 0
       }
     ],
     "polarity": "d",
@@ -3751,7 +3698,10 @@
   {
     "name": "Quick Charge",
     "type": "WARFRAME",
-    "props": [{ "key": "r", "value": -5 }, { "key": "-5 Shield Capacity" }],
+    "props": [
+      { "key": "r", "value": -5 },
+      { "key": "-5 Shield Capacity", "value": 0 }
+    ],
     "polarity": "d",
     "rarity": "r",
     "baseDrain": 6,
@@ -3761,7 +3711,7 @@
     "name": "Armored Recovery",
     "type": "WARFRAME",
     "props": [
-      { "key": "+12.5% Damage Resistance when Knocked Down" },
+      { "key": "+12.5% Damage Resistance when Knocked Down", "value": 0 },
       { "key": "l", "value": -5 }
     ],
     "polarity": "d",
@@ -3781,7 +3731,10 @@
   {
     "name": "Tempered Bound",
     "type": "WARFRAME",
-    "props": [{ "key": "-2.5% Mobility" }, { "key": "+7.5 Shield Capacity" }],
+    "props": [
+      { "key": "-2.5% Mobility", "value": 0 },
+      { "key": "+7.5 Shield Capacity", "value": 0 }
+    ],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 2,
@@ -3790,7 +3743,10 @@
   {
     "name": "Calculated Spring",
     "type": "WARFRAME",
-    "props": [{ "key": "-2.5% Mobility" }, { "key": "h", "value": 6.3 }],
+    "props": [
+      { "key": "-2.5% Mobility", "value": 0 },
+      { "key": "h", "value": 6.3 }
+    ],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 2,
@@ -3799,7 +3755,10 @@
   {
     "name": "Adrenaline Boost",
     "type": "WARFRAME",
-    "props": [{ "key": "+12.5% Energy" }, { "key": "h", "value": -5 }],
+    "props": [
+      { "key": "+12.5% Energy", "value": 0 },
+      { "key": "h", "value": -5 }
+    ],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 10,
@@ -3808,7 +3767,10 @@
   {
     "name": "Rising Skill",
     "type": "WARFRAME",
-    "props": [{ "key": "+2.5% Mobility" }, { "key": "-7.5 Shield Capacity" }],
+    "props": [
+      { "key": "+2.5% Mobility", "value": 0 },
+      { "key": "-7.5 Shield Capacity", "value": 0 }
+    ],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 2,
@@ -3817,7 +3779,10 @@
   {
     "name": "Adept Surge",
     "type": "WARFRAME",
-    "props": [{ "key": "+2.5% Mobility" }, { "key": "-6.2 Health" }],
+    "props": [
+      { "key": "+2.5% Mobility", "value": 0 },
+      { "key": "-6.2 Health", "value": 0 }
+    ],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 2,
@@ -3826,7 +3791,10 @@
   {
     "name": "No Current Leap",
     "type": "WARFRAME",
-    "props": [{ "key": "+2.5% Mobility" }, { "key": "0 Energy Rate" }],
+    "props": [
+      { "key": "+2.5% Mobility", "value": 0 },
+      { "key": "0 Energy Rate", "value": 0 }
+    ],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 2,
@@ -3848,8 +3816,9 @@
     "name": "Final Act",
     "type": "WARFRAME",
     "props": [
+      { "key": "On Low Health:", "value": 0 },
       { "key": "t", "value": 7.5 },
-      { "key": "+7.5% Casting Speed for 2s" }
+      { "key": "+7.5% Casting Speed for 2s", "value": 0 }
     ],
     "polarity": "r",
     "rarity": "r",
@@ -3861,7 +3830,7 @@
     "type": "WARFRAME",
     "props": [
       { "key": "hps", "value": 0.3 },
-      { "key": "+12.5% Shield Recharge Delay" }
+      { "key": "+12.5% Shield Recharge Delay", "value": 0 }
     ],
     "polarity": "-",
     "rarity": "r",
@@ -3924,7 +3893,7 @@
     "type": "WARFRAME",
     "props": [
       { "key": "On Respawn:", "value": 0 },
-      { "key": "+2.5 Energy", "value": 0 }
+      { "key": "her", "value": 2.5 }
     ],
     "polarity": "r",
     "rarity": "c",
@@ -3972,8 +3941,8 @@
     "name": "Armored Evade",
     "type": "WARFRAME",
     "props": [
-      { "key": "+10% Damage Resistance while Dodging" },
-      { "key": "-2.5% Mobility" }
+      { "key": "+10% Damage Resistance while Dodging", "value": 0 },
+      { "key": "-2.5% Mobility", "value": 0 }
     ],
     "polarity": "d",
     "rarity": "c",
@@ -3984,8 +3953,8 @@
     "name": "Armored Acrobatics",
     "type": "WARFRAME",
     "props": [
-      { "key": "+5% Damage Resistance during Bullet Jump" },
-      { "key": "+0 Mobility" }
+      { "key": "+5% Damage Resistance during Bullet Jump", "value": 0 },
+      { "key": "+0 Mobility", "value": 0 }
     ],
     "polarity": "d",
     "rarity": "c",
@@ -3996,8 +3965,8 @@
     "name": "Anti-Flak Plating",
     "type": "WARFRAME",
     "props": [
-      { "key": "+5 <DT_EXPLOSION>Blast Resistance" },
-      { "key": "-2.5% Mobility" }
+      { "key": "+5 <DT_EXPLOSION>Blast Resistance", "value": 0 },
+      { "key": "-2.5% Mobility", "value": 0 }
     ],
     "polarity": "d",
     "rarity": "c",
@@ -4008,8 +3977,8 @@
     "name": "Air Thrusters",
     "type": "WARFRAME",
     "props": [
-      { "key": "+25% Slide Boost when Airborne" },
-      { "key": "-5% Mobility" }
+      { "key": "+25% Slide Boost when Airborne", "value": 0 },
+      { "key": "-5% Mobility", "value": 0 }
     ],
     "polarity": "-",
     "rarity": "c",
@@ -4210,8 +4179,8 @@
     "type": "PRIMARY",
     "props": [
       { "key": "onKill" },
-      { "key": "-25% Shield Recharge Delay for 2.5s" },
-      { "key": "-6.2% from Health Orbs" }
+      { "key": "-25% Shield Recharge Delay for 2.5s", "value": 0 },
+      { "key": "-6.2% from Health Orbs", "value": 0 }
     ],
     "polarity": "d",
     "rarity": "r",
@@ -4223,8 +4192,8 @@
     "type": "PRIMARY",
     "props": [
       { "key": "onKill" },
-      { "key": "+3.8 Heal Rate for 2.5s" },
-      { "key": "-6.2% from Health Orbs" }
+      { "key": "+3.8 Heal Rate for 2.5s", "value": 0 },
+      { "key": "-6.2% from Health Orbs", "value": 0 }
     ],
     "polarity": "d",
     "rarity": "r",
@@ -4234,7 +4203,7 @@
   {
     "name": "Lock and Load",
     "type": "PRIMARY",
-    "props": [{ "key": "+5% Magazine Reloaded/s when Holstered", "value": 0 }],
+    "props": [{ "key": "lal", "value": 5 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 10,
@@ -4254,7 +4223,7 @@
     "type": "PRIMARY",
     "props": [
       { "key": "onHit" },
-      { "key": "Reveals target on Minimap for +1s." }
+      { "key": "Reveals target on Minimap for +1s.", "value": 0 }
     ],
     "polarity": "-",
     "rarity": "c",
@@ -4282,7 +4251,7 @@
   {
     "name": "Soft Hands",
     "type": "PRIMARY",
-    "props": [{ "key": "+50% Holster Speed", "value": 0 }],
+    "props": [{ "key": "hr", "value": 50 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 4,
@@ -4300,7 +4269,10 @@
   {
     "name": "Kill Switch",
     "type": "PRIMARY",
-    "props": [{ "key": "onKill" }, { "key": "+12.5% Reload Speed for 0.75s" }],
+    "props": [
+      { "key": "onKill" },
+      { "key": "+12.5% Reload Speed for 0.75s", "value": 0 }
+    ],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 10,
@@ -4318,7 +4290,7 @@
   {
     "name": "Snap Shot",
     "type": "PRIMARY",
-    "props": [{ "key": "+5% Movement Speed when Aiming", "value": 0 }],
+    "props": [{ "key": "m", "value": 5 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 2,
@@ -4369,7 +4341,11 @@
   {
     "name": "Measured Burst",
     "type": "PRIMARY",
-    "props": [{ "key": "R", "value": -15 }, { "key": "D", "value": 7.5 }],
+    "props": [
+      { "key": "When Aiming:", "value": 0 },
+      { "key": "R", "value": -15 },
+      { "key": "D", "value": 7.5 }
+    ],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 10,
@@ -4380,7 +4356,7 @@
     "type": "PRIMARY",
     "props": [
       { "key": "When Aiming:", "value": 0 },
-      { "key": "+20% Projectile Speed", "value": 0 }
+      { "key": "V", "value": 20 }
     ],
     "polarity": "r",
     "rarity": "r",
@@ -4391,8 +4367,8 @@
     "name": "Sudden Justice",
     "type": "PRIMARY",
     "props": [
-      { "key": "On 2 Hits within 0.2s:" },
-      { "key": "+7.5% Fire Rate for 0.5s" }
+      { "key": "On 2 Hits within 0.2s:", "value": 0 },
+      { "key": "+7.5% Fire Rate for 0.5s", "value": 0 }
     ],
     "polarity": "r",
     "rarity": "r",
@@ -4411,7 +4387,7 @@
   {
     "name": "Ambush Optics",
     "type": "PRIMARY",
-    "props": [{ "key": "-12.5% Zoom", "value": 0 }],
+    "props": [{ "key": "H", "value": -12.5 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 6,
@@ -4422,8 +4398,8 @@
     "type": "PRIMARY",
     "props": [
       { "key": "onKill" },
-      { "key": "-25% Shield Recharge Delay for 2.5s" },
-      { "key": "-6.2% from Health Orbs" }
+      { "key": "-25% Shield Recharge Delay for 2.5s", "value": 0 },
+      { "key": "-6.2% from Health Orbs", "value": 0 }
     ],
     "polarity": "d",
     "rarity": "r",
@@ -4435,8 +4411,8 @@
     "type": "PRIMARY",
     "props": [
       { "key": "onKill" },
-      { "key": "+3.8 Heal Rate for 2.5s" },
-      { "key": "-6.2% from Health Orbs" }
+      { "key": "+3.8 Heal Rate for 2.5s", "value": 0 },
+      { "key": "-6.2% from Health Orbs", "value": 0 }
     ],
     "polarity": "d",
     "rarity": "r",
@@ -4446,7 +4422,7 @@
   {
     "name": "Tactical Reload",
     "type": "PRIMARY",
-    "props": [{ "key": "+5% Magazine Reloaded/s when Holstered", "value": 0 }],
+    "props": [{ "key": "lal", "value": 5 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 10,
@@ -4457,7 +4433,7 @@
     "type": "PRIMARY",
     "props": [
       { "key": "onHit" },
-      { "key": "5% Bonus Damage on next Hit for 0.5s" }
+      { "key": "5% Bonus Damage on next Hit for 0.5s", "value": 0 }
     ],
     "polarity": "r",
     "rarity": "r",
@@ -4468,8 +4444,8 @@
     "name": "Triple Tap",
     "type": "PRIMARY",
     "props": [
-      { "key": "On 2 Hits within .02s:" },
-      { "key": "+10% Damage for 0.05s" }
+      { "key": "On 2 Hits within .02s:", "value": 0 },
+      { "key": "+10% Damage for 0.05s", "value": 0 }
     ],
     "polarity": "r",
     "rarity": "r",
@@ -4499,7 +4475,7 @@
     "type": "PRIMARY",
     "props": [
       { "key": "onHit" },
-      { "key": "Reveals target on Minimap for +1s." }
+      { "key": "Reveals target on Minimap for +1s.", "value": 0 }
     ],
     "polarity": "-",
     "rarity": "c",
@@ -4527,7 +4503,7 @@
   {
     "name": "Twitch",
     "type": "PRIMARY",
-    "props": [{ "key": "+50% Holster Speed", "value": 0 }],
+    "props": [{ "key": "hr", "value": 50 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 4,
@@ -4537,8 +4513,8 @@
     "name": "Final Tap",
     "type": "PRIMARY",
     "props": [
-      { "key": "On 4 Hits within .05s:" },
-      { "key": "+25% Damage for 0.05s" }
+      { "key": "On 4 Hits within .05s:", "value": 0 },
+      { "key": "+25% Damage for 0.05s", "value": 0 }
     ],
     "polarity": "r",
     "rarity": "r",
@@ -4576,7 +4552,7 @@
     "name": "Lie In Wait",
     "type": "PRIMARY",
     "props": [
-      { "key": "+5% Fire Rate when Crouching" },
+      { "key": "+5% Fire Rate when Crouching", "value": 0 },
       { "key": "Z", "value": 25 }
     ],
     "polarity": "r",
@@ -4589,7 +4565,7 @@
     "type": "PRIMARY",
     "props": [
       { "key": "onHeadshot" },
-      { "key": "+25% Ammo Efficiency for 0.13s" }
+      { "key": "+25% Ammo Efficiency for 0.13s", "value": 0 }
     ],
     "polarity": "r",
     "rarity": "r",
@@ -4599,7 +4575,10 @@
   {
     "name": "Gorgon Frenzy",
     "type": "PRIMARY",
-    "props": [{ "key": "onKill" }, { "key": "+7.5% Fire Rate for 0.75s" }],
+    "props": [
+      { "key": "onKill" },
+      { "key": "+7.5% Fire Rate for 0.75s", "value": 0 }
+    ],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 10,
@@ -4608,7 +4587,10 @@
   {
     "name": "Emergent Aftermath",
     "type": "PRIMARY",
-    "props": [{ "key": "onKill" }, { "key": "+12.5% Reload Speed for 0.75s" }],
+    "props": [
+      { "key": "onKill" },
+      { "key": "+12.5% Reload Speed for 0.75s", "value": 0 }
+    ],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 10,
@@ -4628,7 +4610,7 @@
     "type": "PRIMARY",
     "props": [
       { "key": "onHit" },
-      { "key": "+5% Secondary Weapon Fire Rate for 0.75s" }
+      { "key": "+5% Secondary Weapon Fire Rate for 0.75s", "value": 0 }
     ],
     "polarity": "r",
     "rarity": "r",
@@ -4638,7 +4620,7 @@
   {
     "name": "Agile Aim",
     "type": "PRIMARY",
-    "props": [{ "key": "+5% Movement Speed when Aiming", "value": 0 }],
+    "props": [{ "key": "m", "value": 5 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 2,
@@ -4656,7 +4638,10 @@
   {
     "name": "Deft Tempo",
     "type": "PRIMARY",
-    "props": [{ "key": "onHeadshot" }, { "key": "+2.5 Mobility for 1s" }],
+    "props": [
+      { "key": "onHeadshot" },
+      { "key": "+2.5 Mobility for 1s", "value": 0 }
+    ],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 10,
@@ -4666,7 +4651,7 @@
     "name": "Thundermiter",
     "type": "PRIMARY",
     "props": [
-      { "key": "+25% chance charged Projectiles explode" },
+      { "key": "+25% chance charged Projectiles explode", "value": 0 },
       { "key": "L", "value": -15 }
     ],
     "polarity": "r",
@@ -4721,7 +4706,7 @@
     "type": "SECONDARY",
     "props": [
       { "key": "onHeadshot" },
-      { "key": "+25% Ammo Efficiency for 0.5s" }
+      { "key": "+25% Ammo Efficiency for 0.5s", "value": 0 }
     ],
     "polarity": "r",
     "rarity": "r",
@@ -4742,8 +4727,8 @@
     "type": "SECONDARY",
     "props": [
       { "key": "onKill" },
-      { "key": "-25% Shield Recharge Delay for 2.5s" },
-      { "key": "-6.2% from Health Orbs" }
+      { "key": "-25% Shield Recharge Delay for 2.5s", "value": 0 },
+      { "key": "-6.2% from Health Orbs", "value": 0 }
     ],
     "polarity": "d",
     "rarity": "r",
@@ -4755,8 +4740,8 @@
     "type": "SECONDARY",
     "props": [
       { "key": "onKill" },
-      { "key": "+3.8 Heal Rate for 2.5s" },
-      { "key": "-6.2% from Health Orbs" }
+      { "key": "+3.8 Heal Rate for 2.5s", "value": 0 },
+      { "key": "-6.2% from Health Orbs", "value": 0 }
     ],
     "polarity": "d",
     "rarity": "r",
@@ -4766,7 +4751,7 @@
   {
     "name": "Eject Magazine",
     "type": "SECONDARY",
-    "props": [{ "key": "+5% Magazine Reloaded/s when Holstered", "value": 0 }],
+    "props": [{ "key": "lal", "value": 5 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 10,
@@ -4786,7 +4771,7 @@
     "type": "SECONDARY",
     "props": [
       { "key": "onHit" },
-      { "key": "Reveals target on Minimap for +1s." }
+      { "key": "Reveals target on Minimap for +1s.", "value": 0 }
     ],
     "polarity": "-",
     "rarity": "c",
@@ -4823,7 +4808,7 @@
   {
     "name": "Reflex Draw",
     "type": "SECONDARY",
-    "props": [{ "key": "+50% Holster Speed", "value": 0 }],
+    "props": [{ "key": "hr", "value": 50 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 4,
@@ -4850,7 +4835,10 @@
   {
     "name": "Secondary Wind",
     "type": "SECONDARY",
-    "props": [{ "key": "onKill" }, { "key": "+12.5% Reload Speed for 1s" }],
+    "props": [
+      { "key": "onKill" },
+      { "key": "+12.5% Reload Speed for 1s", "value": 0 }
+    ],
     "polarity": "d",
     "rarity": "r",
     "baseDrain": 10,
@@ -4868,7 +4856,7 @@
   {
     "name": "Spry Sights",
     "type": "SECONDARY",
-    "props": [{ "key": "+5% Movement Speed when Aiming", "value": 0 }],
+    "props": [{ "key": "m", "value": 5 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 2,
@@ -4878,7 +4866,7 @@
     "name": "Draining Gloom",
     "type": "SECONDARY",
     "props": [
-      { "key": "+25% chance of Energy Drain explosion" },
+      { "key": "+25% chance of Energy Drain explosion", "value": 0 },
       { "key": "L", "value": -15 },
       { "key": "M", "value": -15 }
     ],
@@ -4932,7 +4920,10 @@
   {
     "name": "Relentless Assault",
     "type": "MELEE",
-    "props": [{ "key": "onKill" }, { "key": "+0.5 Energy Rate for 1s" }],
+    "props": [
+      { "key": "onKill" },
+      { "key": "+0.5 Energy Rate for 1s", "value": 0 }
+    ],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 10,
@@ -4941,7 +4932,10 @@
   {
     "name": "Martial Fury",
     "type": "MELEE",
-    "props": [{ "key": "J", "value": 5 }, { "key": "-12.5% Energy Rate" }],
+    "props": [
+      { "key": "J", "value": 5 },
+      { "key": "-12.5% Energy Rate", "value": 0 }
+    ],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 10,
@@ -4950,7 +4944,11 @@
   {
     "name": "Sword Alone",
     "type": "MELEE",
-    "props": [{ "key": "+2.5% Mobility" }, { "key": "+0.3 Sprint Speed" }],
+    "props": [
+      { "key": "With Melee Equipped:", "value": 0 },
+      { "key": "+2.5% Mobility", "value": 0 },
+      { "key": "+0.3 Sprint Speed", "value": 0 }
+    ],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 10,
@@ -5016,9 +5014,10 @@
     "name": "Mortal Conduct",
     "type": "MELEE",
     "props": [
-      { "key": "At Less than 50 Health:" },
+      { "key": "At Less than 50 Health:", "value": 0 },
       {
-        "key": "+15% Damage taken is reflected when Blocking attacks while Channeling for 2s"
+        "key": "+15% Damage taken is reflected when Blocking attacks while Channeling for 2s",
+        "value": 0
       }
     ],
     "polarity": "r",
@@ -5029,7 +5028,10 @@
   {
     "name": "Impenetrable Offense",
     "type": "MELEE",
-    "props": [{ "key": "+7.5% Damage Block" }, { "key": "K", "value": -2.5 }],
+    "props": [
+      { "key": "+7.5% Damage Block", "value": 0 },
+      { "key": "K", "value": -2.5 }
+    ],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 10,
@@ -5052,7 +5054,7 @@
   {
     "name": "Pathogen Rounds",
     "type": "SECONDARY",
-    "props": [{ "key": "+15% <DT_POISON>Toxin", "value": 0 }],
+    "props": [{ "key": "6", "value": 15 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 6,
@@ -5061,7 +5063,7 @@
   {
     "name": "Sure Shot",
     "type": "SECONDARY",
-    "props": [{ "key": "+2.5% Status Chance", "value": 0 }],
+    "props": [{ "key": "2", "value": 2.5 }],
     "polarity": "d",
     "rarity": "c",
     "baseDrain": 2,
@@ -5070,7 +5072,7 @@
   {
     "name": "Razor Shot",
     "type": "SECONDARY",
-    "props": [{ "key": "+10% <DT_SLASH>Slash", "value": 0 }],
+    "props": [{ "key": "A", "value": 10 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 2,
@@ -5079,7 +5081,7 @@
   {
     "name": "Quickdraw",
     "type": "SECONDARY",
-    "props": [{ "key": "+8% Reload Speed", "value": 0 }],
+    "props": [{ "key": "F", "value": 8 }],
     "polarity": "-",
     "rarity": "n",
     "baseDrain": 2,
@@ -5088,7 +5090,7 @@
   {
     "name": "Steady Hands",
     "type": "SECONDARY",
-    "props": [{ "key": "-15% Weapon Recoil", "value": 0 }],
+    "props": [{ "key": "Z", "value": -15 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 6,
@@ -5097,7 +5099,7 @@
   {
     "name": "Seeker",
     "type": "SECONDARY",
-    "props": [{ "key": "+0.4 Punch Through", "value": 0 }],
+    "props": [{ "key": "P", "value": 0.4 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 10,
@@ -5106,7 +5108,7 @@
   {
     "name": "Lethal Momentum",
     "type": "SECONDARY",
-    "props": [{ "key": "+10% Projectile Speed", "value": 0 }],
+    "props": [{ "key": "V", "value": 10 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -5115,7 +5117,7 @@
   {
     "name": "Perpetual Agony",
     "type": "SECONDARY",
-    "props": [{ "key": "+5% Status Duration", "value": 0 }],
+    "props": [{ "key": "3", "value": 5 }],
     "polarity": "r",
     "rarity": "n",
     "baseDrain": 6,
@@ -5124,7 +5126,7 @@
   {
     "name": "Hawk Eye",
     "type": "SECONDARY",
-    "props": [{ "key": "+20% Zoom", "value": 0 }],
+    "props": [{ "key": "H", "value": 20 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 4,
@@ -5133,7 +5135,7 @@
   {
     "name": "Expel Infested",
     "type": "SECONDARY",
-    "props": [{ "key": "+5% Damage to Infested", "value": 0 }],
+    "props": [{ "key": "I", "value": 5 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -5142,7 +5144,7 @@
   {
     "name": "Expel Grineer",
     "type": "SECONDARY",
-    "props": [{ "key": "+5% Damage to Grineer", "value": 0 }],
+    "props": [{ "key": "G", "value": 5 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -5151,7 +5153,7 @@
   {
     "name": "Expel Corrupted",
     "type": "SECONDARY",
-    "props": [{ "key": "+5% Damage to Corrupted", "value": 0 }],
+    "props": [{ "key": "od", "value": 5 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -5160,7 +5162,7 @@
   {
     "name": "Expel Corpus",
     "type": "SECONDARY",
-    "props": [{ "key": "+5% Damage to Corpus", "value": 0 }],
+    "props": [{ "key": "C", "value": 5 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -5183,12 +5185,7 @@
   {
     "name": "Suppress",
     "type": "SECONDARY",
-    "props": [
-      {
-        "key": "Reduces the chance an enemy will hear gunfire by 25%.",
-        "value": 0
-      }
-    ],
+    "props": [{ "key": "slc", "value": 25 }],
     "polarity": "-",
     "rarity": "n",
     "baseDrain": 2,
@@ -5197,7 +5194,7 @@
   {
     "name": "Concussion Rounds",
     "type": "SECONDARY",
-    "props": [{ "key": "+10% <DT_IMPACT>Impact", "value": 0 }],
+    "props": [{ "key": "8", "value": 10 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 2,
@@ -5206,7 +5203,7 @@
   {
     "name": "Deep Freeze",
     "type": "SECONDARY",
-    "props": [{ "key": "+15% <DT_FREEZE>Cold", "value": 0 }],
+    "props": [{ "key": "5", "value": 15 }],
     "polarity": "d",
     "rarity": "c",
     "baseDrain": 6,
@@ -5215,7 +5212,7 @@
   {
     "name": "Gunslinger",
     "type": "SECONDARY",
-    "props": [{ "key": "+12% Fire Rate", "value": 0 }],
+    "props": [{ "key": "R", "value": 12 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -5224,7 +5221,7 @@
   {
     "name": "Barrel Diffusion",
     "type": "SECONDARY",
-    "props": [{ "key": "+20% Multishot", "value": 0 }],
+    "props": [{ "key": "S", "value": 20 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 6,
@@ -5233,7 +5230,7 @@
   {
     "name": "Heated Charge",
     "type": "SECONDARY",
-    "props": [{ "key": "+15% <DT_FIRE>Heat", "value": 0 }],
+    "props": [{ "key": "4", "value": 15 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 6,
@@ -5242,7 +5239,7 @@
   {
     "name": "Maim",
     "type": "SECONDARY",
-    "props": [{ "key": "+20% <DT_SLASH>Slash", "value": 0 }],
+    "props": [{ "key": "A", "value": 20 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 6,
@@ -5251,7 +5248,7 @@
   {
     "name": "Bore",
     "type": "SECONDARY",
-    "props": [{ "key": "+20% <DT_PUNCTURE>Puncture", "value": 0 }],
+    "props": [{ "key": "9", "value": 20 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 6,
@@ -5260,7 +5257,7 @@
   {
     "name": "Pummel",
     "type": "SECONDARY",
-    "props": [{ "key": "+20% <DT_IMPACT>Impact", "value": 0 }],
+    "props": [{ "key": "8", "value": 20 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 6,
@@ -5269,7 +5266,7 @@
   {
     "name": "Convulsion",
     "type": "SECONDARY",
-    "props": [{ "key": "+15% <DT_ELECTRICITY>Electricity", "value": 0 }],
+    "props": [{ "key": "7", "value": 15 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 6,
@@ -5278,7 +5275,7 @@
   {
     "name": "Hornet Strike",
     "type": "SECONDARY",
-    "props": [{ "key": "+20% Damage", "value": 0 }],
+    "props": [{ "key": "D", "value": 20 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -5287,7 +5284,7 @@
   {
     "name": "Target Cracker",
     "type": "SECONDARY",
-    "props": [{ "key": "+10% Critical Damage", "value": 0 }],
+    "props": [{ "key": "1", "value": 10 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -5296,7 +5293,7 @@
   {
     "name": "Pistol Gambit",
     "type": "SECONDARY",
-    "props": [{ "key": "+20% Critical Chance", "value": 0 }],
+    "props": [{ "key": "0", "value": 20 }],
     "polarity": "r",
     "rarity": "n",
     "baseDrain": 4,
@@ -5305,7 +5302,7 @@
   {
     "name": "Slip Magazine",
     "type": "SECONDARY",
-    "props": [{ "key": "+5% Magazine Capacity", "value": 0 }],
+    "props": [{ "key": "L", "value": 5 }],
     "polarity": "-",
     "rarity": "n",
     "baseDrain": 4,
@@ -5314,7 +5311,7 @@
   {
     "name": "Ruinous Extension",
     "type": "SECONDARY",
-    "props": [{ "key": "+2 Range", "value": 0 }],
+    "props": [{ "key": "ar", "value": 2 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 2,
@@ -5323,7 +5320,7 @@
   {
     "name": "No Return",
     "type": "SECONDARY",
-    "props": [{ "key": "+10% <DT_PUNCTURE>Puncture", "value": 0 }],
+    "props": [{ "key": "9", "value": 10 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 2,
@@ -5332,7 +5329,7 @@
   {
     "name": "Trick Mag",
     "type": "SECONDARY",
-    "props": [{ "key": "+15% Ammo Maximum", "value": 0 }],
+    "props": [{ "key": "M", "value": 15 }],
     "polarity": "-",
     "rarity": "n",
     "baseDrain": 2,
@@ -5341,9 +5338,7 @@
   {
     "name": "Concealed Explosives",
     "type": "SECONDARY",
-    "props": [
-      { "key": "+20% Chance to Explode (Use with Caution)", "value": 0 }
-    ],
+    "props": [{ "key": "exp", "value": 20 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 6,
@@ -5352,7 +5347,7 @@
   {
     "name": "Primed Quickdraw",
     "type": "SECONDARY",
-    "props": [{ "key": "+8% Reload Speed", "value": 0 }],
+    "props": [{ "key": "F", "value": 8 }],
     "polarity": "-",
     "rarity": "l",
     "baseDrain": 2,
@@ -5361,7 +5356,7 @@
   {
     "name": "Primed Expel Infested",
     "type": "SECONDARY",
-    "props": [{ "key": "+5% Damage to Infested", "value": 0 }],
+    "props": [{ "key": "I", "value": 5 }],
     "polarity": "r",
     "rarity": "l",
     "baseDrain": 4,
@@ -5370,7 +5365,7 @@
   {
     "name": "Primed Expel Grineer",
     "type": "SECONDARY",
-    "props": [{ "key": "+5% Damage to Grineer", "value": 0 }],
+    "props": [{ "key": "G", "value": 5 }],
     "polarity": "r",
     "rarity": "l",
     "baseDrain": 4,
@@ -5379,7 +5374,7 @@
   {
     "name": "Primed Expel Corrupted",
     "type": "SECONDARY",
-    "props": [{ "key": "+5% Damage to Corrupted", "value": 0 }],
+    "props": [{ "key": "od", "value": 5 }],
     "polarity": "r",
     "rarity": "l",
     "baseDrain": 4,
@@ -5388,7 +5383,7 @@
   {
     "name": "Primed Expel Corpus",
     "type": "SECONDARY",
-    "props": [{ "key": "+5% Damage to Corpus", "value": 0 }],
+    "props": [{ "key": "C", "value": 5 }],
     "polarity": "r",
     "rarity": "l",
     "baseDrain": 4,
@@ -5411,7 +5406,7 @@
   {
     "name": "Primed Heated Charge",
     "type": "SECONDARY",
-    "props": [{ "key": "+15% <DT_FIRE>Heat", "value": 0 }],
+    "props": [{ "key": "4", "value": 15 }],
     "polarity": "-",
     "rarity": "l",
     "baseDrain": 6,
@@ -5420,7 +5415,7 @@
   {
     "name": "Primed Pistol Gambit",
     "type": "SECONDARY",
-    "props": [{ "key": "+17% Critical Chance", "value": 0 }],
+    "props": [{ "key": "0", "value": 17 }],
     "polarity": "r",
     "rarity": "l",
     "baseDrain": 2,
@@ -5429,7 +5424,7 @@
   {
     "name": "Primed Slip Magazine",
     "type": "SECONDARY",
-    "props": [{ "key": "+5% Magazine Capacity", "value": 0 }],
+    "props": [{ "key": "L", "value": 5 }],
     "polarity": "-",
     "rarity": "l",
     "baseDrain": 4,
@@ -5438,7 +5433,7 @@
   {
     "name": "Primed Target Cracker",
     "type": "SECONDARY",
-    "props": [{ "key": "+10% Critical Damage", "value": 0 }],
+    "props": [{ "key": "1", "value": 10 }],
     "polarity": "r",
     "rarity": "l",
     "baseDrain": 4,
@@ -5497,7 +5492,7 @@
         "key": "Improves the Blast Radius of secondary launcher weapons.",
         "value": 0
       },
-      { "key": "+6% Blast Radius", "value": 0 }
+      { "key": "brad", "value": 6 }
     ],
     "polarity": "r",
     "rarity": "r",
@@ -5615,7 +5610,7 @@
   {
     "name": "Heated Charge",
     "type": "SECONDARY",
-    "props": [{ "key": "+10% <DT_FIRE>Heat", "value": 0 }],
+    "props": [{ "key": "4", "value": 10 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 4,
@@ -5624,7 +5619,7 @@
   {
     "name": "Convulsion",
     "type": "SECONDARY",
-    "props": [{ "key": "+10% <DT_ELECTRICITY>Electricity", "value": 0 }],
+    "props": [{ "key": "7", "value": 10 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 4,
@@ -5633,7 +5628,7 @@
   {
     "name": "Hornet Strike",
     "type": "SECONDARY",
-    "props": [{ "key": "+10% Damage", "value": 0 }],
+    "props": [{ "key": "D", "value": 10 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 2,
@@ -5642,7 +5637,7 @@
   {
     "name": "Fever Strike",
     "type": "MELEE",
-    "props": [{ "key": "+15% <DT_POISON>Toxin", "value": 0 }],
+    "props": [{ "key": "6", "value": 15 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 6,
@@ -5651,7 +5646,7 @@
   {
     "name": "Melee Prowess",
     "type": "MELEE",
-    "props": [{ "key": "+2.5% Status Chance", "value": 0 }],
+    "props": [{ "key": "2", "value": 2.5 }],
     "polarity": "d",
     "rarity": "n",
     "baseDrain": 2,
@@ -5660,7 +5655,7 @@
   {
     "name": "Jagged Edge",
     "type": "MELEE",
-    "props": [{ "key": "+15% <DT_SLASH>Slash", "value": 0 }],
+    "props": [{ "key": "A", "value": 15 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 2,
@@ -5669,7 +5664,7 @@
   {
     "name": "Lasting Sting",
     "type": "MELEE",
-    "props": [{ "key": "+10% Status Duration", "value": 0 }],
+    "props": [{ "key": "3", "value": 10 }],
     "polarity": "r",
     "rarity": "n",
     "baseDrain": 6,
@@ -5678,12 +5673,7 @@
   {
     "name": "Energy Channel",
     "type": "MELEE",
-    "props": [
-      {
-        "key": "Converts 50% of Energy used to up to 50 Bonus Damage on next Melee Attack.",
-        "value": 0
-      }
-    ],
+    "props": [{ "key": "exd", "value": 50 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 4,
@@ -5692,12 +5682,7 @@
   {
     "name": "Covert Lethality",
     "type": "MELEE",
-    "props": [
-      {
-        "key": "+25 Extra Damage on Melee Attacks, or Lethal Damage on Finishers.",
-        "value": 0
-      }
-    ],
+    "props": [{ "key": "ld", "value": 25 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 10,
@@ -5706,7 +5691,7 @@
   {
     "name": "Seismic Wave",
     "type": "MELEE",
-    "props": [{ "key": "+50% Melee Slam Damage", "value": 0 }],
+    "props": [{ "key": "msd", "value": 50 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 6,
@@ -5715,7 +5700,7 @@
   {
     "name": "Reach",
     "type": "MELEE",
-    "props": [{ "key": "+15% Range", "value": 0 }],
+    "props": [{ "key": "T", "value": 15 }],
     "polarity": "r",
     "rarity": "n",
     "baseDrain": 4,
@@ -5724,7 +5709,7 @@
   {
     "name": "Killing Blow",
     "type": "MELEE",
-    "props": [{ "key": "+20% Channeling Damage", "value": 0 }],
+    "props": [{ "key": "B", "value": 20 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 6,
@@ -5733,7 +5718,7 @@
   {
     "name": "Finishing Touch",
     "type": "MELEE",
-    "props": [{ "key": "+15% Finisher Damage", "value": 0 }],
+    "props": [{ "key": "X", "value": 15 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 2,
@@ -5742,7 +5727,7 @@
   {
     "name": "Smite Infested",
     "type": "MELEE",
-    "props": [{ "key": "+5% Damage to Infested", "value": 0 }],
+    "props": [{ "key": "I", "value": 5 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -5751,7 +5736,7 @@
   {
     "name": "Smite Grineer",
     "type": "MELEE",
-    "props": [{ "key": "+5% Damage to Grineer", "value": 0 }],
+    "props": [{ "key": "G", "value": 5 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -5760,7 +5745,7 @@
   {
     "name": "Smite Corrupted",
     "type": "MELEE",
-    "props": [{ "key": "+5% Damage to Corrupted", "value": 0 }],
+    "props": [{ "key": "od", "value": 5 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -5769,7 +5754,7 @@
   {
     "name": "Smite Corpus",
     "type": "MELEE",
-    "props": [{ "key": "+5% Damage to Corpus", "value": 0 }],
+    "props": [{ "key": "C", "value": 5 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -5778,7 +5763,7 @@
   {
     "name": "Pressure Point",
     "type": "MELEE",
-    "props": [{ "key": "+20% Melee Damage", "value": 0 }],
+    "props": [{ "key": "K", "value": 20 }],
     "polarity": "r",
     "rarity": "n",
     "baseDrain": 4,
@@ -5787,12 +5772,7 @@
   {
     "name": "Relentless Combination",
     "type": "MELEE",
-    "props": [
-      {
-        "key": "+25% chance to increase Melee Combo Counter when <DT_SLASH>Slash Status deals damage.",
-        "value": 0
-      }
-    ],
+    "props": [{ "key": "ccws", "value": 25 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 6,
@@ -5801,7 +5781,7 @@
   {
     "name": "Reflex Coil",
     "type": "MELEE",
-    "props": [{ "key": "+10% Channeling Efficiency", "value": 0 }],
+    "props": [{ "key": "U", "value": 10 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 2,
@@ -5810,12 +5790,7 @@
   {
     "name": "Shattering Impact",
     "type": "MELEE",
-    "props": [
-      {
-        "key": "<DT_IMPACT>Impact damage reduces enemy armor by 1.",
-        "value": 0
-      }
-    ],
+    "props": [{ "key": "si", "value": 1 }],
     "polarity": "d",
     "rarity": "n",
     "baseDrain": 4,
@@ -5824,7 +5799,7 @@
   {
     "name": "Heavy Trauma",
     "type": "MELEE",
-    "props": [{ "key": "+15% <DT_IMPACT>Impact", "value": 0 }],
+    "props": [{ "key": "8", "value": 15 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 2,
@@ -5833,12 +5808,7 @@
   {
     "name": "Healing Return",
     "type": "MELEE",
-    "props": [
-      {
-        "key": "Restores 1 Health per Status Type affecting the target.",
-        "value": 0
-      }
-    ],
+    "props": [{ "key": "hlr", "value": 1 }],
     "polarity": "d",
     "rarity": "r",
     "baseDrain": 6,
@@ -5847,7 +5817,7 @@
   {
     "name": "Whirlwind",
     "type": "MELEE",
-    "props": [{ "key": "+30% Projectile Speed", "value": 0 }],
+    "props": [{ "key": "V", "value": 30 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 4,
@@ -5856,7 +5826,7 @@
   {
     "name": "Rebound",
     "type": "MELEE",
-    "props": [{ "key": "+1 Bounce", "value": 0 }],
+    "props": [{ "key": "bnc", "value": 1 }],
     "polarity": "-",
     "rarity": "n",
     "baseDrain": 4,
@@ -5865,7 +5835,7 @@
   {
     "name": "Quick Return",
     "type": "MELEE",
-    "props": [{ "key": "-1 Bounce", "value": 0 }],
+    "props": [{ "key": "bnc", "value": -1 }],
     "polarity": "-",
     "rarity": "n",
     "baseDrain": 4,
@@ -5874,7 +5844,7 @@
   {
     "name": "Power Throw",
     "type": "MELEE",
-    "props": [{ "key": "+0.1 Punch Through", "value": 0 }],
+    "props": [{ "key": "P", "value": 0.1 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 4,
@@ -5883,7 +5853,7 @@
   {
     "name": "North Wind",
     "type": "MELEE",
-    "props": [{ "key": "+15% <DT_FREEZE>Cold", "value": 0 }],
+    "props": [{ "key": "5", "value": 15 }],
     "polarity": "d",
     "rarity": "c",
     "baseDrain": 6,
@@ -5892,7 +5862,7 @@
   {
     "name": "Fury",
     "type": "MELEE",
-    "props": [{ "key": "+5% Attack Speed", "value": 0 }],
+    "props": [{ "key": "J", "value": 5 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -5901,7 +5871,7 @@
   {
     "name": "Molten Impact",
     "type": "MELEE",
-    "props": [{ "key": "+15% <DT_FIRE>Heat", "value": 0 }],
+    "props": [{ "key": "4", "value": 15 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 6,
@@ -5910,7 +5880,7 @@
   {
     "name": "Buzz Kill",
     "type": "MELEE",
-    "props": [{ "key": "+20% <DT_SLASH>Slash", "value": 0 }],
+    "props": [{ "key": "A", "value": 20 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 6,
@@ -5919,7 +5889,7 @@
   {
     "name": "Auger Strike",
     "type": "MELEE",
-    "props": [{ "key": "+20% <DT_PUNCTURE>Puncture", "value": 0 }],
+    "props": [{ "key": "9", "value": 20 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 6,
@@ -5928,7 +5898,7 @@
   {
     "name": "Collision Force",
     "type": "MELEE",
-    "props": [{ "key": "+20% <DT_IMPACT>Impact", "value": 0 }],
+    "props": [{ "key": "8", "value": 20 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 6,
@@ -5937,7 +5907,7 @@
   {
     "name": "Shocking Touch",
     "type": "MELEE",
-    "props": [{ "key": "+15% <DT_ELECTRICITY>Electricity", "value": 0 }],
+    "props": [{ "key": "7", "value": 15 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 6,
@@ -5946,12 +5916,7 @@
   {
     "name": "Condition Overload",
     "type": "MELEE",
-    "props": [
-      {
-        "key": "+10% Melee Damage per Status Type affecting the target.",
-        "value": 0
-      }
-    ],
+    "props": [{ "key": "co", "value": 10 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 10,
@@ -5960,12 +5925,7 @@
   {
     "name": "Berserker",
     "type": "MELEE",
-    "props": [
-      {
-        "key": "+5% Attack Speed (Max: 75%) for 4s on Critical Hit",
-        "value": 0
-      }
-    ],
+    "props": [{ "key": "bsk", "value": 5 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 4,
@@ -5974,7 +5934,7 @@
   {
     "name": "Organ Shatter",
     "type": "MELEE",
-    "props": [{ "key": "+15% Critical Damage", "value": 0 }],
+    "props": [{ "key": "1", "value": 15 }],
     "polarity": "r",
     "rarity": "n",
     "baseDrain": 4,
@@ -5983,7 +5943,7 @@
   {
     "name": "True Steel",
     "type": "MELEE",
-    "props": [{ "key": "+10% Critical Chance", "value": 0 }],
+    "props": [{ "key": "0", "value": 10 }],
     "polarity": "r",
     "rarity": "n",
     "baseDrain": 4,
@@ -5992,12 +5952,7 @@
   {
     "name": "Guardian Derision",
     "type": "MELEE",
-    "props": [
-      {
-        "key": "Blocking taunts enemies within 6 meters to target you instead of allies.",
-        "value": 0
-      }
-    ],
+    "props": [{ "key": "!gdr", "value": 15 }],
     "polarity": "d",
     "rarity": "r",
     "baseDrain": 6,
@@ -6006,7 +5961,7 @@
   {
     "name": "Sundering Strike",
     "type": "MELEE",
-    "props": [{ "key": "+15% <DT_PUNCTURE>Puncture", "value": 0 }],
+    "props": [{ "key": "9", "value": 15 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 2,
@@ -6024,7 +5979,7 @@
   {
     "name": "Primed Fever Strike",
     "type": "MELEE",
-    "props": [{ "key": "+15% <DT_POISON>Toxin", "value": 0 }],
+    "props": [{ "key": "6", "value": 15 }],
     "polarity": "-",
     "rarity": "l",
     "baseDrain": 6,
@@ -6033,7 +5988,7 @@
   {
     "name": "Primed Reach",
     "type": "MELEE",
-    "props": [{ "key": "+15% Range", "value": 0 }],
+    "props": [{ "key": "T", "value": 15 }],
     "polarity": "r",
     "rarity": "l",
     "baseDrain": 4,
@@ -6042,7 +5997,7 @@
   {
     "name": "Primed Pressure Point",
     "type": "MELEE",
-    "props": [{ "key": "+15% Melee Damage", "value": 0 }],
+    "props": [{ "key": "K", "value": 15 }],
     "polarity": "r",
     "rarity": "l",
     "baseDrain": 4,
@@ -6051,7 +6006,7 @@
   {
     "name": "Primed Heavy Trauma",
     "type": "MELEE",
-    "props": [{ "key": "+15% <DT_IMPACT>Impact", "value": 0 }],
+    "props": [{ "key": "8", "value": 15 }],
     "polarity": "-",
     "rarity": "l",
     "baseDrain": 2,
@@ -6060,7 +6015,7 @@
   {
     "name": "Primed Fury",
     "type": "MELEE",
-    "props": [{ "key": "+5% Attack Speed", "value": 0 }],
+    "props": [{ "key": "J", "value": 5 }],
     "polarity": "r",
     "rarity": "l",
     "baseDrain": 4,
@@ -6069,9 +6024,7 @@
   {
     "name": "Maiming Strike",
     "type": "MELEE",
-    "props": [
-      { "key": "+15% Critical Hit Chance for Slide Attack", "value": 0 }
-    ],
+    "props": [{ "key": "E", "value": 15 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 2,
@@ -6080,9 +6033,7 @@
   {
     "name": "Weeping Wounds",
     "type": "MELEE",
-    "props": [
-      { "key": "+7.5% Status Chance per Combo Multiplier", "value": 0 }
-    ],
+    "props": [{ "key": "sccm", "value": 7.5 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -6091,7 +6042,7 @@
   {
     "name": "Body Count",
     "type": "MELEE",
-    "props": [{ "key": "+2s Combo Duration", "value": 0 }],
+    "props": [{ "key": "N", "value": 2 }],
     "polarity": "-",
     "rarity": "n",
     "baseDrain": 4,
@@ -6100,9 +6051,7 @@
   {
     "name": "Blood Rush",
     "type": "MELEE",
-    "props": [
-      { "key": "+15% Critical Chance stacks with Combo Multiplier", "value": 0 }
-    ],
+    "props": [{ "key": "bldr", "value": 15 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -6280,7 +6229,7 @@
   {
     "name": "Enduring Affliction",
     "type": "MELEE",
-    "props": [{ "key": "+25% Status Duration on Hit", "value": 0 }],
+    "props": [{ "key": "3", "value": 25 }],
     "polarity": "d",
     "rarity": "c",
     "baseDrain": 4,
@@ -6316,7 +6265,7 @@
   {
     "name": "Pressure Point",
     "type": "MELEE",
-    "props": [{ "key": "+20% Melee Damage", "value": 0 }],
+    "props": [{ "key": "K", "value": 20 }],
     "polarity": "r",
     "rarity": "n",
     "baseDrain": 4,
@@ -6459,7 +6408,10 @@
   {
     "name": "Amalgam Shotgun Spazz",
     "type": "PRIMARY",
-    "props": [{ "key": "R", "value": 14 }, { "key": "+8% Revive Speed" }],
+    "props": [
+      { "key": "R", "value": 14 },
+      { "key": "+8% Revive Speed", "value": 0 }
+    ],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 6,
@@ -6479,8 +6431,9 @@
     "type": "PRIMARY",
     "props": [
       { "key": "L", "value": 7.5 },
-      { "key": "Parrying with a Shield reflects +1000% Damage" },
-      { "key": "+15% Channeling Efficiency while Parrying" }
+      { "key": "Parrying with a Shield reflects +1000% Damage", "value": 0 },
+      { "key": "<LINE_SEPARATOR>", "value": 0 },
+      { "key": "+15% Channeling Efficiency while Parrying", "value": 0 }
     ],
     "polarity": "-",
     "rarity": "r",
@@ -6492,8 +6445,9 @@
     "type": "PRIMARY",
     "props": [
       { "key": "hm", "value": 12.5 },
-      { "key": "+0.5% Life Steal on Nikanas" },
-      { "key": "10% chance to pickup used arrows." }
+      { "key": "+0.5% Life Steal on Nikanas", "value": 0 },
+      { "key": "<LINE_SEPARATOR>", "value": 0 },
+      { "key": "10% chance to pickup used arrows.", "value": 0 }
     ],
     "polarity": "r",
     "rarity": "r",
@@ -6505,7 +6459,9 @@
     "type": "PRIMARY",
     "props": [
       { "key": "P", "value": 0.5 },
-      { "key": "Damage from daggers reduces Armor by +1." }
+      { "key": "Damage from daggers reduces Armor by +1.", "value": 0 },
+      { "key": "<LINE_SEPARATOR>", "value": 0 },
+      { "key": "Enemies are revealed by Punch Through.", "value": 0 }
     ],
     "polarity": "-",
     "rarity": "r",
@@ -6515,7 +6471,10 @@
   {
     "name": "Amalgam Barrel Diffusion",
     "type": "SECONDARY",
-    "props": [{ "key": "S", "value": 18 }, { "key": "+10% Dodge Speed" }],
+    "props": [
+      { "key": "S", "value": 18 },
+      { "key": "+10% Dodge Speed", "value": 0 }
+    ],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 10,
@@ -6526,8 +6485,9 @@
     "type": "MELEE",
     "props": [
       { "key": "0", "value": 13 },
-      { "key": "+3% Reload Speed on Shotguns" },
-      { "key": "+17% Gore Chance" }
+      { "key": "+3% Reload Speed on Shotguns", "value": 0 },
+      { "key": "<LINE_SEPARATOR>", "value": 0 },
+      { "key": "+17% Gore Chance", "value": 0 }
     ],
     "polarity": "r",
     "rarity": "r",
@@ -6539,8 +6499,9 @@
     "type": "MELEE",
     "props": [
       { "key": "N", "value": 2.5 },
-      { "key": "+3% Blast Radius on Specialized Launchers" },
-      { "key": "Melee kills knockdown enemies within 2.5m" }
+      { "key": "+3% Blast Radius on Specialized Launchers", "value": 0 },
+      { "key": "<LINE_SEPARATOR>", "value": 0 },
+      { "key": "Melee kills knockdown enemies within 2.5m", "value": 0 }
     ],
     "polarity": "-",
     "rarity": "r",
@@ -6552,7 +6513,7 @@
     "type": "MELEE",
     "props": [
       { "key": "1", "value": 14 },
-      { "key": "+10% Charge Attack Speed" }
+      { "key": "+10% Charge Attack Speed", "value": 0 }
     ],
     "polarity": "r",
     "rarity": "r",
@@ -6564,7 +6525,7 @@
     "type": "AURA",
     "props": [
       { "key": "Corpus enemies have reduced Accuracy.", "value": 0 },
-      { "key": "-2.5% Hit Chance", "value": 0 }
+      { "key": "eac", "value": -2.5 }
     ],
     "polarity": "d",
     "rarity": "c",
@@ -6576,7 +6537,7 @@
     "type": "AURA",
     "props": [
       { "key": "Sprint speed increased.", "value": 0 },
-      { "key": "+2.5% Sprint Speed", "value": 0 }
+      { "key": "f", "value": 2.5 }
     ],
     "polarity": "-",
     "rarity": "c",
@@ -6588,7 +6549,7 @@
     "type": "AURA",
     "props": [
       { "key": "Sniper Rifle damage increased.", "value": 0 },
-      { "key": "+8.8% Damage", "value": 0 }
+      { "key": "D", "value": 8.8 }
     ],
     "polarity": "r",
     "rarity": "c",
@@ -6600,7 +6561,7 @@
     "type": "AURA",
     "props": [
       { "key": "Increased Sniper Ammo recovery.", "value": 0 },
-      { "key": "+25% Ammo Pickup", "value": 0 }
+      { "key": "ap", "value": 25 }
     ],
     "polarity": "-",
     "rarity": "c",
@@ -6612,7 +6573,7 @@
     "type": "AURA",
     "props": [
       { "key": "Shotgun damage increased.", "value": 0 },
-      { "key": "+3% Damage", "value": 0 }
+      { "key": "D", "value": 3 }
     ],
     "polarity": "r",
     "rarity": "c",
@@ -6624,7 +6585,7 @@
     "type": "AURA",
     "props": [
       { "key": "Increased Shotgun Ammo recovery.", "value": 0 },
-      { "key": "+25% Ammo Pickup", "value": 0 }
+      { "key": "ap", "value": 25 }
     ],
     "polarity": "-",
     "rarity": "c",
@@ -6636,7 +6597,7 @@
     "type": "AURA",
     "props": [
       { "key": "Rifle damage increased.", "value": 0 },
-      { "key": "+4.5% Damage", "value": 0 }
+      { "key": "D", "value": 4.5 }
     ],
     "polarity": "r",
     "rarity": "c",
@@ -6648,7 +6609,7 @@
     "type": "AURA",
     "props": [
       { "key": "Increased Rifle Ammo recovery.", "value": 0 },
-      { "key": "+25% Ammo Pickup", "value": 0 }
+      { "key": "ap", "value": 25 }
     ],
     "polarity": "-",
     "rarity": "c",
@@ -6660,7 +6621,7 @@
     "type": "AURA",
     "props": [
       { "key": "Reduced Toxin damage.", "value": 0 },
-      { "key": "+2.5% <DT_POISON>Toxin Resistance", "value": 0 }
+      { "key": "pr", "value": 2.5 }
     ],
     "polarity": "d",
     "rarity": "c",
@@ -6672,7 +6633,7 @@
     "type": "AURA",
     "props": [
       { "key": "Pistol damage increased.", "value": 0 },
-      { "key": "+4.5% Damage", "value": 0 }
+      { "key": "D", "value": 4.5 }
     ],
     "polarity": "r",
     "rarity": "c",
@@ -6684,7 +6645,7 @@
     "type": "AURA",
     "props": [
       { "key": "Increased Pistol Ammo recovery.", "value": 0 },
-      { "key": "+25% Ammo Pickup", "value": 0 }
+      { "key": "ap", "value": 25 }
     ],
     "polarity": "-",
     "rarity": "c",
@@ -6696,7 +6657,7 @@
     "type": "AURA",
     "props": [
       { "key": "Melee Weapon damage increased.", "value": 0 },
-      { "key": "+10% Melee Damage", "value": 0 }
+      { "key": "K", "value": 10 }
     ],
     "polarity": "r",
     "rarity": "c",
@@ -6708,7 +6669,7 @@
     "type": "AURA",
     "props": [
       { "key": "Minimap shows loot crates.", "value": 0 },
-      { "key": "+5 Loot Radar", "value": 0 }
+      { "key": "lr", "value": 5 }
     ],
     "polarity": "-",
     "rarity": "c",
@@ -6720,7 +6681,7 @@
     "type": "AURA",
     "props": [
       { "key": "Increases weapon draw and holstering speed.", "value": 0 },
-      { "key": "+20% Holster Speed", "value": 0 }
+      { "key": "hr", "value": 20 }
     ],
     "polarity": "-",
     "rarity": "c",
@@ -6732,7 +6693,7 @@
     "type": "AURA",
     "props": [
       { "key": "Team Health regenerates.", "value": 0 },
-      { "key": "+0.5 Heal Rate/s", "value": 0 }
+      { "key": "hps", "value": 0.5 }
     ],
     "polarity": "d",
     "rarity": "c",
@@ -6744,7 +6705,7 @@
     "type": "AURA",
     "props": [
       { "key": "Maximum health increased.", "value": 0 },
-      { "key": "+15% Health", "value": 0 }
+      { "key": "h", "value": 15 }
     ],
     "polarity": "d",
     "rarity": "c",
@@ -6756,7 +6717,7 @@
     "type": "AURA",
     "props": [
       { "key": "Warframe Energy regenerates.", "value": 0 },
-      { "key": "+0.1 Energy Rate", "value": 0 }
+      { "key": "es", "value": 0.1 }
     ],
     "polarity": "-",
     "rarity": "c",
@@ -6768,7 +6729,7 @@
     "type": "AURA",
     "props": [
       { "key": "Enemies appear on Minimap.", "value": 0 },
-      { "key": "+5 Enemy Radar", "value": 0 }
+      { "key": "er", "value": 5 }
     ],
     "polarity": "-",
     "rarity": "c",
@@ -6780,7 +6741,7 @@
     "type": "AURA",
     "props": [
       { "key": "Reduces speed of Infested enemies.", "value": 0 },
-      { "key": "-3% Speed", "value": 0 }
+      { "key": "esp", "value": -3 }
     ],
     "polarity": "d",
     "rarity": "c",
@@ -6792,7 +6753,7 @@
     "type": "AURA",
     "props": [
       { "key": "Enemy shields reduced.", "value": 0 },
-      { "key": "-4% Shield Capacity", "value": 0 }
+      { "key": "s", "value": -4 }
     ],
     "polarity": "-",
     "rarity": "c",
@@ -6804,7 +6765,7 @@
     "type": "AURA",
     "props": [
       { "key": "Enemy armor reduced.", "value": 0 },
-      { "key": "-5% Armor", "value": 0 }
+      { "key": "a", "value": -5 }
     ],
     "polarity": "-",
     "rarity": "c",
@@ -6823,7 +6784,7 @@
   {
     "name": "Stand United",
     "type": "AURA",
-    "props": [{ "key": "+4.3% Armor", "value": 0 }],
+    "props": [{ "key": "a", "value": 4.3 }],
     "polarity": "d",
     "rarity": "c",
     "baseDrain": -2,
@@ -6846,12 +6807,7 @@
   {
     "name": "Growing Power",
     "type": "AURA",
-    "props": [
-      {
-        "key": "Applying Status Effects with weapons increase Ability Strength by 4% for 1s.",
-        "value": 0
-      }
-    ],
+    "props": [{ "key": "t", "value": 25.5 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": -2,
@@ -6863,7 +6819,8 @@
     "props": [
       { "key": "onAbilityCast" },
       {
-        "key": "Converts 25% of Energy spent to Shields while Overshields are inactive."
+        "key": "Converts 25% of Energy spent to Shields while Overshields are inactive.",
+        "value": 0
       }
     ],
     "polarity": "=",
@@ -6874,7 +6831,7 @@
   {
     "name": "Hyperion Thrusters",
     "type": "ARCHWING",
-    "props": [{ "key": "+2.5% Flight Speed", "value": 0 }],
+    "props": [{ "key": "fl", "value": 2.5 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 10,
@@ -6883,7 +6840,7 @@
   {
     "name": "Superior Defenses",
     "type": "ARCHWING",
-    "props": [{ "key": "+25% Shield Recharge", "value": 0 }],
+    "props": [{ "key": "r", "value": 25 }],
     "polarity": "d",
     "rarity": "c",
     "baseDrain": 4,
@@ -6892,7 +6849,7 @@
   {
     "name": "Energy Inversion",
     "type": "ARCHWING",
-    "props": [{ "key": "+30% Shield Capacity", "value": 0 }],
+    "props": [{ "key": "s", "value": 30 }],
     "polarity": "d",
     "rarity": "n",
     "baseDrain": 2,
@@ -6901,7 +6858,7 @@
   {
     "name": "Auxiliary Power",
     "type": "ARCHWING",
-    "props": [{ "key": "+15% Energy Max", "value": 0 }],
+    "props": [{ "key": "e", "value": 15 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 6,
@@ -6910,7 +6867,7 @@
   {
     "name": "Enhanced Durability",
     "type": "ARCHWING",
-    "props": [{ "key": "+25% Health", "value": 0 }],
+    "props": [{ "key": "h", "value": 25 }],
     "polarity": "d",
     "rarity": "c",
     "baseDrain": 4,
@@ -6919,7 +6876,7 @@
   {
     "name": "Argon Plating",
     "type": "ARCHWING",
-    "props": [{ "key": "+15% Armor", "value": 0 }],
+    "props": [{ "key": "a", "value": 15 }],
     "polarity": "d",
     "rarity": "n",
     "baseDrain": 4,
@@ -6928,7 +6885,7 @@
   {
     "name": "Morphic Transformer",
     "type": "ARCHWING",
-    "props": [{ "key": "+5% Ability Strength", "value": 0 }],
+    "props": [{ "key": "t", "value": 5 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 6,
@@ -6937,7 +6894,7 @@
   {
     "name": "Energy Amplifier",
     "type": "ARCHWING",
-    "props": [{ "key": "+10% Ability Range", "value": 0 }],
+    "props": [{ "key": "g", "value": 10 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 6,
@@ -6946,7 +6903,7 @@
   {
     "name": "System Reroute",
     "type": "ARCHWING",
-    "props": [{ "key": "+5% Ability Efficiency", "value": 0 }],
+    "props": [{ "key": "x", "value": 5 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 6,
@@ -6955,7 +6912,7 @@
   {
     "name": "Efficient Transferral",
     "type": "ARCHWING",
-    "props": [{ "key": "+7.5% Ability Duration", "value": 0 }],
+    "props": [{ "key": "u", "value": 7.5 }],
     "polarity": "d",
     "rarity": "r",
     "baseDrain": 4,
@@ -6964,9 +6921,7 @@
   {
     "name": "Kinetic Diversion",
     "type": "ARCHWING",
-    "props": [
-      { "key": "Convert +10% of Damage on Health to Energy", "value": 0 }
-    ],
+    "props": [{ "key": "rg", "value": 10 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 6,
@@ -6975,7 +6930,7 @@
   {
     "name": "Venomous Clip",
     "type": "ARCH-GUN",
-    "props": [{ "key": "+20% <DT_POISON>Toxin", "value": 0 }],
+    "props": [{ "key": "6", "value": 20 }],
     "polarity": "d",
     "rarity": "c",
     "baseDrain": 4,
@@ -6984,7 +6939,7 @@
   {
     "name": "Polar Magazine",
     "type": "ARCH-GUN",
-    "props": [{ "key": "+20% <DT_FREEZE>Cold", "value": 0 }],
+    "props": [{ "key": "5", "value": 20 }],
     "polarity": "d",
     "rarity": "c",
     "baseDrain": 4,
@@ -6993,7 +6948,7 @@
   {
     "name": "Combustion Rounds",
     "type": "ARCH-GUN",
-    "props": [{ "key": "+20% <DT_FIRE>Heat", "value": 0 }],
+    "props": [{ "key": "4", "value": 20 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -7002,7 +6957,7 @@
   {
     "name": "Electrified Barrel",
     "type": "ARCH-GUN",
-    "props": [{ "key": "+20% <DT_ELECTRICITY>Electricity", "value": 0 }],
+    "props": [{ "key": "7", "value": 20 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 4,
@@ -7011,7 +6966,7 @@
   {
     "name": "Modified Munitions",
     "type": "ARCH-GUN",
-    "props": [{ "key": "+10% Status Chance", "value": 0 }],
+    "props": [{ "key": "2", "value": 10 }],
     "polarity": "d",
     "rarity": "c",
     "baseDrain": 4,
@@ -7020,7 +6975,7 @@
   {
     "name": "Marked Target",
     "type": "ARCH-GUN",
-    "props": [{ "key": "+20% Status Chance when Aiming", "value": 0 }],
+    "props": [{ "key": "2", "value": 20 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 6,
@@ -7029,7 +6984,7 @@
   {
     "name": "Quick Reload",
     "type": "ARCH-GUN",
-    "props": [{ "key": "+25% Reload Speed", "value": 0 }],
+    "props": [{ "key": "F", "value": 25 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 2,
@@ -7047,7 +7002,7 @@
   {
     "name": "Automatic Trigger",
     "type": "ARCH-GUN",
-    "props": [{ "key": "+10% Fire Rate", "value": 0 }],
+    "props": [{ "key": "R", "value": 10 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 10,
@@ -7056,7 +7011,7 @@
   {
     "name": "Dual Rounds",
     "type": "ARCH-GUN",
-    "props": [{ "key": "+10% Multishot", "value": 0 }],
+    "props": [{ "key": "S", "value": 10 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 6,
@@ -7065,7 +7020,7 @@
   {
     "name": "Rubedo-Lined Barrel",
     "type": "ARCH-GUN",
-    "props": [{ "key": "+16.7% Damage", "value": 0 }],
+    "props": [{ "key": "D", "value": 16.7 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 6,
@@ -7074,7 +7029,7 @@
   {
     "name": "Hollowed Bullets",
     "type": "ARCH-GUN",
-    "props": [{ "key": "+20% Critical Damage", "value": 0 }],
+    "props": [{ "key": "1", "value": 20 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 4,
@@ -7083,7 +7038,7 @@
   {
     "name": "Parallax Scope",
     "type": "ARCH-GUN",
-    "props": [{ "key": "+25% Critical Chance", "value": 0 }],
+    "props": [{ "key": "0", "value": 25 }],
     "polarity": "-",
     "rarity": "n",
     "baseDrain": 4,
@@ -7092,9 +7047,7 @@
   {
     "name": "Critical Focus",
     "type": "ARCH-GUN",
-    "props": [
-      { "key": "+10% Critical Chance and Damage when Aiming", "value": 0 }
-    ],
+    "props": [{ "key": "cd", "value": 10 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 6,
@@ -7103,7 +7056,7 @@
   {
     "name": "Magazine Extension",
     "type": "ARCH-GUN",
-    "props": [{ "key": "+10% Magazine Capacity", "value": 0 }],
+    "props": [{ "key": "L", "value": 10 }],
     "polarity": "-",
     "rarity": "n",
     "baseDrain": 4,
@@ -7112,7 +7065,7 @@
   {
     "name": "Shell Rush",
     "type": "ARCH-GUN",
-    "props": [{ "key": "+12.5% Charge Rate", "value": 0 }],
+    "props": [{ "key": "ca", "value": 12.5 }],
     "polarity": "d",
     "rarity": "c",
     "baseDrain": 4,
@@ -7121,7 +7074,7 @@
   {
     "name": "Ammo Chain",
     "type": "ARCH-GUN",
-    "props": [{ "key": "+16.7% Ammo Maximum", "value": 0 }],
+    "props": [{ "key": "M", "value": 16.7 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 2,
@@ -7179,7 +7132,7 @@
   {
     "name": "Zodiac Shred",
     "type": "ARCH-GUN",
-    "props": [{ "key": "+15% <DT_SLASH>Slash", "value": 0 }],
+    "props": [{ "key": "A", "value": 15 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 2,
@@ -7188,7 +7141,7 @@
   {
     "name": "Quasar Drill",
     "type": "ARCH-GUN",
-    "props": [{ "key": "+15% <DT_PUNCTURE>Puncture", "value": 0 }],
+    "props": [{ "key": "9", "value": 15 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 2,
@@ -7197,7 +7150,7 @@
   {
     "name": "Comet Blast",
     "type": "ARCH-GUN",
-    "props": [{ "key": "+15% <DT_IMPACT>Impact", "value": 0 }],
+    "props": [{ "key": "8", "value": 15 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 2,
@@ -7224,7 +7177,7 @@
   {
     "name": "Poisonous Sting",
     "type": "ARCH-MELEE",
-    "props": [{ "key": "+20% <DT_POISON>Toxin", "value": 0 }],
+    "props": [{ "key": "6", "value": 20 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 4,
@@ -7233,7 +7186,7 @@
   {
     "name": "Glacial Edge",
     "type": "ARCH-MELEE",
-    "props": [{ "key": "+20% <DT_FREEZE>Cold", "value": 0 }],
+    "props": [{ "key": "5", "value": 20 }],
     "polarity": "d",
     "rarity": "c",
     "baseDrain": 4,
@@ -7242,7 +7195,7 @@
   {
     "name": "Blazing Steel",
     "type": "ARCH-MELEE",
-    "props": [{ "key": "+20% <DT_FIRE>Heat", "value": 0 }],
+    "props": [{ "key": "4", "value": 20 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -7251,7 +7204,7 @@
   {
     "name": "Galvanized Blade",
     "type": "ARCH-MELEE",
-    "props": [{ "key": "+20% <DT_ELECTRICITY>Electricity", "value": 0 }],
+    "props": [{ "key": "7", "value": 20 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 6,
@@ -7260,7 +7213,7 @@
   {
     "name": "Sudden Impact",
     "type": "ARCH-MELEE",
-    "props": [{ "key": "+10% Status Chance", "value": 0 }],
+    "props": [{ "key": "2", "value": 10 }],
     "polarity": "d",
     "rarity": "n",
     "baseDrain": 4,
@@ -7269,12 +7222,7 @@
   {
     "name": "Astral Autopsy",
     "type": "ARCH-MELEE",
-    "props": [
-      {
-        "key": "Fatal strikes against an enemy also perform a Codex Scan. Scans require an equipped Codex Scanner and an available charge.",
-        "value": 0
-      }
-    ],
+    "props": [{ "key": "scan" }],
     "polarity": "d",
     "rarity": "r",
     "baseDrain": 10,
@@ -7283,7 +7231,7 @@
   {
     "name": "Extend",
     "type": "ARCH-MELEE",
-    "props": [{ "key": "+20% Range", "value": 0 }],
+    "props": [{ "key": "T", "value": 20 }],
     "polarity": "r",
     "rarity": "n",
     "baseDrain": 6,
@@ -7292,7 +7240,7 @@
   {
     "name": "Furor",
     "type": "ARCH-MELEE",
-    "props": [{ "key": "+2.5% Attack Speed", "value": 0 }],
+    "props": [{ "key": "J", "value": 2.5 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -7301,7 +7249,7 @@
   {
     "name": "Cutting Edge",
     "type": "ARCH-MELEE",
-    "props": [{ "key": "+10% Melee Damage", "value": 0 }],
+    "props": [{ "key": "K", "value": 10 }],
     "polarity": "r",
     "rarity": "n",
     "baseDrain": 6,
@@ -7310,7 +7258,7 @@
   {
     "name": "Bleeding Edge",
     "type": "ARCH-MELEE",
-    "props": [{ "key": "+10% Critical Damage", "value": 0 }],
+    "props": [{ "key": "1", "value": 10 }],
     "polarity": "r",
     "rarity": "n",
     "baseDrain": 4,
@@ -7319,7 +7267,7 @@
   {
     "name": "Tempered Blade",
     "type": "ARCH-MELEE",
-    "props": [{ "key": "+25% Critical Chance", "value": 0 }],
+    "props": [{ "key": "0", "value": 25 }],
     "polarity": "r",
     "rarity": "n",
     "baseDrain": 4,
@@ -7364,7 +7312,7 @@
   {
     "name": "Astral Slash",
     "type": "ARCH-MELEE",
-    "props": [{ "key": "+15% <DT_SLASH>Slash", "value": 0 }],
+    "props": [{ "key": "A", "value": 15 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 2,
@@ -7373,7 +7321,7 @@
   {
     "name": "Nebula Bore",
     "type": "ARCH-MELEE",
-    "props": [{ "key": "+15% <DT_PUNCTURE>Puncture", "value": 0 }],
+    "props": [{ "key": "9", "value": 15 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 2,
@@ -7382,7 +7330,7 @@
   {
     "name": "Meteor Crash",
     "type": "ARCH-MELEE",
-    "props": [{ "key": "+15% <DT_IMPACT>Impact", "value": 0 }],
+    "props": [{ "key": "8", "value": 15 }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 2,
@@ -7391,7 +7339,7 @@
   {
     "name": "Primed Morphic Transformer",
     "type": "ARCHWING",
-    "props": [{ "key": "+5% Ability Strength", "value": 0 }],
+    "props": [{ "key": "t", "value": 5 }],
     "polarity": "r",
     "rarity": "l",
     "baseDrain": 6,
@@ -7434,7 +7382,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "r",
     "baseDrain": 6,
     "fusionLimit": 5
@@ -7448,7 +7396,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "n",
     "baseDrain": 2,
     "fusionLimit": 5
@@ -7462,7 +7410,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "n",
     "baseDrain": 2,
     "fusionLimit": 5
@@ -7476,7 +7424,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "n",
     "baseDrain": 0,
     "fusionLimit": 5
@@ -7490,7 +7438,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "n",
     "baseDrain": 0,
     "fusionLimit": 3
@@ -7504,7 +7452,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "n",
     "baseDrain": 2,
     "fusionLimit": 5
@@ -7518,7 +7466,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "n",
     "baseDrain": 2,
     "fusionLimit": 5
@@ -7532,7 +7480,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "n",
     "baseDrain": 0,
     "fusionLimit": 5
@@ -7560,7 +7508,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "r",
     "baseDrain": 6,
     "fusionLimit": 3
@@ -7574,7 +7522,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "n",
     "baseDrain": 0,
     "fusionLimit": 5
@@ -7588,7 +7536,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "r",
     "baseDrain": 4,
     "fusionLimit": 5
@@ -7602,7 +7550,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "n",
     "baseDrain": 2,
     "fusionLimit": 5
@@ -7616,7 +7564,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "r",
     "baseDrain": 4,
     "fusionLimit": 5
@@ -7630,7 +7578,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "l",
     "baseDrain": 4,
     "fusionLimit": 10
@@ -7639,7 +7587,7 @@
     "name": "Looter",
     "type": "SENTINEL",
     "props": [{ "key": "Destroys loot crates within 4.5m.", "value": 0 }],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "r",
     "baseDrain": 2,
     "fusionLimit": 5
@@ -7653,7 +7601,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "n",
     "baseDrain": 0,
     "fusionLimit": 3
@@ -7667,7 +7615,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "n",
     "baseDrain": 2,
     "fusionLimit": 5
@@ -7681,7 +7629,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "r",
     "baseDrain": 4,
     "fusionLimit": 5
@@ -7695,7 +7643,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "r",
     "baseDrain": 2,
     "fusionLimit": 3
@@ -7709,7 +7657,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "n",
     "baseDrain": 0,
     "fusionLimit": 5
@@ -7720,7 +7668,7 @@
     "props": [
       { "key": "Boosts owner's shield by 58% when it runs out.", "value": 0 }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "n",
     "baseDrain": 2,
     "fusionLimit": 5
@@ -7734,7 +7682,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "r",
     "baseDrain": 6,
     "fusionLimit": 3
@@ -7748,7 +7696,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "n",
     "baseDrain": 2,
     "fusionLimit": 5
@@ -7762,7 +7710,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "n",
     "baseDrain": 2,
     "fusionLimit": 5
@@ -7776,7 +7724,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "r",
     "baseDrain": 4,
     "fusionLimit": 0
@@ -7790,7 +7738,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "n",
     "baseDrain": 4,
     "fusionLimit": 5
@@ -7804,7 +7752,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "c",
     "baseDrain": 2,
     "fusionLimit": 5
@@ -7818,7 +7766,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "n",
     "baseDrain": 2,
     "fusionLimit": 5
@@ -7832,7 +7780,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "n",
     "baseDrain": 2,
     "fusionLimit": 5
@@ -7843,7 +7791,7 @@
     "props": [
       { "key": "Increase height of owner's jumps by +10%.", "value": 0 }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "r",
     "baseDrain": 4,
     "fusionLimit": 3
@@ -7857,7 +7805,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "c",
     "baseDrain": 0,
     "fusionLimit": 5
@@ -7871,7 +7819,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "r",
     "baseDrain": 0,
     "fusionLimit": 5
@@ -7880,10 +7828,10 @@
     "name": "Tractor Beam",
     "type": "SENTINEL",
     "props": [
-      { "key": "+20% Aim Glide Duration" },
-      { "key": "-12.5% Gravity" }
+      { "key": "+20% Aim Glide Duration", "value": 0 },
+      { "key": "-12.5% Gravity", "value": 0 }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "n",
     "baseDrain": 2,
     "fusionLimit": 3
@@ -7897,7 +7845,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "n",
     "baseDrain": 2,
     "fusionLimit": 3
@@ -7911,7 +7859,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "n",
     "baseDrain": 4,
     "fusionLimit": 5
@@ -7925,7 +7873,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "n",
     "baseDrain": 2,
     "fusionLimit": 3
@@ -7939,7 +7887,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "n",
     "baseDrain": 2,
     "fusionLimit": 3
@@ -7953,7 +7901,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "n",
     "baseDrain": 2,
     "fusionLimit": 5
@@ -7967,7 +7915,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "r",
     "baseDrain": 0,
     "fusionLimit": 5
@@ -7981,7 +7929,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "n",
     "baseDrain": 0,
     "fusionLimit": 5
@@ -7995,7 +7943,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "r",
     "baseDrain": 0,
     "fusionLimit": 5
@@ -8023,7 +7971,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "n",
     "baseDrain": 0,
     "fusionLimit": 5
@@ -8037,7 +7985,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "r",
     "baseDrain": 0,
     "fusionLimit": 3
@@ -8051,7 +7999,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "r",
     "baseDrain": 0,
     "fusionLimit": 5
@@ -8065,7 +8013,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "r",
     "baseDrain": 0,
     "fusionLimit": 5
@@ -8080,7 +8028,7 @@
       },
       { "key": "+45% Success Chance", "value": 0 }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "r",
     "baseDrain": 0,
     "fusionLimit": 5
@@ -8094,7 +8042,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "r",
     "baseDrain": 0,
     "fusionLimit": 5
@@ -8108,7 +8056,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "r",
     "baseDrain": 0,
     "fusionLimit": 5
@@ -8122,7 +8070,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "r",
     "baseDrain": 0,
     "fusionLimit": 5
@@ -8136,7 +8084,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "c",
     "baseDrain": 2,
     "fusionLimit": 3
@@ -8178,7 +8126,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "r",
     "baseDrain": 0,
     "fusionLimit": 3
@@ -8206,7 +8154,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "c",
     "baseDrain": 2,
     "fusionLimit": 3
@@ -8220,7 +8168,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "r",
     "baseDrain": 0,
     "fusionLimit": 3
@@ -8234,7 +8182,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "r",
     "baseDrain": 0,
     "fusionLimit": 3
@@ -8248,7 +8196,7 @@
         "value": 0
       }
     ],
-    "polarity": "k",
+    "polarity": "y",
     "rarity": "r",
     "baseDrain": 0,
     "fusionLimit": 3

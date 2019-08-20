@@ -75,6 +75,39 @@ const mergeRivenPatch = (str: string, table: [string, number, number][]) => {
     });
 };
 
+const _BASE62_ST = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+
+// 新浪微博base62编码
+export function base62(src: number): string {
+  let rst = "",
+    negative = src < 0;
+  if (negative) src = -src;
+  while (1) {
+    let a = ~~src % 62;
+    rst = _BASE62_ST[a] + rst;
+    src = ~~(src / 62);
+    if (src <= 0) {
+      break;
+    }
+  }
+  return negative ? "-" + rst : rst;
+}
+
+// 新浪微博base62解码
+export function debase62(src: string): number {
+  let rst = 0,
+    negative = src[0] === "-";
+  if (negative) src = src.substr(1);
+  for (let i = 0; i < src.length; i++) {
+    const a = _BASE62_ST.indexOf(src[i]);
+    if (a < 0) {
+      continue;
+    }
+    rst = rst * 62 + a;
+  }
+  return negative ? -rst : rst;
+}
+
 // 转换格式
 const customJSONFormat = async () => {
   // TODO
@@ -90,6 +123,14 @@ const customJSONFormat = async () => {
             const [result, props] = convertMods(rawmods, rawwfs);
             await fs.outputFile(TARGET_PREFIX + "mods.json", formatJSON(result));
             await fs.outputFile(TMP_PREFIX + "collectedProps.json", formatJSON(props));
+            const sentinelsMods = result
+              .filter(v => v.type == "SENTINEL")
+              .map((v, i) =>
+                [base62(debase62("W0") + i), v.name, v.props.map(p => [p.key, p.value]), "Companion", v.polarity, v.rarity, v.baseDrain, v.fusionLimit === 5 ? null : v.fusionLimit].filter(
+                  v => v != null
+                )
+              );
+            await fs.outputFile(TMP_PREFIX + "sentinelsMods.json", JSON.stringify(sentinelsMods));
           }
           return;
         case "de-Weapons.json":
