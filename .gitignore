@@ -6,3 +6,4 @@ tmp/
 .vscode/
 dist/weapons.unpatch.json
 dist/weapons.min.json
+.env
