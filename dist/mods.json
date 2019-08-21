@@ -2,9 +2,7 @@
   {
     "name": "Coiling Viper",
     "type": "STANCE",
-    "props": [
-      { "key": "Powerful arcing strikes with energetic flips.", "value": 0 }
-    ],
+    "props": [{ "key": "Powerful arcing strikes with energetic flips." }],
     "polarity": "=",
     "rarity": "r",
     "baseDrain": -2,
@@ -13,7 +11,7 @@
   {
     "name": "Burning Wasp",
     "type": "STANCE",
-    "props": [{ "key": "Chaining combos.", "value": 0 }],
+    "props": [{ "key": "Chaining combos." }],
     "polarity": "d",
     "rarity": "c",
     "baseDrain": -2,
@@ -22,9 +20,7 @@
   {
     "name": "Slicing Feathers",
     "type": "STANCE",
-    "props": [
-      { "key": "Twirling, acrobatic slashes with a refined touch.", "value": 0 }
-    ],
+    "props": [{ "key": "Twirling, acrobatic slashes with a refined touch." }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": -2,
@@ -33,9 +29,7 @@
   {
     "name": "Sovereign Outcast",
     "type": "STANCE",
-    "props": [
-      { "key": "An outlandish style with sweeping attacks.", "value": 0 }
-    ],
+    "props": [{ "key": "An outlandish style with sweeping attacks." }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": -2,
@@ -45,10 +39,7 @@
     "name": "Gemini Cross",
     "type": "STANCE",
     "props": [
-      {
-        "key": "A style exhibiting sweeping slash attacks and swift jabs.",
-        "value": 0
-      }
+      { "key": "A style exhibiting sweeping slash attacks and swift jabs." }
     ],
     "polarity": "r",
     "rarity": "c",
@@ -58,7 +49,7 @@
   {
     "name": "Defiled Snapdragon",
     "type": "STANCE",
-    "props": [{ "key": "Sudden lashes, lethal slashes.", "value": 0 }],
+    "props": [{ "key": "Sudden lashes, lethal slashes." }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": -2,
@@ -67,7 +58,7 @@
   {
     "name": "Eleventh Storm",
     "type": "STANCE",
-    "props": [{ "key": "Rapid attacks using sword and shield.", "value": 0 }],
+    "props": [{ "key": "Rapid attacks using sword and shield." }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": -2,
@@ -76,7 +67,7 @@
   {
     "name": "Swooping Falcon",
     "type": "STANCE",
-    "props": [{ "key": "Quick slashes with spinning lunges.", "value": 0 }],
+    "props": [{ "key": "Quick slashes with spinning lunges." }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": -2,
@@ -85,7 +76,7 @@
   {
     "name": "Vengeful Revenant",
     "type": "STANCE",
-    "props": [{ "key": "Hate... Dread... Despair...", "value": 0 }],
+    "props": [{ "key": "Hate... Dread... Despair..." }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": -2,
@@ -94,7 +85,7 @@
   {
     "name": "Flailing Branch",
     "type": "STANCE",
-    "props": [{ "key": "Lifting strikes and whirlwind combos.", "value": 0 }],
+    "props": [{ "key": "Lifting strikes and whirlwind combos." }],
     "polarity": "t",
     "rarity": "r",
     "baseDrain": -2,
@@ -103,7 +94,7 @@
   {
     "name": "Clashing Forest",
     "type": "STANCE",
-    "props": [{ "key": "Arcing strikes and focused combos.", "value": 0 }],
+    "props": [{ "key": "Arcing strikes and focused combos." }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": -2,
@@ -112,7 +103,7 @@
   {
     "name": "Stalking Fan",
     "type": "STANCE",
-    "props": [{ "key": "Lunging spirals and shattering combos.", "value": 0 }],
+    "props": [{ "key": "Lunging spirals and shattering combos." }],
     "polarity": "=",
     "rarity": "r",
     "baseDrain": -2,
@@ -121,7 +112,7 @@
   {
     "name": "Reaping Spiral",
     "type": "STANCE",
-    "props": [{ "key": "Far flung attacks and multi-hit combos.", "value": 0 }],
+    "props": [{ "key": "Far flung attacks and multi-hit combos." }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": -2,
@@ -130,7 +121,7 @@
   {
     "name": "Final Harbinger",
     "type": "STANCE",
-    "props": [{ "key": "Powerful slashes and shield attacks.", "value": 0 }],
+    "props": [{ "key": "Powerful slashes and shield attacks." }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": -2,
@@ -139,7 +130,7 @@
   {
     "name": "Vulpine Mask",
     "type": "STANCE",
-    "props": [{ "key": "Swift cuts, lancing strikes.", "value": 0 }],
+    "props": [{ "key": "Swift cuts, lancing strikes." }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": -2,
@@ -148,7 +139,7 @@
   {
     "name": "Brutal Tide",
     "type": "STANCE",
-    "props": [{ "key": "Round-house attacks and leaping fists.", "value": 0 }],
+    "props": [{ "key": "Round-house attacks and leaping fists." }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": -2,
@@ -157,12 +148,7 @@
   {
     "name": "Grim Fury",
     "type": "STANCE",
-    "props": [
-      {
-        "key": "Lightning fast hit chains and hard-hitting combos.",
-        "value": 0
-      }
-    ],
+    "props": [{ "key": "Lightning fast hit chains and hard-hitting combos." }],
     "polarity": "t",
     "rarity": "c",
     "baseDrain": -2,
@@ -172,10 +158,7 @@
     "name": "Bleeding Willow",
     "type": "STANCE",
     "props": [
-      {
-        "key": "A blend of strong and rapid strikes with leaping combos.",
-        "value": 0
-      }
+      { "key": "A blend of strong and rapid strikes with leaping combos." }
     ],
     "polarity": "-",
     "rarity": "r",
@@ -185,9 +168,7 @@
   {
     "name": "Twirling Spire",
     "type": "STANCE",
-    "props": [
-      { "key": "A mix of sweeping attacks with precise strikes.", "value": 0 }
-    ],
+    "props": [{ "key": "A mix of sweeping attacks with precise strikes." }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": -2,
@@ -196,9 +177,7 @@
   {
     "name": "Shimmering Blight",
     "type": "STANCE",
-    "props": [
-      { "key": "Fast spinning attacks and staggering strikes.", "value": 0 }
-    ],
+    "props": [{ "key": "Fast spinning attacks and staggering strikes." }],
     "polarity": "=",
     "rarity": "c",
     "baseDrain": -2,
@@ -207,7 +186,7 @@
   {
     "name": "Atlantis Vulcan",
     "type": "STANCE",
-    "props": [{ "key": "Rapid strikes, deceptive movements.", "value": 0 }],
+    "props": [{ "key": "Rapid strikes, deceptive movements." }],
     "polarity": "d",
     "rarity": "c",
     "baseDrain": -2,
@@ -216,7 +195,7 @@
   {
     "name": "Cyclone Kraken",
     "type": "STANCE",
-    "props": [{ "key": "Brutal strikes with deft movement.", "value": 0 }],
+    "props": [{ "key": "Brutal strikes with deft movement." }],
     "polarity": "=",
     "rarity": "r",
     "baseDrain": -2,
@@ -225,9 +204,7 @@
   {
     "name": "Sundering Weave",
     "type": "STANCE",
-    "props": [
-      { "key": "Steady chopping strikes with focused damage.", "value": 0 }
-    ],
+    "props": [{ "key": "Steady chopping strikes with focused damage." }],
     "polarity": "=",
     "rarity": "c",
     "baseDrain": -2,
@@ -236,7 +213,7 @@
   {
     "name": "Wise Razor",
     "type": "STANCE",
-    "props": [{ "key": "Deftly executed sweeps and slashes.", "value": 0 }],
+    "props": [{ "key": "Deftly executed sweeps and slashes." }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": -2,
@@ -245,7 +222,7 @@
   {
     "name": "Decisive Judgement",
     "type": "STANCE",
-    "props": [{ "key": "Fierce, double-handed strikes.", "value": 0 }],
+    "props": [{ "key": "Fierce, double-handed strikes." }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": -2,
@@ -255,10 +232,7 @@
     "name": "Blind Justice",
     "type": "STANCE",
     "props": [
-      {
-        "key": "Reverse grip style emphasizing slashing and impaling strikes.",
-        "value": 0
-      }
+      { "key": "Reverse grip style emphasizing slashing and impaling strikes." }
     ],
     "polarity": "r",
     "rarity": "c",
@@ -268,7 +242,7 @@
   {
     "name": "Tranquil Cleave",
     "type": "STANCE",
-    "props": [{ "key": "Powerful arcs with frenzied combo.", "value": 0 }],
+    "props": [{ "key": "Powerful arcs with frenzied combo." }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": -2,
@@ -277,9 +251,7 @@
   {
     "name": "Iron Phoenix",
     "type": "STANCE",
-    "props": [
-      { "key": "Fast cutting attacks with puncture finish.", "value": 0 }
-    ],
+    "props": [{ "key": "Fast cutting attacks with puncture finish." }],
     "polarity": "t",
     "rarity": "r",
     "baseDrain": -2,
@@ -288,9 +260,7 @@
   {
     "name": "Crushing Ruin",
     "type": "STANCE",
-    "props": [
-      { "key": "Aerial attacks with Crowd Control combos.", "value": 0 }
-    ],
+    "props": [{ "key": "Aerial attacks with Crowd Control combos." }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": -2,
@@ -299,9 +269,7 @@
   {
     "name": "Shattering Storm",
     "type": "STANCE",
-    "props": [
-      { "key": "Methodical strikes and high impact combos.", "value": 0 }
-    ],
+    "props": [{ "key": "Methodical strikes and high impact combos." }],
     "polarity": "d",
     "rarity": "c",
     "baseDrain": -2,
@@ -310,7 +278,7 @@
   {
     "name": "Bullet Dance",
     "type": "STANCE",
-    "props": [{ "key": "Sharpened blades dance with gunfire.", "value": 0 }],
+    "props": [{ "key": "Sharpened blades dance with gunfire." }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": -2,
@@ -319,9 +287,7 @@
   {
     "name": "High Noon",
     "type": "STANCE",
-    "props": [
-      { "key": "Bullets spray between wicked slash attacks.", "value": 0 }
-    ],
+    "props": [{ "key": "Bullets spray between wicked slash attacks." }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": -2,
@@ -330,7 +296,7 @@
   {
     "name": "Astral Twilight",
     "type": "STANCE",
-    "props": [{ "key": "Orbiting slashes and lashing strikes.", "value": 0 }],
+    "props": [{ "key": "Orbiting slashes and lashing strikes." }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": -2,
@@ -339,7 +305,7 @@
   {
     "name": "Gleaming Talon",
     "type": "STANCE",
-    "props": [{ "key": "Fast arcing strikes.", "value": 0 }],
+    "props": [{ "key": "Fast arcing strikes." }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": -2,
@@ -348,9 +314,7 @@
   {
     "name": "Seismic Palm",
     "type": "STANCE",
-    "props": [
-      { "key": "Methodical strikes with reaching combos.", "value": 0 }
-    ],
+    "props": [{ "key": "Methodical strikes with reaching combos." }],
     "polarity": "d",
     "rarity": "r",
     "baseDrain": -2,
@@ -359,7 +323,7 @@
   {
     "name": "Gaia's Tragedy",
     "type": "STANCE",
-    "props": [{ "key": "Slow, powerful strikes.", "value": 0 }],
+    "props": [{ "key": "Slow, powerful strikes." }],
     "polarity": "d",
     "rarity": "r",
     "baseDrain": -2,
@@ -368,9 +332,7 @@
   {
     "name": "Fracturing Wind",
     "type": "STANCE",
-    "props": [
-      { "key": "Fast, multi-hit strikes with powerful finishers.", "value": 0 }
-    ],
+    "props": [{ "key": "Fast, multi-hit strikes with powerful finishers." }],
     "polarity": "t",
     "rarity": "c",
     "baseDrain": -2,
@@ -379,9 +341,7 @@
   {
     "name": "Crossing Snakes",
     "type": "STANCE",
-    "props": [
-      { "key": "Multi-angle strikes and deadly thrust attacks.", "value": 0 }
-    ],
+    "props": [{ "key": "Multi-angle strikes and deadly thrust attacks." }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": -2,
@@ -391,10 +351,7 @@
     "name": "Carving Mantis",
     "type": "STANCE",
     "props": [
-      {
-        "key": "Strong slashes and quick stabs that keeps momentum forward.",
-        "value": 0
-      }
+      { "key": "Strong slashes and quick stabs that keeps momentum forward." }
     ],
     "polarity": "-",
     "rarity": "r",
@@ -404,7 +361,7 @@
   {
     "name": "Swirling Tiger",
     "type": "STANCE",
-    "props": [{ "key": "Fanning, multi-hit strikes.", "value": 0 }],
+    "props": [{ "key": "Fanning, multi-hit strikes." }],
     "polarity": "=",
     "rarity": "c",
     "baseDrain": -2,
@@ -413,9 +370,7 @@
   {
     "name": "Gnashing Payara",
     "type": "STANCE",
-    "props": [
-      { "key": "Lunging punctures with impaling spirals.", "value": 0 }
-    ],
+    "props": [{ "key": "Lunging punctures with impaling spirals." }],
     "polarity": "t",
     "rarity": "r",
     "baseDrain": -2,
@@ -424,7 +379,7 @@
   {
     "name": "Spinning Needle",
     "type": "STANCE",
-    "props": [{ "key": "Swift stabs, twisting slashes.", "value": 0 }],
+    "props": [{ "key": "Swift stabs, twisting slashes." }],
     "polarity": "d",
     "rarity": "c",
     "baseDrain": -2,
@@ -433,9 +388,7 @@
   {
     "name": "Sinking Talon",
     "type": "STANCE",
-    "props": [
-      { "key": "Strong, focused attacks with multi-hit spins.", "value": 0 }
-    ],
+    "props": [{ "key": "Strong, focused attacks with multi-hit spins." }],
     "polarity": "=",
     "rarity": "c",
     "baseDrain": -2,
@@ -444,7 +397,7 @@
   {
     "name": "Pointed Wind",
     "type": "STANCE",
-    "props": [{ "key": "Spiral strikes, lifting combos.", "value": 0 }],
+    "props": [{ "key": "Spiral strikes, lifting combos." }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": -2,
@@ -453,7 +406,7 @@
   {
     "name": "Stinging Thorn",
     "type": "STANCE",
-    "props": [{ "key": "Vigorous slashes with forceful stabs.", "value": 0 }],
+    "props": [{ "key": "Vigorous slashes with forceful stabs." }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": -2,
@@ -462,7 +415,7 @@
   {
     "name": "Homing Fang",
     "type": "STANCE",
-    "props": [{ "key": "Fast strikes, many hits.", "value": 0 }],
+    "props": [{ "key": "Fast strikes, many hits." }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": -2,
@@ -471,7 +424,7 @@
   {
     "name": "Crimson Dervish",
     "type": "STANCE",
-    "props": [{ "key": "Strong whirlwind attacks.", "value": 0 }],
+    "props": [{ "key": "Strong whirlwind attacks." }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": -2,
@@ -480,7 +433,7 @@
   {
     "name": "Vermillion Storm",
     "type": "STANCE",
-    "props": [{ "key": "Kicks woven between spinning slashes.", "value": 0 }],
+    "props": [{ "key": "Kicks woven between spinning slashes." }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": -2,
@@ -489,7 +442,7 @@
   {
     "name": "Four Riders",
     "type": "STANCE",
-    "props": [{ "key": "Fast strikes, powerful slams.", "value": 0 }],
+    "props": [{ "key": "Fast strikes, powerful slams." }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": -2,
@@ -498,7 +451,7 @@
   {
     "name": "Malicious Raptor",
     "type": "STANCE",
-    "props": [{ "key": "Puncturing strikes and quick slashes.", "value": 0 }],
+    "props": [{ "key": "Puncturing strikes and quick slashes." }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": -2,
@@ -507,7 +460,7 @@
   {
     "name": "Cleaving Whirlwind",
     "type": "STANCE",
-    "props": [{ "key": "Arcing cuts with spinning finish.", "value": 0 }],
+    "props": [{ "key": "Arcing cuts with spinning finish." }],
     "polarity": "d",
     "rarity": "r",
     "baseDrain": -2,
@@ -516,7 +469,7 @@
   {
     "name": "Tempo Royale",
     "type": "STANCE",
-    "props": [{ "key": "Sweeping strikes and twisting slashes.", "value": 0 }],
+    "props": [{ "key": "Sweeping strikes and twisting slashes." }],
     "polarity": "d",
     "rarity": "r",
     "baseDrain": -2,
@@ -525,7 +478,7 @@
   {
     "name": "Rending Crane",
     "type": "STANCE",
-    "props": [{ "key": "Downward cuts with an impact combo.", "value": 0 }],
+    "props": [{ "key": "Downward cuts with an impact combo." }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": -2,
@@ -536,8 +489,7 @@
     "type": "WARFRAME",
     "props": [
       {
-        "key": "+25% of Melee Damage converted to <DT_IMPACT>Impact Damage on Jump Kick, knocking down nearby enemies on kill.",
-        "value": 0
+        "key": "+25% of Melee Damage converted to <DT_IMPACT>Impact Damage on Jump Kick, knocking down nearby enemies on kill."
       }
     ],
     "polarity": "r",
@@ -549,10 +501,7 @@
     "name": "Kavat's Grace",
     "type": "WARFRAME",
     "props": [
-      {
-        "key": "Resist Hard Landings from falling at speeds of up to 25m/s.",
-        "value": 0
-      }
+      { "key": "Resist Hard Landings from falling at speeds of up to 25m/s." }
     ],
     "polarity": "-",
     "rarity": "r",
@@ -565,7 +514,7 @@
     "props": [
       { "key": "v", "value": 2.2 },
       { "key": "at", "value": 2.2 },
-      { "key": "+25% <DT_POISON>Toxin on Bullet Jump", "value": 0 }
+      { "key": "+25% <DT_POISON>Toxin on Bullet Jump" }
     ],
     "polarity": "-",
     "rarity": "r",
@@ -587,7 +536,7 @@
     "props": [
       { "key": "v", "value": 3 },
       { "key": "at", "value": 3 },
-      { "key": "+10% <DT_SLASH>Slash on Bullet Jump", "value": 0 }
+      { "key": "+10% <DT_SLASH>Slash on Bullet Jump" }
     ],
     "polarity": "r",
     "rarity": "c",
@@ -600,7 +549,7 @@
     "props": [
       { "key": "v", "value": 3 },
       { "key": "at", "value": 3 },
-      { "key": "+10% <DT_PUNCTURE>Puncture on Bullet Jump", "value": 0 }
+      { "key": "+10% <DT_PUNCTURE>Puncture on Bullet Jump" }
     ],
     "polarity": "-",
     "rarity": "c",
@@ -622,7 +571,7 @@
     "props": [
       { "key": "v", "value": 3 },
       { "key": "at", "value": 3 },
-      { "key": "+10% <DT_IMPACT>Impact on Bullet Jump", "value": 0 }
+      { "key": "+10% <DT_IMPACT>Impact on Bullet Jump" }
     ],
     "polarity": "d",
     "rarity": "c",
@@ -635,7 +584,7 @@
     "props": [
       { "key": "v", "value": 2.2 },
       { "key": "at", "value": 2.2 },
-      { "key": "+25% <DT_FREEZE>Cold on Bullet Jump", "value": 0 }
+      { "key": "+25% <DT_FREEZE>Cold on Bullet Jump" }
     ],
     "polarity": "d",
     "rarity": "r",
@@ -657,7 +606,7 @@
     "props": [
       { "key": "v", "value": 2.2 },
       { "key": "at", "value": 2.2 },
-      { "key": "+25% <DT_FIRE>Heat on Bullet Jump", "value": 0 }
+      { "key": "+25% <DT_FIRE>Heat on Bullet Jump" }
     ],
     "polarity": "r",
     "rarity": "r",
@@ -679,7 +628,7 @@
     "props": [
       { "key": "v", "value": 2.2 },
       { "key": "at", "value": 2.2 },
-      { "key": "+25% <DT_ELECTRICITY>Electricity on Bullet Jump", "value": 0 }
+      { "key": "+25% <DT_ELECTRICITY>Electricity on Bullet Jump" }
     ],
     "polarity": "r",
     "rarity": "r",
@@ -689,7 +638,7 @@
   {
     "name": "Intruder",
     "type": "WARFRAME",
-    "props": [{ "key": "+1s to Hacking", "value": 0 }],
+    "props": [{ "key": "+1s to Hacking" }],
     "polarity": "-",
     "rarity": "n",
     "baseDrain": 2,
@@ -736,8 +685,7 @@
     "type": "WARFRAME",
     "props": [
       {
-        "key": "+15% Chance to deal Electrical Damage when shield struck by melee enemies.",
-        "value": 0
+        "key": "+15% Chance to deal Electrical Damage when shield struck by melee enemies."
       },
       { "key": "7", "value": 20 }
     ],
@@ -750,11 +698,8 @@
     "name": "Adaptation",
     "type": "WARFRAME",
     "props": [
-      { "key": "When Damaged:", "value": 0 },
-      {
-        "key": "+5% Resistance to that Damage Type for 10s. Stacks up to 90%.",
-        "value": 0
-      }
+      { "key": "When Damaged:" },
+      { "key": "+5% Resistance to that Damage Type for 10s. Stacks up to 90%." }
     ],
     "polarity": "d",
     "rarity": "r",
@@ -829,8 +774,7 @@
     "type": "WARFRAME",
     "props": [
       {
-        "key": "Highlights mods through the environment as well as the Minimap.",
-        "value": 0
+        "key": "Highlights mods through the environment as well as the Minimap."
       },
       { "key": "lr", "value": 7 }
     ],
@@ -863,8 +807,7 @@
     "props": [
       { "key": "onDodge" },
       {
-        "key": "Become invulnerable for 2s and remove all Status Effects. 12s cooldown.",
-        "value": 0
+        "key": "Become invulnerable for 2s and remove all Status Effects. 12s cooldown."
       }
     ],
     "polarity": "d",
@@ -908,8 +851,7 @@
     "type": "WARFRAME",
     "props": [
       {
-        "key": "Create 1m seismic shockwaves from heavy landings, dealing 50 Damage and knocking foes off their feet.",
-        "value": 0
+        "key": "Create 1m seismic shockwaves from heavy landings, dealing 50 Damage and knocking foes off their feet."
       }
     ],
     "polarity": "-",
@@ -1011,10 +953,7 @@
     "name": "Natural Talent",
     "type": "WARFRAME",
     "props": [
-      {
-        "key": "Improves Casting Speed on Warframe abilities if applicable.",
-        "value": 0
-      },
+      { "key": "Improves Casting Speed on Warframe abilities if applicable." },
       { "key": "c", "value": 12.5 }
     ],
     "polarity": "-",
@@ -1034,7 +973,7 @@
   {
     "name": "Reflex Guard",
     "type": "WARFRAME",
-    "props": [{ "key": "+9.1% Parry Angle", "value": 0 }],
+    "props": [{ "key": "+9.1% Parry Angle" }],
     "polarity": "d",
     "rarity": "r",
     "baseDrain": 4,
@@ -1247,8 +1186,7 @@
     "type": "WARFRAME",
     "props": [
       {
-        "key": "Health pickups give +8% Energy. Energy pickups give +8% Health.",
-        "value": 0
+        "key": "Health pickups give +8% Energy. Energy pickups give +8% Health."
       }
     ],
     "polarity": "-",
@@ -1306,8 +1244,7 @@
     "type": "---",
     "props": [
       {
-        "key": "Ensures transmuted mod is of Naramon polarity and eliminates credit cost.",
-        "value": 0
+        "key": "Ensures transmuted mod is of Naramon polarity and eliminates credit cost."
       }
     ],
     "polarity": "-",
@@ -1320,8 +1257,7 @@
     "type": "---",
     "props": [
       {
-        "key": "Ensures transmuted mod is of Vazarin polarity and eliminates credit cost.",
-        "value": 0
+        "key": "Ensures transmuted mod is of Vazarin polarity and eliminates credit cost."
       }
     ],
     "polarity": "d",
@@ -1334,8 +1270,7 @@
     "type": "---",
     "props": [
       {
-        "key": "Ensures transmuted mod is of Madurai polarity and eliminates credit cost.",
-        "value": 0
+        "key": "Ensures transmuted mod is of Madurai polarity and eliminates credit cost."
       }
     ],
     "polarity": "r",
@@ -1402,8 +1337,7 @@
     "type": "MELEE",
     "props": [
       {
-        "key": "Blocking absorbs 20% of incoming damage, stored as Extra Damage for the next charge attack.",
-        "value": 0
+        "key": "Blocking absorbs 20% of incoming damage, stored as Extra Damage for the next charge attack."
       },
       { "key": "vt", "value": 0.3 }
     ],
@@ -1416,10 +1350,7 @@
     "name": "Disarming Purity",
     "type": "PRIMARY",
     "props": [
-      {
-        "key": "Secondary Fire mode has a 10% chance to disarm enemies.",
-        "value": 0
-      },
+      { "key": "Secondary Fire mode has a 10% chance to disarm enemies." },
       { "key": "vp", "value": 0.3 }
     ],
     "polarity": "-",
@@ -1431,15 +1362,9 @@
     "name": "Entropy Detonation",
     "type": "MELEE",
     "props": [
-      {
-        "key": "Lethal ground attacks cause enemies to explode dealing +250",
-        "value": 0
-      },
-      {
-        "key": "(+5% Enemy Max Health) <DT_EXPLOSION>Blast Damage",
-        "value": 0
-      },
-      { "key": "in a +2.5m radius.", "value": 0 },
+      { "key": "Lethal ground attacks cause enemies to explode dealing +250" },
+      { "key": "(+5% Enemy Max Health) <DT_EXPLOSION>Blast Damage" },
+      { "key": "in a +2.5m radius." },
       { "key": "ve", "value": 0.3 }
     ],
     "polarity": "-",
@@ -1452,8 +1377,7 @@
     "type": "PRIMARY",
     "props": [
       {
-        "key": "Each Miter blade has a +22.5% chance to immediately destroy a Nullifier field.",
-        "value": 0
+        "key": "Each Miter blade has a +22.5% chance to immediately destroy a Nullifier field."
       },
       { "key": "vj", "value": 0.3 }
     ],
@@ -1485,8 +1409,7 @@
     "type": "PRIMARY",
     "props": [
       {
-        "key": "Killing a flying enemy creates a lightning trap from their remains, lasting 2s",
-        "value": 0
+        "key": "Killing a flying enemy creates a lightning trap from their remains, lasting 2s"
       },
       { "key": "vs", "value": 0.3 }
     ],
@@ -1671,8 +1594,7 @@
     "type": "PRIMARY",
     "props": [
       {
-        "key": "Converts unused ammo pickups into Shotgun ammo. Pistol/Rifle <AMMO_MUTATION> 1 and Sniper <AMMO_MUTATION> 3.",
-        "value": 0
+        "key": "Converts unused ammo pickups into Shotgun ammo. Pistol/Rifle <AMMO_MUTATION> 1 and Sniper <AMMO_MUTATION> 3."
       }
     ],
     "polarity": "-",
@@ -1856,8 +1778,7 @@
     "type": "PRIMARY",
     "props": [
       {
-        "key": "Converts unused ammo pickups into Shotgun ammo. Pistol/Rifle <AMMO_MUTATION> 1 and Sniper <AMMO_MUTATION> 3.",
-        "value": 0
+        "key": "Converts unused ammo pickups into Shotgun ammo. Pistol/Rifle <AMMO_MUTATION> 1 and Sniper <AMMO_MUTATION> 3."
       }
     ],
     "polarity": "-",
@@ -1951,8 +1872,7 @@
     "type": "PRIMARY",
     "props": [
       {
-        "key": "Enemies explode on death, dealing 75 <DT_CORROSIVE>Corrosive Damage (+8% Enemy Max Health) in a 2.5m radius.",
-        "value": 0
+        "key": "Enemies explode on death, dealing 75 <DT_CORROSIVE>Corrosive Damage (+8% Enemy Max Health) in a 2.5m radius."
       }
     ],
     "polarity": "r",
@@ -1963,9 +1883,7 @@
   {
     "name": "Fomorian Accelerant",
     "type": "PRIMARY",
-    "props": [
-      { "key": "Flak now bounces up to 1x and travels 15% faster.", "value": 0 }
-    ],
+    "props": [{ "key": "Flak now bounces up to 1x and travels 15% faster." }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -2173,8 +2091,8 @@
     "name": "Tek Collateral",
     "type": "WARFRAME",
     "props": [
-      { "key": "Increased Pistol Ammo recovery.", "value": 0 },
-      { "key": "+25% Critical Damage when inside the Marked Zone.", "value": 0 }
+      { "key": "Increased Pistol Ammo recovery." },
+      { "key": "+25% Critical Damage when inside the Marked Zone." }
     ],
     "polarity": "-",
     "rarity": "r",
@@ -2185,10 +2103,7 @@
     "name": "Tek Gravity",
     "type": "MELEE",
     "props": [
-      {
-        "key": "Slam Attacks in the Marked Zone pull all enemies within 6m.",
-        "value": 0
-      }
+      { "key": "Slam Attacks in the Marked Zone pull all enemies within 6m." }
     ],
     "polarity": "r",
     "rarity": "r",
@@ -2198,7 +2113,7 @@
   {
     "name": "Tek Enhance",
     "type": "KAVAT",
-    "props": [{ "key": "+5% Kavat Ability Duration", "value": 0 }],
+    "props": [{ "key": "+5% Kavat Ability Duration" }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 6,
@@ -2209,8 +2124,7 @@
     "type": "KAVAT",
     "props": [
       {
-        "key": "Kavat has 15% chance to ignore Lethal Damage and be immune for 1s.",
-        "value": 0
+        "key": "Kavat has 15% chance to ignore Lethal Damage and be immune for 1s."
       }
     ],
     "polarity": "r",
@@ -2231,10 +2145,7 @@
     "name": "Synth Fiber",
     "type": "SENTINEL",
     "props": [
-      {
-        "key": "Health Orbs increase Armor for Sentinel by 25% for 3s.",
-        "value": 0
-      }
+      { "key": "Health Orbs increase Armor for Sentinel by 25% for 3s." }
     ],
     "polarity": "r",
     "rarity": "r",
@@ -2246,8 +2157,7 @@
     "type": "SENTINEL",
     "props": [
       {
-        "key": "Enemies injured by the Sentinel have 2% chance to drop a Health Orb when killed.",
-        "value": 0
+        "key": "Enemies injured by the Sentinel have 2% chance to drop a Health Orb when killed."
       }
     ],
     "polarity": "r",
@@ -2268,10 +2178,9 @@
     "name": "Strain Consume",
     "type": "WARFRAME",
     "props": [
-      { "key": "Increased Pistol Ammo recovery.", "value": 0 },
+      { "key": "Increased Pistol Ammo recovery." },
       {
-        "key": "Dead maggots within 5m are consumed, restoring 1% Missing Health.",
-        "value": 0
+        "key": "Dead maggots within 5m are consumed, restoring 1% Missing Health."
       }
     ],
     "polarity": "-",
@@ -2282,9 +2191,7 @@
   {
     "name": "Strain Infection",
     "type": "MELEE",
-    "props": [
-      { "key": "Melee Attacks gain +5% Critical Damage per Cyst.", "value": 0 }
-    ],
+    "props": [{ "key": "Melee Attacks gain +5% Critical Damage per Cyst." }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 6,
@@ -2293,9 +2200,7 @@
   {
     "name": "Strain Fever",
     "type": "KUBROW",
-    "props": [
-      { "key": "Helminth Charger gains +7% Damage per Cyst.", "value": 0 }
-    ],
+    "props": [{ "key": "Helminth Charger gains +7% Damage per Cyst." }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 6,
@@ -2305,10 +2210,9 @@
     "name": "Strain Eruption",
     "type": "KUBROW",
     "props": [
-      { "key": "Increased Pistol Ammo recovery.", "value": 0 },
+      { "key": "Increased Pistol Ammo recovery." },
       {
-        "key": "Maggots explode on death, dealing 1% of an enemy's current Health as <DT_CORROSIVE>Corrosive Damage to any enemy within 2m.",
-        "value": 0
+        "key": "Maggots explode on death, dealing 1% of an enemy's current Health as <DT_CORROSIVE>Corrosive Damage to any enemy within 2m."
       }
     ],
     "polarity": "-",
@@ -2320,11 +2224,8 @@
     "name": "Proton Snap",
     "type": "MELEE",
     "props": [
-      {
-        "key": "Hold Wall Latch for 2s to gain +25% <DT_POISON>Toxin Damage",
-        "value": 0
-      },
-      { "key": " and +12.5% Status Chance for 5s.", "value": 0 }
+      { "key": "Hold Wall Latch for 2s to gain +25% <DT_POISON>Toxin Damage" },
+      { "key": " and +12.5% Status Chance for 5s." }
     ],
     "polarity": "r",
     "rarity": "r",
@@ -2336,8 +2237,7 @@
     "type": "PRIMARY",
     "props": [
       {
-        "key": "During a Wall Latch gain +30% Status Chance and Critical Chance.",
-        "value": 0
+        "key": "During a Wall Latch gain +30% Status Chance and Critical Chance."
       }
     ],
     "polarity": "-",
@@ -2348,9 +2248,7 @@
   {
     "name": "Proton Pulse",
     "type": "WARFRAME",
-    "props": [
-      { "key": "Wall Dashing grants +25% Bullet Jump Speed.", "value": 0 }
-    ],
+    "props": [{ "key": "Wall Dashing grants +25% Bullet Jump Speed." }],
     "polarity": "-",
     "rarity": "n",
     "baseDrain": 4,
@@ -2377,9 +2275,7 @@
   {
     "name": "Motus Impact",
     "type": "MELEE",
-    "props": [
-      { "key": "Increase range of aerial melee attacks by +0.5m.", "value": 0 }
-    ],
+    "props": [{ "key": "Increase range of aerial melee attacks by +0.5m." }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -2390,8 +2286,7 @@
     "type": "PRIMARY",
     "props": [
       {
-        "key": "25% Critical and Status Chance for 1s after landing from a Double or Bullet Jump.",
-        "value": 0
+        "key": "25% Critical and Status Chance for 1s after landing from a Double or Bullet Jump."
       }
     ],
     "polarity": "r",
@@ -2402,7 +2297,7 @@
   {
     "name": "Motus Signal",
     "type": "WARFRAME",
-    "props": [{ "key": "Increase Double Jump strength by +50%.", "value": 0 }],
+    "props": [{ "key": "Increase Double Jump strength by +50%." }],
     "polarity": "-",
     "rarity": "n",
     "baseDrain": 4,
@@ -2413,8 +2308,7 @@
     "type": "WARFRAME",
     "props": [
       {
-        "key": "Killing a Marked Enemy grants +15% Armor for 5s for each enemy within 7.5m.",
-        "value": 0
+        "key": "Killing a Marked Enemy grants +15% Armor for 5s for each enemy within 7.5m."
       }
     ],
     "polarity": "r",
@@ -2426,7 +2320,7 @@
     "name": "Mecha Empowered",
     "type": "AURA",
     "props": [
-      { "key": "Increased Pistol Ammo recovery.", "value": 0 },
+      { "key": "Increased Pistol Ammo recovery." },
       { "key": "edm", "value": 25 }
     ],
     "polarity": "-",
@@ -2446,10 +2340,7 @@
   {
     "name": "Mecha Overdrive",
     "type": "KUBROW",
-    "props": [
-      { "key": "+10% Status-Link", "value": 0 },
-      { "key": "3", "value": 15 }
-    ],
+    "props": [{ "key": "+10% Status-Link" }, { "key": "3", "value": 15 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 6,
@@ -2485,7 +2376,7 @@
   {
     "name": "Hunter Synergy",
     "type": "SENTINEL",
-    "props": [{ "key": "+5% Critical Chance-Link", "value": 0 }],
+    "props": [{ "key": "+5% Critical Chance-Link" }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -2494,7 +2385,7 @@
   {
     "name": "Hunter Recovery",
     "type": "SENTINEL",
-    "props": [{ "key": "+5% Companion Lifesteal-Link", "value": 0 }],
+    "props": [{ "key": "+5% Companion Lifesteal-Link" }],
     "polarity": "r",
     "rarity": "n",
     "baseDrain": 4,
@@ -2505,8 +2396,7 @@
     "type": "SENTINEL",
     "props": [
       {
-        "key": "Applying a <DT_SLASH>Slash Status to an enemy causes the Companion to attack them for 1s.",
-        "value": 0
+        "key": "Applying a <DT_SLASH>Slash Status to an enemy causes the Companion to attack them for 1s."
       }
     ],
     "polarity": "r",
@@ -2517,7 +2407,7 @@
   {
     "name": "Aero Periphery",
     "type": "PRIMARY",
-    "props": [{ "key": "-12.5% Zoom while Aim Gliding", "value": 0 }],
+    "props": [{ "key": "-12.5% Zoom while Aim Gliding" }],
     "polarity": "-",
     "rarity": "n",
     "baseDrain": 2,
@@ -2526,7 +2416,7 @@
   {
     "name": "Aero Agility",
     "type": "PRIMARY",
-    "props": [{ "key": "+25% Reload Speed while Aim Gliding", "value": 0 }],
+    "props": [{ "key": "+25% Reload Speed while Aim Gliding" }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 4,
@@ -2535,7 +2425,7 @@
   {
     "name": "Aero Vantage",
     "type": "WARFRAME",
-    "props": [{ "key": "+25% Reduced Gravity during Aim Glide", "value": 0 }],
+    "props": [{ "key": "+25% Reduced Gravity during Aim Glide" }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 4,
@@ -2670,7 +2560,7 @@
   {
     "name": "Fired Up",
     "type": "SENTINEL",
-    "props": [{ "key": "+10% <DT_FIRE>Heat at Max Overheat", "value": 0 }],
+    "props": [{ "key": "+10% <DT_FIRE>Heat at Max Overheat" }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 6,
@@ -2708,8 +2598,7 @@
     "type": "SENTINEL",
     "props": [
       {
-        "key": "Explodes on death, dealing 100 <DT_EXPLOSION>Blast Damage in a 3m radius and knocking down nearby enemies.",
-        "value": 0
+        "key": "Explodes on death, dealing 100 <DT_EXPLOSION>Blast Damage in a 3m radius and knocking down nearby enemies."
       }
     ],
     "polarity": "r",
@@ -2720,7 +2609,7 @@
   {
     "name": "Spare Parts",
     "type": "SENTINEL",
-    "props": [{ "key": "+7.5% Rare Item Drop Chance On Death", "value": 0 }],
+    "props": [{ "key": "+7.5% Rare Item Drop Chance On Death" }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 2,
@@ -2749,10 +2638,9 @@
     "type": "SENTINEL",
     "props": [
       {
-        "key": "Heals your pet by a percentage of the damage you deal with Melee Attacks.",
-        "value": 0
+        "key": "Heals your pet by a percentage of the damage you deal with Melee Attacks."
       },
-      { "key": "+6% Lifesteal-Link", "value": 0 }
+      { "key": "+6% Lifesteal-Link" }
     ],
     "polarity": "r",
     "rarity": "n",
@@ -2771,7 +2659,7 @@
   {
     "name": "Loyal Companion",
     "type": "SENTINEL",
-    "props": [{ "key": "+15% Bleedout-Link", "value": 0 }],
+    "props": [{ "key": "+15% Bleedout-Link" }],
     "polarity": "d",
     "rarity": "n",
     "baseDrain": 2,
@@ -2780,7 +2668,7 @@
   {
     "name": "Link Shields",
     "type": "SENTINEL",
-    "props": [{ "key": "+10% Shield-Link", "value": 0 }],
+    "props": [{ "key": "+10% Shield-Link" }],
     "polarity": "d",
     "rarity": "c",
     "baseDrain": 4,
@@ -2789,7 +2677,7 @@
   {
     "name": "Link Health",
     "type": "SENTINEL",
-    "props": [{ "key": "+15% Health-Link", "value": 0 }],
+    "props": [{ "key": "+15% Health-Link" }],
     "polarity": "d",
     "rarity": "c",
     "baseDrain": 2,
@@ -2798,7 +2686,7 @@
   {
     "name": "Link Armor",
     "type": "SENTINEL",
-    "props": [{ "key": "+10% Armor-Link", "value": 0 }],
+    "props": [{ "key": "+10% Armor-Link" }],
     "polarity": "d",
     "rarity": "c",
     "baseDrain": 4,
@@ -2808,10 +2696,7 @@
     "name": "Ferocity",
     "type": "KUBROW",
     "props": [
-      {
-        "key": "Allows the Kubrow to use Finisher attacks on an enemy.",
-        "value": 0
-      },
+      { "key": "Allows the Kubrow to use Finisher attacks on an enemy." },
       { "key": "X", "value": 20 }
     ],
     "polarity": "y",
@@ -2832,10 +2717,7 @@
     "name": "Savagery",
     "type": "KUBROW",
     "props": [
-      {
-        "key": "Allows the Kubrow to use Finisher attacks on an enemy.",
-        "value": 0
-      },
+      { "key": "Allows the Kubrow to use Finisher attacks on an enemy." },
       { "key": "X", "value": 20 }
     ],
     "polarity": "y",
@@ -2848,10 +2730,9 @@
     "type": "SENTINEL",
     "props": [
       {
-        "key": "Heals your pet by a percentage of the damage you deal with Melee Attacks.",
-        "value": 0
+        "key": "Heals your pet by a percentage of the damage you deal with Melee Attacks."
       },
-      { "key": "+6% Lifesteal-Link", "value": 0 }
+      { "key": "+6% Lifesteal-Link" }
     ],
     "polarity": "r",
     "rarity": "l",
@@ -2935,8 +2816,7 @@
     "type": "---",
     "props": [
       {
-        "key": "Converts unused ammo pickups into Sniper ammo. Pistol/Rifle <AMMO_MUTATION> 1 and Shotgun <AMMO_MUTATION> 3.",
-        "value": 0
+        "key": "Converts unused ammo pickups into Sniper ammo. Pistol/Rifle <AMMO_MUTATION> 1 and Shotgun <AMMO_MUTATION> 3."
       }
     ],
     "polarity": "-",
@@ -2958,8 +2838,7 @@
     "type": "PRIMARY",
     "props": [
       {
-        "key": "Converts unused Ammo Pickups into Primary Weapon Ammo. Pistol <AMMO_MUTATION> 1 and Shotgun/Sniper <AMMO_MUTATION> 3.",
-        "value": 0
+        "key": "Converts unused Ammo Pickups into Primary Weapon Ammo. Pistol <AMMO_MUTATION> 1 and Shotgun/Sniper <AMMO_MUTATION> 3."
       }
     ],
     "polarity": "-",
@@ -3034,10 +2913,7 @@
     "name": "Firestorm",
     "type": "PRIMARY",
     "props": [
-      {
-        "key": "Improves the blast radius of Specialized Launchers.",
-        "value": 0
-      },
+      { "key": "Improves the blast radius of Specialized Launchers." },
       { "key": "brad", "value": 6 }
     ],
     "polarity": "r",
@@ -3212,8 +3088,7 @@
     "type": "PRIMARY",
     "props": [
       {
-        "key": "Converts unused ammo pickups into Arrows. Pistol/Rifle <AMMO_MUTATION> 1 and Shotgun/Sniper <AMMO_MUTATION> 3.",
-        "value": 0
+        "key": "Converts unused ammo pickups into Arrows. Pistol/Rifle <AMMO_MUTATION> 1 and Shotgun/Sniper <AMMO_MUTATION> 3."
       }
     ],
     "polarity": "-",
@@ -3279,7 +3154,7 @@
     "name": "Napalm Grenades",
     "type": "PRIMARY",
     "props": [
-      { "key": "Grenades leave a burning patch on impact.", "value": 0 },
+      { "key": "Grenades leave a burning patch on impact." },
       { "key": "i2", "value": 5 }
     ],
     "polarity": "-",
@@ -3319,8 +3194,7 @@
     "type": "PRIMARY",
     "props": [
       {
-        "key": "Converts unused Ammo Pickups into Primary Weapon Ammo. Pistol <AMMO_MUTATION> 1 and Shotgun/Sniper <AMMO_MUTATION> 3.",
-        "value": 0
+        "key": "Converts unused Ammo Pickups into Primary Weapon Ammo. Pistol <AMMO_MUTATION> 1 and Shotgun/Sniper <AMMO_MUTATION> 3."
       }
     ],
     "polarity": "-",
@@ -3441,8 +3315,7 @@
     "type": "PRIMARY",
     "props": [
       {
-        "key": "Rockets disperse napalm, inflicting 5% damage over 1s across 15% of the explosion area.",
-        "value": 0
+        "key": "Rockets disperse napalm, inflicting 5% damage over 1s across 15% of the explosion area."
       }
     ],
     "polarity": "r",
@@ -3464,8 +3337,7 @@
     "type": "SECONDARY",
     "props": [
       {
-        "key": "Enemies explode on death, dealing 20 <DT_MAGNETIC>Magnetic Damage (+10% Enemy Max Health) in a 1.5m radius.",
-        "value": 0
+        "key": "Enemies explode on death, dealing 20 <DT_MAGNETIC>Magnetic Damage (+10% Enemy Max Health) in a 1.5m radius."
       }
     ],
     "polarity": "-",
@@ -3487,8 +3359,7 @@
     "type": "PRIMARY",
     "props": [
       {
-        "key": "Status Chance fluctuates between +25% and +41% over 5s while the beam is fired.",
-        "value": 0
+        "key": "Status Chance fluctuates between +25% and +41% over 5s while the beam is fired."
       }
     ],
     "polarity": "r",
@@ -3501,8 +3372,7 @@
     "type": "PRIMARY",
     "props": [
       {
-        "key": "The infested mass accumulates 50% of the damage that goes through it and deals it in 15m radius when it expires. Secondary fire will manually detonate an existing mass.",
-        "value": 0
+        "key": "The infested mass accumulates 50% of the damage that goes through it and deals it in 15m radius when it expires. Secondary fire will manually detonate an existing mass."
       }
     ],
     "polarity": "-",
@@ -3515,8 +3385,7 @@
     "type": "PRIMARY",
     "props": [
       {
-        "key": "Secondary Fire will shoot with +200% Fire Rate until the magazine is empty. Killing 2 or more enemies will refund 25% of the ammo.",
-        "value": 0
+        "key": "Secondary Fire will shoot with +200% Fire Rate until the magazine is empty. Killing 2 or more enemies will refund 25% of the ammo."
       }
     ],
     "polarity": "-",
@@ -3682,12 +3551,10 @@
     "type": "WARFRAME",
     "props": [
       {
-        "key": "Immune to Knockdown for an additional +1s after being Knocked Down.",
-        "value": 0
+        "key": "Immune to Knockdown for an additional +1s after being Knocked Down."
       },
       {
-        "key": "Immune to Stagger for an additional +1s after being Staggered.",
-        "value": 0
+        "key": "Immune to Stagger for an additional +1s after being Staggered."
       }
     ],
     "polarity": "d",
@@ -3698,10 +3565,7 @@
   {
     "name": "Quick Charge",
     "type": "WARFRAME",
-    "props": [
-      { "key": "r", "value": -5 },
-      { "key": "-5 Shield Capacity", "value": 0 }
-    ],
+    "props": [{ "key": "r", "value": -5 }, { "key": "-5 Shield Capacity" }],
     "polarity": "d",
     "rarity": "r",
     "baseDrain": 6,
@@ -3711,7 +3575,7 @@
     "name": "Armored Recovery",
     "type": "WARFRAME",
     "props": [
-      { "key": "+12.5% Damage Resistance when Knocked Down", "value": 0 },
+      { "key": "+12.5% Damage Resistance when Knocked Down" },
       { "key": "l", "value": -5 }
     ],
     "polarity": "d",
@@ -3722,7 +3586,7 @@
   {
     "name": "Venomous Rise",
     "type": "WARFRAME",
-    "props": [{ "key": "Poison FX on Bullet Jump", "value": 0 }],
+    "props": [{ "key": "Poison FX on Bullet Jump" }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 0,
@@ -3731,10 +3595,7 @@
   {
     "name": "Tempered Bound",
     "type": "WARFRAME",
-    "props": [
-      { "key": "-2.5% Mobility", "value": 0 },
-      { "key": "+7.5 Shield Capacity", "value": 0 }
-    ],
+    "props": [{ "key": "-2.5% Mobility" }, { "key": "+7.5 Shield Capacity" }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 2,
@@ -3743,10 +3604,7 @@
   {
     "name": "Calculated Spring",
     "type": "WARFRAME",
-    "props": [
-      { "key": "-2.5% Mobility", "value": 0 },
-      { "key": "h", "value": 6.3 }
-    ],
+    "props": [{ "key": "-2.5% Mobility" }, { "key": "h", "value": 6.3 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 2,
@@ -3755,10 +3613,7 @@
   {
     "name": "Adrenaline Boost",
     "type": "WARFRAME",
-    "props": [
-      { "key": "+12.5% Energy", "value": 0 },
-      { "key": "h", "value": -5 }
-    ],
+    "props": [{ "key": "+12.5% Energy" }, { "key": "h", "value": -5 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 10,
@@ -3767,10 +3622,7 @@
   {
     "name": "Rising Skill",
     "type": "WARFRAME",
-    "props": [
-      { "key": "+2.5% Mobility", "value": 0 },
-      { "key": "-7.5 Shield Capacity", "value": 0 }
-    ],
+    "props": [{ "key": "+2.5% Mobility" }, { "key": "-7.5 Shield Capacity" }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 2,
@@ -3779,10 +3631,7 @@
   {
     "name": "Adept Surge",
     "type": "WARFRAME",
-    "props": [
-      { "key": "+2.5% Mobility", "value": 0 },
-      { "key": "-6.2 Health", "value": 0 }
-    ],
+    "props": [{ "key": "+2.5% Mobility" }, { "key": "-6.2 Health" }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 2,
@@ -3791,10 +3640,7 @@
   {
     "name": "No Current Leap",
     "type": "WARFRAME",
-    "props": [
-      { "key": "+2.5% Mobility", "value": 0 },
-      { "key": "0 Energy Rate", "value": 0 }
-    ],
+    "props": [{ "key": "+2.5% Mobility" }, { "key": "0 Energy Rate" }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 2,
@@ -3803,10 +3649,7 @@
   {
     "name": "Tactical Retreat",
     "type": "WARFRAME",
-    "props": [
-      { "key": "On Low Health:", "value": 0 },
-      { "key": "+0 Mobility for 1s", "value": 0 }
-    ],
+    "props": [{ "key": "On Low Health:" }, { "key": "+0 Mobility for 1s" }],
     "polarity": "d",
     "rarity": "r",
     "baseDrain": 10,
@@ -3816,9 +3659,9 @@
     "name": "Final Act",
     "type": "WARFRAME",
     "props": [
-      { "key": "On Low Health:", "value": 0 },
+      { "key": "On Low Health:" },
       { "key": "t", "value": 7.5 },
-      { "key": "+7.5% Casting Speed for 2s", "value": 0 }
+      { "key": "+7.5% Casting Speed for 2s" }
     ],
     "polarity": "r",
     "rarity": "r",
@@ -3830,7 +3673,7 @@
     "type": "WARFRAME",
     "props": [
       { "key": "hps", "value": 0.3 },
-      { "key": "+12.5% Shield Recharge Delay", "value": 0 }
+      { "key": "+12.5% Shield Recharge Delay" }
     ],
     "polarity": "-",
     "rarity": "r",
@@ -3840,7 +3683,7 @@
   {
     "name": "Rime Vault",
     "type": "WARFRAME",
-    "props": [{ "key": "Ice FX on Bullet Jump", "value": 0 }],
+    "props": [{ "key": "Ice FX on Bullet Jump" }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 0,
@@ -3849,7 +3692,7 @@
   {
     "name": "Searing Leap",
     "type": "WARFRAME",
-    "props": [{ "key": "Fire FX on Bullet Jump", "value": 0 }],
+    "props": [{ "key": "Fire FX on Bullet Jump" }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 0,
@@ -3877,11 +3720,8 @@
     "name": "Overcharged",
     "type": "WARFRAME",
     "props": [
-      { "key": "On Respawn:", "value": 0 },
-      {
-        "key": "Converts up to 50 Energy to Overshields at a rate of 0%.",
-        "value": 0
-      }
+      { "key": "On Respawn:" },
+      { "key": "Converts up to 50 Energy to Overshields at a rate of 0%." }
     ],
     "polarity": "d",
     "rarity": "r",
@@ -3891,10 +3731,7 @@
   {
     "name": "Follow Through",
     "type": "WARFRAME",
-    "props": [
-      { "key": "On Respawn:", "value": 0 },
-      { "key": "her", "value": 2.5 }
-    ],
+    "props": [{ "key": "On Respawn:" }, { "key": "her", "value": 2.5 }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 10,
@@ -3905,8 +3742,7 @@
     "type": "WARFRAME",
     "props": [
       {
-        "key": "Gain +1 energy, upon replenishing shields completely after they have been deactivated.",
-        "value": 0
+        "key": "Gain +1 energy, upon replenishing shields completely after they have been deactivated."
       }
     ],
     "polarity": "r",
@@ -3917,7 +3753,7 @@
   {
     "name": "Voltaic Lance",
     "type": "WARFRAME",
-    "props": [{ "key": "Electrical FX on Bullet Jump", "value": 0 }],
+    "props": [{ "key": "Electrical FX on Bullet Jump" }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 0,
@@ -3927,10 +3763,7 @@
     "name": "Overcharge Detectors",
     "type": "WARFRAME",
     "props": [
-      {
-        "key": "Exposes enemies at maximum Energy Capacity within 5m.",
-        "value": 0
-      }
+      { "key": "Exposes enemies at maximum Energy Capacity within 5m." }
     ],
     "polarity": "-",
     "rarity": "c",
@@ -3941,8 +3774,8 @@
     "name": "Armored Evade",
     "type": "WARFRAME",
     "props": [
-      { "key": "+10% Damage Resistance while Dodging", "value": 0 },
-      { "key": "-2.5% Mobility", "value": 0 }
+      { "key": "+10% Damage Resistance while Dodging" },
+      { "key": "-2.5% Mobility" }
     ],
     "polarity": "d",
     "rarity": "c",
@@ -3953,8 +3786,8 @@
     "name": "Armored Acrobatics",
     "type": "WARFRAME",
     "props": [
-      { "key": "+5% Damage Resistance during Bullet Jump", "value": 0 },
-      { "key": "+0 Mobility", "value": 0 }
+      { "key": "+5% Damage Resistance during Bullet Jump" },
+      { "key": "+0 Mobility" }
     ],
     "polarity": "d",
     "rarity": "c",
@@ -3965,8 +3798,8 @@
     "name": "Anti-Flak Plating",
     "type": "WARFRAME",
     "props": [
-      { "key": "+5 <DT_EXPLOSION>Blast Resistance", "value": 0 },
-      { "key": "-2.5% Mobility", "value": 0 }
+      { "key": "+5 <DT_EXPLOSION>Blast Resistance" },
+      { "key": "-2.5% Mobility" }
     ],
     "polarity": "d",
     "rarity": "c",
@@ -3977,8 +3810,8 @@
     "name": "Air Thrusters",
     "type": "WARFRAME",
     "props": [
-      { "key": "+25% Slide Boost when Airborne", "value": 0 },
-      { "key": "-5% Mobility", "value": 0 }
+      { "key": "+25% Slide Boost when Airborne" },
+      { "key": "-5% Mobility" }
     ],
     "polarity": "-",
     "rarity": "c",
@@ -3988,7 +3821,7 @@
   {
     "name": "Lashing Coil",
     "type": "STANCE",
-    "props": [{ "key": "Fighting form devised for Conclave.", "value": 0 }],
+    "props": [{ "key": "Fighting form devised for Conclave." }],
     "polarity": "=",
     "rarity": "c",
     "baseDrain": -2,
@@ -3997,7 +3830,7 @@
   {
     "name": "Star Divide",
     "type": "STANCE",
-    "props": [{ "key": "Fighting form devised for Conclave.", "value": 0 }],
+    "props": [{ "key": "Fighting form devised for Conclave." }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": -2,
@@ -4006,7 +3839,7 @@
   {
     "name": "Tainted Hydra",
     "type": "STANCE",
-    "props": [{ "key": "Fighting form devised for Conclave.", "value": 0 }],
+    "props": [{ "key": "Fighting form devised for Conclave." }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": -2,
@@ -4015,7 +3848,7 @@
   {
     "name": "Rising Steel",
     "type": "STANCE",
-    "props": [{ "key": "Fighting form devised for Conclave.", "value": 0 }],
+    "props": [{ "key": "Fighting form devised for Conclave." }],
     "polarity": "t",
     "rarity": "c",
     "baseDrain": -2,
@@ -4024,7 +3857,7 @@
   {
     "name": "Last Herald",
     "type": "STANCE",
-    "props": [{ "key": "Fighting form devised for Conclave.", "value": 0 }],
+    "props": [{ "key": "Fighting form devised for Conclave." }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": -2,
@@ -4033,7 +3866,7 @@
   {
     "name": "Crashing Timber",
     "type": "STANCE",
-    "props": [{ "key": "Fighting form devised for Conclave.", "value": 0 }],
+    "props": [{ "key": "Fighting form devised for Conclave." }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": -2,
@@ -4042,7 +3875,7 @@
   {
     "name": "Shadow Harvest",
     "type": "STANCE",
-    "props": [{ "key": "Fighting form devised for Conclave.", "value": 0 }],
+    "props": [{ "key": "Fighting form devised for Conclave." }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": -2,
@@ -4051,7 +3884,7 @@
   {
     "name": "Cunning Aspect",
     "type": "STANCE",
-    "props": [{ "key": "Fighting form devised for Conclave.", "value": 0 }],
+    "props": [{ "key": "Fighting form devised for Conclave." }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": -2,
@@ -4060,7 +3893,7 @@
   {
     "name": "Vicious Approach",
     "type": "STANCE",
-    "props": [{ "key": "Fighting form devised for Conclave.", "value": 0 }],
+    "props": [{ "key": "Fighting form devised for Conclave." }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": -2,
@@ -4069,7 +3902,7 @@
   {
     "name": "Argent Scourge",
     "type": "STANCE",
-    "props": [{ "key": "Fighting form devised for Conclave.", "value": 0 }],
+    "props": [{ "key": "Fighting form devised for Conclave." }],
     "polarity": "=",
     "rarity": "c",
     "baseDrain": -2,
@@ -4078,7 +3911,7 @@
   {
     "name": "Mafic Rain",
     "type": "STANCE",
-    "props": [{ "key": "Fighting form devised for Conclave.", "value": 0 }],
+    "props": [{ "key": "Fighting form devised for Conclave." }],
     "polarity": "d",
     "rarity": "c",
     "baseDrain": -2,
@@ -4087,7 +3920,7 @@
   {
     "name": "Rending Wind",
     "type": "STANCE",
-    "props": [{ "key": "Fighting form devised for Conclave.", "value": 0 }],
+    "props": [{ "key": "Fighting form devised for Conclave." }],
     "polarity": "=",
     "rarity": "c",
     "baseDrain": -2,
@@ -4096,7 +3929,7 @@
   {
     "name": "Fateful Truth",
     "type": "STANCE",
-    "props": [{ "key": "Fighting form devised for Conclave.", "value": 0 }],
+    "props": [{ "key": "Fighting form devised for Conclave." }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": -2,
@@ -4105,7 +3938,7 @@
   {
     "name": "Noble Cadence",
     "type": "STANCE",
-    "props": [{ "key": "Fighting form devised for Conclave.", "value": 0 }],
+    "props": [{ "key": "Fighting form devised for Conclave." }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": -2,
@@ -4114,7 +3947,7 @@
   {
     "name": "Crashing Havoc",
     "type": "STANCE",
-    "props": [{ "key": "Fighting form devised for Conclave.", "value": 0 }],
+    "props": [{ "key": "Fighting form devised for Conclave." }],
     "polarity": "d",
     "rarity": "c",
     "baseDrain": -2,
@@ -4123,7 +3956,7 @@
   {
     "name": "Celestial Nightfall",
     "type": "STANCE",
-    "props": [{ "key": "Fighting form devised for Conclave.", "value": 0 }],
+    "props": [{ "key": "Fighting form devised for Conclave." }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": -2,
@@ -4132,7 +3965,7 @@
   {
     "name": "Quaking Hand",
     "type": "STANCE",
-    "props": [{ "key": "Fighting form devised for Conclave.", "value": 0 }],
+    "props": [{ "key": "Fighting form devised for Conclave." }],
     "polarity": "t",
     "rarity": "c",
     "baseDrain": -2,
@@ -4141,7 +3974,7 @@
   {
     "name": "Dividing Blades",
     "type": "STANCE",
-    "props": [{ "key": "Fighting form devised for Conclave.", "value": 0 }],
+    "props": [{ "key": "Fighting form devised for Conclave." }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": -2,
@@ -4150,7 +3983,7 @@
   {
     "name": "Biting Piranha",
     "type": "STANCE",
-    "props": [{ "key": "Fighting form devised for Conclave.", "value": 0 }],
+    "props": [{ "key": "Fighting form devised for Conclave." }],
     "polarity": "t",
     "rarity": "c",
     "baseDrain": -2,
@@ -4159,7 +3992,7 @@
   {
     "name": "Piercing Fury",
     "type": "STANCE",
-    "props": [{ "key": "Fighting form devised for Conclave.", "value": 0 }],
+    "props": [{ "key": "Fighting form devised for Conclave." }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": -2,
@@ -4168,7 +4001,7 @@
   {
     "name": "Scarlet Hurricane",
     "type": "STANCE",
-    "props": [{ "key": "Fighting form devised for Conclave.", "value": 0 }],
+    "props": [{ "key": "Fighting form devised for Conclave." }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": -2,
@@ -4179,8 +4012,8 @@
     "type": "PRIMARY",
     "props": [
       { "key": "onKill" },
-      { "key": "-25% Shield Recharge Delay for 2.5s", "value": 0 },
-      { "key": "-6.2% from Health Orbs", "value": 0 }
+      { "key": "-25% Shield Recharge Delay for 2.5s" },
+      { "key": "-6.2% from Health Orbs" }
     ],
     "polarity": "d",
     "rarity": "r",
@@ -4192,8 +4025,8 @@
     "type": "PRIMARY",
     "props": [
       { "key": "onKill" },
-      { "key": "+3.8 Heal Rate for 2.5s", "value": 0 },
-      { "key": "-6.2% from Health Orbs", "value": 0 }
+      { "key": "+3.8 Heal Rate for 2.5s" },
+      { "key": "-6.2% from Health Orbs" }
     ],
     "polarity": "d",
     "rarity": "r",
@@ -4212,7 +4045,7 @@
   {
     "name": "Double-Barrel Drift",
     "type": "PRIMARY",
-    "props": [{ "key": "-5% Recoil and Spread when Sliding", "value": 0 }],
+    "props": [{ "key": "-5% Recoil and Spread when Sliding" }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 6,
@@ -4223,7 +4056,7 @@
     "type": "PRIMARY",
     "props": [
       { "key": "onHit" },
-      { "key": "Reveals target on Minimap for +1s.", "value": 0 }
+      { "key": "Reveals target on Minimap for +1s." }
     ],
     "polarity": "-",
     "rarity": "c",
@@ -4260,7 +4093,7 @@
   {
     "name": "Broad Eye",
     "type": "PRIMARY",
-    "props": [{ "key": "-10% Zoom during Aim Glide", "value": 0 }],
+    "props": [{ "key": "-10% Zoom during Aim Glide" }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 2,
@@ -4269,10 +4102,7 @@
   {
     "name": "Kill Switch",
     "type": "PRIMARY",
-    "props": [
-      { "key": "onKill" },
-      { "key": "+12.5% Reload Speed for 0.75s", "value": 0 }
-    ],
+    "props": [{ "key": "onKill" }, { "key": "+12.5% Reload Speed for 0.75s" }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 10,
@@ -4299,9 +4129,7 @@
   {
     "name": "Flak Shot",
     "type": "PRIMARY",
-    "props": [
-      { "key": "5% of Damage converted into <DT_SLASH>Slash", "value": 0 }
-    ],
+    "props": [{ "key": "5% of Damage converted into <DT_SLASH>Slash" }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 2,
@@ -4310,9 +4138,7 @@
   {
     "name": "Shred Shot",
     "type": "PRIMARY",
-    "props": [
-      { "key": "5% of Damage converted into <DT_PUNCTURE>Puncture", "value": 0 }
-    ],
+    "props": [{ "key": "5% of Damage converted into <DT_PUNCTURE>Puncture" }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 2,
@@ -4321,9 +4147,7 @@
   {
     "name": "Crash Shot",
     "type": "PRIMARY",
-    "props": [
-      { "key": "5% of Damage converted into <DT_IMPACT>Impact", "value": 0 }
-    ],
+    "props": [{ "key": "5% of Damage converted into <DT_IMPACT>Impact" }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 2,
@@ -4342,7 +4166,7 @@
     "name": "Measured Burst",
     "type": "PRIMARY",
     "props": [
-      { "key": "When Aiming:", "value": 0 },
+      { "key": "When Aiming:" },
       { "key": "R", "value": -15 },
       { "key": "D", "value": 7.5 }
     ],
@@ -4354,10 +4178,7 @@
   {
     "name": "Focused Acceleration",
     "type": "PRIMARY",
-    "props": [
-      { "key": "When Aiming:", "value": 0 },
-      { "key": "V", "value": 20 }
-    ],
+    "props": [{ "key": "When Aiming:" }, { "key": "V", "value": 20 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 10,
@@ -4367,8 +4188,8 @@
     "name": "Sudden Justice",
     "type": "PRIMARY",
     "props": [
-      { "key": "On 2 Hits within 0.2s:", "value": 0 },
-      { "key": "+7.5% Fire Rate for 0.5s", "value": 0 }
+      { "key": "On 2 Hits within 0.2s:" },
+      { "key": "+7.5% Fire Rate for 0.5s" }
     ],
     "polarity": "r",
     "rarity": "r",
@@ -4378,7 +4199,7 @@
   {
     "name": "Directed Convergence",
     "type": "PRIMARY",
-    "props": [{ "key": "+25% Accuracy when Aiming", "value": 0 }],
+    "props": [{ "key": "+25% Accuracy when Aiming" }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 10,
@@ -4398,8 +4219,8 @@
     "type": "PRIMARY",
     "props": [
       { "key": "onKill" },
-      { "key": "-25% Shield Recharge Delay for 2.5s", "value": 0 },
-      { "key": "-6.2% from Health Orbs", "value": 0 }
+      { "key": "-25% Shield Recharge Delay for 2.5s" },
+      { "key": "-6.2% from Health Orbs" }
     ],
     "polarity": "d",
     "rarity": "r",
@@ -4411,8 +4232,8 @@
     "type": "PRIMARY",
     "props": [
       { "key": "onKill" },
-      { "key": "+3.8 Heal Rate for 2.5s", "value": 0 },
-      { "key": "-6.2% from Health Orbs", "value": 0 }
+      { "key": "+3.8 Heal Rate for 2.5s" },
+      { "key": "-6.2% from Health Orbs" }
     ],
     "polarity": "d",
     "rarity": "r",
@@ -4433,7 +4254,7 @@
     "type": "PRIMARY",
     "props": [
       { "key": "onHit" },
-      { "key": "5% Bonus Damage on next Hit for 0.5s", "value": 0 }
+      { "key": "5% Bonus Damage on next Hit for 0.5s" }
     ],
     "polarity": "r",
     "rarity": "r",
@@ -4444,8 +4265,8 @@
     "name": "Triple Tap",
     "type": "PRIMARY",
     "props": [
-      { "key": "On 2 Hits within .02s:", "value": 0 },
-      { "key": "+10% Damage for 0.05s", "value": 0 }
+      { "key": "On 2 Hits within .02s:" },
+      { "key": "+10% Damage for 0.05s" }
     ],
     "polarity": "r",
     "rarity": "r",
@@ -4455,7 +4276,7 @@
   {
     "name": "Grinloked",
     "type": "PRIMARY",
-    "props": [{ "key": "+15% Accuracy when Aiming", "value": 0 }],
+    "props": [{ "key": "+15% Accuracy when Aiming" }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 10,
@@ -4464,7 +4285,7 @@
   {
     "name": "Gun Glide",
     "type": "PRIMARY",
-    "props": [{ "key": "-5% Recoil and Spread when Sliding", "value": 0 }],
+    "props": [{ "key": "-5% Recoil and Spread when Sliding" }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 6,
@@ -4475,7 +4296,7 @@
     "type": "PRIMARY",
     "props": [
       { "key": "onHit" },
-      { "key": "Reveals target on Minimap for +1s.", "value": 0 }
+      { "key": "Reveals target on Minimap for +1s." }
     ],
     "polarity": "-",
     "rarity": "c",
@@ -4513,8 +4334,8 @@
     "name": "Final Tap",
     "type": "PRIMARY",
     "props": [
-      { "key": "On 4 Hits within .05s:", "value": 0 },
-      { "key": "+25% Damage for 0.05s", "value": 0 }
+      { "key": "On 4 Hits within .05s:" },
+      { "key": "+25% Damage for 0.05s" }
     ],
     "polarity": "r",
     "rarity": "r",
@@ -4542,7 +4363,7 @@
   {
     "name": "Overview",
     "type": "PRIMARY",
-    "props": [{ "key": "-10% Zoom during Aim Glide", "value": 0 }],
+    "props": [{ "key": "-10% Zoom during Aim Glide" }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 2,
@@ -4552,7 +4373,7 @@
     "name": "Lie In Wait",
     "type": "PRIMARY",
     "props": [
-      { "key": "+5% Fire Rate when Crouching", "value": 0 },
+      { "key": "+5% Fire Rate when Crouching" },
       { "key": "Z", "value": 25 }
     ],
     "polarity": "r",
@@ -4565,7 +4386,7 @@
     "type": "PRIMARY",
     "props": [
       { "key": "onHeadshot" },
-      { "key": "+25% Ammo Efficiency for 0.13s", "value": 0 }
+      { "key": "+25% Ammo Efficiency for 0.13s" }
     ],
     "polarity": "r",
     "rarity": "r",
@@ -4575,10 +4396,7 @@
   {
     "name": "Gorgon Frenzy",
     "type": "PRIMARY",
-    "props": [
-      { "key": "onKill" },
-      { "key": "+7.5% Fire Rate for 0.75s", "value": 0 }
-    ],
+    "props": [{ "key": "onKill" }, { "key": "+7.5% Fire Rate for 0.75s" }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 10,
@@ -4587,10 +4405,7 @@
   {
     "name": "Emergent Aftermath",
     "type": "PRIMARY",
-    "props": [
-      { "key": "onKill" },
-      { "key": "+12.5% Reload Speed for 0.75s", "value": 0 }
-    ],
+    "props": [{ "key": "onKill" }, { "key": "+12.5% Reload Speed for 0.75s" }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 10,
@@ -4610,7 +4425,7 @@
     "type": "PRIMARY",
     "props": [
       { "key": "onHit" },
-      { "key": "+5% Secondary Weapon Fire Rate for 0.75s", "value": 0 }
+      { "key": "+5% Secondary Weapon Fire Rate for 0.75s" }
     ],
     "polarity": "r",
     "rarity": "r",
@@ -4629,7 +4444,7 @@
   {
     "name": "Soaring Strike",
     "type": "PRIMARY",
-    "props": [{ "key": "+12.5% Fire Rate when Airborne", "value": 0 }],
+    "props": [{ "key": "+12.5% Fire Rate when Airborne" }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 10,
@@ -4638,10 +4453,7 @@
   {
     "name": "Deft Tempo",
     "type": "PRIMARY",
-    "props": [
-      { "key": "onHeadshot" },
-      { "key": "+2.5 Mobility for 1s", "value": 0 }
-    ],
+    "props": [{ "key": "onHeadshot" }, { "key": "+2.5 Mobility for 1s" }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 10,
@@ -4651,7 +4463,7 @@
     "name": "Thundermiter",
     "type": "PRIMARY",
     "props": [
-      { "key": "+25% chance charged Projectiles explode", "value": 0 },
+      { "key": "+25% chance charged Projectiles explode" },
       { "key": "L", "value": -15 }
     ],
     "polarity": "r",
@@ -4662,9 +4474,7 @@
   {
     "name": "Serrated Rounds",
     "type": "PRIMARY",
-    "props": [
-      { "key": "5% of Damage converted into <DT_SLASH>Slash", "value": 0 }
-    ],
+    "props": [{ "key": "5% of Damage converted into <DT_SLASH>Slash" }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 2,
@@ -4673,9 +4483,7 @@
   {
     "name": "Ripper Rounds",
     "type": "PRIMARY",
-    "props": [
-      { "key": "5% of Damage converted into <DT_PUNCTURE>Puncture", "value": 0 }
-    ],
+    "props": [{ "key": "5% of Damage converted into <DT_PUNCTURE>Puncture" }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 2,
@@ -4684,9 +4492,7 @@
   {
     "name": "Comet Rounds",
     "type": "PRIMARY",
-    "props": [
-      { "key": "5% of Damage converted into <DT_IMPACT>Impact", "value": 0 }
-    ],
+    "props": [{ "key": "5% of Damage converted into <DT_IMPACT>Impact" }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 2,
@@ -4706,7 +4512,7 @@
     "type": "SECONDARY",
     "props": [
       { "key": "onHeadshot" },
-      { "key": "+25% Ammo Efficiency for 0.5s", "value": 0 }
+      { "key": "+25% Ammo Efficiency for 0.5s" }
     ],
     "polarity": "r",
     "rarity": "r",
@@ -4727,8 +4533,8 @@
     "type": "SECONDARY",
     "props": [
       { "key": "onKill" },
-      { "key": "-25% Shield Recharge Delay for 2.5s", "value": 0 },
-      { "key": "-6.2% from Health Orbs", "value": 0 }
+      { "key": "-25% Shield Recharge Delay for 2.5s" },
+      { "key": "-6.2% from Health Orbs" }
     ],
     "polarity": "d",
     "rarity": "r",
@@ -4740,8 +4546,8 @@
     "type": "SECONDARY",
     "props": [
       { "key": "onKill" },
-      { "key": "+3.8 Heal Rate for 2.5s", "value": 0 },
-      { "key": "-6.2% from Health Orbs", "value": 0 }
+      { "key": "+3.8 Heal Rate for 2.5s" },
+      { "key": "-6.2% from Health Orbs" }
     ],
     "polarity": "d",
     "rarity": "r",
@@ -4760,7 +4566,7 @@
   {
     "name": "Strafing Slide",
     "type": "SECONDARY",
-    "props": [{ "key": "-5% Recoil and Spread when Sliding", "value": 0 }],
+    "props": [{ "key": "-5% Recoil and Spread when Sliding" }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 6,
@@ -4771,7 +4577,7 @@
     "type": "SECONDARY",
     "props": [
       { "key": "onHit" },
-      { "key": "Reveals target on Minimap for +1s.", "value": 0 }
+      { "key": "Reveals target on Minimap for +1s." }
     ],
     "polarity": "-",
     "rarity": "c",
@@ -4826,7 +4632,7 @@
   {
     "name": "Air Recon",
     "type": "SECONDARY",
-    "props": [{ "key": "-10% Zoom during Aim Glide", "value": 0 }],
+    "props": [{ "key": "-10% Zoom during Aim Glide" }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 2,
@@ -4835,10 +4641,7 @@
   {
     "name": "Secondary Wind",
     "type": "SECONDARY",
-    "props": [
-      { "key": "onKill" },
-      { "key": "+12.5% Reload Speed for 1s", "value": 0 }
-    ],
+    "props": [{ "key": "onKill" }, { "key": "+12.5% Reload Speed for 1s" }],
     "polarity": "d",
     "rarity": "r",
     "baseDrain": 10,
@@ -4866,7 +4669,7 @@
     "name": "Draining Gloom",
     "type": "SECONDARY",
     "props": [
-      { "key": "+25% chance of Energy Drain explosion", "value": 0 },
+      { "key": "+25% chance of Energy Drain explosion" },
       { "key": "L", "value": -15 },
       { "key": "M", "value": -15 }
     ],
@@ -4878,9 +4681,7 @@
   {
     "name": "Razor Munitions",
     "type": "SECONDARY",
-    "props": [
-      { "key": "5% of Damage converted into <DT_SLASH>Slash", "value": 0 }
-    ],
+    "props": [{ "key": "5% of Damage converted into <DT_SLASH>Slash" }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 2,
@@ -4889,9 +4690,7 @@
   {
     "name": "Impaler Munitions",
     "type": "SECONDARY",
-    "props": [
-      { "key": "5% of Damage converted into <DT_PUNCTURE>Puncture", "value": 0 }
-    ],
+    "props": [{ "key": "5% of Damage converted into <DT_PUNCTURE>Puncture" }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 2,
@@ -4900,9 +4699,7 @@
   {
     "name": "Meteor Munitions",
     "type": "SECONDARY",
-    "props": [
-      { "key": "5% of Damage converted into <DT_IMPACT>Impact", "value": 0 }
-    ],
+    "props": [{ "key": "5% of Damage converted into <DT_IMPACT>Impact" }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 2,
@@ -4920,10 +4717,7 @@
   {
     "name": "Relentless Assault",
     "type": "MELEE",
-    "props": [
-      { "key": "onKill" },
-      { "key": "+0.5 Energy Rate for 1s", "value": 0 }
-    ],
+    "props": [{ "key": "onKill" }, { "key": "+0.5 Energy Rate for 1s" }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 10,
@@ -4932,10 +4726,7 @@
   {
     "name": "Martial Fury",
     "type": "MELEE",
-    "props": [
-      { "key": "J", "value": 5 },
-      { "key": "-12.5% Energy Rate", "value": 0 }
-    ],
+    "props": [{ "key": "J", "value": 5 }, { "key": "-12.5% Energy Rate" }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 10,
@@ -4945,9 +4736,9 @@
     "name": "Sword Alone",
     "type": "MELEE",
     "props": [
-      { "key": "With Melee Equipped:", "value": 0 },
-      { "key": "+2.5% Mobility", "value": 0 },
-      { "key": "+0.3 Sprint Speed", "value": 0 }
+      { "key": "With Melee Equipped:" },
+      { "key": "+2.5% Mobility" },
+      { "key": "+0.3 Sprint Speed" }
     ],
     "polarity": "r",
     "rarity": "r",
@@ -4959,8 +4750,7 @@
     "type": "MELEE",
     "props": [
       {
-        "key": "Enemies killed explode, dealing 50 Damage shortly after death.",
-        "value": 0
+        "key": "Enemies killed explode, dealing 50 Damage shortly after death."
       }
     ],
     "polarity": "r",
@@ -4971,9 +4761,7 @@
   {
     "name": "Sharpened Blade",
     "type": "MELEE",
-    "props": [
-      { "key": "5% of Damage converted into <DT_SLASH>Slash", "value": 0 }
-    ],
+    "props": [{ "key": "5% of Damage converted into <DT_SLASH>Slash" }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 2,
@@ -4982,9 +4770,7 @@
   {
     "name": "Serrated Edges",
     "type": "MELEE",
-    "props": [
-      { "key": "5% of Damage converted into <DT_PUNCTURE>Puncture", "value": 0 }
-    ],
+    "props": [{ "key": "5% of Damage converted into <DT_PUNCTURE>Puncture" }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 2,
@@ -4993,9 +4779,7 @@
   {
     "name": "Counterweight",
     "type": "MELEE",
-    "props": [
-      { "key": "5% of Damage converted into <DT_IMPACT>Impact", "value": 0 }
-    ],
+    "props": [{ "key": "5% of Damage converted into <DT_IMPACT>Impact" }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 2,
@@ -5004,7 +4788,7 @@
   {
     "name": "Heartseeker",
     "type": "MELEE",
-    "props": [{ "key": "-12.5% Damage Block", "value": 0 }],
+    "props": [{ "key": "-12.5% Damage Block" }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 10,
@@ -5014,10 +4798,9 @@
     "name": "Mortal Conduct",
     "type": "MELEE",
     "props": [
-      { "key": "At Less than 50 Health:", "value": 0 },
+      { "key": "At Less than 50 Health:" },
       {
-        "key": "+15% Damage taken is reflected when Blocking attacks while Channeling for 2s",
-        "value": 0
+        "key": "+15% Damage taken is reflected when Blocking attacks while Channeling for 2s"
       }
     ],
     "polarity": "r",
@@ -5028,10 +4811,7 @@
   {
     "name": "Impenetrable Offense",
     "type": "MELEE",
-    "props": [
-      { "key": "+7.5% Damage Block", "value": 0 },
-      { "key": "K", "value": -2.5 }
-    ],
+    "props": [{ "key": "+7.5% Damage Block" }, { "key": "K", "value": -2.5 }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 10,
@@ -5041,10 +4821,7 @@
     "name": "Stand Ground",
     "type": "MELEE",
     "props": [
-      {
-        "key": "Blocking reduces damage taken from enemy abilities by 10%.",
-        "value": 0
-      }
+      { "key": "Blocking reduces damage taken from enemy abilities by 10%." }
     ],
     "polarity": "d",
     "rarity": "r",
@@ -5173,8 +4950,7 @@
     "type": "SECONDARY",
     "props": [
       {
-        "key": "Converts unused ammo pickups into Pistol ammo. Rifle <AMMO_MUTATION> 1 and Shotgun/Sniper <AMMO_MUTATION> 3.",
-        "value": 0
+        "key": "Converts unused ammo pickups into Pistol ammo. Rifle <AMMO_MUTATION> 1 and Shotgun/Sniper <AMMO_MUTATION> 3."
       }
     ],
     "polarity": "-",
@@ -5394,8 +5170,7 @@
     "type": "SECONDARY",
     "props": [
       {
-        "key": "Converts unused ammo pickups into Pistol ammo. Rifle <AMMO_MUTATION> 1 and Shotgun/Sniper <AMMO_MUTATION> 3.",
-        "value": 0
+        "key": "Converts unused ammo pickups into Pistol ammo. Rifle <AMMO_MUTATION> 1 and Shotgun/Sniper <AMMO_MUTATION> 3."
       }
     ],
     "polarity": "-",
@@ -5488,10 +5263,7 @@
     "name": "Fulmination",
     "type": "SECONDARY",
     "props": [
-      {
-        "key": "Improves the Blast Radius of secondary launcher weapons.",
-        "value": 0
-      },
+      { "key": "Improves the Blast Radius of secondary launcher weapons." },
       { "key": "brad", "value": 6 }
     ],
     "polarity": "r",
@@ -6062,8 +5834,7 @@
     "type": "MELEE",
     "props": [
       {
-        "key": "Charge attacks now step through the rift to attack enemies up to 5m away",
-        "value": 0
+        "key": "Charge attacks now step through the rift to attack enemies up to 5m away"
       }
     ],
     "polarity": "-",
@@ -6076,8 +5847,7 @@
     "type": "MELEE",
     "props": [
       {
-        "key": "Increase Damage by 15% and Status Chance by 10% when attacking a prone enemy.",
-        "value": 0
+        "key": "Increase Damage by 15% and Status Chance by 10% when attacking a prone enemy."
       }
     ],
     "polarity": "r",
@@ -6090,8 +5860,7 @@
     "type": "MELEE",
     "props": [
       {
-        "key": "Enemies explode on death, dealing 50 <DT_EXPLOSION>Blast Damage (+10% Enemy Max Health) in a 1m radius.",
-        "value": 0
+        "key": "Enemies explode on death, dealing 50 <DT_EXPLOSION>Blast Damage (+10% Enemy Max Health) in a 1m radius."
       }
     ],
     "polarity": "r",
@@ -6104,8 +5873,7 @@
     "type": "MELEE",
     "props": [
       {
-        "key": "While blocking, redirect 25% of damage taken by allies within 2m to yourself.",
-        "value": 0
+        "key": "While blocking, redirect 25% of damage taken by allies within 2m to yourself."
       }
     ],
     "polarity": "d",
@@ -6118,8 +5886,7 @@
     "type": "MELEE",
     "props": [
       {
-        "key": "Charge Attacks electrify nearby enemies for <DT_ELECTRICITY>Electricity Damage equal to 30% of weapon damage.",
-        "value": 0
+        "key": "Charge Attacks electrify nearby enemies for <DT_ELECTRICITY>Electricity Damage equal to 30% of weapon damage."
       }
     ],
     "polarity": "-",
@@ -6276,8 +6043,7 @@
     "type": "---",
     "props": [
       {
-        "key": "Landing a trick releases an explosion dealing 10% Trick Score <DT_EXPLOSION>Blast Damage to enemies within 1m.",
-        "value": 0
+        "key": "Landing a trick releases an explosion dealing 10% Trick Score <DT_EXPLOSION>Blast Damage to enemies within 1m."
       }
     ],
     "polarity": "r",
@@ -6288,7 +6054,7 @@
   {
     "name": "Nitro Boost",
     "type": "---",
-    "props": [{ "key": "+5% K-Drive Boost Speed", "value": 0 }],
+    "props": [{ "key": "+5% K-Drive Boost Speed" }],
     "polarity": "-",
     "rarity": "r",
     "baseDrain": 4,
@@ -6297,7 +6063,7 @@
   {
     "name": "Extreme Velocity",
     "type": "---",
-    "props": [{ "key": "+5% K-Drive Speed", "value": 0 }],
+    "props": [{ "key": "+5% K-Drive Speed" }],
     "polarity": "d",
     "rarity": "r",
     "baseDrain": 4,
@@ -6308,8 +6074,7 @@
     "type": "---",
     "props": [
       {
-        "key": "Every 40s, boosting will release a shockwave, stunning enemies in 1m.",
-        "value": 0
+        "key": "Every 40s, boosting will release a shockwave, stunning enemies in 1m."
       }
     ],
     "polarity": "r",
@@ -6321,11 +6086,8 @@
     "name": "Slay Board",
     "type": "---",
     "props": [
-      { "key": "On Directional Dismount:", "value": 0 },
-      {
-        "key": "Board is launched, dealing 50 Damage while slicing enemies.",
-        "value": 0
-      }
+      { "key": "On Directional Dismount:" },
+      { "key": "Board is launched, dealing 50 Damage while slicing enemies." }
     ],
     "polarity": "r",
     "rarity": "c",
@@ -6335,7 +6097,7 @@
   {
     "name": "Inertia Dampeners",
     "type": "---",
-    "props": [{ "key": "+1 Point Multiplier to Trick Score", "value": 0 }],
+    "props": [{ "key": "+1 Point Multiplier to Trick Score" }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": 6,
@@ -6344,7 +6106,7 @@
   {
     "name": "Venerdo Hoverdrive",
     "type": "---",
-    "props": [{ "key": "+5% K-Drive Jump Height", "value": 0 }],
+    "props": [{ "key": "+5% K-Drive Jump Height" }],
     "polarity": "r",
     "rarity": "c",
     "baseDrain": 4,
@@ -6355,8 +6117,7 @@
     "type": "---",
     "props": [
       {
-        "key": "Grinding builds up a charge that is released when landing the trick, dealing 50 <DT_ELECTRICITY>Electricity Damage to enemies within 1m.",
-        "value": 0
+        "key": "Grinding builds up a charge that is released when landing the trick, dealing 50 <DT_ELECTRICITY>Electricity Damage to enemies within 1m."
       }
     ],
     "polarity": "r",
@@ -6367,7 +6128,7 @@
   {
     "name": "Rail Guards",
     "type": "---",
-    "props": [{ "key": "+5% K-Drive Grind Speed", "value": 0 }],
+    "props": [{ "key": "+5% K-Drive Grind Speed" }],
     "polarity": "-",
     "rarity": "n",
     "baseDrain": 4,
@@ -6376,7 +6137,7 @@
   {
     "name": "Mag Locks",
     "type": "---",
-    "props": [{ "key": "+5% K-Drive Grind Magnetism", "value": 0 }],
+    "props": [{ "key": "+5% K-Drive Grind Magnetism" }],
     "polarity": "-",
     "rarity": "n",
     "baseDrain": 4,
@@ -6387,8 +6148,7 @@
     "type": "---",
     "props": [
       {
-        "key": "Tricks leave a trail inflicting 10 <DT_FIRE>Heat Damage to enemies.",
-        "value": 0
+        "key": "Tricks leave a trail inflicting 10 <DT_FIRE>Heat Damage to enemies."
       }
     ],
     "polarity": "d",
@@ -6399,7 +6159,7 @@
   {
     "name": "Air Time",
     "type": "---",
-    "props": [{ "key": "-5% Gravity while Falling Down", "value": 0 }],
+    "props": [{ "key": "-5% Gravity while Falling Down" }],
     "polarity": "-",
     "rarity": "n",
     "baseDrain": 2,
@@ -6408,10 +6168,7 @@
   {
     "name": "Amalgam Shotgun Spazz",
     "type": "PRIMARY",
-    "props": [
-      { "key": "R", "value": 14 },
-      { "key": "+8% Revive Speed", "value": 0 }
-    ],
+    "props": [{ "key": "R", "value": 14 }, { "key": "+8% Revive Speed" }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 6,
@@ -6431,9 +6188,9 @@
     "type": "PRIMARY",
     "props": [
       { "key": "L", "value": 7.5 },
-      { "key": "Parrying with a Shield reflects +1000% Damage", "value": 0 },
-      { "key": "<LINE_SEPARATOR>", "value": 0 },
-      { "key": "+15% Channeling Efficiency while Parrying", "value": 0 }
+      { "key": "Parrying with a Shield reflects +1000% Damage" },
+      { "key": "<LINE_SEPARATOR>" },
+      { "key": "+15% Channeling Efficiency while Parrying" }
     ],
     "polarity": "-",
     "rarity": "r",
@@ -6445,9 +6202,9 @@
     "type": "PRIMARY",
     "props": [
       { "key": "hm", "value": 12.5 },
-      { "key": "+0.5% Life Steal on Nikanas", "value": 0 },
-      { "key": "<LINE_SEPARATOR>", "value": 0 },
-      { "key": "10% chance to pickup used arrows.", "value": 0 }
+      { "key": "+0.5% Life Steal on Nikanas" },
+      { "key": "<LINE_SEPARATOR>" },
+      { "key": "10% chance to pickup used arrows." }
     ],
     "polarity": "r",
     "rarity": "r",
@@ -6459,9 +6216,9 @@
     "type": "PRIMARY",
     "props": [
       { "key": "P", "value": 0.5 },
-      { "key": "Damage from daggers reduces Armor by +1.", "value": 0 },
-      { "key": "<LINE_SEPARATOR>", "value": 0 },
-      { "key": "Enemies are revealed by Punch Through.", "value": 0 }
+      { "key": "Damage from daggers reduces Armor by +1." },
+      { "key": "<LINE_SEPARATOR>" },
+      { "key": "Enemies are revealed by Punch Through." }
     ],
     "polarity": "-",
     "rarity": "r",
@@ -6471,10 +6228,7 @@
   {
     "name": "Amalgam Barrel Diffusion",
     "type": "SECONDARY",
-    "props": [
-      { "key": "S", "value": 18 },
-      { "key": "+10% Dodge Speed", "value": 0 }
-    ],
+    "props": [{ "key": "S", "value": 18 }, { "key": "+10% Dodge Speed" }],
     "polarity": "r",
     "rarity": "r",
     "baseDrain": 10,
@@ -6485,9 +6239,9 @@
     "type": "MELEE",
     "props": [
       { "key": "0", "value": 13 },
-      { "key": "+3% Reload Speed on Shotguns", "value": 0 },
-      { "key": "<LINE_SEPARATOR>", "value": 0 },
-      { "key": "+17% Gore Chance", "value": 0 }
+      { "key": "+3% Reload Speed on Shotguns" },
+      { "key": "<LINE_SEPARATOR>" },
+      { "key": "+17% Gore Chance" }
     ],
     "polarity": "r",
     "rarity": "r",
@@ -6499,9 +6253,9 @@
     "type": "MELEE",
     "props": [
       { "key": "N", "value": 2.5 },
-      { "key": "+3% Blast Radius on Specialized Launchers", "value": 0 },
-      { "key": "<LINE_SEPARATOR>", "value": 0 },
-      { "key": "Melee kills knockdown enemies within 2.5m", "value": 0 }
+      { "key": "+3% Blast Radius on Specialized Launchers" },
+      { "key": "<LINE_SEPARATOR>" },
+      { "key": "Melee kills knockdown enemies within 2.5m" }
     ],
     "polarity": "-",
     "rarity": "r",
@@ -6513,7 +6267,7 @@
     "type": "MELEE",
     "props": [
       { "key": "1", "value": 14 },
-      { "key": "+10% Charge Attack Speed", "value": 0 }
+      { "key": "+10% Charge Attack Speed" }
     ],
     "polarity": "r",
     "rarity": "r",
@@ -6524,7 +6278,7 @@
     "name": "EMP Aura",
     "type": "AURA",
     "props": [
-      { "key": "Corpus enemies have reduced Accuracy.", "value": 0 },
+      { "key": "Corpus enemies have reduced Accuracy." },
       { "key": "eac", "value": -2.5 }
     ],
     "polarity": "d",
@@ -6536,7 +6290,7 @@
     "name": "Sprint Boost",
     "type": "AURA",
     "props": [
-      { "key": "Sprint speed increased.", "value": 0 },
+      { "key": "Sprint speed increased." },
       { "key": "f", "value": 2.5 }
     ],
     "polarity": "-",
@@ -6548,7 +6302,7 @@
     "name": "Dead Eye",
     "type": "AURA",
     "props": [
-      { "key": "Sniper Rifle damage increased.", "value": 0 },
+      { "key": "Sniper Rifle damage increased." },
       { "key": "D", "value": 8.8 }
     ],
     "polarity": "r",
@@ -6560,7 +6314,7 @@
     "name": "Sniper Scavenger",
     "type": "AURA",
     "props": [
-      { "key": "Increased Sniper Ammo recovery.", "value": 0 },
+      { "key": "Increased Sniper Ammo recovery." },
       { "key": "ap", "value": 25 }
     ],
     "polarity": "-",
@@ -6572,7 +6326,7 @@
     "name": "Shotgun Amp",
     "type": "AURA",
     "props": [
-      { "key": "Shotgun damage increased.", "value": 0 },
+      { "key": "Shotgun damage increased." },
       { "key": "D", "value": 3 }
     ],
     "polarity": "r",
@@ -6584,7 +6338,7 @@
     "name": "Shotgun Scavenger",
     "type": "AURA",
     "props": [
-      { "key": "Increased Shotgun Ammo recovery.", "value": 0 },
+      { "key": "Increased Shotgun Ammo recovery." },
       { "key": "ap", "value": 25 }
     ],
     "polarity": "-",
@@ -6596,7 +6350,7 @@
     "name": "Rifle Amp",
     "type": "AURA",
     "props": [
-      { "key": "Rifle damage increased.", "value": 0 },
+      { "key": "Rifle damage increased." },
       { "key": "D", "value": 4.5 }
     ],
     "polarity": "r",
@@ -6608,7 +6362,7 @@
     "name": "Rifle Scavenger",
     "type": "AURA",
     "props": [
-      { "key": "Increased Rifle Ammo recovery.", "value": 0 },
+      { "key": "Increased Rifle Ammo recovery." },
       { "key": "ap", "value": 25 }
     ],
     "polarity": "-",
@@ -6620,7 +6374,7 @@
     "name": "Toxin Resistance",
     "type": "AURA",
     "props": [
-      { "key": "Reduced Toxin damage.", "value": 0 },
+      { "key": "Reduced Toxin damage." },
       { "key": "pr", "value": 2.5 }
     ],
     "polarity": "d",
@@ -6632,7 +6386,7 @@
     "name": "Pistol Amp",
     "type": "AURA",
     "props": [
-      { "key": "Pistol damage increased.", "value": 0 },
+      { "key": "Pistol damage increased." },
       { "key": "D", "value": 4.5 }
     ],
     "polarity": "r",
@@ -6644,7 +6398,7 @@
     "name": "Pistol Scavenger",
     "type": "AURA",
     "props": [
-      { "key": "Increased Pistol Ammo recovery.", "value": 0 },
+      { "key": "Increased Pistol Ammo recovery." },
       { "key": "ap", "value": 25 }
     ],
     "polarity": "-",
@@ -6656,7 +6410,7 @@
     "name": "Steel Charge",
     "type": "AURA",
     "props": [
-      { "key": "Melee Weapon damage increased.", "value": 0 },
+      { "key": "Melee Weapon damage increased." },
       { "key": "K", "value": 10 }
     ],
     "polarity": "r",
@@ -6668,7 +6422,7 @@
     "name": "Loot Detector",
     "type": "AURA",
     "props": [
-      { "key": "Minimap shows loot crates.", "value": 0 },
+      { "key": "Minimap shows loot crates." },
       { "key": "lr", "value": 5 }
     ],
     "polarity": "-",
@@ -6680,7 +6434,7 @@
     "name": "Speed Holster",
     "type": "AURA",
     "props": [
-      { "key": "Increases weapon draw and holstering speed.", "value": 0 },
+      { "key": "Increases weapon draw and holstering speed." },
       { "key": "hr", "value": 20 }
     ],
     "polarity": "-",
@@ -6692,7 +6446,7 @@
     "name": "Rejuvenation",
     "type": "AURA",
     "props": [
-      { "key": "Team Health regenerates.", "value": 0 },
+      { "key": "Team Health regenerates." },
       { "key": "hps", "value": 0.5 }
     ],
     "polarity": "d",
@@ -6704,7 +6458,7 @@
     "name": "Physique",
     "type": "AURA",
     "props": [
-      { "key": "Maximum health increased.", "value": 0 },
+      { "key": "Maximum health increased." },
       { "key": "h", "value": 15 }
     ],
     "polarity": "d",
@@ -6716,7 +6470,7 @@
     "name": "Energy Siphon",
     "type": "AURA",
     "props": [
-      { "key": "Warframe Energy regenerates.", "value": 0 },
+      { "key": "Warframe Energy regenerates." },
       { "key": "es", "value": 0.1 }
     ],
     "polarity": "-",
@@ -6728,7 +6482,7 @@
     "name": "Enemy Radar",
     "type": "AURA",
     "props": [
-      { "key": "Enemies appear on Minimap.", "value": 0 },
+      { "key": "Enemies appear on Minimap." },
       { "key": "er", "value": 5 }
     ],
     "polarity": "-",
@@ -6740,7 +6494,7 @@
     "name": "Infested Impedance",
     "type": "AURA",
     "props": [
-      { "key": "Reduces speed of Infested enemies.", "value": 0 },
+      { "key": "Reduces speed of Infested enemies." },
       { "key": "esp", "value": -3 }
     ],
     "polarity": "d",
@@ -6751,10 +6505,7 @@
   {
     "name": "Shield Disruption",
     "type": "AURA",
-    "props": [
-      { "key": "Enemy shields reduced.", "value": 0 },
-      { "key": "s", "value": -4 }
-    ],
+    "props": [{ "key": "Enemy shields reduced." }, { "key": "s", "value": -4 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": -2,
@@ -6763,10 +6514,7 @@
   {
     "name": "Corrosive Projection",
     "type": "AURA",
-    "props": [
-      { "key": "Enemy armor reduced.", "value": 0 },
-      { "key": "a", "value": -5 }
-    ],
+    "props": [{ "key": "Enemy armor reduced." }, { "key": "a", "value": -5 }],
     "polarity": "-",
     "rarity": "c",
     "baseDrain": -2,
@@ -6795,8 +6543,7 @@
     "type": "AURA",
     "props": [
       {
-        "key": "Charge attacks get +10% Status Chance and Status Damage but drains 15 Shields per hit.",
-        "value": 0
+        "key": "Charge attacks get +10% Status Chance and Status Damage but drains 15 Shields per hit."
       }
     ],
     "polarity": "-",
@@ -6819,8 +6566,7 @@
     "props": [
       { "key": "onAbilityCast" },
       {
-        "key": "Converts 25% of Energy spent to Shields while Overshields are inactive.",
-        "value": 0
+        "key": "Converts 25% of Energy spent to Shields while Overshields are inactive."
       }
     ],
     "polarity": "=",
@@ -7349,10 +7095,7 @@
     "name": "Peculiar Growth",
     "type": "WARFRAME",
     "props": [
-      {
-        "key": "Damaging an enemy will inflate the body part hit for 1s.",
-        "value": 0
-      }
+      { "key": "Damaging an enemy will inflate the body part hit for 1s." }
     ],
     "polarity": "-",
     "rarity": "c",
@@ -7363,10 +7106,7 @@
     "name": "Peculiar Bloom",
     "type": "WARFRAME",
     "props": [
-      {
-        "key": "Critical hits cause flowers to grow from the wounds.",
-        "value": 0
-      }
+      { "key": "Critical hits cause flowers to grow from the wounds." }
     ],
     "polarity": "-",
     "rarity": "c",
@@ -7378,8 +7118,7 @@
     "type": "SENTINEL",
     "props": [
       {
-        "key": "Upon completing research on an enemy, subsequent scans will reveal their weak points.",
-        "value": 0
+        "key": "Upon completing research on an enemy, subsequent scans will reveal their weak points."
       }
     ],
     "polarity": "y",
@@ -7391,10 +7130,7 @@
     "name": "Vaporize",
     "type": "SENTINEL",
     "props": [
-      {
-        "key": "Sentinel will deal 150 Damage to an enemy within 2.3m.",
-        "value": 0
-      }
+      { "key": "Sentinel will deal 150 Damage to an enemy within 2.3m." }
     ],
     "polarity": "y",
     "rarity": "n",
@@ -7406,8 +7142,7 @@
     "type": "SENTINEL",
     "props": [
       {
-        "key": "6.5m Companion Gather-Link. Detects and collects items, including mods.",
-        "value": 0
+        "key": "6.5m Companion Gather-Link. Detects and collects items, including mods."
       }
     ],
     "polarity": "y",
@@ -7419,10 +7154,7 @@
     "name": "Thumper",
     "type": "SENTINEL",
     "props": [
-      {
-        "key": "Djinn will attack the first visible enemy within 35m.",
-        "value": 0
-      }
+      { "key": "Djinn will attack the first visible enemy within 35m." }
     ],
     "polarity": "y",
     "rarity": "n",
@@ -7434,8 +7166,7 @@
     "type": "SENTINEL",
     "props": [
       {
-        "key": "Causes the Helios Sentinel to attack targets within 10m with 1 glaives.",
-        "value": 0
+        "key": "Causes the Helios Sentinel to attack targets within 10m with 1 glaives."
       }
     ],
     "polarity": "y",
@@ -7448,8 +7179,7 @@
     "type": "SENTINEL",
     "props": [
       {
-        "key": "Every 10s, Sentinel will continually zap an enemy within 15m, trapping them in a stunned state.",
-        "value": 0
+        "key": "Every 10s, Sentinel will continually zap an enemy within 15m, trapping them in a stunned state."
       }
     ],
     "polarity": "y",
@@ -7462,8 +7192,7 @@
     "type": "SENTINEL",
     "props": [
       {
-        "key": "Blast enemies within 10m, converting 50 Damage into Shields for the Warframe.",
-        "value": 0
+        "key": "Blast enemies within 10m, converting 50 Damage into Shields for the Warframe."
       }
     ],
     "polarity": "y",
@@ -7475,10 +7204,7 @@
     "name": "Assault Mode",
     "type": "SENTINEL",
     "props": [
-      {
-        "key": "Sentinel will attack first visible enemy within 17.5m.",
-        "value": 0
-      }
+      { "key": "Sentinel will attack first visible enemy within 17.5m." }
     ],
     "polarity": "y",
     "rarity": "n",
@@ -7490,8 +7216,7 @@
     "type": "SENTINEL",
     "props": [
       {
-        "key": "Creates a shield with 100 Health around the player when they are reviving fallen allies.",
-        "value": 0
+        "key": "Creates a shield with 100 Health around the player when they are reviving fallen allies."
       }
     ],
     "polarity": "d",
@@ -7504,8 +7229,7 @@
     "type": "SENTINEL",
     "props": [
       {
-        "key": "Sentinel takes 7s to revive its downed owner to 25% health and shields, destroying itself after the process.",
-        "value": 0
+        "key": "Sentinel takes 7s to revive its downed owner to 25% health and shields, destroying itself after the process."
       }
     ],
     "polarity": "y",
@@ -7518,8 +7242,7 @@
     "type": "SENTINEL",
     "props": [
       {
-        "key": "Sentinel will not attack an enemy unless that enemy has attacked the Sentinel's master within 5.8m.",
-        "value": 0
+        "key": "Sentinel will not attack an enemy unless that enemy has attacked the Sentinel's master within 5.8m."
       }
     ],
     "polarity": "y",
@@ -7531,10 +7254,7 @@
     "name": "Reawaken",
     "type": "SENTINEL",
     "props": [
-      {
-        "key": "Upon death, automatically revives itself after 165s.",
-        "value": 0
-      }
+      { "key": "Upon death, automatically revives itself after 165s." }
     ],
     "polarity": "y",
     "rarity": "r",
@@ -7546,8 +7266,7 @@
     "type": "SENTINEL",
     "props": [
       {
-        "key": "If killed, regenerates 1x with 58% Max Health and is invulnerable for 1s.",
-        "value": 0
+        "key": "If killed, regenerates 1x with 58% Max Health and is invulnerable for 1s."
       }
     ],
     "polarity": "y",
@@ -7560,8 +7279,7 @@
     "type": "SENTINEL",
     "props": [
       {
-        "key": "Sentinel prevents Status Effects from applying to its owner once every 15s.",
-        "value": 0
+        "key": "Sentinel prevents Status Effects from applying to its owner once every 15s."
       }
     ],
     "polarity": "y",
@@ -7574,8 +7292,7 @@
     "type": "SENTINEL",
     "props": [
       {
-        "key": "If killed, regenerates 1x with 50% Max Health and is invulnerable for 1s.",
-        "value": 0
+        "key": "If killed, regenerates 1x with 50% Max Health and is invulnerable for 1s."
       }
     ],
     "polarity": "y",
@@ -7586,7 +7303,7 @@
   {
     "name": "Looter",
     "type": "SENTINEL",
-    "props": [{ "key": "Destroys loot crates within 4.5m.", "value": 0 }],
+    "props": [{ "key": "Destroys loot crates within 4.5m." }],
     "polarity": "y",
     "rarity": "r",
     "baseDrain": 2,
@@ -7597,8 +7314,7 @@
     "type": "SENTINEL",
     "props": [
       {
-        "key": "Resource containers within 15m are revealed on the Minimap for 2s every 30s.",
-        "value": 0
+        "key": "Resource containers within 15m are revealed on the Minimap for 2s every 30s."
       }
     ],
     "polarity": "y",
@@ -7611,8 +7327,7 @@
     "type": "SENTINEL",
     "props": [
       {
-        "key": "Increases Ammo Capacity by 5% and converts Ammo Pickups into ammo for equipped weapons after 5s.",
-        "value": 0
+        "key": "Increases Ammo Capacity by 5% and converts Ammo Pickups into ammo for equipped weapons after 5s."
       }
     ],
     "polarity": "y",
@@ -7624,10 +7339,7 @@
     "name": "Energy Generator",
     "type": "SENTINEL",
     "props": [
-      {
-        "key": "Dethcube drops an Energy Orb after assisting in 15 kills.",
-        "value": 0
-      }
+      { "key": "Dethcube drops an Energy Orb after assisting in 15 kills." }
     ],
     "polarity": "y",
     "rarity": "r",
@@ -7639,8 +7351,7 @@
     "type": "SENTINEL",
     "props": [
       {
-        "key": "Every 12m traversed by Wall Running regenerates +10 Health over 1s. This effect can stack up to 3x.",
-        "value": 0
+        "key": "Every 12m traversed by Wall Running regenerates +10 Health over 1s. This effect can stack up to 3x."
       }
     ],
     "polarity": "y",
@@ -7653,8 +7364,7 @@
     "type": "SENTINEL",
     "props": [
       {
-        "key": "Sentinel charges a powerful shot and fires at the first enemy within 40.8m.",
-        "value": 0
+        "key": "Sentinel charges a powerful shot and fires at the first enemy within 40.8m."
       }
     ],
     "polarity": "y",
@@ -7665,9 +7375,7 @@
   {
     "name": "Guardian",
     "type": "SENTINEL",
-    "props": [
-      { "key": "Boosts owner's shield by 58% when it runs out.", "value": 0 }
-    ],
+    "props": [{ "key": "Boosts owner's shield by 58% when it runs out." }],
     "polarity": "y",
     "rarity": "n",
     "baseDrain": 2,
@@ -7678,8 +7386,7 @@
     "type": "SENTINEL",
     "props": [
       {
-        "key": "When Ghost invisibility is broken, Shade's owner is granted +30% Weapon Damage for 3s.",
-        "value": 0
+        "key": "When Ghost invisibility is broken, Shade's owner is granted +30% Weapon Damage for 3s."
       }
     ],
     "polarity": "y",
@@ -7692,8 +7399,7 @@
     "type": "SENTINEL",
     "props": [
       {
-        "key": "Cloaks owner when enemies are within 5.8m. The cloak is disrupted if owner attacks.",
-        "value": 0
+        "key": "Cloaks owner when enemies are within 5.8m. The cloak is disrupted if owner attacks."
       }
     ],
     "polarity": "y",
@@ -7706,8 +7412,7 @@
     "type": "SENTINEL",
     "props": [
       {
-        "key": "Unleashes a 6.0m radial knockdown when multiple enemies are nearby, dealing 6.0 Damage.",
-        "value": 0
+        "key": "Unleashes a 6.0m radial knockdown when multiple enemies are nearby, dealing 6.0 Damage."
       }
     ],
     "polarity": "y",
@@ -7720,8 +7425,7 @@
     "type": "SENTINEL",
     "props": [
       {
-        "key": "Sentinel has a 3m freeze aura, slowing incoming enemies by 10%.",
-        "value": 0
+        "key": "Sentinel has a 3m freeze aura, slowing incoming enemies by 10%."
       }
     ],
     "polarity": "y",
@@ -7734,8 +7438,7 @@
     "type": "SENTINEL",
     "props": [
       {
-        "key": "Helios Sentinel will scan objects and enemies within 20m over 5s. This consumes codex scanner charges.",
-        "value": 0
+        "key": "Helios Sentinel will scan objects and enemies within 20m over 5s. This consumes codex scanner charges."
       }
     ],
     "polarity": "y",
@@ -7748,8 +7451,7 @@
     "type": "SENTINEL",
     "props": [
       {
-        "key": "8.5m Companion Gather-Link. Detects and collects items, including mods.",
-        "value": 0
+        "key": "8.5m Companion Gather-Link. Detects and collects items, including mods."
       }
     ],
     "polarity": "y",
@@ -7762,8 +7464,7 @@
     "type": "SENTINEL",
     "props": [
       {
-        "key": "Enemies within 10m will be attracted. Once they come within 3.5m, explode for 100 Damage.",
-        "value": 0
+        "key": "Enemies within 10m will be attracted. Once they come within 3.5m, explode for 100 Damage."
       }
     ],
     "polarity": "y",
@@ -7776,8 +7477,7 @@
     "type": "SENTINEL",
     "props": [
       {
-        "key": "Sentinel will zap up to 2 enemies within 10m, dealing 100 <DT_ELECTRICITY>Electricity Damage with a 10% Status Chance.",
-        "value": 0
+        "key": "Sentinel will zap up to 2 enemies within 10m, dealing 100 <DT_ELECTRICITY>Electricity Damage with a 10% Status Chance."
       }
     ],
     "polarity": "y",
@@ -7788,9 +7488,7 @@
   {
     "name": "Anti-Grav Array",
     "type": "SENTINEL",
-    "props": [
-      { "key": "Increase height of owner's jumps by +10%.", "value": 0 }
-    ],
+    "props": [{ "key": "Increase height of owner's jumps by +10%." }],
     "polarity": "y",
     "rarity": "r",
     "baseDrain": 4,
@@ -7801,8 +7499,7 @@
     "type": "SENTINEL",
     "props": [
       {
-        "key": "Sentinel will occasionally heal its owner, restoring 2% Health over 4s.",
-        "value": 0
+        "key": "Sentinel will occasionally heal its owner, restoring 2% Health over 4s."
       }
     ],
     "polarity": "y",
@@ -7815,8 +7512,7 @@
     "type": "SENTINEL",
     "props": [
       {
-        "key": "Increases Max Shields by 10% and Shield Regeneration by 10% for 5s.",
-        "value": 0
+        "key": "Increases Max Shields by 10% and Shield Regeneration by 10% for 5s."
       }
     ],
     "polarity": "y",
@@ -7828,8 +7524,8 @@
     "name": "Tractor Beam",
     "type": "SENTINEL",
     "props": [
-      { "key": "+20% Aim Glide Duration", "value": 0 },
-      { "key": "-12.5% Gravity", "value": 0 }
+      { "key": "+20% Aim Glide Duration" },
+      { "key": "-12.5% Gravity" }
     ],
     "polarity": "y",
     "rarity": "n",
@@ -7841,8 +7537,7 @@
     "type": "SENTINEL",
     "props": [
       {
-        "key": "Deploys a mine that tethers all enemies in 5m. After 3s, all enemies still in range get pulled to the mine.",
-        "value": 0
+        "key": "Deploys a mine that tethers all enemies in 5m. After 3s, all enemies still in range get pulled to the mine."
       }
     ],
     "polarity": "y",
@@ -7855,8 +7550,7 @@
     "type": "SENTINEL",
     "props": [
       {
-        "key": "Creates a stasis field for 5s. While inside the field, all enemy projectiles move 15% slower and deal 10% less Damage.",
-        "value": 0
+        "key": "Creates a stasis field for 5s. While inside the field, all enemy projectiles move 15% slower and deal 10% less Damage."
       }
     ],
     "polarity": "y",
@@ -7869,8 +7563,7 @@
     "type": "SENTINEL",
     "props": [
       {
-        "key": "Readies a shockwave every 60s that knocks down nearby enemies.",
-        "value": 0
+        "key": "Readies a shockwave every 60s that knocks down nearby enemies."
       }
     ],
     "polarity": "y",
@@ -7883,8 +7576,7 @@
     "type": "SENTINEL",
     "props": [
       {
-        "key": "A grenade that reverses gravity in a 1m radius, inflicting 20 <DT_IMPACT>Impact Damage. Target sustains additional damage based on the amount sustained while airborne.",
-        "value": 0
+        "key": "A grenade that reverses gravity in a 1m radius, inflicting 20 <DT_IMPACT>Impact Damage. Target sustains additional damage based on the amount sustained while airborne."
       }
     ],
     "polarity": "y",
@@ -7897,8 +7589,7 @@
     "type": "SENTINEL",
     "props": [
       {
-        "key": "Auto-hacks consoles over 12s. 5% chance to mind control basic robotic enemies and turrets in 30m for 4s after Hacking.",
-        "value": 0
+        "key": "Auto-hacks consoles over 12s. 5% chance to mind control basic robotic enemies and turrets in 30m for 4s after Hacking."
       }
     ],
     "polarity": "y",
@@ -7911,8 +7602,7 @@
     "type": "KUBROW",
     "props": [
       {
-        "key": "The kubrow grapples a VIP target within 35m, forcing them to the ground.",
-        "value": 0
+        "key": "The kubrow grapples a VIP target within 35m, forcing them to the ground."
       }
     ],
     "polarity": "y",
@@ -7924,10 +7614,7 @@
     "name": "Scavenge",
     "type": "SENTINEL",
     "props": [
-      {
-        "key": "+15% chance for the pet to pry open a locked locker.",
-        "value": 0
-      }
+      { "key": "+15% chance for the pet to pry open a locked locker." }
     ],
     "polarity": "y",
     "rarity": "n",
@@ -7939,8 +7626,7 @@
     "type": "KUBROW",
     "props": [
       {
-        "key": "The kubrow comes to the defense of its master, replenishing their shields by 91.",
-        "value": 0
+        "key": "The kubrow comes to the defense of its master, replenishing their shields by 91."
       }
     ],
     "polarity": "y",
@@ -7953,8 +7639,7 @@
     "type": "SENTINEL",
     "props": [
       {
-        "key": "Creates a shield with 100 Health around the player when they are reviving fallen allies.",
-        "value": 0
+        "key": "Creates a shield with 100 Health around the player when they are reviving fallen allies."
       }
     ],
     "polarity": "d",
@@ -7967,8 +7652,7 @@
     "type": "KUBROW",
     "props": [
       {
-        "key": "Kubrow has 7.5% chance to scavenge additional loot from a fallen enemy or containers within 5m, every 10s.",
-        "value": 0
+        "key": "Kubrow has 7.5% chance to scavenge additional loot from a fallen enemy or containers within 5m, every 10s."
       }
     ],
     "polarity": "y",
@@ -7981,8 +7665,7 @@
     "type": "HELMINTH CHARGER",
     "props": [
       {
-        "key": "Helminth Charger whips a proboscis out at an enemy within 15m, pulling them back and dealing 25 damage.",
-        "value": 0
+        "key": "Helminth Charger whips a proboscis out at an enemy within 15m, pulling them back and dealing 25 damage."
       }
     ],
     "polarity": "y",
@@ -7995,8 +7678,7 @@
     "type": "KUBROW",
     "props": [
       {
-        "key": "The kubrow cries out with a blood-curdling howl that strikes fear into 5 enemies within 4m for 6s.",
-        "value": 0
+        "key": "The kubrow cries out with a blood-curdling howl that strikes fear into 5 enemies within 4m for 6s."
       }
     ],
     "polarity": "y",
@@ -8009,8 +7691,7 @@
     "type": "KUBROW",
     "props": [
       {
-        "key": "The kubrow bites the hand of an enemy within 10m, causing them to drop their weapon.",
-        "value": 0
+        "key": "The kubrow bites the hand of an enemy within 10m, causing them to drop their weapon."
       }
     ],
     "polarity": "y",
@@ -8022,11 +7703,8 @@
     "name": "Dig",
     "type": "KUBROW",
     "props": [
-      {
-        "key": "The kubrow sniffs out buried objects and digs them up.",
-        "value": 0
-      },
-      { "key": "+45% Success Chance", "value": 0 }
+      { "key": "The kubrow sniffs out buried objects and digs them up." },
+      { "key": "+45% Success Chance" }
     ],
     "polarity": "y",
     "rarity": "r",
@@ -8038,8 +7716,7 @@
     "type": "KUBROW",
     "props": [
       {
-        "key": "The kubrow cloaks itself and its master to stalk down its prey when they are within 14m.",
-        "value": 0
+        "key": "The kubrow cloaks itself and its master to stalk down its prey when they are within 14m."
       }
     ],
     "polarity": "y",
@@ -8052,8 +7729,7 @@
     "type": "KUBROW",
     "props": [
       {
-        "key": "The kubrow charges ahead to attack an enemy, dealing 35 Damage to all in its path.",
-        "value": 0
+        "key": "The kubrow charges ahead to attack an enemy, dealing 35 Damage to all in its path."
       }
     ],
     "polarity": "y",
@@ -8066,8 +7742,7 @@
     "type": "HELMINTH CHARGER",
     "props": [
       {
-        "key": "The Helminth Charger rushes an enemy, dealing 35 Damage to all in its path.",
-        "value": 0
+        "key": "The Helminth Charger rushes an enemy, dealing 35 Damage to all in its path."
       }
     ],
     "polarity": "y",
@@ -8080,8 +7755,7 @@
     "type": "KAVAT",
     "props": [
       {
-        "key": "The Kavat alerts their master of nearby enemies within 25m for 10s.",
-        "value": 0
+        "key": "The Kavat alerts their master of nearby enemies within 25m for 10s."
       }
     ],
     "polarity": "y",
@@ -8094,8 +7768,7 @@
     "type": "KAVAT",
     "props": [
       {
-        "key": "Strikes 1 additional enemies and increases Attack Range by 0.5m.",
-        "value": 0
+        "key": "Strikes 1 additional enemies and increases Attack Range by 0.5m."
       }
     ],
     "polarity": "r",
@@ -8108,8 +7781,7 @@
     "type": "KAVAT",
     "props": [
       {
-        "key": "A vicious attack dealing 150% damage that sunders armor by 30% and rends flesh.",
-        "value": 0
+        "key": "A vicious attack dealing 150% damage that sunders armor by 30% and rends flesh."
       }
     ],
     "polarity": "r",
@@ -8122,8 +7794,7 @@
     "type": "KAVAT",
     "props": [
       {
-        "key": "Adarza Kavat has a 10% chance to reflect damage back to an enemy, amplifying it by 15%.",
-        "value": 0
+        "key": "Adarza Kavat has a 10% chance to reflect damage back to an enemy, amplifying it by 15%."
       }
     ],
     "polarity": "y",
@@ -8136,8 +7807,7 @@
     "type": "KAVAT",
     "props": [
       {
-        "key": "The Kavat pounces at an enemy, dealing 60% Damage and stunning them for a short duration.",
-        "value": 0
+        "key": "The Kavat pounces at an enemy, dealing 60% Damage and stunning them for a short duration."
       }
     ],
     "polarity": "r",
@@ -8150,8 +7820,7 @@
     "type": "KAVAT",
     "props": [
       {
-        "key": "The Kavat marks their territory, pacifying any wild creature within 10m for 5s.",
-        "value": 0
+        "key": "The Kavat marks their territory, pacifying any wild creature within 10m for 5s."
       }
     ],
     "polarity": "y",
@@ -8164,8 +7833,7 @@
     "type": "KAVAT",
     "props": [
       {
-        "key": "Smeeta Kavat has a 7% chance every 30s to bestow its owner with good fortune.",
-        "value": 0
+        "key": "Smeeta Kavat has a 7% chance every 30s to bestow its owner with good fortune."
       }
     ],
     "polarity": "y",
@@ -8178,8 +7846,7 @@
     "type": "KAVAT",
     "props": [
       {
-        "key": "Allows Smeeta Kavat to become invisible for 6s every 10s while a decoy kavat draws fire. Decoy has a 0% chance to evade damage.",
-        "value": 0
+        "key": "Allows Smeeta Kavat to become invisible for 6s every 10s while a decoy kavat draws fire. Decoy has a 0% chance to evade damage."
       }
     ],
     "polarity": "y",
@@ -8192,8 +7859,7 @@
     "type": "KAVAT",
     "props": [
       {
-        "key": "Adarza Kavat grants 15% increased critical chance for 4s to allies within 15m every 50s.",
-        "value": 0
+        "key": "Adarza Kavat grants 15% increased critical chance for 4s to allies within 15m every 50s."
       }
     ],
     "polarity": "y",
@@ -8206,8 +7872,7 @@
     "type": "WARFRAME,EQUINOX",
     "props": [
       {
-        "key": "Rest & Rage Augment: Killing an affected enemy causes the effect to spread to enemies within 2m for 40% of the remaining duration.",
-        "value": 0
+        "key": "Rest & Rage Augment: Killing an affected enemy causes the effect to spread to enemies within 2m for 40% of the remaining duration."
       }
     ],
     "polarity": "=",
@@ -8220,8 +7885,7 @@
     "type": "WARFRAME,EQUINOX",
     "props": [
       {
-        "key": "Metamorphosis Augment: Switching to Day-form staggers enemies within 3m and knocks them down when switching to Night-form.",
-        "value": 0
+        "key": "Metamorphosis Augment: Switching to Day-form staggers enemies within 3m and knocks them down when switching to Night-form."
       }
     ],
     "polarity": "=",
@@ -8234,8 +7898,7 @@
     "type": "WARFRAME,EQUINOX",
     "props": [
       {
-        "key": "Metamorphosis Augment: Equinox's other half breaks free for 7s, dealing 100% Damage.",
-        "value": 0
+        "key": "Metamorphosis Augment: Equinox's other half breaks free for 7s, dealing 100% Damage."
       }
     ],
     "polarity": "=",
@@ -8248,8 +7911,7 @@
     "type": "WARFRAME,EQUINOX",
     "props": [
       {
-        "key": "Mend & Maim Augment: 50% of charge is conserved when switching between forms.",
-        "value": 0
+        "key": "Mend & Maim Augment: 50% of charge is conserved when switching between forms."
       }
     ],
     "polarity": "=",
@@ -8262,8 +7924,7 @@
     "type": "WARFRAME,EQUINOX",
     "props": [
       {
-        "key": "Pacify & Provoke Augment: Pacify converts damage done to allies into an aura that slows enemies by 20%. Provoke converts damage done to enemies into 6% extra Ability Strength.",
-        "value": 0
+        "key": "Pacify & Provoke Augment: Pacify converts damage done to allies into an aura that slows enemies by 20%. Provoke converts damage done to enemies into 6% extra Ability Strength."
       }
     ],
     "polarity": "=",
@@ -8276,8 +7937,7 @@
     "type": "WARFRAME,VOLT",
     "props": [
       {
-        "key": "Speed Augment: Running into an opponent increases the duration of Speed by 1s.",
-        "value": 0
+        "key": "Speed Augment: Running into an opponent increases the duration of Speed by 1s."
       }
     ],
     "polarity": "=",
@@ -8290,8 +7950,7 @@
     "type": "WARFRAME,VOLT",
     "props": [
       {
-        "key": "Speed Augment: Enemies touched while sprinting under the effects of Speed will take 75 <DT_ELECTRICITY>Electricity Damage with guaranteed proc.",
-        "value": 0
+        "key": "Speed Augment: Enemies touched while sprinting under the effects of Speed will take 75 <DT_ELECTRICITY>Electricity Damage with guaranteed proc."
       }
     ],
     "polarity": "=",
@@ -8304,8 +7963,7 @@
     "type": "WARFRAME,VOLT",
     "props": [
       {
-        "key": "Shock Augment: Casting on allies will add 50% <DT_ELECTRICITY>Electricity Damage to their attacks for 28s.",
-        "value": 0
+        "key": "Shock Augment: Casting on allies will add 50% <DT_ELECTRICITY>Electricity Damage to their attacks for 28s."
       }
     ],
     "polarity": "=",
@@ -8318,8 +7976,7 @@
     "type": "WARFRAME,VOLT",
     "props": [
       {
-        "key": "Electric Shield Augment: Allies that pass through have 35 Shields restored.",
-        "value": 0
+        "key": "Electric Shield Augment: Allies that pass through have 35 Shields restored."
       }
     ],
     "polarity": "=",
@@ -8332,8 +7989,7 @@
     "type": "WARFRAME,VOLT",
     "props": [
       {
-        "key": "Electric Shield Augment: Allies can pick up Electric Shield. 25% of damage absorbed will be added to Volt's Static Discharge.",
-        "value": 0
+        "key": "Electric Shield Augment: Allies can pick up Electric Shield. 25% of damage absorbed will be added to Volt's Static Discharge."
       }
     ],
     "polarity": "=",
@@ -8346,8 +8002,7 @@
     "type": "WARFRAME,VOLT",
     "props": [
       {
-        "key": "Discharge Augment: Converts 1.5% of Damage dealt into Shields split between Volt and Squadmates.",
-        "value": 0
+        "key": "Discharge Augment: Converts 1.5% of Damage dealt into Shields split between Volt and Squadmates."
       }
     ],
     "polarity": "=",
@@ -8360,8 +8015,7 @@
     "type": "WARFRAME,TRINITY",
     "props": [
       {
-        "key": "Well of Life Augment: On death, marked enemies will drop 1 Health Orbs with a 10% chance of dropping an Energy Orb.",
-        "value": 0
+        "key": "Well of Life Augment: On death, marked enemies will drop 1 Health Orbs with a 10% chance of dropping an Energy Orb."
       }
     ],
     "polarity": "=",
@@ -8374,8 +8028,7 @@
     "type": "WARFRAME,TRINITY",
     "props": [
       {
-        "key": "Link Augment: Reduces Armor Rating by 25% on enemies targeted by Link.",
-        "value": 0
+        "key": "Link Augment: Reduces Armor Rating by 25% on enemies targeted by Link."
       }
     ],
     "polarity": "=",
@@ -8388,8 +8041,7 @@
     "type": "WARFRAME,TRINITY",
     "props": [
       {
-        "key": "Energy Vampire Augment: Excess Energy replenishes Shields by 85%.",
-        "value": 0
+        "key": "Energy Vampire Augment: Excess Energy replenishes Shields by 85%."
       }
     ],
     "polarity": "=",
@@ -8402,8 +8054,7 @@
     "type": "WARFRAME,VAUBAN",
     "props": [
       {
-        "key": "Tesla Augment: Every pair of Teslas will connect forming a beam that will cause 100 <DT_SLASH>Slash Damage when contacted.",
-        "value": 0
+        "key": "Tesla Augment: Every pair of Teslas will connect forming a beam that will cause 100 <DT_SLASH>Slash Damage when contacted."
       }
     ],
     "polarity": "=",
@@ -8416,8 +8067,7 @@
     "type": "WARFRAME,VAUBAN",
     "props": [
       {
-        "key": "Vortex Augment: Vortex's duration is increased by 50% of its Maximum Duration for each additional Vortex thrown into it.",
-        "value": 0
+        "key": "Vortex Augment: Vortex's duration is increased by 50% of its Maximum Duration for each additional Vortex thrown into it."
       }
     ],
     "polarity": "=",
@@ -8430,8 +8080,7 @@
     "type": "WARFRAME,VAUBAN",
     "props": [
       {
-        "key": "Bastille Augment: Enemies within the Bastille have a 50% chance to be repelled every 4s.",
-        "value": 0
+        "key": "Bastille Augment: Enemies within the Bastille have a 50% chance to be repelled every 4s."
       }
     ],
     "polarity": "=",
@@ -8444,8 +8093,7 @@
     "type": "WARFRAME,ZEPHYR",
     "props": [
       {
-        "key": "Turbulence Augment: Turbulence increases Movement Speed by 20% and Projectile Speed by 50% for Zephyr and her allies.",
-        "value": 0
+        "key": "Turbulence Augment: Turbulence increases Movement Speed by 20% and Projectile Speed by 50% for Zephyr and her allies."
       }
     ],
     "polarity": "=",
@@ -8458,8 +8106,7 @@
     "type": "WARFRAME,ZEPHYR",
     "props": [
       {
-        "key": "Tornado Augment: Creates 2 additional tornadoes. All tornadoes are 50% their original size and won't pick up enemies.",
-        "value": 0
+        "key": "Tornado Augment: Creates 2 additional tornadoes. All tornadoes are 50% their original size and won't pick up enemies."
       }
     ],
     "polarity": "=",
@@ -8472,8 +8119,7 @@
     "type": "WARFRAME,ZEPHYR",
     "props": [
       {
-        "key": "Tail Wind Augment: Each enemy hit increases Tail Wind Damage by 30%. Damage resets upon landing.",
-        "value": 0
+        "key": "Tail Wind Augment: Each enemy hit increases Tail Wind Damage by 30%. Damage resets upon landing."
       }
     ],
     "polarity": "=",
@@ -8486,8 +8132,7 @@
     "type": "WARFRAME,SARYN",
     "props": [
       {
-        "key": "Toxic Lash Augment: Create 2m toxic clouds, dealing 100 <DT_POISON>Toxin/s for 8s with every kill. Damage is twice as strong for Melee kills.",
-        "value": 0
+        "key": "Toxic Lash Augment: Create 2m toxic clouds, dealing 100 <DT_POISON>Toxin/s for 8s with every kill. Damage is twice as strong for Melee kills."
       }
     ],
     "polarity": "=",
@@ -8500,8 +8145,7 @@
     "type": "WARFRAME,SARYN",
     "props": [
       {
-        "key": "Molt Augment: After casting Molt, Saryn regenerates 20 Health/s for 10s.",
-        "value": 0
+        "key": "Molt Augment: After casting Molt, Saryn regenerates 20 Health/s for 10s."
       }
     ],
     "polarity": "=",
@@ -8514,8 +8158,7 @@
     "type": "WARFRAME,SARYN",
     "props": [
       {
-        "key": "Spores Augment: Casting on allies will add 50% <DT_CORROSIVE>Corrosive Damage to their attacks for 28s.",
-        "value": 0
+        "key": "Spores Augment: Casting on allies will add 50% <DT_CORROSIVE>Corrosive Damage to their attacks for 28s."
       }
     ],
     "polarity": "=",
@@ -8528,8 +8171,7 @@
     "type": "WARFRAME,INAROS",
     "props": [
       {
-        "key": "Scarab Swarm Augment: Scarab Armor protects Inaros from Status Effects, consuming 6% Bonus Armor for each effect resisted.",
-        "value": 0
+        "key": "Scarab Swarm Augment: Scarab Armor protects Inaros from Status Effects, consuming 6% Bonus Armor for each effect resisted."
       }
     ],
     "polarity": "=",
@@ -8542,8 +8184,7 @@
     "type": "WARFRAME,INAROS",
     "props": [
       {
-        "key": "Sandstorm Augment: Sandstorm has a 25% chance of inflicting Status Effects based on the Damage Types and mods on equipped Melee Weapon.",
-        "value": 0
+        "key": "Sandstorm Augment: Sandstorm has a 25% chance of inflicting Status Effects based on the Damage Types and mods on equipped Melee Weapon."
       }
     ],
     "polarity": "=",
@@ -8556,8 +8197,7 @@
     "type": "WARFRAME,INAROS",
     "props": [
       {
-        "key": "Desiccation Augment: Killing a blinded enemy with a finisher has a 35% chance of summoning a Sand Shadow.",
-        "value": 0
+        "key": "Desiccation Augment: Killing a blinded enemy with a finisher has a 35% chance of summoning a Sand Shadow."
       }
     ],
     "polarity": "=",
@@ -8570,8 +8210,7 @@
     "type": "WARFRAME,RHINO",
     "props": [
       {
-        "key": "Rhino Stomp Augment: Iron Skin Health is replenished by 55 for each enemy affected.",
-        "value": 0
+        "key": "Rhino Stomp Augment: Iron Skin Health is replenished by 55 for each enemy affected."
       }
     ],
     "polarity": "=",
@@ -8584,8 +8223,7 @@
     "type": "WARFRAME,RHINO",
     "props": [
       {
-        "key": "Rhino Charge Augment: Each enemy hit increases Rhino's Armor Rating by 12% for 4s.",
-        "value": 0
+        "key": "Rhino Charge Augment: Each enemy hit increases Rhino's Armor Rating by 12% for 4s."
       }
     ],
     "polarity": "=",
@@ -8598,8 +8236,7 @@
     "type": "WARFRAME,RHINO",
     "props": [
       {
-        "key": "Roar Augment: Enemies within 10m will suffer from a <DT_PUNCTURE>Puncture Proc.",
-        "value": 0
+        "key": "Roar Augment: Enemies within 10m will suffer from a <DT_PUNCTURE>Puncture Proc."
       }
     ],
     "polarity": "=",
@@ -8612,8 +8249,7 @@
     "type": "WARFRAME,RHINO",
     "props": [
       {
-        "key": "Iron Skin Augment: Recasting Iron Skin will cause it to detonate, dealing 40% of its remaining Health as <DT_PUNCTURE>Puncture Damage, and knocking down enemies.",
-        "value": 0
+        "key": "Iron Skin Augment: Recasting Iron Skin will cause it to detonate, dealing 40% of its remaining Health as <DT_PUNCTURE>Puncture Damage, and knocking down enemies."
       }
     ],
     "polarity": "=",
@@ -8625,10 +8261,7 @@
     "name": "Blinding Reave",
     "type": "WARFRAME,REVENANT",
     "props": [
-      {
-        "key": "Reave Augment: Enemies hit are blinded by fog for 6s.",
-        "value": 0
-      }
+      { "key": "Reave Augment: Enemies hit are blinded by fog for 6s." }
     ],
     "polarity": "=",
     "rarity": "r",
@@ -8640,8 +8273,7 @@
     "type": "WARFRAME,IVARA",
     "props": [
       {
-        "key": "Prowl Augment: Ivara is able to bypass laser barriers and gains 10% Movement Speed.",
-        "value": 0
+        "key": "Prowl Augment: Ivara is able to bypass laser barriers and gains 10% Movement Speed."
       }
     ],
     "polarity": "=",
@@ -8654,8 +8286,7 @@
     "type": "WARFRAME,IVARA",
     "props": [
       {
-        "key": "Quiver Augment: Quiver fires three arrows and consumes 50 more Energy.",
-        "value": 0
+        "key": "Quiver Augment: Quiver fires three arrows and consumes 50 more Energy."
       }
     ],
     "polarity": "=",
@@ -8668,8 +8299,7 @@
     "type": "WARFRAME,IVARA",
     "props": [
       {
-        "key": "Quiver Augment: Dashwire grants allies 75% Critical Damage. Cloak arrow has a 50% chance to prevent Status Effects.",
-        "value": 0
+        "key": "Quiver Augment: Dashwire grants allies 75% Critical Damage. Cloak arrow has a 50% chance to prevent Status Effects."
       }
     ],
     "polarity": "=",
@@ -8682,8 +8312,7 @@
     "type": "WARFRAME,IVARA",
     "props": [
       {
-        "key": "Navigator Augment: Each hit increases the projectile's Critical Chance by 2.5% up to a max of 50%.",
-        "value": 0
+        "key": "Navigator Augment: Each hit increases the projectile's Critical Chance by 2.5% up to a max of 50%."
       }
     ],
     "polarity": "=",
@@ -8696,8 +8325,7 @@
     "type": "WARFRAME,IVARA",
     "props": [
       {
-        "key": "Artemis Bow Augment: Fires a single arrow that has +20% Critical Chance on Headshots and explodes in a 7m radius. Removes Punch Through.",
-        "value": 0
+        "key": "Artemis Bow Augment: Fires a single arrow that has +20% Critical Chance on Headshots and explodes in a 7m radius. Removes Punch Through."
       }
     ],
     "polarity": "=",
@@ -8710,8 +8338,7 @@
     "type": "WARFRAME,HARROW",
     "props": [
       {
-        "key": "Thurible Augment: Allies in range take 15% less Damage while channeling Thurible and grant 0.2 additional Energy charge whenever damaged.",
-        "value": 0
+        "key": "Thurible Augment: Allies in range take 15% less Damage while channeling Thurible and grant 0.2 additional Energy charge whenever damaged."
       }
     ],
     "polarity": "=",
@@ -8724,8 +8351,7 @@
     "type": "WARFRAME,HARROW",
     "props": [
       {
-        "key": "Covenant Augment: Headshot kills increase Critical Chance bonus duration by 1s.",
-        "value": 0
+        "key": "Covenant Augment: Headshot kills increase Critical Chance bonus duration by 1s."
       }
     ],
     "polarity": "=",
@@ -8738,8 +8364,7 @@
     "type": "WARFRAME,HYDROID",
     "props": [
       {
-        "key": "Tidal Surge Augment: Clears Status Effects and grants 3s of Proc Immunity for yourself and allies that come in contact with it.",
-        "value": 0
+        "key": "Tidal Surge Augment: Clears Status Effects and grants 3s of Proc Immunity for yourself and allies that come in contact with it."
       }
     ],
     "polarity": "=",
@@ -8752,8 +8377,7 @@
     "type": "WARFRAME,HYDROID",
     "props": [
       {
-        "key": "Undertow Augment: Allies can enter the pool to regain 15% Health every 1.5s, with each ally in the pool increasing Energy drain on Hydroid.",
-        "value": 0
+        "key": "Undertow Augment: Allies can enter the pool to regain 15% Health every 1.5s, with each ally in the pool increasing Energy drain on Hydroid."
       }
     ],
     "polarity": "=",
@@ -8766,8 +8390,7 @@
     "type": "WARFRAME,HYDROID",
     "props": [
       {
-        "key": "Tentacle Swarm Augment: Enemies held by tentacles have a 25% chance at additional drops.",
-        "value": 0
+        "key": "Tentacle Swarm Augment: Enemies held by tentacles have a 25% chance at additional drops."
       }
     ],
     "polarity": "=",
@@ -8780,8 +8403,7 @@
     "type": "WARFRAME,HYDROID",
     "props": [
       {
-        "key": "Tempest Barrage Augment: Each projectile has a 50% chance of inflicting a <DT_CORROSIVE>Corrosive Status Effect.",
-        "value": 0
+        "key": "Tempest Barrage Augment: Each projectile has a 50% chance of inflicting a <DT_CORROSIVE>Corrosive Status Effect."
       }
     ],
     "polarity": "=",
@@ -8794,8 +8416,7 @@
     "type": "WARFRAME,OBERON",
     "props": [
       {
-        "key": "Hallowed Ground Augment: The next time this ability is cast it will consume the Hallowed Ground, dealing the remaining damage in a burst with 30% Proc Chance of <DT_RADIATION>Radiation.",
-        "value": 0
+        "key": "Hallowed Ground Augment: The next time this ability is cast it will consume the Hallowed Ground, dealing the remaining damage in a burst with 30% Proc Chance of <DT_RADIATION>Radiation."
       }
     ],
     "polarity": "=",
@@ -8808,8 +8429,7 @@
     "type": "WARFRAME,OBERON",
     "props": [
       {
-        "key": "Smite Augment: Casting on allies will add 50% <DT_RADIATION>Radiation Damage to their attacks for 28s.",
-        "value": 0
+        "key": "Smite Augment: Casting on allies will add 50% <DT_RADIATION>Radiation Damage to their attacks for 28s."
       }
     ],
     "polarity": "=",
@@ -8822,8 +8442,7 @@
     "type": "WARFRAME,OBERON",
     "props": [
       {
-        "key": "Renewal Augment: Taking fatal damage while under the effects of Renewal will instead Heal you or allies to 20% Health. This effect triggers only once for each ally every 90s.",
-        "value": 0
+        "key": "Renewal Augment: Taking fatal damage while under the effects of Renewal will instead Heal you or allies to 20% Health. This effect triggers only once for each ally every 90s."
       }
     ],
     "polarity": "=",
@@ -8836,8 +8455,7 @@
     "type": "WARFRAME,OBERON",
     "props": [
       {
-        "key": "Reckoning Augment: Health Orbs become unusable by enemies for 2.5s.",
-        "value": 0
+        "key": "Reckoning Augment: Health Orbs become unusable by enemies for 2.5s."
       }
     ],
     "polarity": "=",
@@ -8850,8 +8468,7 @@
     "type": "WARFRAME,OBERON",
     "props": [
       {
-        "key": "Reckoning Augment: Enemies affected by Reckoning spawn zones that increase Armor by 150 for allies and inflicts 100 Damage to enemies over 7s.",
-        "value": 0
+        "key": "Reckoning Augment: Enemies affected by Reckoning spawn zones that increase Armor by 150 for allies and inflicts 100 Damage to enemies over 7s."
       }
     ],
     "polarity": "=",
@@ -8864,8 +8481,7 @@
     "type": "WARFRAME,ASH",
     "props": [
       {
-        "key": "Teleport Augment: Teleport will perform a Finisher on the target, dealing 125% Extra Damage. 50% of Energy cost is refunded on a kill.",
-        "value": 0
+        "key": "Teleport Augment: Teleport will perform a Finisher on the target, dealing 125% Extra Damage. 50% of Energy cost is refunded on a kill."
       }
     ],
     "polarity": "=",
@@ -8877,10 +8493,7 @@
     "name": "Tear Gas",
     "type": "WARFRAME,ASH",
     "props": [
-      {
-        "key": "Smoke Screen Augment: Blinds enemies within 1m for 3s.",
-        "value": 0
-      }
+      { "key": "Smoke Screen Augment: Blinds enemies within 1m for 3s." }
     ],
     "polarity": "=",
     "rarity": "r",
@@ -8890,9 +8503,7 @@
   {
     "name": "Smoke Shadow",
     "type": "WARFRAME,ASH",
-    "props": [
-      { "key": "Smoke Screen Augment: Conceals allies for 2s.", "value": 0 }
-    ],
+    "props": [{ "key": "Smoke Screen Augment: Conceals allies for 2s." }],
     "polarity": "=",
     "rarity": "r",
     "baseDrain": 6,
@@ -8903,8 +8514,7 @@
     "type": "WARFRAME,ASH",
     "props": [
       {
-        "key": "Blade Storm Augment: Melee multiplier lasts 50% longer before it resets.",
-        "value": 0
+        "key": "Blade Storm Augment: Melee multiplier lasts 50% longer before it resets."
       }
     ],
     "polarity": "=",
@@ -8917,8 +8527,7 @@
     "type": "WARFRAME,ASH",
     "props": [
       {
-        "key": "Shuriken Augment: Hits expose weaknesses on enemies, reducing their Armor by 35% for 2s.",
-        "value": 0
+        "key": "Shuriken Augment: Hits expose weaknesses on enemies, reducing their Armor by 35% for 2s."
       }
     ],
     "polarity": "=",
@@ -8931,8 +8540,7 @@
     "type": "WARFRAME,NEZHA",
     "props": [
       {
-        "key": "Fire Walker Augment: Accumulate 75% of the damage Fire Walker deals, unleashing it in a trail of fire that lasts 6s.",
-        "value": 0
+        "key": "Fire Walker Augment: Accumulate 75% of the damage Fire Walker deals, unleashing it in a trail of fire that lasts 6s."
       }
     ],
     "polarity": "=",
@@ -8945,8 +8553,7 @@
     "type": "WARFRAME,NEZHA",
     "props": [
       {
-        "key": "Warding Halo Augment: 35% of the casting cost returned based on how much protection is left.",
-        "value": 0
+        "key": "Warding Halo Augment: 35% of the casting cost returned based on how much protection is left."
       }
     ],
     "polarity": "=",
@@ -8959,8 +8566,7 @@
     "type": "WARFRAME,NEZHA",
     "props": [
       {
-        "key": "Warding Halo Augment: Can now be cast on allies with 20% effectiveness.",
-        "value": 0
+        "key": "Warding Halo Augment: Can now be cast on allies with 20% effectiveness."
       }
     ],
     "polarity": "=",
@@ -8973,8 +8579,7 @@
     "type": "WARFRAME,NEZHA",
     "props": [
       {
-        "key": "Blazing Chakram Augment: Each enemy hit increases the ring's Damage by 1.25x and the chance for enemies to drop Health Orbs on death by +0.10x.",
-        "value": 0
+        "key": "Blazing Chakram Augment: Each enemy hit increases the ring's Damage by 1.25x and the chance for enemies to drop Health Orbs on death by +0.10x."
       }
     ],
     "polarity": "=",
@@ -8987,8 +8592,7 @@
     "type": "WARFRAME,NEKROS",
     "props": [
       {
-        "key": "Terrify Augment: Affected enemies have 30% reduced Movement Speed.",
-        "value": 0
+        "key": "Terrify Augment: Affected enemies have 30% reduced Movement Speed."
       }
     ],
     "polarity": "=",
@@ -9000,10 +8604,7 @@
     "name": "Discharge Strike",
     "type": "WARFRAME,NEKROS",
     "props": [
-      {
-        "key": "Soul Punch Augment: Depletes up to 10 Energy from the target.",
-        "value": 0
-      }
+      { "key": "Soul Punch Augment: Depletes up to 10 Energy from the target." }
     ],
     "polarity": "=",
     "rarity": "r",
@@ -9015,8 +8616,7 @@
     "type": "WARFRAME,NEKROS",
     "props": [
       {
-        "key": "Soul Punch Augment: Use on a downed ally to revive him with 15% Health. Nekros's Energy will be consumed.",
-        "value": 0
+        "key": "Soul Punch Augment: Use on a downed ally to revive him with 15% Health. Nekros's Energy will be consumed."
       }
     ],
     "polarity": "=",
@@ -9029,8 +8629,7 @@
     "type": "WARFRAME,NEKROS",
     "props": [
       {
-        "key": "Desecrate Augment: No longer consumes Energy, but consumes 16 Health per corpse instead.",
-        "value": 0
+        "key": "Desecrate Augment: No longer consumes Energy, but consumes 16 Health per corpse instead."
       }
     ],
     "polarity": "=",
@@ -9043,8 +8642,7 @@
     "type": "WARFRAME,NEKROS",
     "props": [
       {
-        "key": "Shadows of the Dead Augment: Each Shadow within 50m take 3% of the Damage done to Nekros in his stead.",
-        "value": 0
+        "key": "Shadows of the Dead Augment: Each Shadow within 50m take 3% of the Damage done to Nekros in his stead."
       }
     ],
     "polarity": "=",
@@ -9057,8 +8655,7 @@
     "type": "WARFRAME,WUKONG",
     "props": [
       {
-        "key": "Primal Fury Augment: Killing an enemy increases Critical Chance by 6%. The increase decays by 1%/s",
-        "value": 0
+        "key": "Primal Fury Augment: Killing an enemy increases Critical Chance by 6%. The increase decays by 1%/s"
       }
     ],
     "polarity": "=",
@@ -9071,8 +8668,7 @@
     "type": "WARFRAME,WUKONG",
     "props": [
       {
-        "key": "Iron Jab Augment: Aiming Iron Jab at the ground launches Wukong into the air. Executing a Slam Attack increases Range by 8m and applies 300% Extra Damage.",
-        "value": 0
+        "key": "Iron Jab Augment: Aiming Iron Jab at the ground launches Wukong into the air. Executing a Slam Attack increases Range by 8m and applies 300% Extra Damage."
       }
     ],
     "polarity": "=",
@@ -9085,8 +8681,7 @@
     "type": "WARFRAME,WUKONG",
     "props": [
       {
-        "key": "Cloud Walker Augment: Allies within 2.5m of the cloud become invisible to enemies for 8s.",
-        "value": 0
+        "key": "Cloud Walker Augment: Allies within 2.5m of the cloud become invisible to enemies for 8s."
       }
     ],
     "polarity": "=",
@@ -9099,8 +8694,7 @@
     "type": "WARFRAME,LIMBO",
     "props": [
       {
-        "key": "Rift Surge Augment: Limbo deals 15% Extra Damage for each enemy affected by Rift Surge while in the rift.",
-        "value": 0
+        "key": "Rift Surge Augment: Limbo deals 15% Extra Damage for each enemy affected by Rift Surge while in the rift."
       }
     ],
     "polarity": "=",
@@ -9113,8 +8707,7 @@
     "type": "WARFRAME,LIMBO",
     "props": [
       {
-        "key": "Cataclysm Augment: Duration increased by 0.3s for each enemy killed.",
-        "value": 0
+        "key": "Cataclysm Augment: Duration increased by 0.3s for each enemy killed."
       }
     ],
     "polarity": "=",
@@ -9127,8 +8720,7 @@
     "type": "WARFRAME,LIMBO",
     "props": [
       {
-        "key": "Banish Augment: Allies banished to the rift will have 10% of their Maximum Health restored.",
-        "value": 0
+        "key": "Banish Augment: Allies banished to the rift will have 10% of their Maximum Health restored."
       }
     ],
     "polarity": "=",
@@ -9141,8 +8733,7 @@
     "type": "WARFRAME,MAG",
     "props": [
       {
-        "key": "Polarize Augment: Increases the time for the target's Shields to regenerate by 4s.",
-        "value": 0
+        "key": "Polarize Augment: Increases the time for the target's Shields to regenerate by 4s."
       }
     ],
     "polarity": "=",
@@ -9155,8 +8746,7 @@
     "type": "WARFRAME,MAG",
     "props": [
       {
-        "key": "Polarize Augment: Enemy weapons are jammed and robotics are disabled for 2s when hit by Polarize.",
-        "value": 0
+        "key": "Polarize Augment: Enemy weapons are jammed and robotics are disabled for 2s when hit by Polarize."
       }
     ],
     "polarity": "=",
@@ -9168,10 +8758,7 @@
     "name": "Sapping Reach",
     "type": "WARFRAME,MAG",
     "props": [
-      {
-        "key": "Pull Augment: Steals up to 10 Energy from the target.",
-        "value": 0
-      }
+      { "key": "Pull Augment: Steals up to 10 Energy from the target." }
     ],
     "polarity": "=",
     "rarity": "r",
@@ -9182,10 +8769,7 @@
     "name": "Greedy Pull",
     "type": "WARFRAME,MAG",
     "props": [
-      {
-        "key": "Pull Augment: Adds 40% chance to pull pickups towards Mag.",
-        "value": 0
-      }
+      { "key": "Pull Augment: Adds 40% chance to pull pickups towards Mag." }
     ],
     "polarity": "=",
     "rarity": "r",
@@ -9197,8 +8781,7 @@
     "type": "WARFRAME,MAG",
     "props": [
       {
-        "key": "Crush Augment: Survivors have their Armor decreased by 20% and become unable to move for 4s.",
-        "value": 0
+        "key": "Crush Augment: Survivors have their Armor decreased by 20% and become unable to move for 4s."
       }
     ],
     "polarity": "=",
@@ -9211,8 +8794,7 @@
     "type": "WARFRAME,MAG",
     "props": [
       {
-        "key": "Magnetize Augment: Manually detonate Magnetize by recasting on the target. Enemies hit have a 20% chance to become disarmed.",
-        "value": 0
+        "key": "Magnetize Augment: Manually detonate Magnetize by recasting on the target. Enemies hit have a 20% chance to become disarmed."
       }
     ],
     "polarity": "=",
@@ -9225,8 +8807,7 @@
     "type": "WARFRAME,LOKI",
     "props": [
       {
-        "key": "Switch Teleport Augment: After teleporting with an ally they will be invulnerable for 3s.",
-        "value": 0
+        "key": "Switch Teleport Augment: After teleporting with an ally they will be invulnerable for 3s."
       }
     ],
     "polarity": "=",
@@ -9239,8 +8820,7 @@
     "type": "WARFRAME,LOKI",
     "props": [
       {
-        "key": "Invisibility Augment: Weapon noise is reduced by 50% while invisible.",
-        "value": 0
+        "key": "Invisibility Augment: Weapon noise is reduced by 50% while invisible."
       }
     ],
     "polarity": "=",
@@ -9253,8 +8833,7 @@
     "type": "WARFRAME,LOKI",
     "props": [
       {
-        "key": "Radial Disarm Augment: Enemies will be affected by <DT_RADIATION>Radiation for 4s.",
-        "value": 0
+        "key": "Radial Disarm Augment: Enemies will be affected by <DT_RADIATION>Radiation for 4s."
       }
     ],
     "polarity": "=",
@@ -9267,8 +8846,7 @@
     "type": "WARFRAME,LOKI",
     "props": [
       {
-        "key": "Decoy Augment: 20% of damage Loki takes is transferred to Decoy, and vice versa.",
-        "value": 0
+        "key": "Decoy Augment: 20% of damage Loki takes is transferred to Decoy, and vice versa."
       }
     ],
     "polarity": "=",
@@ -9281,8 +8859,7 @@
     "type": "WARFRAME,LOKI",
     "props": [
       {
-        "key": "Decoy Augment: If Loki takes fatal damage, Decoy absorbs the damage and swaps locations. Also increases Casting Speed of Decoy by 20%",
-        "value": 0
+        "key": "Decoy Augment: If Loki takes fatal damage, Decoy absorbs the damage and swaps locations. Also increases Casting Speed of Decoy by 20%"
       }
     ],
     "polarity": "=",
@@ -9295,8 +8872,7 @@
     "type": "WARFRAME,KHORA",
     "props": [
       {
-        "key": "Venari Augment: Venari dies in Khora's place. Respawn timer increased to 150s. Killing enemies decreases the timer by 1s.",
-        "value": 0
+        "key": "Venari Augment: Venari dies in Khora's place. Respawn timer increased to 150s. Killing enemies decreases the timer by 1s."
       }
     ],
     "polarity": "=",
@@ -9309,8 +8885,7 @@
     "type": "WARFRAME,KHORA",
     "props": [
       {
-        "key": "Whipclaw Augment: Hitting 3 enemies will grant a 10% stacking Damage Bonus to subsequent Whipclaws. Bonus will decay after 10s.",
-        "value": 0
+        "key": "Whipclaw Augment: Hitting 3 enemies will grant a 10% stacking Damage Bonus to subsequent Whipclaws. Bonus will decay after 10s."
       }
     ],
     "polarity": "=",
@@ -9323,8 +8898,7 @@
     "type": "WARFRAME,KHORA",
     "props": [
       {
-        "key": "Strangledome Augment: Enemies held in Strangledome have a 30% chance of dropping additional loot.",
-        "value": 0
+        "key": "Strangledome Augment: Enemies held in Strangledome have a 30% chance of dropping additional loot."
       }
     ],
     "polarity": "=",
@@ -9337,8 +8911,7 @@
     "type": "WARFRAME,NYX",
     "props": [
       {
-        "key": "Absorb Augment: Creates a ring every 3s that drags in enemies at 9m/s.",
-        "value": 0
+        "key": "Absorb Augment: Creates a ring every 3s that drags in enemies at 9m/s."
       }
     ],
     "polarity": "=",
@@ -9351,8 +8924,7 @@
     "type": "WARFRAME,NYX",
     "props": [
       {
-        "key": "Absorb Augment: Nyx can move at 30% Speed while using Absorb, but the area is reduced by half.",
-        "value": 0
+        "key": "Absorb Augment: Nyx can move at 30% Speed while using Absorb, but the area is reduced by half."
       }
     ],
     "polarity": "=",
@@ -9365,8 +8937,7 @@
     "type": "WARFRAME,NYX",
     "props": [
       {
-        "key": "Mind Control Augment: Controlled target inflicts +200% Damage.",
-        "value": 0
+        "key": "Mind Control Augment: Controlled target inflicts +200% Damage."
       }
     ],
     "polarity": "=",
@@ -9379,8 +8950,7 @@
     "type": "WARFRAME,NYX",
     "props": [
       {
-        "key": "Psychic Bolts Augment: Affected enemies will be confused for 4s.",
-        "value": 0
+        "key": "Psychic Bolts Augment: Affected enemies will be confused for 4s."
       }
     ],
     "polarity": "=",
@@ -9393,8 +8963,7 @@
     "type": "WARFRAME,NYX",
     "props": [
       {
-        "key": "Chaos Augment: Enemies entering the Effect Range will be inflicted with Chaos. Effect Range lasts for 25% of the ability duration and shrinks over time.",
-        "value": 0
+        "key": "Chaos Augment: Enemies entering the Effect Range will be inflicted with Chaos. Effect Range lasts for 25% of the ability duration and shrinks over time."
       }
     ],
     "polarity": "=",
@@ -9407,8 +8976,7 @@
     "type": "WARFRAME,NIDUS",
     "props": [
       {
-        "key": "Larva Augment: Reactivate Larva to detonate and deal 150 <DT_POISON>Toxin Damage in a 1m radius. This damage stacks for every enemy grabbed by the Larva.",
-        "value": 0
+        "key": "Larva Augment: Reactivate Larva to detonate and deal 150 <DT_POISON>Toxin Damage in a 1m radius. This damage stacks for every enemy grabbed by the Larva."
       }
     ],
     "polarity": "=",
@@ -9421,8 +8989,7 @@
     "type": "WARFRAME,NIDUS",
     "props": [
       {
-        "key": "Virulence Augment: Hitting 4 enemies with Virulence grants 70% Primary Weapon Critical Chance for 9s.",
-        "value": 0
+        "key": "Virulence Augment: Hitting 4 enemies with Virulence grants 70% Primary Weapon Critical Chance for 9s."
       }
     ],
     "polarity": "=",
@@ -9435,8 +9002,7 @@
     "type": "WARFRAME,NIDUS",
     "props": [
       {
-        "key": "Ravenous Augment: Nidus has a 35% chance of generating an additional Mutation stack whenever he gains one, while standing in the Ravenous infestation.",
-        "value": 0
+        "key": "Ravenous Augment: Nidus has a 35% chance of generating an additional Mutation stack whenever he gains one, while standing in the Ravenous infestation."
       }
     ],
     "polarity": "=",
@@ -9447,9 +9013,7 @@
   {
     "name": "Prism Guard",
     "type": "WARFRAME,MIRAGE",
-    "props": [
-      { "key": "Prism Augment: Prism follows above Mirage for 1s.", "value": 0 }
-    ],
+    "props": [{ "key": "Prism Augment: Prism follows above Mirage for 1s." }],
     "polarity": "=",
     "rarity": "r",
     "baseDrain": 6,
@@ -9460,8 +9024,7 @@
     "type": "WARFRAME,MIRAGE",
     "props": [
       {
-        "key": "Sleight of Hand Augment: Ammo and Orbs pickups are turned into proximity mines that deal 150 Damage with a 15% Proc Chance.",
-        "value": 0
+        "key": "Sleight of Hand Augment: Ammo and Orbs pickups are turned into proximity mines that deal 150 Damage with a 15% Proc Chance."
       }
     ],
     "polarity": "=",
@@ -9474,8 +9037,7 @@
     "type": "WARFRAME,MIRAGE",
     "props": [
       {
-        "key": "Eclipse Augment: While active, allies within 3m gain 25% benefit from Eclipse.",
-        "value": 0
+        "key": "Eclipse Augment: While active, allies within 3m gain 25% benefit from Eclipse."
       }
     ],
     "polarity": "=",
@@ -9488,8 +9050,7 @@
     "type": "WARFRAME,MIRAGE",
     "props": [
       {
-        "key": "Hall of Mirrors Augment: The damage of your doppelgangers is increased by 2% every time you kill an enemy.",
-        "value": 0
+        "key": "Hall of Mirrors Augment: The damage of your doppelgangers is increased by 2% every time you kill an enemy."
       }
     ],
     "polarity": "=",
@@ -9502,8 +9063,7 @@
     "type": "WARFRAME,GARA",
     "props": [
       {
-        "key": "Splinter Storm Augment: For each target affected, Splinter Storm heals 1.5 Health/s.",
-        "value": 0
+        "key": "Splinter Storm Augment: For each target affected, Splinter Storm heals 1.5 Health/s."
       }
     ],
     "polarity": "=",
@@ -9516,8 +9076,7 @@
     "type": "WARFRAME,GARA",
     "props": [
       {
-        "key": "Spectrorage Augment: Enemies that die within Spectrorage have a 20% chance to drop an Energy Orb.",
-        "value": 0
+        "key": "Spectrorage Augment: Enemies that die within Spectrorage have a 20% chance to drop an Energy Orb."
       }
     ],
     "polarity": "=",
@@ -9530,8 +9089,7 @@
     "type": "WARFRAME,GARUDA",
     "props": [
       {
-        "key": "Dread Mirror Augment: Become unkillable for 3s when Dread Mirror kills a target by ripping its life force.",
-        "value": 0
+        "key": "Dread Mirror Augment: Become unkillable for 3s when Dread Mirror kills a target by ripping its life force."
       }
     ],
     "polarity": "=",
@@ -9544,8 +9102,7 @@
     "type": "WARFRAME,FROST",
     "props": [
       {
-        "key": "Freeze Augment: Casting on allies will add 50% <DT_FREEZE>Cold Damage to their attacks for 28s.",
-        "value": 0
+        "key": "Freeze Augment: Casting on allies will add 50% <DT_FREEZE>Cold Damage to their attacks for 28s."
       }
     ],
     "polarity": "=",
@@ -9558,8 +9115,7 @@
     "type": "WARFRAME,FROST",
     "props": [
       {
-        "key": "Ice Wave Augment: Leaves a frozen trail for 6s that slows down enemies that come into contact with it.",
-        "value": 0
+        "key": "Ice Wave Augment: Leaves a frozen trail for 6s that slows down enemies that come into contact with it."
       }
     ],
     "polarity": "=",
@@ -9572,8 +9128,7 @@
     "type": "WARFRAME,FROST",
     "props": [
       {
-        "key": "Snow Globe Augment: Enemies that enter have a 30% chance to become frozen solid for 4s.",
-        "value": 0
+        "key": "Snow Globe Augment: Enemies that enter have a 30% chance to become frozen solid for 4s."
       }
     ],
     "polarity": "=",
@@ -9586,8 +9141,7 @@
     "type": "WARFRAME,FROST",
     "props": [
       {
-        "key": "Avalanche Augment: Grants allies within the radius with a coat of ice that absorbs 40 Damage per enemy hit.",
-        "value": 0
+        "key": "Avalanche Augment: Grants allies within the radius with a coat of ice that absorbs 40 Damage per enemy hit."
       }
     ],
     "polarity": "=",
@@ -9600,8 +9154,7 @@
     "type": "WARFRAME,TITANIA",
     "props": [
       {
-        "key": "Lantern Augment: Attracted enemies take 25% more Melee Damage.",
-        "value": 0
+        "key": "Lantern Augment: Attracted enemies take 25% more Melee Damage."
       }
     ],
     "polarity": "=",
@@ -9614,8 +9167,7 @@
     "type": "WARFRAME,TITANIA",
     "props": [
       {
-        "key": "Razorwing Augment: Flight Speed increased by 25% and Fire Rate increased by 25% for 2s when using abilities. Stacks up to 4x.",
-        "value": 0
+        "key": "Razorwing Augment: Flight Speed increased by 25% and Fire Rate increased by 25% for 2s when using abilities. Stacks up to 4x."
       }
     ],
     "polarity": "=",
@@ -9628,8 +9180,7 @@
     "type": "WARFRAME,EXCALIBUR",
     "props": [
       {
-        "key": "Exalted Blade Augment: Exalted Blade's Damage Type changes depending on Excalibur's Energy Color and Status Chance is increased by 25%.",
-        "value": 0
+        "key": "Exalted Blade Augment: Exalted Blade's Damage Type changes depending on Excalibur's Energy Color and Status Chance is increased by 25%."
       }
     ],
     "polarity": "=",
@@ -9642,8 +9193,7 @@
     "type": "WARFRAME,EXCALIBUR",
     "props": [
       {
-        "key": "Slash Dash Augment: Allies in the path of Slash Dash have 1 debuffs removed and 100 Shields restored.",
-        "value": 0
+        "key": "Slash Dash Augment: Allies in the path of Slash Dash have 1 debuffs removed and 100 Shields restored."
       }
     ],
     "polarity": "=",
@@ -9656,8 +9206,7 @@
     "type": "WARFRAME,EXCALIBUR",
     "props": [
       {
-        "key": "Slash Dash Augment: Each enemy hit during Slash Dash further increases your Melee Counter by 1.",
-        "value": 0
+        "key": "Slash Dash Augment: Each enemy hit during Slash Dash further increases your Melee Counter by 1."
       }
     ],
     "polarity": "=",
@@ -9670,8 +9219,7 @@
     "type": "WARFRAME,EXCALIBUR",
     "props": [
       {
-        "key": "Radial Javelin Augment: Each enemy hit will increase Excalibur's Melee Damage by 3% for 6s.",
-        "value": 0
+        "key": "Radial Javelin Augment: Each enemy hit will increase Excalibur's Melee Damage by 3% for 6s."
       }
     ],
     "polarity": "=",
@@ -9684,8 +9232,7 @@
     "type": "WARFRAME,EXCALIBUR",
     "props": [
       {
-        "key": "Radial Blind Augment: Enemies blinded are marked on the Minimap for 3s.",
-        "value": 0
+        "key": "Radial Blind Augment: Enemies blinded are marked on the Minimap for 3s."
       }
     ],
     "polarity": "=",
@@ -9698,8 +9245,7 @@
     "type": "WARFRAME,EXCALIBUR",
     "props": [
       {
-        "key": "Radial Blind Augment: Blinded enemies take 150% more Finisher Damage.",
-        "value": 0
+        "key": "Radial Blind Augment: Blinded enemies take 150% more Finisher Damage."
       }
     ],
     "polarity": "=",
@@ -9712,8 +9258,7 @@
     "type": "WARFRAME,EMBER",
     "props": [
       {
-        "key": "World On Fire Augment: Enemies hit have a 50% chance of being knocked down.",
-        "value": 0
+        "key": "World On Fire Augment: Enemies hit have a 50% chance of being knocked down."
       }
     ],
     "polarity": "=",
@@ -9726,8 +9271,7 @@
     "type": "WARFRAME,EMBER",
     "props": [
       {
-        "key": "Accelerant Augment: Accelerant gives +20% Casting Speed and +50% <DT_FIRE>Heat damage to allies within range.",
-        "value": 0
+        "key": "Accelerant Augment: Accelerant gives +20% Casting Speed and +50% <DT_FIRE>Heat damage to allies within range."
       }
     ],
     "polarity": "=",
@@ -9740,8 +9284,7 @@
     "type": "WARFRAME,EMBER",
     "props": [
       {
-        "key": "Fire Blast Augment: Allies that enter the fire will have up to 1 debuffs removed.",
-        "value": 0
+        "key": "Fire Blast Augment: Allies that enter the fire will have up to 1 debuffs removed."
       }
     ],
     "polarity": "=",
@@ -9754,8 +9297,7 @@
     "type": "WARFRAME,EMBER",
     "props": [
       {
-        "key": "Fire Blast Augment: Damage done by Fire Blast has a 40% chance to cause enemies to panic.",
-        "value": 0
+        "key": "Fire Blast Augment: Damage done by Fire Blast has a 40% chance to cause enemies to panic."
       }
     ],
     "polarity": "=",
@@ -9768,8 +9310,7 @@
     "type": "WARFRAME,EMBER",
     "props": [
       {
-        "key": "Fireball Augment: Casting on allies will add 50% <DT_FIRE>Heat Damage to their attacks for 28s.",
-        "value": 0
+        "key": "Fireball Augment: Casting on allies will add 50% <DT_FIRE>Heat Damage to their attacks for 28s."
       }
     ],
     "polarity": "=",
@@ -9782,8 +9323,7 @@
     "type": "WARFRAME,CHROMA",
     "props": [
       {
-        "key": "Vex Armor Augment: Taking 150 Damage will trigger a 4m burst. Shield damage will cause a <DT_PUNCTURE>Puncture Proc while Health damage will cause a <DT_EXPLOSION>Blast Proc.",
-        "value": 0
+        "key": "Vex Armor Augment: Taking 150 Damage will trigger a 4m burst. Shield damage will cause a <DT_PUNCTURE>Puncture Proc while Health damage will cause a <DT_EXPLOSION>Blast Proc."
       }
     ],
     "polarity": "=",
@@ -9796,8 +9336,7 @@
     "type": "WARFRAME,CHROMA",
     "props": [
       {
-        "key": "Effigy Augment: Cast and hold to make Effigy move to your aim point. Deals 500 Damage/s to enemies in its path and roars on arrival stunning nearby enemies.",
-        "value": 0
+        "key": "Effigy Augment: Cast and hold to make Effigy move to your aim point. Deals 500 Damage/s to enemies in its path and roars on arrival stunning nearby enemies."
       }
     ],
     "polarity": "=",
@@ -9810,8 +9349,7 @@
     "type": "WARFRAME,CHROMA",
     "props": [
       {
-        "key": "Elemental Ward Augment: Allies that leave the radius will retain the effect for 50% of the remaining duration.",
-        "value": 0
+        "key": "Elemental Ward Augment: Allies that leave the radius will retain the effect for 50% of the remaining duration."
       }
     ],
     "polarity": "=",
@@ -9824,8 +9362,7 @@
     "type": "WARFRAME,CHROMA",
     "props": [
       {
-        "key": "Spectral Scream Augment: Upon deactivation, Chroma will launch an elemental projectile dealing 25 Damage for each second the ability was active, to a maximum of 200 Damage.",
-        "value": 0
+        "key": "Spectral Scream Augment: Upon deactivation, Chroma will launch an elemental projectile dealing 25 Damage for each second the ability was active, to a maximum of 200 Damage."
       }
     ],
     "polarity": "=",
@@ -9838,8 +9375,7 @@
     "type": "WARFRAME,MESA",
     "props": [
       {
-        "key": "Shooting Gallery Augment: Does a burst before switching between players, blinding enemies within 5m for 4s.",
-        "value": 0
+        "key": "Shooting Gallery Augment: Does a burst before switching between players, blinding enemies within 5m for 4s."
       }
     ],
     "polarity": "=",
@@ -9852,8 +9388,7 @@
     "type": "WARFRAME,MESA",
     "props": [
       {
-        "key": "Shatter Shield Augment: Reflected bullets gain a 30% chance of staggering enemies.",
-        "value": 0
+        "key": "Shatter Shield Augment: Reflected bullets gain a 30% chance of staggering enemies."
       }
     ],
     "polarity": "=",
@@ -9866,8 +9401,7 @@
     "type": "WARFRAME,MESA",
     "props": [
       {
-        "key": "Peacemaker Augment: Mesa can move at 35% Speed while using Peacemaker.",
-        "value": 0
+        "key": "Peacemaker Augment: Mesa can move at 35% Speed while using Peacemaker."
       }
     ],
     "polarity": "=",
@@ -9880,8 +9414,7 @@
     "type": "WARFRAME,MESA",
     "props": [
       {
-        "key": "Ballistic Battery Augment: Applies a 70% Status Chance bonus to the shot, based on the amount charged.",
-        "value": 0
+        "key": "Ballistic Battery Augment: Applies a 70% Status Chance bonus to the shot, based on the amount charged."
       }
     ],
     "polarity": "=",
@@ -9894,8 +9427,7 @@
     "type": "WARFRAME,ATLAS",
     "props": [
       {
-        "key": "Rumblers Augment: Atlas becomes a Rumbler with Rock Armor that can absorb up to 350 Damage.",
-        "value": 0
+        "key": "Rumblers Augment: Atlas becomes a Rumbler with Rock Armor that can absorb up to 350 Damage."
       }
     ],
     "polarity": "=",
@@ -9908,8 +9440,7 @@
     "type": "WARFRAME,ATLAS",
     "props": [
       {
-        "key": "Rumblers Augment: Create a single rumbler with 120% Health, 120% Damage, and 50% Speed that taunts nearby enemies into attacking it.",
-        "value": 0
+        "key": "Rumblers Augment: Create a single rumbler with 120% Health, 120% Damage, and 50% Speed that taunts nearby enemies into attacking it."
       }
     ],
     "polarity": "=",
@@ -9922,8 +9453,7 @@
     "type": "WARFRAME,ATLAS",
     "props": [
       {
-        "key": "Landslide Augment: Leave a trail for 7s that petrifies enemies for 4s.",
-        "value": 0
+        "key": "Landslide Augment: Leave a trail for 7s that petrifies enemies for 4s."
       }
     ],
     "polarity": "=",
@@ -9936,8 +9466,7 @@
     "type": "WARFRAME,ATLAS",
     "props": [
       {
-        "key": "Petrify Augment: Petrified enemies are scanned into the Codex and have a 10% chance to drop additional loot when killed.",
-        "value": 0
+        "key": "Petrify Augment: Petrified enemies are scanned into the Codex and have a 10% chance to drop additional loot when killed."
       }
     ],
     "polarity": "=",
@@ -9950,8 +9479,7 @@
     "type": "WARFRAME,ATLAS",
     "props": [
       {
-        "key": "Tectonics Augment: Create up to 2 walls with 70% Health. Walls can no longer be turned into boulders.",
-        "value": 0
+        "key": "Tectonics Augment: Create up to 2 walls with 70% Health. Walls can no longer be turned into boulders."
       }
     ],
     "polarity": "=",
@@ -9964,8 +9492,7 @@
     "type": "WARFRAME,VALKYR",
     "props": [
       {
-        "key": "Paralysis Augment: Affected enemies are pulled towards Valkyr and the stun duration is increased by 50%.",
-        "value": 0
+        "key": "Paralysis Augment: Affected enemies are pulled towards Valkyr and the stun duration is increased by 50%."
       }
     ],
     "polarity": "=",
@@ -9978,8 +9505,7 @@
     "type": "WARFRAME,VALKYR",
     "props": [
       {
-        "key": "Hysteria Augment: While Hysteria is active, each kill restores 5% Maximum Shields.",
-        "value": 0
+        "key": "Hysteria Augment: While Hysteria is active, each kill restores 5% Maximum Shields."
       }
     ],
     "polarity": "=",
@@ -9992,8 +9518,7 @@
     "type": "WARFRAME,VALKYR",
     "props": [
       {
-        "key": "Hysteria Augment: Aim and then attack to leap onto enemies up to 15m away.",
-        "value": 0
+        "key": "Hysteria Augment: Aim and then attack to leap onto enemies up to 15m away."
       }
     ],
     "polarity": "=",
@@ -10006,8 +9531,7 @@
     "type": "WARFRAME,VALKYR",
     "props": [
       {
-        "key": "Warcry Augment: While active, Warcry's duration is increased by 1.25s for each Melee Kill.",
-        "value": 0
+        "key": "Warcry Augment: While active, Warcry's duration is increased by 1.25s for each Melee Kill."
       }
     ],
     "polarity": "=",
@@ -10020,8 +9544,7 @@
     "type": "WARFRAME,VALKYR",
     "props": [
       {
-        "key": "Rip Line Augment: After using Rip Line, the next 1 Rip Lines will have no Energy cost while Airborne.",
-        "value": 0
+        "key": "Rip Line Augment: After using Rip Line, the next 1 Rip Lines will have no Energy cost while Airborne."
       }
     ],
     "polarity": "=",
@@ -10034,8 +9557,7 @@
     "type": "WARFRAME,OCTAVIA",
     "props": [
       {
-        "key": "Mallet Augment: Allows for two simultaneous Mallets, each with 70% reduced range.",
-        "value": 0
+        "key": "Mallet Augment: Allows for two simultaneous Mallets, each with 70% reduced range."
       }
     ],
     "polarity": "=",
@@ -10048,8 +9570,7 @@
     "type": "WARFRAME,OCTAVIA",
     "props": [
       {
-        "key": "Resonator Augment: Reactivate the ability to command Resonator to move to your aim point at 100% Speed.",
-        "value": 0
+        "key": "Resonator Augment: Reactivate the ability to command Resonator to move to your aim point at 100% Speed."
       }
     ],
     "polarity": "=",
@@ -10062,8 +9583,7 @@
     "type": "WARFRAME,BANSHEE",
     "props": [
       {
-        "key": "Sonar Augment: Killing an enemy by shooting their weak spot will trigger another Sonar for 50% of remaining duration.",
-        "value": 0
+        "key": "Sonar Augment: Killing an enemy by shooting their weak spot will trigger another Sonar for 50% of remaining duration."
       }
     ],
     "polarity": "=",
@@ -10076,8 +9596,7 @@
     "type": "WARFRAME,BANSHEE",
     "props": [
       {
-        "key": "Silence Augment: Finisher Damage is increased by 150% while Silence is active.",
-        "value": 0
+        "key": "Silence Augment: Finisher Damage is increased by 150% while Silence is active."
       }
     ],
     "polarity": "=",
@@ -10089,10 +9608,7 @@
     "name": "Sonic Fracture",
     "type": "WARFRAME,BANSHEE",
     "props": [
-      {
-        "key": "Sonic Boom Augment: Enemy Armor is reduced by 35% for 2s.",
-        "value": 0
-      }
+      { "key": "Sonic Boom Augment: Enemy Armor is reduced by 35% for 2s." }
     ],
     "polarity": "=",
     "rarity": "r",
@@ -10104,8 +9620,7 @@
     "type": "WARFRAME,BANSHEE",
     "props": [
       {
-        "key": "Sound Quake Augment: Forgoes channeling to create a shockwave that deals 10x Damage at the epicenter, gradually weakening as it expands out.",
-        "value": 0
+        "key": "Sound Quake Augment: Forgoes channeling to create a shockwave that deals 10x Damage at the epicenter, gradually weakening as it expands out."
       }
     ],
     "polarity": "=",
@@ -10118,12 +9633,10 @@
     "type": "ARCHWING",
     "props": [
       {
-        "key": "Cosmic Crush Augment: The black hole saps the area of heat, freezing enemies in range. Enemies near the black hole are completely frozen for |val|s.",
-        "value": 0
+        "key": "Cosmic Crush Augment: The black hole saps the area of heat, freezing enemies in range. Enemies near the black hole are completely frozen for |val|s."
       },
       {
-        "key": "Cosmic Crush Augment: The black hole saps the area of heat, freezing enemies in range. Enemies near the black hole are completely frozen for 2s.",
-        "value": 0
+        "key": "Cosmic Crush Augment: The black hole saps the area of heat, freezing enemies in range. Enemies near the black hole are completely frozen for 2s."
       }
     ],
     "polarity": "=",
@@ -10136,8 +9649,7 @@
     "type": "ARCHWING",
     "props": [
       {
-        "key": "Energy Shell Augment: Energy Shell applies to allies within 80m.",
-        "value": 0
+        "key": "Energy Shell Augment: Energy Shell applies to allies within 80m."
       }
     ],
     "polarity": "=",
@@ -10150,12 +9662,10 @@
     "type": "ARCHWING",
     "props": [
       {
-        "key": "Core Vent Augment: <DT_EXPLOSION>Blast Damage ignites exhaust fumes for |DURATION|s. Enemies passing through the flames take |DAMAGE| <DT_FIRE>Heat Damage.",
-        "value": 0
+        "key": "Core Vent Augment: <DT_EXPLOSION>Blast Damage ignites exhaust fumes for |DURATION|s. Enemies passing through the flames take |DAMAGE| <DT_FIRE>Heat Damage."
       },
       {
-        "key": "Core Vent Augment: <DT_EXPLOSION>Blast Damage ignites exhaust fumes for 6s. Enemies passing through the flames take 200 <DT_FIRE>Heat Damage.",
-        "value": 0
+        "key": "Core Vent Augment: <DT_EXPLOSION>Blast Damage ignites exhaust fumes for 6s. Enemies passing through the flames take 200 <DT_FIRE>Heat Damage."
       }
     ],
     "polarity": "=",
@@ -10168,8 +9678,7 @@
     "type": "WARFRAME,NOVA",
     "props": [
       {
-        "key": "Worm Hole Augment: Allies that travel through wormhole gain a 30% Speed bonus for 4s.",
-        "value": 0
+        "key": "Worm Hole Augment: Allies that travel through wormhole gain a 30% Speed bonus for 4s."
       }
     ],
     "polarity": "=",
@@ -10182,8 +9691,7 @@
     "type": "WARFRAME,NOVA",
     "props": [
       {
-        "key": "Null Star Augment: On recast, all remaining particles will seek out enemies and deal 60 <DT_EXPLOSION>Blast Damage with guaranteed Proc in 4m.",
-        "value": 0
+        "key": "Null Star Augment: On recast, all remaining particles will seek out enemies and deal 60 <DT_EXPLOSION>Blast Damage with guaranteed Proc in 4m."
       }
     ],
     "polarity": "=",
@@ -10196,8 +9704,7 @@
     "type": "WARFRAME,NOVA",
     "props": [
       {
-        "key": "Molecular Prime Augment: When killed, primed enemies will restore a Null Star charge and have a 25% chance of restoring an additional one.",
-        "value": 0
+        "key": "Molecular Prime Augment: When killed, primed enemies will restore a Null Star charge and have a 25% chance of restoring an additional one."
       }
     ],
     "polarity": "=",
@@ -10210,8 +9717,7 @@
     "type": "WARFRAME,NOVA",
     "props": [
       {
-        "key": "Antimatter Drop Augment: Creates a fully charged stationary orb that explodes after 12s or within enemy proximity.",
-        "value": 0
+        "key": "Antimatter Drop Augment: Creates a fully charged stationary orb that explodes after 12s or within enemy proximity."
       }
     ],
     "polarity": "=",
@@ -10224,8 +9730,7 @@
     "type": "WARFRAME,NOVA",
     "props": [
       {
-        "key": "Antimatter Drop Augment: Absorbs enemy bullets within 1m, increasing its damage when it explodes.",
-        "value": 0
+        "key": "Antimatter Drop Augment: Absorbs enemy bullets within 1m, increasing its damage when it explodes."
       }
     ],
     "polarity": "=",

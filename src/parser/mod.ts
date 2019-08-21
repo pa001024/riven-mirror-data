@@ -63,7 +63,7 @@ const parseDescription = (desc: string[]) => {
         if (m && propMap[m[2]]) return [propMap[m[2]], +m[1]];
         if (extPropMap[dd]) return [extPropMap[dd]];
         if (extRexProp[dd]) return extRexProp[dd];
-        return [dd, 0];
+        return [dd];
       })
       .filter(Boolean)
       .map(([key, value]) => ({ key, value } as ModProp))

@@ -123,14 +123,180 @@ const customJSONFormat = async () => {
             const [result, props] = convertMods(rawmods, rawwfs);
             await fs.outputFile(TARGET_PREFIX + "mods.json", formatJSON(result));
             await fs.outputFile(TMP_PREFIX + "collectedProps.json", formatJSON(props));
-            const sentinelsMods = result
-              .filter(v => v.type == "SENTINEL")
-              .map((v, i) =>
-                [base62(debase62("W0") + i), v.name, v.props.map(p => [p.key, p.value]), "Companion", v.polarity, v.rarity, v.baseDrain, v.fusionLimit === 5 ? null : v.fusionLimit].filter(
-                  v => v != null
-                )
-              );
-            await fs.outputFile(TMP_PREFIX + "sentinelsMods.json", JSON.stringify(sentinelsMods));
+            const allmods = (await import("../../src/warframe/codex/mod.data")).default;
+            const names = new Set(allmods.map(v => v[1]));
+
+            const pvpmods = new Set(
+              `Naramon Transmute Core
+Vazarin Transmute Core
+Madurai Transmute Core
+Archgun Ace
+
+Afterburn
+Antimatter Mine
+Deceptive Bond
+Defiled Reckoning
+Discharge Strike
+Hysterical Fixation
+Ice Wave Impedance
+Iron Shrapnel
+Kinetic Collision
+Mesa's Waltz
+Power of Three
+Prism Guard
+Purging Slash
+Purifying Flames
+Push & Pull
+Recharge Barrier
+Rumbled
+Sapping Reach
+Shield Overload
+Signal Flare
+Singularity
+Tear Gas
+Ward Recovery
+Adept Surge
+Adrenaline Boost
+Air Thrusters
+Anticipation
+Anti-Flak Plating
+Armored Acrobatics
+Armored Evade
+Armored Recovery
+Calculated Spring
+Final Act
+Follow Through
+Hastened Steps
+Heightened Reflexes
+No Current Leap
+Overcharge Detectors
+Overcharged
+Quick Charge
+Rime Vault
+Rising Skill
+Searing Leap
+Surplus Diverters
+Tactical Retreat
+Tempered Bound
+Venomous Rise
+Vital Systems Bypass
+Voltaic Lance
+
+Ambush Optics
+Brain Storm
+Directed Convergence
+Double Tap
+Draining Gloom
+Final Tap
+Focused Acceleration
+Gorgon Frenzy
+Grinloked
+Measured Burst
+Precision Munition
+Shrapnel Rounds
+Skull Shots
+Spring-Loaded Broadhead
+Static Alacrity
+Sudden Justice
+Thundermiter
+Triple Tap
+
+Agile Aim
+Apex Predator
+Comet Rounds
+Deft Tempo
+Gun Glide
+Hydraulic Gauge
+Loose Hatch
+Lucky Shot
+Maximum Capacity
+Overview
+Recover
+Ripper Rounds
+Serrated Rounds
+Tactical Reload
+Twitch
+Vanquished Prey
+
+Bounty Hunter
+Broad Eye
+Crash Shot
+Double-Barrel Drift
+Flak Shot
+Hydraulic Chamber
+Kill Switch
+Loaded Capacity
+Lock and Load
+Loose Chamber
+Momentary Pause
+Prize Kill
+Shred Shot
+Snap Shot
+Soft Hands
+
+Emergent Aftermath
+Lie In Wait
+
+Feathered Arrows
+Plan B
+Soaring Strike
+
+Air Recon
+Blind Shot
+Calculated Victory
+Eject Magazine
+Full Capacity
+Heavy Warhead
+Hydraulic Barrel
+Impaler Munitions
+Loose Magazine
+Meteor Munitions
+Night Stalker
+Razor Munitions
+Recuperate
+Reflex Draw
+Secondary Wind
+Spry Sights
+Strafing Slide
+
+Counterweight
+Explosive Demise
+Heartseeker
+Impenetrable Offense
+Martial Fury
+Mortal Conduct
+Relentless Assault
+Serrated Edges
+Sharpened Blade
+Stand Ground
+Sword Alone
+
+Argent Scourge
+Biting Piranha
+Celestial Nightfall
+Crashing Havoc
+Crashing Timber
+Cunning Aspect
+Dividing Blades
+Fateful Truth
+Lashing Coil
+Last Herald
+Mafic Rain
+Noble Cadence
+Piercing Fury
+Quaking Hand
+Rending Wind
+Rising Steel
+Scarlet Hurricane
+Shadow Harvest
+Star Divide
+Tainted Hydra
+Vicious Approach`.split("\n")
+            );
+
+            const missMods = _.orderBy(result.filter(v => !names.has(v.name) && !pvpmods.has(v.name) && v.type != "---" && v.type != "STANCE"), ["type"]).map((v, i) => [base62(debase62("10") + i), v.name, v.props.map(p => [p.key, p.value].filter(Boolean)), _.startCase(v.type.toLowerCase()), v.polarity, v.rarity, v.baseDrain, v.fusionLimit === 5 ? null : v.fusionLimit].filter(v => v != null));
+
+            await fs.outputFile(TMP_PREFIX + "missMods.json", JSON.stringify(missMods));
           }
           return;
         case "de-Weapons.json":
