@@ -3,7 +3,7 @@ import chalk from "chalk";
 import { WikiWeapons } from "@/wiki";
 import { DEWeapons } from "@/de";
 import { ProtoWeapon, WeaponMode, Zoom, Weapon } from "./weapon.i";
-import { purge } from "../util";
+import { purge, removeNull } from "../util";
 
 const DMG_NAMES = [
   "Impact", //
@@ -49,25 +49,7 @@ const polarityMap = {
 
 const toAttackWiki = (type: string, attack: WikiWeapons.Attack): WeaponMode => {
   if (!attack) return undefined;
-  const {
-    Damage,
-    AttackName,
-    FireRate,
-    Accuracy,
-    StatusChance,
-    CritChance,
-    CritMultiplier,
-    PunchThrough,
-    PelletCount,
-    Falloff,
-    Radius,
-    Range,
-    AmmoCost,
-    ChargeTime,
-    Trigger,
-    BurstCount,
-    ShotSpeed,
-  } = attack;
+  const { Damage, AttackName, FireRate, Accuracy, StatusChance, CritChance, CritMultiplier, PunchThrough, PelletCount, Falloff, Radius, Range, AmmoCost, ChargeTime, Trigger, BurstCount, ShotSpeed } = attack;
   const damage = Damage; //_.reduce(Damage, (r, v, i) => (v && (r[i] = v), r), {}); //_.map(Damage, (v, i) => [i, v] as [string, number]);
 
   return {
@@ -141,7 +123,7 @@ const toZoom = (src: string) => {
           "Critical Chance": "i0",
           "Critical multiplier": "1",
           "Headshot Damage": "hm",
-          "Damage": "D",
+          Damage: "D",
           "Fire Rate": "R",
         };
         if (vnMap[vn]) r[vnMap[vn]] = +vv;
@@ -317,31 +299,34 @@ export enum MainTag {
   "Arch-Melee",
   Amp,
 }
+
 // 转换武器
 export const convertWeapons = (deWeapons: DEWeapon, wikiWeapons: WikiWeapon, patch: Dict<ProtoWeapon>) => {
   const weaponDE = deWeapons.ExportWeapons.filter(v => typeof v.omegaAttenuation !== "undefined").map(toWeaponDE);
   const weaponMapDE = weaponDE.reduce((rst, weapon) => ((rst[weapon.name] = weapon), rst), {} as Dict<ProtoWeapon>);
-  const weaponMapWIKI = _.merge(
-    _.map(wikiWeapons.Weapons, v => {
-      // 作为variants输出
-      if (v.Type.endsWith(" (Atmosphere)")) return null;
-      let rst: Weapon = toWeaponWiki(v);
-      if (!rst || v.IgnoreCategories) return null;
-      if (v.Name === "Dark Split-Sword (Dual Swords)") rst.name = "Dark Split-Sword";
-      if (wikiWeapons.Weapons[v.Name + " (Atmosphere)"]) {
-        rst.variants = [toWeaponWiki(wikiWeapons.Weapons[v.Name + " (Atmosphere)"], true)];
-      }
-      return purge(rst);
-    }).reduce(
-      (rst, weapon) => {
-        if (!weapon) return rst;
-        if (weapon.tags.includes("Gear")) return rst;
-        rst[weapon.name] = { ...weapon };
-        return rst;
-      },
-      {} as Dict<ProtoWeapon>
-    ),
-    patch
+  const weaponMapWIKI = removeNull(
+    _.merge(
+      _.map(wikiWeapons.Weapons, v => {
+        // 作为variants输出
+        if (v.Type.endsWith(" (Atmosphere)")) return null;
+        let rst: Weapon = toWeaponWiki(v);
+        if (!rst || v.IgnoreCategories) return null;
+        if (v.Name === "Dark Split-Sword (Dual Swords)") rst.name = "Dark Split-Sword";
+        if (wikiWeapons.Weapons[v.Name + " (Atmosphere)"]) {
+          rst.variants = [toWeaponWiki(wikiWeapons.Weapons[v.Name + " (Atmosphere)"], true)];
+        }
+        return purge(rst);
+      }).reduce(
+        (rst, weapon) => {
+          if (!weapon) return rst;
+          if (weapon.tags.includes("Gear")) return rst;
+          rst[weapon.name] = { ...weapon };
+          return rst;
+        },
+        {} as Dict<ProtoWeapon>
+      ),
+      patch
+    )
   );
   const weaponNames = Object.keys(weaponMapWIKI).sort();
   const weaponWIKI = weaponNames.map(v => weaponMapWIKI[v]);
@@ -372,6 +357,10 @@ export const convertWeapons = (deWeapons: DEWeapon, wikiWeapons: WikiWeapon, pat
   }
 
   const all = weaponWIKI.reduce((rst, weapon) => {
+    if (!weapon.name) {
+      console.log("wrong with", weapon);
+      return rst;
+    }
     const weapon_DE = weaponMapDE[weapon.name];
     const baseName = getBaseName(weapon.name),
       variant = weapon.name.replace(baseName, "").trim();

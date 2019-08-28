@@ -871,8 +871,7 @@
     "maxAmmo": 112,
     "modes": [
       {
-        "name": "Slug Impact",
-        "damage": { "Impact": 70 },
+        "damage": { "Impact": 70, "Puncture": 42, "Slash": 78 },
         "fireRate": 260,
         "critChance": 0.17,
         "critMul": 1.9,
@@ -881,14 +880,6 @@
         "trigger": "Auto",
         "prjSpeed": 75,
         "falloff": [30, 60, 0.5]
-      },
-      {
-        "type": "area",
-        "name": "Glass Explosion",
-        "damage": { "Puncture": 42, "Slash": 78 },
-        "critChance": 0.17,
-        "critMul": 1.9,
-        "procChance": 0.33
       }
     ]
   },
@@ -8189,8 +8180,8 @@
     "disposition": 1.15,
     "polarities": "-r",
     "reload": 2.5,
-    "magazine": 20,
-    "maxAmmo": 100,
+    "magazine": 40,
+    "maxAmmo": 200,
     "modes": [
       {
         "name": "Projectile Impact",

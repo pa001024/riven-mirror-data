@@ -138,3 +138,21 @@ export const forEachLimit = <T>(itor: T[], limit = 5, func: (t: T) => Promise<vo
 
 import { promisify } from "util";
 export const imgSizeOf: (file: string) => Promise<{ width: number; height: number }> = promisify(require("image-size"));
+
+export const removeNull = (obj: any) => {
+  if (typeof obj === "object") {
+    if (Array.isArray(obj)) {
+      return obj.filter(v => v !== null).map(v => removeNull(v));
+    } else {
+      const m = _.mapValues(obj, v => {
+        if (v && typeof v === "object") return removeNull(v);
+        return v;
+      });
+      _.forEach(m, (v, k) => {
+        if (v === null) delete m[k];
+      });
+      return m;
+    }
+  }
+  return obj;
+};

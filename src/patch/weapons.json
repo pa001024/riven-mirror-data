@@ -48,6 +48,23 @@
       }
     ]
   },
+  "Astilla": {
+    "modes": [
+      {
+        "name": null,
+        "damage": { "Impact": 70, "Puncture": 42, "Slash": 78 },
+        "fireRate": 260,
+        "critChance": 0.17,
+        "critMul": 1.9,
+        "procChance": 0.33,
+        "accuracy": 25,
+        "trigger": "Auto",
+        "prjSpeed": 75,
+        "falloff": [30, 60, 0.5]
+      },
+      null
+    ]
+  },
   "Shattered Lash": {
     "name": "Shattered Lash",
     "tags": ["Melee", "Exalted", "Virtual"],
