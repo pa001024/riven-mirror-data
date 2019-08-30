@@ -1,5 +1,25 @@
 [
   {
+    "name": "Acceltra",
+    "tags": ["Primary", "Rifle", "Assault Rifle", "Launcher"],
+    "traits": ["Tenno"],
+    "mastery": 8,
+    "disposition": 1,
+    "reload": 2,
+    "magazine": 48,
+    "modes": [
+      {
+        "damage": { "Impact": 26, "Puncture": 35.2, "Slash": 8.8 },
+        "fireRate": 720,
+        "critChance": 0.32,
+        "critMul": 2.8,
+        "procChance": 0.06,
+        "accuracy": 23.5,
+        "trigger": "Auto"
+      }
+    ]
+  },
+  {
     "name": "Ack & Brunt",
     "tags": ["Melee", "Sword and Shield"],
     "traits": ["Grineer"],
@@ -104,6 +124,26 @@
         "critChance": 0.05,
         "critMul": 1.5,
         "procChance": 0.1
+      }
+    ]
+  },
+  {
+    "name": "Akaris",
+    "tags": ["Secondary", "Dual Pistols"],
+    "traits": ["Tenno"],
+    "mastery": 8,
+    "disposition": 1,
+    "reload": 3.4,
+    "magazine": 10,
+    "modes": [
+      {
+        "damage": { "Impact": 68, "Blast": 419 },
+        "fireRate": 255,
+        "critChance": 0.06,
+        "critMul": 1.8,
+        "procChance": 0.28,
+        "accuracy": 26.7,
+        "trigger": "Burst"
       }
     ]
   },
