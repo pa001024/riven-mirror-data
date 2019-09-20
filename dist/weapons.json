@@ -1,12 +1,14 @@
 [
   {
     "name": "Acceltra",
-    "tags": ["Primary", "Rifle", "Assault Rifle", "Launcher"],
+    "tags": ["Primary", "Rifle", "Assault Rifle"],
     "traits": ["Tenno"],
     "mastery": 8,
     "disposition": 1,
+    "polarities": "-",
     "reload": 2,
     "magazine": 48,
+    "maxAmmo": 96,
     "modes": [
       {
         "damage": { "Impact": 26, "Puncture": 35.2, "Slash": 8.8 },
@@ -128,13 +130,15 @@
     ]
   },
   {
-    "name": "Akaris",
+    "name": "Akarius",
     "tags": ["Secondary", "Dual Pistols"],
     "traits": ["Tenno"],
     "mastery": 8,
     "disposition": 1,
+    "polarities": "--",
     "reload": 3.4,
     "magazine": 10,
+    "maxAmmo": 20,
     "modes": [
       {
         "damage": { "Impact": 68, "Blast": 419 },
@@ -143,7 +147,8 @@
         "critMul": 1.8,
         "procChance": 0.28,
         "accuracy": 26.7,
-        "trigger": "Burst"
+        "trigger": "Burst",
+        "burstCount": 2
       }
     ]
   },
@@ -1985,9 +1990,9 @@
     "maxAmmo": 72,
     "modes": [
       {
-        "damage": { "Impact": 99, "Puncture": 5.5, "Slash": 5.5 },
-        "critChance": 0.2,
-        "critMul": 1.5,
+        "damage": { "Impact": 171, "Puncture": 9.5, "Slash": 9.5 },
+        "critChance": 0.36,
+        "critMul": 2,
         "procChance": 0.18,
         "accuracy": 16.7,
         "trigger": "Charge",
@@ -1995,13 +2000,13 @@
       },
       {
         "type": "charge",
-        "damage": { "Impact": 198, "Puncture": 11, "Slash": 11 },
+        "damage": { "Impact": 342, "Puncture": 19, "Slash": 19 },
         "critChance": 0.36,
         "critMul": 2,
         "procChance": 0.18,
         "punchThrough": 1,
         "chargeTime": 0.5,
-        "prjSpeed": 85
+        "prjSpeed": 90
       }
     ],
     "variants": [
@@ -2016,10 +2021,10 @@
         "maxAmmo": 72,
         "modes": [
           {
-            "damage": { "Impact": 162, "Puncture": 9, "Slash": 9 },
+            "damage": { "Impact": 248.4, "Puncture": 13.8, "Slash": 13.8 },
             "fireRate": 60,
-            "critChance": 0.2,
-            "critMul": 1.5,
+            "critChance": 0.35,
+            "critMul": 2,
             "procChance": 0.3,
             "accuracy": 16.7,
             "pellets": 3,
@@ -2028,14 +2033,14 @@
           },
           {
             "type": "charge",
-            "damage": { "Impact": 324, "Puncture": 18, "Slash": 18 },
+            "damage": { "Impact": 496.8, "Puncture": 27.6, "Slash": 27.6 },
             "critChance": 0.35,
             "critMul": 2,
             "procChance": 0.3,
             "punchThrough": 1,
             "pellets": 3,
             "chargeTime": 0.5,
-            "prjSpeed": 85
+            "prjSpeed": 95
           }
         ]
       },
@@ -2050,9 +2055,9 @@
         "maxAmmo": 72,
         "modes": [
           {
-            "damage": { "Impact": 135, "Puncture": 7.5, "Slash": 7.5 },
+            "damage": { "Impact": 211.5, "Puncture": 11.75, "Slash": 11.75 },
             "fireRate": 60,
-            "critChance": 0.2,
+            "critChance": 0.35,
             "critMul": 2,
             "procChance": 0.15,
             "accuracy": 16.7,
@@ -2061,7 +2066,7 @@
           },
           {
             "type": "charge",
-            "damage": { "Impact": 225, "Puncture": 12.5, "Slash": 12.5 },
+            "damage": { "Impact": 423, "Puncture": 23.5, "Slash": 23.5 },
             "critChance": 0.35,
             "critMul": 2,
             "procChance": 0.15,
@@ -2406,15 +2411,15 @@
     "modes": [
       {
         "type": "charge",
-        "damage": { "Impact": 138, "Puncture": 184, "Slash": 138 },
-        "critChance": 0.2,
+        "damage": { "Impact": 210, "Puncture": 280, "Slash": 210 },
+        "critChance": 0.34,
         "critMul": 2,
-        "procChance": 0.5,
+        "procChance": 0.46,
         "accuracy": 16.7,
         "punchThrough": 3,
         "chargeTime": 1,
         "trigger": "Charge",
-        "prjSpeed": 85,
+        "prjSpeed": 140,
         "silent": true
       }
     ]
@@ -2742,6 +2747,26 @@
         "accuracy": 100,
         "trigger": "Auto"
       }
+    ],
+    "variants": [
+      {
+        "name": "Deth Machine Rifle Prime",
+        "tags": ["Robotic", "Rifle", "Assault Rifle"],
+        "traits": ["Tenno", "Prime"],
+        "reload": 2,
+        "magazine": 100,
+        "modes": [
+          {
+            "damage": { "Impact": 0.7, "Puncture": 0.4, "Slash": 6.1 },
+            "fireRate": 600,
+            "critChance": 0.1,
+            "critMul": 2,
+            "procChance": 0.04,
+            "accuracy": 100,
+            "trigger": "Auto"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2917,8 +2942,8 @@
     "maxAmmo": 72,
     "modes": [
       {
-        "damage": { "Impact": 6.5, "Puncture": 6.5, "Slash": 117 },
-        "critChance": 0.25,
+        "damage": { "Impact": 8.4, "Puncture": 8.4, "Slash": 151.2 },
+        "critChance": 0.5,
         "critMul": 2,
         "procChance": 0.2,
         "accuracy": 16.7,
@@ -2928,7 +2953,7 @@
       },
       {
         "type": "charge",
-        "damage": { "Impact": 10, "Puncture": 10, "Slash": 180 },
+        "damage": { "Impact": 16.8, "Puncture": 16.8, "Slash": 302.4 },
         "critChance": 0.5,
         "critMul": 2,
         "procChance": 0.2,
@@ -6542,9 +6567,9 @@
     "maxAmmo": 72,
     "modes": [
       {
-        "damage": { "Impact": 108, "Puncture": 6, "Slash": 6 },
-        "critChance": 0.1,
-        "critMul": 1.5,
+        "damage": { "Impact": 184.5, "Puncture": 10.25, "Slash": 10.25 },
+        "critChance": 0.15,
+        "critMul": 2,
         "procChance": 0.49,
         "accuracy": 16.7,
         "trigger": "Charge",
@@ -6552,7 +6577,7 @@
       },
       {
         "type": "charge",
-        "damage": { "Impact": 202.5, "Puncture": 11.25, "Slash": 11.25 },
+        "damage": { "Impact": 369, "Puncture": 20.5, "Slash": 20.5 },
         "critChance": 0.15,
         "critMul": 2,
         "procChance": 0.49,
@@ -6560,7 +6585,7 @@
         "chargeTime": 0.5,
         "prjSpeed": 85
       },
-      { "type": "area", "name": "Toxin Cloud", "damage": { "Toxin": 50 } }
+      { "type": "area", "name": "Toxin Cloud", "damage": { "Toxin": 55 } }
     ]
   },
   {
@@ -7278,9 +7303,9 @@
     "maxAmmo": 72,
     "modes": [
       {
-        "damage": { "Impact": 6, "Puncture": 96, "Slash": 18 },
-        "critChance": 0.2,
-        "critMul": 1.5,
+        "damage": { "Impact": 8, "Puncture": 128, "Slash": 24 },
+        "critChance": 0.3,
+        "critMul": 2,
         "procChance": 0.1,
         "accuracy": 16.7,
         "trigger": "Charge",
@@ -7288,7 +7313,7 @@
       },
       {
         "type": "charge",
-        "damage": { "Impact": 9, "Puncture": 144, "Slash": 27 },
+        "damage": { "Impact": 16, "Puncture": 256, "Slash": 48 },
         "critChance": 0.3,
         "critMul": 2,
         "procChance": 0.1,
@@ -7308,10 +7333,10 @@
         "maxAmmo": 72,
         "modes": [
           {
-            "damage": { "Impact": 5, "Puncture": 80, "Slash": 15 },
+            "damage": { "Impact": 5.75, "Puncture": 92, "Slash": 17.25 },
             "fireRate": 60,
-            "critChance": 0.2,
-            "critMul": 1.5,
+            "critChance": 0.3,
+            "critMul": 2,
             "procChance": 0.15,
             "accuracy": 16.7,
             "trigger": "Charge",
@@ -7319,7 +7344,7 @@
           },
           {
             "type": "charge",
-            "damage": { "Impact": 6, "Puncture": 96, "Slash": 18 },
+            "damage": { "Impact": 11.5, "Puncture": 184, "Slash": 34.5 },
             "critChance": 0.3,
             "critMul": 2,
             "procChance": 0.15,
@@ -7340,9 +7365,9 @@
         "maxAmmo": 72,
         "modes": [
           {
-            "damage": { "Impact": 3.25, "Puncture": 104, "Slash": 22.75 },
+            "damage": { "Impact": 4.5, "Puncture": 144, "Slash": 31.5 },
             "fireRate": 60,
-            "critChance": 0.25,
+            "critChance": 0.45,
             "critMul": 2,
             "procChance": 0.2,
             "accuracy": 16.7,
@@ -7351,13 +7376,13 @@
           },
           {
             "type": "charge",
-            "damage": { "Impact": 6.5, "Puncture": 208, "Slash": 45.5 },
+            "damage": { "Impact": 9, "Puncture": 288, "Slash": 63 },
             "critChance": 0.45,
             "critMul": 2,
             "procChance": 0.2,
             "punchThrough": 3,
             "chargeTime": 0.5,
-            "prjSpeed": 85
+            "prjSpeed": 95
           }
         ]
       }
@@ -7957,6 +7982,7 @@
       },
       {
         "type": "charge",
+        "name": "Shots",
         "damage": { "Blast": 300 },
         "critMul": 2,
         "pellets": 10
@@ -7983,7 +8009,12 @@
             "critMul": 2.2,
             "procChance": 0.28
           },
-          { "type": "charge", "damage": { "Blast": 800 }, "pellets": 10 }
+          {
+            "type": "charge",
+            "name": "Shots",
+            "damage": { "Blast": 800 },
+            "pellets": 10
+          }
         ]
       }
     ]
@@ -8134,9 +8165,11 @@
       },
       {
         "type": "charge",
-        "damage": { "Impact": 17.5, "Puncture": 35, "Slash": 122.5 },
-        "critChance": 0,
-        "critMul": 2,
+        "name": "Shots",
+        "damage": { "Impact": 17.5, "Puncture": 52.5, "Slash": 105 },
+        "critChance": 0.05,
+        "critMul": 1.5,
+        "procChance": 0.25,
         "pellets": 5
       }
     ]
@@ -9485,6 +9518,30 @@
         "critMul": 2,
         "procChance": 0.1
       }
+    ],
+    "variants": [
+      {
+        "name": "Tekko Prime",
+        "tags": ["Melee", "Fist"],
+        "traits": ["Tenno", "Prime"],
+        "mastery": 12,
+        "polarities": "r",
+        "stancePolarity": "d",
+        "blockResist": 0.6,
+        "spinAttack": 3,
+        "jumpAttack": 1,
+        "wallAttack": 3,
+        "reach": [0.24, 1.66],
+        "modes": [
+          {
+            "damage": { "Impact": 12.3, "Puncture": 7.8, "Slash": 35.8 },
+            "fireRate": 60,
+            "critChance": 0.3,
+            "critMul": 2.4,
+            "procChance": 0.26
+          }
+        ]
+      }
     ]
   },
   {
@@ -10798,7 +10855,7 @@
         "maxAmmo": 540,
         "modes": [
           {
-            "damage": { "Impact": 21.2, "Puncture": 26.5, "Slash": 42.3 },
+            "damage": { "Impact": 9.375, "Puncture": 21.875, "Slash": 18.75 },
             "fireRate": 330,
             "critChance": 0.26,
             "critMul": 2,
@@ -10807,6 +10864,14 @@
             "trigger": "Auto",
             "prjSpeed": 85,
             "silent": true
+          },
+          {
+            "type": "area",
+            "name": "Arrow Explosion",
+            "damage": { "Impact": 10, "Puncture": 5, "Slash": 25 },
+            "critChance": 0.26,
+            "critMul": 2,
+            "procChance": 0.3
           }
         ]
       }

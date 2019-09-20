@@ -1,9 +1,63 @@
 {
-  "Acceltra": {
-    "disposition": 1
+  "Deth Machine Rifle Prime": {
+    "name": "Deth Machine Rifle Prime",
+    "tags": ["Robotic", "Rifle", "Assault Rifle"],
+    "traits": ["Tenno", "Prime"],
+    "disposition": 1.455,
+    "reload": 2,
+    "magazine": 100,
+    "modes": [
+      {
+        "damage": { "Impact": 0.7, "Puncture": 0.4, "Slash": 6.1 },
+        "fireRate": 600,
+        "critChance": 0.1,
+        "critMul": 2,
+        "procChance": 0.04,
+        "accuracy": 100,
+        "trigger": "Auto"
+      }
+    ]
   },
-  "Akaris": {
-    "disposition": 1
+  "Acceltra": {
+    "modes": [
+      {
+        "name": null,
+        "damage": { "Impact": 26, "Puncture": 35.2, "Slash": 8.8 }
+      },
+      null
+    ]
+  },
+  "Akarius": {
+    "modes": [
+      {
+        "name": null,
+        "damage": { "Impact": 68, "Blast": 419 }
+      },
+      null
+    ]
+  },
+  "Tekko Prime": {
+    "name": "Tekko Prime",
+    "tags": ["Melee", "Fist"],
+    "traits": ["Tenno", "Prime"],
+    "mastery": 12,
+    "disposition": 1.4,
+    "polarities": "r",
+    "stancePolarity": "d",
+    "blockResist": 0.6,
+    "spinAttack": 3,
+    "jumpAttack": 1,
+    "wallAttack": 3,
+    "reach": [0.24, 1.66],
+    "modes": [
+      {
+        "damage": { "Impact": 12.3, "Puncture": 7.8, "Slash": 35.8 },
+        "fireRate": 60,
+        "critChance": 0.3,
+        "critMul": 2.4,
+        "procChance": 0.26
+      }
+    ]
   },
   "Balefire Charger": {
     "reload": 0,
@@ -53,6 +107,9 @@
         "ammoCost": 10
       }
     ]
+  },
+  "Mutalist Cernos": {
+    "modes": [{}, {}, { "damage": { "Toxin": 55 } }]
   },
   "Astilla": {
     "modes": [
