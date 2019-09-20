@@ -14,7 +14,7 @@
     "dev": "ts-node-dev --respawn src/index.ts dev"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "chalk": "^2.4.2",
     "fengari": "^0.1.4",
     "fengari-interop": "^0.1.2",
