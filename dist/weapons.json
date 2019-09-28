@@ -3566,7 +3566,7 @@
         "type": "chargedThrow",
         "damage": {
           "Impact": 110,
-          "Puncture": 180,
+          "Puncture": 140,
           "Slash": 180,
           "Electricity": 895
         },
@@ -7385,6 +7385,44 @@
             "prjSpeed": 95
           }
         ]
+      }
+    ]
+  },
+  {
+    "name": "Pathocyst",
+    "tags": ["Melee", "Glaive"],
+    "traits": ["Infested"],
+    "mastery": 9,
+    "disposition": 1,
+    "polarities": "rd",
+    "stancePolarity": "-",
+    "blockResist": 0.35,
+    "spinAttack": 5,
+    "jumpAttack": 1,
+    "wallAttack": 3,
+    "modes": [
+      {
+        "damage": { "Impact": 17, "Puncture": 15, "Slash": 21, "Viral": 29 },
+        "fireRate": 40,
+        "critChance": 0.15,
+        "critMul": 2.1,
+        "procChance": 0.3
+      },
+      {
+        "type": "chargedThrow",
+        "damage": { "Impact": 71, "Puncture": 63, "Slash": 75, "Viral": 576 },
+        "critChance": 0.15,
+        "critMul": 2.1,
+        "procChance": 0.3,
+        "punchThrough": 1
+      },
+      {
+        "type": "throw",
+        "damage": { "Impact": 35, "Puncture": 29, "Slash": 37, "Viral": 184 },
+        "critChance": 0.15,
+        "critMul": 2.1,
+        "procChance": 0.3,
+        "punchThrough": 1
       }
     ]
   },
