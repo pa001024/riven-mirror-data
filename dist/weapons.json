@@ -7413,16 +7413,14 @@
         "damage": { "Impact": 71, "Puncture": 63, "Slash": 75, "Viral": 576 },
         "critChance": 0.15,
         "critMul": 2.1,
-        "procChance": 0.3,
-        "punchThrough": 1
+        "procChance": 0.3
       },
       {
         "type": "throw",
         "damage": { "Impact": 35, "Puncture": 29, "Slash": 37, "Viral": 184 },
         "critChance": 0.15,
         "critMul": 2.1,
-        "procChance": 0.3,
-        "punchThrough": 1
+        "procChance": 0.3
       }
     ]
   },
@@ -7552,7 +7550,7 @@
         "mastery": 3,
         "polarities": "r",
         "reload": 2,
-        "magazine": 250,
+        "magazine": 240,
         "maxAmmo": 960,
         "modes": [
           {
@@ -10694,6 +10692,19 @@
         "critChance": 0.17,
         "critMul": 1.9,
         "procChance": 0.33
+      },
+      {
+        "type": "chargedThrow",
+        "damage": { "Impact": 331.5, "Puncture": 19, "Slash": 299.5 },
+        "critChance": 0.17,
+        "critMul": 1.9,
+        "procChance": 0.33
+      },
+      {
+        "type": "area",
+        "name": "Recall Explosion",
+        "damage": { "Blast": 200 },
+        "radius": 5
       }
     ]
   },

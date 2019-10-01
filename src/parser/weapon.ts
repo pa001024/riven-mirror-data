@@ -417,9 +417,9 @@ export const convertWeapons = (deWeapons: DEWeapon, wikiWeapons: WikiWeapon, pat
     .concat([
       // kitguns
       ["Gaze", "Kitgun", 1],
-      ["Rattleguts", "Kitgun", 0.9],
-      ["Tombfinger", "Kitgun", 0.85],
-      ["Catchmoon", "Kitgun", 0.8],
+      ["Rattleguts", "Kitgun", 0.8],
+      ["Tombfinger", "Kitgun", 0.75],
+      ["Catchmoon", "Kitgun", 0.6],
       // zaw
       ["Balla", "Zaw", 1],
       ["Cyath", "Zaw", 1],
