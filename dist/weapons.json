@@ -178,6 +178,7 @@
       {
         "name": "Akbolto Prime",
         "tags": ["Secondary", "Dual Pistols"],
+        "traits": ["Prime", "Vaulted"],
         "mastery": 13,
         "polarities": "-rrr",
         "reload": 1.3,
@@ -5479,6 +5480,7 @@
       {
         "name": "Kogake Prime",
         "tags": ["Melee", "Sparring"],
+        "traits": ["Prime", "Vaulted"],
         "mastery": 10,
         "polarities": "rrr",
         "stancePolarity": "-",
