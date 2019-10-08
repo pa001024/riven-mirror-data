@@ -856,7 +856,7 @@
   },
   {
     "name": "Artax",
-    "tags": ["Robotic", "Rifle", "Assault Rifle", "Continuous"],
+    "tags": ["Robotic", "Primary", "Rifle", "Assault Rifle", "Continuous"],
     "traits": ["Tenno"],
     "disposition": 1,
     "reload": 1.5,
@@ -2279,7 +2279,7 @@
   },
   {
     "name": "Cryotra",
-    "tags": ["Robotic", "Rifle", "Assault Rifle", "Continuous"],
+    "tags": ["Robotic", "Primary", "Rifle", "Assault Rifle", "Continuous"],
     "traits": ["Corpus"],
     "disposition": 1,
     "reload": 4,
@@ -2733,7 +2733,7 @@
   },
   {
     "name": "Deth Machine Rifle",
-    "tags": ["Robotic", "Rifle", "Assault Rifle"],
+    "tags": ["Robotic", "Primary", "Rifle", "Assault Rifle"],
     "traits": ["Tenno"],
     "disposition": 1.455,
     "reload": 2,
@@ -2752,7 +2752,7 @@
     "variants": [
       {
         "name": "Deth Machine Rifle Prime",
-        "tags": ["Robotic", "Rifle", "Assault Rifle"],
+        "tags": ["Robotic", "Rifle", "Assault Rifle", "Assault Rifle"],
         "traits": ["Tenno", "Prime"],
         "reload": 2,
         "magazine": 100,
@@ -5963,7 +5963,7 @@
   },
   {
     "name": "Laser Rifle",
-    "tags": ["Robotic", "Rifle", "Assault Rifle"],
+    "tags": ["Robotic", "Primary", "Rifle", "Assault Rifle"],
     "traits": ["Tenno"],
     "disposition": 1.21,
     "reload": 1.2,
@@ -5982,7 +5982,7 @@
     "variants": [
       {
         "name": "Prime Laser Rifle",
-        "tags": ["Robotic", "Rifle", "Assault Rifle"],
+        "tags": ["Robotic", "Primary", "Rifle", "Assault Rifle"],
         "traits": ["Prime", "Vaulted"],
         "reload": 1.2,
         "magazine": 5,
@@ -6560,7 +6560,7 @@
   },
   {
     "name": "Multron",
-    "tags": ["Robotic", "Rifle", "Assault Rifle"],
+    "tags": ["Robotic", "Primary", "Rifle", "Assault Rifle"],
     "traits": ["Corpus"],
     "mastery": 3,
     "disposition": 1,
@@ -9054,7 +9054,7 @@
   },
   {
     "name": "Stinger",
-    "tags": ["Robotic", "Rifle", "Assault Rifle"],
+    "tags": ["Robotic", "Primary", "Rifle", "Assault Rifle"],
     "traits": ["Infested"],
     "disposition": 1.315,
     "reload": 1.2,
@@ -9311,7 +9311,7 @@
   },
   {
     "name": "Sweeper",
-    "tags": ["Robotic", "Shotgun"],
+    "tags": ["Robotic", "Primary", "Shotgun"],
     "traits": ["Tenno"],
     "disposition": 1,
     "polarities": "rr",
@@ -9332,7 +9332,7 @@
     "variants": [
       {
         "name": "Sweeper Prime",
-        "tags": ["Robotic", "Shotgun"],
+        "tags": ["Robotic", "Primary", "Shotgun"],
         "traits": ["Prime", "Vaulted"],
         "polarities": "r",
         "reload": 2,
@@ -9540,7 +9540,7 @@
   },
   {
     "name": "Tazicor",
-    "tags": ["Robotic", "Rifle", "Assault Rifle"],
+    "tags": ["Robotic", "Primary", "Rifle", "Assault Rifle"],
     "traits": ["Corpus"],
     "mastery": 3,
     "disposition": 1,
@@ -10559,7 +10559,7 @@
   },
   {
     "name": "Vulcax",
-    "tags": ["Robotic", "Rifle", "Assault Rifle"],
+    "tags": ["Robotic", "Primary", "Rifle", "Assault Rifle"],
     "traits": ["Corpus"],
     "mastery": 14,
     "disposition": 1,

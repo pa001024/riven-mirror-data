@@ -86,7 +86,8 @@ const tagsMap = {
   Crossbow: ["Rifle", "Bow", "Crossbow"],
   Bow: ["Rifle", "Bow"],
   Speargun: ["Rifle", "Speargun"],
-  Rifle: ["Rifle", "Assault Rifle"],
+  Rifle: ["Primary", "Rifle", "Assault Rifle"],
+  Shotgun: ["Primary", "Shotgun"],
   "Exalted Weapon": ["Exalted"],
 };
 
@@ -99,7 +100,7 @@ const toTags = (type: string, clas: string): string[] => {
   if (type === "Gear") return ["Secondary", type, clas];
   if (type === "Arch-Gun") return ["Arch-Gun"];
   if (type === "Arch-Gun (Atmosphere)") return ["Arch-Gun", "Atmosphere"];
-  return clas ? [type, ...(tagsMap[clas] || [clas])] : [type];
+  return clas ? _.uniq([type, ...(tagsMap[clas] || [clas])]) : [type];
 };
 
 const toZoom = (src: string) => {
