@@ -36,28 +36,31 @@
       null
     ]
   },
-  "Tekko Prime": {
-    "name": "Tekko Prime",
-    "tags": ["Melee", "Fist"],
-    "traits": ["Tenno", "Prime"],
-    "mastery": 12,
-    "disposition": 1.4,
+  "Masseter": {
+    "name": "Masseter",
+    "tags": ["Melee", "Heavy Blade"],
+    "traits": ["Grineer"],
+    "mastery": 5,
+    "disposition": 1,
     "polarities": "r",
     "stancePolarity": "d",
-    "blockResist": 0.6,
-    "spinAttack": 3,
-    "jumpAttack": 1,
-    "wallAttack": 3,
-    "reach": [0.24, 1.66],
+    "blockResist": 0.8,
+    "spinAttack": 2,
+    "jumpAttack": 2,
+    "wallAttack": 2,
+    "reach": [1.3, 1.5],
     "modes": [
       {
-        "damage": { "Impact": 12.3, "Puncture": 7.8, "Slash": 35.8 },
+        "damage": { "Impact": 73.6, "Puncture": 28.8, "Slash": 57.6 },
         "fireRate": 60,
-        "critChance": 0.3,
-        "critMul": 2.4,
-        "procChance": 0.26
+        "critChance": 0.24,
+        "critMul": 2,
+        "procChance": 0.28
       }
     ]
+  },
+  "Tekko Prime": {
+    "reach": [0.24, 1.66]
   },
   "Balefire Charger": {
     "reload": 0,
