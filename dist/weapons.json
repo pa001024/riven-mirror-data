@@ -5424,6 +5424,7 @@
     "magazine": 1,
     "maxAmmo": 10,
     "sniperComboReset": 2,
+    "zoom": [{ "ratio": 2, "props": { "1": 150, "2": 60 } }],
     "modes": [
       {
         "damage": { "Impact": 63, "Puncture": 69, "Slash": 18 },
@@ -6641,7 +6642,7 @@
         "fireRate": 600,
         "critChance": 0.05,
         "critMul": 1.5,
-        "procChance": 0,
+        "procChance": 0.39,
         "accuracy": 25,
         "radius": 8
       },

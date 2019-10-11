@@ -18,6 +18,9 @@
       }
     ]
   },
+  "Mutalist Quanta": {
+    "modes": [{}, { "procChance": 0.39 }]
+  },
   "Acceltra": {
     "modes": [
       {
@@ -71,7 +74,8 @@
     "polarities": "d"
   },
   "Knell": {
-    "reload": 0
+    "reload": 0,
+    "zoom": [ { "ratio": 2, "props": { "1": 150, "2": 60 } }]
   },
   "Zhuge Prime": {
     "modes": [
