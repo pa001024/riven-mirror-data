@@ -47,10 +47,18 @@ export declare namespace WikiWeapons {
 
     // melee
     StancePolarity?: string;
-    BlockResist?: number;
-    FinisherDamage?: number;
-    ChannelCost?: number;
-    ChannelMult?: number;
+    BlockAngle?: number;
+    ComboDur?: number;
+    FollowThrough?: number;
+    MeleeRange?: number;
+    SlamAttack?: number;
+    SlamRadialDmg?: number;
+    SlamRadius?: number;
+    HeavyAttack?: number;
+    WindUp?: number;
+    HeavySlamAttack?: number;
+    HeavyRadialDmg?: number;
+    HeavySlamRadius?: number;
 
     // burst
     BurstCount?: number;
