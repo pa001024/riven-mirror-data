@@ -1583,6 +1583,31 @@
         "trigger": "Semi-Auto",
         "falloff": [11, 22, 0.6]
       }
+    ],
+    "variants": [
+      {
+        "name": "Kuva Brakk",
+        "tags": ["Secondary", "Pistol", "Shotgun Sidearm"],
+        "traits": ["Grineer", "Kuva Lich"],
+        "mastery": 13,
+        "polarities": "-r",
+        "reload": 1.1,
+        "magazine": 13,
+        "maxAmmo": 221,
+        "modes": [
+          {
+            "damage": { "Impact": 58.5, "Puncture": 32.5, "Slash": 19 },
+            "fireRate": 350,
+            "critChance": 0.29,
+            "critMul": 2,
+            "procChance": 0.37,
+            "accuracy": 7.7,
+            "punchThrough": 0.5,
+            "pellets": 10,
+            "trigger": "Semi"
+          }
+        ]
+      }
     ]
   },
   {
@@ -3150,6 +3175,32 @@
         "pellets": 10,
         "chargeTime": 0.5,
         "prjSpeed": 100
+      }
+    ],
+    "variants": [
+      {
+        "name": "Kuva Drakgoon",
+        "tags": ["Primary", "Shotgun"],
+        "traits": ["Grineer", "Kuva Lich"],
+        "mastery": 13,
+        "polarities": "r",
+        "reload": 2,
+        "magazine": 11,
+        "maxAmmo": 960,
+        "modes": [
+          {
+            "damage": { "Impact": 26.3, "Puncture": 26.3, "Slash": 210.3 },
+            "fireRate": 200,
+            "critChance": 0.075,
+            "critMul": 2,
+            "procChance": 0.1,
+            "accuracy": 1.4,
+            "punchThrough": 1.5,
+            "pellets": 10,
+            "trigger": "Charge",
+            "prjSpeed": 100
+          }
+        ]
       }
     ]
   },
@@ -5788,6 +5839,28 @@
             "trigger": "Auto"
           }
         ]
+      },
+      {
+        "name": "Kuva Karak",
+        "tags": ["Primary", "Rifle", "Assault Rifle"],
+        "traits": ["Grineer", "Kuva Lich"],
+        "mastery": 13,
+        "polarities": "r",
+        "reload": 1.7,
+        "magazine": 70,
+        "maxAmmo": 540,
+        "modes": [
+          {
+            "damage": { "Impact": 7.1, "Puncture": 6.2, "Slash": 9.7 },
+            "fireRate": 700,
+            "critChance": 0.23,
+            "critMul": 2.1,
+            "procChance": 0.31,
+            "accuracy": 80,
+            "punchThrough": 0.2,
+            "trigger": "Auto"
+          }
+        ]
       }
     ]
   },
@@ -6043,6 +6116,40 @@
         "pellets": 12,
         "ammoCost": 4
       }
+    ],
+    "variants": [
+      {
+        "name": "Kuva Kohm",
+        "tags": ["Primary", "Shotgun"],
+        "traits": ["Grineer", "Kuva Lich"],
+        "mastery": 13,
+        "polarities": "r",
+        "reload": 2,
+        "magazine": 209,
+        "maxAmmo": 960,
+        "modes": [
+          {
+            "name": "Single Pellet",
+            "damage": { "Impact": 4, "Puncture": 4, "Slash": 12 },
+            "fireRate": 250,
+            "critChance": 0.19,
+            "critMul": 2.3,
+            "procChance": 0.31,
+            "accuracy": 8,
+            "punchThrough": 1.5,
+            "trigger": "Auto-Spool",
+            "falloff": [13, 26, 0.4667]
+          },
+          {
+            "type": "charge",
+            "name": "Fully Spooled",
+            "damage": { "Impact": 48, "Puncture": 48, "Slash": 114 },
+            "fireRate": 250,
+            "pellets": 12,
+            "ammoCost": 4
+          }
+        ]
+      }
     ]
   },
   {
@@ -6159,6 +6266,36 @@
         "accuracy": 16,
         "trigger": "Burst",
         "burstCount": 2
+      }
+    ],
+    "variants": [
+      {
+        "name": "Kuva Kraken",
+        "tags": ["Secondary", "Pistol"],
+        "traits": ["Grineer", "Kuva Lich"],
+        "mastery": 15,
+        "reload": 1.5,
+        "magazine": 21,
+        "maxAmmo": 210,
+        "modes": [
+          {
+            "damage": { "Impact": 32.3, "Puncture": 5.4, "Slash": 5.4 },
+            "fireRate": 406,
+            "critChance": 0.21,
+            "critMul": 2.3,
+            "procChance": 0.29,
+            "accuracy": 16,
+            "trigger": "Burst",
+            "burstCount": 3
+          },
+          {
+            "type": "secondary",
+            "damage": { "Impact": 32.3, "Puncture": 5.4, "Slash": 5.4 },
+            "fireRate": 406,
+            "accuracy": 8.2,
+            "trigger": "Burst"
+          }
+        ]
       }
     ]
   },
@@ -6364,52 +6501,31 @@
     ]
   },
   {
-    "name": "Kuva Brakk",
-    "tags": ["Secondary", "Pistol", "Shotgun Sidearm"],
-    "traits": ["Grineer", "Kuva Lich"],
+    "name": "Kuva Shildeg",
+    "tags": ["Melee", "Hammer"],
     "mastery": 13,
-    "disposition": 1.25,
-    "polarities": "-r",
-    "reload": 1.1,
-    "magazine": 13,
-    "maxAmmo": 221,
+    "disposition": 1,
+    "polarities": "rr",
+    "stancePolarity": "r",
+    "comboDur": 5,
+    "followThrough": 0,
+    "meleeRange": 3,
+    "slamAttack": 615,
+    "slamRadialDmg": 205,
+    "slamRadius": 9,
+    "heavyAttack": 1230,
+    "windUp": 0,
+    "heavySlamAttack": 1025,
+    "heavyRadialDmg": 1025,
+    "heavySlamRadius": 9,
+    "slideAttack": 2,
     "modes": [
       {
-        "damage": { "Impact": 58.5, "Puncture": 32.5, "Slash": 19 },
-        "fireRate": 350,
-        "critChance": 0.29,
-        "critMul": 2,
-        "procChance": 0.37,
-        "accuracy": 7.7,
-        "punchThrough": 0.5,
-        "pellets": 10,
-        "trigger": "Semi"
-      }
-    ]
-  },
-  {
-    "name": "Kuva Seer",
-    "tags": ["Secondary", "Pistol"],
-    "traits": ["Grineer", "Kuva Lich"],
-    "mastery": 15,
-    "disposition": 3,
-    "reload": 2.3,
-    "magazine": 9,
-    "maxAmmo": 27,
-    "modes": [
-      {
-        "damage": {
-          "Impact": 26.2,
-          "Puncture": 68.1,
-          "Slash": 36.7,
-          "Corrosive": 69
-        },
-        "fireRate": 150,
-        "critChance": 0.21,
-        "critMul": 1.9,
-        "procChance": 0.33,
-        "accuracy": 16,
-        "trigger": "Semi"
+        "damage": { "Impact": 75.8, "Puncture": 100.5, "Slash": 28.7 },
+        "fireRate": 55,
+        "critChance": 0.31,
+        "critMul": 2.7,
+        "procChance": 0.27
       }
     ]
   },
@@ -7735,6 +7851,36 @@
         "damage": { "Blast": 600 },
         "radius": 6
       }
+    ],
+    "variants": [
+      {
+        "name": "Kuva Ogris",
+        "tags": ["Primary", "Rifle", "Assault Rifle", "Launcher"],
+        "traits": ["Grineer", "Kuva Lich"],
+        "mastery": 15,
+        "polarities": "r",
+        "reload": 2.1,
+        "magazine": 3,
+        "maxAmmo": 20,
+        "modes": [
+          {
+            "damage": { "Impact": 18.9, "Puncture": 8.1, "Blast": 427 },
+            "fireRate": 90,
+            "critChance": 0.09,
+            "critMul": 2,
+            "procChance": 0.47,
+            "accuracy": 100,
+            "trigger": "Semi",
+            "prjSpeed": 40
+          },
+          {
+            "type": "area",
+            "name": "Rocket Explosion",
+            "damage": { "Blast": 600 },
+            "radius": 6
+          }
+        ]
+      }
     ]
   },
   {
@@ -8787,6 +8933,42 @@
         "trigger": "Burst",
         "burstCount": 4
       }
+    ],
+    "variants": [
+      {
+        "name": "Kuva Quartakk",
+        "tags": ["Primary", "Rifle", "Assault Rifle"],
+        "traits": ["Grineer", "Kuva Lich"],
+        "mastery": 13,
+        "polarities": "r",
+        "reload": 1.7,
+        "magazine": 88,
+        "maxAmmo": 840,
+        "modes": [
+          {
+            "damage": { "Impact": 20, "Puncture": 15.7, "Slash": 18.4 },
+            "fireRate": 290,
+            "critChance": 0.21,
+            "critMul": 1.9,
+            "procChance": 0.33,
+            "accuracy": 40,
+            "trigger": "Auto"
+          },
+          {
+            "type": "secondary",
+            "name": "While Aiming",
+            "damage": { "Impact": 20, "Puncture": 15.7, "Slash": 18.4 },
+            "fireRate": 380,
+            "critChance": 0.31,
+            "critMul": 2.3,
+            "procChance": 0.33,
+            "accuracy": 90.9,
+            "punchThrough": 0.5,
+            "trigger": "Burst",
+            "burstCount": 4
+          }
+        ]
+      }
     ]
   },
   {
@@ -9264,6 +9446,33 @@
         "accuracy": 16,
         "trigger": "Semi-Auto",
         "prjSpeed": 200
+      }
+    ],
+    "variants": [
+      {
+        "name": "Kuva Seer",
+        "tags": ["Secondary", "Pistol"],
+        "traits": ["Grineer", "Kuva Lich"],
+        "mastery": 15,
+        "reload": 2.3,
+        "magazine": 9,
+        "maxAmmo": 27,
+        "modes": [
+          {
+            "damage": {
+              "Impact": 26.2,
+              "Puncture": 68.1,
+              "Slash": 36.7,
+              "Corrosive": 69
+            },
+            "fireRate": 150,
+            "critChance": 0.21,
+            "critMul": 1.9,
+            "procChance": 0.33,
+            "accuracy": 16,
+            "trigger": "Semi"
+          }
+        ]
       }
     ]
   },
@@ -10939,6 +11148,36 @@
         "name": "Grenade Explosion",
         "damage": { "Blast": 650 },
         "radius": 5
+      }
+    ],
+    "variants": [
+      {
+        "name": "Kuva Tonkor",
+        "tags": ["Primary", "Rifle", "Assault Rifle", "Launcher"],
+        "traits": ["Grineer", "Kuva Lich"],
+        "mastery": 13,
+        "reload": 1.7,
+        "magazine": 1,
+        "maxAmmo": 60,
+        "modes": [
+          {
+            "name": "Grenade Impact",
+            "damage": { "Puncture": 59 },
+            "fireRate": 190,
+            "critChance": 0.3,
+            "critMul": 2.5,
+            "procChance": 0.17,
+            "accuracy": 100,
+            "trigger": "Semi",
+            "prjSpeed": 30
+          },
+          {
+            "type": "area",
+            "name": "Grenade Explosion",
+            "damage": { "Blast": 674 },
+            "radius": 5
+          }
+        ]
       }
     ]
   },
