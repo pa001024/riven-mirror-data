@@ -1604,7 +1604,8 @@
             "accuracy": 7.7,
             "punchThrough": 0.5,
             "pellets": 10,
-            "trigger": "Semi"
+            "trigger": "Semi",
+            "falloff": [10, 20, 0.6]
           }
         ]
       }
@@ -3183,7 +3184,6 @@
         "tags": ["Primary", "Shotgun"],
         "traits": ["Grineer", "Kuva Lich"],
         "mastery": 13,
-        "polarities": "r",
         "reload": 2,
         "magazine": 11,
         "maxAmmo": 960,
@@ -5048,41 +5048,51 @@
     "polarities": "r-",
     "stancePolarity": "-",
     "comboDur": 5,
-    "followThrough": 0,
-    "meleeRange": 0,
-    "slamAttack": 0,
-    "slamRadialDmg": 0,
-    "slamRadius": 0,
-    "heavyAttack": 0,
-    "windUp": 0,
-    "heavySlamAttack": 0,
-    "heavyRadialDmg": 0,
-    "heavySlamRadius": 0,
-    "slideAttack": 5,
+    "followThrough": 0.7,
+    "meleeRange": 1.2,
+    "slamAttack": 447,
+    "slamRadialDmg": 149,
+    "slamRadius": 5,
+    "heavyAttack": 596,
+    "windUp": 0.6,
+    "heavySlamAttack": 596,
+    "heavyRadialDmg": 596,
+    "heavySlamRadius": 6,
+    "slideAttack": 2,
     "modes": [
       {
-        "damage": { "Impact": 4.5, "Puncture": 36, "Slash": 4.5 },
+        "damage": { "Impact": 14.9, "Puncture": 119.2, "Slash": 14.9 },
         "fireRate": 70,
-        "critChance": 0.1,
+        "critChance": 0.17,
         "critMul": 2,
-        "procChance": 0.2,
+        "procChance": 0.29,
         "range": 23,
         "prjSpeed": 30
       },
       {
         "type": "chargedThrow",
-        "damage": { "Impact": 46, "Puncture": 368, "Slash": 46, "Blast": 440 },
-        "critChance": 0.1,
-        "critMul": 2,
-        "procChance": 0.25,
+        "damage": {
+          "Impact": 32.7,
+          "Puncture": 261.6,
+          "Slash": 32.7,
+          "Blast": 447
+        },
+        "critChance": 0.21,
+        "critMul": 2.3,
+        "procChance": 0.33,
         "punchThrough": 1
       },
       {
         "type": "throw",
-        "damage": { "Impact": 20, "Puncture": 160, "Slash": 20, "Blast": 150 },
-        "critChance": 0.1,
-        "critMul": 2,
-        "procChance": 0.2
+        "damage": {
+          "Impact": 29.8,
+          "Puncture": 238.4,
+          "Slash": 29.8,
+          "Blast": 447
+        },
+        "critChance": 0.19,
+        "critMul": 2.1,
+        "procChance": 0.31
       }
     ]
   },
@@ -6123,7 +6133,7 @@
         "tags": ["Primary", "Shotgun"],
         "traits": ["Grineer", "Kuva Lich"],
         "mastery": 13,
-        "polarities": "r",
+        "polarities": "d",
         "reload": 2,
         "magazine": 209,
         "maxAmmo": 960,
@@ -6505,7 +6515,7 @@
     "tags": ["Melee", "Hammer"],
     "mastery": 13,
     "disposition": 1,
-    "polarities": "rr",
+    "polarities": "r",
     "stancePolarity": "r",
     "comboDur": 5,
     "followThrough": 0,
@@ -7858,7 +7868,6 @@
         "tags": ["Primary", "Rifle", "Assault Rifle", "Launcher"],
         "traits": ["Grineer", "Kuva Lich"],
         "mastery": 15,
-        "polarities": "r",
         "reload": 2.1,
         "magazine": 3,
         "maxAmmo": 20,
@@ -8940,7 +8949,7 @@
         "tags": ["Primary", "Rifle", "Assault Rifle"],
         "traits": ["Grineer", "Kuva Lich"],
         "mastery": 13,
-        "polarities": "r",
+        "polarities": "rr",
         "reload": 1.7,
         "magazine": 88,
         "maxAmmo": 840,
@@ -11968,24 +11977,24 @@
     "polarities": "-",
     "stancePolarity": "d",
     "comboDur": 5,
-    "followThrough": 0,
-    "meleeRange": 0,
-    "slamAttack": 0,
-    "slamRadialDmg": 0,
-    "slamRadius": 0,
-    "heavyAttack": 0,
-    "windUp": 0,
-    "heavySlamAttack": 0,
-    "heavyRadialDmg": 0,
-    "heavySlamRadius": 0,
+    "followThrough": 0.6,
+    "meleeRange": 3.2,
+    "slamAttack": 750,
+    "slamRadialDmg": 250,
+    "slamRadius": 8,
+    "heavyAttack": 1500,
+    "windUp": 1.1,
+    "heavySlamAttack": 1250,
+    "heavyRadialDmg": 1250,
+    "heavySlamRadius": 9,
     "slideAttack": 2,
     "modes": [
       {
-        "damage": { "Impact": 112, "Puncture": 3.5, "Slash": 24.5 },
+        "damage": { "Impact": 120, "Puncture": 60, "Slash": 70 },
         "fireRate": 55,
-        "critChance": 0.2,
-        "critMul": 2,
-        "procChance": 0.2
+        "critChance": 0.26,
+        "critMul": 2.6,
+        "procChance": 0.26
       }
     ]
   },
