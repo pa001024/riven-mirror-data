@@ -1605,7 +1605,7 @@
             "punchThrough": 0.5,
             "pellets": 10,
             "trigger": "Semi",
-            "falloff": [10, 20, 0.6]
+            "falloff": [10, 20, 0.96]
           }
         ]
       }
@@ -3186,7 +3186,7 @@
         "mastery": 13,
         "reload": 2,
         "magazine": 11,
-        "maxAmmo": 960,
+        "maxAmmo": 120,
         "modes": [
           {
             "damage": { "Impact": 26.3, "Puncture": 26.3, "Slash": 210.3 },
@@ -3195,9 +3195,19 @@
             "critMul": 2,
             "procChance": 0.1,
             "accuracy": 1.4,
-            "punchThrough": 1.5,
             "pellets": 10,
             "trigger": "Charge",
+            "prjSpeed": 100
+          },
+          {
+            "type": "charge",
+            "damage": { "Impact": 46, "Puncture": 46, "Slash": 368 },
+            "critChance": 0.21,
+            "critMul": 2.5,
+            "procChance": 0.3,
+            "punchThrough": 1.5,
+            "pellets": 10,
+            "chargeTime": 0.3,
             "prjSpeed": 100
           }
         ]
