@@ -33,8 +33,8 @@ const getBaseName = (name: string) => {
     "Dex Pixia",
     "Kuva Twin Stubbas",
     "Kuva Shildeg",
-    "kuva Ayanga",
-    "kuva Chakkhurr", //
+    "Kuva Ayanga",
+    "Kuva Chakkhurr", //
   ];
   if (name === "Dex Furis") return "Afuris";
   if (WEAPON_SINGLE.includes(name)) return name;
