@@ -190,7 +190,7 @@ const toWeaponWiki = (raw: WikiWeapons.Weapon, noproto = false): ProtoWeapon => 
     tags,
     traits: raw.Traits,
     mastery: raw.Mastery || undefined,
-    disposition: noproto ? undefined : raw.Disposition,
+    disposition: raw.Disposition,
     // fireRate: raw.FireRate && +(raw.FireRate * 60).toFixed(0),
     polarities: (raw.Polarities && raw.Polarities.map(v => polarityMap[v]).join("")) || undefined,
     reload: raw.Reload,
@@ -307,6 +307,7 @@ export enum TYPES {
   "Arch-Gun",
   "Arch-Melee",
   Amp,
+  "Arm-Cannon",
 }
 export enum MainTag {
   Rifle,
@@ -318,6 +319,7 @@ export enum MainTag {
   "Arch-Gun",
   "Arch-Melee",
   Amp,
+  "Arm-Cannon",
 }
 
 // 转换武器
@@ -354,29 +356,26 @@ export const convertWeapons = (deWeapons: DEWeapon, wikiWeapons: WikiWeapon, pat
   // 字母顺序排序
   let weaponNamesDE = Object.keys(weaponMapDE);
   // 获取基础版本的武器 (ProtoWeapon)
-  const bases = weaponWIKI.reduce(
-    (rst, weapon) => {
-      try {
-        weaponNamesDE = weaponNamesDE.filter(v => v != weapon.name);
-        const baseName = getBaseName(weapon.name);
-        const variants = weapon.name.replace(baseName, "").trim();
-        const extra = weaponMapWIKI[baseName];
-        const weapon_DE = weaponMapDE[weapon.name];
-        if (!variants) rst[baseName] = { ...weapon_DE, ...weapon, ...extra };
-      } catch (e) {
-        console.log(e, weapon);
-      }
-      return rst;
-    },
-    {} as Dict<ProtoWeapon>
-  );
+  const bases: Dict<ProtoWeapon> = weaponWIKI.reduce((rst, weapon) => {
+    try {
+      weaponNamesDE = weaponNamesDE.filter(v => v != weapon.name);
+      const baseName = getBaseName(weapon.name);
+      const variants = weapon.name.replace(baseName, "").trim();
+      const extra = weaponMapWIKI[baseName];
+      const weapon_DE = weaponMapDE[weapon.name];
+      if (!variants) rst[baseName] = { ...weapon_DE, ...weapon, ...extra };
+    } catch (e) {
+      console.log(e, weapon);
+    }
+    return rst;
+  }, {});
   // DE数据中没有的
   if (weaponNamesDE.length) {
     console.warn("Follow is missing in DE file");
     console.warn(weaponNamesDE.join("\n"));
   }
 
-  const all = weaponWIKI.reduce((rst, weapon) => {
+  const all: Dict<ProtoWeapon> = weaponWIKI.reduce((rst, weapon) => {
     if (!weapon.name) {
       console.log("wrong with", weapon);
       return rst;
@@ -393,7 +392,7 @@ export const convertWeapons = (deWeapons: DEWeapon, wikiWeapons: WikiWeapon, pat
 
     // 同紫卡武器
     if (variant) {
-      const { disposition, ...thisVariant } = {
+      const { ...thisVariant } = {
         ...(weapon_DE ? merge(weapon_DE, bases[baseName]) : bases[baseName]),
         ...extra,
         modes: [
@@ -425,20 +424,28 @@ export const convertWeapons = (deWeapons: DEWeapon, wikiWeapons: WikiWeapon, pat
   }, _.cloneDeep(bases));
 
   // 输出倾向性表
-  const disposition = _.map(all, v => {
-    const mode = v.tags.find(v => ["Arch-Gun", "Arch-Melee", "Melee", "Shotgun", "Rifle", "Secondary", "Amp"].includes(v));
-    if (!mode) console.warn("no mode found", v.name, v.tags);
-    return [
-      v.name, //
-      mode || "Rifle",
-      v.disposition || 0,
-    ] as [string, string, number];
-  })
+  const disposition = _.map(
+    [].concat(
+      ..._.map(all, p => {
+        if (p.variants) return [p, ...p.variants.filter(v => !v.name.includes("("))];
+        return [p];
+      })
+    ),
+    (v: ProtoWeapon) => {
+      const mode = v.tags.find(v => ["Arch-Gun", "Arch-Melee", "Melee", "Shotgun", "Rifle", "Secondary", "Amp", "Arm-Cannon"].includes(v));
+      if (!mode) console.warn("no mode found", v.name, v.tags);
+      return [
+        v.name, //
+        mode || "Rifle",
+        v.disposition || 0,
+      ] as [string, string, number];
+    }
+  )
     .concat([
       // kitguns
-      ["Gaze", "Kitgun", 1],
-      ["Rattleguts", "Kitgun", 0.8],
-      ["Tombfinger", "Kitgun", 0.75],
+      ["Gaze", "Kitgun", 0.9],
+      ["Rattleguts", "Kitgun", 0.7],
+      ["Tombfinger", "Kitgun", 0.65],
       ["Catchmoon", "Kitgun", 0.6],
       // zaw
       ["Balla", "Zaw", 1],

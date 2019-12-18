@@ -308,6 +308,19 @@ Vicious Approach`.split("\n")
             const patchRiven = await fs.readFile(PATCH_PREFIX + "riven-disposition-updates.txt", "utf-8");
             const [unpatch, result, disposition] = convertWeapons(deWeapons, _.merge(wikiWeapons, patchWiki), patch);
             const riven = mergeRivenPatch(patchRiven, disposition);
+            const rm = riven.reduce((r, v) => {
+              r[v[0]] = v[2];
+              return r;
+            });
+            const weapons = result.map(v => {
+              if (v.name in rm) v.disposition = rm[v.name];
+              if (v.variants)
+                v.variants = v.variants.map(v => {
+                  if (v.name in rm) v.disposition = rm[v.name];
+                  return v;
+                });
+              return v;
+            });
             await fs.outputFile(TARGET_PREFIX + "weapons.unpatch.json", formatJSON(unpatch));
             await fs.outputFile(TARGET_PREFIX + "weapons.json", formatJSON(result));
             await fs.outputFile(TARGET_PREFIX + "disposition.json", formatJSON(riven));

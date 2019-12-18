@@ -78,6 +78,8 @@ export interface Weapon {
   mastery?: number;
   /** 极性 */
   polarities?: string;
+  /** 裂罅倾向 */
+  disposition?: number;
 
   // gun
   reload?: number;
