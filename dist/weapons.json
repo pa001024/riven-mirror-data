@@ -440,7 +440,7 @@
         "tags": ["Secondary", "Dual Pistols"],
         "traits": ["Prime"],
         "mastery": 12,
-        "disposition": 1.2,
+        "disposition": 1,
         "polarities": "-",
         "reload": 1.4,
         "magazine": 80,
@@ -1182,6 +1182,7 @@
       {
         "name": "Ballistica Prime",
         "tags": ["Secondary", "Pistol", "Crossbow"],
+        "traits": ["Prime", "Vaulted"],
         "mastery": 14,
         "disposition": 1.15,
         "polarities": "-rr",
@@ -2262,7 +2263,7 @@
       {
         "name": "Cernos Prime",
         "tags": ["Primary", "Rifle", "Bow"],
-        "traits": ["Prime"],
+        "traits": ["Prime", "Vaulted"],
         "mastery": 12,
         "disposition": 1.2,
         "polarities": "rr",
@@ -2450,29 +2451,28 @@
     "mastery": 1,
     "disposition": 1.05,
     "polarities": "-",
-    "reload": 5,
+    "reload": 3,
     "magazine": 25,
     "reloadStyle": 1,
     "modes": [
       {
-        "damage": { "Impact": 336, "Puncture": 42, "Slash": 42 },
+        "damage": { "Impact": 50, "Heat": 100 },
         "fireRate": 120,
-        "critChance": 0.15,
+        "critChance": 0.25,
         "critMul": 2,
-        "procChance": 0.1,
-        "accuracy": 9.1,
-        "pellets": 12,
+        "procChance": 0.2,
+        "accuracy": 100,
         "trigger": "Charge"
       },
       {
         "type": "charge",
-        "damage": { "Impact": 672, "Puncture": 84, "Slash": 84 },
+        "damage": { "Impact": 100, "Heat": 250 },
         "fireRate": 120,
-        "critChance": 0.15,
+        "critChance": 0.25,
         "critMul": 2,
-        "procChance": 0.1,
-        "pellets": 12,
-        "chargeTime": 0.5
+        "procChance": 0.2,
+        "chargeTime": 0.5,
+        "falloff": [100, 200, null]
       }
     ],
     "variants": [
@@ -2505,7 +2505,8 @@
             "critMul": 2.6,
             "procChance": 0.14,
             "pellets": 11,
-            "chargeTime": 0.5
+            "chargeTime": 0.5,
+            "falloff": [60, 120, null]
           }
         ]
       }
@@ -2634,14 +2635,15 @@
     "reloadStyle": 1,
     "modes": [
       {
-        "damage": { "Impact": 66, "Puncture": 66, "Slash": 68 },
+        "damage": { "Impact": 15.8, "Puncture": 15.8, "Slash": 16.3 },
         "fireRate": 545,
         "critChance": 0.05,
         "critMul": 2,
         "procChance": 0.3,
-        "accuracy": 33.3,
+        "accuracy": 25,
         "trigger": "Burst",
-        "burstCount": 3
+        "burstCount": 3,
+        "falloff": [1200, 4800, null]
       }
     ],
     "variants": [
@@ -2656,7 +2658,7 @@
         "maxAmmo": 480,
         "modes": [
           {
-            "damage": { "Impact": 39.6, "Puncture": 39.6, "Slash": 40.8 },
+            "damage": { "Impact": 40, "Puncture": 40, "Slash": 40 },
             "fireRate": 545,
             "critChance": 0.2,
             "critMul": 2.2,
@@ -3490,13 +3492,14 @@
     "reloadStyle": 1,
     "modes": [
       {
-        "damage": { "Impact": 27, "Puncture": 16.5, "Slash": 16.5 },
-        "fireRate": 498,
+        "damage": { "Impact": 18.9, "Puncture": 11.6, "Slash": 11.5 },
+        "fireRate": 500,
         "critChance": 0.25,
         "critMul": 2,
         "procChance": 0.1,
-        "accuracy": 100,
-        "trigger": "Auto"
+        "accuracy": 16,
+        "trigger": "Auto",
+        "falloff": [1200, 4800, null]
       }
     ],
     "variants": [
@@ -3511,8 +3514,8 @@
         "maxAmmo": 512,
         "modes": [
           {
-            "damage": { "Impact": 49.6, "Puncture": 30.25, "Slash": 30.25 },
-            "fireRate": 498,
+            "damage": { "Impact": 49.5, "Puncture": 30.3, "Slash": 30.2 },
+            "fireRate": 500,
             "critChance": 0.28,
             "critMul": 2.2,
             "procChance": 0.14,
@@ -3643,7 +3646,7 @@
       {
         "name": "Dual Kamas Prime",
         "tags": ["Melee", "Dual Swords"],
-        "traits": ["Prime"],
+        "traits": ["Prime", "Vaulted"],
         "mastery": 8,
         "disposition": 0.81,
         "polarities": "r",
@@ -4228,14 +4231,15 @@
     "reloadStyle": 1,
     "modes": [
       {
-        "damage": { "Impact": 40, "Puncture": 20, "Slash": 140 },
+        "damage": { "Impact": 24, "Puncture": 12, "Slash": 84 },
         "fireRate": 300,
         "critChance": 0.15,
         "critMul": 2,
         "procChance": 0.1,
         "accuracy": 100,
         "range": 450,
-        "trigger": "Semi-Auto"
+        "trigger": "Semi-Auto",
+        "falloff": [200, 400, null]
       }
     ],
     "variants": [
@@ -4583,7 +4587,7 @@
       {
         "name": "Galatine Prime",
         "tags": ["Melee", "Heavy Blade"],
-        "traits": ["Prime"],
+        "traits": ["Prime", "Vaulted"],
         "mastery": 13,
         "disposition": 0.5,
         "polarities": "rr",
@@ -5103,7 +5107,7 @@
     "modes": [
       {
         "name": "Projectile Impact",
-        "damage": { "Impact": 17.5, "Puncture": 140, "Slash": 17.5 },
+        "damage": { "Impact": 5.8, "Puncture": 46.4, "Slash": 5.8 },
         "fireRate": 375,
         "critChance": 0.25,
         "critMul": 2,
@@ -5115,7 +5119,8 @@
       {
         "type": "area",
         "name": "Explosion",
-        "damage": { "Impact": 10, "Puncture": 80, "Slash": 10 }
+        "damage": { "Impact": 9, "Puncture": 72, "Slash": 9 },
+        "radius": 5
       }
     ],
     "variants": [
@@ -5141,7 +5146,12 @@
             "punchThrough": 5,
             "trigger": "Auto"
           },
-          { "type": "area", "name": "Explosion", "damage": { "Blast": 205 } }
+          {
+            "type": "area",
+            "name": "Explosion",
+            "damage": { "Blast": 205 },
+            "radius": 4
+          }
         ]
       }
     ]
@@ -5763,13 +5773,14 @@
     "reloadStyle": 1,
     "modes": [
       {
-        "damage": { "Impact": 16, "Puncture": 14, "Slash": 10 },
+        "damage": { "Impact": 8.8, "Puncture": 7.7, "Slash": 5.5 },
         "fireRate": 1002,
         "critChance": 0.1,
         "critMul": 2,
         "procChance": 0.05,
         "accuracy": 25,
-        "trigger": "Auto"
+        "trigger": "Auto",
+        "falloff": [1200, 4800, null]
       }
     ],
     "variants": [
@@ -5806,13 +5817,14 @@
         "reloadStyle": 1,
         "modes": [
           {
-            "damage": { "Impact": 16, "Puncture": 14, "Slash": 10 },
-            "fireRate": 1000,
+            "damage": { "Impact": 8.8, "Puncture": 7.7, "Slash": 5.5 },
+            "fireRate": 1500,
             "critChance": 0.15,
             "critMul": 2,
             "procChance": 0.1,
             "accuracy": 25,
-            "trigger": "Auto-Spool"
+            "trigger": "Auto-Spool",
+            "falloff": [1200, 4800, null]
           }
         ]
       },
@@ -5859,11 +5871,11 @@
     "slideAttack": 2.14,
     "modes": [
       {
-        "damage": { "Impact": 170, "Slash": 80 },
+        "damage": { "Impact": 212.5, "Puncture": 37.5 },
         "fireRate": 60,
         "critChance": 0.25,
         "critMul": 2,
-        "procChance": 0.3
+        "procChance": 0.1
       }
     ]
   },
@@ -6650,6 +6662,7 @@
       {
         "name": "Kronen Prime",
         "tags": ["Melee", "Tonfa"],
+        "traits": ["Prime", "Vaulted"],
         "mastery": 13,
         "disposition": 1.43,
         "polarities": "r-",
@@ -6773,7 +6786,8 @@
     "reloadStyle": 1,
     "modes": [
       {
-        "damage": { "Impact": 87 },
+        "name": "Grenade Impact",
+        "damage": { "Impact": 30 },
         "fireRate": 275,
         "critChance": 0.35,
         "critMul": 2,
@@ -6784,7 +6798,7 @@
       {
         "type": "area",
         "name": "Explosion",
-        "damage": { "Blast": 187 },
+        "damage": { "Blast": 100 },
         "radius": 9
       }
     ],
@@ -6800,6 +6814,7 @@
         "maxAmmo": 329,
         "modes": [
           {
+            "name": "Grenade Impact",
             "damage": { "Impact": 87 },
             "fireRate": 275,
             "critChance": 0.35,
@@ -6996,11 +7011,11 @@
     "mastery": 8,
     "disposition": 0.8,
     "reload": 50,
-    "magazine": 600,
+    "magazine": 100,
     "reloadStyle": 1,
     "modes": [
       {
-        "damage": { "Impact": 10, "Radiation": 80 },
+        "damage": { "Impact": 2, "Radiation": 30 },
         "fireRate": 720,
         "critChance": 0.1,
         "critMul": 1.4,
@@ -7010,13 +7025,20 @@
       },
       {
         "type": "charge",
-        "damage": { "Impact": 200, "Blast": 250, "Radiation": 1300 },
+        "name": "Projectile Impact",
+        "damage": { "Impact": 140, "Blast": 180, "Radiation": 100 },
         "fireRate": 60,
         "critChance": 0.26,
         "critMul": 2.2,
         "procChance": 0.34,
         "accuracy": 100,
         "chargeTime": 0.5
+      },
+      {
+        "type": "secondaryArea",
+        "name": "Explosion",
+        "damage": { "Blast": 400 },
+        "radius": 8
       }
     ],
     "variants": [
@@ -7041,13 +7063,19 @@
           },
           {
             "type": "charge",
-            "damage": { "Impact": 200, "Blast": 250, "Radiation": 1300 },
+            "damage": { "Impact": 140, "Blast": 180, "Radiation": 100 },
             "fireRate": 60,
             "critChance": 0.26,
             "critMul": 2.2,
             "procChance": 0.34,
             "accuracy": 100,
             "chargeTime": 0.5
+          },
+          {
+            "type": "secondaryArea",
+            "name": "Explosion",
+            "damage": { "Blast": 400 },
+            "radius": 8
           }
         ]
       }
@@ -7898,6 +7926,7 @@
       {
         "name": "Nami Skyla Prime",
         "tags": ["Melee", "Dual Swords"],
+        "traits": ["Prime", "Vaulted"],
         "mastery": 11,
         "disposition": 1.175,
         "polarities": "rrd",
@@ -7989,7 +8018,7 @@
       {
         "name": "Nikana Prime",
         "tags": ["Melee", "Nikana"],
-        "traits": ["Prime"],
+        "traits": ["Prime", "Vaulted"],
         "mastery": 12,
         "disposition": 0.5,
         "polarities": "rd",
@@ -8950,13 +8979,14 @@
     "reloadStyle": 1,
     "modes": [
       {
-        "damage": { "Impact": 11.25, "Puncture": 29.25, "Slash": 4.5 },
+        "damage": { "Impact": 8.8, "Puncture": 22.8, "Slash": 3.5 },
         "fireRate": 1125,
         "critChance": 0.1,
         "critMul": 2,
         "procChance": 0.25,
         "accuracy": 10.5,
-        "trigger": "Auto-Spool"
+        "trigger": "Auto-Spool",
+        "falloff": [1200, 4800, null]
       }
     ],
     "variants": [
@@ -8972,7 +9002,7 @@
         "maxAmmo": 960,
         "modes": [
           {
-            "damage": { "Impact": 14, "Puncture": 36.4, "Slash": 6 },
+            "damage": { "Impact": 14, "Puncture": 36.4, "Slash": 5.6 },
             "fireRate": 1125,
             "critChance": 0.14,
             "critMul": 2,
@@ -10694,7 +10724,7 @@
       {
         "name": "Spira Prime",
         "tags": ["Secondary", "Thrown"],
-        "traits": ["Prime"],
+        "traits": ["Prime", "Vaulted"],
         "mastery": 10,
         "disposition": 1.15,
         "polarities": "rr",
@@ -11461,6 +11491,7 @@
       {
         "name": "Tiberon Prime",
         "tags": ["Primary", "Rifle", "Assault Rifle"],
+        "traits": ["Prime", "Vaulted"],
         "mastery": 14,
         "disposition": 0.85,
         "polarities": "r--",
@@ -11550,7 +11581,7 @@
       {
         "name": "Tigris Prime",
         "tags": ["Primary", "Shotgun"],
-        "traits": ["Prime"],
+        "traits": ["Prime", "Vaulted"],
         "mastery": 13,
         "disposition": 0.55,
         "polarities": "r-",
@@ -12142,7 +12173,7 @@
       {
         "name": "Vectis Prime",
         "tags": ["Primary", "Rifle", "Sniper"],
-        "traits": ["Prime", "Vaulted"],
+        "traits": ["Prime"],
         "mastery": 14,
         "disposition": 0.85,
         "polarities": "r-",
@@ -12203,14 +12234,14 @@
     "reloadStyle": 1,
     "modes": [
       {
-        "damage": { "Magnetic": 200 },
+        "damage": { "Magnetic": 290 },
         "fireRate": 300,
         "accuracy": 28.6,
         "trigger": "Charge"
       },
       {
         "type": "charge",
-        "damage": { "Magnetic": 1800 },
+        "damage": { "Magnetic": 580 },
         "fireRate": 300,
         "critChance": 0.25,
         "critMul": 3,
@@ -12282,7 +12313,7 @@
       {
         "name": "Venka Prime",
         "tags": ["Melee", "Claws"],
-        "traits": ["Prime"],
+        "traits": ["Prime", "Vaulted"],
         "mastery": 14,
         "disposition": 0.5,
         "polarities": "-r",
@@ -12812,6 +12843,7 @@
       {
         "name": "Zhuge Prime",
         "tags": ["Primary", "Rifle", "Bow", "Crossbow"],
+        "traits": ["Prime"],
         "mastery": 14,
         "disposition": 1.15,
         "polarities": "rrr",
