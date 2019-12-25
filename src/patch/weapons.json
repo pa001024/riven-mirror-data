@@ -17,6 +17,9 @@
   "Spectra Vandal": {
     "disposition": 1.4
   },
+  "Shedu": {
+    "tags": ["Primary", "Rifle", "Assault Rifle"]
+  },
   "Mutalist Quanta": {
     "modes": [{}, { "procChance": 0.39 }]
   },

@@ -464,7 +464,7 @@
     "tags": ["Secondary", "Dual Pistols"],
     "traits": ["Tenno"],
     "mastery": 8,
-    "disposition": 0.5,
+    "disposition": 0.6,
     "polarities": "-",
     "reload": 1.1,
     "magazine": 28,
@@ -486,7 +486,7 @@
         "tags": ["Secondary", "Dual Pistols"],
         "traits": ["Prime"],
         "mastery": 10,
-        "disposition": 0.5,
+        "disposition": 0.55,
         "polarities": "-r",
         "reload": 1.1,
         "magazine": 40,
@@ -2635,13 +2635,13 @@
     "reloadStyle": 1,
     "modes": [
       {
-        "damage": { "Impact": 15.8, "Puncture": 15.8, "Slash": 16.3 },
+        "damage": { "Impact": 15.84, "Puncture": 15.84, "Slash": 16.32 },
         "fireRate": 545,
         "critChance": 0.05,
         "critMul": 2,
         "procChance": 0.3,
         "accuracy": 25,
-        "trigger": "Burst",
+        "trigger": "Auto Burst",
         "burstCount": 3,
         "falloff": [1200, 4800, null]
       }
@@ -10079,7 +10079,7 @@
   },
   {
     "name": "Shedu",
-    "tags": ["Primary", "Arm-Cannon"],
+    "tags": ["Primary", "Rifle", "Assault Rifle"],
     "traits": ["Sentient"],
     "mastery": 13,
     "disposition": 1,

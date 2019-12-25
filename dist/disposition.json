@@ -97,6 +97,7 @@
   ["Multron", 0, 1],
   ["Opticor Vandal", 0, 1],
   ["Quellor", 0, 1],
+  ["Shedu", 0, 1],
   ["Soma", 0, 1],
   ["Stradavar Prime", 0, 1],
   ["Tazicor", 0, 1],
@@ -250,11 +251,11 @@
   ["Pyrana", 2, 0.7],
   ["Rattleguts", 3, 0.7],
   ["Tombfinger", 3, 0.65],
+  ["Akstiletto", 2, 0.6],
   ["Catchmoon", 3, 0.6],
   ["Pyrana Prime", 2, 0.6],
+  ["Akstiletto Prime", 2, 0.55],
   ["Staticor", 2, 0.53],
-  ["Akstiletto", 2, 0.5],
-  ["Akstiletto Prime", 2, 0.5],
   ["Balefire Charger", 2, 0],
   ["Dex Pixia", 2, 0],
   ["Regulators", 2, 0],
@@ -455,6 +456,5 @@
   ["Rathbone", 7, 1],
   ["Veritux", 7, 1],
   ["Prisma Veritux", 7, 0],
-  ["Amp", 8, 0],
-  ["Shedu", 9, 1]
+  ["Amp", 8, 0]
 ]
