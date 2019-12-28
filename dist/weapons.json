@@ -2426,7 +2426,7 @@
         "falloff": [18, 36, 0.6667]
       },
       {
-        "type": "secondary",
+        "type": "area",
         "name": "Air Burst Projectile",
         "damage": { "Impact": 100 },
         "critChance": 0.04,
@@ -2576,8 +2576,8 @@
     "maxAmmo": 210,
     "modes": [
       {
-        "name": "Full Auto Mode",
-        "damage": { "Impact": 50, "Gas": 41 },
+        "name": "Projectile Impact",
+        "damage": { "Impact": 50 },
         "fireRate": 280,
         "critChance": 0.08,
         "critMul": 1.4,
@@ -2596,6 +2596,12 @@
         "accuracy": 80,
         "punchThrough": 0.5,
         "trigger": "Burst"
+      },
+      {
+        "type": "area",
+        "name": "Projectile Explosion",
+        "damage": { "Gas": 41 },
+        "radius": 0.5
       }
     ]
   },
@@ -4208,6 +4214,15 @@
       },
       {
         "type": "secondary",
+        "name": "Attraction Field",
+        "damage": {},
+        "fireRate": 30,
+        "critChance": 0,
+        "critMul": 2,
+        "procChance": 0.5
+      },
+      {
+        "type": "area",
         "name": "Throw Spear",
         "damage": { "Impact": 455, "Puncture": 72.5, "Slash": 122.5 },
         "fireRate": 60,
@@ -5953,7 +5968,7 @@
       {
         "type": "charge",
         "name": "Projectile Impact",
-        "damage": { "Heat": 230 },
+        "damage": { "Heat": 160 },
         "fireRate": 200,
         "critChance": 0.2,
         "critMul": 2,
@@ -5975,8 +5990,8 @@
       },
       {
         "type": "area",
-        "name": "Explosion",
-        "damage": { "Heat": 50 },
+        "name": "Projectile Explosion",
+        "damage": { "Heat": 120 },
         "critChance": 0.2,
         "critMul": 2,
         "procChance": 0.25,
@@ -5989,7 +6004,7 @@
         "critChance": 0.2,
         "critMul": 2,
         "procChance": 0.25,
-        "radius": 7
+        "radius": 5
       }
     ]
   },
@@ -6715,7 +6730,8 @@
       {
         "type": "area",
         "name": "Rocket Explosion",
-        "damage": { "Blast": 300 }
+        "damage": { "Blast": 300 },
+        "radius": 3
       },
       {
         "type": "secondaryArea",
@@ -8894,7 +8910,7 @@
         "type": "secondary",
         "name": "Grenade Detonation",
         "damage": { "Blast": 350 },
-        "radius": 5,
+        "radius": 4,
         "trigger": "Detonate"
       }
     ],
@@ -9064,11 +9080,28 @@
       {
         "type": "charge",
         "name": "Plasma Bomb",
-        "damage": { "Impact": 15, "Radiation": 73 },
+        "damage": { "Impact": 15 },
         "fireRate": 120,
-        "radius": 5,
-        "ammoCost": 11,
+        "critChance": 0.03,
+        "critMul": 1.5,
+        "procChance": 0.37,
+        "ammoCost": 1,
         "chargeTime": 1
+      },
+      {
+        "type": "area",
+        "name": "Bomb Explosion",
+        "damage": { "Radiation": 73 },
+        "radius": 4
+      },
+      {
+        "type": "secondaryArea",
+        "name": "Cluster Bombs",
+        "damage": { "Impact": 75 },
+        "critChance": 0.03,
+        "critMul": 1.5,
+        "procChance": 0.37,
+        "pellets": 5
       }
     ]
   },
@@ -9316,9 +9349,19 @@
         "trigger": "Held"
       },
       {
+        "type": "secondary",
+        "name": "Cube (Shot by player)",
+        "damage": { "Blast": 600 },
+        "fireRate": 240,
+        "critChance": 0.05,
+        "critMul": 1.5,
+        "procChance": 0.26,
+        "radius": 6
+      },
+      {
         "type": "area",
         "name": "Cube (Hits enemy)",
-        "damage": { "Electricity": 100, "Blast": 150 },
+        "damage": { "Electricity": 100 },
         "fireRate": 240,
         "critChance": 0.05,
         "critMul": 1.5,
@@ -9328,12 +9371,9 @@
       },
       {
         "type": "secondaryArea",
-        "name": "Cube (Shot by player)",
-        "damage": { "Blast": 600 },
-        "fireRate": 240,
-        "critChance": 0.05,
-        "critMul": 1.5,
-        "procChance": 0.26
+        "name": "Cube Explosion",
+        "damage": { "Blast": 150 },
+        "radius": 0.5
       }
     ],
     "variants": [
@@ -9361,9 +9401,19 @@
             "trigger": "Held"
           },
           {
+            "type": "secondary",
+            "name": "Cube (Shot by player)",
+            "damage": { "Blast": 600 },
+            "fireRate": 240,
+            "critChance": 0.05,
+            "critMul": 1.5,
+            "procChance": 0.26,
+            "radius": 6
+          },
+          {
             "type": "area",
             "name": "Cube (Hits enemy)",
-            "damage": { "Electricity": 100, "Blast": 150 },
+            "damage": { "Electricity": 100 },
             "fireRate": 240,
             "critChance": 0.05,
             "critMul": 1.5,
@@ -9374,13 +9424,9 @@
           },
           {
             "type": "secondaryArea",
-            "name": "Cube (Shot by player)",
-            "damage": { "Blast": 600 },
-            "fireRate": 240,
-            "critChance": 0.05,
-            "critMul": 1.5,
-            "procChance": 0.26,
-            "accuracy": 25
+            "name": "Cube Explosion",
+            "damage": { "Blast": 150 },
+            "radius": 0.5
           }
         ]
       }
@@ -9436,7 +9482,7 @@
             "fireRate": 380,
             "critChance": 0.31,
             "critMul": 2.3,
-            "procChance": 0.33,
+            "procChance": 0.27,
             "accuracy": 90.9,
             "punchThrough": 0.5,
             "trigger": "Burst",
@@ -9915,20 +9961,9 @@
       },
       {
         "type": "secondary",
-        "name": "Throw Spear",
-        "damage": {
-          "Impact": 455,
-          "Puncture": 72.5,
-          "Slash": 122.5,
-          "Corrosive": 50
-        },
-        "fireRate": 60,
-        "critChance": 0.04,
-        "critMul": 2,
-        "procChance": 0.3,
-        "accuracy": 16.7,
-        "chargeTime": 0.5,
-        "trigger": "Charge"
+        "name": "Spear Explosion",
+        "damage": { "Corrosive": 50 },
+        "radius": 6
       },
       {
         "type": "area",
@@ -9938,6 +9973,18 @@
         "critMul": 1.5,
         "procChance": 0.3,
         "radius": 1.5
+      },
+      {
+        "type": "secondaryArea",
+        "name": "Throw Spear",
+        "damage": { "Impact": 105, "Puncture": 22.5, "Slash": 22.5 },
+        "fireRate": 60,
+        "critChance": 0.04,
+        "critMul": 2,
+        "procChance": 0.3,
+        "accuracy": 16.7,
+        "chargeTime": 0.5,
+        "trigger": "Charge"
       }
     ]
   },
@@ -9986,9 +10033,7 @@
             "type": "area",
             "name": "Explosion",
             "damage": { "Corrosive": 69 },
-            "critChance": 0.21,
-            "critMul": 1.9,
-            "procChance": 0.33
+            "radius": 1.9
           }
         ]
       }
@@ -10099,7 +10144,7 @@
         "type": "secondary",
         "name": "Radial Attack",
         "damage": { "Electricity": 87 },
-        "range": 5.5
+        "radius": 5.5
       }
     ]
   },
@@ -10321,13 +10366,13 @@
       {
         "type": "secondary",
         "name": "Orb Explosion",
-        "damage": { "Electricity": 75 },
+        "damage": { "Magnetic": 75 },
         "critChance": 0.12,
         "critMul": 2,
         "procChance": 0.3,
-        "radius": 8
+        "radius": 5
       },
-      { "type": "area", "name": "Orb Merge", "damage": { "Magnetic": 75 } }
+      { "type": "area", "name": "Orb Merge", "damage": { "Magnetic": 27 } }
     ],
     "variants": [
       {
@@ -10343,7 +10388,7 @@
         "modes": [
           {
             "name": "Orb Damage",
-            "damage": { "Magnetic": 20 },
+            "damage": { "Magnetic": 50 },
             "fireRate": 200,
             "critChance": 0.14,
             "critMul": 2,
@@ -10354,13 +10399,13 @@
           {
             "type": "secondary",
             "name": "Orb Explosion",
-            "damage": { "Electricity": 75 },
+            "damage": { "Magnetic": 75 },
             "critChance": 0.14,
             "critMul": 2,
             "procChance": 0.35,
-            "radius": 8
+            "radius": 5
           },
-          { "type": "area", "name": "Orb Merge", "damage": { "Magnetic": 50 } }
+          { "type": "area", "name": "Orb Merge", "damage": { "Magnetic": 28 } }
         ]
       }
     ]
@@ -10987,7 +11032,8 @@
     "magazine": 20,
     "modes": [
       {
-        "damage": { "Corrosive": 156 },
+        "name": "Blob Impact",
+        "damage": { "Corrosive": 4 },
         "fireRate": 240,
         "critChance": 0.05,
         "critMul": 1.5,
@@ -10996,10 +11042,13 @@
         "prjSpeed": 35
       },
       {
-        "type": "charge",
-        "damage": { "Corrosive": 936 },
-        "ammoCost": 6,
-        "chargeTime": 3
+        "type": "area",
+        "name": "Blob Explosion",
+        "damage": { "Corrosive": 75 },
+        "critChance": 0.05,
+        "critMul": 1.5,
+        "procChance": 0.1,
+        "radius": 0.25
       }
     ]
   },
@@ -11265,6 +11314,7 @@
         "critMul": 2,
         "procChance": 0.26,
         "accuracy": 100,
+        "radius": 4,
         "trigger": "Active",
         "prjSpeed": 50
       }
@@ -12671,7 +12721,7 @@
         "type": "area",
         "name": "Gas Cloud",
         "damage": { "Gas": 80 },
-        "radius": 5
+        "radius": 3.5
       }
     ]
   },

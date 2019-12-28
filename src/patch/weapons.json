@@ -23,6 +23,9 @@
   "Mutalist Quanta": {
     "modes": [{}, { "procChance": 0.39 }]
   },
+  "Kuva Quartakk": {
+    "modes": [{}, { "procChance": 0.27 }]
+  },
   "Acceltra": {
     "modes": [
       {
