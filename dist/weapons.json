@@ -6797,8 +6797,8 @@
     "traits": ["Grineer", "Kuva Lich"],
     "mastery": 13,
     "disposition": 1,
-    "reload": 1,
-    "magazine": 99,
+    "reload": 10,
+    "magazine": 33,
     "reloadStyle": 1,
     "modes": [
       {
