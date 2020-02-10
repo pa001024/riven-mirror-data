@@ -34,7 +34,8 @@ const getBaseName = (name: string) => {
     "Kuva Twin Stubbas",
     "Kuva Shildeg",
     "Kuva Ayanga",
-    "Kuva Chakkhurr", //
+    "Kuva Chakkhurr",
+    "Kuva Bramma", //
   ];
   if (name === "Dex Furis") return "Afuris";
   if (WEAPON_SINGLE.includes(name)) return name;
@@ -188,7 +189,7 @@ const toWeaponWiki = (raw: WikiWeapons.Weapon, noproto = false): ProtoWeapon => 
   return {
     name: mapNames(raw.Name),
     tags,
-    traits: raw.Traits,
+    traits: raw.Traits && raw.Traits.filter(v => v !== "Self Damage"),
     mastery: raw.Mastery || undefined,
     disposition: raw.Disposition,
     // fireRate: raw.FireRate && +(raw.FireRate * 60).toFixed(0),

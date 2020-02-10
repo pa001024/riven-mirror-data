@@ -2069,6 +2069,7 @@
         "critMul": 1.5,
         "procChance": 0.22,
         "accuracy": 100,
+        "radius": 3,
         "trigger": "Active",
         "prjSpeed": 30
       }
@@ -3320,11 +3321,11 @@
         "maxAmmo": 120,
         "modes": [
           {
-            "damage": { "Impact": 26.3, "Puncture": 26.3, "Slash": 210.3 },
+            "damage": { "Impact": 23, "Puncture": 23, "Slash": 184 },
             "fireRate": 200,
-            "critChance": 0.075,
-            "critMul": 2,
-            "procChance": 0.1,
+            "critChance": 0.21,
+            "critMul": 2.5,
+            "procChance": 0.3,
             "accuracy": 1.4,
             "pellets": 10,
             "trigger": "Charge",
@@ -4223,7 +4224,16 @@
       },
       {
         "type": "area",
-        "name": "Throw Spear",
+        "name": "Area Attacks",
+        "damage": { "Impact": 100 },
+        "critChance": 0.32,
+        "critMul": 2.8,
+        "procChance": 0.1,
+        "radius": 3
+      },
+      {
+        "type": "secondaryArea",
+        "name": "Spear Throw",
         "damage": { "Impact": 455, "Puncture": 72.5, "Slash": 122.5 },
         "fireRate": 60,
         "critChance": 0.04,
@@ -5668,6 +5678,54 @@
         "accuracy": 28.6,
         "trigger": "Semi-Auto"
       }
+    ],
+    "variants": [
+      {
+        "name": "Kuva Hind",
+        "tags": ["Primary", "Rifle", "Assault Rifle"],
+        "traits": ["Grineer"],
+        "mastery": 15,
+        "disposition": 1,
+        "polarities": "r",
+        "reload": 2.3,
+        "magazine": 90,
+        "maxAmmo": 540,
+        "modes": [
+          {
+            "name": "Burst",
+            "damage": { "Impact": 7.5, "Puncture": 7.5, "Slash": 15 },
+            "fireRate": 545,
+            "critChance": 0.25,
+            "critMul": 2.1,
+            "procChance": 0.33,
+            "accuracy": 33.3,
+            "trigger": "Burst",
+            "burstCount": 5
+          },
+          {
+            "type": "secondary",
+            "name": "Semi",
+            "damage": { "Impact": 18, "Puncture": 54, "Slash": 18 },
+            "fireRate": 150,
+            "critChance": 0.37,
+            "critMul": 2.9,
+            "procChance": 0.21,
+            "accuracy": 28.6,
+            "ammoCost": 3,
+            "trigger": "Semi-Auto"
+          },
+          {
+            "type": "area",
+            "name": "Auto",
+            "damage": { "Impact": 6, "Puncture": 6, "Slash": 18 },
+            "fireRate": 600,
+            "critChance": 0.21,
+            "critMul": 1.9,
+            "procChance": 0.33,
+            "trigger": "Auto"
+          }
+        ]
+      }
     ]
   },
   {
@@ -6429,7 +6487,7 @@
           {
             "type": "charge",
             "name": "Fully Spooled",
-            "damage": { "Impact": 48, "Puncture": 48, "Slash": 114 },
+            "damage": { "Impact": 48, "Puncture": 48, "Slash": 144 },
             "fireRate": 250,
             "pellets": 12,
             "ammoCost": 4
@@ -6566,7 +6624,7 @@
         "maxAmmo": 210,
         "modes": [
           {
-            "damage": { "Impact": 32.3, "Puncture": 5.4, "Slash": 5.4 },
+            "damage": { "Impact": 32.25, "Puncture": 5.375, "Slash": 5.375 },
             "fireRate": 406,
             "critChance": 0.21,
             "critMul": 2.3,
@@ -6577,7 +6635,7 @@
           },
           {
             "type": "secondary",
-            "damage": { "Impact": 32.3, "Puncture": 5.4, "Slash": 5.4 },
+            "damage": { "Impact": 32.25, "Puncture": 5.375, "Slash": 5.375 },
             "fireRate": 406,
             "accuracy": 8.2,
             "trigger": "Burst"
@@ -6846,6 +6904,42 @@
             "radius": 9
           }
         ]
+      }
+    ]
+  },
+  {
+    "name": "Kuva Bramma",
+    "tags": ["Primary", "Rifle", "Bow"],
+    "traits": ["Grineer", "Kuva Lich"],
+    "mastery": 15,
+    "disposition": 1,
+    "polarities": "r",
+    "reload": 0.6,
+    "magazine": 1,
+    "maxAmmo": 15,
+    "modes": [
+      {
+        "type": "charge",
+        "damage": { "Impact": 187 },
+        "fireRate": 60,
+        "critChance": 0.35,
+        "critMul": 2.1,
+        "procChance": 0.21,
+        "accuracy": 16.7,
+        "chargeTime": 0.4,
+        "trigger": "Charge"
+      },
+      {
+        "type": "area",
+        "name": "Radial Attack",
+        "damage": { "Blast": 839 },
+        "radius": 7
+      },
+      {
+        "type": "secondaryArea",
+        "name": "Cluster Bombs",
+        "damage": { "Blast": 1122 },
+        "pellets": 6
       }
     ]
   },
@@ -8149,6 +8243,30 @@
         "range": 25,
         "ammoCost": 0.5,
         "trigger": "Held"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Kuva Nukor",
+        "tags": ["Secondary", "Pistol", "Continuous"],
+        "traits": ["Grineer", "Kuva Lich"],
+        "mastery": 13,
+        "disposition": 1,
+        "reload": 2,
+        "magazine": 77,
+        "maxAmmo": 210,
+        "modes": [
+          {
+            "damage": { "Radiation": 21 },
+            "fireRate": 600,
+            "critChance": 0.07,
+            "critMul": 5,
+            "procChance": 0.5,
+            "accuracy": 100,
+            "range": 29,
+            "trigger": "Held"
+          }
+        ]
       }
     ]
   },
@@ -9467,7 +9585,7 @@
         "maxAmmo": 840,
         "modes": [
           {
-            "damage": { "Impact": 20, "Puncture": 15.7, "Slash": 18.4 },
+            "damage": { "Impact": 20, "Puncture": 15.65, "Slash": 18.35 },
             "fireRate": 290,
             "critChance": 0.21,
             "critMul": 1.9,
@@ -9478,7 +9596,7 @@
           {
             "type": "secondary",
             "name": "While Aiming",
-            "damage": { "Impact": 20, "Puncture": 15.7, "Slash": 18.4 },
+            "damage": { "Impact": 20, "Puncture": 15.65, "Slash": 18.35 },
             "fireRate": 380,
             "critChance": 0.31,
             "critMul": 2.3,
@@ -9610,18 +9728,18 @@
     "comboDur": 5,
     "followThrough": 0.5,
     "meleeRange": 2,
-    "slamAttack": 0.3,
-    "slamRadialDmg": 0.1,
+    "slamAttack": 3,
+    "slamRadialDmg": 1,
     "slamRadius": 5,
-    "heavyAttack": 0.5,
+    "heavyAttack": 5,
     "windUp": 0.4,
-    "heavySlamAttack": 0.3,
-    "heavyRadialDmg": 0.3,
+    "heavySlamAttack": 3,
+    "heavyRadialDmg": 3,
     "heavySlamRadius": 6,
-    "slideAttack": 0.2,
+    "slideAttack": 2,
     "modes": [
       {
-        "damage": { "Impact": 180, "Puncture": 360, "Slash": 1260 },
+        "damage": { "Impact": 18, "Puncture": 36, "Slash": 126 },
         "fireRate": 50,
         "critChance": 0.1,
         "critMul": 1.8,
@@ -9647,18 +9765,18 @@
         "comboDur": 5,
         "followThrough": 0.5,
         "meleeRange": 2,
-        "slamAttack": 0.3,
-        "slamRadialDmg": 0.1,
+        "slamAttack": 3,
+        "slamRadialDmg": 1,
         "slamRadius": 5,
-        "heavyAttack": 0.5,
+        "heavyAttack": 5,
         "windUp": 0.4,
-        "heavySlamAttack": 0.3,
-        "heavyRadialDmg": 0.3,
+        "heavySlamAttack": 3,
+        "heavyRadialDmg": 3,
         "heavySlamRadius": 6,
-        "slideAttack": 0.2,
+        "slideAttack": 2,
         "modes": [
           {
-            "damage": { "Impact": 212, "Puncture": 424, "Slash": 1484 },
+            "damage": { "Impact": 21.2, "Puncture": 42.4, "Slash": 148.4 },
             "fireRate": 55,
             "critChance": 0.24,
             "critMul": 2.2,
@@ -10291,7 +10409,7 @@
     "disposition": 1,
     "stancePolarity": "r",
     "comboDur": 5,
-    "followThrough": 0.7,
+    "followThrough": 0.6,
     "meleeRange": 2.5,
     "slamAttack": 3,
     "slamRadialDmg": 1,
@@ -11265,9 +11383,9 @@
           {
             "damage": { "Impact": 10.7, "Puncture": 202.3 },
             "fireRate": 65,
-            "critChance": 0.15,
-            "critMul": 2,
-            "procChance": 0.25
+            "critChance": 0.21,
+            "critMul": 2.5,
+            "procChance": 0.33
           }
         ]
       }
@@ -12682,7 +12800,7 @@
       },
       {
         "type": "chargedThrow",
-        "damage": { "Impact": 331.5, "Puncture": 19, "Slash": 299.5 },
+        "damage": { "Impact": 396.3, "Puncture": 23.4, "Slash": 357.3 },
         "critChance": 0.17,
         "critMul": 1.9,
         "procChance": 0.33
@@ -12690,7 +12808,7 @@
       {
         "type": "area",
         "name": "Recall Explosion",
-        "damage": { "Blast": 200 },
+        "damage": { "Blast": 777 },
         "radius": 5
       }
     ]
@@ -12784,7 +12902,7 @@
     "polarities": "r",
     "stancePolarity": "r",
     "comboDur": 5,
-    "followThrough": 0.5,
+    "followThrough": 0.6,
     "meleeRange": 2.6,
     "slamAttack": 3,
     "slamRadialDmg": 1,
