@@ -1275,7 +1275,8 @@
         "prjSpeed": 115
       },
       {
-        "type": "secondary",
+        "type": "area",
+        "name": "Secondary Fire",
         "damage": { "Radiation": 208 },
         "fireRate": 60,
         "critChance": 0.34,
@@ -1285,6 +1286,15 @@
         "punchThrough": 2,
         "chargeTime": 0.4,
         "trigger": "Charge"
+      },
+      {
+        "type": "secondaryArea",
+        "name": "Beam AoE",
+        "damage": { "Radiation": 208 },
+        "critChance": 0.34,
+        "critMul": 3,
+        "procChance": 0.08,
+        "radius": 6
       }
     ]
   },
@@ -1661,7 +1671,7 @@
         "tags": ["Secondary", "Pistol", "Shotgun Sidearm"],
         "traits": ["Grineer", "Kuva Lich"],
         "mastery": 13,
-        "disposition": 1.25,
+        "disposition": 1,
         "polarities": "-r",
         "reload": 1.1,
         "magazine": 13,
@@ -5040,7 +5050,7 @@
         "tags": ["Primary", "Rifle", "Assault Rifle"],
         "traits": ["Prisma", "Baro"],
         "mastery": 11,
-        "disposition": 1.2,
+        "disposition": 1.15,
         "reload": 2,
         "magazine": 120,
         "maxAmmo": 1000,
@@ -5705,7 +5715,7 @@
           {
             "type": "secondary",
             "name": "Semi",
-            "damage": { "Impact": 18, "Puncture": 54, "Slash": 18 },
+            "damage": { "Impact": 18, "Puncture": 18, "Slash": 54 },
             "fireRate": 150,
             "critChance": 0.37,
             "critMul": 2.9,
@@ -6980,7 +6990,7 @@
     "polarities": "r",
     "stancePolarity": "r",
     "comboDur": 5,
-    "followThrough": 0,
+    "followThrough": 0.4,
     "meleeRange": 3,
     "slamAttack": 3,
     "slamRadialDmg": 1,
@@ -11680,21 +11690,21 @@
           },
           {
             "type": "secondary",
-            "name": "Semi",
-            "damage": { "Impact": 13.8, "Puncture": 18.4, "Slash": 13.8 },
-            "fireRate": 360,
-            "critChance": 0.3,
-            "critMul": 3.4,
-            "procChance": 0.18
-          },
-          {
-            "type": "area",
             "name": "Auto",
             "damage": { "Impact": 13.8, "Puncture": 18.4, "Slash": 13.8 },
             "fireRate": 500,
             "critChance": 0.16,
             "critMul": 2.8,
             "procChance": 0.32
+          },
+          {
+            "type": "area",
+            "name": "Semi",
+            "damage": { "Impact": 13.8, "Puncture": 18.4, "Slash": 13.8 },
+            "fireRate": 360,
+            "critChance": 0.3,
+            "critMul": 3.4,
+            "procChance": 0.18
           }
         ]
       }
@@ -12963,7 +12973,7 @@
     "maxAmmo": 540,
     "modes": [
       {
-        "name": "Full Auto Mode",
+        "name": "Auto Mode",
         "damage": { "Impact": 4.5, "Puncture": 6, "Slash": 19.5 },
         "fireRate": 650,
         "critChance": 0.1,
