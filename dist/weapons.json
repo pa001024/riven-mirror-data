@@ -6996,7 +6996,7 @@
     "slamRadialDmg": 1,
     "slamRadius": 9,
     "heavyAttack": 6,
-    "windUp": 0,
+    "windUp": 1.2,
     "heavySlamAttack": 5,
     "heavyRadialDmg": 5,
     "heavySlamRadius": 9,
@@ -8317,13 +8317,13 @@
         "disposition": 1.1,
         "stancePolarity": "-",
         "comboDur": 5,
-        "followThrough": 0,
+        "followThrough": 0.9,
         "meleeRange": 1.25,
         "slamAttack": 3,
         "slamRadialDmg": 1,
         "slamRadius": 7,
         "heavyAttack": 12,
-        "windUp": 0,
+        "windUp": 0.5,
         "heavySlamAttack": 4,
         "heavyRadialDmg": 4,
         "heavySlamRadius": 8,
@@ -9657,6 +9657,7 @@
     "traits": ["Tenno"],
     "mastery": 12,
     "disposition": 1,
+    "polarities": "rr",
     "reload": 4,
     "magazine": 300,
     "modes": [
@@ -9968,9 +9969,9 @@
         "type": "charge",
         "name": "Shots",
         "damage": { "Impact": 17.5, "Puncture": 52.5, "Slash": 105 },
-        "critChance": 0.05,
-        "critMul": 1.5,
-        "procChance": 0.25,
+        "critChance": 0.14,
+        "critMul": 2,
+        "procChance": 0.28,
         "pellets": 5
       }
     ]
@@ -10613,7 +10614,7 @@
         "windUp": 0.6,
         "heavySlamAttack": 4,
         "heavyRadialDmg": 4,
-        "heavySlamRadius": 8,
+        "heavySlamRadius": 7,
         "slideAttack": 1,
         "modes": [
           {
@@ -12789,7 +12790,7 @@
     "disposition": 0.96,
     "stancePolarity": "r",
     "comboDur": 5,
-    "followThrough": 0.4,
+    "followThrough": 0.8,
     "meleeRange": 3.1,
     "slamAttack": 3,
     "slamRadialDmg": 1,
