@@ -189,7 +189,7 @@ const toWeaponWiki = (raw: WikiWeapons.Weapon, noproto = false): ProtoWeapon => 
   return {
     name: mapNames(raw.Name),
     tags,
-    traits: raw.Traits && raw.Traits.filter(v => v !== "Self Damage"),
+    traits: raw.Traits && raw.Traits.filter(v => v !== "Self Interrupt"),
     mastery: raw.Mastery || undefined,
     disposition: raw.Disposition,
     // fireRate: raw.FireRate && +(raw.FireRate * 60).toFixed(0),

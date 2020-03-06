@@ -1058,7 +1058,7 @@
     "slideAttack": 2,
     "modes": [
       {
-        "damage": { "Impact": 6.5, "Puncture": 6.5, "Slash": 116.1 },
+        "damage": { "Impact": 6.45, "Puncture": 6.45, "Slash": 116.1 },
         "fireRate": 55,
         "critChance": 0.25,
         "critMul": 3,
@@ -2580,6 +2580,7 @@
   {
     "name": "Cyanex",
     "tags": ["Secondary", "Pistol"],
+    "traits": ["Corpus", "Sentient"],
     "mastery": 8,
     "disposition": 0.8,
     "reload": 2.2,
@@ -3052,7 +3053,7 @@
     "slideAttack": 1,
     "modes": [
       {
-        "damage": { "Impact": 4, "Puncture": 134.3, "Slash": 19.8 },
+        "damage": { "Impact": 3.95, "Puncture": 134.3, "Slash": 19.75 },
         "fireRate": 60,
         "critChance": 0.28,
         "critMul": 2,
@@ -3101,7 +3102,7 @@
     "magazine": 100,
     "modes": [
       {
-        "damage": { "Impact": 0.5, "Puncture": 0.3, "Slash": 4.3 },
+        "damage": { "Impact": 0.5, "Puncture": 0.25, "Slash": 4.25 },
         "fireRate": 498,
         "critChance": 0.05,
         "critMul": 2,
@@ -3120,7 +3121,7 @@
         "magazine": 100,
         "modes": [
           {
-            "damage": { "Impact": 0.7, "Puncture": 0.4, "Slash": 6 },
+            "damage": { "Impact": 0.7, "Puncture": 0.35, "Slash": 5.95 },
             "fireRate": 600,
             "critChance": 0.1,
             "critMul": 2,
@@ -3593,7 +3594,7 @@
     "slideAttack": 2,
     "modes": [
       {
-        "damage": { "Impact": 22.1, "Puncture": 22.1, "Slash": 102.9 },
+        "damage": { "Impact": 22.05, "Puncture": 22.05, "Slash": 102.9 },
         "fireRate": 55,
         "critChance": 0.05,
         "critMul": 1.5,
@@ -4088,7 +4089,7 @@
         "accuracy": 15.4,
         "punchThrough": 0.5,
         "pellets": 3,
-        "trigger": "Semi",
+        "trigger": "Semi-Auto",
         "falloff": [30, 60, 0.508]
       }
     ]
@@ -4611,7 +4612,7 @@
     "slideAttack": 2,
     "modes": [
       {
-        "damage": { "Impact": 4.6, "Puncture": 4.6, "Slash": 172.9 },
+        "damage": { "Impact": 4.55, "Puncture": 4.55, "Slash": 172.9 },
         "fireRate": 60,
         "critChance": 0.1,
         "critMul": 2,
@@ -4815,7 +4816,7 @@
     "slideAttack": 2,
     "modes": [
       {
-        "damage": { "Impact": 15.8, "Puncture": 15.8, "Slash": 73.5 },
+        "damage": { "Impact": 15.75, "Puncture": 15.75, "Slash": 73.5 },
         "fireRate": 60,
         "critChance": 0.12,
         "critMul": 2,
@@ -4949,7 +4950,7 @@
             "critMul": 2,
             "procChance": 0.38,
             "accuracy": 100,
-            "range": 24,
+            "range": 28,
             "trigger": "Held"
           }
         ]
@@ -5011,7 +5012,7 @@
         "maxAmmo": 840,
         "modes": [
           {
-            "damage": { "Impact": 17.3, "Puncture": 3.5, "Slash": 2.3 },
+            "damage": { "Impact": 17.25, "Puncture": 3.45, "Slash": 2.3 },
             "fireRate": 850,
             "critChance": 0.3,
             "critMul": 2.3,
@@ -5541,7 +5542,7 @@
     "heavyAttack": 6,
     "windUp": 1.2,
     "heavySlamAttack": 5,
-    "heavyRadialDmg": 0.36,
+    "heavyRadialDmg": 5,
     "heavySlamRadius": 10,
     "slideAttack": 2,
     "modes": [
@@ -5674,7 +5675,7 @@
         "critMul": 1.5,
         "procChance": 0.15,
         "accuracy": 33.3,
-        "trigger": "Burst",
+        "trigger": "Burst / Semi",
         "burstCount": 5
       },
       {
@@ -5709,7 +5710,7 @@
             "critMul": 2.1,
             "procChance": 0.33,
             "accuracy": 33.3,
-            "trigger": "Burst",
+            "trigger": "Burst/Semi/Auto",
             "burstCount": 5
           },
           {
@@ -6971,7 +6972,7 @@
         "critMul": 2.3,
         "procChance": 0.27,
         "accuracy": 100,
-        "trigger": "Semi",
+        "trigger": "Semi-Auto",
         "prjSpeed": 30
       },
       {
@@ -7157,7 +7158,7 @@
       {
         "type": "secondaryArea",
         "name": "Explosion",
-        "damage": { "Blast": 400 },
+        "damage": { "Blast": 400, "Radiation": 400 },
         "radius": 8
       }
     ],
@@ -7194,7 +7195,7 @@
           {
             "type": "secondaryArea",
             "name": "Explosion",
-            "damage": { "Blast": 400 },
+            "damage": { "Blast": 400, "Radiation": 400 },
             "radius": 8
           }
         ]
@@ -7492,7 +7493,7 @@
     "slideAttack": 2,
     "modes": [
       {
-        "damage": { "Impact": 47.4, "Puncture": 11.9, "Slash": 177.8 },
+        "damage": { "Impact": 47.4, "Puncture": 11.85, "Slash": 177.75 },
         "fireRate": 60,
         "critChance": 0.15,
         "critMul": 2,
@@ -7597,7 +7598,7 @@
         "slideAttack": 2,
         "modes": [
           {
-            "damage": { "Impact": 31.7, "Puncture": 31.7, "Slash": 147.7 },
+            "damage": { "Impact": 31.65, "Puncture": 31.65, "Slash": 147.7 },
             "fireRate": 65,
             "critChance": 0.19,
             "critMul": 2.1,
@@ -7812,7 +7813,7 @@
     "slideAttack": 1,
     "modes": [
       {
-        "damage": { "Impact": 53.1, "Puncture": 44.3, "Slash": 79.7 },
+        "damage": { "Impact": 53.1, "Puncture": 44.25, "Slash": 79.65 },
         "fireRate": 65,
         "critChance": 0.19,
         "critMul": 2,
@@ -7893,7 +7894,7 @@
     "magazine": 60,
     "modes": [
       {
-        "damage": { "Impact": 1.3, "Puncture": 3.8 },
+        "damage": { "Impact": 1.25, "Puncture": 3.75 },
         "fireRate": 200,
         "critChance": 0.125,
         "critMul": 1.75,
@@ -8035,7 +8036,7 @@
     "slideAttack": 2,
     "modes": [
       {
-        "damage": { "Impact": 18.8, "Puncture": 18.8, "Slash": 87.5 },
+        "damage": { "Impact": 18.75, "Puncture": 18.75, "Slash": 87.5 },
         "fireRate": 55,
         "critChance": 0.1,
         "critMul": 1.5,
@@ -8417,7 +8418,7 @@
             "critMul": 2,
             "procChance": 0.47,
             "accuracy": 100,
-            "trigger": "Semi",
+            "trigger": "Semi-Auto",
             "prjSpeed": 40
           },
           {
@@ -8583,7 +8584,7 @@
     "slideAttack": 2,
     "modes": [
       {
-        "damage": { "Impact": 27.8, "Puncture": 27.8, "Slash": 129.5 },
+        "damage": { "Impact": 27.75, "Puncture": 27.75, "Slash": 129.5 },
         "fireRate": 55,
         "critChance": 0.06,
         "critMul": 1.5,
@@ -8643,7 +8644,7 @@
     "slideAttack": 2,
     "modes": [
       {
-        "damage": { "Impact": 39, "Puncture": 9.8, "Slash": 146.3 },
+        "damage": { "Impact": 39, "Puncture": 9.75, "Slash": 146.25 },
         "fireRate": 45,
         "critChance": 0.18,
         "critMul": 2,
@@ -9123,7 +9124,7 @@
     "reloadStyle": 1,
     "modes": [
       {
-        "damage": { "Impact": 8.8, "Puncture": 22.8, "Slash": 3.5 },
+        "damage": { "Impact": 8.75, "Puncture": 22.75, "Slash": 3.5 },
         "fireRate": 1125,
         "critChance": 0.1,
         "critMul": 2,
@@ -9797,7 +9798,7 @@
             "type": "charge",
             "name": "Shots",
             "damage": { "Blast": 800 },
-            "critMul": 2,
+            "critMul": 2.2,
             "pellets": 10
           }
         ]
@@ -9868,7 +9869,7 @@
     "slideAttack": 3,
     "modes": [
       {
-        "damage": { "Impact": 8.7, "Puncture": 17.3, "Slash": 147.1 },
+        "damage": { "Impact": 8.65, "Puncture": 17.3, "Slash": 147.05 },
         "fireRate": 53,
         "critChance": 0.2,
         "critMul": 2,
@@ -10649,7 +10650,7 @@
     "slideAttack": 2,
     "modes": [
       {
-        "damage": { "Impact": 26.3, "Puncture": 12.3, "Slash": 136.5 },
+        "damage": { "Impact": 26.25, "Puncture": 12.25, "Slash": 136.5 },
         "fireRate": 70,
         "critChance": 0.19,
         "critMul": 2.1,
@@ -11362,7 +11363,7 @@
     "slideAttack": 2,
     "modes": [
       {
-        "damage": { "Impact": 11.3, "Puncture": 213.8 },
+        "damage": { "Impact": 11.25, "Puncture": 213.75 },
         "fireRate": 55,
         "critChance": 0.1,
         "critMul": 2,
@@ -11922,7 +11923,7 @@
             "critMul": 2.5,
             "procChance": 0.17,
             "accuracy": 100,
-            "trigger": "Semi",
+            "trigger": "Semi-Auto",
             "prjSpeed": 30
           },
           {
