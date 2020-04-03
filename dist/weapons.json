@@ -246,7 +246,7 @@
         "fireRate": 500,
         "critChance": 0.06,
         "critMul": 2,
-        "procChance": 0.22,
+        "procChance": 0.0314,
         "accuracy": 3.7,
         "pellets": 7,
         "trigger": "Semi-Auto",
@@ -270,7 +270,7 @@
             "fireRate": 260,
             "critChance": 0.06,
             "critMul": 2,
-            "procChance": 0.3,
+            "procChance": 0.1286,
             "accuracy": 3.7,
             "pellets": 7,
             "trigger": "Semi-Auto",
@@ -654,13 +654,15 @@
         "name": "3-Rocket Barrage Explosion",
         "damage": { "Blast": 750 },
         "pellets": 3,
-        "radius": 3
+        "radius": 3.6,
+        "falloff": [0, 3.6, 0.4]
       },
       {
         "type": "area",
         "name": "Single Rocket Explosion",
         "damage": { "Blast": 250 },
-        "radius": 3
+        "radius": 3.6,
+        "falloff": [0, 3.6, 0.4]
       },
       {
         "type": "secondaryArea",
@@ -705,13 +707,15 @@
             "name": "3-Rocket Barrage Explosion",
             "damage": { "Blast": 750 },
             "pellets": 3,
-            "radius": 3
+            "radius": 3.6,
+            "falloff": [0, 3.6, 0.4]
           },
           {
             "type": "area",
             "name": "Single Rocket Explosion",
             "damage": { "Blast": 250 },
-            "radius": 3
+            "radius": 3.6,
+            "falloff": [0, 3.6, 0.4]
           },
           {
             "type": "secondaryArea",
@@ -1173,7 +1177,7 @@
         "fireRate": 686,
         "critChance": 0.0375,
         "critMul": 1.5,
-        "procChance": 0.025,
+        "procChance": 0.075,
         "burstCount": 4,
         "prjSpeed": 100
       }
@@ -1195,7 +1199,7 @@
             "fireRate": 200,
             "critChance": 0.2,
             "critMul": 2,
-            "procChance": 0.2,
+            "procChance": 0.15,
             "accuracy": 4,
             "pellets": 4,
             "ammoCost": 4,
@@ -1245,11 +1249,52 @@
             "fireRate": 686,
             "critChance": 0.05,
             "critMul": 1.5,
-            "procChance": 0.025,
+            "procChance": 0.075,
             "burstCount": 4,
             "prjSpeed": 100
           }
         ]
+      }
+    ]
+  },
+  {
+    "name": "Basmu",
+    "tags": ["Primary", "Rifle", "Assault Rifle", "Continuous"],
+    "traits": ["Sentient"],
+    "mastery": 11,
+    "disposition": 1,
+    "polarities": "r",
+    "reload": 105,
+    "magazine": 21,
+    "reloadStyle": 1,
+    "modes": [
+      {
+        "name": "Auto",
+        "damage": { "Electricity": 39 },
+        "fireRate": 720,
+        "critChance": 0.15,
+        "critMul": 2,
+        "procChance": 0.29,
+        "accuracy": 20,
+        "trigger": "Auto"
+      },
+      {
+        "type": "secondary",
+        "name": "Held",
+        "damage": { "Electricity": 12 },
+        "fireRate": 720,
+        "critChance": 0.02,
+        "critMul": 4.8,
+        "procChance": 0.3,
+        "accuracy": 3,
+        "trigger": "Held"
+      },
+      {
+        "type": "area",
+        "name": "Radial Attack",
+        "damage": { "Heat": 19 },
+        "radius": 1.7,
+        "falloff": [0, 1.7, 0.2]
       }
     ]
   },
@@ -1275,7 +1320,7 @@
         "prjSpeed": 115
       },
       {
-        "type": "area",
+        "type": "secondary",
         "name": "Secondary Fire",
         "damage": { "Radiation": 208 },
         "fireRate": 60,
@@ -1288,13 +1333,14 @@
         "trigger": "Charge"
       },
       {
-        "type": "secondaryArea",
+        "type": "area",
         "name": "Beam AoE",
         "damage": { "Radiation": 208 },
         "critChance": 0.34,
         "critMul": 3,
         "procChance": 0.08,
-        "radius": 6
+        "radius": 3.4,
+        "falloff": [0, 3.4, 0.4]
       }
     ]
   },
@@ -1454,7 +1500,7 @@
         "fireRate": 250,
         "critChance": 0.1,
         "critMul": 1.5,
-        "procChance": 0.2,
+        "procChance": 0.075,
         "accuracy": 5,
         "pellets": 8,
         "trigger": "Auto",
@@ -1477,7 +1523,7 @@
             "fireRate": 280,
             "critChance": 0.15,
             "critMul": 2,
-            "procChance": 0.3,
+            "procChance": 0.1125,
             "accuracy": 5,
             "pellets": 8,
             "trigger": "Auto",
@@ -1658,7 +1704,7 @@
         "fireRate": 300,
         "critChance": 0.17,
         "critMul": 2,
-        "procChance": 0.17,
+        "procChance": 0.051,
         "accuracy": 7.7,
         "pellets": 10,
         "trigger": "Semi-Auto",
@@ -1682,7 +1728,7 @@
             "fireRate": 350,
             "critChance": 0.29,
             "critMul": 2,
-            "procChance": 0.37,
+            "procChance": 0.111,
             "accuracy": 7.7,
             "punchThrough": 0.5,
             "pellets": 10,
@@ -1850,7 +1896,7 @@
         "fireRate": 300,
         "critChance": 0.06,
         "critMul": 2,
-        "procChance": 0.22,
+        "procChance": 0.0943,
         "accuracy": 3.7,
         "pellets": 7,
         "trigger": "Semi-Auto",
@@ -1873,7 +1919,7 @@
             "fireRate": 250,
             "critChance": 0.06,
             "critMul": 2,
-            "procChance": 0.3,
+            "procChance": 0.1286,
             "accuracy": 3.7,
             "pellets": 7,
             "trigger": "Semi-Auto",
@@ -2079,9 +2125,10 @@
         "critMul": 1.5,
         "procChance": 0.22,
         "accuracy": 100,
-        "radius": 3,
+        "radius": 3.6,
         "trigger": "Active",
-        "prjSpeed": 30
+        "prjSpeed": 30,
+        "falloff": [0, 3.6, 0.4]
       }
     ],
     "variants": [
@@ -2103,9 +2150,10 @@
             "critMul": 2,
             "procChance": 0.34,
             "accuracy": 100,
-            "radius": 3,
+            "radius": 3.6,
             "trigger": "Active",
-            "prjSpeed": 30
+            "prjSpeed": 30,
+            "falloff": [0, 3.6, 0.4]
           }
         ]
       }
@@ -2224,7 +2272,7 @@
       },
       {
         "type": "chargedThrow",
-        "damage": { "Impact": 46, "Puncture": 80, "Slash": 114, "Toxin": 701 },
+        "damage": { "Impact": 46, "Puncture": 80, "Slash": 114, "Toxin": 162 },
         "critChance": 0.21,
         "critMul": 2.2,
         "procChance": 0.34,
@@ -2232,10 +2280,30 @@
       },
       {
         "type": "throw",
-        "damage": { "Impact": 38, "Puncture": 72, "Slash": 104, "Toxin": 701 },
+        "damage": { "Impact": 38, "Puncture": 72, "Slash": 104, "Toxin": 152 },
         "critChance": 0.19,
         "critMul": 2.1,
         "procChance": 0.33
+      },
+      {
+        "type": "area",
+        "name": "Throw Area",
+        "damage": { "Toxin": 549 },
+        "critChance": 0.19,
+        "critMul": 2.1,
+        "procChance": 0.33,
+        "radius": 4.8,
+        "falloff": [0, 4.8, 0.5]
+      },
+      {
+        "type": "secondaryArea",
+        "name": "Charged Throw Area",
+        "damage": { "Toxin": 659 },
+        "critChance": 0.21,
+        "critMul": 2.2,
+        "procChance": 0.34,
+        "radius": 4.8,
+        "falloff": [0, 4.8, 0.5]
       }
     ]
   },
@@ -2363,6 +2431,41 @@
     ]
   },
   {
+    "name": "Ceti Lacera",
+    "tags": ["Melee", "Blade and Whip"],
+    "traits": ["Tenno"],
+    "mastery": 12,
+    "disposition": 1,
+    "polarities": "-",
+    "stancePolarity": "r",
+    "comboDur": 5,
+    "followThrough": 0.5,
+    "meleeRange": 2.5,
+    "slamAttack": 3,
+    "slamRadialDmg": 1,
+    "slamRadius": 7,
+    "heavyAttack": 4,
+    "windUp": 0.4,
+    "heavySlamAttack": 5,
+    "heavyRadialDmg": 5,
+    "heavySlamRadius": 9,
+    "slideAttack": 1,
+    "modes": [
+      {
+        "damage": {
+          "Impact": 12,
+          "Puncture": 38,
+          "Slash": 66,
+          "Electricity": 100
+        },
+        "fireRate": 65,
+        "critChance": 0.2,
+        "critMul": 2,
+        "procChance": 0.4
+      }
+    ]
+  },
+  {
     "name": "Cobra & Crane",
     "tags": ["Melee", "Sword and Shield"],
     "mastery": 10,
@@ -2405,7 +2508,7 @@
         "fireRate": 720,
         "critChance": 0.16,
         "critMul": 2.4,
-        "procChance": 0.3,
+        "procChance": 0.45,
         "accuracy": 50,
         "pellets": 2,
         "range": 30,
@@ -2430,7 +2533,7 @@
         "fireRate": 70,
         "critChance": 0.3,
         "critMul": 2.8,
-        "procChance": 0.12,
+        "procChance": 0.06,
         "accuracy": 9.1,
         "pellets": 6,
         "trigger": "Semi-Auto",
@@ -2451,7 +2554,53 @@
         "critChance": 0.04,
         "critMul": 1.6,
         "procChance": 0.28,
-        "radius": 8
+        "radius": 9.4,
+        "falloff": [0, 9.4, 0.9]
+      }
+    ],
+    "variants": [
+      {
+        "name": "Corinth Prime",
+        "tags": ["Primary", "Shotgun"],
+        "traits": ["Tenno"],
+        "mastery": 14,
+        "disposition": 1,
+        "polarities": "rr-",
+        "reload": 3,
+        "magazine": 20,
+        "maxAmmo": 120,
+        "modes": [
+          {
+            "damage": { "Impact": 151.2, "Puncture": 226.8, "Slash": 162 },
+            "fireRate": 85,
+            "critChance": 0.3,
+            "critMul": 2.8,
+            "procChance": 0.09,
+            "accuracy": 9.1,
+            "pellets": 6,
+            "trigger": "Semi-Auto",
+            "falloff": [18, 36, 0.6667]
+          },
+          {
+            "type": "secondary",
+            "name": "Air Burst Projectile",
+            "damage": { "Impact": 100 },
+            "fireRate": 40,
+            "critChance": 0.04,
+            "critMul": 1.6,
+            "procChance": 0.5,
+            "ammoCost": 4
+          },
+          {
+            "type": "secondaryArea",
+            "name": "Air Burst Explosion",
+            "damage": { "Blast": 2200 },
+            "critChance": 0.04,
+            "critMul": 1.6,
+            "procChance": 0.5,
+            "falloff": [0, 9.8, 0.9]
+          }
+        ]
       }
     ]
   },
@@ -2503,7 +2652,7 @@
             "fireRate": 120,
             "critChance": 0.4,
             "critMul": 2.6,
-            "procChance": 0.14,
+            "procChance": 0.013,
             "accuracy": 9.1,
             "pellets": 11,
             "trigger": "Charge"
@@ -2514,7 +2663,7 @@
             "fireRate": 120,
             "critChance": 0.4,
             "critMul": 2.6,
-            "procChance": 0.14,
+            "procChance": 0.013,
             "pellets": 11,
             "chargeTime": 0.5,
             "falloff": [60, 120, null]
@@ -2613,7 +2762,8 @@
         "type": "area",
         "name": "Projectile Explosion",
         "damage": { "Gas": 41 },
-        "radius": 0.5
+        "radius": 0.7,
+        "falloff": [0, 0.7, 0.2]
       }
     ]
   },
@@ -3005,7 +3155,7 @@
         "fireRate": 60,
         "critChance": 0.5,
         "critMul": 2,
-        "procChance": 0.1
+        "procChance": 0.15
       }
     ]
   },
@@ -3148,7 +3298,7 @@
         "fireRate": 200,
         "critChance": 0.04,
         "critMul": 1.5,
-        "procChance": 0.3,
+        "procChance": 0.1286,
         "accuracy": 7.1,
         "pellets": 7,
         "trigger": "Semi-Auto",
@@ -3171,7 +3321,7 @@
             "fireRate": 200,
             "critChance": 0.08,
             "critMul": 1.5,
-            "procChance": 0.32,
+            "procChance": 0.1371,
             "accuracy": 13.3,
             "pellets": 7,
             "trigger": "Semi-Auto",
@@ -3303,7 +3453,7 @@
         "fireRate": 200,
         "critChance": 0.075,
         "critMul": 2,
-        "procChance": 0.1,
+        "procChance": 0.03,
         "accuracy": 1.4,
         "punchThrough": 1.5,
         "pellets": 10,
@@ -3313,7 +3463,7 @@
       {
         "type": "charge",
         "damage": { "Impact": 70, "Puncture": 70, "Slash": 560 },
-        "procChance": 0.23,
+        "procChance": 0.069,
         "punchThrough": 2,
         "pellets": 10,
         "chargeTime": 0.5,
@@ -3336,7 +3486,7 @@
             "fireRate": 200,
             "critChance": 0.21,
             "critMul": 2.5,
-            "procChance": 0.3,
+            "procChance": 0.09,
             "accuracy": 1.4,
             "pellets": 10,
             "trigger": "Charge",
@@ -3347,7 +3497,7 @@
             "damage": { "Impact": 46, "Puncture": 46, "Slash": 368 },
             "critChance": 0.21,
             "critMul": 2.5,
-            "procChance": 0.3,
+            "procChance": 0.09,
             "punchThrough": 1.5,
             "pellets": 10,
             "chargeTime": 0.3,
@@ -3988,7 +4138,7 @@
         "fireRate": 90,
         "critChance": 0.3,
         "critMul": 2.5,
-        "procChance": 0.02,
+        "procChance": 0.09,
         "accuracy": 100,
         "trigger": "Semi-Auto",
         "prjSpeed": 180
@@ -4028,7 +4178,7 @@
         "fireRate": 50,
         "critChance": 0.15,
         "critMul": 2,
-        "procChance": 0.1,
+        "procChance": 0.15,
         "range": 40,
         "prjSpeed": 15
       }
@@ -4057,7 +4207,7 @@
             "fireRate": 50,
             "critChance": 0.15,
             "critMul": 2,
-            "procChance": 0.1,
+            "procChance": 0.15,
             "range": 40,
             "prjSpeed": 15
           }
@@ -4127,16 +4277,49 @@
         "procChance": 0.34
       },
       {
+        "type": "chargedThrow",
+        "damage": {
+          "Impact": 56,
+          "Puncture": 20,
+          "Slash": 230,
+          "Electricity": 200
+        },
+        "critChance": 0.16,
+        "critMul": 2,
+        "procChance": 0.38,
+        "punchThrough": 1
+      },
+      {
         "type": "throw",
         "damage": {
           "Impact": 50,
           "Puncture": 80,
           "Slash": 130,
-          "Electricity": 890
+          "Electricity": 200
         },
         "critChance": 0.14,
         "critMul": 1.8,
         "procChance": 0.36
+      },
+      {
+        "type": "area",
+        "name": "Throw Area",
+        "damage": { "Electricity": 690 },
+        "critChance": 0.14,
+        "critMul": 1.8,
+        "procChance": 0.36,
+        "radius": 6,
+        "falloff": [0, 6, 0.5]
+      },
+      {
+        "type": "secondaryArea",
+        "name": "Charged Throw Area",
+        "damage": { "Electricity": 690 },
+        "critChance": 0.16,
+        "critMul": 2,
+        "procChance": 0.38,
+        "radius": 6,
+        "falloff": [0, 6, 0.5]
       }
     ]
   },
@@ -4226,12 +4409,14 @@
       },
       {
         "type": "secondary",
-        "name": "Attraction Field",
-        "damage": {},
-        "fireRate": 30,
-        "critChance": 0,
+        "name": "Spear Throw Charged",
+        "damage": { "Impact": 385, "Puncture": 55, "Slash": 110 },
+        "fireRate": 60,
+        "critChance": 0.04,
         "critMul": 2,
-        "procChance": 0.5
+        "procChance": 0.33,
+        "chargeTime": 0.5,
+        "trigger": "Charge"
       },
       {
         "type": "area",
@@ -4240,18 +4425,16 @@
         "critChance": 0.32,
         "critMul": 2.8,
         "procChance": 0.1,
-        "radius": 3
+        "radius": 3.6,
+        "falloff": [0, 3.6, 0.4]
       },
       {
         "type": "secondaryArea",
-        "name": "Spear Throw",
-        "damage": { "Impact": 455, "Puncture": 72.5, "Slash": 122.5 },
-        "fireRate": 60,
+        "name": "Spear Throw Quick Shot",
+        "damage": { "Impact": 385, "Puncture": 55, "Slash": 110 },
         "critChance": 0.04,
         "critMul": 2,
-        "procChance": 0.33,
-        "chargeTime": 0.5,
-        "trigger": "Charge"
+        "procChance": 0.33
       }
     ]
   },
@@ -4826,12 +5009,7 @@
       },
       {
         "type": "chargedThrow",
-        "damage": {
-          "Impact": 34.7,
-          "Puncture": 34.7,
-          "Slash": 161.7,
-          "Blast": 315
-        },
+        "damage": { "Impact": 34.7, "Puncture": 34.7, "Slash": 161.7 },
         "critChance": 0.16,
         "critMul": 2.2,
         "procChance": 0.16,
@@ -4839,15 +5017,30 @@
       },
       {
         "type": "throw",
-        "damage": {
-          "Impact": 31.5,
-          "Puncture": 31.5,
-          "Slash": 147,
-          "Blast": 315
-        },
+        "damage": { "Impact": 31.5, "Puncture": 31.5, "Slash": 147 },
         "critChance": 0.14,
         "critMul": 2.1,
         "procChance": 0.14
+      },
+      {
+        "type": "area",
+        "name": "Throw Area",
+        "damage": { "Blast": 315 },
+        "critChance": 0.14,
+        "critMul": 2.1,
+        "procChance": 0.14,
+        "radius": 4.8,
+        "falloff": [0, 4.8, 0.5]
+      },
+      {
+        "type": "secondaryArea",
+        "name": "Charged Throw Area",
+        "damage": { "Blast": 378 },
+        "critChance": 0.16,
+        "critMul": 2.2,
+        "procChance": 0.16,
+        "radius": 4.8,
+        "falloff": [0, 4.8, 0.5]
       }
     ],
     "variants": [
@@ -4883,12 +5076,7 @@
           },
           {
             "type": "chargedThrow",
-            "damage": {
-              "Impact": 54,
-              "Puncture": 54,
-              "Slash": 252,
-              "Blast": 492
-            },
+            "damage": { "Impact": 54, "Puncture": 54, "Slash": 252 },
             "critChance": 0.26,
             "critMul": 2.4,
             "procChance": 0.33,
@@ -4896,15 +5084,30 @@
           },
           {
             "type": "throw",
-            "damage": {
-              "Impact": 49.2,
-              "Puncture": 49.2,
-              "Slash": 229.6,
-              "Blast": 492
-            },
+            "damage": { "Impact": 49.2, "Puncture": 49.2, "Slash": 229.6 },
             "critChance": 0.24,
             "critMul": 2.2,
             "procChance": 0.32
+          },
+          {
+            "type": "area",
+            "name": "Throw Area",
+            "damage": { "Blast": 492 },
+            "critChance": 0.24,
+            "critMul": 2.2,
+            "procChance": 0.32,
+            "radius": 4.8,
+            "falloff": [0, 4.8, 0.5]
+          },
+          {
+            "type": "secondaryArea",
+            "name": "Charged Throw Area",
+            "damage": { "Blast": 592 },
+            "critChance": 0.26,
+            "critMul": 2.4,
+            "procChance": 0.33,
+            "radius": 4.8,
+            "falloff": [0, 4.8, 0.5]
           }
         ]
       }
@@ -5156,7 +5359,8 @@
         "type": "area",
         "name": "Explosion",
         "damage": { "Impact": 9, "Puncture": 72, "Slash": 9 },
-        "radius": 5
+        "radius": 6,
+        "falloff": [0, 6, 0.5]
       }
     ],
     "variants": [
@@ -5186,7 +5390,8 @@
             "type": "area",
             "name": "Explosion",
             "damage": { "Blast": 205 },
-            "radius": 4
+            "radius": 4.9,
+            "falloff": [0, 4.9, 0.5]
           }
         ]
       }
@@ -5330,12 +5535,7 @@
       },
       {
         "type": "chargedThrow",
-        "damage": {
-          "Impact": 32.7,
-          "Puncture": 261.6,
-          "Slash": 32.7,
-          "Blast": 447
-        },
+        "damage": { "Impact": 32.7, "Puncture": 261.6, "Slash": 32.7 },
         "critChance": 0.21,
         "critMul": 2.3,
         "procChance": 0.33,
@@ -5343,15 +5543,30 @@
       },
       {
         "type": "throw",
-        "damage": {
-          "Impact": 29.8,
-          "Puncture": 238.4,
-          "Slash": 29.8,
-          "Blast": 447
-        },
+        "damage": { "Impact": 29.8, "Puncture": 238.4, "Slash": 29.8 },
         "critChance": 0.19,
         "critMul": 2.1,
         "procChance": 0.31
+      },
+      {
+        "type": "area",
+        "name": "Throw Area",
+        "damage": { "Blast": 447 },
+        "critChance": 0.19,
+        "critMul": 2.1,
+        "procChance": 0.31,
+        "radius": 4.9,
+        "falloff": [0, 4.9, 0.5]
+      },
+      {
+        "type": "secondaryArea",
+        "name": "Charged Throw Area",
+        "damage": { "Blast": 447 },
+        "critChance": 0.21,
+        "critMul": 2.3,
+        "procChance": 0.33,
+        "radius": 4.9,
+        "falloff": [0, 4.9, 0.5]
       }
     ]
   },
@@ -5490,9 +5705,9 @@
       {
         "damage": { "Impact": 78.75, "Puncture": 341.25, "Slash": 105 },
         "fireRate": 130,
-        "critChance": 0.1,
+        "critChance": 0.107,
         "critMul": 2,
-        "procChance": 0.25,
+        "procChance": 0.1071,
         "accuracy": 9.1,
         "pellets": 7,
         "trigger": "Semi-Auto",
@@ -5516,7 +5731,7 @@
             "fireRate": 180,
             "critChance": 0.25,
             "critMul": 2,
-            "procChance": 0.25,
+            "procChance": 0.1071,
             "accuracy": 9.1,
             "pellets": 7,
             "trigger": "Semi-Auto",
@@ -6048,7 +6263,7 @@
       },
       {
         "type": "secondary",
-        "name": "Throw Spear",
+        "name": "Throw Spear Charged",
         "damage": { "Impact": 45, "Puncture": 75, "Slash": 30 },
         "fireRate": 60,
         "critChance": 0.2,
@@ -6058,22 +6273,43 @@
         "chargeTime": 0.5
       },
       {
+        "type": "chargedThrow",
+        "name": "Spear Explosion Quick Shot",
+        "damage": { "Heat": 300 },
+        "critChance": 0.2,
+        "critMul": 2,
+        "procChance": 0.25,
+        "radius": 6,
+        "falloff": [0, 6, 0.6]
+      },
+      {
+        "type": "throw",
+        "name": "Throw Spear Quick Shot",
+        "damage": { "Impact": 45, "Puncture": 75, "Slash": 30 },
+        "critChance": 0.2,
+        "critMul": 2,
+        "procChance": 0.25,
+        "accuracy": 16.7
+      },
+      {
         "type": "area",
         "name": "Projectile Explosion",
         "damage": { "Heat": 120 },
         "critChance": 0.2,
         "critMul": 2,
         "procChance": 0.25,
-        "radius": 1.6
+        "radius": 2.4,
+        "falloff": [0, 2.4, 0.3]
       },
       {
         "type": "secondaryArea",
-        "name": "Spear Explosion",
+        "name": "Spear Explosion Charged",
         "damage": { "Heat": 300 },
         "critChance": 0.2,
         "critMul": 2,
         "procChance": 0.25,
-        "radius": 5
+        "radius": 6,
+        "falloff": [0, 6, 0.6]
       }
     ]
   },
@@ -6313,12 +6549,7 @@
       },
       {
         "type": "chargedThrow",
-        "damage": {
-          "Impact": 147.2,
-          "Puncture": 18.4,
-          "Slash": 18.4,
-          "Blast": 252
-        },
+        "damage": { "Impact": 147.2, "Puncture": 18.4, "Slash": 18.4 },
         "critChance": 0.14,
         "critMul": 2.2,
         "procChance": 0.14,
@@ -6326,15 +6557,30 @@
       },
       {
         "type": "throw",
-        "damage": {
-          "Impact": 134.4,
-          "Puncture": 16.8,
-          "Slash": 16.8,
-          "Blast": 252
-        },
+        "damage": { "Impact": 134.4, "Puncture": 16.8, "Slash": 16.8 },
         "critChance": 0.12,
         "critMul": 2.1,
         "procChance": 0.12
+      },
+      {
+        "type": "area",
+        "name": "Throw Area",
+        "damage": { "Blast": 252 },
+        "critChance": 0.12,
+        "critMul": 2.1,
+        "procChance": 0.12,
+        "radius": 3.6,
+        "falloff": [0, 3.6, 0.5]
+      },
+      {
+        "type": "secondaryArea",
+        "name": "Charged Throw Area",
+        "damage": { "Blast": 252 },
+        "critChance": 0.14,
+        "critMul": 2.2,
+        "procChance": 0.14,
+        "radius": 4,
+        "falloff": [0, 4, 0.5]
       }
     ]
   },
@@ -6456,7 +6702,7 @@
         "fireRate": 220,
         "critChance": 0.11,
         "critMul": 2.3,
-        "procChance": 0.25,
+        "procChance": 0.75,
         "accuracy": 8,
         "punchThrough": 1.5,
         "trigger": "Auto-Spool",
@@ -6467,6 +6713,7 @@
         "name": "Fully Spooled",
         "damage": { "Impact": 72, "Puncture": 72, "Slash": 216 },
         "fireRate": 220,
+        "procChance": 0.0625,
         "pellets": 12,
         "ammoCost": 4
       }
@@ -6489,7 +6736,7 @@
             "fireRate": 250,
             "critChance": 0.19,
             "critMul": 2.3,
-            "procChance": 0.3,
+            "procChance": 0.9,
             "accuracy": 8,
             "punchThrough": 1.5,
             "trigger": "Auto-Spool",
@@ -6500,6 +6747,7 @@
             "name": "Fully Spooled",
             "damage": { "Impact": 48, "Puncture": 48, "Slash": 144 },
             "fireRate": 250,
+            "procChance": 0.075,
             "pellets": 12,
             "ammoCost": 4
           }
@@ -6523,7 +6771,7 @@
         "fireRate": 300,
         "critChance": 0.11,
         "critMul": 2,
-        "procChance": 0.23,
+        "procChance": 0.69,
         "accuracy": 8,
         "punchThrough": 1.5,
         "trigger": "Auto-Spool",
@@ -6533,6 +6781,7 @@
         "type": "charge",
         "name": "Fully Spooled",
         "damage": { "Impact": 30, "Puncture": 30, "Slash": 90 },
+        "procChance": 0.138,
         "pellets": 5,
         "ammoCost": 1.67
       }
@@ -6571,7 +6820,8 @@
         "type": "area",
         "damage": { "Viral": 66 },
         "fireRate": 90,
-        "radius": 3.5
+        "radius": 3.5,
+        "falloff": [0, 3.5, 0.4]
       }
     ]
   },
@@ -6800,7 +7050,8 @@
         "type": "area",
         "name": "Rocket Explosion",
         "damage": { "Blast": 300 },
-        "radius": 3
+        "radius": 3.9,
+        "falloff": [0, 3.9, 0.4]
       },
       {
         "type": "secondaryArea",
@@ -6884,7 +7135,8 @@
         "type": "area",
         "name": "Explosion",
         "damage": { "Blast": 100 },
-        "radius": 9
+        "radius": 5,
+        "falloff": [0, 5, 0.5]
       }
     ],
     "variants": [
@@ -6912,7 +7164,8 @@
             "type": "area",
             "name": "Explosion",
             "damage": { "Blast": 187 },
-            "radius": 9
+            "radius": 5,
+            "falloff": [0, 5, 0.5]
           }
         ]
       }
@@ -6944,7 +7197,8 @@
         "type": "area",
         "name": "Radial Attack",
         "damage": { "Blast": 839 },
-        "radius": 7
+        "radius": 8.3,
+        "falloff": [0, 8.3, 0.9]
       },
       {
         "type": "secondaryArea",
@@ -6979,7 +7233,8 @@
         "type": "area",
         "name": "Explosion",
         "damage": { "Puncture": 50, "Slash": 36, "Blast": 20 },
-        "radius": 2.7
+        "radius": 2.9,
+        "falloff": [0, 2.9, 0.3]
       }
     ]
   },
@@ -7159,7 +7414,8 @@
         "type": "secondaryArea",
         "name": "Explosion",
         "damage": { "Blast": 400, "Radiation": 400 },
-        "radius": 8
+        "radius": 9.6,
+        "falloff": [0, 9.6, 0.6]
       }
     ],
     "variants": [
@@ -7196,7 +7452,8 @@
             "type": "secondaryArea",
             "name": "Explosion",
             "damage": { "Blast": 400, "Radiation": 400 },
-            "radius": 8
+            "radius": 9.6,
+            "falloff": [0, 9.6, 0.6]
           }
         ]
       }
@@ -7461,13 +7718,15 @@
         "type": "area",
         "name": "Initial Burst",
         "damage": { "Cold": 10 },
-        "radius": 8
+        "radius": 7.2,
+        "falloff": [0, 7.2, 0.7]
       },
       {
         "type": "secondaryArea",
         "name": "Bubble Collapse",
         "damage": { "Blast": 660 },
-        "radius": 6
+        "radius": 7.2,
+        "falloff": [0, 7.2, 0.7]
       }
     ]
   },
@@ -7968,7 +8227,8 @@
         "critMul": 1.5,
         "procChance": 0.39,
         "accuracy": 25,
-        "radius": 8
+        "radius": 4.4,
+        "falloff": [0, 4.4, 0.5]
       },
       {
         "type": "area",
@@ -8396,7 +8656,8 @@
         "critChance": 0.05,
         "critMul": 2,
         "procChance": 0.35,
-        "radius": 6
+        "radius": 7.1,
+        "falloff": [0, 7.1, 0.8]
       }
     ],
     "variants": [
@@ -8425,7 +8686,8 @@
             "type": "area",
             "name": "Rocket Explosion",
             "damage": { "Puncture": 159, "Slash": 275, "Blast": 253 },
-            "radius": 7
+            "radius": 7.9,
+            "falloff": [0, 7.9, 0.8]
           }
         ]
       }
@@ -8531,7 +8793,24 @@
         "chargeTime": 2,
         "trigger": "Charge"
       },
-      { "type": "area", "damage": { "Magnetic": 400 }, "radius": 5 }
+      {
+        "type": "secondary",
+        "name": "Quick Shot",
+        "damage": { "Impact": 50, "Puncture": 425, "Slash": 25 }
+      },
+      {
+        "type": "area",
+        "damage": { "Magnetic": 400 },
+        "radius": 6,
+        "falloff": [0, 6, 0.6]
+      },
+      {
+        "type": "secondaryArea",
+        "name": "Quick Shot Area",
+        "damage": { "Magnetic": 200 },
+        "radius": 6,
+        "falloff": [0, 6, 0.6]
+      }
     ],
     "variants": [
       {
@@ -8558,7 +8837,24 @@
             "chargeTime": 0.6,
             "trigger": "Charge"
           },
-          { "type": "area", "damage": { "Magnetic": 200 }, "radius": 5 }
+          {
+            "type": "secondary",
+            "name": "Quick Shot",
+            "damage": { "Impact": 20, "Puncture": 140, "Slash": 40 }
+          },
+          {
+            "type": "area",
+            "damage": { "Magnetic": 200 },
+            "radius": 4.6,
+            "falloff": [0, 4.6, 0.6]
+          },
+          {
+            "type": "secondaryArea",
+            "name": "Quick Shot Area",
+            "damage": { "Magnetic": 100 },
+            "radius": 4.6,
+            "falloff": [0, 4.6, 0.6]
+          }
         ]
       }
     ]
@@ -8652,29 +8948,37 @@
       },
       {
         "type": "chargedThrow",
-        "damage": {
-          "Impact": 85.8,
-          "Puncture": 21.5,
-          "Slash": 321.8,
-          "Cold": 585
-        },
+        "damage": { "Impact": 78, "Puncture": 19.5, "Slash": 292.5 },
         "critChance": 0.22,
         "critMul": 2.2,
-        "procChance": 0.22,
-        "range": 4
+        "procChance": 0.22
       },
       {
         "type": "throw",
-        "damage": {
-          "Impact": 78,
-          "Puncture": 19.5,
-          "Slash": 292.5,
-          "Cold": 585
-        },
+        "damage": { "Impact": 78, "Puncture": 19.5, "Slash": 292.5 },
+        "critChance": 0.2,
+        "critMul": 2.2,
+        "procChance": 0.2
+      },
+      {
+        "type": "area",
+        "name": "Throw Area",
+        "damage": { "Cold": 585 },
         "critChance": 0.2,
         "critMul": 2.2,
         "procChance": 0.2,
-        "range": 4
+        "radius": 4.8,
+        "falloff": [0, 4.8, 0.5]
+      },
+      {
+        "type": "secondaryArea",
+        "name": "Charged Throw Area",
+        "damage": { "Cold": 585 },
+        "critChance": 0.22,
+        "critMul": 2.2,
+        "procChance": 0.22,
+        "radius": 4.8,
+        "falloff": [0, 4.8, 0.5]
       }
     ]
   },
@@ -8964,7 +9268,7 @@
           "Impact": 127,
           "Puncture": 121,
           "Slash": 135,
-          "Viral": 979
+          "Viral": 193
         },
         "critChance": 0.21,
         "critMul": 2.5,
@@ -8981,6 +9285,26 @@
         "critChance": 0.17,
         "critMul": 2.3,
         "procChance": 0.33
+      },
+      {
+        "type": "area",
+        "name": "Throw Area",
+        "damage": { "Viral": 786 },
+        "critChance": 0.17,
+        "critMul": 2.3,
+        "procChance": 0.33,
+        "radius": 4.9,
+        "falloff": [0, 4.9, 0.5]
+      },
+      {
+        "type": "secondaryArea",
+        "name": "Charged Throw Area",
+        "damage": { "Viral": 786 },
+        "critChance": 0.21,
+        "critMul": 2.5,
+        "procChance": 0.35,
+        "radius": 4.9,
+        "falloff": [0, 4.9, 0.5]
       }
     ]
   },
@@ -9032,15 +9356,15 @@
         "procChance": 0.1,
         "accuracy": 100,
         "trigger": "Active",
-        "prjSpeed": 20,
-        "silent": true
+        "prjSpeed": 20
       },
       {
-        "type": "secondary",
+        "type": "area",
         "name": "Grenade Detonation",
         "damage": { "Blast": 350 },
         "radius": 4,
-        "trigger": "Detonate"
+        "trigger": "Detonate",
+        "falloff": [0, 4, 0.5]
       }
     ],
     "variants": [
@@ -9063,8 +9387,7 @@
             "procChance": 0.1,
             "accuracy": 100,
             "trigger": "Active",
-            "prjSpeed": 20,
-            "silent": true
+            "prjSpeed": 20
           },
           {
             "type": "secondary",
@@ -9095,18 +9418,18 @@
             "procChance": 0.26,
             "accuracy": 100,
             "trigger": "Active",
-            "prjSpeed": 25,
-            "silent": true
+            "prjSpeed": 25
           },
           {
-            "type": "secondary",
+            "type": "area",
             "name": "Grenade Detonation",
             "damage": { "Blast": 300 },
             "critChance": 0.26,
             "critMul": 2,
             "procChance": 0.26,
-            "radius": 5,
-            "trigger": "Detonate"
+            "radius": 6,
+            "trigger": "Detonate",
+            "falloff": [0, 6, 0.6]
           }
         ]
       }
@@ -9175,7 +9498,7 @@
         "fireRate": 720,
         "critChance": 0.19,
         "critMul": 2,
-        "procChance": 0.31,
+        "procChance": 0.155,
         "accuracy": 50,
         "pellets": 7,
         "range": 25,
@@ -9200,7 +9523,7 @@
         "fireRate": 720,
         "critChance": 0.03,
         "critMul": 1.5,
-        "procChance": 0.37,
+        "procChance": 0.222,
         "accuracy": 100,
         "pellets": 5,
         "range": 20,
@@ -9221,7 +9544,8 @@
         "type": "area",
         "name": "Bomb Explosion",
         "damage": { "Radiation": 73 },
-        "radius": 4
+        "radius": 4.8,
+        "falloff": [0, 4.8, 0.5]
       },
       {
         "type": "secondaryArea",
@@ -9277,6 +9601,7 @@
     "reload": 0.8,
     "magazine": 10,
     "maxAmmo": 10,
+    "reloadStyle": 1,
     "modes": [
       {
         "damage": { "Puncture": 26, "Heat": 20 },
@@ -9312,7 +9637,13 @@
         "trigger": "Auto",
         "silent": true
       },
-      { "type": "area", "name": "Poison Cloud", "damage": { "Toxin": 100 } }
+      {
+        "type": "area",
+        "name": "Poison Cloud",
+        "damage": { "Toxin": 20 },
+        "radius": 3.6,
+        "falloff": [0, 3.6, 0.5]
+      }
     ]
   },
   {
@@ -9420,7 +9751,7 @@
         "fireRate": 250,
         "critChance": 0.2,
         "critMul": 2,
-        "procChance": 0.1,
+        "procChance": 0.025,
         "accuracy": 5,
         "pellets": 12,
         "trigger": "Auto",
@@ -9444,7 +9775,7 @@
             "fireRate": 240,
             "critChance": 0.24,
             "critMul": 2.2,
-            "procChance": 0.12,
+            "procChance": 0.036,
             "accuracy": 6.1,
             "pellets": 10,
             "trigger": "Auto",
@@ -9470,7 +9801,7 @@
         "fireRate": 720,
         "critChance": 0.16,
         "critMul": 2.2,
-        "procChance": 0.16,
+        "procChance": 0.24,
         "accuracy": 100,
         "pellets": 2,
         "range": 50,
@@ -9502,6 +9833,9 @@
         "type": "secondaryArea",
         "name": "Cube Explosion",
         "damage": { "Blast": 150 },
+        "critChance": 0.05,
+        "critMul": 1.5,
+        "procChance": 0.26,
         "radius": 0.5
       }
     ],
@@ -9522,7 +9856,7 @@
             "fireRate": 720,
             "critChance": 0.22,
             "critMul": 2.4,
-            "procChance": 0.3,
+            "procChance": 0.45,
             "accuracy": 100,
             "pellets": 2,
             "range": 50,
@@ -9555,6 +9889,9 @@
             "type": "secondaryArea",
             "name": "Cube Explosion",
             "damage": { "Blast": 150 },
+            "critChance": 0.05,
+            "critMul": 1.5,
+            "procChance": 0.26,
             "radius": 0.5
           }
         ]
@@ -9761,8 +10098,11 @@
         "type": "charge",
         "name": "Shots",
         "damage": { "Blast": 300 },
+        "critChance": 0.1,
         "critMul": 1.8,
-        "pellets": 10
+        "procChance": 0.066,
+        "pellets": 10,
+        "falloff": [10, 20, 0.8333]
       }
     ],
     "variants": [
@@ -9798,8 +10138,11 @@
             "type": "charge",
             "name": "Shots",
             "damage": { "Blast": 800 },
+            "critChance": 0.24,
             "critMul": 2.2,
-            "pellets": 10
+            "procChance": 0.09,
+            "pellets": 10,
+            "falloff": [10, 30, 0.9375]
           }
         ]
       }
@@ -9969,11 +10312,12 @@
       {
         "type": "charge",
         "name": "Shots",
-        "damage": { "Impact": 17.5, "Puncture": 52.5, "Slash": 105 },
+        "damage": { "Impact": 3.5, "Puncture": 10.5, "Slash": 21 },
         "critChance": 0.14,
         "critMul": 2,
         "procChance": 0.28,
-        "pellets": 5
+        "burstCount": 5,
+        "falloff": [20, 40, 0.8571]
       }
     ]
   },
@@ -10091,9 +10435,13 @@
       },
       {
         "type": "secondary",
-        "name": "Spear Explosion",
-        "damage": { "Corrosive": 50 },
-        "radius": 6
+        "name": "Spear Explosion Quick Shot",
+        "damage": { "Corrosive": 55 },
+        "critChance": 0.04,
+        "critMul": 2,
+        "procChance": 0.3,
+        "radius": 7,
+        "falloff": [0, 7, 0.6]
       },
       {
         "type": "area",
@@ -10102,19 +10450,16 @@
         "critChance": 0.02,
         "critMul": 1.5,
         "procChance": 0.3,
-        "radius": 1.5
+        "radius": 1.7,
+        "falloff": [0, 1.7, 0.3]
       },
       {
         "type": "secondaryArea",
-        "name": "Throw Spear",
+        "name": "Throw Spear Quick Shot",
         "damage": { "Impact": 105, "Puncture": 22.5, "Slash": 22.5 },
-        "fireRate": 60,
         "critChance": 0.04,
         "critMul": 2,
-        "procChance": 0.3,
-        "accuracy": 16.7,
-        "chargeTime": 0.5,
-        "trigger": "Charge"
+        "procChance": 0.3
       }
     ]
   },
@@ -10163,7 +10508,8 @@
             "type": "area",
             "name": "Explosion",
             "damage": { "Corrosive": 69 },
-            "radius": 1.9
+            "radius": 2.3,
+            "falloff": [0, 2.3, 0.3]
           }
         ]
       }
@@ -10274,7 +10620,8 @@
         "type": "secondary",
         "name": "Radial Attack",
         "damage": { "Electricity": 87 },
-        "radius": 5.5
+        "radius": 6.6,
+        "falloff": [0, 6.6, 0.6]
       }
     ]
   },
@@ -10494,15 +10841,15 @@
         "trigger": "Active"
       },
       {
-        "type": "secondary",
+        "type": "area",
         "name": "Orb Explosion",
         "damage": { "Magnetic": 75 },
         "critChance": 0.12,
         "critMul": 2,
         "procChance": 0.3,
-        "radius": 5
-      },
-      { "type": "area", "name": "Orb Merge", "damage": { "Magnetic": 27 } }
+        "radius": 5,
+        "falloff": [0, 5, 0.6]
+      }
     ],
     "variants": [
       {
@@ -10527,15 +10874,15 @@
             "trigger": "Active"
           },
           {
-            "type": "secondary",
+            "type": "area",
             "name": "Orb Explosion",
             "damage": { "Magnetic": 75 },
             "critChance": 0.14,
             "critMul": 2,
             "procChance": 0.35,
-            "radius": 5
-          },
-          { "type": "area", "name": "Orb Merge", "damage": { "Magnetic": 28 } }
+            "radius": 5,
+            "falloff": [0, 5, 0.6]
+          }
         ]
       }
     ]
@@ -10734,7 +11081,7 @@
         "fireRate": 150,
         "critChance": 0.11,
         "critMul": 2,
-        "procChance": 0.27,
+        "procChance": 0.162,
         "accuracy": 9.1,
         "pellets": 5,
         "trigger": "Auto",
@@ -10945,22 +11292,25 @@
       },
       {
         "type": "charge",
-        "name": "Uncharged Explosion",
-        "damage": { "Radiation": 88 },
-        "radius": 2
+        "name": "Fully Charged Explosion",
+        "damage": { "Radiation": 106 },
+        "radius": 9.6,
+        "falloff": [0, 9.6, 0.9]
       },
       {
         "type": "area",
         "name": "Fully Charged Projectile",
-        "damage": { "Radiation": 176 },
+        "damage": { "Radiation": 44 },
         "ammoCost": 5,
-        "chargeTime": 1
+        "chargeTime": 1,
+        "prjSpeed": 50
       },
       {
         "type": "secondaryArea",
-        "name": "Fully Charged Explosion",
-        "damage": { "Radiation": 352 },
-        "radius": 8
+        "name": "Uncharged Explosion",
+        "damage": { "Radiation": 88 },
+        "radius": 2.4,
+        "falloff": [0, 2.4, 0.3]
       }
     ]
   },
@@ -11071,7 +11421,7 @@
         "fireRate": 150,
         "critChance": 0.075,
         "critMul": 1.5,
-        "procChance": 0.2,
+        "procChance": 0.05,
         "accuracy": 4,
         "pellets": 12,
         "trigger": "Semi-Auto",
@@ -11095,7 +11445,7 @@
             "fireRate": 125,
             "critChance": 0.075,
             "critMul": 2,
-            "procChance": 0.2,
+            "procChance": 0.06,
             "accuracy": 4,
             "pellets": 10,
             "trigger": "Semi-Auto",
@@ -11120,7 +11470,7 @@
             "fireRate": 150,
             "critChance": 0.18,
             "critMul": 2.2,
-            "procChance": 0.4,
+            "procChance": 0.12,
             "accuracy": 6.7,
             "pellets": 10,
             "trigger": "Semi-Auto",
@@ -11178,7 +11528,8 @@
         "critChance": 0.05,
         "critMul": 1.5,
         "procChance": 0.1,
-        "radius": 0.25
+        "radius": 0.3,
+        "falloff": [0, 0.3, 0.3]
       }
     ]
   },
@@ -11243,7 +11594,7 @@
         "fireRate": 60,
         "critChance": 0.05,
         "critMul": 1.5,
-        "procChance": 0.14,
+        "procChance": 0.0233,
         "accuracy": 3.3,
         "pellets": 6,
         "trigger": "Auto"
@@ -11264,7 +11615,7 @@
             "fireRate": 60,
             "critChance": 0.05,
             "critMul": 2,
-            "procChance": 0.15,
+            "procChance": 0.025,
             "accuracy": 3.3,
             "pellets": 6,
             "trigger": "Auto"
@@ -11444,9 +11795,10 @@
         "critMul": 2,
         "procChance": 0.26,
         "accuracy": 100,
-        "radius": 4,
+        "radius": 4.8,
         "trigger": "Active",
-        "prjSpeed": 50
+        "prjSpeed": 50,
+        "falloff": [0, 4.8, 0.5]
       }
     ]
   },
@@ -11727,7 +12079,7 @@
         "fireRate": 120,
         "critChance": 0.1,
         "critMul": 2,
-        "procChance": 0.28,
+        "procChance": 0.168,
         "accuracy": 9.1,
         "pellets": 5,
         "trigger": "Duplex",
@@ -11750,7 +12102,7 @@
             "fireRate": 120,
             "critChance": 0.15,
             "critMul": 1.5,
-            "procChance": 0.28,
+            "procChance": 0.14,
             "accuracy": 6.5,
             "pellets": 6,
             "trigger": "Duplex",
@@ -11774,7 +12126,7 @@
             "fireRate": 120,
             "critChance": 0.1,
             "critMul": 2,
-            "procChance": 0.3,
+            "procChance": 0.1125,
             "accuracy": 9.1,
             "pellets": 8,
             "trigger": "Duplex",
@@ -11901,7 +12253,8 @@
         "type": "area",
         "name": "Grenade Explosion",
         "damage": { "Blast": 650 },
-        "radius": 6
+        "radius": 7,
+        "falloff": [0, 7, 0.7]
       }
     ],
     "variants": [
@@ -11930,7 +12283,8 @@
             "type": "area",
             "name": "Grenade Explosion",
             "damage": { "Puncture": 176, "Slash": 270, "Blast": 228 },
-            "radius": 5
+            "radius": 7,
+            "falloff": [0, 7, 0.7]
           }
         ]
       }
@@ -12085,7 +12439,7 @@
         "fireRate": 400,
         "critChance": 0.11,
         "critMul": 2,
-        "procChance": 0.23,
+        "procChance": 0.69,
         "accuracy": 5.7,
         "punchThrough": 1.5,
         "trigger": "Auto-Spool",
@@ -12095,6 +12449,7 @@
         "type": "charge",
         "name": "Fully Spooled",
         "damage": { "Impact": 30, "Puncture": 30, "Slash": 90 },
+        "procChance": 0.138,
         "pellets": 5,
         "ammoCost": 1.67
       }
@@ -12882,7 +13237,7 @@
         "damage": { "Impact": 240, "Puncture": 400, "Slash": 160 },
         "fireRate": 180,
         "critChance": 0.17,
-        "procChance": 0.29,
+        "procChance": 0.029,
         "accuracy": 1.4,
         "punchThrough": 1.6,
         "pellets": 10
@@ -12893,7 +13248,8 @@
         "damage": { "Blast": 175 },
         "critChance": 0.17,
         "procChance": 0.29,
-        "radius": 5
+        "radius": 4.9,
+        "falloff": [0, 4.9, 0.5]
       },
       {
         "type": "secondaryArea",
@@ -13049,7 +13405,8 @@
             "critChance": 0.26,
             "critMul": 2,
             "procChance": 0.3,
-            "radius": 2.2
+            "radius": 2.6,
+            "falloff": [0, 2.6, 0.3]
           }
         ]
       }
