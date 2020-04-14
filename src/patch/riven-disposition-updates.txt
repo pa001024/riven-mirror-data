@@ -1,1 +1,194 @@
-Kuva Brakk: 1.25->1
+Acceltra: 0.8->0.7
+Astilla: 1.1->1.15
+Battacor: 1->1.05
+Baza: 1->1.05
+Baza Prime: 1->0.95
+Boar: 1.4->1.45
+Boltor: 1.2->1.25
+Telos Boltor: 1.1->1.15
+Boltor Prime: 1.1->1.15
+Braton: 1.3->1.35
+MK1-Braton: 1.3->1.35
+Braton Vandal: 1.25->1.3
+Braton Prime: 1.2->1.25
+Burston: 1.4->1.45
+Burston Prime: 1.3->1.35
+Cernos: 1.25->1.3
+Rakta Cernos: 1.2->1.25
+Cernos Prime: 1.2->1.25
+Dera: 1.35->1.4
+Dera Vandal: 1.3->1.35
+Drakgoon: 1.48->1.4
+Kuva Drakgoon: 1->1.05
+Fulmin: 0.65->0.6
+Grakata: 1.25->1.35
+Prisma Grakata: 1.15->1.3
+Javlok: 1.25->1.3
+Hek: 1.1->1.15
+Vaykor Hek: 1->1.05
+Kohm: 1.4->1.3
+Kuva Kohm: 1->0.85
+Kuva Bramma: 1->0.8
+Kuva Chakhurr: 1->0.85
+Miter: 1.55->1.5
+Mutalist Quanta: 1.55->1.5
+Kuva Ogris: 1->0.9
+Opticor: 1.05->1.1
+Paris: 1.35->1.4
+MK1-Paris: 1.4->1.45
+Paris Prime: 1.3->1.35
+Phantasma: 1->1.05
+Rubico Prime: 0.65->0.6
+Shedu: 1->0.9
+Soma: 1->1.05
+Soma Prime: 0.95->1
+Stradavar: 1.05->1.1
+Supra: 0.9->1
+Supra Vandal: 0.85->0.9
+Sybaris: 1.2->1.25
+Dex Sybaris: 1.15->1.2
+Sybaris Prime: 1.1->1.15
+Tiberon: 0.9->0.95
+Tigris: 0.65->0.85
+Sancti Tigris: 0.6->0.75
+Tigris Prime: 0.55->0.7
+Kuva Tonkor: 1->0.95
+Vectis: 0.95->1
+Veldt: 1.25->1.3
+Akbolto: 0.95->1.05
+Telos Akbolto: 0.9->1
+Akbolto Prime: 0.85->0.95
+Aklex: 0.9->0.95
+Aksomati Prime: 1->0.95
+Akstilletto: 0.6->0.65
+Arca Scisco: 1.05->1.1
+Atomos: 0.8->0.85
+Ballistica: 1.2->1.25
+Rakta Ballistica: 1.15->1.2
+Ballistica Prime: 1.15->1.2
+Kuva Brakk: 1->0.9
+Bronco: 1.4->1.45
+Bronco Prime: 1.35->1.4
+Detron: 1.1->1.15
+Gammacor: 1.05->1.1
+Hikou: 1.2->1.25
+Hikou Prime: 1.15->1.2
+Kuva Twin Stubba: 1->0.9
+Lex: 1.15->1.2
+Lex Prime: 1.1->1.15
+Marelok: 1.05->1.1
+Vaykor Marelok: 1->1.05
+Kuva Nukor: 1->0.8
+Quatz: 1->1.1
+Kuva Seer: 1->0.95
+Sonicor: 1.05->1.1
+Spira: 1.2->1.25
+Spira Prime: 1.15->1.2
+Viper: 1.4->1.45
+Viper Wraith: 1.35->1.4
+Zakti: 1.2->1.25
+Ack & Brunt: 0.9->1.1
+Arca Titon: 1->1.1
+Atterax: 0.5->0.7
+Balla: 1->0.9
+Bo: 1.29->1.35
+MK1-Bo: 1.29->1.4
+Boltace: 1->1.15
+Broken Scepter: 1.19->1.3
+Broken War: 0.79->0.95
+Cassowar: 1->1.15
+Cobra & Crane: 1->1.15
+Cyath: 1->0.9
+Dakra Prime: 1.15->1.1
+Dark Dagger: 0.52->0.7
+Rakta Dark Dagger: 0.52->0.6
+Dehtat: 1->1.1
+Destreza: 1.14->1.25
+Dex Dakra: 1.15->1.25
+Dohkram: 1->0.85
+Dragon Nikana: 1.35->1.25
+Dual Cleavers: 1->1.2
+Prisma Dual Cleavers: 1->1.05
+Dual Kamas: 0.81->1
+Dual Kamas Prime: 0.81->0.95
+Dual Keres: 1.48->1.35
+Endura: 1->1.2
+Falcor: 1->1.15
+Fang Prime: 1.36->1.3
+Fragor: 0.96->1.1
+Galatine: 0.5->0.7
+Galatine Prime: 0.5->0.55
+Galvacord: 1->1.15
+Gazal Machete: 1.35->1.4
+Glaive: 1.22->1.3
+Gram Prime: 1.44->1.25
+Gunsen: 1->1.15
+Hate: 1.36->1.25
+Heliocor: 0.94->1.1
+Synoid Heliocor: 0.94->1.05
+Hirudo: 0.5->0.7
+Jat Kittag: 0.75->0.95
+Jat Kusar: 0.81->0.95
+Jaw Sword: 1.47->1.4
+Karyst: 1.29->1.35
+Kesheg: 1.24->1.3
+Kogake Prime: 1.46->1.4
+Korrudo: 1->1.15
+Kreska: 1->1.15
+Krohkur: 1.22->1.3
+Kronen Prime: 1.43->1.25
+Kronsh: 1->1.15
+Kuva Shildeg: 1->0.85
+Lecta: 0.5->0.7
+Secura Lecta: 0.5->0.65
+Lesion: 0.5->0.55
+Machete Wraith: 1.45->1.4
+Magistar: 1.09->1.25
+Sancti Magistar: 1.09->1.15
+Masseter: 1->1.05
+Mewan: 1->1.05
+Mios: 0.95->1.1
+Mire: 1.43->1.35
+Nami Skyla: 1.175->1.3
+Nami Skyla Prime: 1.175->1.1
+Nikana: 0.5->0.7
+Ninkondi Prime: 1.41->1.25
+Obex: 1.1->1.25
+Ohma: 1->1.1
+Ooltha: 1->1.1
+Orthos: 0.5->0.7
+Orthos Prime: 0.5->0.55
+Orvius: 1.15->1.25
+Paracesis: 1->0.85
+Pathocyst: 1->1.15
+Pennant: 1->0.9
+Plague Keewar: 1->0.85
+Plague Kripath: 1->0.8
+Prova: 1.29->1.4
+Prova Vandal: 1.29->1.35
+Pupacyst: 1->1.15
+Rabvee: 1->1.15
+Reaper Prime: 1.29->1.15
+Redeemer Prime: 1.1->1
+Scindo: 1->1.2
+Scindo Prime: 1->1.15
+Sepfahn: 1->0.9
+Sheev: 1.25->1.3
+Silva & Aegis: 1->1.1
+Skana: 1.22->1.3
+Prisma Skana: 1.22->1.15
+Skana Prime: 1.22->1.15
+Skiajati: 1->0.9
+Sydon: 0.84->1
+Vaykor Sydon: 0.84->0.95
+Tatsu: 1->0.95
+Tekko Prime: 1.4->1.35
+Tipedo Prime: 1.31->1.25
+Twin Basolk: 1.18->1.25
+Twin Krohkur: 1.48->1.35
+Venka: 0.5->0.7
+Venka Prime: 0.5->0.65
+Volnus: 1.2->1.3
+War: 0.5->0.7
+Wolf Sledge: 0.96->1.1
+Zenistar: 0.5->0.7
