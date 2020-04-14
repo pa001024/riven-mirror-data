@@ -2431,41 +2431,6 @@
     ]
   },
   {
-    "name": "Ceti Lacera",
-    "tags": ["Melee", "Blade and Whip"],
-    "traits": ["Tenno"],
-    "mastery": 12,
-    "disposition": 1,
-    "polarities": "-",
-    "stancePolarity": "r",
-    "comboDur": 5,
-    "followThrough": 0.5,
-    "meleeRange": 2.5,
-    "slamAttack": 3,
-    "slamRadialDmg": 1,
-    "slamRadius": 7,
-    "heavyAttack": 4,
-    "windUp": 0.4,
-    "heavySlamAttack": 5,
-    "heavyRadialDmg": 5,
-    "heavySlamRadius": 9,
-    "slideAttack": 1,
-    "modes": [
-      {
-        "damage": {
-          "Impact": 12,
-          "Puncture": 38,
-          "Slash": 66,
-          "Electricity": 100
-        },
-        "fireRate": 65,
-        "critChance": 0.2,
-        "critMul": 2,
-        "procChance": 0.4
-      }
-    ]
-  },
-  {
     "name": "Cobra & Crane",
     "tags": ["Melee", "Sword and Shield"],
     "mastery": 10,
@@ -7320,6 +7285,43 @@
         "critChance": 0.05,
         "critMul": 2,
         "procChance": 0.45
+      }
+    ],
+    "variants": [
+      {
+        "name": "Ceti Lacera",
+        "tags": ["Melee", "Blade and Whip"],
+        "traits": ["Tenno"],
+        "mastery": 12,
+        "disposition": 1,
+        "polarities": "-",
+        "stancePolarity": "r",
+        "comboDur": 5,
+        "followThrough": 0.5,
+        "meleeRange": 2.5,
+        "slamAttack": 3,
+        "slamRadialDmg": 1,
+        "slamRadius": 7,
+        "heavyAttack": 4,
+        "windUp": 0.4,
+        "heavySlamAttack": 5,
+        "heavyRadialDmg": 5,
+        "heavySlamRadius": 9,
+        "slideAttack": 1,
+        "modes": [
+          {
+            "damage": {
+              "Impact": 12,
+              "Puncture": 38,
+              "Slash": 66,
+              "Electricity": 100
+            },
+            "fireRate": 65,
+            "critChance": 0.2,
+            "critMul": 2,
+            "procChance": 0.4
+          }
+        ]
       }
     ]
   },

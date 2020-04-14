@@ -23,7 +23,7 @@ const DMG_NAMES = [
 ];
 
 const getBaseName = (name: string) => {
-  const WEAPON_PREFIX = /^MK1-|^(?:Kuva|Prisma|Mara|Dex|Secura|Rakta|Telos|Synoid|Sancti|Vaykor|Carmine|Prime) /;
+  const WEAPON_PREFIX = /^MK1-|^(?:Ceti|Kuva|Prisma|Mara|Dex|Secura|Rakta|Telos|Synoid|Sancti|Vaykor|Carmine|Prime) /;
   const WEAPON_SUBFIX = / (?:Prime|Wraith|Vandal|\(Heavy Blade\)|\(Umbra\))$/;
   const WEAPON_SINGLE = [
     "Euphona Prime",
