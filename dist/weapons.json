@@ -123,16 +123,17 @@
     "name": "Agkuza",
     "tags": ["Arch-Melee"],
     "traits": ["Tenno"],
+    "mastery": 3,
     "disposition": 1,
     "polarities": "d",
-    "slideAttack": 2.14,
+    "meleeRange": 142.5,
     "modes": [
       {
-        "damage": { "Impact": 52.5, "Puncture": 245, "Slash": 52.5 },
+        "damage": { "Impact": 65.4, "Puncture": 305.2, "Slash": 65.4 },
         "fireRate": 60,
         "critChance": 0.05,
         "critMul": 1.5,
-        "procChance": 0.1
+        "procChance": 0.15
       }
     ]
   },
@@ -2198,12 +2199,13 @@
     "name": "Centaur",
     "tags": ["Arch-Melee"],
     "traits": ["Tenno"],
+    "mastery": 8,
     "disposition": 1,
     "polarities": "r",
-    "slideAttack": 2.14,
+    "meleeRange": 142.5,
     "modes": [
       {
-        "damage": { "Impact": 28, "Puncture": 56, "Slash": 196 },
+        "damage": { "Impact": 37.6, "Puncture": 75.2, "Slash": 263.2 },
         "fireRate": 65,
         "critChance": 0.25,
         "critMul": 2,
@@ -2581,23 +2583,23 @@
     "reloadStyle": 1,
     "modes": [
       {
-        "damage": { "Impact": 50, "Heat": 100 },
+        "damage": { "Impact": 200, "Heat": 240 },
         "fireRate": 120,
-        "critChance": 0.25,
-        "critMul": 2,
-        "procChance": 0.2,
+        "critChance": 0.4,
+        "critMul": 2.6,
+        "procChance": 0.13,
         "accuracy": 100,
         "trigger": "Charge"
       },
       {
         "type": "charge",
-        "damage": { "Impact": 100, "Heat": 250 },
+        "damage": { "Impact": 400, "Heat": 480 },
         "fireRate": 120,
-        "critChance": 0.25,
-        "critMul": 2,
-        "procChance": 0.2,
+        "critChance": 0.4,
+        "critMul": 3,
+        "procChance": 0.13,
         "chargeTime": 0.5,
-        "falloff": [100, 200, null]
+        "falloff": [600, 1200, null]
       }
     ],
     "variants": [
@@ -2627,7 +2629,7 @@
             "damage": { "Impact": 704, "Puncture": 88, "Slash": 88 },
             "fireRate": 120,
             "critChance": 0.4,
-            "critMul": 2.6,
+            "critMul": 3,
             "procChance": 0.013,
             "pellets": 11,
             "chargeTime": 0.5,
@@ -2768,15 +2770,15 @@
     "reloadStyle": 1,
     "modes": [
       {
-        "damage": { "Impact": 15.84, "Puncture": 15.84, "Slash": 16.32 },
+        "damage": { "Impact": 39.6, "Puncture": 39.6, "Slash": 40.8 },
         "fireRate": 545,
-        "critChance": 0.05,
-        "critMul": 2,
+        "critChance": 0.2,
+        "critMul": 2.2,
         "procChance": 0.3,
         "accuracy": 25,
         "trigger": "Auto Burst",
         "burstCount": 3,
-        "falloff": [1200, 4800, null]
+        "falloff": [1500, 3000, null]
       }
     ],
     "variants": [
@@ -3625,14 +3627,14 @@
     "reloadStyle": 1,
     "modes": [
       {
-        "damage": { "Impact": 18.9, "Puncture": 11.6, "Slash": 11.5 },
+        "damage": { "Impact": 49.5, "Puncture": 30.3, "Slash": 30.2 },
         "fireRate": 500,
-        "critChance": 0.25,
-        "critMul": 2,
-        "procChance": 0.1,
-        "accuracy": 16,
+        "critChance": 0.28,
+        "critMul": 2.2,
+        "procChance": 0.14,
+        "accuracy": 12.5,
         "trigger": "Auto",
-        "falloff": [1200, 4800, null]
+        "falloff": [1500, 3000, null]
       }
     ],
     "variants": [
@@ -4415,15 +4417,15 @@
     "reloadStyle": 1,
     "modes": [
       {
-        "damage": { "Impact": 24, "Puncture": 12, "Slash": 84 },
+        "damage": { "Impact": 50, "Puncture": 25, "Slash": 175 },
         "fireRate": 300,
-        "critChance": 0.15,
+        "critChance": 0.22,
         "critMul": 2,
-        "procChance": 0.1,
+        "procChance": 0.16,
         "accuracy": 100,
         "range": 450,
         "trigger": "Semi-Auto",
-        "falloff": [200, 400, null]
+        "falloff": [800, 1600, null]
       }
     ],
     "variants": [
@@ -5311,21 +5313,22 @@
     "modes": [
       {
         "name": "Projectile Impact",
-        "damage": { "Impact": 5.8, "Puncture": 46.4, "Slash": 5.8 },
+        "damage": { "Impact": 10, "Puncture": 80, "Slash": 10 },
         "fireRate": 375,
         "critChance": 0.25,
         "critMul": 2,
         "procChance": 0.25,
         "accuracy": 25,
         "punchThrough": 5,
-        "trigger": "Auto"
+        "trigger": "Auto",
+        "falloff": [1000, 2000, null]
       },
       {
         "type": "area",
         "name": "Explosion",
-        "damage": { "Impact": 9, "Puncture": 72, "Slash": 9 },
-        "radius": 6,
-        "falloff": [0, 6, 0.5]
+        "damage": { "Blast": 205 },
+        "radius": 9,
+        "falloff": [0, 9, 0.7]
       }
     ],
     "variants": [
@@ -5355,8 +5358,8 @@
             "type": "area",
             "name": "Explosion",
             "damage": { "Blast": 205 },
-            "radius": 4.9,
-            "falloff": [0, 4.9, 0.5]
+            "radius": 9,
+            "falloff": [0, 9, 0.7]
           }
         ]
       }
@@ -6037,14 +6040,14 @@
     "reloadStyle": 1,
     "modes": [
       {
-        "damage": { "Impact": 8.8, "Puncture": 7.7, "Slash": 5.5 },
+        "damage": { "Impact": 20, "Puncture": 17.5, "Slash": 12.5 },
         "fireRate": 1002,
-        "critChance": 0.1,
+        "critChance": 0.24,
         "critMul": 2,
-        "procChance": 0.05,
+        "procChance": 0.12,
         "accuracy": 25,
         "trigger": "Auto",
-        "falloff": [1200, 4800, null]
+        "falloff": [1500, 3000, null]
       }
     ],
     "variants": [
@@ -6081,14 +6084,14 @@
         "reloadStyle": 1,
         "modes": [
           {
-            "damage": { "Impact": 8.8, "Puncture": 7.7, "Slash": 5.5 },
+            "damage": { "Impact": 20, "Puncture": 17.5, "Slash": 12.5 },
             "fireRate": 1500,
-            "critChance": 0.15,
-            "critMul": 2,
-            "procChance": 0.1,
-            "accuracy": 25,
+            "critChance": 0.28,
+            "critMul": 2.4,
+            "procChance": 0.12,
+            "accuracy": 50,
             "trigger": "Auto-Spool",
-            "falloff": [1200, 4800, null]
+            "falloff": [1500, 3000, null]
           }
         ]
       },
@@ -6108,7 +6111,7 @@
             "critChance": 0.28,
             "critMul": 2.4,
             "procChance": 0.12,
-            "accuracy": 25,
+            "accuracy": 50,
             "trigger": "Auto-Spool"
           }
         ]
@@ -6440,16 +6443,17 @@
     "name": "Kaszas",
     "tags": ["Arch-Melee"],
     "traits": ["Tenno"],
+    "mastery": 4,
     "disposition": 1,
     "polarities": "d",
-    "slideAttack": 2.14,
+    "meleeRange": 142.5,
     "modes": [
       {
-        "damage": { "Impact": 16.3, "Puncture": 260, "Slash": 48.7 },
+        "damage": { "Impact": 19.7, "Puncture": 313.6, "Slash": 58.7 },
         "fireRate": 60,
-        "critChance": 0.1,
+        "critChance": 0.15,
         "critMul": 2,
-        "procChance": 0.15
+        "procChance": 0.2
       }
     ]
   },
@@ -6576,14 +6580,15 @@
     "name": "Knux",
     "tags": ["Arch-Melee"],
     "traits": ["Grineer"],
+    "mastery": 7,
     "disposition": 1,
     "polarities": "d",
-    "slideAttack": 2.14,
+    "meleeRange": 142.5,
     "modes": [
       {
-        "damage": { "Impact": 292.5, "Puncture": 16.25, "Slash": 16.25 },
+        "damage": { "Impact": 400.5, "Puncture": 22.25, "Slash": 22.25 },
         "fireRate": 60,
-        "critChance": 0.1,
+        "critChance": 0.13,
         "critMul": 2,
         "procChance": 0.3
       }
@@ -7088,20 +7093,21 @@
     "modes": [
       {
         "name": "Grenade Impact",
-        "damage": { "Impact": 30 },
+        "damage": { "Impact": 87 },
         "fireRate": 275,
         "critChance": 0.35,
         "critMul": 2,
         "procChance": 0.2,
         "accuracy": 25,
-        "trigger": "Auto"
+        "trigger": "Auto",
+        "falloff": [1200, 2400, null]
       },
       {
         "type": "area",
         "name": "Explosion",
-        "damage": { "Blast": 100 },
-        "radius": 5,
-        "falloff": [0, 5, 0.5]
+        "damage": { "Blast": 187 },
+        "radius": 9,
+        "falloff": [0, 9, 0.3]
       }
     ],
     "variants": [
@@ -7129,8 +7135,8 @@
             "type": "area",
             "name": "Explosion",
             "damage": { "Blast": 187 },
-            "radius": 5,
-            "falloff": [0, 5, 0.5]
+            "radius": 9,
+            "falloff": [0, 9, 0.3]
           }
         ]
       }
@@ -7393,7 +7399,7 @@
     "reloadStyle": 1,
     "modes": [
       {
-        "damage": { "Impact": 2, "Radiation": 30 },
+        "damage": { "Impact": 10, "Radiation": 80 },
         "fireRate": 720,
         "critChance": 0.1,
         "critMul": 1.4,
@@ -7413,9 +7419,12 @@
         "chargeTime": 0.5
       },
       {
-        "type": "secondaryArea",
+        "type": "area",
         "name": "Explosion",
         "damage": { "Blast": 400, "Radiation": 400 },
+        "critChance": 0.26,
+        "critMul": 2.2,
+        "procChance": 0.34,
         "radius": 9.6,
         "falloff": [0, 9.6, 0.6]
       }
@@ -7451,9 +7460,12 @@
             "chargeTime": 0.5
           },
           {
-            "type": "secondaryArea",
+            "type": "area",
             "name": "Explosion",
             "damage": { "Blast": 400, "Radiation": 400 },
+            "critChance": 0.26,
+            "critMul": 2.2,
+            "procChance": 0.34,
             "radius": 9.6,
             "falloff": [0, 9.6, 0.6]
           }
@@ -8758,12 +8770,13 @@
     "name": "Onorix",
     "tags": ["Arch-Melee"],
     "traits": ["Tenno"],
+    "mastery": 1,
     "disposition": 1,
     "polarities": "r",
-    "slideAttack": 2.14,
+    "meleeRange": 142.5,
     "modes": [
       {
-        "damage": { "Impact": 87, "Puncture": 58, "Slash": 145 },
+        "damage": { "Impact": 123.6, "Puncture": 82.4, "Slash": 206 },
         "fireRate": 60,
         "critChance": 0.15,
         "critMul": 1.3,
@@ -9392,7 +9405,7 @@
             "prjSpeed": 20
           },
           {
-            "type": "secondary",
+            "type": "area",
             "name": "Grenade Detonation",
             "damage": { "Blast": 350 },
             "radius": 5,
@@ -9449,14 +9462,14 @@
     "reloadStyle": 1,
     "modes": [
       {
-        "damage": { "Impact": 8.75, "Puncture": 22.75, "Slash": 3.5 },
+        "damage": { "Impact": 14, "Puncture": 36.4, "Slash": 5.6 },
         "fireRate": 1125,
-        "critChance": 0.1,
+        "critChance": 0.14,
         "critMul": 2,
-        "procChance": 0.25,
-        "accuracy": 10.5,
+        "procChance": 0.3,
+        "accuracy": 25,
         "trigger": "Auto-Spool",
-        "falloff": [1200, 4800, null]
+        "falloff": [1500, 3000, null]
       }
     ],
     "variants": [
@@ -9477,7 +9490,7 @@
             "critChance": 0.14,
             "critMul": 2,
             "procChance": 0.3,
-            "accuracy": 10.5,
+            "accuracy": 25,
             "trigger": "Auto-Spool"
           }
         ]
@@ -10027,16 +10040,17 @@
     "name": "Rathbone",
     "tags": ["Arch-Melee"],
     "traits": ["Tenno"],
+    "mastery": 6,
     "disposition": 1,
     "polarities": "r",
-    "slideAttack": 2.14,
+    "meleeRange": 142,
     "modes": [
       {
-        "damage": { "Impact": 224, "Puncture": 42, "Slash": 14 },
+        "damage": { "Impact": 360, "Puncture": 67.5, "Slash": 22.5 },
         "fireRate": 55,
-        "critChance": 0.15,
+        "critChance": 0.2,
         "critMul": 2,
-        "procChance": 0.075
+        "procChance": 0.12
       }
     ]
   },
@@ -10845,7 +10859,7 @@
       {
         "type": "area",
         "name": "Orb Explosion",
-        "damage": { "Magnetic": 75 },
+        "damage": { "Magnetic": 100 },
         "critChance": 0.12,
         "critMul": 2,
         "procChance": 0.3,
@@ -10867,7 +10881,7 @@
         "modes": [
           {
             "name": "Orb Damage",
-            "damage": { "Magnetic": 50 },
+            "damage": { "Magnetic": 80 },
             "fireRate": 200,
             "critChance": 0.14,
             "critMul": 2,
@@ -10878,7 +10892,7 @@
           {
             "type": "area",
             "name": "Orb Explosion",
-            "damage": { "Magnetic": 75 },
+            "damage": { "Magnetic": 240 },
             "critChance": 0.14,
             "critMul": 2,
             "procChance": 0.35,
@@ -12142,7 +12156,7 @@
     "name": "Tipedo",
     "tags": ["Melee", "Staff"],
     "traits": ["Tenno"],
-    "mastery": 6,
+    "mastery": 3,
     "disposition": 1.31,
     "polarities": "d",
     "stancePolarity": "t",
@@ -12368,7 +12382,7 @@
         "fireRate": 1200,
         "critChance": 0.25,
         "critMul": 2.7,
-        "procChance": 0.11,
+        "procChance": 0.165,
         "accuracy": 28.6,
         "pellets": 2,
         "ammoCost": 2,
@@ -12771,17 +12785,30 @@
     "reloadStyle": 1,
     "modes": [
       {
-        "damage": { "Magnetic": 290 },
+        "damage": {
+          "Impact": 150,
+          "Puncture": 150,
+          "Slash": 150,
+          "Magnetic": 150
+        },
         "fireRate": 300,
+        "critChance": 0.3,
+        "critMul": 3,
+        "procChance": 0.25,
         "accuracy": 28.6,
         "trigger": "Charge"
       },
       {
         "type": "charge",
-        "damage": { "Magnetic": 580 },
+        "damage": {
+          "Impact": 400,
+          "Puncture": 400,
+          "Slash": 400,
+          "Magnetic": 400
+        },
         "fireRate": 300,
-        "critChance": 0.25,
-        "critMul": 3,
+        "critChance": 0.6,
+        "critMul": 3.6,
         "procChance": 0.25,
         "punchThrough": 5,
         "chargeTime": 1
@@ -12799,17 +12826,30 @@
         "maxAmmo": 60,
         "modes": [
           {
-            "damage": { "Magnetic": 133 },
+            "damage": {
+              "Impact": 150,
+              "Puncture": 150,
+              "Slash": 150,
+              "Magnetic": 150
+            },
             "fireRate": 300,
+            "critChance": 0.3,
+            "critMul": 3,
+            "procChance": 0.25,
             "accuracy": 28.6,
             "trigger": "Charge"
           },
           {
             "type": "charge",
-            "damage": { "Magnetic": 1200 },
+            "damage": {
+              "Impact": 400,
+              "Puncture": 400,
+              "Slash": 400,
+              "Magnetic": 400
+            },
             "fireRate": 300,
-            "critChance": 0.3,
-            "critMul": 3,
+            "critChance": 0.6,
+            "critMul": 3.6,
             "procChance": 0.25,
             "punchThrough": 5,
             "chargeTime": 1
@@ -12885,10 +12925,10 @@
     "traits": ["Tenno"],
     "disposition": 1,
     "polarities": "d",
-    "slideAttack": 2.14,
+    "meleeRange": 143,
     "modes": [
       {
-        "damage": { "Impact": 45, "Puncture": 45, "Slash": 210 },
+        "damage": { "Impact": 70.5, "Puncture": 70.5, "Slash": 329 },
         "fireRate": 50,
         "critChance": 0.05,
         "critMul": 1.5,
@@ -12900,14 +12940,15 @@
         "name": "Prisma Veritux",
         "tags": ["Arch-Melee"],
         "traits": ["Tenno", "Prisma"],
+        "mastery": 8,
         "disposition": 0,
         "polarities": "d",
-        "slideAttack": 2.14,
+        "meleeRange": 143,
         "modes": [
           {
-            "damage": { "Impact": 45, "Puncture": 45, "Slash": 210 },
+            "damage": { "Impact": 59.1, "Puncture": 59.1, "Slash": 275.8 },
             "fireRate": 60,
-            "critChance": 0.15,
+            "critChance": 0.3,
             "critMul": 2,
             "procChance": 0.2
           }
