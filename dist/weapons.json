@@ -8760,7 +8760,7 @@
       {
         "damage": { "Impact": 7, "Puncture": 63, "Slash": 70 },
         "fireRate": 65,
-        "critChance": 0.192,
+        "critChance": 0.16,
         "critMul": 2,
         "procChance": 0.2
       }
