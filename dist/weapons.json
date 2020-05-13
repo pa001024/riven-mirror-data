@@ -1265,7 +1265,7 @@
     "mastery": 11,
     "disposition": 1,
     "polarities": "r",
-    "reload": 105,
+    "reload": 42,
     "magazine": 21,
     "reloadStyle": 1,
     "modes": [
@@ -1715,7 +1715,7 @@
     "variants": [
       {
         "name": "Kuva Brakk",
-        "tags": ["Secondary", "Pistol", "Shotgun Sidearm"],
+        "tags": ["Secondary", "Pistol", "Shotgun Sidearm", "Kuva Weapon"],
         "traits": ["Grineer", "Kuva Lich"],
         "mastery": 13,
         "disposition": 0.9,
@@ -3440,7 +3440,7 @@
     "variants": [
       {
         "name": "Kuva Drakgoon",
-        "tags": ["Primary", "Shotgun"],
+        "tags": ["Primary", "Shotgun", "Kuva Weapon"],
         "traits": ["Grineer", "Kuva Lich"],
         "mastery": 13,
         "disposition": 1.05,
@@ -5392,7 +5392,7 @@
         "tags": ["Primary", "Rifle", "Assault Rifle"],
         "traits": ["Prisma", "Baro"],
         "mastery": 11,
-        "disposition": 1.25,
+        "disposition": 1.245,
         "polarities": "r",
         "reload": 1.7,
         "magazine": 21,
@@ -5876,7 +5876,7 @@
     "variants": [
       {
         "name": "Kuva Hind",
-        "tags": ["Primary", "Rifle", "Assault Rifle"],
+        "tags": ["Primary", "Rifle", "Assault Rifle", "Kuva Weapon"],
         "traits": ["Grineer"],
         "mastery": 15,
         "disposition": 1,
@@ -6386,7 +6386,7 @@
       },
       {
         "name": "Kuva Karak",
-        "tags": ["Primary", "Rifle", "Assault Rifle"],
+        "tags": ["Primary", "Rifle", "Assault Rifle", "Kuva Weapon"],
         "traits": ["Grineer", "Kuva Lich"],
         "mastery": 13,
         "disposition": 1,
@@ -6691,7 +6691,7 @@
     "variants": [
       {
         "name": "Kuva Kohm",
-        "tags": ["Primary", "Shotgun"],
+        "tags": ["Primary", "Shotgun", "Kuva Weapon"],
         "traits": ["Grineer", "Kuva Lich"],
         "mastery": 13,
         "disposition": 0.85,
@@ -6846,7 +6846,7 @@
     "variants": [
       {
         "name": "Kuva Kraken",
-        "tags": ["Secondary", "Pistol"],
+        "tags": ["Secondary", "Pistol", "Kuva Weapon"],
         "traits": ["Grineer", "Kuva Lich"],
         "mastery": 15,
         "disposition": 1,
@@ -7083,7 +7083,7 @@
   },
   {
     "name": "Kuva Ayanga",
-    "tags": ["Arch-Gun"],
+    "tags": ["Arch-Gun", "Kuva Weapon"],
     "traits": ["Grineer", "Kuva Lich"],
     "mastery": 13,
     "disposition": 1,
@@ -7113,7 +7113,7 @@
     "variants": [
       {
         "name": "Kuva Ayanga (Atmosphere)",
-        "tags": ["Arch-Gun", "Atmosphere"],
+        "tags": ["Arch-Gun", "Atmosphere", "Kuva Weapon"],
         "traits": ["Grineer", "Kuva Lich"],
         "mastery": 13,
         "disposition": 1,
@@ -7144,7 +7144,7 @@
   },
   {
     "name": "Kuva Bramma",
-    "tags": ["Primary", "Rifle", "Bow"],
+    "tags": ["Primary", "Rifle", "Bow", "Kuva Weapon"],
     "traits": ["Grineer", "Kuva Lich"],
     "mastery": 15,
     "disposition": 0.8,
@@ -7181,7 +7181,7 @@
   },
   {
     "name": "Kuva Chakkhurr",
-    "tags": ["Primary", "Rifle", "Assault Rifle"],
+    "tags": ["Primary", "Rifle", "Assault Rifle", "Kuva Weapon"],
     "traits": ["Grineer", "Kuva Lich"],
     "mastery": 15,
     "disposition": 0.85,
@@ -7211,7 +7211,7 @@
   },
   {
     "name": "Kuva Shildeg",
-    "tags": ["Melee", "Hammer"],
+    "tags": ["Melee", "Hammer", "Kuva Weapon"],
     "mastery": 13,
     "disposition": 0.85,
     "polarities": "r",
@@ -7240,7 +7240,7 @@
   },
   {
     "name": "Kuva Twin Stubbas",
-    "tags": ["Secondary", "Dual Pistols"],
+    "tags": ["Secondary", "Dual Pistols", "Kuva Weapon"],
     "traits": ["Grineer", "Kuva Lich"],
     "mastery": 13,
     "disposition": 0.9,
@@ -8533,7 +8533,7 @@
     "variants": [
       {
         "name": "Kuva Nukor",
-        "tags": ["Secondary", "Pistol", "Continuous"],
+        "tags": ["Secondary", "Pistol", "Kuva Weapon", "Continuous"],
         "traits": ["Grineer", "Kuva Lich"],
         "mastery": 13,
         "disposition": 0.8,
@@ -8677,7 +8677,13 @@
     "variants": [
       {
         "name": "Kuva Ogris",
-        "tags": ["Primary", "Rifle", "Assault Rifle", "Launcher"],
+        "tags": [
+          "Primary",
+          "Rifle",
+          "Assault Rifle",
+          "Launcher",
+          "Kuva Weapon"
+        ],
         "traits": ["Grineer", "Kuva Lich"],
         "mastery": 15,
         "disposition": 0.9,
@@ -9938,7 +9944,7 @@
     "variants": [
       {
         "name": "Kuva Quartakk",
-        "tags": ["Primary", "Rifle", "Assault Rifle"],
+        "tags": ["Primary", "Rifle", "Assault Rifle", "Kuva Weapon"],
         "traits": ["Grineer", "Kuva Lich"],
         "mastery": 13,
         "disposition": 1,
@@ -10502,7 +10508,7 @@
     "variants": [
       {
         "name": "Kuva Seer",
-        "tags": ["Secondary", "Pistol"],
+        "tags": ["Secondary", "Pistol", "Kuva Weapon"],
         "traits": ["Grineer", "Kuva Lich"],
         "mastery": 15,
         "disposition": 0.95,
@@ -10620,8 +10626,9 @@
     "traits": ["Sentient"],
     "mastery": 13,
     "disposition": 0.9,
-    "reload": 1,
+    "reload": 28,
     "magazine": 7,
+    "reloadStyle": 1,
     "modes": [
       {
         "damage": { "Heat": 71 },
@@ -11192,7 +11199,7 @@
     "tags": ["Secondary", "Pistol", "Continuous"],
     "traits": ["Corpus"],
     "mastery": 4,
-    "disposition": 1.46,
+    "disposition": 1.49,
     "reload": 1.8,
     "magazine": 60,
     "maxAmmo": 360,
@@ -12276,7 +12283,13 @@
     "variants": [
       {
         "name": "Kuva Tonkor",
-        "tags": ["Primary", "Rifle", "Assault Rifle", "Launcher"],
+        "tags": [
+          "Primary",
+          "Rifle",
+          "Assault Rifle",
+          "Launcher",
+          "Kuva Weapon"
+        ],
         "traits": ["Grineer", "Kuva Lich"],
         "mastery": 13,
         "disposition": 0.95,

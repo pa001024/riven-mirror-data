@@ -175,7 +175,7 @@ const toWeaponWiki = (raw: WikiWeapons.Weapon, noproto = false): ProtoWeapon => 
     spool: raw.Spool,
     fireRate: raw.FireRate && +(raw.FireRate * 60).toFixed(0),
   } as WeaponMode;
-  const tags = toTags(raw.Type, raw.Class);
+  const tags = toTags(raw.Type, raw.Class).concat(raw.Name.startsWith("Kuva") ? ["Kuva Weapon"] : []);
   const modes = [
     !defaultMode ? toAttackWiki(undefined, raw.NormalAttack) : _.merge(toAttackWiki(undefined, raw.NormalAttack), dataToDefaultMode),
     defaultMode ? toAttackWiki("charge", raw.ChargeAttack) : _.merge(toAttackWiki("charge", raw.ChargeAttack), dataToDefaultMode),
@@ -414,10 +414,10 @@ export const convertWeapons = (deWeapons: DEWeapon, wikiWeapons: WikiWeapon, pat
         ...rst[baseName],
         variants: rst[baseName].variants
           ? [
-              ...rst[baseName].variants, // -
-              otherProps,
-              ...(subVariants || []),
-            ].sort()
+            ...rst[baseName].variants, // -
+            otherProps,
+            ...(subVariants || []),
+          ].sort()
           : [thisVariant],
       };
     }
