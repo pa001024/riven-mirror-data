@@ -12793,8 +12793,8 @@
     "traits": ["Tenno"],
     "mastery": 4,
     "disposition": 1.05,
-    "reload": 25,
-    "magazine": 100,
+    "reload": 2,
+    "magazine": 10,
     "reloadStyle": 1,
     "modes": [
       {
