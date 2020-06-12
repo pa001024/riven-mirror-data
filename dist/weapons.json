@@ -2765,7 +2765,7 @@
     "traits": ["Tenno"],
     "mastery": 4,
     "disposition": 1.3,
-    "reload": 50,
+    "reload": 30,
     "magazine": 30,
     "reloadStyle": 1,
     "modes": [
@@ -4895,22 +4895,22 @@
     "comboDur": 5,
     "followThrough": 0.8,
     "meleeRange": 2.2,
-    "slamAttack": 3,
-    "slamRadialDmg": 1,
+    "slamAttack": 2.18,
+    "slamRadialDmg": 0.73,
     "slamRadius": 6,
-    "heavyAttack": 5,
+    "heavyAttack": 3.63,
     "windUp": 0.6,
-    "heavySlamAttack": 4,
-    "heavyRadialDmg": 4,
+    "heavySlamAttack": 2.9,
+    "heavyRadialDmg": 2.9,
     "heavySlamRadius": 7,
-    "slideAttack": 3,
+    "slideAttack": 2.18,
     "modes": [
       {
-        "damage": { "Impact": 14.4, "Puncture": 39.6, "Slash": 126 },
+        "damage": { "Impact": 19.84, "Puncture": 54.56, "Slash": 173.6 },
         "fireRate": 60,
-        "critChance": 0.1,
+        "critChance": 0.2,
         "critMul": 2,
-        "procChance": 0.3
+        "procChance": 0.36
       }
     ]
   },
@@ -7087,7 +7087,7 @@
     "traits": ["Grineer", "Kuva Lich"],
     "mastery": 13,
     "disposition": 1,
-    "reload": 10,
+    "reload": 66,
     "magazine": 33,
     "reloadStyle": 1,
     "modes": [
@@ -7119,7 +7119,7 @@
         "disposition": 1,
         "reload": 3,
         "magazine": 33,
-        "maxAmmo": 329,
+        "maxAmmo": 165,
         "modes": [
           {
             "name": "Grenade Impact",
@@ -7151,7 +7151,7 @@
     "polarities": "r",
     "reload": 0.6,
     "magazine": 1,
-    "maxAmmo": 15,
+    "maxAmmo": 5,
     "modes": [
       {
         "type": "charge",
@@ -7175,7 +7175,8 @@
         "type": "secondaryArea",
         "name": "Cluster Bombs",
         "damage": { "Blast": 1122 },
-        "pellets": 6
+        "pellets": 3,
+        "falloff": [0, 3.5, 0.5]
       }
     ]
   },
@@ -11292,6 +11293,52 @@
     ]
   },
   {
+    "name": "Stahlta",
+    "tags": ["Primary", "Rifle", "Assault Rifle"],
+    "traits": ["Corpus"],
+    "mastery": 10,
+    "disposition": 0.5,
+    "reload": 1.4,
+    "magazine": 40,
+    "modes": [
+      {
+        "name": "Normal",
+        "damage": { "Impact": 7.3, "Puncture": 16.6, "Slash": 28.1 },
+        "fireRate": 360,
+        "critChance": 0.24,
+        "critMul": 1.8,
+        "procChance": 0.22,
+        "accuracy": 50,
+        "punchThrough": 1.2,
+        "trigger": "Semi-Auto",
+        "prjSpeed": 50
+      },
+      {
+        "type": "charge",
+        "damage": { "Impact": 120, "Puncture": 180, "Slash": 300 },
+        "fireRate": 40,
+        "critChance": 0.4,
+        "critMul": 3,
+        "procChance": 0.32,
+        "accuracy": 25,
+        "pellets": 1,
+        "chargeTime": 1.6,
+        "prjSpeed": 50
+      },
+      {
+        "type": "area",
+        "name": "Charged Shot Explosion",
+        "damage": { "Radiation": 1200 },
+        "fireRate": 40,
+        "critChance": 0.4,
+        "critMul": 3,
+        "procChance": 0.32,
+        "radius": 7.2,
+        "falloff": [0, 7.2, 0.7]
+      }
+    ]
+  },
+  {
     "name": "Staticor",
     "tags": ["Secondary", "Dual Pistols"],
     "traits": ["Corpus"],
@@ -11424,6 +11471,35 @@
             "trigger": "Semi-Auto"
           }
         ]
+      }
+    ]
+  },
+  {
+    "name": "Stropha",
+    "tags": ["Melee", "Gunblade"],
+    "traits": ["Corpus"],
+    "mastery": 10,
+    "disposition": 0.5,
+    "stancePolarity": "r",
+    "comboDur": 5,
+    "followThrough": 0.5,
+    "meleeRange": 2,
+    "slamAttack": 3,
+    "slamRadialDmg": 1,
+    "slamRadius": 5,
+    "heavyAttack": 5,
+    "windUp": 0.4,
+    "heavySlamAttack": 4,
+    "heavyRadialDmg": 4,
+    "heavySlamRadius": 8,
+    "slideAttack": 2,
+    "modes": [
+      {
+        "damage": { "Impact": 61.6, "Puncture": 74.8, "Slash": 83.6 },
+        "fireRate": 60,
+        "critChance": 0.3,
+        "critMul": 2.4,
+        "procChance": 0.14
       }
     ]
   },
@@ -12793,7 +12869,7 @@
     "traits": ["Tenno"],
     "mastery": 4,
     "disposition": 1.05,
-    "reload": 2,
+    "reload": 25,
     "magazine": 10,
     "reloadStyle": 1,
     "modes": [
@@ -12868,6 +12944,28 @@
             "chargeTime": 1
           }
         ]
+      }
+    ]
+  },
+  {
+    "name": "Velox",
+    "tags": ["Secondary", "Pistol"],
+    "traits": ["Tenno"],
+    "mastery": 8,
+    "disposition": 0.5,
+    "reload": 2.6,
+    "magazine": 62,
+    "maxAmmo": 434,
+    "modes": [
+      {
+        "name": "Normal",
+        "damage": { "Impact": 4.3, "Puncture": 8.2, "Slash": 11.5 },
+        "fireRate": 900,
+        "critChance": 0.14,
+        "critMul": 1.8,
+        "procChance": 0.22,
+        "accuracy": 25,
+        "trigger": "Auto"
       }
     ]
   },
@@ -13233,6 +13331,52 @@
         "name": "Recall Explosion",
         "damage": { "Blast": 777 },
         "radius": 5
+      }
+    ]
+  },
+  {
+    "name": "Xoris",
+    "tags": ["Melee", "Glaive"],
+    "traits": ["Corpus"],
+    "mastery": 4,
+    "disposition": 0.5,
+    "comboDur": "Infinite",
+    "followThrough": 0.7,
+    "meleeRange": 1.3,
+    "slamAttack": 4,
+    "slamRadialDmg": 4,
+    "slamRadius": 8,
+    "heavyAttack": 4,
+    "windUp": 0.6,
+    "heavySlamAttack": 4,
+    "heavyRadialDmg": 4,
+    "heavySlamRadius": 8,
+    "slideAttack": 0.01,
+    "modes": [
+      {
+        "damage": { "Impact": 24, "Puncture": 40.8, "Slash": 55.2 },
+        "fireRate": 70,
+        "critChance": 0.2,
+        "critMul": 2.4,
+        "procChance": 0.18
+      },
+      {
+        "type": "chargedThrow",
+        "damage": { "Impact": 48, "Puncture": 81.6, "Slash": 110.4 },
+        "critChance": 0.22,
+        "critMul": 2.4,
+        "procChance": 0.2,
+        "punchThrough": 1
+      },
+      {
+        "type": "secondaryArea",
+        "name": "Charged Throw Explosion",
+        "damage": { "Electricity": 480 },
+        "critChance": 0.22,
+        "critMul": 2.4,
+        "procChance": 0.2,
+        "radius": 9,
+        "falloff": [0, 9, 0.7]
       }
     ]
   },
