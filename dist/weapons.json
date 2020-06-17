@@ -4895,15 +4895,15 @@
     "comboDur": 5,
     "followThrough": 0.8,
     "meleeRange": 2.2,
-    "slamAttack": 2.18,
-    "slamRadialDmg": 0.73,
+    "slamAttack": 3,
+    "slamRadialDmg": 1,
     "slamRadius": 6,
-    "heavyAttack": 3.63,
+    "heavyAttack": 5,
     "windUp": 0.6,
-    "heavySlamAttack": 2.9,
-    "heavyRadialDmg": 2.9,
+    "heavySlamAttack": 4,
+    "heavyRadialDmg": 4,
     "heavySlamRadius": 7,
-    "slideAttack": 2.18,
+    "slideAttack": 3,
     "modes": [
       {
         "damage": { "Impact": 19.84, "Puncture": 54.56, "Slash": 173.6 },
@@ -5766,6 +5766,34 @@
             "procChance": 0.4
           }
         ]
+      }
+    ]
+  },
+  {
+    "name": "Helstrum",
+    "tags": ["Robotic Weapon", "Primary", "Rifle", "Assault Rifle"],
+    "traits": ["Corpus"],
+    "mastery": 1,
+    "disposition": 0.5,
+    "reload": 2,
+    "magazine": 80,
+    "modes": [
+      {
+        "name": "Normal",
+        "damage": { "Impact": 5, "Puncture": 4.5 },
+        "fireRate": 55,
+        "critChance": 0.05,
+        "critMul": 1.5,
+        "procChance": 0.3,
+        "accuracy": 100,
+        "trigger": "Burst",
+        "burstCount": 4
+      },
+      {
+        "type": "area",
+        "name": "Explosion",
+        "damage": { "Impact": 3, "Heat": 3.5 },
+        "radius": 2
       }
     ]
   },
@@ -11315,6 +11343,7 @@
       },
       {
         "type": "charge",
+        "name": "Charged Shot Projectile",
         "damage": { "Impact": 120, "Puncture": 180, "Slash": 300 },
         "fireRate": 40,
         "critChance": 0.4,
@@ -11322,6 +11351,7 @@
         "procChance": 0.32,
         "accuracy": 25,
         "pellets": 1,
+        "ammoCost": 20,
         "chargeTime": 1.6,
         "prjSpeed": 50
       },
@@ -11500,6 +11530,15 @@
         "critChance": 0.3,
         "critMul": 2.4,
         "procChance": 0.14
+      },
+      {
+        "type": "charge",
+        "name": "Shots",
+        "damage": { "Impact": 800 },
+        "critChance": 0.3,
+        "critMul": 2.4,
+        "procChance": 0.14,
+        "falloff": [8, 16, 0.9]
       }
     ]
   },
@@ -12953,6 +12992,7 @@
     "traits": ["Tenno"],
     "mastery": 8,
     "disposition": 0.5,
+    "polarities": "rr",
     "reload": 2.6,
     "magazine": 62,
     "maxAmmo": 434,
@@ -13340,18 +13380,19 @@
     "traits": ["Corpus"],
     "mastery": 4,
     "disposition": 0.5,
+    "stancePolarity": "-",
     "comboDur": "Infinite",
     "followThrough": 0.7,
     "meleeRange": 1.3,
     "slamAttack": 4,
     "slamRadialDmg": 4,
-    "slamRadius": 8,
+    "slamRadius": 6,
     "heavyAttack": 4,
     "windUp": 0.6,
     "heavySlamAttack": 4,
     "heavyRadialDmg": 4,
     "heavySlamRadius": 8,
-    "slideAttack": 0.01,
+    "slideAttack": 2,
     "modes": [
       {
         "damage": { "Impact": 24, "Puncture": 40.8, "Slash": 55.2 },
@@ -13369,9 +13410,26 @@
         "punchThrough": 1
       },
       {
+        "type": "throw",
+        "damage": { "Impact": 48, "Puncture": 81.6, "Slash": 110.4 },
+        "critChance": 0.2,
+        "critMul": 2.4,
+        "procChance": 0.18
+      },
+      {
+        "type": "area",
+        "name": "Throw Explosion",
+        "damage": { "Electricity": 480 },
+        "critChance": 0.2,
+        "critMul": 2.4,
+        "procChance": 0.18,
+        "radius": 8,
+        "falloff": [0, 8, 0.7]
+      },
+      {
         "type": "secondaryArea",
         "name": "Charged Throw Explosion",
-        "damage": { "Electricity": 480 },
+        "damage": { "Electricity": 500 },
         "critChance": 0.22,
         "critMul": 2.4,
         "procChance": 0.2,
