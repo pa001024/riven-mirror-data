@@ -1,4 +1,4 @@
-import chalk from "chalk";
+import * as chalk from "chalk";
 import { TMP_PREFIX, TARGET_PREFIX, PROTO_PREFIX, PATCH_PREFIX } from "./var";
 import * as _ from "lodash";
 import * as fs from "fs-extra";

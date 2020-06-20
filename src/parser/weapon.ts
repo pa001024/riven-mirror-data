@@ -1,5 +1,5 @@
 import * as _ from "lodash";
-import chalk from "chalk";
+import * as chalk from "chalk";
 import { WikiWeapons } from "@/wiki";
 import { DEWeapons } from "@/de";
 import { ProtoWeapon, WeaponMode, Zoom, Weapon } from "./weapon.i";

@@ -7,7 +7,7 @@ import * as prettier from "prettier";
 import * as protobuf from "protobufjs";
 import { convertCN } from "./parser/cn";
 import * as _ from "lodash";
-import chalk from "chalk";
+import * as chalk from "chalk";
 
 const formatJSON = (src: any) => {
   return prettier.format(typeof src === "string" ? src : JSON.stringify(src), { parser: "json" });

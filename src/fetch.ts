@@ -1,7 +1,7 @@
 import $ from "axios";
 import * as fs from "fs-extra";
 import { TMP_PREFIX } from "./var";
-import chalk from "chalk";
+import * as chalk from "chalk";
 
 const fetchTargets = [
   {
