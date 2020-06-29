@@ -1324,7 +1324,7 @@
         "type": "secondary",
         "name": "Secondary Fire",
         "damage": { "Radiation": 208 },
-        "fireRate": 60,
+        "fireRate": 300,
         "critChance": 0.34,
         "critMul": 3,
         "procChance": 0.08,
@@ -1334,12 +1334,12 @@
         "trigger": "Charge"
       },
       {
-        "type": "area",
+        "type": "secondaryArea",
         "name": "Beam AoE",
         "damage": { "Radiation": 208 },
-        "critChance": 0.34,
-        "critMul": 3,
-        "procChance": 0.08,
+        "critChance": 0.2,
+        "critMul": 2,
+        "procChance": 0.5,
         "radius": 3.4,
         "falloff": [0, 3.4, 0.4]
       }
@@ -5793,7 +5793,7 @@
         "type": "area",
         "name": "Explosion",
         "damage": { "Impact": 3, "Heat": 3.5 },
-        "radius": 2
+        "radius": 3
       }
     ]
   },
@@ -11517,7 +11517,7 @@
     "slamAttack": 3,
     "slamRadialDmg": 1,
     "slamRadius": 5,
-    "heavyAttack": 5,
+    "heavyAttack": 12.73,
     "windUp": 0.4,
     "heavySlamAttack": 4,
     "heavyRadialDmg": 4,
@@ -11534,7 +11534,7 @@
       {
         "type": "charge",
         "name": "Shots",
-        "damage": { "Impact": 800 },
+        "damage": { "Impact": 700 },
         "critChance": 0.3,
         "critMul": 2.4,
         "procChance": 0.14,
@@ -12644,7 +12644,7 @@
         "fireRate": 150,
         "critChance": 0.1,
         "critMul": 2,
-        "procChance": 0.33,
+        "procChance": 0.066,
         "accuracy": 8,
         "pellets": 15,
         "trigger": "Semi-Auto",
