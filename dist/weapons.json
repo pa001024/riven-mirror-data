@@ -980,7 +980,8 @@
         "punchThrough": 1,
         "pellets": 7,
         "trigger": "Charge",
-        "prjSpeed": 70
+        "prjSpeed": 70,
+        "silent": true
       },
       {
         "type": "charge",
@@ -10655,6 +10656,7 @@
     "traits": ["Sentient"],
     "mastery": 13,
     "disposition": 0.9,
+    "polarities": "rr",
     "reload": 28,
     "magazine": 7,
     "reloadStyle": 1,
