@@ -2349,7 +2349,7 @@
         "mastery": 12,
         "disposition": 1.25,
         "polarities": "rr",
-        "reload": 0.65,
+        "reload": 0.7,
         "magazine": 1,
         "maxAmmo": 72,
         "modes": [
@@ -7194,6 +7194,13 @@
         "trigger": "Charge"
       },
       {
+        "type": "secondary",
+        "name": "Cluster Bomb Explosion",
+        "damage": { "Blast": 171 },
+        "pellets": 3,
+        "falloff": [0, 3.5, 0.5]
+      },
+      {
         "type": "area",
         "name": "Radial Attack",
         "damage": { "Blast": 839 },
@@ -7202,10 +7209,12 @@
       },
       {
         "type": "secondaryArea",
-        "name": "Cluster Bombs",
-        "damage": { "Blast": 1122 },
-        "pellets": 3,
-        "falloff": [0, 3.5, 0.5]
+        "name": "Cluster Bomb Contact",
+        "damage": { "Impact": 147 },
+        "critChance": 0.35,
+        "critMul": 2.1,
+        "procChance": 0.21,
+        "pellets": 3
       }
     ]
   },
@@ -9570,13 +9579,13 @@
     "maxAmmo": 275,
     "modes": [
       {
-        "damage": { "Impact": 25, "Radiation": 50 },
+        "damage": { "Impact": 30, "Radiation": 60 },
         "fireRate": 720,
         "critChance": 0.03,
         "critMul": 1.5,
         "procChance": 0.222,
         "accuracy": 100,
-        "pellets": 5,
+        "pellets": 6,
         "range": 20,
         "trigger": "Held"
       },
@@ -13497,7 +13506,7 @@
         "damage": { "Impact": 240, "Puncture": 400, "Slash": 160 },
         "fireRate": 180,
         "critChance": 0.17,
-        "procChance": 0.029,
+        "procChance": 0.087,
         "accuracy": 1.4,
         "punchThrough": 1.6,
         "pellets": 10
