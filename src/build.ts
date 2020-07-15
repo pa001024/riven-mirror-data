@@ -51,6 +51,7 @@ const mergeRivenPatch = (str: string, table: [string, number, number][]) => {
   const reg = /(.+): (\d+(?:\.\d+)?)->(\d+(?:\.\d+)?)/;
   const rivenMap = lines.reduce(
     (r, v) => {
+      if (!v) return r;
       const [, name, old, newv] = v.match(reg);
       r[name] = [+old, +newv];
       return r;
