@@ -19,7 +19,7 @@
     "fengari": "^0.1.4",
     "fengari-interop": "^0.1.2",
     "fs-extra": "^9.0.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "prettier": "^2.0.5",
     "protobufjs": "^6.9.0",
     "ts-node": "^8.10.2",
