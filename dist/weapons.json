@@ -27,7 +27,7 @@
     "tags": ["Melee", "Sword and Shield"],
     "traits": ["Grineer"],
     "mastery": 3,
-    "disposition": 1.1,
+    "disposition": 1.25,
     "stancePolarity": "r",
     "comboDur": 5,
     "followThrough": 0.6,
@@ -465,7 +465,7 @@
     "tags": ["Secondary", "Dual Pistols"],
     "traits": ["Tenno"],
     "mastery": 8,
-    "disposition": 0.65,
+    "disposition": 0.8,
     "polarities": "-",
     "reload": 1.1,
     "magazine": 28,
@@ -487,7 +487,7 @@
         "tags": ["Secondary", "Dual Pistols"],
         "traits": ["Prime"],
         "mastery": 10,
-        "disposition": 0.55,
+        "disposition": 0.6,
         "polarities": "-r",
         "reload": 1.1,
         "magazine": 40,
@@ -3105,7 +3105,7 @@
     "tags": ["Melee", "Exalted"],
     "traits": ["Tenno"],
     "disposition": 0,
-    "polarities": "rr-",
+    "polarities": "rrd",
     "comboDur": 5,
     "followThrough": 1,
     "meleeRange": 1.2,
@@ -3117,6 +3117,7 @@
     "heavySlamAttack": 4,
     "heavyRadialDmg": 0.4,
     "heavySlamRadius": 9,
+    "slideAttack": 3,
     "modes": [
       {
         "damage": { "Impact": 250 },
@@ -3590,7 +3591,7 @@
         "tags": ["Melee", "Dual Swords"],
         "traits": ["Prisma", "Baro"],
         "mastery": 9,
-        "disposition": 1.05,
+        "disposition": 1.1,
         "polarities": "r",
         "stancePolarity": "-",
         "comboDur": 5,
@@ -5612,18 +5613,18 @@
     "comboDur": 5,
     "followThrough": 0.9,
     "meleeRange": 1.75,
-    "slamAttack": 2.1,
-    "slamRadialDmg": 1.05,
+    "slamAttack": 2,
+    "slamRadialDmg": 1,
     "slamRadius": 5,
-    "heavyAttack": 2.1,
+    "heavyAttack": 2,
     "windUp": 0.4,
-    "heavySlamAttack": 4.2,
-    "heavyRadialDmg": 4.2,
+    "heavySlamAttack": 4,
+    "heavyRadialDmg": 4,
     "heavySlamRadius": 6,
-    "slideAttack": 2.1,
+    "slideAttack": 2,
     "modes": [
       {
-        "damage": { "Impact": 14, "Puncture": 76, "Slash": 46, "Heat": 62 },
+        "damage": { "Impact": 14, "Puncture": 76, "Slash": 56, "Heat": 62 },
         "fireRate": 45,
         "critChance": 0.14,
         "critMul": 1.6,
@@ -5700,7 +5701,7 @@
             "fireRate": 180,
             "critChance": 0.25,
             "critMul": 2,
-            "procChance": 0.1071,
+            "procChance": 0.107,
             "accuracy": 9.1,
             "pellets": 7,
             "trigger": "Semi-Auto",
@@ -6164,14 +6165,14 @@
     "heavySlamAttack": 5,
     "heavyRadialDmg": 5,
     "heavySlamRadius": 10,
-    "slideAttack": 2.14,
+    "slideAttack": 1,
     "modes": [
       {
-        "damage": { "Impact": 212.5, "Puncture": 37.5 },
+        "damage": { "Impact": 210.8, "Slash": 99.2 },
         "fireRate": 60,
         "critChance": 0.25,
         "critMul": 2,
-        "procChance": 0.1
+        "procChance": 0.3
       }
     ]
   },
@@ -7274,7 +7275,7 @@
         "procChance": 0.27,
         "accuracy": 100,
         "trigger": "Semi-Auto",
-        "prjSpeed": 30
+        "prjSpeed": 180
       },
       {
         "type": "area",
@@ -9189,7 +9190,7 @@
             "critMul": 2,
             "procChance": 0.3,
             "accuracy": 80,
-            "ammoCost": 1,
+            "ammoCost": 2,
             "trigger": "Auto",
             "prjSpeed": 40
           },
@@ -12028,10 +12029,10 @@
         "critMul": 2,
         "procChance": 0.26,
         "accuracy": 100,
-        "radius": 4.8,
+        "radius": 4,
         "trigger": "Active",
         "prjSpeed": 50,
-        "falloff": [0, 4.8, 0.5]
+        "falloff": [0, 4, 0.5]
       }
     ]
   },
@@ -12359,7 +12360,7 @@
             "fireRate": 120,
             "critChance": 0.1,
             "critMul": 2,
-            "procChance": 0.1125,
+            "procChance": 0.113,
             "accuracy": 9.1,
             "pellets": 8,
             "trigger": "Duplex",
@@ -12521,7 +12522,7 @@
           {
             "type": "area",
             "name": "Grenade Explosion",
-            "damage": { "Puncture": 176, "Slash": 270, "Blast": 228 },
+            "damage": { "Puncture": 168, "Slash": 204, "Blast": 302 },
             "radius": 7,
             "falloff": [0, 7, 0.7]
           }
@@ -13601,15 +13602,15 @@
         "damage": { "Blast": 175 },
         "critChance": 0.17,
         "procChance": 0.29,
-        "radius": 4.9,
-        "falloff": [0, 4.9, 0.5]
+        "radius": 4,
+        "falloff": [0, 4, 0.5]
       },
       {
         "type": "secondaryArea",
         "name": "Cannon Mode Cluster Bombs",
         "damage": { "Blast": 300 },
         "critChance": 0.17,
-        "procChance": 0.29,
+        "procChance": 0.048,
         "pellets": 6
       }
     ]
@@ -13738,7 +13739,7 @@
         "polarities": "rrr",
         "reload": 3,
         "magazine": 30,
-        "maxAmmo": 540,
+        "maxAmmo": 270,
         "modes": [
           {
             "damage": { "Impact": 10, "Puncture": 22.5, "Slash": 17.5 },
