@@ -1021,6 +1021,40 @@
     ]
   },
   {
+    "name": "Athodai",
+    "tags": ["Secondary", "Pistol"],
+    "traits": ["Tenno"],
+    "mastery": 10,
+    "disposition": 0.5,
+    "polarities": "r",
+    "reload": 2,
+    "magazine": 24,
+    "maxAmmo": 48,
+    "modes": [
+      {
+        "damage": { "Puncture": 22, "Heat": 48 },
+        "fireRate": 300,
+        "critChance": 0.32,
+        "critMul": 2,
+        "procChance": 0.08,
+        "accuracy": 50,
+        "trigger": "Auto Burst"
+      },
+      {
+        "type": "secondary",
+        "name": "Charge",
+        "damage": { "Heat": 88 },
+        "fireRate": 720,
+        "critChance": 0.18,
+        "critMul": 2,
+        "procChance": 0.24,
+        "accuracy": 100,
+        "punchThrough": 2,
+        "range": 13
+      }
+    ]
+  },
+  {
     "name": "Atomos",
     "tags": ["Secondary", "Pistol", "Continuous"],
     "traits": ["Grineer"],
@@ -2634,7 +2668,7 @@
             "procChance": 0.013,
             "pellets": 11,
             "chargeTime": 0.5,
-            "falloff": [60, 120, null]
+            "falloff": [60, 120, 0.5]
           }
         ]
       }
@@ -5776,7 +5810,7 @@
     "tags": ["Robotic Weapon", "Primary", "Rifle", "Assault Rifle"],
     "traits": ["Corpus"],
     "mastery": 1,
-    "disposition": 0.5,
+    "disposition": 1,
     "reload": 2,
     "magazine": 80,
     "modes": [
