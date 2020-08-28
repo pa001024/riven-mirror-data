@@ -1025,7 +1025,7 @@
     "tags": ["Secondary", "Pistol"],
     "traits": ["Tenno"],
     "mastery": 10,
-    "disposition": 0.5,
+    "disposition": 1,
     "polarities": "r",
     "reload": 2,
     "magazine": 24,
@@ -2516,6 +2516,17 @@
         "range": 30,
         "ammoCost": 0.5,
         "trigger": "Held"
+      },
+      {
+        "type": "secondary",
+        "damage": { "Impact": 1.8, "Puncture": 1.8, "Slash": 14.4 },
+        "fireRate": 960,
+        "critChance": 0.16,
+        "critMul": 2.4,
+        "procChance": 0.45,
+        "pellets": 2,
+        "range": 30,
+        "ammoCost": 0.5
       }
     ]
   },
@@ -2600,9 +2611,48 @@
             "critChance": 0.04,
             "critMul": 1.6,
             "procChance": 0.5,
+            "radius": 9.8,
             "falloff": [0, 9.8, 0.9]
           }
         ]
+      }
+    ]
+  },
+  {
+    "name": "Cortege",
+    "tags": ["Arch-Gun", "Continuous"],
+    "traits": ["Entrati"],
+    "mastery": 14,
+    "disposition": 0.5,
+    "reload": 1,
+    "magazine": 100,
+    "modes": [
+      {
+        "name": "Held",
+        "damage": { "Heat": 90 },
+        "fireRate": 720,
+        "critChance": 0.2,
+        "critMul": 1.9,
+        "procChance": 0.4,
+        "accuracy": 100,
+        "trigger": "Held"
+      },
+      {
+        "type": "secondary",
+        "name": "Active",
+        "damage": { "Impact": 10 },
+        "fireRate": 15,
+        "critChance": 0.3,
+        "critMul": 2.4,
+        "procChance": 0.167,
+        "trigger": "Active"
+      },
+      {
+        "type": "secondaryArea",
+        "name": "Radial Attack",
+        "damage": { "Blast": 1000 },
+        "radius": 4,
+        "falloff": [0, 4, 0.3]
       }
     ]
   },
@@ -6559,6 +6609,35 @@
     ]
   },
   {
+    "name": "Keratinos",
+    "tags": ["Melee", "Claws"],
+    "traits": ["Infested"],
+    "mastery": 9,
+    "disposition": 0.5,
+    "stancePolarity": "r",
+    "comboDur": 5,
+    "followThrough": 0.8,
+    "meleeRange": 1.7,
+    "slamAttack": 3,
+    "slamRadialDmg": 1,
+    "slamRadius": 6,
+    "heavyAttack": 7,
+    "windUp": 0.8,
+    "heavySlamAttack": 4,
+    "heavyRadialDmg": 4,
+    "heavySlamRadius": 7,
+    "slideAttack": 3,
+    "modes": [
+      {
+        "damage": { "Impact": 79, "Puncture": 45, "Slash": 87, "Viral": 33 },
+        "fireRate": 55,
+        "critChance": 0.13,
+        "critMul": 2.1,
+        "procChance": 0.29
+      }
+    ]
+  },
+  {
     "name": "Kesheg",
     "tags": ["Melee", "Polearm"],
     "traits": ["Grineer"],
@@ -8172,6 +8251,45 @@
         "critChance": 0.24,
         "critMul": 2,
         "procChance": 0.28
+      }
+    ]
+  },
+  {
+    "name": "Mausolon",
+    "tags": ["Arch-Gun"],
+    "traits": ["Entrati"],
+    "mastery": 14,
+    "disposition": 0.5,
+    "polarities": "r",
+    "reload": 5.5,
+    "magazine": 300,
+    "modes": [
+      {
+        "name": "Auto",
+        "damage": { "Impact": 24, "Puncture": 46, "Heat": 50 },
+        "fireRate": 500,
+        "critChance": 0.3,
+        "critMul": 2.2,
+        "procChance": 0.26,
+        "accuracy": 80,
+        "trigger": "Auto / Semi"
+      },
+      {
+        "type": "secondary",
+        "name": "Active",
+        "damage": { "Heat": 10 },
+        "fireRate": 15,
+        "critChance": 0.3,
+        "critMul": 2.4,
+        "procChance": 0.167,
+        "trigger": "Semi-Auto"
+      },
+      {
+        "type": "area",
+        "name": "Radial Attack",
+        "damage": { "Heat": 48 },
+        "radius": 9.6,
+        "falloff": [0, 9.6, 0.6]
       }
     ]
   },
@@ -10138,6 +10256,35 @@
     ]
   },
   {
+    "name": "Quassus",
+    "tags": ["Melee", "Warfan"],
+    "traits": ["Tenno"],
+    "mastery": 8,
+    "disposition": 0.5,
+    "stancePolarity": "-",
+    "comboDur": 5,
+    "followThrough": 0.7,
+    "meleeRange": 1.7,
+    "slamAttack": 3,
+    "slamRadialDmg": 1,
+    "slamRadius": 5,
+    "heavyAttack": 4,
+    "windUp": 0.5,
+    "heavySlamAttack": 1,
+    "heavyRadialDmg": 1,
+    "heavySlamRadius": 6,
+    "slideAttack": 1,
+    "modes": [
+      {
+        "damage": { "Impact": 27.6, "Puncture": 46, "Slash": 156.4 },
+        "fireRate": 50,
+        "critChance": 0.3,
+        "critMul": 2,
+        "procChance": 0.12
+      }
+    ]
+  },
+  {
     "name": "Quatz",
     "tags": ["Secondary", "Pistol"],
     "mastery": 9,
@@ -10194,7 +10341,7 @@
         "critChance": 0.4,
         "critMul": 2.2,
         "procChance": 0.1,
-        "ammoCost": 75,
+        "ammoCost": 50,
         "chargeTime": 1.2,
         "trigger": "Charge"
       }
@@ -10300,7 +10447,7 @@
         "slamAttack": 3,
         "slamRadialDmg": 1,
         "slamRadius": 5,
-        "heavyAttack": 5,
+        "heavyAttack": 15.09,
         "windUp": 0.4,
         "heavySlamAttack": 3,
         "heavyRadialDmg": 3,
@@ -10475,7 +10622,7 @@
     "slamAttack": 3,
     "slamRadialDmg": 1,
     "slamRadius": 5,
-    "heavyAttack": 3.75,
+    "heavyAttack": 4.38,
     "windUp": 0.3,
     "heavySlamAttack": 3,
     "heavyRadialDmg": 3,
@@ -10692,6 +10839,50 @@
             "falloff": [0, 2.3, 0.3]
           }
         ]
+      }
+    ]
+  },
+  {
+    "name": "Sepulcrum",
+    "tags": ["Secondary", "Pistol"],
+    "traits": ["Entrati"],
+    "mastery": 14,
+    "disposition": 0.5,
+    "reload": 4,
+    "magazine": 90,
+    "maxAmmo": 180,
+    "modes": [
+      {
+        "name": "Semi",
+        "damage": { "Impact": 9.6, "Puncture": 26.9, "Slash": 11.5 },
+        "fireRate": 60,
+        "critChance": 0.3,
+        "critMul": 2.2,
+        "procChance": 0.14,
+        "accuracy": 22.2,
+        "trigger": "Burst",
+        "burstCount": 2
+      },
+      {
+        "type": "secondary",
+        "name": "Burst",
+        "damage": { "Impact": 19.2, "Puncture": 53.8, "Slash": 23 },
+        "fireRate": 60,
+        "burstCount": 2
+      },
+      {
+        "type": "area",
+        "name": "Semi Radial Attack",
+        "damage": { "Heat": 46 },
+        "radius": 1.6,
+        "falloff": [0, 1.6, 0.2]
+      },
+      {
+        "type": "secondaryArea",
+        "name": "Burst Radial Attack",
+        "damage": { "Heat": 480 },
+        "radius": 3,
+        "falloff": [0, 3, 0.2]
       }
     ]
   },
@@ -12590,7 +12781,55 @@
         "name": "Poison Cloud",
         "damage": { "Toxin": 400 },
         "critChance": 0.15,
-        "critMul": 2
+        "critMul": 2,
+        "radius": 3
+      }
+    ]
+  },
+  {
+    "name": "Trumna",
+    "tags": ["Primary", "Rifle", "Assault Rifle"],
+    "traits": ["Entrati"],
+    "mastery": 13,
+    "disposition": 0.5,
+    "reload": 5,
+    "magazine": 200,
+    "maxAmmo": 400,
+    "modes": [
+      {
+        "name": "Auto",
+        "damage": { "Impact": 29, "Heat": 53 },
+        "fireRate": 280,
+        "critChance": 0.24,
+        "critMul": 2.2,
+        "procChance": 0.3,
+        "accuracy": 200,
+        "trigger": "Auto / Semi"
+      },
+      {
+        "type": "secondary",
+        "name": "Semi",
+        "damage": { "Impact": 100 },
+        "fireRate": 80,
+        "critChance": 0.38,
+        "critMul": 2.4,
+        "procChance": 0.5,
+        "accuracy": 9.1,
+        "trigger": "Semi-Auto"
+      },
+      {
+        "type": "area",
+        "name": "Auto Radial Attack",
+        "damage": { "Heat": 50 },
+        "radius": 1.6,
+        "falloff": [0, 1.6, 0.15]
+      },
+      {
+        "type": "secondaryArea",
+        "name": "Semi Radial Attack",
+        "damage": { "Heat": 1000 },
+        "radius": 6,
+        "falloff": [0, 6, 0.4]
       }
     ]
   },
@@ -13686,10 +13925,10 @@
       {
         "type": "secondary",
         "name": "Attacks while disc deployed",
-        "damage": { "Heat": 525 },
-        "critChance": 0.05,
+        "damage": { "Impact": 13, "Puncture": 13, "Slash": 104 },
+        "critChance": 0.1,
         "critMul": 2,
-        "procChance": 0.25
+        "procChance": 0.15
       },
       {
         "type": "area",
@@ -13817,6 +14056,36 @@
         "procChance": 0.26,
         "accuracy": 23.5,
         "trigger": "Duplex"
+      }
+    ]
+  },
+  {
+    "name": "Zymos",
+    "tags": ["Secondary", "Pistol"],
+    "traits": ["Infested"],
+    "mastery": 11,
+    "disposition": 0.5,
+    "polarities": "r-",
+    "reload": 3.2,
+    "magazine": 9,
+    "maxAmmo": 27,
+    "modes": [
+      {
+        "name": "Normal",
+        "damage": { "Impact": 9.2, "Puncture": 13.8 },
+        "fireRate": 80,
+        "critChance": 0.05,
+        "critMul": 2.3,
+        "procChance": 0.3,
+        "accuracy": 9.8,
+        "trigger": "Semi-Auto"
+      },
+      {
+        "type": "area",
+        "name": "Radial Attack",
+        "damage": { "Toxin": 61 },
+        "radius": 3.3,
+        "falloff": [0, 3.3, 0.3]
       }
     ]
   }
