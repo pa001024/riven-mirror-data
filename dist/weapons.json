@@ -938,6 +938,34 @@
     ]
   },
   {
+    "name": "Arquebex",
+    "tags": ["Arch-Gun"],
+    "traits": ["Entrati"],
+    "disposition": 0,
+    "polarities": "r",
+    "reload": 3,
+    "magazine": 10,
+    "modes": [
+      {
+        "name": "Normal",
+        "damage": { "Impact": 10 },
+        "fireRate": 200,
+        "critChance": 0.5,
+        "critMul": 3,
+        "procChance": 0.5,
+        "accuracy": 16.7,
+        "trigger": "Auto"
+      },
+      {
+        "type": "area",
+        "name": "Radial Attack",
+        "damage": { "Heat": 3000, "Blast": 9000 },
+        "radius": 6,
+        "falloff": [0, 6, 0]
+      }
+    ]
+  },
+  {
     "name": "Artax",
     "tags": [
       "Robotic Weapon",
@@ -2389,7 +2417,6 @@
         "modes": [
           {
             "damage": { "Impact": 248.4, "Puncture": 13.8, "Slash": 13.8 },
-            "fireRate": 60,
             "critChance": 0.35,
             "critMul": 2,
             "procChance": 0.3,
@@ -2424,7 +2451,6 @@
         "modes": [
           {
             "damage": { "Impact": 211.5, "Puncture": 11.75, "Slash": 11.75 },
-            "fireRate": 60,
             "critChance": 0.35,
             "critMul": 2,
             "procChance": 0.15,
@@ -2624,8 +2650,9 @@
     "traits": ["Entrati"],
     "mastery": 14,
     "disposition": 0.5,
-    "reload": 1,
+    "reload": 50,
     "magazine": 100,
+    "reloadStyle": 1,
     "modes": [
       {
         "name": "Held",
@@ -2638,21 +2665,74 @@
         "trigger": "Held"
       },
       {
-        "type": "secondary",
-        "name": "Active",
-        "damage": { "Impact": 10 },
+        "type": "charge",
+        "name": "Grenade Impact",
+        "damage": { "Impact": 30 },
         "fireRate": 15,
         "critChance": 0.3,
         "critMul": 2.4,
         "procChance": 0.167,
+        "pellets": 3,
         "trigger": "Active"
       },
       {
-        "type": "secondaryArea",
+        "type": "area",
         "name": "Radial Attack",
-        "damage": { "Blast": 1000 },
+        "damage": { "Blast": 3000 },
+        "fireRate": 15,
+        "critChance": 0.3,
+        "critMul": 2.4,
+        "procChance": 0.167,
+        "pellets": 3,
         "radius": 4,
         "falloff": [0, 4, 0.3]
+      }
+    ],
+    "variants": [
+      {
+        "name": "Cortege (Atmosphere)",
+        "tags": ["Arch-Gun", "Atmosphere", "Continuous"],
+        "traits": ["Entrati"],
+        "mastery": 14,
+        "disposition": 0.5,
+        "reload": 2.5,
+        "magazine": 100,
+        "maxAmmo": 300,
+        "modes": [
+          {
+            "name": "Held",
+            "damage": { "Heat": 90 },
+            "fireRate": 720,
+            "critChance": 0.2,
+            "critMul": 1.9,
+            "procChance": 0.4,
+            "accuracy": 100,
+            "trigger": "Held"
+          },
+          {
+            "type": "charge",
+            "name": "Grenade Impact",
+            "damage": { "Impact": 30 },
+            "fireRate": 15,
+            "critChance": 0.3,
+            "critMul": 2.4,
+            "procChance": 0.167,
+            "pellets": 3,
+            "trigger": "Active"
+          },
+          {
+            "type": "area",
+            "name": "Radial Attack",
+            "damage": { "Blast": 3000 },
+            "fireRate": 15,
+            "critChance": 0.3,
+            "critMul": 2.4,
+            "procChance": 0.167,
+            "pellets": 3,
+            "radius": 4,
+            "falloff": [0, 4, 0.3]
+          }
+        ]
       }
     ]
   },
@@ -3130,7 +3210,6 @@
             "damage": { "Impact": 75 },
             "fireRate": 80,
             "critChance": 0,
-            "critMul": 1,
             "procChance": 0.25,
             "accuracy": 100,
             "trigger": "Auto"
@@ -3368,6 +3447,7 @@
         "disposition": 1,
         "reload": 1.05,
         "magazine": 8,
+        "maxAmmo": 210,
         "modes": [
           {
             "damage": { "Radiation": 280 },
@@ -4690,6 +4770,7 @@
       {
         "name": "Furax Wraith",
         "tags": ["Melee", "Fist"],
+        "traits": ["Grineer"],
         "mastery": 9,
         "disposition": 1.38,
         "stancePolarity": "d",
@@ -6169,6 +6250,7 @@
         "name": "Imperator (Atmosphere)",
         "tags": ["Arch-Gun", "Atmosphere"],
         "traits": ["Tenno"],
+        "mastery": 0,
         "disposition": 0.85,
         "polarities": "r",
         "reload": 2,
@@ -7612,6 +7694,7 @@
         "type": "area",
         "name": "Explosion",
         "damage": { "Blast": 400, "Radiation": 400 },
+        "fireRate": 60,
         "critChance": 0.26,
         "critMul": 2.2,
         "procChance": 0.34,
@@ -7653,6 +7736,7 @@
             "type": "area",
             "name": "Explosion",
             "damage": { "Blast": 400, "Radiation": 400 },
+            "fireRate": 60,
             "critChance": 0.26,
             "critMul": 2.2,
             "procChance": 0.34,
@@ -8072,6 +8156,7 @@
       {
         "name": "Prisma Machete",
         "tags": ["Melee", "Machete"],
+        "traits": ["Grineer"],
         "mastery": 7,
         "disposition": 1.45,
         "stancePolarity": "=",
@@ -8275,9 +8360,18 @@
         "trigger": "Auto / Semi"
       },
       {
+        "type": "charge",
+        "damage": { "Heat": 3000 },
+        "critChance": 0.5,
+        "critMul": 3.5,
+        "procChance": 0.5,
+        "chargeTime": 4,
+        "falloff": [0, 8, 0.4]
+      },
+      {
         "type": "secondary",
         "name": "Active",
-        "damage": { "Heat": 10 },
+        "damage": { "Heat": 1000 },
         "fireRate": 15,
         "critChance": 0.3,
         "critMul": 2.4,
@@ -8286,10 +8380,10 @@
       },
       {
         "type": "area",
-        "name": "Radial Attack",
+        "name": "Auto Radial Attack",
         "damage": { "Heat": 48 },
-        "radius": 9.6,
-        "falloff": [0, 9.6, 0.6]
+        "radius": 1.8,
+        "falloff": [0, 1.8, 0.1]
       }
     ]
   },
@@ -9475,7 +9569,6 @@
         "modes": [
           {
             "damage": { "Impact": 5.75, "Puncture": 86.25, "Slash": 23 },
-            "fireRate": 60,
             "critChance": 0.3,
             "critMul": 2,
             "procChance": 0.15,
@@ -9508,7 +9601,6 @@
         "modes": [
           {
             "damage": { "Impact": 9, "Puncture": 153, "Slash": 18 },
-            "fireRate": 60,
             "critChance": 0.45,
             "critMul": 2,
             "procChance": 0.2,
@@ -11240,9 +11332,6 @@
             "name": "Orb Damage",
             "damage": { "Magnetic": 80 },
             "fireRate": 200,
-            "critChance": 0.14,
-            "critMul": 2,
-            "procChance": 0.35,
             "accuracy": 28.6,
             "trigger": "Active"
           },
@@ -12555,6 +12644,7 @@
         "polarities": "d-r",
         "reload": 1.5,
         "magazine": 2,
+        "maxAmmo": 120,
         "modes": [
           {
             "damage": { "Impact": 126, "Puncture": 126, "Slash": 1008 },
@@ -13174,6 +13264,7 @@
         "polarities": "rr",
         "reload": 1,
         "magazine": 6,
+        "maxAmmo": 210,
         "modes": [
           {
             "damage": { "Impact": 9.9, "Puncture": 9.9, "Slash": 46.2 },
@@ -13461,7 +13552,7 @@
         "tags": ["Arch-Melee"],
         "traits": ["Tenno", "Prisma"],
         "mastery": 8,
-        "disposition": 0,
+        "disposition": 1,
         "polarities": "d",
         "meleeRange": 143,
         "modes": [
@@ -14067,8 +14158,8 @@
     "disposition": 0.5,
     "polarities": "r-",
     "reload": 3.2,
-    "magazine": 9,
-    "maxAmmo": 27,
+    "magazine": 17,
+    "maxAmmo": 51,
     "modes": [
       {
         "name": "Normal",
@@ -14078,7 +14169,8 @@
         "critMul": 2.3,
         "procChance": 0.3,
         "accuracy": 9.8,
-        "trigger": "Semi-Auto"
+        "trigger": "Semi-Auto",
+        "prjSpeed": 79
       },
       {
         "type": "area",

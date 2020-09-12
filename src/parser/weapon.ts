@@ -190,8 +190,8 @@ const toWeaponWiki = (raw: WikiWeapons.Weapon, noproto = false): ProtoWeapon => 
     name: mapNames(raw.Name),
     tags,
     traits: raw.Traits && raw.Traits.filter(v => v !== "Self Interrupt"),
-    mastery: raw.Mastery || undefined,
-    disposition: raw.Disposition,
+    mastery: raw.Mastery,
+    disposition: tags.includes("Arch-Melee") ? 1 : raw.Disposition,
     // fireRate: raw.FireRate && +(raw.FireRate * 60).toFixed(0),
     polarities: (raw.Polarities && raw.Polarities.map(v => polarityMap[v]).join("")) || undefined,
     reload: raw.Reload,
@@ -327,7 +327,7 @@ export enum MainTag {
 export const convertWeapons = (deWeapons: DEWeapon, wikiWeapons: WikiWeapon, patch: Dict<ProtoWeapon>) => {
   const weaponDE = deWeapons.ExportWeapons.filter(v => typeof v.omegaAttenuation !== "undefined").map(toWeaponDE);
   const weaponMapDE = weaponDE.reduce((rst, weapon) => ((rst[weapon.name] = weapon), rst), {} as Dict<ProtoWeapon>);
-  const weaponMapWIKI = removeNull(
+  const weaponMapWIKI: Dict<ProtoWeapon> = removeNull(
     _.merge(
       _.map(wikiWeapons.Weapons, v => {
         // 作为variants输出
@@ -363,18 +363,20 @@ export const convertWeapons = (deWeapons: DEWeapon, wikiWeapons: WikiWeapon, pat
       const baseName = getBaseName(weapon.name);
       const variants = weapon.name.replace(baseName, "").trim();
       const extra = weaponMapWIKI[baseName];
-      const weapon_DE = weaponMapDE[weapon.name];
-      if (!variants) rst[baseName] = { ...weapon_DE, ...weapon, ...extra };
+      // const weapon_DE = weaponMapDE[weapon.name];
+      // 去除0段
+      if (!weapon.mastery) weapon.mastery = undefined;
+      if (!variants) rst[baseName] = { ...weapon, ...extra };
     } catch (e) {
       console.log(e, weapon);
     }
     return rst;
   }, {});
   // DE数据中没有的
-  if (weaponNamesDE.length) {
-    console.warn("Follow is missing in DE file");
-    console.warn(weaponNamesDE.join("\n"));
-  }
+  // if (weaponNamesDE.length) {
+  //   console.warn("Follow is missing in DE file");
+  //   console.warn(weaponNamesDE.join("\n"));
+  // }
 
   const all: Dict<ProtoWeapon> = weaponWIKI.reduce((rst, weapon) => {
     if (!weapon.name) {

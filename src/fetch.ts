@@ -21,15 +21,15 @@ const fetchTargets = [
     dist: "wikia-Mods.lua",
   },
   {
-    src: "http://content.warframe.com/MobileExport/Manifest/ExportUpgrades.json",
+    src: "http://content.warframe.com/PublicExport/Manifest/ExportUpgrades.json",
     dist: "de-Mods.json",
   },
   {
-    src: "http://content.warframe.com/MobileExport/Manifest/ExportWeapons.json",
+    src: "http://content.warframe.com/PublicExport/Manifest/ExportWeapons.json",
     dist: "de-Weapons.json",
   },
   {
-    src: "http://content.warframe.com/MobileExport/Manifest/ExportWarframes.json",
+    src: "http://content.warframe.com/PublicExport/Manifest/ExportWarframes.json",
     dist: "de-Warframes.json",
   },
   {

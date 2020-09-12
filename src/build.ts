@@ -47,7 +47,7 @@ const fixDEJSONError = async () => {
 };
 
 const mergeRivenPatch = (str: string, table: [string, number, number][]) => {
-  const lines = str.split("\n");
+  const lines = str.split(/\r?\n/);
   const reg = /(.+): (\d+(?:\.\d+)?)->(\d+(?:\.\d+)?)/;
   const rivenMap = lines.reduce(
     (r, v) => {
@@ -300,14 +300,13 @@ Vicious Approach`.split("\n")
             await fs.outputFile(TMP_PREFIX + "missMods.json", JSON.stringify(missMods));
           }
           return;
-        case "de-Weapons.json":
+        case "wikia-Weapons.json":
           {
-            const deWeapons = JSON.parse(await fs.readFile(TMP_PREFIX + fn, "utf-8"));
             const wikiWeapons = JSON.parse(await fs.readFile(TMP_PREFIX + "wikia-Weapons.json", "utf-8"));
             const patch = JSON.parse(await fs.readFile(PATCH_PREFIX + "weapons.json", "utf-8"));
             const patchWiki = JSON.parse(await fs.readFile(PATCH_PREFIX + "weapons.wiki.json", "utf-8"));
             const patchRiven = await fs.readFile(PATCH_PREFIX + "riven-disposition-updates.txt", "utf-8");
-            const [unpatch, result, disposition] = convertWeapons(deWeapons, _.merge(wikiWeapons, patchWiki), patch);
+            const [unpatch, result, disposition] = convertWeapons({ ExportWeapons: [] }, _.merge(wikiWeapons, patchWiki), patch);
             const riven = mergeRivenPatch(patchRiven, disposition);
             const rm = riven.reduce((r, v) => {
               r[v[0]] = v[2];
