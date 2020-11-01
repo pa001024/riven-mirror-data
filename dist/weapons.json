@@ -307,7 +307,7 @@
       {
         "name": "Akjagara Prime",
         "tags": ["Secondary", "Dual Pistols"],
-        "traits": ["Prime"],
+        "traits": ["Prime", "Vaulted"],
         "mastery": 12,
         "disposition": 0.85,
         "polarities": "rr",
@@ -2601,7 +2601,7 @@
       {
         "name": "Corinth Prime",
         "tags": ["Primary", "Shotgun"],
-        "traits": ["Tenno"],
+        "traits": ["Prime"],
         "mastery": 14,
         "disposition": 0.9,
         "polarities": "rr-",
@@ -10613,7 +10613,7 @@
       {
         "name": "Redeemer Prime",
         "tags": ["Melee", "Gunblade"],
-        "traits": ["Prime"],
+        "traits": ["Prime", "Vaulted"],
         "mastery": 10,
         "disposition": 0.65,
         "polarities": "rr",
@@ -13725,6 +13725,16 @@
         "critChance": 0.23,
         "critMul": 2.3,
         "procChance": 0.33
+      },
+      {
+        "type": "area",
+        "name": "Glass Explosion",
+        "damage": { "Impact": 299.7, "Puncture": 299.7, "Slash": 399.6 },
+        "critChance": 0.23,
+        "critMul": 2.3,
+        "procChance": 0.33,
+        "radius": 6,
+        "falloff": [0, 6, 0.9]
       }
     ]
   },
