@@ -465,7 +465,7 @@
     "tags": ["Secondary", "Dual Pistols"],
     "traits": ["Tenno"],
     "mastery": 8,
-    "disposition": 0.8,
+    "disposition": 0.9,
     "polarities": "-",
     "reload": 1.1,
     "magazine": 28,
@@ -4315,37 +4315,6 @@
         "range": 40,
         "prjSpeed": 15
       }
-    ],
-    "variants": [
-      {
-        "name": "Exalted Blade (Umbra)",
-        "tags": ["Melee", "Exalted"],
-        "traits": ["Tenno"],
-        "polarities": "ww",
-        "comboDur": 5,
-        "followThrough": 1,
-        "meleeRange": 2.8,
-        "slamAttack": 3,
-        "slamRadialDmg": 1,
-        "slamRadius": 7,
-        "heavyAttack": 5,
-        "windUp": 0.6,
-        "heavySlamAttack": 4,
-        "heavyRadialDmg": 4,
-        "heavySlamRadius": 8,
-        "slideAttack": 2.14,
-        "modes": [
-          {
-            "damage": { "Impact": 37.5, "Puncture": 37.5, "Slash": 175 },
-            "fireRate": 50,
-            "critChance": 0.15,
-            "critMul": 2,
-            "procChance": 0.15,
-            "range": 40,
-            "prjSpeed": 15
-          }
-        ]
-      }
     ]
   },
   {
@@ -5757,7 +5726,8 @@
         "procChance": 0.17,
         "accuracy": 18.2,
         "trigger": "Burst",
-        "burstCount": 3
+        "burstCount": 3,
+        "prjSpeed": 60
       },
       {
         "type": "secondary",
@@ -9035,7 +9005,7 @@
     "maxAmmo": 300,
     "modes": [
       {
-        "damage": { "Puncture": 2, "Radiation": 20 },
+        "damage": { "Puncture": 1, "Radiation": 10 },
         "fireRate": 720,
         "critChance": 0.16,
         "critMul": 1.8,
@@ -10670,28 +10640,6 @@
         "range": 50,
         "trigger": "Auto"
       }
-    ],
-    "variants": [
-      {
-        "name": "Regulators Prime",
-        "tags": ["Secondary", "Dual Pistols", "Exalted"],
-        "traits": ["Tenno"],
-        "disposition": 0,
-        "polarities": "r--",
-        "reload": 0,
-        "magazine": 100,
-        "modes": [
-          {
-            "damage": { "Impact": 25, "Puncture": 12.5, "Slash": 12.5 },
-            "fireRate": 888,
-            "critChance": 0.25,
-            "critMul": 3,
-            "procChance": 0.1,
-            "range": 50,
-            "trigger": "Auto"
-          }
-        ]
-      }
     ]
   },
   {
@@ -10935,7 +10883,8 @@
         "critMul": 1.5,
         "procChance": 0.3,
         "accuracy": 100,
-        "trigger": "Auto"
+        "trigger": "Auto",
+        "prjSpeed": 35
       },
       {
         "type": "secondary",
@@ -11006,7 +10955,8 @@
             "critMul": 1.9,
             "procChance": 0.33,
             "accuracy": 16,
-            "trigger": "Semi"
+            "trigger": "Semi",
+            "prjSpeed": 200
           },
           {
             "type": "area",
