@@ -361,6 +361,9 @@ export const convertWeapons = (deWeapons: DEWeapon, wikiWeapons: WikiWeapon, pat
     try {
       weaponNamesDE = weaponNamesDE.filter(v => v != weapon.name);
       const baseName = getBaseName(weapon.name);
+      if (!weapon.name) {
+        console.log(weapon);
+      }
       const variants = weapon.name.replace(baseName, "").trim();
       const extra = weaponMapWIKI[baseName];
       // const weapon_DE = weaponMapDE[weapon.name];

@@ -1025,6 +1025,35 @@
     ]
   },
   {
+    "name": "Arum Spinosa",
+    "tags": ["Melee", "Warfan"],
+    "traits": ["Infested"],
+    "mastery": 11,
+    "disposition": 0.5,
+    "stancePolarity": "-",
+    "comboDur": 5,
+    "followThrough": 0.7,
+    "meleeRange": 1.7,
+    "slamAttack": 2,
+    "slamRadialDmg": 1,
+    "slamRadius": 5,
+    "heavyAttack": 4,
+    "windUp": 0.5,
+    "heavySlamAttack": 1,
+    "heavyRadialDmg": 1,
+    "heavySlamRadius": 6,
+    "slideAttack": 1,
+    "modes": [
+      {
+        "damage": { "Impact": 35.6, "Puncture": 59.4, "Slash": 202 },
+        "fireRate": 65,
+        "critChance": 0.09,
+        "critMul": 1.9,
+        "procChance": 0.37
+      }
+    ]
+  },
+  {
     "name": "Astilla",
     "tags": ["Primary", "Shotgun"],
     "traits": ["Tenno"],
@@ -1994,6 +2023,48 @@
     ]
   },
   {
+    "name": "Bubonico",
+    "tags": ["Primary", "Arm Cannon"],
+    "traits": ["Infested"],
+    "mastery": 13,
+    "disposition": 0.5,
+    "reload": 0.5,
+    "magazine": 27,
+    "reloadStyle": 1,
+    "modes": [
+      {
+        "name": "Auto",
+        "damage": { "Impact": 14, "Puncture": 91, "Slash": 133, "Toxin": 49 },
+        "fireRate": 230,
+        "critChance": 0.25,
+        "critMul": 2.3,
+        "procChance": 0.1,
+        "accuracy": 25,
+        "pellets": 7,
+        "trigger": "Auto",
+        "falloff": [19, 41, 0.5]
+      },
+      {
+        "type": "secondary",
+        "name": "Burst",
+        "damage": { "Impact": 9 },
+        "fireRate": 202,
+        "critChance": 0.03,
+        "critMul": 3.5,
+        "procChance": 0.57,
+        "accuracy": 100,
+        "trigger": "Burst"
+      },
+      {
+        "type": "secondaryArea",
+        "name": "Radial Attack",
+        "damage": { "Viral": 143 },
+        "radius": 7,
+        "falloff": [0, 7, 0.5]
+      }
+    ]
+  },
+  {
     "name": "Burst Laser",
     "tags": ["Secondary", "Robotic Weapon", "Pistol"],
     "traits": ["Tenno"],
@@ -2220,6 +2291,52 @@
             "falloff": [0, 3.6, 0.4]
           }
         ]
+      }
+    ]
+  },
+  {
+    "name": "Catabolyst",
+    "tags": ["Secondary", "Pistol"],
+    "traits": ["Infested"],
+    "mastery": 11,
+    "disposition": 0.5,
+    "reload": 1.7,
+    "magazine": 31,
+    "maxAmmo": 540,
+    "modes": [
+      {
+        "name": "Primary",
+        "damage": { "Corrosive": 53 },
+        "fireRate": 60,
+        "critChance": 0.11,
+        "critMul": 2.9,
+        "procChance": 0.1,
+        "accuracy": 6.3,
+        "punchThrough": 0.9,
+        "trigger": "Semi-Auto",
+        "falloff": [9, 19, 0.2]
+      },
+      {
+        "type": "secondary",
+        "name": "Reload From Empty Impact",
+        "damage": { "Impact": 11 },
+        "critChance": 0.31,
+        "critMul": 2.9,
+        "procChance": 0.59,
+        "punchThrough": 0.9
+      },
+      {
+        "type": "area",
+        "name": "Partial Reload Explosion",
+        "damage": { "Corrosive": 203 },
+        "radius": 5,
+        "falloff": [0, 5, 0.5]
+      },
+      {
+        "type": "secondaryArea",
+        "name": "Reload From Empty Explosion",
+        "damage": { "Corrosive": 1997 },
+        "falloff": [0, 7, 0.5]
       }
     ]
   },
@@ -6337,7 +6454,7 @@
     "slideAttack": 1,
     "modes": [
       {
-        "damage": { "Impact": 210.8, "Slash": 99.2 },
+        "damage": { "Impact": 170, "Slash": 80 },
         "fireRate": 60,
         "critChance": 0.25,
         "critMul": 2,
@@ -7025,6 +7142,7 @@
   {
     "name": "Komorex",
     "tags": ["Primary", "Rifle", "Sniper"],
+    "traits": ["Sentient"],
     "mastery": 8,
     "disposition": 1.1,
     "reload": 3,
@@ -8531,6 +8649,58 @@
         "punchThrough": 2.5,
         "chargeTime": 0.75,
         "prjSpeed": 60
+      }
+    ]
+  },
+  {
+    "name": "Morgha",
+    "tags": ["Arch-Gun"],
+    "traits": ["Entrati"],
+    "mastery": 15,
+    "disposition": 0.5,
+    "reload": 1,
+    "magazine": 100,
+    "reloadStyle": 1,
+    "modes": [
+      {
+        "name": "Auto Burst",
+        "damage": { "Impact": 32 },
+        "fireRate": 360,
+        "critChance": 0.3,
+        "critMul": 2.2,
+        "procChance": 0.14,
+        "accuracy": 6.7,
+        "trigger": "Auto Burst",
+        "burstCount": 2
+      },
+      {
+        "type": "secondary",
+        "damage": { "Impact": 100 },
+        "fireRate": 50,
+        "critChance": 0.4,
+        "critMul": 3,
+        "procChance": 0.5,
+        "accuracy": 100,
+        "radius": 20,
+        "trigger": "Semi"
+      },
+      {
+        "type": "area",
+        "name": "Radial Attack",
+        "damage": { "Blast": 164 },
+        "radius": 3,
+        "falloff": [0, 3, 0.3]
+      },
+      {
+        "type": "secondaryArea",
+        "name": "Charged Shot Explosion",
+        "damage": {
+          "Impact": 600,
+          "Puncture": 800,
+          "Slash": 1000,
+          "Blast": 1200
+        },
+        "falloff": [0, 20, 0.6]
       }
     ]
   },
@@ -10090,6 +10260,46 @@
     ]
   },
   {
+    "name": "Proboscis Cernos",
+    "tags": ["Primary", "Rifle", "Bow"],
+    "traits": ["Infested"],
+    "mastery": 15,
+    "disposition": 0.5,
+    "reload": 0.6,
+    "magazine": 1,
+    "maxAmmo": 540,
+    "modes": [
+      {
+        "name": "Normal",
+        "damage": { "Impact": 103.2, "Puncture": 30.7, "Slash": 145.1 },
+        "critChance": 0.07,
+        "critMul": 1.9,
+        "procChance": 0.43,
+        "accuracy": 16.6,
+        "chargeTime": 0.7,
+        "trigger": "Charge",
+        "silent": true
+      },
+      {
+        "type": "charge",
+        "damage": { "Impact": 1, "Puncture": 1, "Slash": 1 },
+        "critChance": 0.1,
+        "critMul": 1,
+        "procChance": 0.1,
+        "punchThrough": 1.5,
+        "pellets": 10,
+        "chargeTime": 0.1,
+        "prjSpeed": 100
+      },
+      {
+        "type": "area",
+        "name": "Uncharged Shot Explosion",
+        "damage": { "Viral": 1003 },
+        "radius": 7
+      }
+    ]
+  },
+  {
     "name": "Prova",
     "tags": ["Melee", "Machete"],
     "traits": ["Corpus"],
@@ -10146,6 +10356,35 @@
             "procChance": 0.32
           }
         ]
+      }
+    ]
+  },
+  {
+    "name": "Pulmonars",
+    "tags": ["Melee", "Nunchaku"],
+    "traits": ["Infested"],
+    "mastery": 11,
+    "disposition": 0.5,
+    "stancePolarity": "d",
+    "comboDur": 9,
+    "followThrough": 0.5,
+    "meleeRange": 2.51,
+    "slamAttack": 2,
+    "slamRadialDmg": 1,
+    "slamRadius": 7,
+    "heavyAttack": 5,
+    "windUp": 0.5,
+    "heavySlamAttack": 4,
+    "heavyRadialDmg": 4,
+    "heavySlamRadius": 9,
+    "slideAttack": 2,
+    "modes": [
+      {
+        "damage": { "Impact": 193, "Viral": 97 },
+        "fireRate": 55,
+        "critChance": 0.19,
+        "critMul": 2.3,
+        "procChance": 0.33
       }
     ]
   },
@@ -11762,6 +12001,38 @@
             "prjSpeed": 70
           }
         ]
+      }
+    ]
+  },
+  {
+    "name": "Sporothrix",
+    "tags": ["Primary", "Rifle", "Sniper"],
+    "traits": ["Infested"],
+    "mastery": 13,
+    "disposition": 0.5,
+    "reload": 2.7,
+    "magazine": 9,
+    "maxAmmo": 40,
+    "sniperComboMin": 5,
+    "sniperComboReset": 2,
+    "zoom": [{ "ratio": 2 }, { "ratio": 3.5, "props": { "D": 100, "R": -75 } }],
+    "modes": [
+      {
+        "name": "Normal",
+        "damage": { "Impact": 100.2, "Puncture": 155.8 },
+        "fireRate": 110,
+        "critChance": 0.01,
+        "critMul": 3,
+        "procChance": 0.53,
+        "accuracy": 100,
+        "trigger": "Semi-Auto",
+        "falloff": [400, 600, 0.5]
+      },
+      {
+        "type": "area",
+        "damage": { "Slash": 22, "Viral": 19 },
+        "radius": 1.7,
+        "falloff": [0, 1.7, 0.1]
       }
     ]
   },
