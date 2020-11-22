@@ -20,18 +20,18 @@ const fetchTargets = [
     src: "https://warframe.fandom.com/wiki/Module:Mods/data?action=raw",
     dist: "wikia-Mods.lua",
   },
-  {
-    src: "http://content.warframe.com/PublicExport/Manifest/ExportUpgrades.json",
-    dist: "de-Mods.json",
-  },
-  {
-    src: "http://content.warframe.com/PublicExport/Manifest/ExportWeapons.json",
-    dist: "de-Weapons.json",
-  },
-  {
-    src: "http://content.warframe.com/PublicExport/Manifest/ExportWarframes.json",
-    dist: "de-Warframes.json",
-  },
+  // {
+  //   src: "http://content.warframe.com/PublicExport/Manifest/ExportUpgrades.json",
+  //   dist: "de-Mods.json",
+  // },
+  // {
+  //   src: "http://content.warframe.com/PublicExport/Manifest/ExportWeapons.json",
+  //   dist: "de-Weapons.json",
+  // },
+  // {
+  //   src: "http://content.warframe.com/PublicExport/Manifest/ExportWarframes.json",
+  //   dist: "de-Warframes.json",
+  // },
   {
     src: "https://warframe.huijiwiki.com/index.php?title=UserDict&action=raw",
     dist: "huiji-UserDict.json",
