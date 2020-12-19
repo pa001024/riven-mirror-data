@@ -60,7 +60,25 @@ const polarityMap = {
 
 const toAttackWiki = (type: string, attack: WikiWeapons.Attack): WeaponMode => {
   if (!attack) return undefined;
-  const { Damage, AttackName, FireRate, Accuracy, StatusChance, CritChance, CritMultiplier, PunchThrough, PelletCount, Falloff, Radius, Range, AmmoCost, ChargeTime, Trigger, BurstCount, ShotSpeed } = attack;
+  const {
+    Damage,
+    AttackName,
+    FireRate,
+    Accuracy,
+    StatusChance,
+    CritChance,
+    CritMultiplier,
+    PunchThrough,
+    PelletCount,
+    Falloff,
+    Radius,
+    Range,
+    AmmoCost,
+    ChargeTime,
+    Trigger,
+    BurstCount,
+    ShotSpeed,
+  } = attack;
   const damage = Damage; //_.reduce(Damage, (r, v, i) => (v && (r[i] = v), r), {}); //_.map(Damage, (v, i) => [i, v] as [string, number]);
 
   return {
@@ -324,7 +342,7 @@ export enum MainTag {
 }
 
 // 转换武器
-export const convertWeapons = (deWeapons: DEWeapon, wikiWeapons: WikiWeapon, patch: Dict<ProtoWeapon>) => {
+export const convertWeapons = (deWeapons: DEWeapon = { ExportWeapons: [] }, wikiWeapons: WikiWeapon, patch: Dict<ProtoWeapon>) => {
   const weaponDE = deWeapons.ExportWeapons.filter(v => typeof v.omegaAttenuation !== "undefined").map(toWeaponDE);
   const weaponMapDE = weaponDE.reduce((rst, weapon) => ((rst[weapon.name] = weapon), rst), {} as Dict<ProtoWeapon>);
   const weaponMapWIKI: Dict<ProtoWeapon> = removeNull(
@@ -339,15 +357,12 @@ export const convertWeapons = (deWeapons: DEWeapon, wikiWeapons: WikiWeapon, pat
           rst.variants = [toWeaponWiki(wikiWeapons.Weapons[v.Name + " (Atmosphere)"], true)];
         }
         return purge(rst);
-      }).reduce(
-        (rst, weapon) => {
-          if (!weapon) return rst;
-          if (weapon.tags.includes("Gear")) return rst;
-          rst[weapon.name] = { ...weapon };
-          return rst;
-        },
-        {} as Dict<ProtoWeapon>
-      ),
+      }).reduce((rst, weapon) => {
+        if (!weapon) return rst;
+        if (weapon.tags.includes("Gear")) return rst;
+        rst[weapon.name] = { ...weapon };
+        return rst;
+      }, {} as Dict<ProtoWeapon>),
       patch
     )
   );
@@ -362,7 +377,8 @@ export const convertWeapons = (deWeapons: DEWeapon, wikiWeapons: WikiWeapon, pat
       weaponNamesDE = weaponNamesDE.filter(v => v != weapon.name);
       const baseName = getBaseName(weapon.name);
       if (!weapon.name) {
-        console.log(weapon);
+        console.warn("no name of", weapon);
+        return rst;
       }
       const variants = weapon.name.replace(baseName, "").trim();
       const extra = weaponMapWIKI[baseName];
@@ -419,10 +435,10 @@ export const convertWeapons = (deWeapons: DEWeapon, wikiWeapons: WikiWeapon, pat
         ...rst[baseName],
         variants: rst[baseName].variants
           ? [
-            ...rst[baseName].variants, // -
-            otherProps,
-            ...(subVariants || []),
-          ].sort()
+              ...rst[baseName].variants, // -
+              otherProps,
+              ...(subVariants || []),
+            ].sort()
           : [thisVariant],
       };
     }
@@ -438,7 +454,7 @@ export const convertWeapons = (deWeapons: DEWeapon, wikiWeapons: WikiWeapon, pat
       })
     ),
     (v: ProtoWeapon) => {
-      const mode = v.tags.find(v => ["Arch-Gun", "Arch-Melee", "Melee", "Shotgun", "Rifle", "Secondary", "Amp", "Arm-Cannon"].includes(v));
+      const mode = v.tags && v.tags.find(v => ["Arch-Gun", "Arch-Melee", "Melee", "Shotgun", "Rifle", "Secondary", "Amp", "Arm-Cannon"].includes(v));
       if (!mode) console.warn("no mode found", v.name, v.tags);
       return [
         v.name, //

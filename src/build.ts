@@ -49,15 +49,12 @@ const fixDEJSONError = async () => {
 const mergeRivenPatch = (str: string, table: [string, number, number][]) => {
   const lines = str.split(/\r?\n/);
   const reg = /(.+): (\d+(?:\.\d+)?)->(\d+(?:\.\d+)?)/;
-  const rivenMap = lines.reduce(
-    (r, v) => {
-      if (!v) return r;
-      const [, name, old, newv] = v.match(reg);
-      r[name] = [+old, +newv];
-      return r;
-    },
-    {} as { [key: string]: [number, number] }
-  );
+  const rivenMap = lines.reduce((r, v) => {
+    if (!v) return r;
+    const [, name, old, newv] = v.match(reg);
+    r[name] = [+old, +newv];
+    return r;
+  }, {} as { [key: string]: [number, number] });
   return table
     .map(([name, typ, val]) => {
       const imp = rivenMap[name];
@@ -117,18 +114,17 @@ const customJSONFormat = async () => {
   return await Promise.all(
     fl.map(async fn => {
       switch (fn) {
-        case "de-Mods.json":
-          {
-            const rawmods = JSON.parse(await fs.readFile(TMP_PREFIX + fn, "utf-8"));
-            const rawwfs = JSON.parse(await fs.readFile(TMP_PREFIX + "de-Warframes.json", "utf-8"));
-            const [result, props] = convertMods(rawmods, rawwfs);
-            await fs.outputFile(TARGET_PREFIX + "mods.json", formatJSON(result));
-            await fs.outputFile(TMP_PREFIX + "collectedProps.json", formatJSON(props));
-            const allmods = (await import("../../src/warframe/codex/mod.data")).default;
-            const names = new Set(allmods.map(v => v[1]));
+        case "de-Mods.json": {
+          const rawmods = JSON.parse(await fs.readFile(TMP_PREFIX + fn, "utf-8"));
+          const rawwfs = JSON.parse(await fs.readFile(TMP_PREFIX + "de-Warframes.json", "utf-8"));
+          const [result, props] = convertMods(rawmods, rawwfs);
+          await fs.outputFile(TARGET_PREFIX + "mods.json", formatJSON(result));
+          await fs.outputFile(TMP_PREFIX + "collectedProps.json", formatJSON(props));
+          const allmods = (await import("../../src/warframe/codex/mod.data")).default;
+          const names = new Set(allmods.map(v => v[1]));
 
-            const pvpmods = new Set(
-              `Naramon Transmute Core
+          const pvpmods = new Set(
+            `Naramon Transmute Core
 Vazarin Transmute Core
 Madurai Transmute Core
 Archgun Ace
@@ -293,47 +289,69 @@ Shadow Harvest
 Star Divide
 Tainted Hydra
 Vicious Approach`.split("\n")
-            );
+          );
 
-            const missMods = _.orderBy(result.filter(v => !names.has(v.name) && !pvpmods.has(v.name) && v.type != "---" && v.type != "STANCE"), ["type"]).map((v, i) => [base62(debase62("10") + i), v.name, v.props.map(p => [p.key, p.value].filter(Boolean)), _.startCase(v.type.toLowerCase()), v.polarity, v.rarity, v.baseDrain, v.fusionLimit === 5 ? null : v.fusionLimit].filter(v => v != null));
+          const missMods = _.orderBy(
+            result.filter(v => !names.has(v.name) && !pvpmods.has(v.name) && v.type != "---" && v.type != "STANCE"),
+            ["type"]
+          ).map((v, i) =>
+            [
+              base62(debase62("10") + i),
+              v.name,
+              v.props.map(p => [p.key, p.value].filter(Boolean)),
+              _.startCase(v.type.toLowerCase()),
+              v.polarity,
+              v.rarity,
+              v.baseDrain,
+              v.fusionLimit === 5 ? null : v.fusionLimit,
+            ].filter(v => v != null)
+          );
 
-            await fs.outputFile(TMP_PREFIX + "missMods.json", JSON.stringify(missMods));
-          }
+          await fs.outputFile(TMP_PREFIX + "missMods.json", JSON.stringify(missMods));
           return;
-        case "wikia-Weapons.json":
-          {
-            const wikiWeapons = JSON.parse(await fs.readFile(TMP_PREFIX + "wikia-Weapons.json", "utf-8"));
-            const patch = JSON.parse(await fs.readFile(PATCH_PREFIX + "weapons.json", "utf-8"));
-            const patchWiki = JSON.parse(await fs.readFile(PATCH_PREFIX + "weapons.wiki.json", "utf-8"));
-            const patchRiven = await fs.readFile(PATCH_PREFIX + "riven-disposition-updates.txt", "utf-8");
-            const [unpatch, result, disposition] = convertWeapons({ ExportWeapons: [] }, _.merge(wikiWeapons, patchWiki), patch);
-            const riven = mergeRivenPatch(patchRiven, disposition);
-            const rm = riven.reduce((r, v) => {
-              r[v[0]] = v[2];
-              return r;
-            });
-            const weapons = result.map(v => {
-              if (v.name in rm) v.disposition = rm[v.name];
-              if (v.variants)
-                v.variants = v.variants.map(v => {
-                  if (v.name in rm) v.disposition = rm[v.name];
-                  return v;
-                });
-              return v;
-            });
-            await fs.outputFile(TARGET_PREFIX + "weapons.unpatch.json", formatJSON(unpatch));
-            await fs.outputFile(TARGET_PREFIX + "weapons.json", formatJSON(result));
-            await fs.outputFile(TARGET_PREFIX + "disposition.json", formatJSON(riven));
-          }
-          return;
-        case "huiji-CYDict.json":
-          {
+        }
+        case "wikia-Weapons.json": {
+          const wikiWeapons = JSON.parse(await fs.readFile(TMP_PREFIX + "wikia-Weapons.json", "utf-8"));
+          const patch = JSON.parse(await fs.readFile(PATCH_PREFIX + "weapons.json", "utf-8"));
+          const patchWiki = JSON.parse(await fs.readFile(PATCH_PREFIX + "weapons.wiki.json", "utf-8"));
+          const patchRiven = await fs.readFile(PATCH_PREFIX + "riven-disposition-updates.txt", "utf-8");
+          const [unpatch, result, disposition] = convertWeapons({ ExportWeapons: [] }, _.merge(wikiWeapons, patchWiki), patch);
+          const riven = mergeRivenPatch(patchRiven, disposition);
+          const rm = riven.reduce((r, v) => {
+            r[v[0]] = v[2];
+            return r;
+          }, {});
+          const weapons = result.map(v => {
+            if (v.name in rm) v.disposition = rm[v.name];
+            if (v.variants)
+              v.variants = v.variants.map(v => {
+                if (v.name in rm) v.disposition = rm[v.name];
+                return v;
+              });
+            return v;
+          });
+          await fs.outputFile(TARGET_PREFIX + "weapons.unpatch.json", formatJSON(unpatch));
+          await fs.outputFile(TARGET_PREFIX + "weapons.json", formatJSON(result));
+          await fs.outputFile(TARGET_PREFIX + "disposition.json", formatJSON(riven));
+
+          // i18n zh-Hans.json
+          try {
             const cn = JSON.parse(await fs.readFile(TMP_PREFIX + "huiji-UserDict.json", "utf-8"));
-            const cy = JSON.parse(await fs.readFile(TMP_PREFIX + "huiji-CYDict.json", "utf-8"));
-            const result = convertCN(cn, cy);
-            await fs.outputFile(TARGET_PREFIX + "zh-CY.json", formatJSON(result));
+            const cnNames = riven.reduce((r, [name]) => ({ ...r, [_.camelCase(name)]: cn.Text[name] }), {});
+            await fs.outputFile(TARGET_PREFIX + "zh-Hans.json", formatJSON(cnNames));
+          } catch (e) {
+            console.error("i18n zh-Hans.json", e);
           }
+
           return;
+        }
+        case "huiji-CYDict.json": {
+          const cn = JSON.parse(await fs.readFile(TMP_PREFIX + "huiji-UserDict.json", "utf-8"));
+          const cy = JSON.parse(await fs.readFile(TMP_PREFIX + "huiji-CYDict.json", "utf-8"));
+          const result = convertCN(cn, cy);
+          await fs.outputFile(TARGET_PREFIX + "zh-CY.json", formatJSON(result));
+          return;
+        }
       }
     })
   );

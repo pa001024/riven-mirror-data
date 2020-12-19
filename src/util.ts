@@ -13,11 +13,11 @@ export const toLuaObject = (obj: any, padding = 0, tab = "    ", trailingComma =
         const raw = isComplex
           ? obj.map(v => toLuaObject(v, padding + 1)).join(`,\n${pad}`)
           : // 简单对象长数组使用每10个换一行
-            _.chunk(obj, 10)
-              .map(sub => {
-                return sub.map(v => toLuaObject(v, padding + 1)).join(`, `);
-              })
-              .join(`,\n${pad}`);
+          _.chunk(obj, 10)
+            .map(sub => {
+              return sub.map(v => toLuaObject(v, padding + 1)).join(`, `);
+            })
+            .join(`,\n${pad}`);
         return `{\n${pad}${raw}${trailingComma ? "," : ""}\n${padn1}}`;
       } else {
         // single-line array
@@ -131,7 +131,7 @@ import async from "async";
 export const forEachLimit = <T>(itor: T[], limit = 5, func: (t: T) => Promise<void>) => {
   return new Promise(resolve => {
     async.forEachLimit(itor, limit, func, err => {
-      resolve();
+      resolve(null);
     });
   });
 };
