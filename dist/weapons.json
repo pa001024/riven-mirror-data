@@ -2035,7 +2035,7 @@
   },
   {
     "name": "Bubonico",
-    "tags": ["Primary", "Arm Cannon"],
+    "tags": ["Primary", "Shotgun"],
     "traits": ["Infested"],
     "mastery": 13,
     "disposition": 0.5,
@@ -2414,10 +2414,10 @@
         "fireRate": 230,
         "critChance": 0.2,
         "critMul": 2.4,
-        "procChance": 0.03,
+        "procChance": 0.003,
         "accuracy": 20,
         "pellets": 6,
-        "trigger": "Auto",
+        "trigger": "Auto/Semi",
         "falloff": [26, 52, 0.2]
       },
       {
@@ -4020,7 +4020,7 @@
         "reloadStyle": 1,
         "modes": [
           {
-            "damage": { "Impact": 27, "Puncture": 16.5, "Slash": 16.5 },
+            "damage": { "Impact": 49.5, "Puncture": 30.3, "Slash": 30.2 },
             "fireRate": 600,
             "critChance": 0.3,
             "critMul": 2.2,
@@ -8880,7 +8880,8 @@
             "procChance": 0.28,
             "accuracy": 6.7,
             "trigger": "Auto Burst",
-            "burstCount": 2
+            "burstCount": 2,
+            "prjSpeed": 60
           },
           {
             "type": "secondary",
@@ -8940,7 +8941,8 @@
         "procChance": 0.28,
         "accuracy": 6.7,
         "trigger": "Auto Burst",
-        "burstCount": 2
+        "burstCount": 2,
+        "prjSpeed": 60
       },
       {
         "type": "secondary",
@@ -10984,6 +10986,7 @@
     "polarities": "rr",
     "reload": 4,
     "magazine": 300,
+    "maxAmmo": 900,
     "modes": [
       {
         "damage": { "Impact": 8, "Puncture": 22, "Slash": 12, "Cold": 16 },
@@ -11003,7 +11006,9 @@
         "procChance": 0.1,
         "ammoCost": 50,
         "chargeTime": 1.2,
-        "trigger": "Charge"
+        "trigger": "Charge",
+        "prjSpeed": 210,
+        "falloff": [9, 18, 0.6657]
       }
     ]
   },
@@ -12345,6 +12350,7 @@
     "traits": ["Corpus"],
     "mastery": 10,
     "disposition": 0.8,
+    "polarities": "r",
     "reload": 1.4,
     "magazine": 40,
     "modes": [
