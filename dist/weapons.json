@@ -1478,7 +1478,7 @@
         "traits": ["Prime"],
         "mastery": 10,
         "disposition": 0.95,
-        "polarities": "r",
+        "polarities": "rr",
         "reload": 1.1,
         "magazine": 60,
         "maxAmmo": 840,
@@ -1532,7 +1532,7 @@
         "name": "Bo Prime",
         "tags": ["Melee", "Staff"],
         "traits": ["Prime", "Vaulted"],
-        "mastery": 10,
+        "mastery": 5,
         "disposition": 1.35,
         "polarities": "dr",
         "stancePolarity": "t",
@@ -3983,7 +3983,7 @@
         "procChance": 0.14,
         "accuracy": 12.5,
         "trigger": "Auto",
-        "falloff": [1500, 3000, 0.8091]
+        "falloff": [1500, 3000, 0.5]
       }
     ],
     "variants": [
@@ -4027,7 +4027,7 @@
             "procChance": 0.24,
             "accuracy": 16,
             "trigger": "Auto",
-            "falloff": [1500, 3000, 0.8091]
+            "falloff": [1500, 3000, 0.5]
           }
         ]
       },
@@ -4790,7 +4790,7 @@
         "accuracy": 100,
         "range": 450,
         "trigger": "Semi-Auto",
-        "falloff": [800, 1600, 0.952]
+        "falloff": [800, 1600, 0.5]
       }
     ],
     "variants": [
@@ -8617,8 +8617,9 @@
     "mastery": 14,
     "disposition": 0.5,
     "polarities": "r",
-    "reload": 5.5,
+    "reload": 200,
     "magazine": 300,
+    "reloadStyle": 1,
     "modes": [
       {
         "name": "Auto",
@@ -8629,16 +8630,7 @@
         "procChance": 0.26,
         "accuracy": 80,
         "trigger": "Auto / Semi",
-        "falloff": [100, 350, null]
-      },
-      {
-        "type": "charge",
-        "name": "Charged Shot Projectile",
-        "damage": { "Impact": 100, "Puncture": 400, "Heat": 500 },
-        "critChance": 0.5,
-        "critMul": 3.5,
-        "procChance": 0.5,
-        "chargeTime": 0.8
+        "falloff": [1400, 2800, 1]
       },
       {
         "type": "secondary",
@@ -8648,7 +8640,6 @@
         "critChance": 0.5,
         "critMul": 3.5,
         "procChance": 0.5,
-        "trigger": "Projectile",
         "falloff": [0, 8, 0.4]
       },
       {
@@ -8657,6 +8648,15 @@
         "damage": { "Heat": 48 },
         "radius": 1.8,
         "falloff": [0, 1.8, 0.1]
+      },
+      {
+        "type": "secondaryArea",
+        "name": "Charged Shot Projectile",
+        "damage": { "Impact": 100, "Puncture": 400, "Heat": 500 },
+        "critChance": 0.5,
+        "critMul": 3.5,
+        "procChance": 0.5,
+        "chargeTime": 0.8
       }
     ],
     "variants": [
@@ -8682,15 +8682,6 @@
             "trigger": "Auto / Semi"
           },
           {
-            "type": "charge",
-            "name": "Charged Shot Projectile",
-            "damage": { "Impact": 100, "Puncture": 400, "Heat": 500 },
-            "critChance": 0.5,
-            "critMul": 3.5,
-            "procChance": 0.5,
-            "chargeTime": 0.8
-          },
-          {
             "type": "secondary",
             "name": "Charged Shot Explosion",
             "damage": { "Heat": 3000 },
@@ -8706,6 +8697,15 @@
             "damage": { "Heat": 48 },
             "radius": 1.8,
             "falloff": [0, 1.8, 0.2]
+          },
+          {
+            "type": "secondaryArea",
+            "name": "Charged Shot Projectile",
+            "damage": { "Impact": 100, "Puncture": 400, "Heat": 500 },
+            "critChance": 0.5,
+            "critMul": 3.5,
+            "procChance": 0.5,
+            "chargeTime": 0.8
           }
         ]
       }
@@ -10338,7 +10338,7 @@
     "disposition": 1.2,
     "polarities": "r",
     "reload": 50,
-    "magazine": 250,
+    "magazine": 240,
     "reloadStyle": 1,
     "modes": [
       {
@@ -10350,7 +10350,7 @@
         "accuracy": 25,
         "trigger": "Auto-Spool",
         "spool": 11,
-        "falloff": [1500, 3000, 0.9286]
+        "falloff": [1500, 3000, 0.6786]
       }
     ],
     "variants": [
