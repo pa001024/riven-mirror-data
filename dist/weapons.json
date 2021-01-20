@@ -8864,7 +8864,7 @@
     "variants": [
       {
         "name": "Morgha (Atmosphere)",
-        "tags": ["Arch-Gun"],
+        "tags": ["Arch-Gun", "Atmosphere"],
         "traits": ["Entrati"],
         "mastery": 15,
         "disposition": 0.5,
@@ -8920,65 +8920,6 @@
             "trigger": "Semi"
           }
         ]
-      }
-    ]
-  },
-  {
-    "name": "Morgha (Atmosphere)",
-    "tags": ["Arch-Gun"],
-    "traits": ["Entrati"],
-    "mastery": 15,
-    "disposition": 0.5,
-    "polarities": "r",
-    "reload": 3,
-    "magazine": 80,
-    "modes": [
-      {
-        "name": "Auto Burst",
-        "damage": { "Impact": 32 },
-        "fireRate": 360,
-        "critChance": 0.3,
-        "critMul": 2.2,
-        "procChance": 0.28,
-        "accuracy": 6.7,
-        "trigger": "Auto Burst",
-        "burstCount": 2,
-        "prjSpeed": 60
-      },
-      {
-        "type": "secondary",
-        "name": "Charged Shot Explosion",
-        "damage": {
-          "Impact": 600,
-          "Puncture": 800,
-          "Slash": 1000,
-          "Blast": 1200
-        },
-        "fireRate": 50,
-        "critChance": 0.4,
-        "critMul": 3,
-        "procChance": 0.5,
-        "radius": 12,
-        "trigger": "Semi",
-        "falloff": [0, 20, 0.6]
-      },
-      {
-        "type": "area",
-        "name": "Radial Attack",
-        "damage": { "Blast": 164 },
-        "radius": 3,
-        "burstCount": 2,
-        "falloff": [0, 3, 0.3]
-      },
-      {
-        "type": "secondaryArea",
-        "damage": { "Impact": 100 },
-        "fireRate": 50,
-        "critChance": 0.4,
-        "critMul": 3,
-        "procChance": 0.5,
-        "accuracy": 100,
-        "trigger": "Semi"
       }
     ]
   },
@@ -10539,7 +10480,7 @@
         "name": "Poison Cloud",
         "damage": { "Toxin": 20 },
         "radius": 3.6,
-        "falloff": [0, 3.6, 0.5]
+        "falloff": [0, 3.6, 0]
       }
     ]
   },
@@ -14585,7 +14526,8 @@
         "type": "area",
         "name": "Gas Cloud",
         "damage": { "Gas": 80 },
-        "radius": 3.5
+        "radius": 3.5,
+        "falloff": [0, 3.5, 0]
       }
     ],
     "variants": [
@@ -14615,7 +14557,8 @@
             "type": "area",
             "name": "Gas Cloud",
             "damage": { "Gas": 100 },
-            "radius": 3.8
+            "radius": 3.8,
+            "falloff": [0, 3.8, 0]
           }
         ]
       }
