@@ -946,7 +946,6 @@
     "disposition": 0,
     "polarities": "r",
     "reload": 3,
-    "magazine": 10,
     "modes": [
       {
         "name": "Normal",
@@ -9828,6 +9827,38 @@
         "critMul": 1.5,
         "procChance": 0.22
       }
+    ],
+    "variants": [
+      {
+        "name": "Pangolin Prime",
+        "tags": ["Melee", "Sword"],
+        "traits": ["Tenno"],
+        "mastery": 14,
+        "disposition": 1,
+        "polarities": "rr",
+        "stancePolarity": "r",
+        "comboDur": 5,
+        "followThrough": 0.6,
+        "meleeRange": 2.5,
+        "slamAttack": 3,
+        "slamRadialDmg": 1,
+        "slamRadius": 8,
+        "heavyAttack": 5,
+        "windUp": 0.6,
+        "heavySlamAttack": 4,
+        "heavyRadialDmg": 4,
+        "heavySlamRadius": 8,
+        "slideAttack": 1,
+        "modes": [
+          {
+            "damage": { "Impact": 12.4, "Puncture": 37.2, "Slash": 198.4 },
+            "fireRate": 55,
+            "critChance": 0.26,
+            "critMul": 2.2,
+            "procChance": 0.3
+          }
+        ]
+      }
     ]
   },
   {
@@ -13428,10 +13459,12 @@
       {
         "type": "area",
         "name": "Poison Cloud",
-        "damage": { "Toxin": 400 },
+        "damage": { "Toxin": 40 },
+        "fireRate": 60,
         "critChance": 0.15,
         "critMul": 2,
-        "radius": 3
+        "radius": 3,
+        "falloff": [0, 3, 1]
       }
     ]
   },

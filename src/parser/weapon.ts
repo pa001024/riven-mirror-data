@@ -38,6 +38,7 @@ const getBaseName = (name: string) => {
     "Kuva Bramma", //
   ];
   if (name === "Dex Furis") return "Afuris";
+  if (name === "Pangolin Prime") return "Pangolin Sword";
   if (WEAPON_SINGLE.includes(name)) return name;
   if (WEAPON_PREFIX.test(name)) return name.replace(WEAPON_PREFIX, "");
   if (WEAPON_SUBFIX.test(name)) return name.replace(WEAPON_SUBFIX, "");
@@ -343,8 +344,6 @@ export enum MainTag {
 
 // 转换武器
 export const convertWeapons = (deWeapons: DEWeapon = { ExportWeapons: [] }, wikiWeapons: WikiWeapon, patch: Dict<ProtoWeapon>) => {
-  const weaponDE = deWeapons.ExportWeapons.filter(v => typeof v.omegaAttenuation !== "undefined").map(toWeaponDE);
-  const weaponMapDE = weaponDE.reduce((rst, weapon) => ((rst[weapon.name] = weapon), rst), {} as Dict<ProtoWeapon>);
   const weaponMapWIKI: Dict<ProtoWeapon> = removeNull(
     _.merge(
       _.map(wikiWeapons.Weapons, v => {
@@ -369,12 +368,9 @@ export const convertWeapons = (deWeapons: DEWeapon = { ExportWeapons: [] }, wiki
   const weaponNames = Object.keys(weaponMapWIKI).sort();
   const weaponWIKI = weaponNames.map(v => weaponMapWIKI[v]);
 
-  // 字母顺序排序
-  let weaponNamesDE = Object.keys(weaponMapDE);
   // 获取基础版本的武器 (ProtoWeapon)
   const bases: Dict<ProtoWeapon> = weaponWIKI.reduce((rst, weapon) => {
     try {
-      weaponNamesDE = weaponNamesDE.filter(v => v != weapon.name);
       const baseName = getBaseName(weapon.name);
       if (!weapon.name) {
         console.warn("no name of", weapon);
@@ -402,7 +398,6 @@ export const convertWeapons = (deWeapons: DEWeapon = { ExportWeapons: [] }, wiki
       console.log("wrong with", weapon);
       return rst;
     }
-    const weapon_DE = weaponMapDE[weapon.name];
     const baseName = getBaseName(weapon.name),
       variant = weapon.name.replace(baseName, "").trim();
     const { modes: wikimodes, ...extra } = weaponMapWIKI[weapon.name];
@@ -415,11 +410,10 @@ export const convertWeapons = (deWeapons: DEWeapon = { ExportWeapons: [] }, wiki
     // 同紫卡武器
     if (variant) {
       const { ...thisVariant } = {
-        ...(weapon_DE ? merge(weapon_DE, bases[baseName]) : bases[baseName]),
+        ...bases[baseName],
         ...extra,
         modes: [
           {
-            ...(weapon_DE ? weapon_DE.modes[0] : {}),
             ...purge(wikimodes[0]),
           },
           ...wikimodes.slice(1),
