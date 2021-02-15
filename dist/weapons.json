@@ -4042,7 +4042,7 @@
         "maxAmmo": 512,
         "modes": [
           {
-            "damage": { "Impact": 49.5, "Puncture": 30.3, "Slash": 30.2 },
+            "damage": { "Impact": 56.7, "Puncture": 34.7, "Slash": 34.6 },
             "fireRate": 600,
             "critChance": 0.3,
             "critMul": 2.2,
@@ -12326,6 +12326,7 @@
     "polarities": "r",
     "reload": 1.4,
     "magazine": 40,
+    "maxAmmo": 300,
     "modes": [
       {
         "name": "Normal",
@@ -12348,7 +12349,6 @@
         "critMul": 3,
         "procChance": 0.32,
         "accuracy": 25,
-        "pellets": 1,
         "ammoCost": 20,
         "chargeTime": 1.6,
         "prjSpeed": 50
