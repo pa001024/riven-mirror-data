@@ -6565,6 +6565,22 @@
     ]
   },
   {
+    "name": "Impossible",
+    "tags": ["Melee", "Exalted", "Virtual"],
+    "traits": ["Tenno"],
+    "disposition": 0,
+    "stancePolarity": "o",
+    "modes": [
+      {
+        "damage": { "Impact": 180, "Puncture": 180, "Slash": 240 },
+        "fireRate": 600,
+        "critChance": 1,
+        "critMul": 3,
+        "procChance": 1
+      }
+    ]
+  },
+  {
     "name": "Iron Staff",
     "tags": ["Melee", "Exalted", "Staff"],
     "traits": ["Tenno"],

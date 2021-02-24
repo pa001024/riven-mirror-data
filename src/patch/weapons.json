@@ -190,5 +190,21 @@
         "falloff": [0, 6, 0]
       }
     ]
+  },
+  "Impossible": {
+    "name": "Impossible",
+    "tags": ["Melee", "Exalted", "Virtual"],
+    "traits": ["Tenno"],
+    "disposition": 0,
+    "stancePolarity": "o",
+    "modes": [
+      {
+        "damage": { "Puncture": 180, "Slash": 240, "Impact": 180 },
+        "fireRate": 600,
+        "critChance": 1,
+        "critMul": 3,
+        "procChance": 1
+      }
+    ]
   }
 }
