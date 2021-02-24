@@ -1,195 +1,140 @@
-Acceltra: 0.65->0.6
+Basmu: 1.1->1.15
 
-Arca Plasmor: 0.65->0.7
+Bubonico: 0.5->0.6
 
-Amprex: 0.7->0.75
+Catchmoon: 0.9->1
 
-Catchmoon (primary): 0.75->0.9
+Cedo: 0.5->0.55
 
-Corinth: 1.05->1.1
+Dread: 1.25->1.3
 
-Gaze (primary): 0.65->0.85
+Fulmin: 0.6->0.65
 
-Kuva Bramma: 0.65->0.6
+Kuva Hind: 1->1.05
 
-Kuva Drakgoon: 1.05->1.1
+Lanka: 0.9->0.95
 
-Panthera Prime: 0.5->0.85
+Panthera Prime: 0.85->1.05
 
-Rattleguts (primary): 0.6->0.8
+Quellor: 1->1.05
 
-Shedu: 0.85->0.8
+Rattleguts: 0.8->0.9
 
-Stahlta: 0.7->0.8
+Sporelacer: 0.5->0.85
 
-Tigris: 1->1.1
-Sancti Tigris: 0.85->0.9
+Sporothrix: 0.5->0.85
 
-Tombfinger (primary): 0.6->0.75
+Supra: 1->1.05
+Supra Vandal: 0.9->0.95
 
-Trumna: 0.5->0.55
+Sancti Tigris: 0.9->0.95
+Tigris Prime: 0.8->0.85
 
-Akbolto: 1.2->1.25
-Telos Akbolto: 1.15->1.2
-Akbolto Prime: 1.05->1.1
+Trumna: 0.55->0.7
 
-Akjagara: 0.95->1
+Vermisplicer: 0.5->0.7
 
-Akstilletto: 0.8->0.9
+Akjagara: 1->1.05
+Akjagara Prime: 0.85->0.9
 
-Kuva Nukor: 0.65->0.5
+Akstilletto: 0.9->0.95
+Akstilletto Prime: 0.6->0.65
 
-Pyrana: 0.8->0.9
+Catabolyst: 0.5->0.8
 
-Sepulcrum: 0.5->0.75
+Hystrix: 1.15->1.2
 
-Staticor: 0.53->0.6
+Pox: 1.15->1.2
 
-Velox: 0.8->1
+Pyrana: 0.9->0.95
 
-Zymos: 0.5->0.75
+Quatz: 1.15->1.2
 
+Sepulcrum: 0.75->0.85
 
-Ack & Brunt: 1.25->1.35
+Sporelacer: 0.5->0.55
 
-Arca Titron: 1.2->1.25
+Staticor: 0.6->0.65
 
-Atterax: 0.9->0.95
+Velox: 1->1.1
 
-Boltace: 1.2->1.25
-Telos Boltace: 1->1.05
+Vermisplicer: 0.5->0.85
 
-Broken Scepter: 1.35->1.4
+Zakti Prime: 0.5->0.75
 
-Broken War: 1.05->1.1
+Zymos: 0.75->0.95
 
-Cassowar: 1.25->1.3
+Arum Spinosa: 0.5->0.85
 
-Cobra & Crane: 1.25->1.3
+Atterax: 0.95->1
 
-Dark Dagger: 0.9->1.1
-Rakta Dark Dagger: 0.8->0.95
+Broken War: 1.1->1.15
 
-Dehtat: 1.15->1.2
+Cassowar: 1.3->1.35
 
-Dex Dakra: 1.3->1.35
+Galatine: 0.95->1.05
+Galatine Prime: 0.7->0.75
 
-Dragon Nikana: 1.2->1.15
+Glaive Prime: 1.22->1.05
 
-Dual Kamas: 1.15->1.25
-Dual Kamas Prime: 1.05->1.15
+Gram Prime: 0.9->0.8
 
-Dual Keres: 1.2->1.1
+Guandao Prime: 0.5->0.6
 
-Endura: 1.3->1.4
+Gunsen: 1.3->1.35
 
-Falcor: 1.25->1.3
+Synoid Heliocor: 1.25->1.3
 
-Fragor: 1.15->1.2
+Hirudo: 1.05->1.1
 
-Galatine: 0.85->0.95
-Galatine Prime: 0.65->0.7
+Jat Kittag: 1.25->1.3
 
-Galvacord: 1.25->1.3
+Karyst Prime: 0.75->1.05
 
-Gram Prime: 1.05->0.9
+Keratinos: 0.7->0.9
 
-Gunsen: 1.25->1.3
+Kronen Prime: 0.85->0.7
 
-Hate: 1.2->1.1
+Ceti Lacera: 1.1->1.15
 
-Heliocor: 1.25->1.3
-Synoid Heliocor: 1.2->1.25
+Lecta: 1.15->1.2
+Secura Lecta: 1->1.05
 
-Hirudo: 0.95->1.05
+Mewan: 1.05->1.1
 
-Jat Kittag: 1.15->1.25
+Mios: 1.2->1.25
 
-Karyst Prime: 0.5->0.75
+Orthos: 0.95->1
+Orthos Prime: 0.6->0.65
 
-Keratinos: 0.5->0.7
+Pulmonars: 0.5->0.85
 
-Korrudo: 1.25->1.3
+Quassus: 0.75->0.95
 
-Kreska: 1.25->1.3
+Rabvee: 1.25->1.3
 
-Kronen Prime: 1.05->0.85
+Reaper Prime: 0.85->0.75
 
-Kronsh: 1.25->1.3
+Redeemer: 1.1->1.05
+Redeemer Prime: 0.65->0.6
 
-Ceti Lacera: 1.05->1.1
+Sheev: 1.3->1.35
 
-Lecta: 1->1.15
-Secura Lecta: 0.9->1
+Sydon: 1.25->1.3
+Vaykor Sydon: 1.2->1.25
 
-Lesion: 0.65->0.7
+Venka: 1->1.05
 
-Magistar: 1.3->1.35
-Sancti Magistar: 1.2->1.25
+Vitrica: 0.5->0.7
 
-Masseter: 1.15->1.2
+War: 0.95->1
 
-Nikana: 0.8->0.9
-Nikana Prime: 0.5->0.6
+Zenistar: 1.05->1.1
 
-Prisma Obex: 1.2->1.25
+Cortege: 0.7->0.85
 
-Ooltha: 1.15->1.2
+Prisma Dual Decurion: 0.5->0.85
 
-Orthos: 0.85->0.95
+Imperator: 1->1.05
 
-Orvius: 1.3->1.35
-
-Paracesis: 0.7->0.6
-
-Pathocyst: 1.25->1.3
-
-Plague Kripath: 0.65->0.6
-
-Pupacyst: 1.25->1.3
-
-Quassus: 0.5->0.75
-
-Rabvee: 1.2->1.25
-
-Reaper Prime: 1->0.85
-
-Redeemer: 1.17->1
-Redeemer Prime: 0.8->0.65
-
-Scindo: 1.3->1.35
-
-Sepfahn: 0.75->0.7
-
-Sydon: 1.15->1.25
-Vaykor Sydon: 1.1->1.2
-
-Twin Krohkur: 1.25->1.2
-
-Venka: 0.9->1
-
-War: 0.9->0.95
-
-Wolf Sledge: 1.2->1.25
-
-Xoris: 0.5->0.65
-
-Zenistar: 0.95->1.05
-
-Cortege: 0.5->0.7
-
-Corvas: 1.05->1.1
-
-Dual Decurion: 1.25->1.3
-
-Fluctus: 0.9->1
-
-Grattler: 0.95->1
-
-Imperator: 0.85->1
-
-Larkspur: 0.8->0.85
-
-Phaedra: 1.15->1.2
-
-Velocitus: 1.05->1.1
+Morgha: 0.5->0.7

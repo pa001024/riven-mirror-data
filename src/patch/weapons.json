@@ -160,5 +160,35 @@
   },
   "Regulators Prime": {
     "reload": 0
+  },
+  "Redeemer": {
+    "disposition": 1.1
+  },
+  "Arquebex": {
+    "name": "Arquebex",
+    "tags": ["Arch-Gun"],
+    "traits": ["Entrati"],
+    "disposition": 0,
+    "polarities": "r",
+    "reload": 3,
+    "modes": [
+      {
+        "name": "Normal",
+        "damage": { "Impact": 10 },
+        "fireRate": 200,
+        "critChance": 0.5,
+        "critMul": 3,
+        "procChance": 0.5,
+        "accuracy": 16.7,
+        "trigger": "Auto"
+      },
+      {
+        "type": "area",
+        "name": "Radial Attack",
+        "damage": { "Heat": 3000, "Blast": 9000 },
+        "radius": 6,
+        "falloff": [0, 6, 0]
+      }
+    ]
   }
 }
