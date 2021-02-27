@@ -444,7 +444,7 @@
         "traits": ["Prime"],
         "mastery": 12,
         "disposition": 0.95,
-        "polarities": "-",
+        "polarities": "-rr",
         "reload": 1.4,
         "magazine": 80,
         "maxAmmo": 420,
@@ -1438,7 +1438,7 @@
         "accuracy": 100,
         "punchThrough": 2,
         "chargeTime": 0.4,
-        "trigger": "Charge"
+        "trigger": "Auto Charge"
       },
       {
         "type": "secondaryArea",
@@ -3581,7 +3581,7 @@
         "critMul": 2,
         "procChance": 0.01,
         "accuracy": 100,
-        "trigger": "Auto"
+        "trigger": "Auto-Spool"
       }
     ],
     "variants": [
@@ -3600,7 +3600,7 @@
             "critMul": 2,
             "procChance": 0.04,
             "accuracy": 100,
-            "trigger": "Auto"
+            "trigger": "Auto-Spool"
           }
         ]
       }
@@ -3906,7 +3906,7 @@
             "critMul": 1.6,
             "procChance": 0.28,
             "accuracy": 20,
-            "trigger": "Auto",
+            "trigger": "Auto-Spool",
             "prjSpeed": 100,
             "spool": 5
           }
@@ -6717,7 +6717,7 @@
         "procChance": 0.25,
         "accuracy": 100,
         "chargeTime": 0.3,
-        "trigger": "Charge"
+        "trigger": "Auto Charge"
       },
       {
         "type": "secondary",
@@ -11045,7 +11045,7 @@
         "procChance": 0.1,
         "ammoCost": 50,
         "chargeTime": 1.2,
-        "trigger": "Charge",
+        "trigger": "Auto Charge",
         "prjSpeed": 210,
         "falloff": [9, 18, 0.6657]
       }
@@ -13156,7 +13156,7 @@
         "polarities": "rr",
         "reload": 2.5,
         "magazine": 200,
-        "maxAmmo": 900,
+        "maxAmmo": 1000,
         "modes": [
           {
             "damage": { "Impact": 8.4, "Puncture": 11.2, "Slash": 8.4 },
