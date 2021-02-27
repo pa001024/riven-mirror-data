@@ -205,6 +205,7 @@ const toWeaponWiki = (raw: WikiWeapons.Weapon, noproto = false): ProtoWeapon => 
     toAttackWiki("secondaryArea", raw.SecondaryAreaAttack),
   ].filter(v => Boolean(v) && Object.keys(v).length);
   if (modes.some(v => v.trigger === "Held")) tags.push("Continuous");
+  const reloadStyle = ReloadStyle[raw.ReloadStyle];
   return {
     name: mapNames(raw.Name),
     tags,
@@ -213,7 +214,7 @@ const toWeaponWiki = (raw: WikiWeapons.Weapon, noproto = false): ProtoWeapon => 
     disposition: tags.includes("Arch-Melee") ? 1 : raw.Disposition,
     // fireRate: raw.FireRate && +(raw.FireRate * 60).toFixed(0),
     polarities: (raw.Polarities && raw.Polarities.map(v => polarityMap[v]).join("")) || undefined,
-    reload: raw.Reload,
+    reload: reloadStyle === ReloadStyle.Regenerate ? raw.Magazine / raw.Reload : raw.Reload,
     magazine: raw.Magazine,
     maxAmmo: raw.MaxAmmo || undefined,
     zoom: raw.Zoom && raw.Zoom.map(toZoom),
@@ -232,7 +233,7 @@ const toWeaponWiki = (raw: WikiWeapons.Weapon, noproto = false): ProtoWeapon => 
     slideAttack: +(raw.SlideAttack / totalDamage).toFixed(2) || undefined,
     sniperComboMin: raw.SniperComboMin,
     sniperComboReset: raw.SniperComboReset,
-    reloadStyle: ReloadStyle[raw.ReloadStyle],
+    reloadStyle,
     modes,
   };
 };
