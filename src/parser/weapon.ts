@@ -349,6 +349,7 @@ export const convertWeapons = (deWeapons: DEWeapon = { ExportWeapons: [] }, wiki
     _.merge(
       _.map(wikiWeapons.Weapons, v => {
         // 作为variants输出
+        if (!v.Type) console.error("no type of", v);
         if (v.Type.endsWith(" (Atmosphere)")) return null;
         let rst: Weapon = toWeaponWiki(v);
         if (!rst || v.IgnoreCategories) return null;

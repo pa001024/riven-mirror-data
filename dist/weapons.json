@@ -3384,12 +3384,27 @@
     "magazine": 6,
     "modes": [
       {
+        "name": "First Attack",
         "damage": { "Impact": 50 },
         "fireRate": 78,
         "critChance": 0,
         "procChance": 0.25,
         "accuracy": 100,
         "trigger": "Auto"
+      },
+      {
+        "type": "charge",
+        "name": "Second Attack",
+        "damage": { "Puncture": 50 },
+        "critChance": 0,
+        "procChance": 0.25
+      },
+      {
+        "type": "secondary",
+        "name": "Third Attack",
+        "damage": { "Slash": 50 },
+        "critChance": 0,
+        "procChance": 0.25
       }
     ],
     "variants": [
@@ -3403,12 +3418,27 @@
         "magazine": 6,
         "modes": [
           {
+            "name": "First Attack",
             "damage": { "Impact": 75 },
             "fireRate": 80,
             "critChance": 0,
             "procChance": 0.25,
             "accuracy": 100,
             "trigger": "Auto"
+          },
+          {
+            "type": "charge",
+            "name": "Second Attack",
+            "damage": { "Puncture": 75 },
+            "critChance": 0,
+            "procChance": 0.25
+          },
+          {
+            "type": "secondary",
+            "name": "Third Attack",
+            "damage": { "Slash": 75 },
+            "critChance": 0,
+            "procChance": 0.25
           }
         ]
       }
@@ -4409,6 +4439,49 @@
         "critChance": 0.1,
         "critMul": 2,
         "procChance": 0.36
+      }
+    ]
+  },
+  {
+    "name": "Epitaph",
+    "tags": ["Secondary", "Pistol"],
+    "mastery": 8,
+    "disposition": 0.5,
+    "polarities": "rr",
+    "reload": 0.6,
+    "magazine": 1,
+    "maxAmmo": 60,
+    "modes": [
+      {
+        "name": "Uncharged Direct Hit",
+        "damage": { "Impact": 40, "Puncture": 30, "Slash": 30 },
+        "fireRate": 90,
+        "critChance": 0.05,
+        "critMul": 1.2,
+        "procChance": 0.5,
+        "accuracy": 80,
+        "trigger": "Semi"
+      },
+      {
+        "type": "charge",
+        "name": "Charged",
+        "damage": { "Impact": 120, "Puncture": 45, "Slash": 135 },
+        "critChance": 0.48,
+        "critMul": 2.6,
+        "procChance": 0.04,
+        "punchThrough": 2,
+        "chargeTime": 0.36,
+        "trigger": "Charge"
+      },
+      {
+        "type": "area",
+        "name": "Uncharged AoE",
+        "damage": { "Blast": 20 },
+        "fireRate": 90,
+        "critChance": 0.05,
+        "critMul": 1.2,
+        "radius": 8,
+        "falloff": [0, 8, 0.8]
       }
     ]
   },
@@ -5958,6 +6031,76 @@
         "radius": 4.9,
         "falloff": [0, 4.9, 0]
       }
+    ],
+    "variants": [
+      {
+        "name": "Halikar Wraith",
+        "tags": ["Melee", "Glaive"],
+        "traits": ["Grineer", "Wraith", "Baro"],
+        "mastery": 13,
+        "disposition": 0.5,
+        "polarities": "r-r",
+        "stancePolarity": "-",
+        "comboDur": 5,
+        "followThrough": 0.7,
+        "meleeRange": 1.2,
+        "slamAttack": 3,
+        "slamRadialDmg": 1,
+        "slamRadius": 5,
+        "windUp": 0.6,
+        "heavySlamAttack": 4,
+        "heavyRadialDmg": 4,
+        "heavySlamRadius": 6,
+        "slideAttack": 2,
+        "modes": [
+          {
+            "damage": { "Impact": 22.5, "Puncture": 180, "Slash": 22.5 },
+            "fireRate": 70,
+            "critChance": 0.19,
+            "critMul": 2.3,
+            "procChance": 0.35,
+            "range": 30,
+            "prjSpeed": 30
+          },
+          {
+            "type": "chargedThrow",
+            "name": "Charged Throw",
+            "damage": { "Impact": 52.7, "Puncture": 421.6, "Slash": 22.7 },
+            "critChance": 0.21,
+            "critMul": 2.5,
+            "procChance": 0.41,
+            "punchThrough": 1
+          },
+          {
+            "type": "throw",
+            "name": "Throw",
+            "damage": { "Impact": 50.3, "Puncture": 402.4, "Slash": 50.3 },
+            "critChance": 0.21,
+            "critMul": 2.3,
+            "procChance": 0.39
+          },
+          {
+            "type": "area",
+            "name": "Throw Explosion",
+            "damage": { "Blast": 1242 },
+            "critChance": 0.21,
+            "critMul": 2.3,
+            "procChance": 0.39,
+            "radius": 5.1,
+            "falloff": [0, 5.1, 0]
+          },
+          {
+            "type": "secondaryArea",
+            "name": "Charged Throw Explosion",
+            "damage": { "Blast": 1314 },
+            "critChance": 0.21,
+            "critMul": 2.5,
+            "procChance": 0.41,
+            "radius": 5.1,
+            "falloff": [0, 5.1, 0]
+          }
+        ]
+      }
     ]
   },
   {
@@ -6450,6 +6593,7 @@
         "critMul": 2,
         "procChance": 0.27,
         "accuracy": 100,
+        "radius": 3,
         "range": 20,
         "ammoCost": 0.5,
         "trigger": "Held"
@@ -6473,6 +6617,7 @@
             "critMul": 2.5,
             "procChance": 0.29,
             "accuracy": 100,
+            "radius": 3,
             "range": 27,
             "ammoCost": 0.5,
             "trigger": "Held"
@@ -9192,6 +9337,33 @@
     ]
   },
   {
+    "name": "Necramech Melee",
+    "tags": ["Melee", "None"],
+    "traits": ["Entrati"],
+    "disposition": 0,
+    "comboDur": 5,
+    "followThrough": 0.9,
+    "meleeRange": 0,
+    "slamAttack": 2.01,
+    "slamRadialDmg": 2.01,
+    "slamRadius": 8,
+    "heavyAttack": 1,
+    "windUp": 0,
+    "heavySlamAttack": 4.02,
+    "heavyRadialDmg": 4.02,
+    "heavySlamRadius": 9,
+    "slideAttack": 2.01,
+    "modes": [
+      {
+        "damage": { "Impact": 83.3, "Puncture": 83.3, "Slash": 83.3 },
+        "fireRate": 60,
+        "critChance": 0.5,
+        "critMul": 2,
+        "procChance": 0
+      }
+    ]
+  },
+  {
     "name": "Nikana",
     "tags": ["Melee", "Nikana"],
     "traits": ["Tenno"],
@@ -10324,7 +10496,7 @@
         "disposition": 1.25,
         "reload": 2.5,
         "magazine": 10,
-        "maxAmmo": 20,
+        "maxAmmo": 40,
         "modes": [
           {
             "name": "Grenade Impact",
@@ -11579,7 +11751,7 @@
       {
         "name": "Semi",
         "damage": { "Impact": 9.6, "Puncture": 26.9, "Slash": 11.5 },
-        "fireRate": 60,
+        "fireRate": 220,
         "critChance": 0.3,
         "critMul": 2.2,
         "procChance": 0.14,
@@ -11601,6 +11773,7 @@
         "type": "area",
         "name": "Semi Radial Attack",
         "damage": { "Heat": 46 },
+        "fireRate": 220,
         "radius": 1.6,
         "falloff": [0, 1.6, 0.2]
       },
@@ -11608,6 +11781,7 @@
         "type": "secondaryArea",
         "name": "Burst Radial Attack",
         "damage": { "Heat": 480 },
+        "fireRate": 60,
         "critChance": 0.38,
         "critMul": 3,
         "procChance": 0.26,
@@ -11643,6 +11817,23 @@
         "critChance": 0.08,
         "critMul": 1.5,
         "procChance": 0.26
+      }
+    ]
+  },
+  {
+    "name": "Shadow Claws",
+    "tags": ["Melee", "Exalted"],
+    "traits": ["Tenno"],
+    "disposition": 0,
+    "comboDur": 5,
+    "meleeRange": 1.5,
+    "modes": [
+      {
+        "damage": { "Impact": 72, "Puncture": 48, "Slash": 120 },
+        "fireRate": 60,
+        "critChance": 0.38,
+        "critMul": 2.6,
+        "procChance": 0.24
       }
     ]
   },
@@ -14250,7 +14441,7 @@
       "Continuous"
     ],
     "traits": ["Tenno"],
-    "disposition": 0.5,
+    "disposition": 1.3,
     "reload": 2.2,
     "magazine": 80,
     "modes": [

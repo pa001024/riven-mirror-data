@@ -11,6 +11,9 @@
     },
     "Bubonico": {
       "Class": "Shotgun"
+    },
+    "Epitaph":{
+      "Type": "Secondary"
     }
   }
 }
