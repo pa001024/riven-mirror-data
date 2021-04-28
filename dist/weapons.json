@@ -2092,12 +2092,12 @@
     "tags": ["Secondary", "Robotic Weapon", "Pistol"],
     "traits": ["Tenno"],
     "disposition": 1.45,
-    "reload": 0,
+    "reload": 0.01,
     "magazine": 15,
     "modes": [
       {
         "damage": { "Impact": 0.7, "Puncture": 6, "Slash": 0.3 },
-        "fireRate": 90,
+        "fireRate": 96,
         "critChance": 0.025,
         "critMul": 1.25,
         "procChance": 0.02,
@@ -2111,12 +2111,12 @@
         "tags": ["Secondary", "Robotic Weapon", "Pistol"],
         "traits": ["Tenno", "Prisma"],
         "disposition": 1.45,
-        "reload": 0,
+        "reload": 0.01,
         "magazine": 15,
         "modes": [
           {
             "damage": { "Impact": 1, "Puncture": 8.5, "Slash": 0.5 },
-            "fireRate": 97,
+            "fireRate": 96,
             "critChance": 0.05,
             "critMul": 2,
             "procChance": 0.1,
@@ -2331,7 +2331,7 @@
       {
         "name": "Primary",
         "damage": { "Corrosive": 53 },
-        "fireRate": 60,
+        "fireRate": 720,
         "critChance": 0.11,
         "critMul": 2.9,
         "procChance": 0.43,
@@ -4456,7 +4456,7 @@
         "name": "Uncharged Direct Hit",
         "damage": { "Impact": 40, "Puncture": 30, "Slash": 30 },
         "fireRate": 90,
-        "critChance": 0.05,
+        "critChance": 0.02,
         "critMul": 1.2,
         "procChance": 0.5,
         "accuracy": 80,
@@ -4478,7 +4478,7 @@
         "name": "Uncharged AoE",
         "damage": { "Blast": 20 },
         "fireRate": 90,
-        "critChance": 0.05,
+        "critChance": 0.02,
         "critMul": 1.2,
         "radius": 8,
         "falloff": [0, 8, 0.8]
@@ -4863,7 +4863,7 @@
   {
     "name": "Fluctus",
     "tags": ["Arch-Gun"],
-    "traits": ["Tenno"],
+    "traits": ["Tenno", "Corpus"],
     "mastery": 2,
     "disposition": 1,
     "polarities": "-",
@@ -4887,7 +4887,7 @@
       {
         "name": "Fluctus (Atmosphere)",
         "tags": ["Arch-Gun", "Atmosphere"],
-        "traits": ["Tenno"],
+        "traits": ["Tenno", "Corpus"],
         "mastery": 2,
         "disposition": 0.9,
         "polarities": "-",
@@ -9337,33 +9337,6 @@
     ]
   },
   {
-    "name": "Necramech Melee",
-    "tags": ["Melee", "None"],
-    "traits": ["Entrati"],
-    "disposition": 0,
-    "comboDur": 5,
-    "followThrough": 0.9,
-    "meleeRange": 0,
-    "slamAttack": 2.01,
-    "slamRadialDmg": 2.01,
-    "slamRadius": 8,
-    "heavyAttack": 1,
-    "windUp": 0,
-    "heavySlamAttack": 4.02,
-    "heavyRadialDmg": 4.02,
-    "heavySlamRadius": 9,
-    "slideAttack": 2.01,
-    "modes": [
-      {
-        "damage": { "Impact": 83.3, "Puncture": 83.3, "Slash": 83.3 },
-        "fireRate": 60,
-        "critChance": 0.5,
-        "critMul": 2,
-        "procChance": 0
-      }
-    ]
-  },
-  {
     "name": "Nikana",
     "tags": ["Melee", "Nikana"],
     "traits": ["Tenno"],
@@ -10861,6 +10834,33 @@
     ]
   },
   {
+    "name": "Pugil",
+    "tags": ["Nech-Melee"],
+    "traits": ["Tenno"],
+    "disposition": 0,
+    "comboDur": 5,
+    "followThrough": 0.9,
+    "meleeRange": 0,
+    "slamAttack": 2.01,
+    "slamRadialDmg": 2.01,
+    "slamRadius": 8,
+    "heavyAttack": 1,
+    "windUp": 0,
+    "heavySlamAttack": 4.02,
+    "heavyRadialDmg": 4.02,
+    "heavySlamRadius": 9,
+    "slideAttack": 2.01,
+    "modes": [
+      {
+        "damage": { "Impact": 83.3, "Puncture": 83.3, "Slash": 83.3 },
+        "fireRate": 60,
+        "critChance": 0.5,
+        "critMul": 2,
+        "procChance": 0
+      }
+    ]
+  },
+  {
     "name": "Pulmonars",
     "tags": ["Melee", "Nunchaku"],
     "traits": ["Infested"],
@@ -12129,8 +12129,8 @@
     "maxAmmo": 72,
     "modes": [
       {
-        "name": "Orb Damage",
-        "damage": { "Magnetic": 50 },
+        "name": "Orb Merging Damage",
+        "damage": { "Magnetic": 100 },
         "fireRate": 180,
         "critChance": 0.12,
         "critMul": 2,
@@ -12142,7 +12142,7 @@
       {
         "type": "area",
         "name": "Orb Explosion",
-        "damage": { "Magnetic": 100 },
+        "damage": { "Magnetic": 200 },
         "critChance": 0.12,
         "critMul": 2,
         "procChance": 0.3,
@@ -12163,24 +12163,37 @@
         "maxAmmo": 96,
         "modes": [
           {
-            "name": "Orb Damage",
-            "damage": { "Magnetic": 80 },
+            "name": "Orb Merging Damage",
+            "damage": { "Magnetic": 125 },
             "fireRate": 200,
             "critChance": 0.14,
             "critMul": 2,
             "procChance": 0.35,
             "accuracy": 28.6,
-            "trigger": "Active"
+            "radius": 4,
+            "trigger": "Active",
+            "falloff": [0, 4, 0]
           },
           {
-            "type": "area",
+            "type": "secondary",
             "name": "Orb Explosion",
             "damage": { "Magnetic": 240 },
             "critChance": 0.14,
             "critMul": 2,
             "procChance": 0.35,
             "radius": 5,
-            "falloff": [0, 5, 0.6]
+            "falloff": [0, 5, 1]
+          },
+          {
+            "type": "area",
+            "name": "Singularity",
+            "damage": { "Magnetic": 50 },
+            "fireRate": 240,
+            "critChance": 0,
+            "critMul": 0,
+            "procChance": 0,
+            "radius": 5,
+            "falloff": [0, 5, 0]
           }
         ]
       }
