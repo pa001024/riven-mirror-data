@@ -1,140 +1,120 @@
-Basmu: 1.1->1.15
+Bubonico: 0.6->0.7
 
-Bubonico: 0.5->0.6
+Catchmoon (primary): 1->1.05
 
-Catchmoon: 0.9->1
+Cedo: 0.55->0.6
 
-Cedo: 0.5->0.55
+Exergis: 1.05->1.1
 
-Dread: 1.25->1.3
+Gaze: 0.95->1
 
-Fulmin: 0.6->0.65
+Lanka: 0.95->1
 
-Kuva Hind: 1->1.05
+Panthera Prime: 1.05->1.15
 
-Lanka: 0.9->0.95
+Proboscis Cernos: 0.5->0.55
 
-Panthera Prime: 0.85->1.05
+Quellor: 1.05->1.1
 
-Quellor: 1->1.05
+Rattleguts (primary): 0.9->1
 
-Rattleguts: 0.8->0.9
+Rubico: 0.8->0.9
 
-Sporelacer: 0.5->0.85
+Sporelacer (primary): 0.85->1
 
-Sporothrix: 0.5->0.85
+Sporothrix: 0.85->1.1
 
-Supra: 1->1.05
-Supra Vandal: 0.9->0.95
+Stahlta: 0.8->0.85
 
-Sancti Tigris: 0.9->0.95
-Tigris Prime: 0.8->0.85
+Tiberon: 1->1.05
+Tiberon Prime: 0.85->0.9
 
-Trumna: 0.55->0.7
+Tombfinger (primary): 0.75->0.85
 
-Vermisplicer: 0.5->0.7
+Trumna: 0.7->0.75
 
-Akjagara: 1->1.05
-Akjagara Prime: 0.85->0.9
+Vermisplicer (primary): 0.7->0.85
+Akbolto: 1.25->1.3
+Telos Akbolto: 1.2->1.25
+Akbolto Prime: 1.1->1.15
 
-Akstilletto: 0.9->0.95
-Akstilletto Prime: 0.6->0.65
+Atomos: 0.85->0.9
 
-Catabolyst: 0.5->0.8
+Catabolyst: 0.8->1
 
-Hystrix: 1.15->1.2
+Euphona Prime: 0.75->0.8
 
-Pox: 1.15->1.2
+Pandero Prime: 0.5->0.75
 
-Pyrana: 0.9->0.95
+Rattleguts (secondary): 0.7->0.75
 
-Quatz: 1.15->1.2
+Sepulcrum: 0.85->0.95
 
-Sepulcrum: 0.75->0.85
+Staticor: 0.65->0.7
 
-Sporelacer: 0.5->0.55
+Velox: 1.1->1.15
 
-Staticor: 0.6->0.65
+Vermisplicer (secondary): 0.85->1
 
-Velox: 1->1.1
+Zakti Prime: 0.75->0.9
 
-Vermisplicer: 0.5->0.85
+Zymos: 0.95->1.05
 
-Zakti Prime: 0.5->0.75
+Arca Titron: 1.25->1.3
 
-Zymos: 0.75->0.95
+Arum Spinosa: 0.85->1.05
 
-Arum Spinosa: 0.5->0.85
+Atterax: 1->1.05
 
-Atterax: 0.95->1
+Dual Kamas: 1.25->1.3
+Dual Kamas Prime: 1.15->1.2
 
-Broken War: 1.1->1.15
+Galatine Prime: 0.75->0.8
 
-Cassowar: 1.3->1.35
+Glaive Prime: 1.05->0.9
 
-Galatine: 0.95->1.05
-Galatine Prime: 0.7->0.75
+Gram Prime: 0.8->0.75
 
-Glaive Prime: 1.22->1.05
+Guandao: 1->1.05
+Guandao Prime: 0.6->0.65
 
-Gram Prime: 0.9->0.8
+Halikar Wraith: 0.5->0.75
 
-Guandao Prime: 0.5->0.6
+Heliocor: 1.3->1.35
+Synoid Heliocor: 1.3->1.35
 
-Gunsen: 1.3->1.35
+Jat Kittag: 1.3->1.35
 
-Synoid Heliocor: 1.25->1.3
+Keratinos: 0.9->1
 
-Hirudo: 1.05->1.1
+Korrudo: 1.3->1.35
 
-Jat Kittag: 1.25->1.3
+Kronen Prime: 0.7->0.65
 
-Karyst Prime: 0.75->1.05
-
-Keratinos: 0.7->0.9
-
-Kronen Prime: 0.85->0.7
-
-Ceti Lacera: 1.1->1.15
-
-Lecta: 1.15->1.2
-Secura Lecta: 1->1.05
-
-Mewan: 1.05->1.1
+Lecta: 1.2->1.25
+Secura Lecta: 1.05->1.1
 
 Mios: 1.2->1.25
 
-Orthos: 0.95->1
-Orthos Prime: 0.6->0.65
+Nikana: 0.9->0.95
 
-Pulmonars: 0.5->0.85
+Ooltha: 1.2->1.25
 
-Quassus: 0.75->0.95
+Pulmonars: 0.85->1.05
 
-Rabvee: 1.25->1.3
+Quassus: 0.95->1
 
-Reaper Prime: 0.85->0.75
+Reaper Prime: 0.75->0.7
 
-Redeemer: 1.1->1.05
-Redeemer Prime: 0.65->0.6
+Sydon: 1.3->1.35
+Vaykor Sydon: 1.25->1.3
 
-Sheev: 1.3->1.35
+Vitrica: 0.7->0.85
 
-Sydon: 1.25->1.3
-Vaykor Sydon: 1.2->1.25
+Cortege: 0.85->1
 
-Venka: 1->1.05
+Corvas: 1.1->1.2
 
-Vitrica: 0.5->0.7
+Prisma Dual Decurion: 0.85->1.05
 
-War: 0.95->1
-
-Zenistar: 1.05->1.1
-
-Cortege: 0.7->0.85
-
-Prisma Dual Decurion: 0.5->0.85
-
-Imperator: 1->1.05
-
-Morgha: 0.5->0.7
+Morgha: 0.7->0.85

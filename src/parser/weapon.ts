@@ -349,7 +349,10 @@ export const convertWeapons = (deWeapons: DEWeapon = { ExportWeapons: [] }, wiki
     _.merge(
       _.map(wikiWeapons.Weapons, v => {
         // 作为variants输出
-        if (!v.Type) console.error("no type of", v);
+        if (!v.Type) {
+          console.error("no type of", v);
+          return null;
+        }
         if (v.Type.endsWith(" (Atmosphere)")) return null;
         let rst: Weapon = toWeaponWiki(v);
         if (!rst || v.IgnoreCategories) return null;
@@ -460,25 +463,25 @@ export const convertWeapons = (deWeapons: DEWeapon = { ExportWeapons: [] }, wiki
     }
   )
     .concat([
-      // kitguns
-      ["Gaze", "Kitgun", 0.9],
-      ["Rattleguts", "Kitgun", 0.7],
-      ["Tombfinger", "Kitgun", 0.65],
-      ["Catchmoon", "Kitgun", 0.6],
-      // zaw
-      ["Balla", "Zaw", 0.9],
-      ["Cyath", "Zaw", 0.9],
-      ["Dehtat", "Zaw", 1.2],
-      ["Dokrahm", "Zaw", 0.75],
-      ["Rabvee", "Zaw", 1.25],
-      ["Mewan", "Zaw", 1.05],
-      ["Kronsh", "Zaw", 1.3],
-      ["Ooltha", "Zaw", 1.15],
-      ["Sepfahn", "Zaw", 0.7],
-      ["Plague Keewar", "Zaw", 0.75],
-      ["Plague Kripath", "Zaw", 0.6],
-      // Amp
-      ["Amp", "Amp", 0],
+      // // kitguns
+      // ["Gaze", "Kitgun", 0.9],
+      // ["Rattleguts", "Kitgun", 0.7],
+      // ["Tombfinger", "Kitgun", 0.65],
+      // ["Catchmoon", "Kitgun", 0.6],
+      // // zaw
+      // ["Balla", "Zaw", 0.9],
+      // ["Cyath", "Zaw", 0.9],
+      // ["Dehtat", "Zaw", 1.2],
+      // ["Dokrahm", "Zaw", 0.75],
+      // ["Rabvee", "Zaw", 1.25],
+      // ["Mewan", "Zaw", 1.05],
+      // ["Kronsh", "Zaw", 1.3],
+      // ["Ooltha", "Zaw", 1.15],
+      // ["Sepfahn", "Zaw", 0.7],
+      // ["Plague Keewar", "Zaw", 0.75],
+      // ["Plague Kripath", "Zaw", 0.6],
+      // // Amp
+      // ["Amp", "Amp", 0],
     ])
     .sort((a, b) => {
       return TYPES[a[1]] - TYPES[b[1]] || b[2] - a[2] || a[0].localeCompare(b[0]);

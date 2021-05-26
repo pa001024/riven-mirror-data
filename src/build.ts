@@ -64,6 +64,7 @@ const mergeRivenPatch = (str: string, table: [string, number, number][]) => {
           val = nv;
         } else {
           if (nv !== val) console.warn(chalk.red("[error]"), `${name}: ${val} != ${ov} -> ${nv} `);
+          val = nv;
         }
       }
       return [name, typ, val] as [string, number, number];
@@ -337,8 +338,9 @@ Vicious Approach`.split("\n")
           // i18n zh-Hans.json
           try {
             const cn = JSON.parse(await fs.readFile(TMP_PREFIX + "huiji-UserDict.json", "utf-8"));
+            const oldcn = JSON.parse(await fs.readFile("../src/i18n/lang/zh-Hans.json", "utf-8"));
             const cnNames = riven.reduce((r, [name]) => ({ ...r, [_.camelCase(name)]: cn.Text[name] }), {});
-            await fs.outputFile(TARGET_PREFIX + "zh-Hans.json", formatJSON(cnNames));
+            await fs.outputFile(TARGET_PREFIX + "zh-Hans.json", formatJSON(_.merge(oldcn.messages, cnNames)));
           } catch (e) {
             console.error("i18n zh-Hans.json", e);
           }

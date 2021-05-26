@@ -165,7 +165,7 @@
     "tags": ["Secondary", "Dual Pistols"],
     "traits": ["Tenno"],
     "mastery": 9,
-    "disposition": 1.25,
+    "disposition": 1.3,
     "polarities": "d",
     "reload": 2.6,
     "magazine": 30,
@@ -188,7 +188,7 @@
         "tags": ["Secondary", "Dual Pistols"],
         "traits": ["Prime", "Vaulted"],
         "mastery": 13,
-        "disposition": 1.1,
+        "disposition": 1.15,
         "polarities": "-rrr",
         "reload": 1.3,
         "magazine": 40,
@@ -211,7 +211,7 @@
         "tags": ["Secondary", "Dual Pistols"],
         "traits": ["Syndicate", "Arbiters of Hexis"],
         "mastery": 11,
-        "disposition": 1.2,
+        "disposition": 1.25,
         "polarities": "d-",
         "reload": 2.6,
         "magazine": 30,
@@ -275,7 +275,7 @@
             "accuracy": 3.7,
             "pellets": 7,
             "trigger": "Semi-Auto",
-            "falloff": [9, 18, 0.74]
+            "falloff": [9, 18, 0.75]
           }
         ]
       }
@@ -882,7 +882,7 @@
     "tags": ["Melee", "Hammer"],
     "traits": ["Corpus"],
     "mastery": 10,
-    "disposition": 1.25,
+    "disposition": 1.3,
     "polarities": "r-",
     "stancePolarity": "r",
     "comboDur": 5,
@@ -1004,6 +1004,7 @@
     "modes": [
       {
         "damage": { "Impact": 235.2, "Puncture": 1344, "Slash": 100.8 },
+        "fireRate": 60,
         "critChance": 0.25,
         "critMul": 2,
         "procChance": 0.2,
@@ -1033,7 +1034,7 @@
     "tags": ["Melee", "Warfan"],
     "traits": ["Infested"],
     "mastery": 11,
-    "disposition": 0.85,
+    "disposition": 1.05,
     "polarities": "-r",
     "stancePolarity": "-",
     "comboDur": 5,
@@ -1080,6 +1081,43 @@
         "prjSpeed": 75,
         "falloff": [30, 60, 0.5]
       }
+    ],
+    "variants": [
+      {
+        "name": "Astilla Prime",
+        "tags": ["Primary", "Shotgun"],
+        "traits": ["Prime"],
+        "mastery": 14,
+        "disposition": 0.5,
+        "polarities": "r-r",
+        "reload": 2,
+        "magazine": 24,
+        "maxAmmo": 120,
+        "modes": [
+          {
+            "name": "Slug Impact",
+            "damage": { "Impact": 100 },
+            "fireRate": 260,
+            "critChance": 0.21,
+            "critMul": 1.9,
+            "procChance": 0.37,
+            "accuracy": 25,
+            "trigger": "Auto",
+            "prjSpeed": 75,
+            "falloff": [30, 60, 0.5]
+          },
+          {
+            "type": "area",
+            "name": "Glass Explosion",
+            "damage": { "Puncture": 49, "Slash": 91 },
+            "critChance": 0.21,
+            "critMul": 1.9,
+            "procChance": 0.37,
+            "radius": 2.4,
+            "falloff": [0, 2.4, 0.3]
+          }
+        ]
+      }
     ]
   },
   {
@@ -1121,7 +1159,7 @@
     "tags": ["Secondary", "Pistol", "Continuous"],
     "traits": ["Grineer"],
     "mastery": 5,
-    "disposition": 0.85,
+    "disposition": 0.9,
     "polarities": "d",
     "reload": 2,
     "magazine": 70,
@@ -1144,7 +1182,7 @@
     "tags": ["Melee", "Whip"],
     "traits": ["Grineer"],
     "mastery": 5,
-    "disposition": 1,
+    "disposition": 1.05,
     "stancePolarity": "d",
     "comboDur": 5,
     "followThrough": 0.5,
@@ -1370,7 +1408,7 @@
     "tags": ["Primary", "Rifle", "Assault Rifle", "Continuous"],
     "traits": ["Sentient"],
     "mastery": 11,
-    "disposition": 1.15,
+    "disposition": 1.1,
     "polarities": "r",
     "reload": 0.5,
     "magazine": 21,
@@ -2043,7 +2081,7 @@
     "tags": ["Primary", "Shotgun"],
     "traits": ["Infested"],
     "mastery": 13,
-    "disposition": 0.6,
+    "disposition": 0.7,
     "polarities": "-",
     "reload": 1.6,
     "magazine": 27,
@@ -2210,28 +2248,54 @@
   {
     "name": "Cadus",
     "tags": ["Melee", "Staff"],
+    "traits": ["Tenno"],
+    "mastery": 4,
     "disposition": 1.29,
     "polarities": "d",
     "stancePolarity": "t",
-    "comboDur": 0,
-    "followThrough": 0,
+    "comboDur": 5,
+    "followThrough": 0.5,
     "meleeRange": 0,
-    "slamAttack": 0,
-    "slamRadialDmg": 0,
-    "slamRadius": 0,
-    "heavyAttack": 0,
-    "windUp": 0,
-    "heavySlamAttack": 0,
-    "heavyRadialDmg": 0,
-    "heavySlamRadius": 0,
-    "slideAttack": 2.14,
+    "slamAttack": 3.92,
+    "slamRadialDmg": 1.31,
+    "slamRadius": 6,
+    "heavyAttack": 6.54,
+    "windUp": 0.5,
+    "heavySlamAttack": 5.23,
+    "heavyRadialDmg": 5.23,
+    "heavySlamRadius": 7,
+    "slideAttack": 1.31,
     "modes": [
       {
-        "damage": { "Electricity": 50 },
+        "damage": { "Impact": 70, "Electricity": 60 },
         "fireRate": 60,
         "critChance": 0.15,
         "critMul": 2,
         "procChance": 0.25
+      }
+    ]
+  },
+  {
+    "name": "Cantic Prism",
+    "tags": ["Amp"],
+    "traits": ["Sentient"],
+    "disposition": 0,
+    "reload": 3.3333333333333335,
+    "magazine": 100,
+    "reloadStyle": 1,
+    "modes": [
+      {
+        "name": "Normal",
+        "damage": { "Void": 1460 },
+        "fireRate": 293,
+        "critChance": 0.34,
+        "critMul": 2.2,
+        "procChance": 0.1,
+        "accuracy": 32,
+        "range": 100,
+        "ammoCost": 3,
+        "trigger": "Burst",
+        "burstCount": 3
       }
     ]
   },
@@ -2322,7 +2386,7 @@
     "tags": ["Secondary", "Pistol", "Continuous"],
     "traits": ["Infested"],
     "mastery": 11,
-    "disposition": 0.8,
+    "disposition": 1,
     "polarities": "r",
     "reload": 1.7,
     "magazine": 31,
@@ -2408,7 +2472,7 @@
     "tags": ["Primary", "Shotgun"],
     "traits": ["Tenno"],
     "mastery": 8,
-    "disposition": 0.55,
+    "disposition": 0.6,
     "polarities": "rr",
     "reload": 2.2,
     "magazine": 40,
@@ -2576,6 +2640,7 @@
     "modes": [
       {
         "damage": { "Impact": 171, "Puncture": 9.5, "Slash": 9.5 },
+        "fireRate": 60,
         "critChance": 0.36,
         "critMul": 2,
         "procChance": 0.18,
@@ -2609,6 +2674,7 @@
         "modes": [
           {
             "damage": { "Impact": 248.4, "Puncture": 13.8, "Slash": 13.8 },
+            "fireRate": 60,
             "critChance": 0.35,
             "critMul": 2,
             "procChance": 0.3,
@@ -2644,6 +2710,7 @@
         "modes": [
           {
             "damage": { "Impact": 211.5, "Puncture": 11.75, "Slash": 11.75 },
+            "fireRate": 60,
             "critChance": 0.35,
             "critMul": 2,
             "procChance": 0.15,
@@ -2773,7 +2840,7 @@
         "falloff": [18, 36, 0.6667]
       },
       {
-        "type": "area",
+        "type": "secondary",
         "name": "Air Burst Projectile",
         "damage": { "Impact": 100 },
         "critChance": 0.04,
@@ -2843,7 +2910,7 @@
     "tags": ["Arch-Gun", "Continuous"],
     "traits": ["Entrati"],
     "mastery": 14,
-    "disposition": 0.85,
+    "disposition": 1,
     "reload": 2,
     "magazine": 100,
     "reloadStyle": 1,
@@ -2859,7 +2926,7 @@
         "trigger": "Held"
       },
       {
-        "type": "charge",
+        "type": "secondary",
         "name": "Grenade Impact",
         "damage": { "Impact": 30 },
         "fireRate": 15,
@@ -2870,7 +2937,7 @@
         "trigger": "Active"
       },
       {
-        "type": "area",
+        "type": "secondaryArea",
         "name": "Radial Attack",
         "damage": { "Blast": 3000 },
         "fireRate": 15,
@@ -2935,7 +3002,7 @@
     "tags": ["Arch-Gun"],
     "traits": ["Tenno"],
     "mastery": 1,
-    "disposition": 1.1,
+    "disposition": 1.2,
     "polarities": "-",
     "reload": 5,
     "magazine": 25,
@@ -3742,6 +3809,46 @@
     ]
   },
   {
+    "name": "Dissic Scaffold",
+    "tags": ["Amp"],
+    "traits": ["Sentient"],
+    "disposition": 0,
+    "reload": 3.3333333333333335,
+    "magazine": 100,
+    "reloadStyle": 1,
+    "modes": [
+      {
+        "name": "Direct Hit",
+        "damage": { "Impact": 15 },
+        "fireRate": 60,
+        "critChance": 0.03,
+        "critMul": 1.5,
+        "procChance": 0.37,
+        "accuracy": 100,
+        "ammoCost": 50,
+        "trigger": "Semi-Auto"
+      },
+      {
+        "type": "area",
+        "name": "Explosion",
+        "damage": { "Void": 6600 },
+        "critChance": 0.03,
+        "critMul": 1.5,
+        "procChance": 0.37,
+        "radius": 12,
+        "falloff": [0, 12, 0.6]
+      },
+      {
+        "type": "secondaryArea",
+        "name": "Explosive Fragments",
+        "damage": { "Void": 300 },
+        "critChance": 0.03,
+        "critMul": 1.5,
+        "procChance": 0.37
+      }
+    ]
+  },
+  {
     "name": "Diwata",
     "tags": ["Melee", "Exalted"],
     "traits": ["Tenno"],
@@ -3872,7 +3979,7 @@
     "name": "Dread",
     "tags": ["Primary", "Rifle", "Bow"],
     "mastery": 5,
-    "disposition": 1.3,
+    "disposition": 1.25,
     "polarities": "rr",
     "reload": 0.7,
     "magazine": 1,
@@ -3880,6 +3987,7 @@
     "modes": [
       {
         "damage": { "Impact": 16.8, "Puncture": 16.8, "Slash": 134.4 },
+        "fireRate": 60,
         "critChance": 0.5,
         "critMul": 2,
         "procChance": 0.2,
@@ -4060,7 +4168,7 @@
         "tags": ["Arch-Gun"],
         "traits": ["Prisma", "Baro"],
         "mastery": 10,
-        "disposition": 0.85,
+        "disposition": 1.05,
         "polarities": "rr",
         "reload": 0.64,
         "magazine": 32,
@@ -4195,7 +4303,7 @@
     "tags": ["Melee", "Dual Swords"],
     "traits": ["Tenno"],
     "mastery": 1,
-    "disposition": 1.25,
+    "disposition": 1.3,
     "stancePolarity": "-",
     "comboDur": 5,
     "followThrough": 0.5,
@@ -4224,7 +4332,7 @@
         "tags": ["Melee", "Dual Swords"],
         "traits": ["Prime", "Vaulted"],
         "mastery": 8,
-        "disposition": 1.15,
+        "disposition": 1.2,
         "polarities": "r",
         "stancePolarity": "-",
         "comboDur": 5,
@@ -4578,7 +4686,7 @@
     "tags": ["Secondary", "Pistol", "Shotgun Sidearm"],
     "traits": ["Prime", "Vaulted"],
     "mastery": 14,
-    "disposition": 0.75,
+    "disposition": 0.8,
     "polarities": "rrr",
     "reload": 2,
     "magazine": 5,
@@ -4636,10 +4744,43 @@
     ]
   },
   {
+    "name": "Exard Scaffold",
+    "tags": ["Amp"],
+    "traits": ["Sentient"],
+    "disposition": 0,
+    "reload": 3.3333333333333335,
+    "magazine": 100,
+    "reloadStyle": 1,
+    "modes": [
+      {
+        "name": "Direct Hit",
+        "damage": { "Impact": 200 },
+        "fireRate": 496,
+        "critChance": 0.17,
+        "critMul": 1.9,
+        "procChance": 0.33,
+        "accuracy": 10,
+        "range": 40,
+        "ammoCost": 20,
+        "trigger": "Burst"
+      },
+      {
+        "type": "area",
+        "name": "Explosion",
+        "damage": { "Void": 2600 },
+        "critChance": 0.17,
+        "critMul": 1.9,
+        "procChance": 0.33,
+        "radius": 1,
+        "falloff": [0, 1, 0.3]
+      }
+    ]
+  },
+  {
     "name": "Exergis",
     "tags": ["Primary", "Shotgun"],
     "mastery": 8,
-    "disposition": 1.05,
+    "disposition": 1.1,
     "polarities": "d",
     "reload": 1.6,
     "magazine": 1,
@@ -4999,7 +5140,7 @@
     "name": "Fulmin",
     "tags": ["Primary", "Rifle", "Assault Rifle"],
     "mastery": 8,
-    "disposition": 0.65,
+    "disposition": 0.6,
     "reload": 1,
     "magazine": 60,
     "maxAmmo": "Infinite",
@@ -5234,7 +5375,7 @@
         "tags": ["Melee", "Heavy Blade"],
         "traits": ["Prime", "Vaulted"],
         "mastery": 13,
-        "disposition": 0.75,
+        "disposition": 0.8,
         "polarities": "rr",
         "stancePolarity": "d",
         "comboDur": 5,
@@ -5476,7 +5617,7 @@
         "tags": ["Melee", "Glaive"],
         "traits": ["Prime", "Vaulted"],
         "mastery": 10,
-        "disposition": 1.05,
+        "disposition": 0.9,
         "polarities": "r-",
         "stancePolarity": "-",
         "comboDur": 5,
@@ -5734,7 +5875,7 @@
         "tags": ["Melee", "Heavy Blade"],
         "traits": ["Prime"],
         "mastery": 14,
-        "disposition": 0.8,
+        "disposition": 0.75,
         "polarities": "rr",
         "stancePolarity": "d",
         "comboDur": 5,
@@ -5758,6 +5899,39 @@
             "procChance": 0.32
           }
         ]
+      }
+    ]
+  },
+  {
+    "name": "Granmu Prism",
+    "tags": ["Amp"],
+    "traits": ["Sentient"],
+    "disposition": 0,
+    "reload": 3.3333333333333335,
+    "magazine": 100,
+    "reloadStyle": 1,
+    "modes": [
+      {
+        "name": "Direct Hit",
+        "damage": { "Void": 1000 },
+        "fireRate": 124,
+        "critChance": 0.26,
+        "critMul": 2,
+        "procChance": 0.12,
+        "accuracy": 100,
+        "ammoCost": 5,
+        "trigger": "Burst",
+        "burstCount": 3
+      },
+      {
+        "type": "area",
+        "name": "Explosion",
+        "damage": { "Void": 1400 },
+        "critChance": 0.26,
+        "critMul": 2,
+        "procChance": 0.12,
+        "radius": 3.5,
+        "falloff": [0, 3.5, 0.3]
       }
     ]
   },
@@ -5878,7 +6052,7 @@
     "tags": ["Melee", "Polearm"],
     "traits": ["Tenno"],
     "mastery": 4,
-    "disposition": 1,
+    "disposition": 1.05,
     "polarities": "dr",
     "stancePolarity": "=",
     "comboDur": 5,
@@ -5908,7 +6082,7 @@
         "tags": ["Melee", "Polearm"],
         "traits": ["Prime"],
         "mastery": 12,
-        "disposition": 0.6,
+        "disposition": 0.65,
         "polarities": "drr",
         "stancePolarity": "=",
         "comboDur": 6,
@@ -6038,7 +6212,7 @@
         "tags": ["Melee", "Glaive"],
         "traits": ["Grineer", "Wraith", "Baro"],
         "mastery": 13,
-        "disposition": 0.5,
+        "disposition": 0.75,
         "polarities": "r-r",
         "stancePolarity": "-",
         "comboDur": 5,
@@ -6280,7 +6454,7 @@
     "tags": ["Melee", "Hammer"],
     "traits": ["Cephalon Simaris"],
     "mastery": 9,
-    "disposition": 1.3,
+    "disposition": 1.35,
     "stancePolarity": "r",
     "comboDur": 5,
     "followThrough": 0.4,
@@ -6309,7 +6483,7 @@
         "tags": ["Melee", "Hammer"],
         "traits": ["Syndicate", "Cephalon Suda"],
         "mastery": 11,
-        "disposition": 1.3,
+        "disposition": 1.35,
         "stancePolarity": "r",
         "comboDur": 5,
         "followThrough": 0.4,
@@ -6472,7 +6646,7 @@
         "tags": ["Primary", "Rifle", "Assault Rifle", "Kuva Weapon"],
         "traits": ["Grineer"],
         "mastery": 15,
-        "disposition": 1.05,
+        "disposition": 1,
         "polarities": "r",
         "reload": 2.3,
         "magazine": 90,
@@ -6550,7 +6724,7 @@
     "tags": ["Secondary", "Pistol"],
     "traits": ["Tenno"],
     "mastery": 7,
-    "disposition": 1.2,
+    "disposition": 1.15,
     "polarities": "r",
     "reload": 1.7,
     "magazine": 16,
@@ -6630,7 +6804,7 @@
     "name": "Imperator",
     "tags": ["Arch-Gun"],
     "traits": ["Tenno"],
-    "disposition": 1.05,
+    "disposition": 1,
     "polarities": "r",
     "reload": 5,
     "magazine": 250,
@@ -6795,7 +6969,7 @@
     "tags": ["Melee", "Hammer"],
     "traits": ["Grineer"],
     "mastery": 5,
-    "disposition": 1.3,
+    "disposition": 1.35,
     "polarities": "r-",
     "stancePolarity": "r",
     "comboDur": 5,
@@ -7143,7 +7317,7 @@
     "tags": ["Melee", "Claws"],
     "traits": ["Infested"],
     "mastery": 9,
-    "disposition": 0.9,
+    "disposition": 1,
     "stancePolarity": "r",
     "comboDur": 5,
     "followThrough": 0.8,
@@ -7261,6 +7435,52 @@
         "procChance": 0.14,
         "radius": 4,
         "falloff": [0, 4, 0]
+      }
+    ]
+  },
+  {
+    "name": "Klamora Prism",
+    "tags": ["Amp", "Continuous"],
+    "traits": ["Sentient"],
+    "disposition": 0,
+    "reload": 3.3333333333333335,
+    "magazine": 100,
+    "reloadStyle": 1,
+    "modes": [
+      {
+        "name": "Normal",
+        "damage": { "Void": 600 },
+        "fireRate": 720,
+        "critChance": 0.38,
+        "critMul": 2.4,
+        "procChance": 0.1,
+        "accuracy": 100,
+        "range": 13,
+        "ammoCost": 30,
+        "trigger": "Held"
+      }
+    ]
+  },
+  {
+    "name": "Klebrik Scaffold",
+    "tags": ["Amp", "Continuous"],
+    "traits": ["Sentient"],
+    "disposition": 0,
+    "reload": 3.3333333333333335,
+    "magazine": 100,
+    "reloadStyle": 1,
+    "modes": [
+      {
+        "name": "Normal",
+        "damage": { "Void": 320 },
+        "fireRate": 720,
+        "critChance": 0.16,
+        "critMul": 1.6,
+        "procChance": 0.14,
+        "accuracy": 100,
+        "range": 25,
+        "ammoCost": 3,
+        "trigger": "Held"
       }
     ]
   },
@@ -7515,7 +7735,7 @@
     "name": "Korrudo",
     "tags": ["Melee", "Sparring"],
     "mastery": 9,
-    "disposition": 1.3,
+    "disposition": 1.35,
     "stancePolarity": "-",
     "comboDur": 5,
     "followThrough": 0.9,
@@ -7684,7 +7904,7 @@
         "tags": ["Melee", "Tonfa"],
         "traits": ["Prime", "Vaulted"],
         "mastery": 13,
-        "disposition": 0.7,
+        "disposition": 0.65,
         "polarities": "r-",
         "stancePolarity": "r",
         "comboDur": 5,
@@ -7882,10 +8102,12 @@
       },
       {
         "type": "secondary",
-        "name": "Cluster Bomb Explosion",
-        "damage": { "Blast": 171 },
-        "pellets": 3,
-        "falloff": [0, 3.5, 0.5]
+        "name": "Cluster Bomb Contact",
+        "damage": { "Impact": 147 },
+        "critChance": 0.35,
+        "critMul": 2.1,
+        "procChance": 0.21,
+        "pellets": 3
       },
       {
         "type": "area",
@@ -7896,12 +8118,10 @@
       },
       {
         "type": "secondaryArea",
-        "name": "Cluster Bomb Contact",
-        "damage": { "Impact": 147 },
-        "critChance": 0.35,
-        "critMul": 2.1,
-        "procChance": 0.21,
-        "pellets": 3
+        "name": "Cluster Bomb Explosion",
+        "damage": { "Blast": 171 },
+        "pellets": 3,
+        "falloff": [0, 3.5, 0.5]
       }
     ]
   },
@@ -8026,7 +8246,7 @@
         "tags": ["Melee", "Blade and Whip"],
         "traits": ["Tenno"],
         "mastery": 12,
-        "disposition": 1.15,
+        "disposition": 1.1,
         "polarities": "-",
         "stancePolarity": "r",
         "comboDur": 5,
@@ -8079,7 +8299,7 @@
     "tags": ["Primary", "Rifle", "Sniper"],
     "traits": ["Corpus"],
     "mastery": 10,
-    "disposition": 0.95,
+    "disposition": 1,
     "reload": 2,
     "magazine": 10,
     "maxAmmo": 72,
@@ -8135,18 +8355,7 @@
         "trigger": "Held"
       },
       {
-        "type": "charge",
-        "name": "Projectile Impact",
-        "damage": { "Impact": 140, "Blast": 180, "Radiation": 100 },
-        "fireRate": 60,
-        "critChance": 0.26,
-        "critMul": 2.2,
-        "procChance": 0.34,
-        "accuracy": 100,
-        "chargeTime": 0.5
-      },
-      {
-        "type": "area",
+        "type": "secondaryArea",
         "name": "Explosion",
         "damage": { "Blast": 400, "Radiation": 400 },
         "fireRate": 60,
@@ -8178,17 +8387,7 @@
             "trigger": "Held"
           },
           {
-            "type": "charge",
-            "damage": { "Impact": 140, "Blast": 180, "Radiation": 100 },
-            "fireRate": 60,
-            "critChance": 0.26,
-            "critMul": 2.2,
-            "procChance": 0.34,
-            "accuracy": 100,
-            "chargeTime": 0.5
-          },
-          {
-            "type": "area",
+            "type": "secondaryArea",
             "name": "Explosion",
             "damage": { "Blast": 400, "Radiation": 400 },
             "fireRate": 60,
@@ -8379,7 +8578,7 @@
     "name": "Lecta",
     "tags": ["Melee", "Whip"],
     "traits": ["Corpus"],
-    "disposition": 1.2,
+    "disposition": 1.25,
     "stancePolarity": "d",
     "comboDur": 5,
     "followThrough": 0.5,
@@ -8408,7 +8607,7 @@
         "tags": ["Melee", "Whip"],
         "traits": ["Syndicate", "Perrin Sequence"],
         "mastery": 8,
-        "disposition": 1.05,
+        "disposition": 1.1,
         "polarities": "d",
         "stancePolarity": "d",
         "comboDur": 5,
@@ -8432,6 +8631,29 @@
             "procChance": 0.3
           }
         ]
+      }
+    ]
+  },
+  {
+    "name": "Lega Prism",
+    "tags": ["Amp", "Continuous"],
+    "traits": ["Sentient"],
+    "disposition": 0,
+    "reload": 3.3333333333333335,
+    "magazine": 100,
+    "reloadStyle": 1,
+    "modes": [
+      {
+        "name": "Normal",
+        "damage": { "Void": 600 },
+        "fireRate": 450,
+        "critChance": 0.08,
+        "critMul": 1.6,
+        "procChance": 0.34,
+        "accuracy": 100,
+        "range": 28,
+        "ammoCost": 6,
+        "trigger": "Held"
       }
     ]
   },
@@ -8820,13 +9042,12 @@
       },
       {
         "type": "secondary",
-        "name": "Charged Shot Explosion",
-        "damage": { "Heat": 3000 },
-        "fireRate": 30,
+        "name": "Charged Shot Projectile",
+        "damage": { "Impact": 100, "Puncture": 400, "Heat": 500 },
         "critChance": 0.5,
         "critMul": 3.5,
         "procChance": 0.5,
-        "falloff": [0, 8, 0.4]
+        "chargeTime": 0.8
       },
       {
         "type": "area",
@@ -8837,12 +9058,13 @@
       },
       {
         "type": "secondaryArea",
-        "name": "Charged Shot Projectile",
-        "damage": { "Impact": 100, "Puncture": 400, "Heat": 500 },
+        "name": "Charged Shot Explosion",
+        "damage": { "Heat": 3000 },
+        "fireRate": 30,
         "critChance": 0.5,
         "critMul": 3.5,
         "procChance": 0.5,
-        "chargeTime": 0.8
+        "falloff": [0, 8, 0.4]
       }
     ],
     "variants": [
@@ -8869,13 +9091,12 @@
           },
           {
             "type": "secondary",
-            "name": "Charged Shot Explosion",
-            "damage": { "Heat": 3000 },
-            "fireRate": 30,
+            "name": "Charged Shot Projectile",
+            "damage": { "Impact": 100, "Puncture": 400, "Heat": 500 },
             "critChance": 0.5,
             "critMul": 3.5,
             "procChance": 0.5,
-            "trigger": "Semi-Auto"
+            "chargeTime": 0.8
           },
           {
             "type": "area",
@@ -8886,12 +9107,13 @@
           },
           {
             "type": "secondaryArea",
-            "name": "Charged Shot Projectile",
-            "damage": { "Impact": 100, "Puncture": 400, "Heat": 500 },
+            "name": "Charged Shot Explosion",
+            "damage": { "Heat": 3000 },
+            "fireRate": 30,
             "critChance": 0.5,
             "critMul": 3.5,
             "procChance": 0.5,
-            "chargeTime": 0.8
+            "trigger": "Semi-Auto"
           }
         ]
       }
@@ -8994,7 +9216,7 @@
     "tags": ["Arch-Gun"],
     "traits": ["Entrati"],
     "mastery": 15,
-    "disposition": 0.7,
+    "disposition": 0.85,
     "polarities": "r",
     "reload": 2,
     "magazine": 100,
@@ -9013,6 +9235,24 @@
       },
       {
         "type": "secondary",
+        "damage": { "Impact": 100 },
+        "fireRate": 50,
+        "critChance": 0.4,
+        "critMul": 3,
+        "procChance": 0.5,
+        "accuracy": 100,
+        "trigger": "Semi"
+      },
+      {
+        "type": "area",
+        "name": "Radial Attack",
+        "damage": { "Blast": 164 },
+        "radius": 3,
+        "burstCount": 2,
+        "falloff": [0, 3, 0.3]
+      },
+      {
+        "type": "secondaryArea",
         "name": "Charged Shot Explosion",
         "damage": {
           "Impact": 600,
@@ -9027,24 +9267,6 @@
         "radius": 20,
         "trigger": "Semi",
         "falloff": [0, 20, 0.6]
-      },
-      {
-        "type": "area",
-        "name": "Radial Attack",
-        "damage": { "Blast": 164 },
-        "radius": 3,
-        "burstCount": 2,
-        "falloff": [0, 3, 0.3]
-      },
-      {
-        "type": "secondaryArea",
-        "damage": { "Impact": 100 },
-        "fireRate": 50,
-        "critChance": 0.4,
-        "critMul": 3,
-        "procChance": 0.5,
-        "accuracy": 100,
-        "trigger": "Semi"
       }
     ],
     "variants": [
@@ -9072,6 +9294,24 @@
           },
           {
             "type": "secondary",
+            "damage": { "Impact": 100 },
+            "fireRate": 50,
+            "critChance": 0.4,
+            "critMul": 3,
+            "procChance": 0.5,
+            "accuracy": 100,
+            "trigger": "Semi"
+          },
+          {
+            "type": "area",
+            "name": "Radial Attack",
+            "damage": { "Blast": 164 },
+            "radius": 3,
+            "burstCount": 2,
+            "falloff": [0, 3, 0.3]
+          },
+          {
+            "type": "secondaryArea",
             "name": "Charged Shot Explosion",
             "damage": {
               "Impact": 600,
@@ -9086,26 +9326,31 @@
             "radius": 12,
             "trigger": "Semi",
             "falloff": [0, 20, 0.6]
-          },
-          {
-            "type": "area",
-            "name": "Radial Attack",
-            "damage": { "Blast": 164 },
-            "radius": 3,
-            "burstCount": 2,
-            "falloff": [0, 3, 0.3]
-          },
-          {
-            "type": "secondaryArea",
-            "damage": { "Impact": 100 },
-            "fireRate": 50,
-            "critChance": 0.4,
-            "critMul": 3,
-            "procChance": 0.5,
-            "accuracy": 100,
-            "trigger": "Semi"
           }
         ]
+      }
+    ]
+  },
+  {
+    "name": "Mote Amp",
+    "tags": ["Amp", "Continuous"],
+    "traits": ["Sentient"],
+    "disposition": 0,
+    "reload": 3.3333333333333335,
+    "magazine": 100,
+    "reloadStyle": 1,
+    "modes": [
+      {
+        "name": "Normal",
+        "damage": { "Void": 240 },
+        "fireRate": 720,
+        "critChance": 0.2,
+        "critMul": 1.5,
+        "procChance": 0,
+        "accuracy": 100,
+        "range": 30,
+        "ammoCost": 6,
+        "trigger": "Held"
       }
     ]
   },
@@ -9144,6 +9389,7 @@
     "modes": [
       {
         "damage": { "Impact": 184.5, "Puncture": 10.25, "Slash": 10.25 },
+        "fireRate": 60,
         "critChance": 0.15,
         "critMul": 2,
         "procChance": 0.49,
@@ -9188,24 +9434,26 @@
       },
       {
         "type": "secondary",
+        "name": "Infested Orb",
+        "damage": { "Radiation": 20 },
+        "critChance": 0,
+        "critMul": 0,
+        "procChance": 0.39,
+        "radius": 2,
+        "ammoCost": 5,
+        "falloff": [0, 2, 0]
+      },
+      {
+        "type": "secondaryArea",
         "name": "Orb Explosion",
         "damage": { "Toxin": 100 },
         "fireRate": 600,
         "critChance": 0.05,
         "critMul": 1.5,
-        "procChance": 0.39,
+        "procChance": 0,
         "accuracy": 25,
         "radius": 4.4,
         "falloff": [0, 4.4, 0.5]
-      },
-      {
-        "type": "area",
-        "name": "Infested Orb",
-        "damage": { "Radiation": 20 },
-        "critChance": 0,
-        "critMul": 0,
-        "procChance": 1,
-        "ammoCost": 5
       }
     ]
   },
@@ -9341,7 +9589,7 @@
     "tags": ["Melee", "Nikana"],
     "traits": ["Tenno"],
     "mastery": 4,
-    "disposition": 0.9,
+    "disposition": 0.95,
     "polarities": "rd",
     "stancePolarity": "r",
     "comboDur": 5,
@@ -9994,7 +10242,7 @@
         "tags": ["Secondary", "Pistol"],
         "traits": ["Prime"],
         "mastery": 14,
-        "disposition": 0.5,
+        "disposition": 0.75,
         "polarities": "r",
         "reload": 1,
         "magazine": 8,
@@ -10124,7 +10372,7 @@
         "tags": ["Primary", "Rifle", "Assault Rifle"],
         "traits": ["Prime"],
         "mastery": 14,
-        "disposition": 1.05,
+        "disposition": 1.15,
         "polarities": "r-",
         "reload": 2.4,
         "magazine": 80,
@@ -10239,6 +10487,7 @@
     "modes": [
       {
         "damage": { "Impact": 8, "Puncture": 120, "Slash": 32 },
+        "fireRate": 60,
         "critChance": 0.3,
         "critMul": 2,
         "procChance": 0.1,
@@ -10271,6 +10520,7 @@
         "modes": [
           {
             "damage": { "Impact": 5.75, "Puncture": 86.25, "Slash": 23 },
+            "fireRate": 60,
             "critChance": 0.3,
             "critMul": 2,
             "procChance": 0.15,
@@ -10281,6 +10531,7 @@
           {
             "type": "charge",
             "damage": { "Impact": 11.5, "Puncture": 184, "Slash": 34.5 },
+            "fireRate": 60,
             "critChance": 0.3,
             "critMul": 2,
             "procChance": 0.15,
@@ -10303,6 +10554,7 @@
         "modes": [
           {
             "damage": { "Impact": 9, "Puncture": 153, "Slash": 18 },
+            "fireRate": 60,
             "critChance": 0.45,
             "critMul": 2,
             "procChance": 0.2,
@@ -10398,6 +10650,40 @@
         "procChance": 0.35,
         "radius": 4.9,
         "falloff": [0, 4.9, 0]
+      }
+    ]
+  },
+  {
+    "name": "Pencha Scaffold",
+    "tags": ["Amp"],
+    "traits": ["Sentient"],
+    "disposition": 0,
+    "reload": 3.3333333333333335,
+    "magazine": 100,
+    "reloadStyle": 1,
+    "modes": [
+      {
+        "name": "Direct Hit",
+        "damage": { "Void": 4500 },
+        "fireRate": 120,
+        "critChance": 0.14,
+        "critMul": 1.6,
+        "procChance": 0.18,
+        "accuracy": 100,
+        "punchThrough": 2,
+        "range": 40,
+        "ammoCost": 10,
+        "chargeTime": 0.8,
+        "trigger": "Charge"
+      },
+      {
+        "type": "area",
+        "name": "Area of Effect",
+        "damage": { "Void": 4500 },
+        "critChance": 0.14,
+        "critMul": 1.6,
+        "procChance": 0.18,
+        "radius": 1
       }
     ]
   },
@@ -10603,6 +10889,39 @@
     ]
   },
   {
+    "name": "Phahd Scaffold",
+    "tags": ["Amp"],
+    "traits": ["Sentient"],
+    "disposition": 0,
+    "reload": 3.3333333333333335,
+    "magazine": 100,
+    "reloadStyle": 1,
+    "modes": [
+      {
+        "name": "Direct Hit",
+        "damage": { "Void": 3000 },
+        "fireRate": 100,
+        "critChance": 0.34,
+        "critMul": 2.6,
+        "procChance": 0.12,
+        "accuracy": 9.1,
+        "range": 300,
+        "ammoCost": 20,
+        "trigger": "Semi-Auto"
+      },
+      {
+        "type": "area",
+        "name": "Explosion",
+        "damage": { "Void": 1100 },
+        "critChance": 0.34,
+        "critMul": 2.6,
+        "procChance": 0.12,
+        "radius": 5,
+        "falloff": [0, 5, 0.3]
+      }
+    ]
+  },
+  {
     "name": "Phantasma",
     "tags": ["Primary", "Shotgun", "Continuous"],
     "traits": ["Sentient"],
@@ -10625,31 +10944,20 @@
         "trigger": "Held"
       },
       {
-        "type": "charge",
-        "name": "Plasma Bomb",
-        "damage": { "Impact": 15 },
-        "fireRate": 120,
-        "critChance": 0.03,
-        "critMul": 1.5,
-        "procChance": 0.37,
-        "ammoCost": 1,
-        "chargeTime": 1
-      },
-      {
-        "type": "area",
-        "name": "Bomb Explosion",
-        "damage": { "Radiation": 73 },
-        "radius": 4.8,
-        "falloff": [0, 4.8, 0.5]
-      },
-      {
-        "type": "secondaryArea",
+        "type": "secondary",
         "name": "Cluster Bombs",
         "damage": { "Impact": 75 },
         "critChance": 0.03,
         "critMul": 1.5,
         "procChance": 0.37,
         "pellets": 5
+      },
+      {
+        "type": "secondaryArea",
+        "name": "Bomb Explosion",
+        "damage": { "Radiation": 73 },
+        "radius": 4.8,
+        "falloff": [0, 4.8, 0.5]
       }
     ]
   },
@@ -10715,7 +11023,7 @@
     "tags": ["Secondary", "Thrown"],
     "traits": ["Infested"],
     "mastery": 9,
-    "disposition": 1.2,
+    "disposition": 1.15,
     "polarities": "rr",
     "reload": 1,
     "magazine": 4,
@@ -10746,7 +11054,7 @@
     "tags": ["Primary", "Rifle", "Bow"],
     "traits": ["Infested"],
     "mastery": 15,
-    "disposition": 0.5,
+    "disposition": 0.55,
     "polarities": "--",
     "reload": 0.6,
     "magazine": 1,
@@ -10770,6 +11078,39 @@
         "damage": { "Viral": 1003 },
         "radius": 7,
         "falloff": [0, 7, 0.5]
+      }
+    ]
+  },
+  {
+    "name": "Propa Scaffold",
+    "tags": ["Amp"],
+    "traits": ["Sentient"],
+    "disposition": 0,
+    "reload": 3.3333333333333335,
+    "magazine": 100,
+    "reloadStyle": 1,
+    "modes": [
+      {
+        "name": "Direct Hit",
+        "damage": { "Void": 0 },
+        "fireRate": 120,
+        "critChance": 0.3,
+        "critMul": 2,
+        "procChance": 0,
+        "accuracy": 9.1,
+        "range": 2,
+        "ammoCost": 40,
+        "trigger": "Semi-Auto"
+      },
+      {
+        "type": "area",
+        "name": "Explosion",
+        "damage": { "Void": 9000 },
+        "critChance": 0.3,
+        "critMul": 2,
+        "procChance": 0,
+        "radius": 14,
+        "falloff": [0, 14, 0.7]
       }
     ]
   },
@@ -10865,7 +11206,7 @@
     "tags": ["Melee", "Nunchaku"],
     "traits": ["Infested"],
     "mastery": 11,
-    "disposition": 0.85,
+    "disposition": 1.05,
     "polarities": "rr",
     "stancePolarity": "d",
     "comboDur": 9,
@@ -10925,7 +11266,7 @@
     "tags": ["Secondary", "Pistol", "Shotgun Sidearm"],
     "traits": ["Tenno"],
     "mastery": 12,
-    "disposition": 0.95,
+    "disposition": 0.9,
     "reload": 2,
     "magazine": 10,
     "maxAmmo": 210,
@@ -11148,7 +11489,7 @@
     "tags": ["Melee", "Warfan"],
     "traits": ["Tenno"],
     "mastery": 8,
-    "disposition": 0.95,
+    "disposition": 1,
     "stancePolarity": "-",
     "comboDur": 5,
     "followThrough": 0.7,
@@ -11176,7 +11517,7 @@
     "name": "Quatz",
     "tags": ["Secondary", "Pistol"],
     "mastery": 9,
-    "disposition": 1.2,
+    "disposition": 1.15,
     "reload": 2.7,
     "magazine": 72,
     "maxAmmo": 504,
@@ -11209,7 +11550,7 @@
     "tags": ["Primary", "Rifle", "Assault Rifle"],
     "traits": ["Tenno"],
     "mastery": 12,
-    "disposition": 1.05,
+    "disposition": 1.1,
     "polarities": "rr",
     "reload": 4,
     "magazine": 300,
@@ -11240,6 +11581,50 @@
     ]
   },
   {
+    "name": "Rahn Prism",
+    "tags": ["Amp"],
+    "traits": ["Sentient"],
+    "disposition": 0,
+    "reload": 3.3333333333333335,
+    "magazine": 100,
+    "reloadStyle": 1,
+    "modes": [
+      {
+        "name": "Normal",
+        "damage": { "Void": 1000 },
+        "fireRate": 340,
+        "critChance": 0.3,
+        "critMul": 2,
+        "procChance": 0.04,
+        "accuracy": 32,
+        "ammoCost": 3,
+        "trigger": "Auto"
+      }
+    ]
+  },
+  {
+    "name": "Raplak Prism",
+    "tags": ["Amp"],
+    "traits": ["Sentient"],
+    "disposition": 0,
+    "reload": 3.3333333333333335,
+    "magazine": 100,
+    "reloadStyle": 1,
+    "modes": [
+      {
+        "name": "Normal",
+        "damage": { "Void": 3000 },
+        "fireRate": 120,
+        "critChance": 0.38,
+        "critMul": 2.6,
+        "procChance": 0.1,
+        "accuracy": 32,
+        "ammoCost": 10,
+        "trigger": "Semi-Auto"
+      }
+    ]
+  },
+  {
     "name": "Rathbone",
     "tags": ["Arch-Melee"],
     "traits": ["Tenno"],
@@ -11262,7 +11647,7 @@
     "tags": ["Melee", "Scythe"],
     "traits": ["Prime", "Vaulted"],
     "mastery": 10,
-    "disposition": 0.75,
+    "disposition": 0.7,
     "stancePolarity": "-",
     "comboDur": 5,
     "followThrough": 0.6,
@@ -11291,7 +11676,7 @@
     "tags": ["Melee", "Gunblade"],
     "traits": ["Tenno"],
     "mastery": 4,
-    "disposition": 1.05,
+    "disposition": 1.1,
     "stancePolarity": "r",
     "comboDur": 5,
     "followThrough": 0.5,
@@ -11424,7 +11809,7 @@
     "tags": ["Primary", "Rifle", "Sniper"],
     "traits": ["Tenno"],
     "mastery": 6,
-    "disposition": 0.8,
+    "disposition": 0.9,
     "reload": 2.4,
     "magazine": 5,
     "maxAmmo": 72,
@@ -11743,7 +12128,7 @@
     "tags": ["Secondary", "Pistol"],
     "traits": ["Entrati"],
     "mastery": 14,
-    "disposition": 0.85,
+    "disposition": 0.95,
     "reload": 4,
     "magazine": 90,
     "maxAmmo": 180,
@@ -11951,6 +12336,63 @@
     ]
   },
   {
+    "name": "Shraksun Scaffold",
+    "tags": ["Amp"],
+    "traits": ["Sentient"],
+    "disposition": 0,
+    "reload": 3.3333333333333335,
+    "magazine": 100,
+    "reloadStyle": 1,
+    "modes": [
+      {
+        "name": "Direct Hit",
+        "damage": { "Void": 3000 },
+        "fireRate": 80,
+        "critChance": 0.2,
+        "critMul": 2,
+        "procChance": 0.2,
+        "accuracy": 9.1,
+        "range": 10,
+        "ammoCost": 10,
+        "trigger": "Semi-Auto"
+      },
+      {
+        "type": "area",
+        "name": "Explosion",
+        "damage": { "Void": 4500 },
+        "critChance": 0.2,
+        "critMul": 2,
+        "procChance": 0.2,
+        "radius": 7,
+        "falloff": [0, 7, 0.4]
+      }
+    ]
+  },
+  {
+    "name": "Shwaak Prism",
+    "tags": ["Amp"],
+    "traits": ["Sentient"],
+    "disposition": 0,
+    "reload": 3.3333333333333335,
+    "magazine": 100,
+    "reloadStyle": 1,
+    "modes": [
+      {
+        "name": "Normal",
+        "damage": { "Void": 3500 },
+        "fireRate": 80,
+        "critChance": 0.1,
+        "critMul": 1.6,
+        "procChance": 0.2,
+        "accuracy": 9.1,
+        "range": 32.5,
+        "ammoCost": 10,
+        "trigger": "Semi-Auto",
+        "falloff": [16, 25, 0.54]
+      }
+    ]
+  },
+  {
     "name": "Sibear",
     "tags": ["Melee", "Hammer"],
     "traits": ["Tenno"],
@@ -12140,7 +12582,7 @@
         "trigger": "Active"
       },
       {
-        "type": "area",
+        "type": "secondary",
         "name": "Orb Explosion",
         "damage": { "Magnetic": 200 },
         "critChance": 0.12,
@@ -12185,7 +12627,7 @@
             "falloff": [0, 5, 1]
           },
           {
-            "type": "area",
+            "type": "secondaryArea",
             "name": "Singularity",
             "damage": { "Magnetic": 50 },
             "fireRate": 240,
@@ -12585,7 +13027,7 @@
     "tags": ["Primary", "Rifle", "Sniper"],
     "traits": ["Infested"],
     "mastery": 13,
-    "disposition": 0.85,
+    "disposition": 1.1,
     "polarities": "d",
     "reload": 2.7,
     "magazine": 9,
@@ -12618,7 +13060,7 @@
     "tags": ["Primary", "Rifle", "Assault Rifle"],
     "traits": ["Corpus"],
     "mastery": 10,
-    "disposition": 0.8,
+    "disposition": 0.85,
     "polarities": "r",
     "reload": 1.4,
     "magazine": 40,
@@ -12654,7 +13096,7 @@
     "tags": ["Secondary", "Dual Pistols"],
     "traits": ["Corpus"],
     "mastery": 10,
-    "disposition": 0.65,
+    "disposition": 0.7,
     "polarities": "-",
     "reload": 1.5,
     "magazine": 48,
@@ -12958,7 +13400,7 @@
     "tags": ["Primary", "Rifle", "Assault Rifle"],
     "traits": ["Corpus"],
     "mastery": 12,
-    "disposition": 1.05,
+    "disposition": 1,
     "reload": 3,
     "magazine": 180,
     "maxAmmo": 1080,
@@ -12980,7 +13422,7 @@
         "tags": ["Primary", "Rifle", "Assault Rifle"],
         "traits": ["Corpus", "Vandal"],
         "mastery": 14,
-        "disposition": 0.95,
+        "disposition": 0.9,
         "polarities": "rr",
         "reload": 3,
         "magazine": 300,
@@ -13119,7 +13561,7 @@
     "tags": ["Melee", "Polearm"],
     "traits": ["Grineer"],
     "mastery": 5,
-    "disposition": 1.3,
+    "disposition": 1.35,
     "stancePolarity": "=",
     "comboDur": 5,
     "followThrough": 0.6,
@@ -13148,7 +13590,7 @@
         "tags": ["Melee", "Polearm"],
         "traits": ["Syndicate", "Steel Meridian"],
         "mastery": 11,
-        "disposition": 1.25,
+        "disposition": 1.3,
         "polarities": "r",
         "stancePolarity": "=",
         "comboDur": 5,
@@ -13461,7 +13903,7 @@
     "tags": ["Primary", "Rifle", "Assault Rifle"],
     "traits": ["Tenno"],
     "mastery": 10,
-    "disposition": 1,
+    "disposition": 1.05,
     "polarities": "r",
     "reload": 2.26,
     "magazine": 30,
@@ -13484,7 +13926,7 @@
         "tags": ["Primary", "Rifle", "Assault Rifle"],
         "traits": ["Prime", "Vaulted"],
         "mastery": 14,
-        "disposition": 0.85,
+        "disposition": 0.9,
         "polarities": "r--",
         "reload": 2,
         "magazine": 42,
@@ -13551,7 +13993,7 @@
         "tags": ["Primary", "Shotgun"],
         "traits": ["Syndicate", "New Loka"],
         "mastery": 12,
-        "disposition": 0.95,
+        "disposition": 0.9,
         "polarities": "d-r",
         "reload": 1.5,
         "magazine": 2,
@@ -13575,7 +14017,7 @@
         "tags": ["Primary", "Shotgun"],
         "traits": ["Prime", "Vaulted"],
         "mastery": 13,
-        "disposition": 0.85,
+        "disposition": 0.8,
         "polarities": "r-",
         "reload": 1.8,
         "magazine": 2,
@@ -13794,7 +14236,7 @@
     "tags": ["Primary", "Rifle", "Assault Rifle"],
     "traits": ["Entrati"],
     "mastery": 13,
-    "disposition": 0.7,
+    "disposition": 0.75,
     "reload": 5,
     "magazine": 200,
     "maxAmmo": 400,
@@ -13831,8 +14273,34 @@
         "type": "secondaryArea",
         "name": "Semi Radial Attack",
         "damage": { "Heat": 1000 },
+        "fireRate": 80,
+        "critChance": 0.38,
+        "critMul": 2.4,
+        "procChance": 0.5,
         "radius": 6,
         "falloff": [0, 6, 0.4]
+      }
+    ]
+  },
+  {
+    "name": "Tunguska Cannon",
+    "tags": ["Railjack", "Railjack Turret"],
+    "mastery": 14,
+    "disposition": 0,
+    "reload": 1,
+    "magazine": 1,
+    "maxAmmo": 2,
+    "modes": [
+      {
+        "type": "charge",
+        "damage": { "Impact": 5650, "Puncture": 48025, "Slash": 2825 },
+        "fireRate": 60,
+        "critChance": 3,
+        "critMul": 2,
+        "procChance": 0,
+        "accuracy": 100,
+        "chargeTime": 4,
+        "trigger": "Charge"
       }
     ]
   },
@@ -14098,11 +14566,11 @@
     "tags": ["Melee", "Sparring"],
     "disposition": 0,
     "comboDur": 5,
-    "followThrough": 0,
-    "meleeRange": 0,
-    "slamAttack": 0,
+    "followThrough": 0.5,
+    "meleeRange": 0.5,
+    "slamAttack": 2,
     "slamRadialDmg": 0,
-    "slamRadius": 0,
+    "slamRadius": 7,
     "heavyAttack": 0,
     "windUp": 0,
     "heavySlamAttack": 0,
@@ -14365,7 +14833,7 @@
     "tags": ["Secondary", "Pistol"],
     "traits": ["Tenno"],
     "mastery": 8,
-    "disposition": 1.1,
+    "disposition": 1.15,
     "polarities": "rr",
     "reload": 2.6,
     "magazine": 62,
@@ -14557,7 +15025,7 @@
     "tags": ["Melee", "Heavy Blade"],
     "traits": ["Orokin"],
     "mastery": 13,
-    "disposition": 0.7,
+    "disposition": 0.85,
     "polarities": "rr",
     "stancePolarity": "d",
     "comboDur": 10,
@@ -14619,6 +15087,38 @@
         "critChance": 0.18,
         "critMul": 1.6,
         "procChance": 0.3
+      }
+    ],
+    "variants": [
+      {
+        "name": "Volnus Prime",
+        "tags": ["Melee", "Hammer"],
+        "traits": ["Prime"],
+        "mastery": 14,
+        "disposition": 0.5,
+        "polarities": "rr",
+        "stancePolarity": "r",
+        "comboDur": 5,
+        "followThrough": 0.6,
+        "meleeRange": 2.9,
+        "slamAttack": 3,
+        "slamRadialDmg": 1,
+        "slamRadius": 10,
+        "heavyAttack": 6,
+        "windUp": 1.1,
+        "heavySlamAttack": 5,
+        "heavyRadialDmg": 5,
+        "heavySlamRadius": 10,
+        "slideAttack": 2,
+        "modes": [
+          {
+            "damage": { "Impact": 55, "Puncture": 80, "Slash": 115 },
+            "fireRate": 72,
+            "critChance": 0.2,
+            "critMul": 1.8,
+            "procChance": 0.34
+          }
+        ]
       }
     ]
   },
@@ -14792,7 +15292,7 @@
     "slideAttack": 2,
     "modes": [
       {
-        "damage": { "Impact": 132.1, "Puncture": 7.8, "Slash": 119.9 },
+        "damage": { "Impact": 132.1, "Puncture": 7.8, "Slash": 119.1 },
         "fireRate": 60,
         "critChance": 0.17,
         "critMul": 1.9,
@@ -14915,7 +15415,7 @@
         "tags": ["Secondary", "Pistol"],
         "traits": ["Prime"],
         "mastery": 14,
-        "disposition": 0.75,
+        "disposition": 0.9,
         "polarities": "--r",
         "reload": 1,
         "magazine": 8,
@@ -15171,7 +15671,7 @@
     "tags": ["Secondary", "Pistol"],
     "traits": ["Infested"],
     "mastery": 11,
-    "disposition": 0.95,
+    "disposition": 1.05,
     "polarities": "r-",
     "reload": 3.2,
     "magazine": 17,
@@ -15189,9 +15689,31 @@
         "prjSpeed": 79
       },
       {
+        "type": "charge",
+        "name": "Spore Contact",
+        "damage": { "Puncture": 69, "Slash": 69 },
+        "procChance": 0,
+        "pellets": 6
+      },
+      {
+        "type": "secondary",
+        "name": "Headshot Explosion",
+        "damage": { "Toxin": 953 },
+        "radius": 3.3,
+        "falloff": [0, 3.3, 0.3]
+      },
+      {
         "type": "area",
         "name": "Radial Attack",
         "damage": { "Toxin": 61 },
+        "radius": 3.3,
+        "falloff": [0, 3.3, 0.3]
+      },
+      {
+        "type": "secondaryArea",
+        "name": "Spore Explosion",
+        "damage": { "Toxin": 1998 },
+        "pellets": 6,
         "radius": 3.3,
         "falloff": [0, 3.3, 0.3]
       }
