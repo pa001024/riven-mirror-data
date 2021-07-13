@@ -57,6 +57,12 @@ const polarityMap = {
   Q: "w",
   Ability: "=",
   R: "t",
+  Vazarin: "d",
+  Naramon: "-",
+  Madurai: "r",
+  Umbra: "w",
+  Zenurik: "=",
+  Unairu: "t",
 };
 
 const toAttackWiki = (type: string, attack: WikiWeapons.Attack): WeaponMode => {
@@ -70,7 +76,7 @@ const toAttackWiki = (type: string, attack: WikiWeapons.Attack): WeaponMode => {
     CritChance,
     CritMultiplier,
     PunchThrough,
-    PelletCount,
+    Multishot: PelletCount,
     Falloff,
     Radius,
     Range,
@@ -80,7 +86,7 @@ const toAttackWiki = (type: string, attack: WikiWeapons.Attack): WeaponMode => {
     BurstCount,
     ShotSpeed,
   } = attack;
-  const damage = Damage; //_.reduce(Damage, (r, v, i) => (v && (r[i] = v), r), {}); //_.map(Damage, (v, i) => [i, v] as [string, number]);
+  const damage = !PelletCount ? Damage : _.reduce(Damage, (r, v, i) => (v && (r[i] = +(v * PelletCount).toFixed(3)), r), {}); //_.reduce(Damage, (r, v, i) => (v && (r[i] = v), r), {}); //_.map(Damage, (v, i) => [i, v] as [string, number]);
 
   return {
     type,
@@ -182,10 +188,10 @@ function mapNames(name: string) {
 }
 
 const toWeaponWiki = (raw: WikiWeapons.Weapon, noproto = false): ProtoWeapon => {
-  const normal = toAttackWiki(undefined, raw.NormalAttack) || toAttackWiki("charge", raw.ChargeAttack);
+  const normal = toAttackWiki(undefined, raw.Attack1) || toAttackWiki("charge", raw.Attack3);
   if (!normal) return null;
   const totalDamage = ~~_.reduce(normal.damage, (a, b) => a + b);
-  const defaultMode = (raw.NormalAttack && "normal") || "";
+  const defaultMode = (raw.Attack1 && "normal") || "";
   const dataToDefaultMode = {
     accuracy: +(raw.Accuracy + "").split(" ")[0] || undefined,
     range: raw.Range,
@@ -196,13 +202,13 @@ const toWeaponWiki = (raw: WikiWeapons.Weapon, noproto = false): ProtoWeapon => 
   } as WeaponMode;
   const tags = toTags(raw.Type, raw.Class).concat(raw.Name.startsWith("Kuva") ? ["Kuva Weapon"] : []);
   const modes = [
-    !defaultMode ? toAttackWiki(undefined, raw.NormalAttack) : _.merge(toAttackWiki(undefined, raw.NormalAttack), dataToDefaultMode),
-    defaultMode ? toAttackWiki("charge", raw.ChargeAttack) : _.merge(toAttackWiki("charge", raw.ChargeAttack), dataToDefaultMode),
-    toAttackWiki("secondary", raw.SecondaryAttack),
-    toAttackWiki("chargedThrow", raw.ChargedThrowAttack),
-    toAttackWiki("throw", raw.ThrowAttack),
-    toAttackWiki("area", raw.AreaAttack),
-    toAttackWiki("secondaryArea", raw.SecondaryAreaAttack),
+    !defaultMode ? toAttackWiki(undefined, raw.Attack1) : _.merge(toAttackWiki(undefined, raw.Attack1), dataToDefaultMode),
+    defaultMode ? toAttackWiki("charge", raw.Attack3) : _.merge(toAttackWiki("charge", raw.Attack3), dataToDefaultMode),
+    toAttackWiki("secondary", raw.Attack2),
+    toAttackWiki("chargedThrow", raw.Attack4),
+    toAttackWiki("throw", raw.Attack6),
+    toAttackWiki("area", raw.Attack5),
+    toAttackWiki("secondaryArea", raw.Attack7),
   ].filter(v => Boolean(v) && Object.keys(v).length);
   if (modes.some(v => v.trigger === "Held")) tags.push("Continuous");
   const reloadStyle = ReloadStyle[raw.ReloadStyle];
@@ -239,64 +245,64 @@ const toWeaponWiki = (raw: WikiWeapons.Weapon, noproto = false): ProtoWeapon => 
 };
 
 const toWeaponDE = (raw: DEWeapons.ExportWeapon) =>
-  ({
-    name: raw.name
-      .replace(/\w+/g, v => v.substr(0, 1) + v.substr(1).toLowerCase())
-      .replace("Mk1-", "MK1-")
-      .replace("<Archwing> ", ""),
-    tags: undefined,
-    traits: undefined,
-    mastery: +raw.masteryReq.toFixed(0) || undefined,
-    disposition: +raw.omegaAttenuation.toFixed(3),
-    // fireRate: (raw.fireRate && +(raw.fireRate * 60).toFixed(0)) || undefined,
-    // realFirerate:
-    //   (raw.fireRate && +(raw.fireRate * 60).toFixed(0) !== +((raw.damagePerSecond * 60) / raw.totalDamage).toFixed(0) && +((raw.damagePerSecond * 60) / raw.totalDamage).toFixed(0)) || undefined,
-    polarities: undefined,
+({
+  name: raw.name
+    .replace(/\w+/g, v => v.substr(0, 1) + v.substr(1).toLowerCase())
+    .replace("Mk1-", "MK1-")
+    .replace("<Archwing> ", ""),
+  tags: undefined,
+  traits: undefined,
+  mastery: +raw.masteryReq.toFixed(0) || undefined,
+  disposition: +raw.omegaAttenuation.toFixed(3),
+  // fireRate: (raw.fireRate && +(raw.fireRate * 60).toFixed(0)) || undefined,
+  // realFirerate:
+  //   (raw.fireRate && +(raw.fireRate * 60).toFixed(0) !== +((raw.damagePerSecond * 60) / raw.totalDamage).toFixed(0) && +((raw.damagePerSecond * 60) / raw.totalDamage).toFixed(0)) || undefined,
+  polarities: undefined,
 
-    // gun
-    accuracy: (raw.trigger !== "MELEE" && +raw.accuracy.toFixed(1)) || undefined,
-    range: undefined,
-    silent: raw.noise === "SILENT" && raw.trigger !== "MELEE" ? true : undefined,
-    trigger: undefined,
-    reload: +raw.reloadTime.toFixed(3) || undefined,
-    magazine: +raw.magazineSize.toFixed(0) || undefined,
-    maxAmmo: undefined,
-    zoom: undefined,
-    spool: undefined,
-    // burstCount: undefined,
-    // burstFireRate: undefined,
-    sniperComboMin: undefined,
-    sniperComboReset: undefined,
-    reloadStyle: undefined,
+  // gun
+  accuracy: (raw.trigger !== "MELEE" && +raw.accuracy.toFixed(1)) || undefined,
+  range: undefined,
+  silent: raw.noise === "SILENT" && raw.trigger !== "MELEE" ? true : undefined,
+  trigger: undefined,
+  reload: +raw.reloadTime.toFixed(3) || undefined,
+  magazine: +raw.magazineSize.toFixed(0) || undefined,
+  maxAmmo: undefined,
+  zoom: undefined,
+  spool: undefined,
+  // burstCount: undefined,
+  // burstFireRate: undefined,
+  sniperComboMin: undefined,
+  sniperComboReset: undefined,
+  reloadStyle: undefined,
 
-    // melee
-    stancePolarity: undefined,
-    blockResist: undefined,
-    finisherDamage: undefined,
-    channelCost: undefined,
-    channelMult: undefined,
-    // chargeAttack: +raw.chargeAttack.toFixed(2) || undefined,
-    // spinAttack: +(raw.spinAttack / raw.totalDamage).toFixed(2) || undefined,
-    // jumpAttack: undefined,
-    // leapAttack: +(raw.leapAttack / raw.totalDamage).toFixed(2) || undefined,
-    // wallAttack: +(raw.wallAttack / raw.totalDamage).toFixed(2) || undefined,
-    // spinAttack: undefined,
-    // jumpAttack: undefined,
-    // leapAttack: undefined,
-    // wallAttack: undefined,
-    // slot,
-    // sentinel: raw.sentinel || undefined,
-    modes: [
-      {
-        name: undefined,
-        damage: undefined, //raw.damagePerShot.map((v, i) => [DMG_NAMES[i], +v.toFixed(2)]).filter(([_, v]) => v),
-        fireRate: ~~(raw.fireRate * 60),
-        critChance: +raw.criticalChance.toFixed(3),
-        critMul: +raw.criticalMultiplier.toFixed(2),
-        procChance: +raw.procChance.toFixed(3),
-      } as WeaponMode,
-    ],
-  } as Weapon);
+  // melee
+  stancePolarity: undefined,
+  blockResist: undefined,
+  finisherDamage: undefined,
+  channelCost: undefined,
+  channelMult: undefined,
+  // chargeAttack: +raw.chargeAttack.toFixed(2) || undefined,
+  // spinAttack: +(raw.spinAttack / raw.totalDamage).toFixed(2) || undefined,
+  // jumpAttack: undefined,
+  // leapAttack: +(raw.leapAttack / raw.totalDamage).toFixed(2) || undefined,
+  // wallAttack: +(raw.wallAttack / raw.totalDamage).toFixed(2) || undefined,
+  // spinAttack: undefined,
+  // jumpAttack: undefined,
+  // leapAttack: undefined,
+  // wallAttack: undefined,
+  // slot,
+  // sentinel: raw.sentinel || undefined,
+  modes: [
+    {
+      name: undefined,
+      damage: undefined, //raw.damagePerShot.map((v, i) => [DMG_NAMES[i], +v.toFixed(2)]).filter(([_, v]) => v),
+      fireRate: ~~(raw.fireRate * 60),
+      critChance: +raw.criticalChance.toFixed(3),
+      critMul: +raw.criticalMultiplier.toFixed(2),
+      procChance: +raw.procChance.toFixed(3),
+    } as WeaponMode,
+  ],
+} as Weapon);
 
 const diffKeys = "mastery,disposition,fireRate,critChance,critMul,procChance".split(",");
 const diff = (name: string, a, b) => {
@@ -353,6 +359,7 @@ export const convertWeapons = (deWeapons: DEWeapon = { ExportWeapons: [] }, wiki
           console.error("no type of", v);
           return null;
         }
+        if (v.Type === "Kitgun" || v.Type === "Zaw") return null;
         if (v.Type.endsWith(" (Atmosphere)")) return null;
         let rst: Weapon = toWeaponWiki(v);
         if (!rst || v.IgnoreCategories) return null;
@@ -434,10 +441,10 @@ export const convertWeapons = (deWeapons: DEWeapon = { ExportWeapons: [] }, wiki
         ...rst[baseName],
         variants: rst[baseName].variants
           ? [
-              ...rst[baseName].variants, // -
-              otherProps,
-              ...(subVariants || []),
-            ].sort()
+            ...rst[baseName].variants, // -
+            otherProps,
+            ...(subVariants || []),
+          ].sort()
           : [thisVariant],
       };
     }

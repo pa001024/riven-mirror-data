@@ -12,8 +12,11 @@
     "Bubonico": {
       "Class": "Shotgun"
     },
-    "Epitaph":{
+    "Epitaph": {
       "Type": "Secondary"
+    },
+    "Xoris": {
+      "ComboDur": 9999
     }
   }
 }

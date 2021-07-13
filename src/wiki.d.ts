@@ -68,13 +68,13 @@ export declare namespace WikiWeapons {
     SlideAttack?: number;
     JumpAttack?: number;
     WallAttack?: number;
-    NormalAttack?: Attack;
-    SecondaryAttack?: Attack;
-    ChargedThrowAttack?: Attack;
-    ThrowAttack?: Attack;
-    ChargeAttack?: Attack;
-    AreaAttack?: Attack;
-    SecondaryAreaAttack?: Attack;
+    Attack1?: Attack;
+    Attack2?: Attack; // secondary
+    Attack4?: Attack; // chargedThrow
+    Attack6?: Attack; // throw
+    Attack3?: Attack; // charge
+    Attack5?: Attack; // area
+    Attack7?: Attack; // secondaryArea
 
     // deep extra
     SniperComboMin?: number;
@@ -135,7 +135,7 @@ export declare namespace WikiWeapons {
     CritChance?: number;
     CritMultiplier?: number;
     PunchThrough?: number;
-    PelletCount?: number;
+    Multishot?: number;
     Falloff?: Falloff;
     Radius?: number;
     Range?: number;
