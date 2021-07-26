@@ -312,7 +312,7 @@ Vicious Approach`.split("\n")
           return;
         }
         case "wikia-Weapons.json": {
-          const wikiWeapons = JSON.parse(await fs.readFile(TMP_PREFIX + "wikia-Weapons.json", "utf-8"));
+          const wikiWeapons = JSON.parse((await fs.readFile(TMP_PREFIX + "wikia-Weapons.json", "utf-8")).replace(/\bInfinity\b/g, "9999"));
           const patch = JSON.parse(await fs.readFile(PATCH_PREFIX + "weapons.json", "utf-8"));
           const patchWiki = JSON.parse(await fs.readFile(PATCH_PREFIX + "weapons.wiki.json", "utf-8"));
           const patchRiven = await fs.readFile(PATCH_PREFIX + "riven-disposition-updates.txt", "utf-8");

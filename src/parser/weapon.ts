@@ -200,7 +200,12 @@ const toWeaponWiki = (raw: WikiWeapons.Weapon, noproto = false): ProtoWeapon => 
     spool: raw.Spool,
     fireRate: raw.FireRate && +(raw.FireRate * 60).toFixed(0),
   } as WeaponMode;
-  const tags = toTags(raw.Type, raw.Class).concat(raw.Name.startsWith("Kuva") ? ["Kuva Weapon"] : []);
+  const alterNamePrefixs = ["Kuva", "Tenet"];
+  const tags = toTags(raw.Type, raw.Class);
+  const alterNamePrefix = alterNamePrefixs.find(tag => raw.Name.startsWith(tag))
+  if (alterNamePrefix) {
+    tags.push(alterNamePrefix + " Weapon");
+  }
   const modes = [
     !defaultMode ? toAttackWiki(undefined, raw.Attack1) : _.merge(toAttackWiki(undefined, raw.Attack1), dataToDefaultMode),
     defaultMode ? toAttackWiki("charge", raw.Attack3) : _.merge(toAttackWiki("charge", raw.Attack3), dataToDefaultMode),
@@ -359,7 +364,7 @@ export const convertWeapons = (deWeapons: DEWeapon = { ExportWeapons: [] }, wiki
           console.error("no type of", v);
           return null;
         }
-        if (v.Type === "Kitgun" || v.Type === "Zaw") return null;
+        if (v.Type === "Kitgun" || v.Type === "Zaw" || v.Type === "Amp") return null;
         if (v.Type.endsWith(" (Atmosphere)")) return null;
         let rst: Weapon = toWeaponWiki(v);
         if (!rst || v.IgnoreCategories) return null;

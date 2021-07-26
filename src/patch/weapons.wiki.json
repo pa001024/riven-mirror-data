@@ -17,6 +17,9 @@
     },
     "Xoris": {
       "ComboDur": 9999
+    },
+    "Velocitus": {
+      "MaxAmmo": 9999
     }
   }
 }
