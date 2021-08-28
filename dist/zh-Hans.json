@@ -1317,7 +1317,7 @@
   "kuvaHek": "赤毒海克",
   "tenetTetra": "信条特拉",
   "tenetEnvoy": "信条典客",
-  "tenetFluxRifle": "信条通量射线步枪",
+  "tenetFluxRifle": "信条通量步枪",
   "tenetArcaPlasmor": "信条弧电离子枪",
   "tenetCycron": "信条循环离子枪",
   "tenetDetron": "信条德特昂",
@@ -2012,6 +2012,9 @@
   "venusPreservationJobResource": "拆散陷阱",
   "venusHelpingJobCaches": "鹰嘴板",
   "buryThem": "埋葬他们",
-  "apoc": "天启炮台",
+  "dargyn": "轻型艇",
+  "rampart": "炮座壁垒",
+  "strunPrime": "斯特朗Prime",
+  "magnusPrime": "麦格努斯Prime",
   "vastilok": "瓦斯提枪刃"
 }

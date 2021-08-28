@@ -90,15 +90,15 @@ const toAttackWiki = (type: string, attack: WikiWeapons.Attack): WeaponMode => {
 
   return {
     type,
-    name: (!["Uncharged Shot", "Charged Shot", "Buckshot", "Normal Shot"].includes(AttackName) && AttackName) || undefined,
+    name: (!["Uncharged Shot", "Charged Shot", "Buckshot", "Normal"].includes(AttackName) && AttackName) || undefined,
     damage,
     fireRate: FireRate && +(FireRate * 60).toFixed(0),
     accuracy: Accuracy,
     critChance: CritChance,
     critMul: CritMultiplier,
     procChance: StatusChance,
-    punchThrough: PunchThrough,
-    pellets: PelletCount,
+    punchThrough: PunchThrough || undefined,
+    pellets: PelletCount > 1 ? PelletCount : undefined,
     radius: Radius,
     range: Range,
     ammoCost: Trigger === "Burst" ? undefined : AmmoCost,
@@ -201,8 +201,8 @@ const toWeaponWiki = (raw: WikiWeapons.Weapon, noproto = false): ProtoWeapon => 
     fireRate: raw.FireRate && +(raw.FireRate * 60).toFixed(0),
   } as WeaponMode;
   const alterNamePrefixs = ["Kuva", "Tenet"];
-  const tags = toTags(raw.Type, raw.Class);
-  const alterNamePrefix = alterNamePrefixs.find(tag => raw.Name.startsWith(tag))
+  const tags = toTags(raw.Slot, raw.Class);
+  const alterNamePrefix = alterNamePrefixs.find(tag => raw.Name.startsWith(tag));
   if (alterNamePrefix) {
     tags.push(alterNamePrefix + " Weapon");
   }
@@ -250,64 +250,64 @@ const toWeaponWiki = (raw: WikiWeapons.Weapon, noproto = false): ProtoWeapon => 
 };
 
 const toWeaponDE = (raw: DEWeapons.ExportWeapon) =>
-({
-  name: raw.name
-    .replace(/\w+/g, v => v.substr(0, 1) + v.substr(1).toLowerCase())
-    .replace("Mk1-", "MK1-")
-    .replace("<Archwing> ", ""),
-  tags: undefined,
-  traits: undefined,
-  mastery: +raw.masteryReq.toFixed(0) || undefined,
-  disposition: +raw.omegaAttenuation.toFixed(3),
-  // fireRate: (raw.fireRate && +(raw.fireRate * 60).toFixed(0)) || undefined,
-  // realFirerate:
-  //   (raw.fireRate && +(raw.fireRate * 60).toFixed(0) !== +((raw.damagePerSecond * 60) / raw.totalDamage).toFixed(0) && +((raw.damagePerSecond * 60) / raw.totalDamage).toFixed(0)) || undefined,
-  polarities: undefined,
+  ({
+    name: raw.name
+      .replace(/\w+/g, v => v.substr(0, 1) + v.substr(1).toLowerCase())
+      .replace("Mk1-", "MK1-")
+      .replace("<Archwing> ", ""),
+    tags: undefined,
+    traits: undefined,
+    mastery: +raw.masteryReq.toFixed(0) || undefined,
+    disposition: +raw.omegaAttenuation.toFixed(3),
+    // fireRate: (raw.fireRate && +(raw.fireRate * 60).toFixed(0)) || undefined,
+    // realFirerate:
+    //   (raw.fireRate && +(raw.fireRate * 60).toFixed(0) !== +((raw.damagePerSecond * 60) / raw.totalDamage).toFixed(0) && +((raw.damagePerSecond * 60) / raw.totalDamage).toFixed(0)) || undefined,
+    polarities: undefined,
 
-  // gun
-  accuracy: (raw.trigger !== "MELEE" && +raw.accuracy.toFixed(1)) || undefined,
-  range: undefined,
-  silent: raw.noise === "SILENT" && raw.trigger !== "MELEE" ? true : undefined,
-  trigger: undefined,
-  reload: +raw.reloadTime.toFixed(3) || undefined,
-  magazine: +raw.magazineSize.toFixed(0) || undefined,
-  maxAmmo: undefined,
-  zoom: undefined,
-  spool: undefined,
-  // burstCount: undefined,
-  // burstFireRate: undefined,
-  sniperComboMin: undefined,
-  sniperComboReset: undefined,
-  reloadStyle: undefined,
+    // gun
+    accuracy: (raw.trigger !== "MELEE" && +raw.accuracy.toFixed(1)) || undefined,
+    range: undefined,
+    silent: raw.noise === "SILENT" && raw.trigger !== "MELEE" ? true : undefined,
+    trigger: undefined,
+    reload: +raw.reloadTime.toFixed(3) || undefined,
+    magazine: +raw.magazineSize.toFixed(0) || undefined,
+    maxAmmo: undefined,
+    zoom: undefined,
+    spool: undefined,
+    // burstCount: undefined,
+    // burstFireRate: undefined,
+    sniperComboMin: undefined,
+    sniperComboReset: undefined,
+    reloadStyle: undefined,
 
-  // melee
-  stancePolarity: undefined,
-  blockResist: undefined,
-  finisherDamage: undefined,
-  channelCost: undefined,
-  channelMult: undefined,
-  // chargeAttack: +raw.chargeAttack.toFixed(2) || undefined,
-  // spinAttack: +(raw.spinAttack / raw.totalDamage).toFixed(2) || undefined,
-  // jumpAttack: undefined,
-  // leapAttack: +(raw.leapAttack / raw.totalDamage).toFixed(2) || undefined,
-  // wallAttack: +(raw.wallAttack / raw.totalDamage).toFixed(2) || undefined,
-  // spinAttack: undefined,
-  // jumpAttack: undefined,
-  // leapAttack: undefined,
-  // wallAttack: undefined,
-  // slot,
-  // sentinel: raw.sentinel || undefined,
-  modes: [
-    {
-      name: undefined,
-      damage: undefined, //raw.damagePerShot.map((v, i) => [DMG_NAMES[i], +v.toFixed(2)]).filter(([_, v]) => v),
-      fireRate: ~~(raw.fireRate * 60),
-      critChance: +raw.criticalChance.toFixed(3),
-      critMul: +raw.criticalMultiplier.toFixed(2),
-      procChance: +raw.procChance.toFixed(3),
-    } as WeaponMode,
-  ],
-} as Weapon);
+    // melee
+    stancePolarity: undefined,
+    blockResist: undefined,
+    finisherDamage: undefined,
+    channelCost: undefined,
+    channelMult: undefined,
+    // chargeAttack: +raw.chargeAttack.toFixed(2) || undefined,
+    // spinAttack: +(raw.spinAttack / raw.totalDamage).toFixed(2) || undefined,
+    // jumpAttack: undefined,
+    // leapAttack: +(raw.leapAttack / raw.totalDamage).toFixed(2) || undefined,
+    // wallAttack: +(raw.wallAttack / raw.totalDamage).toFixed(2) || undefined,
+    // spinAttack: undefined,
+    // jumpAttack: undefined,
+    // leapAttack: undefined,
+    // wallAttack: undefined,
+    // slot,
+    // sentinel: raw.sentinel || undefined,
+    modes: [
+      {
+        name: undefined,
+        damage: undefined, //raw.damagePerShot.map((v, i) => [DMG_NAMES[i], +v.toFixed(2)]).filter(([_, v]) => v),
+        fireRate: ~~(raw.fireRate * 60),
+        critChance: +raw.criticalChance.toFixed(3),
+        critMul: +raw.criticalMultiplier.toFixed(2),
+        procChance: +raw.procChance.toFixed(3),
+      } as WeaponMode,
+    ],
+  } as Weapon);
 
 const diffKeys = "mastery,disposition,fireRate,critChance,critMul,procChance".split(",");
 const diff = (name: string, a, b) => {
@@ -360,12 +360,14 @@ export const convertWeapons = (deWeapons: DEWeapon = { ExportWeapons: [] }, wiki
     _.merge(
       _.map(wikiWeapons.Weapons, v => {
         // 作为variants输出
-        if (!v.Type) {
+        if (!v.Slot) {
           console.error("no type of", v);
           return null;
         }
-        if (v.Type === "Kitgun" || v.Type === "Zaw" || v.Type === "Amp") return null;
-        if (v.Type.endsWith(" (Atmosphere)")) return null;
+        // Zaw / Kitgun
+        if (v.Class.includes(" / ") || v.Class.includes("Kitgun")) return null;
+        if (v.Slot === "Kitgun" || v.Slot === "Zaw" || v.Slot === "Amp" || v.Slot.includes("Railjack")) return null;
+        if (v.Slot.endsWith(" (Atmosphere)")) return null;
         let rst: Weapon = toWeaponWiki(v);
         if (!rst || v.IgnoreCategories) return null;
         if (v.Name === "Dark Split-Sword (Dual Swords)") rst.name = "Dark Split-Sword";
@@ -446,10 +448,10 @@ export const convertWeapons = (deWeapons: DEWeapon = { ExportWeapons: [] }, wiki
         ...rst[baseName],
         variants: rst[baseName].variants
           ? [
-            ...rst[baseName].variants, // -
-            otherProps,
-            ...(subVariants || []),
-          ].sort()
+              ...rst[baseName].variants, // -
+              otherProps,
+              ...(subVariants || []),
+            ].sort()
           : [thisVariant],
       };
     }

@@ -30,7 +30,7 @@ export declare namespace WikiWeapons {
     Class?: string;
     Mastery?: number;
     Disposition?: number;
-    Type: string;
+    Slot: string;
     FireRate?: number;
     Polarities?: string[];
 
