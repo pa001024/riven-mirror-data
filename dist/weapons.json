@@ -2294,6 +2294,7 @@
         "critMul": 3.5,
         "procChance": 0.57,
         "range": 7,
+        "ammoCost": 3,
         "falloff": [0, 7, 0.5]
       },
       {
@@ -2874,6 +2875,7 @@
         "procChance": 0.18,
         "punchThrough": 1,
         "chargeTime": 0.5,
+        "trigger": "Charge",
         "prjSpeed": 90
       }
     ],
@@ -2912,6 +2914,7 @@
             "punchThrough": 1,
             "pellets": 3,
             "chargeTime": 0.5,
+            "trigger": "Charge",
             "prjSpeed": 95
           }
         ]
@@ -12354,7 +12357,7 @@
         "punchThrough": 1,
         "range": 1000,
         "trigger": "Semi-Auto",
-        "falloff": [400, 600, null]
+        "falloff": [400, 600, 0.5]
       }
     ],
     "variants": [
@@ -13950,6 +13953,7 @@
             "critMul": 2.2,
             "procChance": 0.0667,
             "accuracy": 9.1,
+            "punchThrough": 0.8,
             "pellets": 12,
             "range": 300,
             "trigger": "Semi-Auto",
@@ -14796,7 +14800,7 @@
         "critMul": 2.2,
         "procChance": 0.3,
         "accuracy": 18.2,
-        "trigger": "Auto",
+        "trigger": "Auto / Semi",
         "prjSpeed": 100
       },
       {
@@ -16762,7 +16766,7 @@
         "accuracy": 1.4,
         "punchThrough": 1.6,
         "pellets": 10,
-        "range": 300
+        "range": 10
       }
     ],
     "variants": [
@@ -16796,8 +16800,8 @@
           },
           {
             "type": "charge",
-            "name": "Cannon Mode Cluster Bombs",
-            "damage": { "Blast": 150 },
+            "name": "Cannon Mode Cluster Bomb Contact",
+            "damage": { "Impact": 45 },
             "fireRate": 130,
             "critChance": 0.25,
             "critMul": 2.5,
@@ -16817,6 +16821,18 @@
           },
           {
             "type": "chargedThrow",
+            "name": "Cannon Mode Cluster Bomb Explosion",
+            "damage": { "Blast": 150 },
+            "fireRate": 130,
+            "critChance": 0.25,
+            "critMul": 2.5,
+            "procChance": 0.31,
+            "pellets": 3,
+            "range": 3,
+            "falloff": [0, 3, 0.3]
+          },
+          {
+            "type": "area",
             "name": "Barrage Mode",
             "damage": { "Impact": 150, "Puncture": 250, "Slash": 100 },
             "fireRate": 130,
@@ -17059,6 +17075,7 @@
         "type": "secondary",
         "name": "Radial Attack",
         "damage": { "Toxin": 61 },
+        "fireRate": 80,
         "critChance": 0.05,
         "critMul": 2.3,
         "procChance": 0.3,
