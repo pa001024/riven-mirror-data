@@ -50,8 +50,8 @@ const mergeRivenPatch = (str: string, table: [string, number, number][]) => {
   const lines = str.split(/\r?\n/);
   const reg = /(.+): (\d+(?:\.\d+)?)->(\d+(?:\.\d+)?)/;
   const rivenMap = lines.reduce((r, v) => {
-    if (!v) return r;
-    const [, name, old, newv] = v.match(reg);
+    if (!v || v.startsWith("#")) return r;
+    const [m, name, old, newv] = v.match(reg);
     r[name] = [+old, +newv];
     return r;
   }, {} as { [key: string]: [number, number] });
