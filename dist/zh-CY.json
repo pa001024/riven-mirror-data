@@ -16,7 +16,7 @@
   "akstilettoPrime": "圣装双持西提列托",
   "akvasto": "双持瓦斯托",
   "akvastoPrime": "圣装双持瓦斯托",
-  "akZani": "双持欢喜丸",
+  "akzani": "双持欢喜丸",
   "amphis": "安菲斯",
   "amprex": "安普斯雷电",
   "angstrum": "将军手持短炮",
@@ -791,5 +791,6 @@
   "primedRegen": "高阶重生",
   "protea": "泊时灵械",
   "excaliburUmbra": "暗影圣剑",
-  "excaliburUmbraPrime": "暗影圣装圣剑"
+  "excaliburUmbraPrime": "暗影圣装圣剑",
+  "pistolPestilence": "异变手枪"
 }

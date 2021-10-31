@@ -642,7 +642,7 @@
         "accuracy": 100,
         "range": 300,
         "ammoCost": 48,
-        "chargeTime": 0.65,
+        "chargeTime": 1,
         "trigger": "Charge"
       },
       {
@@ -2693,7 +2693,7 @@
         "pellets": 6,
         "range": 300,
         "trigger": "Auto / Semi",
-        "falloff": [26, 52, 0.2]
+        "falloff": [26, 52, 0.9667]
       },
       {
         "type": "charge",
@@ -2883,7 +2883,7 @@
       {
         "name": "Cernos Prime",
         "tags": ["Primary", "Rifle", "Bow"],
-        "traits": ["Prime", "Vaulted"],
+        "traits": ["Prime", "Never Vaulted"],
         "mastery": 12,
         "disposition": 1.25,
         "polarities": "rr",
@@ -4948,6 +4948,36 @@
     ]
   },
   {
+    "name": "Exalted Prime Blade",
+    "tags": ["Melee", "Exalted"],
+    "traits": ["Tenno"],
+    "disposition": 0,
+    "polarities": "rr-",
+    "comboDur": 5,
+    "followThrough": 1,
+    "meleeRange": 2.8,
+    "slamAttack": 3,
+    "slamRadialDmg": 1,
+    "slamRadius": 7,
+    "heavyAttack": 5,
+    "windUp": 0.6,
+    "heavySlamAttack": 4,
+    "heavyRadialDmg": 4,
+    "heavySlamRadius": 8,
+    "slideAttack": 2.14,
+    "modes": [
+      {
+        "damage": { "Impact": 37.5, "Puncture": 37.5, "Slash": 175 },
+        "fireRate": 50,
+        "critChance": 0.15,
+        "critMul": 2,
+        "procChance": 0.15,
+        "range": 40,
+        "prjSpeed": 15
+      }
+    ]
+  },
+  {
     "name": "Exalted Umbra Blade",
     "tags": ["Melee", "Exalted"],
     "traits": ["Tenno"],
@@ -6965,7 +6995,7 @@
       {
         "name": "Hikou Prime",
         "tags": ["Secondary", "Thrown"],
-        "traits": ["Prime", "Vaulted"],
+        "traits": ["Prime", "Never Vaulted"],
         "mastery": 4,
         "disposition": 1.25,
         "polarities": "rr",
@@ -8950,7 +8980,7 @@
   {
     "name": "Lato",
     "tags": ["Secondary", "Pistol"],
-    "traits": ["Tutorial", "Tenno"],
+    "traits": ["Tenno"],
     "disposition": 1.4,
     "reload": 1,
     "magazine": 15,
@@ -10943,6 +10973,7 @@
       },
       {
         "type": "secondary",
+        "name": "Alt-Fire",
         "damage": { "Impact": 10, "Puncture": 10, "Slash": 80 },
         "fireRate": 120,
         "critChance": 0.25,
@@ -10988,7 +11019,7 @@
           },
           {
             "type": "secondary",
-            "name": "Alt Fire",
+            "name": "Alt-Fire",
             "damage": { "Slash": 100 },
             "fireRate": 120,
             "critChance": 0.26,
@@ -12525,7 +12556,7 @@
       {
         "name": "Scindo Prime",
         "tags": ["Melee", "Heavy Blade"],
-        "traits": ["Prime", "Vaulted"],
+        "traits": ["Prime", "Never Vaulted"],
         "mastery": 8,
         "disposition": 1.25,
         "polarities": "r",
@@ -16112,7 +16143,7 @@
       {
         "name": "Venka Prime",
         "tags": ["Melee", "Claws"],
-        "traits": ["Prime", "Vaulted"],
+        "traits": ["Prime", "Never Vaulted"],
         "mastery": 14,
         "disposition": 0.8,
         "polarities": "-r",
