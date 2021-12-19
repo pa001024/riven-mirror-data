@@ -3011,6 +3011,7 @@
     "traits": ["Corpus"],
     "mastery": 7,
     "disposition": 1.46,
+    "polarities": "-",
     "reload": 2,
     "magazine": 70,
     "maxAmmo": 700,
@@ -7889,6 +7890,33 @@
         "range": 300,
         "trigger": "Auto"
       }
+    ],
+    "variants": [
+      {
+        "name": "Knell Prime",
+        "tags": ["Secondary", "Pistol"],
+        "traits": ["Tenno"],
+        "mastery": 14,
+        "disposition": 0.5,
+        "polarities": "rr",
+        "reload": 2,
+        "magazine": 1,
+        "maxAmmo": 10,
+        "sniperComboReset": 2,
+        "zoom": [{ "ratio": 2, "props": { "1": 150, "2": 60 } }],
+        "modes": [
+          {
+            "damage": { "Impact": 75.6, "Puncture": 82.8, "Slash": 21.6 },
+            "fireRate": 300,
+            "critChance": 0.4,
+            "critMul": 2,
+            "procChance": 0.1,
+            "accuracy": 32,
+            "range": 300,
+            "trigger": "Auto"
+          }
+        ]
+      }
     ]
   },
   {
@@ -8217,6 +8245,36 @@
     ]
   },
   {
+    "name": "Korumm",
+    "tags": ["Melee", "Polearm"],
+    "traits": ["Sentient"],
+    "mastery": 13,
+    "disposition": 0.5,
+    "polarities": "r",
+    "stancePolarity": "=",
+    "comboDur": 5,
+    "followThrough": 0.6,
+    "meleeRange": 2.9,
+    "slamAttack": 3,
+    "slamRadialDmg": 1,
+    "slamRadius": 7,
+    "heavyAttack": 6,
+    "windUp": 0.9,
+    "heavySlamAttack": 5,
+    "heavyRadialDmg": 5,
+    "heavySlamRadius": 8,
+    "slideAttack": 2,
+    "modes": [
+      {
+        "damage": { "Impact": 52, "Puncture": 104, "Slash": 104 },
+        "fireRate": 60,
+        "critChance": 0.24,
+        "critMul": 2.2,
+        "procChance": 0.3
+      }
+    ]
+  },
+  {
     "name": "Kraken",
     "tags": ["Secondary", "Pistol"],
     "traits": ["Grineer"],
@@ -8429,6 +8487,17 @@
         "type": "secondary",
         "name": "Rocket Explosion",
         "damage": { "Blast": 300 },
+        "fireRate": 120,
+        "critChance": 0.17,
+        "critMul": 2.3,
+        "procChance": 0.19,
+        "range": 3.9,
+        "falloff": [0, 3.9, 0.4]
+      },
+      {
+        "type": "chargedThrow",
+        "name": "Cluster Bomb Explosion",
+        "damage": { "Blast": 90 },
         "fireRate": 120,
         "critChance": 0.17,
         "critMul": 2.3,
@@ -10158,6 +10227,79 @@
     ]
   },
   {
+    "name": "Nataruk",
+    "tags": ["Primary", "Rifle", "Bow"],
+    "traits": ["Sentient"],
+    "disposition": 0.5,
+    "polarities": "rrrr",
+    "reload": 0.1,
+    "magazine": 1,
+    "maxAmmo": 9999,
+    "modes": [
+      {
+        "name": "Quick Shot",
+        "damage": { "Puncture": 405, "Slash": 45 },
+        "fireRate": 60,
+        "critChance": 0.2,
+        "critMul": 1.8,
+        "procChance": 0.3,
+        "accuracy": 16.7,
+        "trigger": "Charge"
+      },
+      {
+        "type": "charge",
+        "name": "Perfect Shot",
+        "damage": { "Puncture": 648, "Slash": 252 },
+        "fireRate": 40,
+        "critChance": 0.6,
+        "critMul": 2.4,
+        "procChance": 0.5,
+        "chargeTime": 1,
+        "trigger": "Charge"
+      },
+      {
+        "type": "secondary",
+        "damage": { "Puncture": 648, "Slash": 252 },
+        "fireRate": 60,
+        "critChance": 0.6,
+        "critMul": 2.2,
+        "procChance": 0.5,
+        "chargeTime": 1,
+        "trigger": "Charge"
+      }
+    ]
+  },
+  {
+    "name": "Nepheri",
+    "tags": ["Melee", "Dual Daggers"],
+    "traits": ["Sentient"],
+    "mastery": 13,
+    "disposition": 0.5,
+    "polarities": "r",
+    "stancePolarity": "d",
+    "comboDur": 5,
+    "followThrough": 0.8,
+    "meleeRange": 1.9,
+    "slamAttack": 2,
+    "slamRadialDmg": 1,
+    "slamRadius": 6,
+    "heavyAttack": 2,
+    "windUp": 0.5,
+    "heavySlamAttack": 4,
+    "heavyRadialDmg": 4,
+    "heavySlamRadius": 7,
+    "slideAttack": 2,
+    "modes": [
+      {
+        "damage": { "Impact": 21, "Puncture": 63, "Slash": 85, "Heat": 92 },
+        "fireRate": 60,
+        "critChance": 0.21,
+        "critMul": 2.3,
+        "procChance": 0.33
+      }
+    ]
+  },
+  {
     "name": "Nikana",
     "tags": ["Melee", "Nikana"],
     "traits": ["Tenno"],
@@ -11103,6 +11245,22 @@
         "accuracy": 50,
         "range": 50,
         "chargeTime": 0.25
+      }
+    ]
+  },
+  {
+    "name": "Parazon",
+    "tags": ["Unique", "Parazon"],
+    "traits": ["Tenno"],
+    "disposition": 0,
+    "modes": [
+      {
+        "name": "Mercy Finisher",
+        "damage": { "True": 1 },
+        "fireRate": 60,
+        "critChance": 0,
+        "critMul": 1,
+        "procChance": 0
       }
     ]
   },
@@ -12188,7 +12346,7 @@
         "procChance": 0.38,
         "accuracy": 33.33,
         "range": 300,
-        "trigger": "Auto"
+        "trigger": "Auto / Charge"
       },
       {
         "type": "secondary",
@@ -12239,6 +12397,21 @@
         "critChance": 0.2,
         "critMul": 2,
         "procChance": 0.12
+      }
+    ]
+  },
+  {
+    "name": "Razorflies",
+    "tags": ["Unique"],
+    "traits": ["Tenno"],
+    "disposition": 0,
+    "modes": [
+      {
+        "damage": { "Slash": 80 },
+        "fireRate": 120,
+        "critChance": 0.25,
+        "critMul": 2,
+        "procChance": 0
       }
     ]
   },
@@ -12480,6 +12653,35 @@
     ]
   },
   {
+    "name": "Rumblejack",
+    "tags": ["Melee", "Dagger"],
+    "traits": ["Tenno"],
+    "mastery": 8,
+    "disposition": 0.5,
+    "stancePolarity": "r",
+    "comboDur": 5,
+    "followThrough": 0.9,
+    "meleeRange": 1.8,
+    "slamAttack": 2,
+    "slamRadialDmg": 1,
+    "slamRadius": 4,
+    "heavyAttack": 2,
+    "windUp": 0.4,
+    "heavySlamAttack": 4,
+    "heavyRadialDmg": 4,
+    "heavySlamRadius": 6,
+    "slideAttack": 2,
+    "modes": [
+      {
+        "damage": { "Impact": 120, "Electricity": 180 },
+        "fireRate": 40,
+        "critChance": 0.13,
+        "critMul": 1.8,
+        "procChance": 0.4
+      }
+    ]
+  },
+  {
     "name": "Sarpa",
     "tags": ["Melee", "Gunblade"],
     "traits": ["Tenno"],
@@ -12670,6 +12872,88 @@
         "procChance": 0.3,
         "range": 7,
         "falloff": [0, 7, 0.6]
+      }
+    ],
+    "variants": [
+      {
+        "name": "Scourge Prime",
+        "tags": ["Primary", "Rifle", "Speargun"],
+        "traits": ["Tenno"],
+        "mastery": 14,
+        "disposition": 0.5,
+        "polarities": "-rrr",
+        "reload": 2.2,
+        "magazine": 40,
+        "maxAmmo": 200,
+        "modes": [
+          {
+            "name": "Projectile Impact",
+            "damage": { "Corrosive": 80 },
+            "fireRate": 160,
+            "critChance": 0.1,
+            "critMul": 2,
+            "procChance": 0.3,
+            "accuracy": 100,
+            "trigger": "Auto",
+            "prjSpeed": 35
+          },
+          {
+            "type": "charge",
+            "name": "Uncharged Spear Throw",
+            "damage": { "Impact": 140, "Puncture": 30, "Slash": 30 },
+            "fireRate": 60,
+            "critChance": 0.1,
+            "critMul": 2,
+            "procChance": 0.3,
+            "accuracy": 16.7,
+            "trigger": "Charge"
+          },
+          {
+            "type": "secondary",
+            "name": "Explosion",
+            "damage": { "Corrosive": 60 },
+            "fireRate": 160,
+            "critChance": 0.1,
+            "critMul": 2,
+            "procChance": 0.3,
+            "range": 1.7,
+            "falloff": [0, 1.7, 0.3]
+          },
+          {
+            "type": "chargedThrow",
+            "name": "Uncharged Spear Explosion",
+            "damage": { "Corrosive": 55 },
+            "fireRate": 60,
+            "critChance": 0,
+            "critMul": 1,
+            "procChance": 0.3,
+            "range": 7,
+            "falloff": [0, 7, 0.6]
+          },
+          {
+            "type": "throw",
+            "name": "Charged Spear Explosion",
+            "damage": { "Corrosive": 55 },
+            "fireRate": 60,
+            "critChance": 0.1,
+            "critMul": 2,
+            "procChance": 0.3,
+            "range": 7,
+            "falloff": [0, 7, 0.6]
+          },
+          {
+            "type": "area",
+            "name": "Charged Spear Throw",
+            "damage": { "Impact": 210, "Puncture": 45, "Slash": 45 },
+            "fireRate": 60,
+            "critChance": 0.1,
+            "critMul": 2,
+            "procChance": 0.3,
+            "accuracy": 16.7,
+            "chargeTime": 0.5,
+            "trigger": "Charge"
+          }
+        ]
       }
     ]
   },
@@ -14751,6 +15035,28 @@
         "critChance": 0.38,
         "critMul": 2.4,
         "procChance": 0.22
+      },
+      {
+        "type": "charge",
+        "name": "Heavy Shockwave",
+        "damage": { "Impact": 950 },
+        "fireRate": 60,
+        "critChance": 0.38,
+        "critMul": 2.4,
+        "procChance": 0.22,
+        "range": 20,
+        "falloff": [0, 4, 0]
+      },
+      {
+        "type": "secondary",
+        "name": "Normal Shockwave",
+        "damage": { "Impact": 190 },
+        "fireRate": 60,
+        "critChance": 0.38,
+        "critMul": 2.4,
+        "procChance": 0.22,
+        "range": 20,
+        "falloff": [0, 4, 0.9]
       }
     ]
   },
@@ -16112,6 +16418,35 @@
     ]
   },
   {
+    "name": "Venato",
+    "tags": ["Melee", "Scythe"],
+    "traits": ["Tenno", "Sentient"],
+    "mastery": 9,
+    "disposition": 0.5,
+    "stancePolarity": "=",
+    "comboDur": 5,
+    "followThrough": 0.6,
+    "meleeRange": 2.7,
+    "slamAttack": 3,
+    "slamRadialDmg": 1,
+    "slamRadius": 8,
+    "heavyAttack": 6,
+    "windUp": 1,
+    "heavySlamAttack": 4,
+    "heavyRadialDmg": 4,
+    "heavySlamRadius": 9,
+    "slideAttack": 2,
+    "modes": [
+      {
+        "damage": { "Impact": 33, "Puncture": 110, "Slash": 77 },
+        "fireRate": 60,
+        "critChance": 0.27,
+        "critMul": 2.1,
+        "procChance": 0.24
+      }
+    ]
+  },
+  {
     "name": "Venka",
     "tags": ["Melee", "Claws"],
     "traits": ["Tenno"],
@@ -16169,6 +16504,34 @@
             "procChance": 0.24
           }
         ]
+      }
+    ]
+  },
+  {
+    "name": "Verdilac",
+    "tags": ["Melee", "Whip"],
+    "mastery": 13,
+    "disposition": 0.5,
+    "stancePolarity": "d",
+    "comboDur": 5,
+    "followThrough": 0.5,
+    "meleeRange": 3,
+    "slamAttack": 3,
+    "slamRadialDmg": 1,
+    "slamRadius": 7,
+    "heavyAttack": 4.5,
+    "windUp": 0.4,
+    "heavySlamAttack": 3.5,
+    "heavyRadialDmg": 3.5,
+    "heavySlamRadius": 9,
+    "slideAttack": 2,
+    "modes": [
+      {
+        "damage": { "Impact": 21.3, "Puncture": 85.2, "Slash": 106.5 },
+        "fireRate": 60,
+        "critChance": 0.3,
+        "critMul": 2.5,
+        "procChance": 0.21
       }
     ]
   },
@@ -16241,7 +16604,7 @@
     "traits": ["Grineer"],
     "mastery": 4,
     "disposition": 1.45,
-    "polarities": "r",
+    "polarities": "-",
     "reload": 0.7,
     "magazine": 14,
     "maxAmmo": 420,

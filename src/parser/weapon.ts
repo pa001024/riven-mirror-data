@@ -90,7 +90,7 @@ const toAttackWiki = (type: string, attack: WikiWeapons.Attack): WeaponMode => {
 
   return {
     type,
-    name: (!["Uncharged Shot", "Charged Shot", "Buckshot", "Normal"].includes(AttackName) && AttackName) || undefined,
+    name: (!["Uncharged Shot", "Charged Shot", "Buckshot", "Normal Attack"].includes(AttackName) && AttackName) || undefined,
     damage,
     fireRate: FireRate && +(FireRate * 60).toFixed(0),
     accuracy: Accuracy,
