@@ -65,7 +65,7 @@ const polarityMap = {
   Unairu: "t",
 };
 
-const toAttackWiki = (type: string, attack: WikiWeapons.Attack): WeaponMode => {
+const toAttackWiki = (attack: WikiWeapons.Attack): WeaponMode => {
   if (!attack) return undefined;
   const {
     Damage,
@@ -89,7 +89,6 @@ const toAttackWiki = (type: string, attack: WikiWeapons.Attack): WeaponMode => {
   const damage = !PelletCount ? Damage : _.reduce(Damage, (r, v, i) => (v && (r[i] = +(v * PelletCount).toFixed(3)), r), {}); //_.reduce(Damage, (r, v, i) => (v && (r[i] = v), r), {}); //_.map(Damage, (v, i) => [i, v] as [string, number]);
 
   return {
-    type,
     name: (!["Uncharged Shot", "Charged Shot", "Buckshot", "Normal Attack"].includes(AttackName) && AttackName) || undefined,
     damage,
     fireRate: FireRate && +(FireRate * 60).toFixed(0),
@@ -188,10 +187,10 @@ function mapNames(name: string) {
 }
 
 const toWeaponWiki = (raw: WikiWeapons.Weapon, noproto = false): ProtoWeapon => {
-  const normal = toAttackWiki(undefined, raw.Attack1) || toAttackWiki("charge", raw.Attack3);
+  const normal = toAttackWiki(raw.Attacks[0]);
   if (!normal) return null;
   const totalDamage = ~~_.reduce(normal.damage, (a, b) => a + b);
-  const defaultMode = (raw.Attack1 && "normal") || "";
+  const defaultMode = (raw.Attacks[0] && "normal") || "";
   const dataToDefaultMode = {
     accuracy: +(raw.Accuracy + "").split(" ")[0] || undefined,
     range: raw.Range,
@@ -206,15 +205,7 @@ const toWeaponWiki = (raw: WikiWeapons.Weapon, noproto = false): ProtoWeapon => 
   if (alterNamePrefix) {
     tags.push(alterNamePrefix + " Weapon");
   }
-  const modes = [
-    !defaultMode ? toAttackWiki(undefined, raw.Attack1) : _.merge(toAttackWiki(undefined, raw.Attack1), dataToDefaultMode),
-    defaultMode ? toAttackWiki("charge", raw.Attack3) : _.merge(toAttackWiki("charge", raw.Attack3), dataToDefaultMode),
-    toAttackWiki("secondary", raw.Attack2),
-    toAttackWiki("chargedThrow", raw.Attack4),
-    toAttackWiki("throw", raw.Attack6),
-    toAttackWiki("area", raw.Attack5),
-    toAttackWiki("secondaryArea", raw.Attack7),
-  ].filter(v => Boolean(v) && Object.keys(v).length);
+  const modes = raw.Attacks.map(toAttackWiki).filter(v => Boolean(v) && Object.keys(v).length);
   if (modes.some(v => v.trigger === "Held")) tags.push("Continuous");
   const reloadStyle = ReloadStyle[raw.ReloadStyle];
   return {
@@ -358,7 +349,7 @@ export enum MainTag {
 export const convertWeapons = (deWeapons: DEWeapon = { ExportWeapons: [] }, wikiWeapons: WikiWeapon, patch: Dict<ProtoWeapon>) => {
   const weaponMapWIKI: Dict<ProtoWeapon> = removeNull(
     _.merge(
-      _.map(wikiWeapons.Weapons, v => {
+      _.map(wikiWeapons, v => {
         // 作为variants输出
         if (!v.Slot) {
           console.error("no type of", v);
@@ -371,8 +362,8 @@ export const convertWeapons = (deWeapons: DEWeapon = { ExportWeapons: [] }, wiki
         let rst: Weapon = toWeaponWiki(v);
         if (!rst || v.IgnoreCategories) return null;
         if (v.Name === "Dark Split-Sword (Dual Swords)") rst.name = "Dark Split-Sword";
-        if (wikiWeapons.Weapons[v.Name + " (Atmosphere)"]) {
-          rst.variants = [toWeaponWiki(wikiWeapons.Weapons[v.Name + " (Atmosphere)"], true)];
+        if (wikiWeapons[v.Name + " (Atmosphere)"]) {
+          rst.variants = [toWeaponWiki(wikiWeapons[v.Name + " (Atmosphere)"], true)];
         }
         return purge(rst);
       }).reduce((rst, weapon) => {

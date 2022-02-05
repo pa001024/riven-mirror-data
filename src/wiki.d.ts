@@ -1,9 +1,6 @@
 export declare namespace WikiWeapons {
   interface Root {
-    IgnoreInCount: string[];
-    Weapons: { [key: string]: Weapon };
-    Stances: Stance[];
-    Augments: Augment[];
+    [key: string]: Weapon
   }
 
   interface Augment {
@@ -68,13 +65,7 @@ export declare namespace WikiWeapons {
     SlideAttack?: number;
     JumpAttack?: number;
     WallAttack?: number;
-    Attack1?: Attack;
-    Attack2?: Attack; // secondary
-    Attack4?: Attack; // chargedThrow
-    Attack6?: Attack; // throw
-    Attack3?: Attack; // charge
-    Attack5?: Attack; // area
-    Attack7?: Attack; // secondaryArea
+    Attacks?: Attack[];
 
     // deep extra
     SniperComboMin?: number;

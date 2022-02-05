@@ -5,8 +5,12 @@ import * as chalk from "chalk";
 
 const fetchTargets = [
   {
-    src: "https://warframe.fandom.com/wiki/Module:Weapons/data?action=raw",
+    src:
+      "https://warframe.fandom.com/api.php?action=scribunto-console&format=json&title=Module%3AWeapons&content=return%20require(%27Module%3AWeapons%2Fdata%27)&question=%3Dp&clear=1",
     dist: "wikia-Weapons.lua",
+    mapper: (data: any) => {
+      return JSON.parse(data).return;
+    },
   },
   {
     src: "https://warframe.fandom.com/wiki/Module:Warframes/data?action=raw",
@@ -51,7 +55,9 @@ const fetchTasks = fetchTargets.map(v => {
         },
         timeout: 10e3,
       });
-      await fs.outputFile(TMP_PREFIX + v.dist, typeof rst.data === "string" ? rst.data : JSON.stringify(rst.data));
+      let data = typeof rst.data === "string" ? rst.data : JSON.stringify(rst.data);
+      if (v.mapper) data = v.mapper(data);
+      await fs.outputFile(TMP_PREFIX + v.dist, data);
       console.log(chalk.blue("[fetch] Download"), TMP_PREFIX + v.dist, "from", v.src);
     } catch (e) {
       console.error(`File ${v.src} download failed, please download manually`, e.message);

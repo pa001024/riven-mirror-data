@@ -1,25 +1,23 @@
 {
-  "Weapons": {
-    "Larkspur (Atmosphere)": {
-      "Name": "Larkspur (Atmosphere)"
-    },
-    "Proboscis Cernos": {
-      "Name": "Proboscis Cernos"
-    },
-    "Morgha (Atmosphere)": {
-      "Name": "Morgha (Atmosphere)"
-    },
-    "Bubonico": {
-      "Class": "Shotgun"
-    },
-    "Epitaph": {
-      "Type": "Secondary"
-    },
-    "Xoris": {
-      "ComboDur": 9999
-    },
-    "Velocitus": {
-      "MaxAmmo": 9999
-    }
+  "Larkspur (Atmosphere)": {
+    "Name": "Larkspur (Atmosphere)"
+  },
+  "Proboscis Cernos": {
+    "Name": "Proboscis Cernos"
+  },
+  "Morgha (Atmosphere)": {
+    "Name": "Morgha (Atmosphere)"
+  },
+  "Bubonico": {
+    "Class": "Shotgun"
+  },
+  "Epitaph": {
+    "Type": "Secondary"
+  },
+  "Xoris": {
+    "ComboDur": 9999
+  },
+  "Velocitus": {
+    "MaxAmmo": 9999
   }
 }

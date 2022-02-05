@@ -375,7 +375,7 @@
   "frailMomentum": "虚弱动能",
   "burdenedMagazine": "过载弹匣",
   "crashCourse": "连续冲击",
-  "fluxOverdrive": "通量射线步枪超载",
+  "fluxOverdrive": "通量步枪超载",
   "heavyCaliber": "重口径",
   "hammerShot": "重锤射击",
   "wildfire": "野火",
@@ -1062,7 +1062,7 @@
   "astilla": "碎裂者",
   "astillaPrime": "碎裂者Prime",
   "scourge": "祸根",
-  "scourgePrime": "祸根 Prime",
+  "scourgePrime": "祸根Prime",
   "corinth": "科林斯",
   "miter": "米特尔",
   "telosBoltor": "终极螺钉步枪",
@@ -1118,7 +1118,7 @@
   "mk1Strun": "MK1-斯特朗",
   "mk1Furax": "MK1-弗拉克斯",
   "knell": "丧钟",
-  "knellPrime": "丧钟 Prime",
+  "knellPrime": "丧钟Prime",
   "securaDualCestra": "保障锡斯特双枪",
   "spectra": "光谱切割器",
   "spectraVandal": "光谱切割器破坏者",
@@ -2002,5 +2002,6 @@
   "dargyn": "轻型艇",
   "rampart": "炮座壁垒",
   "vastilok": "瓦斯提枪刃",
-  "ghoulsaw": "尸鬼电锯"
+  "ghoulsaw": "尸鬼电锯",
+  "nepheri": "赤炎流星"
 }
