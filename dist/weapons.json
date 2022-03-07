@@ -148,7 +148,8 @@
         "critChance": 0.06,
         "critMul": 1.8,
         "procChance": 0.28,
-        "burstCount": 2
+        "burstCount": 2,
+        "prjSpeed": 80
       }
     ]
   },
@@ -1853,7 +1854,7 @@
             "critChance": 0.12,
             "critMul": 2,
             "procChance": 0.34,
-            "prjSpeed": 100
+            "prjSpeed": 120
           }
         ]
       },
@@ -2403,6 +2404,7 @@
         "critMul": 2.9,
         "procChance": 0.43,
         "punchThrough": 0.9,
+        "range": 19,
         "trigger": "Held",
         "falloff": [9, 19, 0.2]
       },
@@ -2412,7 +2414,8 @@
         "fireRate": 720,
         "critChance": 0.11,
         "critMul": 2.9,
-        "procChance": 0.43
+        "procChance": 0.43,
+        "prjSpeed": -1
       },
       {
         "name": "Partial Reload Explosion",
@@ -2431,7 +2434,8 @@
         "critChance": 0.31,
         "critMul": 2.9,
         "procChance": 0.59,
-        "punchThrough": 0.9
+        "punchThrough": 0.9,
+        "prjSpeed": -1
       },
       {
         "name": "Reload From Empty Explosion",
@@ -5045,7 +5049,8 @@
             "critChance": 0.22,
             "critMul": 2,
             "procChance": 0.16,
-            "range": 450
+            "range": 450,
+            "prjSpeed": 75
           }
         ]
       }
@@ -6014,7 +6019,8 @@
             "critChance": 0.25,
             "critMul": 2,
             "procChance": 0.25,
-            "punchThrough": 5
+            "punchThrough": 5,
+            "prjSpeed": 62.5
           },
           {
             "name": "Explosion",
@@ -6078,7 +6084,8 @@
             "fireRate": 333,
             "critChance": 0.27,
             "critMul": 2,
-            "procChance": 0.27
+            "procChance": 0.27,
+            "prjSpeed": 62.5
           },
           {
             "name": "Explosion",
@@ -6699,7 +6706,8 @@
         "critMul": 1.5,
         "procChance": 0.3,
         "trigger": "Burst",
-        "burstCount": 4
+        "burstCount": 4,
+        "prjSpeed": 10
       },
       {
         "name": "Explosion",
@@ -7664,7 +7672,7 @@
         "tags": ["Secondary", "Pistol"],
         "traits": ["Tenno"],
         "mastery": 14,
-        "disposition": 0.5,
+        "disposition": 1.25,
         "polarities": "rr",
         "reload": 2,
         "magazine": 1,
@@ -8340,7 +8348,8 @@
             "fireRate": 275,
             "critChance": 0.35,
             "critMul": 2,
-            "procChance": 0.2
+            "procChance": 0.2,
+            "prjSpeed": 75
           },
           {
             "name": "Explosion",
@@ -8449,6 +8458,7 @@
   {
     "name": "Kuva Shildeg",
     "tags": ["Melee", "Hammer", "Kuva Weapon"],
+    "traits": ["Grineer", "Kuva Lich"],
     "mastery": 13,
     "disposition": 0.75,
     "polarities": "r",
@@ -8459,7 +8469,7 @@
     "slamAttack": 3,
     "slamRadialDmg": 1,
     "slamRadius": 9,
-    "heavyAttack": 6.01,
+    "heavyAttack": 6,
     "windUp": 1.2,
     "heavySlamAttack": 5,
     "heavyRadialDmg": 5,
@@ -9747,7 +9757,7 @@
         "fireRate": 600,
         "critChance": 0.05,
         "critMul": 1.5,
-        "procChance": 0,
+        "procChance": 0.39,
         "accuracy": 25,
         "range": 4.4,
         "falloff": [0, 4.4, 0.5]
@@ -11348,7 +11358,8 @@
         "critChance": 0.03,
         "critMul": 1.5,
         "procChance": 0.37,
-        "pellets": 5
+        "pellets": 5,
+        "prjSpeed": 6
       },
       {
         "name": "Cluster Bombs Explosion",
@@ -13638,7 +13649,7 @@
         "critChance": 0.14,
         "critMul": 2.2,
         "procChance": 0.28,
-        "prjSpeed": 50
+        "prjSpeed": 60
       },
       {
         "name": "Uncharged Explosion",
@@ -13659,7 +13670,7 @@
         "procChance": 0.28,
         "ammoCost": 5,
         "chargeTime": 1,
-        "prjSpeed": 50
+        "prjSpeed": 40
       },
       {
         "name": "Fully Charged Explosion",
@@ -14338,15 +14349,15 @@
     "comboDur": 5,
     "followThrough": 0.6,
     "meleeRange": 2.6,
-    "slamAttack": 2.4,
-    "slamRadialDmg": 0.8,
+    "slamAttack": 3,
+    "slamRadialDmg": 1,
     "slamRadius": 6,
-    "heavyAttack": 3.2,
+    "heavyAttack": 4,
     "windUp": 1,
-    "heavySlamAttack": 3.2,
-    "heavyRadialDmg": 3.2,
+    "heavySlamAttack": 4,
+    "heavyRadialDmg": 4,
     "heavySlamRadius": 10,
-    "slideAttack": 0.8,
+    "slideAttack": 1,
     "modes": [
       {
         "damage": { "Impact": 120, "Electricity": 140 },
@@ -14434,12 +14445,12 @@
         "procChance": 0.1,
         "pellets": 10,
         "prjSpeed": 150,
-        "falloff": [28, 40, 0.55]
+        "falloff": [26, 52, 0.446]
       },
       {
         "name": "Burst Shot",
         "damage": { "Radiation": 260 },
-        "fireRate": 288,
+        "fireRate": 295,
         "critChance": 0.18,
         "critMul": 2,
         "procChance": 0.1,
@@ -14525,13 +14536,13 @@
     "comboDur": 5,
     "followThrough": 0.4,
     "meleeRange": 2.8,
-    "slamAttack": 3.01,
+    "slamAttack": 3,
     "slamRadialDmg": 1,
     "slamRadius": 4,
-    "heavyAttack": 6.01,
+    "heavyAttack": 6,
     "windUp": 1.1,
-    "heavySlamAttack": 5.01,
-    "heavyRadialDmg": 5.01,
+    "heavySlamAttack": 5,
+    "heavyRadialDmg": 5,
     "heavySlamRadius": 4,
     "slideAttack": 2,
     "modes": [
@@ -14595,8 +14606,8 @@
     "comboDur": 5,
     "followThrough": 0.35,
     "meleeRange": 2.5,
-    "slamAttack": 3,
-    "slamRadialDmg": 1,
+    "slamAttack": 3.75,
+    "slamRadialDmg": 1.25,
     "slamRadius": 8,
     "heavyAttack": 6,
     "windUp": 1,
@@ -14621,7 +14632,8 @@
         "procChance": 0.38,
         "range": 10,
         "chargeTime": 1,
-        "trigger": "Charge"
+        "trigger": "Charge",
+        "prjSpeed": 1
       }
     ]
   },
@@ -14635,13 +14647,13 @@
     "comboDur": 5,
     "followThrough": 0.7,
     "meleeRange": 2.5,
-    "slamAttack": 3.01,
+    "slamAttack": 3,
     "slamRadialDmg": 1,
     "slamRadius": 6,
-    "heavyAttack": 6.01,
+    "heavyAttack": 6,
     "windUp": 0.7,
-    "heavySlamAttack": 4.01,
-    "heavyRadialDmg": 4.01,
+    "heavySlamAttack": 4,
+    "heavyRadialDmg": 4,
     "heavySlamRadius": 8,
     "slideAttack": 2,
     "modes": [
@@ -15460,12 +15472,18 @@
     "maxAmmo": 210,
     "modes": [
       {
-        "damage": { "Impact": 9, "Puncture": 23, "Slash": 17, "Corrosive": 81 },
+        "damage": { "Impact": 9, "Puncture": 23, "Slash": 17 },
         "fireRate": 150,
         "critChance": 0.03,
         "critMul": 1.5,
         "procChance": 0.5,
         "prjSpeed": 75
+      },
+      {
+        "name": "Corrosive DoT",
+        "damage": { "Corrosive": 27 },
+        "fireRate": 0,
+        "procChance": 0.5
       }
     ]
   },
@@ -15798,7 +15816,8 @@
             "fireRate": 300,
             "critChance": 0.3,
             "critMul": 2,
-            "procChance": 0.25
+            "procChance": 0.25,
+            "prjSpeed": 125
           },
           {
             "damage": {
@@ -15812,7 +15831,8 @@
             "critMul": 3.6,
             "procChance": 0.25,
             "punchThrough": 5,
-            "chargeTime": 1
+            "chargeTime": 1,
+            "prjSpeed": 125
           }
         ]
       }
@@ -15862,7 +15882,7 @@
     "modes": [
       {
         "damage": { "Impact": 33, "Puncture": 110, "Slash": 77 },
-        "fireRate": 60,
+        "fireRate": 65,
         "critChance": 0.27,
         "critMul": 2.1,
         "procChance": 0.24
