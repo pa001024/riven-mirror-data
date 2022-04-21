@@ -443,7 +443,6 @@
   "vigilantePursuit": "警备官的追击",
   "vigilanteSupplies": "警备官的储备",
   "vigilanteVigor": "警备营的活力",
-  "ammoStock": "弹仓扩容",
   "argonScope": "氩素准镜",
   "baneOfCorpus": "科普斯克星",
   "baneOfGrineer": "克隆尼克星",
@@ -654,6 +653,7 @@
   "burstingMass": "质量爆发",
   "napalmGrenades": "猛烈发狂",
   "wildFrenzy": "狂野暴怒",
+  "primedAmmoStock": "高阶霰弹扩充",
   "primedBaneOfCorpus": "高阶科普斯克星",
   "primedBaneOfCorrupted": "高阶堕落者克星",
   "primedBaneOfGrineer": "高阶克隆尼克星",
@@ -861,5 +861,9 @@
   "dizzyingRounds": "晕眩弹头",
   "infectiousBite": "感染咬噬",
   "crescentCharge": "月刃冲锋",
-  "lunarPitcher": "月光瓶子草"
+  "lunarPitcher": "月光瓶子草",
+  "nagantakaPrime": "圣装噬蛇弩",
+  "corvasPrime": "圣装黑鸦",
+  "garudaPrime": "圣装迦楼罗",
+  "gyre": "电光舞者"
 }

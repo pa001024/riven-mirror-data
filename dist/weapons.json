@@ -136,7 +136,7 @@
     "tags": ["Secondary", "Dual Pistols"],
     "traits": ["Tenno"],
     "mastery": 8,
-    "disposition": 1.05,
+    "disposition": 1,
     "polarities": "--",
     "reload": 3.4,
     "magazine": 10,
@@ -156,7 +156,7 @@
   {
     "name": "Akaten",
     "tags": ["Hound", "Unique"],
-    "disposition": 0,
+    "disposition": 0.5,
     "magazine": 6,
     "modes": [
       {
@@ -1027,6 +1027,64 @@
         "chargeTime": 1,
         "falloff": [0, 7, 0]
       }
+    ],
+    "variants": [
+      {
+        "name": "Artemis Bow Prime",
+        "tags": ["Primary", "Rifle", "Assault Rifle", "Exalted"],
+        "traits": ["Tenno"],
+        "disposition": 0,
+        "polarities": "rr-",
+        "reload": 0.9,
+        "magazine": 1,
+        "modes": [
+          {
+            "name": "Base Uncharged Shot",
+            "damage": { "Impact": 235.2, "Puncture": 1344, "Slash": 100.8 },
+            "fireRate": 60,
+            "critChance": 0.25,
+            "critMul": 2,
+            "procChance": 0.2,
+            "punchThrough": 1,
+            "pellets": 7,
+            "prjSpeed": 100
+          },
+          {
+            "name": "Base Charged Shot",
+            "damage": { "Impact": 235.2, "Puncture": 1344, "Slash": 100.8 },
+            "fireRate": 60,
+            "critChance": 0.25,
+            "critMul": 2,
+            "procChance": 0.2,
+            "punchThrough": 1,
+            "pellets": 7,
+            "chargeTime": 1,
+            "trigger": "Charge",
+            "prjSpeed": 100
+          },
+          {
+            "name": "Concentrated Arrow Shot",
+            "damage": { "Impact": 33.6, "Puncture": 192, "Slash": 14.4 },
+            "fireRate": 60,
+            "critChance": 0.25,
+            "critMul": 2,
+            "procChance": 0.2,
+            "trigger": "Charge",
+            "prjSpeed": 150
+          },
+          {
+            "name": "Concentrated Arrow Headshot Explosion",
+            "damage": { "Blast": 500 },
+            "fireRate": 60,
+            "critChance": 0.75,
+            "critMul": 2,
+            "procChance": 0,
+            "range": 7,
+            "chargeTime": 1,
+            "falloff": [0, 7, 0]
+          }
+        ]
+      }
     ]
   },
   {
@@ -1278,7 +1336,7 @@
         "range": 300
       },
       {
-        "name": "Launch Turret",
+        "name": "Turret Expiry",
         "damage": { "Blast": 75 },
         "fireRate": 600,
         "critChance": 0.16,
@@ -1400,6 +1458,7 @@
             "procChance": 0.15,
             "punchThrough": 1,
             "pellets": 4,
+            "ammoCost": 4,
             "chargeTime": 0.8,
             "prjSpeed": 140
           }
@@ -1444,7 +1503,7 @@
     "tags": ["Primary", "Rifle", "Assault Rifle", "Continuous"],
     "traits": ["Sentient"],
     "mastery": 11,
-    "disposition": 1.15,
+    "disposition": 1.2,
     "polarities": "r",
     "reload": 8.4,
     "magazine": 21,
@@ -1486,7 +1545,7 @@
   {
     "name": "Batoten",
     "tags": ["Hound", "Unique"],
-    "disposition": 0,
+    "disposition": 0.5,
     "magazine": 6,
     "modes": [
       {
@@ -1570,7 +1629,7 @@
         "tags": ["Primary", "Rifle", "Assault Rifle"],
         "traits": ["Prime"],
         "mastery": 10,
-        "disposition": 0.95,
+        "disposition": 1,
         "polarities": "rr",
         "reload": 1.1,
         "magazine": 60,
@@ -2870,6 +2929,7 @@
         "ammoCost": 0.5
       },
       {
+        "name": "Alt-Fire",
         "damage": { "Impact": 1.8, "Puncture": 1.8, "Slash": 14.4 },
         "fireRate": 960,
         "critChance": 0.16,
@@ -3019,7 +3079,7 @@
         "tags": ["Arch-Gun", "Atmosphere"],
         "traits": ["Entrati"],
         "mastery": 14,
-        "disposition": 0.5,
+        "disposition": 1,
         "reload": 2.5,
         "magazine": 100,
         "maxAmmo": 300,
@@ -3093,7 +3153,7 @@
         "tags": ["Arch-Gun", "Atmosphere"],
         "traits": ["Tenno"],
         "mastery": 1,
-        "disposition": 1.05,
+        "disposition": 1.2,
         "polarities": "-",
         "reload": 2,
         "magazine": 25,
@@ -3118,6 +3178,68 @@
             "range": 300,
             "chargeTime": 0.5,
             "falloff": [60, 120, 0.5]
+          }
+        ]
+      },
+      {
+        "name": "Corvas Prime",
+        "tags": ["Arch-Gun"],
+        "traits": ["Prime"],
+        "mastery": 14,
+        "disposition": 0.5,
+        "polarities": "rr-",
+        "reload": 2.5,
+        "magazine": 20,
+        "reloadStyle": 1,
+        "modes": [
+          {
+            "damage": { "Impact": 230, "Heat": 330 },
+            "fireRate": 120,
+            "critChance": 0.44,
+            "critMul": 3,
+            "procChance": 0.2,
+            "range": 300
+          },
+          {
+            "damage": { "Impact": 430, "Heat": 530 },
+            "fireRate": 120,
+            "critChance": 0.56,
+            "critMul": 3,
+            "procChance": 0.2,
+            "range": 300,
+            "chargeTime": 0.5,
+            "falloff": [600, 1200, 0.5]
+          }
+        ]
+      },
+      {
+        "name": "Corvas Prime (Atmosphere)",
+        "tags": ["Arch-Gun", "Atmosphere"],
+        "traits": ["Prime"],
+        "mastery": 14,
+        "disposition": 0.5,
+        "polarities": "rr-",
+        "reload": 2,
+        "magazine": 20,
+        "maxAmmo": 120,
+        "modes": [
+          {
+            "damage": { "Impact": 230, "Heat": 330 },
+            "fireRate": 120,
+            "critChance": 0.44,
+            "critMul": 3,
+            "procChance": 0.2,
+            "range": 300
+          },
+          {
+            "damage": { "Impact": 430, "Heat": 530 },
+            "fireRate": 120,
+            "critChance": 0.56,
+            "critMul": 3,
+            "procChance": 0.2,
+            "range": 300,
+            "chargeTime": 0.5,
+            "falloff": [100, 200, 0.5]
           }
         ]
       }
@@ -3890,6 +4012,36 @@
         "critMul": 2,
         "procChance": 0.1
       }
+    ],
+    "variants": [
+      {
+        "name": "Diwata Prime",
+        "tags": ["Melee", "Exalted"],
+        "traits": ["Tenno"],
+        "disposition": 0,
+        "polarities": "rr-",
+        "comboDur": 5,
+        "followThrough": 0.7,
+        "meleeRange": 2.5,
+        "slamAttack": 1,
+        "slamRadialDmg": 1,
+        "slamRadius": 8,
+        "heavyAttack": 1,
+        "windUp": 0,
+        "heavySlamAttack": 1,
+        "heavyRadialDmg": 1,
+        "heavySlamRadius": 0,
+        "slideAttack": 2.15,
+        "modes": [
+          {
+            "damage": { "Impact": 30, "Puncture": 150, "Slash": 20 },
+            "fireRate": 65,
+            "critChance": 0.2,
+            "critMul": 2,
+            "procChance": 0.1
+          }
+        ]
+      }
     ]
   },
   {
@@ -4154,7 +4306,7 @@
         "tags": ["Arch-Gun", "Atmosphere"],
         "traits": ["Tenno"],
         "mastery": 1,
-        "disposition": 1.25,
+        "disposition": 1.3,
         "reload": 1.4,
         "magazine": 32,
         "maxAmmo": 512,
@@ -5037,7 +5189,7 @@
         "tags": ["Arch-Gun", "Atmosphere"],
         "traits": ["Tenno", "Corpus"],
         "mastery": 2,
-        "disposition": 0.9,
+        "disposition": 1,
         "polarities": "-",
         "reload": 3,
         "magazine": 40,
@@ -5207,7 +5359,7 @@
         "tags": ["Melee", "Fist"],
         "traits": ["Grineer"],
         "mastery": 9,
-        "disposition": 1.38,
+        "disposition": 1.3,
         "stancePolarity": "d",
         "comboDur": 5,
         "followThrough": 0.9,
@@ -5480,8 +5632,37 @@
     ]
   },
   {
-    "name": "Garuda's Talons",
-    "tags": ["Melee", "Claws"],
+    "name": "Garuda Prime Talons",
+    "tags": ["Melee", "Exalted"],
+    "traits": ["Prime"],
+    "disposition": 0,
+    "polarities": "r-",
+    "stancePolarity": "r",
+    "comboDur": 5,
+    "followThrough": 0.8,
+    "meleeRange": 2.2,
+    "slamAttack": 3,
+    "slamRadialDmg": 1,
+    "slamRadius": 6,
+    "heavyAttack": 5,
+    "windUp": 0.6,
+    "heavySlamAttack": 4,
+    "heavyRadialDmg": 4,
+    "heavySlamRadius": 7,
+    "slideAttack": 3,
+    "modes": [
+      {
+        "damage": { "Impact": 14, "Puncture": 28, "Slash": 238 },
+        "fireRate": 60,
+        "critChance": 0.35,
+        "critMul": 2,
+        "procChance": 0.36
+      }
+    ]
+  },
+  {
+    "name": "Garuda Talons",
+    "tags": ["Melee", "Exalted"],
     "traits": ["Tenno"],
     "disposition": 0,
     "polarities": "r-",
@@ -5543,7 +5724,7 @@
     "tags": ["Melee", "Assault Saw"],
     "traits": ["Grineer"],
     "mastery": 7,
-    "disposition": 0.5,
+    "disposition": 0.85,
     "stancePolarity": "-",
     "comboDur": 5,
     "followThrough": 1,
@@ -6006,7 +6187,7 @@
         "tags": ["Arch-Gun", "Atmosphere"],
         "traits": ["Grineer"],
         "mastery": 4,
-        "disposition": 1.05,
+        "disposition": 1.1,
         "polarities": "r",
         "reload": 2,
         "magazine": 30,
@@ -6072,7 +6253,7 @@
         "tags": ["Arch-Gun", "Atmosphere", "Kuva Weapon"],
         "traits": ["Grineer", "Kuva Lich"],
         "mastery": 15,
-        "disposition": 0.7,
+        "disposition": 1,
         "polarities": "rrr",
         "reload": 2.5,
         "magazine": 60,
@@ -6598,7 +6779,7 @@
             "fireRate": 70,
             "critChance": 0.23,
             "critMul": 2.1,
-            "procChance": 0.13,
+            "procChance": 0.0332,
             "pellets": 28,
             "range": 300,
             "ammoCost": 4,
@@ -7015,7 +7196,7 @@
         "tags": ["Arch-Gun", "Atmosphere"],
         "traits": ["Tenno"],
         "mastery": 0,
-        "disposition": 0.85,
+        "disposition": 1.1,
         "polarities": "r",
         "reload": 2,
         "magazine": 200,
@@ -7058,7 +7239,7 @@
         "tags": ["Arch-Gun", "Atmosphere"],
         "traits": ["Tenno", "Vandal"],
         "mastery": 5,
-        "disposition": 0.85,
+        "disposition": 0.9,
         "reload": 2,
         "magazine": 300,
         "maxAmmo": 1200,
@@ -7116,6 +7297,36 @@
         "critChance": 0.25,
         "critMul": 2,
         "procChance": 0.3
+      }
+    ],
+    "variants": [
+      {
+        "name": "Iron Staff Prime",
+        "tags": ["Melee", "Exalted"],
+        "traits": ["Tenno"],
+        "disposition": 0,
+        "polarities": "r--",
+        "comboDur": 5,
+        "followThrough": 1,
+        "meleeRange": 3.5,
+        "slamAttack": 3,
+        "slamRadialDmg": 1,
+        "slamRadius": 7,
+        "heavyAttack": 5,
+        "windUp": 0.5,
+        "heavySlamAttack": 5,
+        "heavyRadialDmg": 5,
+        "heavySlamRadius": 10,
+        "slideAttack": 1,
+        "modes": [
+          {
+            "damage": { "Impact": 170, "Slash": 80 },
+            "fireRate": 60,
+            "critChance": 0.25,
+            "critMul": 2,
+            "procChance": 0.3
+          }
+        ]
       }
     ]
   },
@@ -7182,7 +7393,7 @@
     "tags": ["Melee", "Blade and Whip"],
     "traits": ["Grineer"],
     "mastery": 11,
-    "disposition": 1.1,
+    "disposition": 1.15,
     "polarities": "rr",
     "stancePolarity": "r",
     "comboDur": 5,
@@ -7672,7 +7883,7 @@
         "tags": ["Secondary", "Pistol"],
         "traits": ["Tenno"],
         "mastery": 14,
-        "disposition": 1.25,
+        "disposition": 1.05,
         "polarities": "rr",
         "reload": 2,
         "magazine": 1,
@@ -8007,7 +8218,7 @@
     "tags": ["Melee", "Polearm"],
     "traits": ["Sentient"],
     "mastery": 13,
-    "disposition": 0.5,
+    "disposition": 0.75,
     "polarities": "r",
     "stancePolarity": "=",
     "comboDur": 5,
@@ -8072,6 +8283,7 @@
             "burstCount": 3
           },
           {
+            "name": "Alt-Fire",
             "damage": { "Impact": 32.25, "Puncture": 5.375, "Slash": 5.375 },
             "fireRate": 977,
             "critChance": 0.21,
@@ -8581,7 +8793,7 @@
   {
     "name": "Lacerten",
     "tags": ["Hound", "Unique"],
-    "disposition": 0,
+    "disposition": 0.5,
     "magazine": 6,
     "modes": [
       {
@@ -8692,7 +8904,7 @@
         "tags": ["Arch-Gun", "Atmosphere"],
         "traits": ["Tenno"],
         "mastery": 8,
-        "disposition": 0.95,
+        "disposition": 1,
         "reload": 2.5,
         "magazine": 100,
         "maxAmmo": 400,
@@ -8705,6 +8917,7 @@
             "procChance": 0.5
           },
           {
+            "name": "Projectile Impact",
             "damage": { "Impact": 140, "Blast": 180, "Radiation": 100 },
             "fireRate": 60,
             "critChance": 0.26,
@@ -9251,7 +9464,7 @@
         "tags": ["Secondary", "Pistol"],
         "traits": ["Prime"],
         "mastery": 14,
-        "disposition": 0.5,
+        "disposition": 0.8,
         "polarities": "r",
         "reload": 1.2,
         "magazine": 8,
@@ -9600,10 +9813,10 @@
         "tags": ["Arch-Gun", "Atmosphere"],
         "traits": ["Entrati"],
         "mastery": 15,
-        "disposition": 0.95,
+        "disposition": 1,
         "polarities": "r",
         "reload": 3,
-        "magazine": 80,
+        "magazine": 100,
         "maxAmmo": 160,
         "modes": [
           {
@@ -9707,15 +9920,6 @@
         "chargeTime": 0.5,
         "trigger": "Charge",
         "prjSpeed": 85
-      },
-      {
-        "name": "Toxin Cloud",
-        "damage": { "Toxin": 5 },
-        "fireRate": 60,
-        "critChance": 0.15,
-        "critMul": 2,
-        "procChance": 0.49,
-        "range": 3
       }
     ]
   },
@@ -9795,6 +9999,42 @@
         "accuracy": 40,
         "burstCount": 9,
         "prjSpeed": 100
+      }
+    ],
+    "variants": [
+      {
+        "name": "Nagantaka Prime",
+        "tags": ["Primary", "Rifle", "Bow", "Crossbow"],
+        "traits": ["Tenno"],
+        "mastery": 12,
+        "disposition": 0.5,
+        "polarities": "r",
+        "reload": 2.3,
+        "magazine": 11,
+        "maxAmmo": 540,
+        "modes": [
+          {
+            "name": "Semi-Auto",
+            "damage": { "Impact": 1.7, "Puncture": 15.6, "Slash": 155.7 },
+            "fireRate": 150,
+            "critChance": 0.25,
+            "critMul": 2.3,
+            "procChance": 0.39,
+            "accuracy": 40,
+            "prjSpeed": 100
+          },
+          {
+            "name": "Burst Shot",
+            "damage": { "Impact": 1.7, "Puncture": 15.6, "Slash": 155.7 },
+            "fireRate": 468,
+            "critChance": 0.25,
+            "critMul": 2.3,
+            "procChance": 0.39,
+            "accuracy": 40,
+            "burstCount": 11,
+            "prjSpeed": 100
+          }
+        ]
       }
     ]
   },
@@ -9893,7 +10133,7 @@
     "name": "Nataruk",
     "tags": ["Primary", "Rifle", "Bow"],
     "traits": ["Sentient"],
-    "disposition": 0.5,
+    "disposition": 0.55,
     "polarities": "rrrr",
     "reload": 0.05,
     "magazine": 1,
@@ -9936,7 +10176,7 @@
     "tags": ["Melee", "Dual Daggers"],
     "traits": ["Sentient"],
     "mastery": 13,
-    "disposition": 0.5,
+    "disposition": 0.7,
     "polarities": "r",
     "stancePolarity": "d",
     "comboDur": 5,
@@ -10648,6 +10888,7 @@
         "range": 300
       },
       {
+        "name": "Alt-Fire",
         "damage": { "Impact": 18, "Puncture": 18, "Slash": 36 },
         "fireRate": 461,
         "critChance": 0.3,
@@ -10679,6 +10920,7 @@
             "range": 300
           },
           {
+            "name": "Alt-Fire",
             "damage": { "Impact": 26, "Puncture": 26, "Slash": 52 },
             "fireRate": 461,
             "critChance": 0.3,
@@ -11268,7 +11510,7 @@
         "tags": ["Arch-Gun", "Atmosphere"],
         "traits": ["Tenno"],
         "mastery": 3,
-        "disposition": 1.15,
+        "disposition": 1.2,
         "polarities": "r",
         "reload": 2,
         "magazine": 240,
@@ -11450,8 +11692,8 @@
         "name": "Poison Cloud",
         "damage": { "Toxin": 20 },
         "fireRate": 60,
-        "critChance": 0,
-        "critMul": 1,
+        "critChance": 0.01,
+        "critMul": 2,
         "procChance": 0.35,
         "range": 3.6,
         "falloff": [0, 3.6, 0]
@@ -11757,7 +11999,7 @@
         "tags": ["Primary", "Rifle", "Assault Rifle"],
         "traits": ["Corpus", "Vandal"],
         "mastery": 10,
-        "disposition": 1.35,
+        "disposition": 1.4,
         "polarities": "r",
         "reload": 1.8,
         "magazine": 80,
@@ -11837,7 +12079,7 @@
         "tags": ["Primary", "Rifle", "Assault Rifle", "Kuva Weapon"],
         "traits": ["Grineer", "Kuva Lich"],
         "mastery": 13,
-        "disposition": 1,
+        "disposition": 1.05,
         "polarities": "rr",
         "reload": 1.7,
         "magazine": 88,
@@ -12175,6 +12417,27 @@
         "procChance": 0.1,
         "range": 50
       }
+    ],
+    "variants": [
+      {
+        "name": "Regulators Prime",
+        "tags": ["Secondary", "Dual Pistols", "Exalted"],
+        "traits": ["Tenno"],
+        "disposition": 0,
+        "polarities": "r--",
+        "reload": 0,
+        "magazine": 0,
+        "modes": [
+          {
+            "damage": { "Impact": 25, "Puncture": 12.5, "Slash": 12.5 },
+            "fireRate": 888,
+            "critChance": 0.25,
+            "critMul": 3,
+            "procChance": 0.1,
+            "range": 50
+          }
+        ]
+      }
     ]
   },
   {
@@ -12273,7 +12536,7 @@
     "tags": ["Melee", "Dagger"],
     "traits": ["Tenno"],
     "mastery": 8,
-    "disposition": 0.5,
+    "disposition": 0.8,
     "stancePolarity": "r",
     "comboDur": 5,
     "followThrough": 0.9,
@@ -12437,7 +12700,7 @@
     "tags": ["Primary", "Rifle", "Speargun"],
     "traits": ["Tenno"],
     "mastery": 6,
-    "disposition": 1.15,
+    "disposition": 1.2,
     "polarities": "-r",
     "reload": 2.5,
     "magazine": 40,
@@ -12492,7 +12755,7 @@
         "tags": ["Primary", "Rifle", "Speargun"],
         "traits": ["Tenno"],
         "mastery": 14,
-        "disposition": 0.5,
+        "disposition": 1.15,
         "polarities": "-rrr",
         "reload": 2.2,
         "magazine": 40,
@@ -13011,7 +13274,7 @@
     "tags": ["Primary", "Rifle", "Assault Rifle"],
     "traits": ["Cephalon"],
     "mastery": 5,
-    "disposition": 1.2,
+    "disposition": 1.25,
     "polarities": "d-",
     "reload": 3,
     "magazine": 8,
@@ -13053,22 +13316,13 @@
         "tags": ["Primary", "Rifle", "Assault Rifle"],
         "traits": ["Syndicate", "Cephalon Suda", "Cephalon"],
         "mastery": 12,
-        "disposition": 1.15,
+        "disposition": 1.2,
         "polarities": "rd-",
         "reload": 2,
         "magazine": 16,
         "maxAmmo": 96,
         "modes": [
-          {
-            "name": "Orb Launch",
-            "damage": {},
-            "fireRate": 200,
-            "critChance": 0.14,
-            "critMul": 2,
-            "procChance": 0.35,
-            "range": 12,
-            "prjSpeed": 80
-          },
+          { "name": "Orb Launch", "damage": {}, "fireRate": 200, "range": 12 },
           {
             "name": "Orb Merging Damage",
             "damage": { "Magnetic": 125 },
@@ -13636,7 +13890,7 @@
     "tags": ["Secondary", "Dual Pistols"],
     "traits": ["Corpus"],
     "mastery": 10,
-    "disposition": 0.7,
+    "disposition": 0.75,
     "polarities": "-",
     "reload": 1.5,
     "magazine": 48,
@@ -13869,7 +14123,7 @@
         "tags": ["Primary", "Shotgun"],
         "traits": ["Prime"],
         "mastery": 14,
-        "disposition": 0.5,
+        "disposition": 0.9,
         "polarities": "-rr",
         "reload": 4.6,
         "magazine": 10,
@@ -14386,7 +14640,7 @@
     "tags": ["Primary", "Shotgun", "Tenet Weapon"],
     "traits": ["Corpus", "Tenet"],
     "mastery": 16,
-    "disposition": 0.5,
+    "disposition": 0.55,
     "polarities": "rr",
     "reload": 3,
     "magazine": 10,
@@ -14500,7 +14754,7 @@
     "tags": ["Primary", "Rifle", "Assault Rifle", "Launcher", "Tenet Weapon"],
     "traits": ["Corpus", "Tenet"],
     "mastery": 16,
-    "disposition": 0.6,
+    "disposition": 0.65,
     "reload": 4,
     "magazine": 8,
     "maxAmmo": 24,
@@ -14857,7 +15111,7 @@
     "tags": ["Primary", "Rifle", "Assault Rifle"],
     "traits": ["Tenno"],
     "mastery": 10,
-    "disposition": 1.05,
+    "disposition": 1.1,
     "polarities": "r",
     "reload": 2.26,
     "magazine": 30,
@@ -15483,6 +15737,8 @@
         "name": "Corrosive DoT",
         "damage": { "Corrosive": 27 },
         "fireRate": 0,
+        "critChance": 0.03,
+        "critMul": 1.5,
         "procChance": 0.5
       }
     ]
@@ -15508,6 +15764,34 @@
         "damage": { "Impact": 24.5, "Puncture": 5.3, "Slash": 5.2 },
         "fireRate": 55,
         "critChance": 0.2,
+        "critMul": 2,
+        "procChance": 0.1
+      }
+    ]
+  },
+  {
+    "name": "Valkyr Prime Talons",
+    "tags": ["Melee", "Exalted"],
+    "traits": ["Tenno"],
+    "disposition": 0,
+    "polarities": "r--",
+    "comboDur": 5,
+    "followThrough": 1,
+    "meleeRange": 1.7,
+    "slamAttack": 3.01,
+    "slamRadialDmg": 1,
+    "slamRadius": 6,
+    "heavyAttack": 8.37,
+    "windUp": 0.5,
+    "heavySlamAttack": 4.02,
+    "heavyRadialDmg": 4.02,
+    "heavySlamRadius": 7,
+    "slideAttack": 3.01,
+    "modes": [
+      {
+        "damage": { "Impact": 83.3, "Puncture": 83.3, "Slash": 83.3 },
+        "fireRate": 90,
+        "critChance": 0.5,
         "critMul": 2,
         "procChance": 0.1
       }
@@ -15801,7 +16085,7 @@
         "tags": ["Arch-Gun", "Atmosphere"],
         "traits": ["Tenno"],
         "mastery": 4,
-        "disposition": 1.05,
+        "disposition": 1.1,
         "reload": 2,
         "magazine": 10,
         "maxAmmo": 60,
@@ -15865,7 +16149,7 @@
     "tags": ["Melee", "Scythe"],
     "traits": ["Tenno", "Sentient"],
     "mastery": 9,
-    "disposition": 0.5,
+    "disposition": 0.85,
     "stancePolarity": "=",
     "comboDur": 5,
     "followThrough": 0.6,
@@ -15953,8 +16237,9 @@
   {
     "name": "Verdilac",
     "tags": ["Melee", "Whip"],
+    "traits": ["Sentient"],
     "mastery": 13,
-    "disposition": 0.5,
+    "disposition": 0.75,
     "stancePolarity": "d",
     "comboDur": 5,
     "followThrough": 0.5,
