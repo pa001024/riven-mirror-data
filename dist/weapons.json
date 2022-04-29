@@ -70,6 +70,34 @@
     ]
   },
   {
+    "name": "Aeolak",
+    "tags": ["Primary", "Rifle", "Assault Rifle"],
+    "traits": ["Void"],
+    "mastery": 10,
+    "disposition": 0.5,
+    "reload": 2,
+    "magazine": 40,
+    "maxAmmo": 540,
+    "modes": [
+      {
+        "damage": { "Impact": 15, "Puncture": 23, "Slash": 17, "Radiation": 5 },
+        "fireRate": 360,
+        "critChance": 0.21,
+        "critMul": 2.3,
+        "procChance": 0.33,
+        "punchThrough": 1
+      },
+      {
+        "name": "Alt-Fire",
+        "damage": { "Slash": 80, "Radiation": 60 },
+        "fireRate": 360,
+        "critChance": 0.2,
+        "critMul": 2,
+        "procChance": 0.2
+      }
+    ]
+  },
+  {
     "name": "Afuris",
     "tags": ["Secondary", "Dual Pistols"],
     "traits": ["Tenno"],
@@ -560,6 +588,49 @@
         "critMul": 2,
         "procChance": 0.14,
         "range": 300
+      }
+    ]
+  },
+  {
+    "name": "Alternox",
+    "tags": ["Primary", "Rifle", "Assault Rifle"],
+    "traits": ["Tenno"],
+    "mastery": 8,
+    "disposition": 0.5,
+    "reload": 1.8,
+    "magazine": 28,
+    "maxAmmo": 180,
+    "modes": [
+      {
+        "damage": { "Electricity": 62 },
+        "fireRate": 260,
+        "critChance": 0.14,
+        "critMul": 2.2,
+        "procChance": 0.3
+      },
+      {
+        "name": "Alt-Fire",
+        "damage": {
+          "Impact": 5,
+          "Puncture": 37.5,
+          "Slash": 7.5,
+          "Electricity": 50
+        },
+        "fireRate": 260,
+        "critChance": 0.02,
+        "critMul": 2,
+        "procChance": 0.44,
+        "trigger": "Active"
+      },
+      {
+        "name": "Alt-Fire AoE",
+        "damage": { "Electricity": 100 },
+        "fireRate": 260,
+        "critChance": 0.02,
+        "critMul": 2,
+        "procChance": 0.44,
+        "range": 6,
+        "falloff": [0, 6, 0.6]
       }
     ]
   },
@@ -6923,6 +6994,35 @@
     ]
   },
   {
+    "name": "Hespar",
+    "tags": ["Melee", "Heavy Scythe"],
+    "traits": ["Void"],
+    "mastery": 12,
+    "disposition": 0.5,
+    "stancePolarity": "r",
+    "comboDur": 5,
+    "followThrough": 0.4,
+    "meleeRange": 2.8,
+    "slamAttack": 3,
+    "slamRadialDmg": 1,
+    "slamRadius": 8,
+    "heavyAttack": 18,
+    "windUp": 1,
+    "heavySlamAttack": 5,
+    "heavyRadialDmg": 5,
+    "heavySlamRadius": 9,
+    "slideAttack": 2,
+    "modes": [
+      {
+        "damage": { "Impact": 112, "Puncture": 33.6, "Slash": 134.4 },
+        "fireRate": 60,
+        "critChance": 0.24,
+        "critMul": 2.2,
+        "procChance": 0.28
+      }
+    ]
+  },
+  {
     "name": "Hikou",
     "tags": ["Secondary", "Thrown"],
     "traits": ["Tenno"],
@@ -8802,6 +8902,47 @@
         "critChance": 0.1,
         "critMul": 3,
         "procChance": 0.15
+      }
+    ]
+  },
+  {
+    "name": "Laetum",
+    "tags": ["Secondary", "Pistol"],
+    "traits": ["Zariman", "Incarnon"],
+    "mastery": 14,
+    "disposition": 0.5,
+    "polarities": "r",
+    "reload": 2,
+    "magazine": 12,
+    "maxAmmo": 210,
+    "modes": [
+      {
+        "damage": { "Impact": 64, "Slash": 96 },
+        "fireRate": 150,
+        "critChance": 0.22,
+        "critMul": 2.2,
+        "procChance": 0.22,
+        "trigger": "Semi-Auto"
+      },
+      {
+        "name": "Auto Attack",
+        "damage": { "Impact": 100 },
+        "fireRate": 400,
+        "critChance": 0.22,
+        "critMul": 2.2,
+        "procChance": 0.22,
+        "accuracy": 4,
+        "trigger": "Auto"
+      },
+      {
+        "name": "Auto Radial Attack",
+        "damage": { "Radiation": 300 },
+        "fireRate": 400,
+        "critChance": 0.22,
+        "critMul": 2.2,
+        "procChance": 0.22,
+        "range": 2,
+        "falloff": [0, 2, 0.2]
       }
     ]
   },
@@ -11615,6 +11756,36 @@
     ]
   },
   {
+    "name": "Phenmor",
+    "tags": ["Primary", "Rifle", "Assault Rifle"],
+    "traits": ["Zariman"],
+    "mastery": 14,
+    "disposition": 0.5,
+    "reload": 2,
+    "magazine": 30,
+    "maxAmmo": 96,
+    "modes": [
+      {
+        "damage": { "Puncture": 42, "Slash": 98 },
+        "fireRate": 180,
+        "critChance": 0.2,
+        "critMul": 2,
+        "procChance": 0.2
+      },
+      {
+        "name": "Void-Touched",
+        "damage": { "Slash": 80, "Radiation": 60 },
+        "fireRate": 800,
+        "critChance": 0.2,
+        "critMul": 2,
+        "procChance": 0.2,
+        "accuracy": 14.3,
+        "punchThrough": 3,
+        "trigger": "Auto"
+      }
+    ]
+  },
+  {
     "name": "Plasma Sword",
     "tags": ["Melee", "Sword"],
     "traits": ["Tenno"],
@@ -11697,6 +11868,35 @@
         "procChance": 0.35,
         "range": 3.6,
         "falloff": [0, 3.6, 0]
+      }
+    ]
+  },
+  {
+    "name": "Praedos",
+    "tags": ["Melee", "Tonfa"],
+    "traits": ["Zariman"],
+    "mastery": 14,
+    "disposition": 0.5,
+    "stancePolarity": "r",
+    "comboDur": 5,
+    "followThrough": 0.6,
+    "meleeRange": 2.5,
+    "slamAttack": 2,
+    "slamRadialDmg": 1,
+    "slamRadius": 8,
+    "heavyAttack": 4,
+    "windUp": 0.7,
+    "heavySlamAttack": 4,
+    "heavyRadialDmg": 4,
+    "heavySlamRadius": 9,
+    "slideAttack": 2,
+    "modes": [
+      {
+        "damage": { "Impact": 20, "Puncture": 20, "Slash": 160 },
+        "fireRate": 70,
+        "critChance": 0.2,
+        "critMul": 2,
+        "procChance": 0.2
       }
     ]
   },
