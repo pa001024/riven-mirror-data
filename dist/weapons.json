@@ -78,7 +78,7 @@
     "polarities": "rd",
     "reload": 2,
     "magazine": 40,
-    "maxAmmo": 540,
+    "maxAmmo": 400,
     "modes": [
       {
         "damage": { "Impact": 15, "Puncture": 23, "Slash": 17, "Radiation": 5 },
@@ -86,15 +86,31 @@
         "critChance": 0.21,
         "critMul": 2.3,
         "procChance": 0.33,
-        "punchThrough": 1
+        "punchThrough": 1,
+        "trigger": "Auto",
+        "prjSpeed": 100
       },
       {
         "name": "Alt-Fire",
-        "damage": { "Slash": 80, "Radiation": 60 },
-        "fireRate": 360,
-        "critChance": 0.2,
-        "critMul": 2,
-        "procChance": 0.2
+        "damage": { "Impact": 58.2, "Puncture": 9.7, "Slash": 29.1 },
+        "fireRate": 90,
+        "critChance": 0.21,
+        "critMul": 2.3,
+        "procChance": 0.33,
+        "ammoCost": 10,
+        "chargeTime": 0.3,
+        "trigger": "Auto Charge",
+        "prjSpeed": 60
+      },
+      {
+        "name": "Alt-Fire Explosion",
+        "damage": { "Blast": 789 },
+        "fireRate": 90,
+        "critChance": 0.21,
+        "critMul": 2.3,
+        "procChance": 0.33,
+        "range": 7,
+        "falloff": [0, 7, 0.9]
       }
     ]
   },
@@ -601,37 +617,46 @@
     "polarities": "r",
     "reload": 1.8,
     "magazine": 28,
-    "maxAmmo": 180,
+    "maxAmmo": 540,
     "modes": [
       {
         "damage": { "Electricity": 62 },
         "fireRate": 260,
         "critChance": 0.14,
         "critMul": 2.2,
-        "procChance": 0.3
+        "procChance": 0.3,
+        "prjSpeed": 60
       },
       {
-        "name": "Alt-Fire",
-        "damage": {
-          "Impact": 5,
-          "Puncture": 37.5,
-          "Slash": 7.5,
-          "Electricity": 50
-        },
-        "fireRate": 260,
+        "name": "Alt-Fire Contact",
+        "damage": { "Impact": 5, "Puncture": 37.5, "Slash": 7.5 },
+        "fireRate": 90,
         "critChance": 0.02,
         "critMul": 2,
         "procChance": 0.44,
-        "trigger": "Active"
+        "ammoCost": 4,
+        "trigger": "Active",
+        "prjSpeed": 60
       },
       {
-        "name": "Alt-Fire AoE",
-        "damage": { "Electricity": 100 },
-        "fireRate": 260,
+        "name": "Alt-Fire Damage over Time",
+        "damage": { "Electricity": 50 },
+        "fireRate": 60,
         "critChance": 0.02,
         "critMul": 2,
         "procChance": 0.44,
         "range": 6,
+        "trigger": "DoT",
+        "falloff": [0, 6, 0.6]
+      },
+      {
+        "name": "Alt-Fire Explosion",
+        "damage": { "Electricity": 100 },
+        "critChance": 0.02,
+        "critMul": 2,
+        "procChance": 0.44,
+        "range": 6,
+        "trigger": "Active",
         "falloff": [0, 6, 0.6]
       }
     ]
@@ -2582,6 +2607,46 @@
     ]
   },
   {
+    "name": "Catchmoon",
+    "tags": ["Secondary", "Pistol"],
+    "disposition": 0.55,
+    "reload": 0,
+    "magazine": 0,
+    "maxAmmo": 70,
+    "modes": [
+      {
+        "damage": {},
+        "fireRate": 0,
+        "critChance": 0,
+        "critMul": 0,
+        "procChance": 0,
+        "range": 20,
+        "prjSpeed": 100,
+        "falloff": [8, 16, 0.9375]
+      }
+    ]
+  },
+  {
+    "name": "Catchmoon (Primary)",
+    "tags": ["Primary", "Shotgun"],
+    "disposition": 1.1,
+    "reload": 0,
+    "magazine": 0,
+    "maxAmmo": 70,
+    "modes": [
+      {
+        "damage": {},
+        "fireRate": 0,
+        "critChance": 0,
+        "critMul": 0,
+        "procChance": 0,
+        "range": 42,
+        "prjSpeed": 100,
+        "falloff": [20, 40, 0.9416]
+      }
+    ]
+  },
+  {
     "name": "Caustacyst",
     "tags": ["Melee", "Scythe"],
     "traits": ["Infested"],
@@ -3271,7 +3336,8 @@
             "critChance": 0.44,
             "critMul": 3,
             "procChance": 0.2,
-            "range": 300
+            "range": 300,
+            "prjSpeed": 400
           },
           {
             "damage": { "Impact": 430, "Heat": 530 },
@@ -3281,6 +3347,7 @@
             "procChance": 0.2,
             "range": 300,
             "chargeTime": 0.5,
+            "prjSpeed": 400,
             "falloff": [600, 1200, 0.5]
           }
         ]
@@ -3302,7 +3369,8 @@
             "critChance": 0.44,
             "critMul": 3,
             "procChance": 0.2,
-            "range": 300
+            "range": 300,
+            "prjSpeed": 400
           },
           {
             "damage": { "Impact": 430, "Heat": 530 },
@@ -3312,6 +3380,7 @@
             "procChance": 0.2,
             "range": 300,
             "chargeTime": 0.5,
+            "prjSpeed": 400,
             "falloff": [100, 200, 0.5]
           }
         ]
@@ -5183,6 +5252,44 @@
     ]
   },
   {
+    "name": "Felarx",
+    "tags": ["Primary", "Shotgun"],
+    "traits": ["Zariman", "Incarnon"],
+    "mastery": 14,
+    "disposition": 0.5,
+    "polarities": "r",
+    "reload": 3.7,
+    "magazine": 6,
+    "maxAmmo": 60,
+    "reloadStyle": 2,
+    "modes": [
+      {
+        "damage": { "Impact": 152, "Puncture": 273.6, "Slash": 334.4 },
+        "fireRate": 180,
+        "critChance": 0.2,
+        "critMul": 2,
+        "procChance": 0.055,
+        "pellets": 4,
+        "range": 300,
+        "trigger": "Auto",
+        "prjSpeed": 100,
+        "falloff": [14, 28, 0.9947]
+      },
+      {
+        "name": "Incarnon Mode",
+        "damage": { "Impact": 200, "Radiation": 300 },
+        "fireRate": 90,
+        "critChance": 0.2,
+        "critMul": 3,
+        "procChance": 0.2,
+        "accuracy": 9.1,
+        "punchThrough": 0.5,
+        "trigger": "Semi-Auto",
+        "prjSpeed": 160
+      }
+    ]
+  },
+  {
     "name": "Ferrox",
     "tags": ["Primary", "Rifle", "Speargun"],
     "traits": ["Corpus"],
@@ -5789,6 +5896,54 @@
         "critChance": 0.1,
         "critMul": 2,
         "procChance": 0.3
+      }
+    ]
+  },
+  {
+    "name": "Gaze",
+    "tags": ["Secondary", "Pistol"],
+    "disposition": 0.9,
+    "reload": 0,
+    "magazine": 0,
+    "maxAmmo": 400,
+    "modes": [
+      {
+        "damage": {},
+        "fireRate": 0,
+        "critChance": 0,
+        "critMul": 0,
+        "procChance": 0,
+        "range": 0,
+        "ammoCost": 0.5
+      }
+    ]
+  },
+  {
+    "name": "Gaze (Primary)",
+    "tags": ["Primary", "Rifle", "Assault Rifle"],
+    "disposition": 1.05,
+    "reload": 0,
+    "magazine": 0,
+    "maxAmmo": 400,
+    "modes": [
+      {
+        "damage": {},
+        "fireRate": 0,
+        "critChance": 0,
+        "critMul": 0,
+        "procChance": 0,
+        "range": 0,
+        "ammoCost": 0.5
+      },
+      {
+        "name": "Area of Effect",
+        "damage": {},
+        "fireRate": 0,
+        "critChance": 0,
+        "critMul": 0,
+        "procChance": 0,
+        "range": 3,
+        "falloff": [0, 3, 0]
       }
     ]
   },
@@ -6837,7 +6992,7 @@
         "maxAmmo": 120,
         "modes": [
           {
-            "damage": { "Impact": 91.7, "Puncture": 395.5, "Slash": 121.8 },
+            "damage": { "Impact": 91.35, "Puncture": 395.85, "Slash": 121.8 },
             "fireRate": 130,
             "critChance": 0.23,
             "critMul": 2.1,
@@ -6848,7 +7003,7 @@
           },
           {
             "name": "Alt-Fire",
-            "damage": { "Impact": 366.8, "Puncture": 1582, "Slash": 487.2 },
+            "damage": { "Impact": 365.4, "Puncture": 1583.4, "Slash": 487.2 },
             "fireRate": 70,
             "critChance": 0.23,
             "critMul": 2.1,
@@ -6954,7 +7109,7 @@
     "magazine": 80,
     "modes": [
       {
-        "damage": { "Impact": 5, "Puncture": 4.5 },
+        "damage": { "Impact": 5.1, "Puncture": 4 },
         "fireRate": 55,
         "critChance": 0.05,
         "critMul": 1.5,
@@ -6965,7 +7120,7 @@
       },
       {
         "name": "Explosion",
-        "damage": { "Impact": 3, "Heat": 3.5 },
+        "damage": { "Impact": 2.1, "Heat": 2.9 },
         "fireRate": 55,
         "critChance": 0.05,
         "critMul": 1.5,
@@ -7372,6 +7527,36 @@
         "critChance": 1,
         "critMul": 3,
         "procChance": 1
+      }
+    ]
+  },
+  {
+    "name": "Innodem",
+    "tags": ["Melee", "Dagger"],
+    "traits": ["Zariman", "Incarnon"],
+    "mastery": 14,
+    "disposition": 0.5,
+    "polarities": "rr",
+    "stancePolarity": "r",
+    "comboDur": 5,
+    "followThrough": 0.9,
+    "meleeRange": 1.8,
+    "slamAttack": 2,
+    "slamRadialDmg": 1,
+    "slamRadius": 5,
+    "heavyAttack": 2,
+    "windUp": 0.4,
+    "heavySlamAttack": 4,
+    "heavyRadialDmg": 4,
+    "heavySlamRadius": 7,
+    "slideAttack": 2,
+    "modes": [
+      {
+        "damage": { "Impact": 36, "Puncture": 144, "Slash": 180 },
+        "fireRate": 45,
+        "critChance": 0.22,
+        "critMul": 2,
+        "procChance": 0.22
       }
     ]
   },
@@ -8925,17 +9110,19 @@
         "critChance": 0.22,
         "critMul": 2.2,
         "procChance": 0.22,
+        "punchThrough": 100,
         "trigger": "Semi-Auto"
       },
       {
-        "name": "Auto Attack",
+        "name": "Incarnon Form",
         "damage": { "Impact": 100 },
         "fireRate": 400,
         "critChance": 0.22,
         "critMul": 2.2,
         "procChance": 0.22,
         "accuracy": 4,
-        "trigger": "Auto"
+        "trigger": "Auto",
+        "prjSpeed": 40
       },
       {
         "name": "Auto Radial Attack",
@@ -11767,17 +11954,18 @@
     "polarities": "r-",
     "reload": 2,
     "magazine": 30,
-    "maxAmmo": 96,
+    "maxAmmo": 540,
     "modes": [
       {
         "damage": { "Puncture": 42, "Slash": 98 },
         "fireRate": 180,
         "critChance": 0.2,
         "critMul": 2,
-        "procChance": 0.2
+        "procChance": 0.2,
+        "prjSpeed": 120
       },
       {
-        "name": "Void-Touched",
+        "name": "Incarnon Form",
         "damage": { "Slash": 80, "Radiation": 60 },
         "fireRate": 800,
         "critChance": 0.2,
@@ -11785,7 +11973,8 @@
         "procChance": 0.2,
         "accuracy": 14.3,
         "punchThrough": 3,
-        "trigger": "Auto"
+        "trigger": "Auto",
+        "prjSpeed": 80
       }
     ]
   },
@@ -11881,8 +12070,8 @@
     "traits": ["Zariman", "Incarnon"],
     "mastery": 14,
     "disposition": 0.5,
-    "polarities": "r",
-    "stancePolarity": "-",
+    "polarities": "r-",
+    "stancePolarity": "r",
     "comboDur": 5,
     "followThrough": 0.6,
     "meleeRange": 2.5,
@@ -12288,7 +12477,7 @@
         "polarities": "rr",
         "reload": 1.7,
         "magazine": 88,
-        "maxAmmo": 840,
+        "maxAmmo": 880,
         "modes": [
           {
             "name": "Full-Auto",
@@ -12469,6 +12658,42 @@
         "critChance": 0.2,
         "critMul": 2,
         "procChance": 0.12
+      }
+    ]
+  },
+  {
+    "name": "Rattleguts",
+    "tags": ["Secondary", "Pistol"],
+    "disposition": 0.75,
+    "reload": 0,
+    "magazine": 0,
+    "maxAmmo": 700,
+    "modes": [
+      {
+        "damage": {},
+        "fireRate": 0,
+        "critChance": 0,
+        "critMul": 0,
+        "procChance": 0,
+        "range": 0
+      }
+    ]
+  },
+  {
+    "name": "Rattleguts (Primary)",
+    "tags": ["Primary", "Rifle", "Assault Rifle"],
+    "disposition": 1,
+    "reload": 0,
+    "magazine": 0,
+    "maxAmmo": 700,
+    "modes": [
+      {
+        "damage": {},
+        "fireRate": 0,
+        "critChance": 0,
+        "critMul": 0,
+        "procChance": 0,
+        "range": 0
       }
     ]
   },
@@ -13527,7 +13752,15 @@
         "magazine": 16,
         "maxAmmo": 96,
         "modes": [
-          { "name": "Orb Launch", "damage": {}, "fireRate": 200, "range": 12 },
+          {
+            "name": "Orb Launch",
+            "damage": {},
+            "fireRate": 200,
+            "critChance": 0,
+            "critMul": 1,
+            "procChance": 0,
+            "range": 12
+          },
           {
             "name": "Orb Merging Damage",
             "damage": { "Magnetic": 125 },
@@ -13990,6 +14223,85 @@
             "prjSpeed": 70
           }
         ]
+      }
+    ]
+  },
+  {
+    "name": "Sporelacer",
+    "tags": ["Secondary", "Pistol"],
+    "traits": ["Infested"],
+    "disposition": 0.55,
+    "reload": 0,
+    "magazine": 0,
+    "maxAmmo": 130,
+    "modes": [
+      {
+        "damage": {},
+        "fireRate": 0,
+        "critChance": 0,
+        "critMul": 0,
+        "procChance": 0,
+        "prjSpeed": 57,
+        "falloff": [13, 26, 0]
+      },
+      {
+        "name": "Explosion",
+        "damage": {},
+        "fireRate": 0,
+        "critChance": 0,
+        "critMul": 0,
+        "procChance": 0,
+        "range": 4.7,
+        "falloff": [0, 4.7, 0.5]
+      },
+      {
+        "name": "Bomblet Impact",
+        "damage": {},
+        "fireRate": 0,
+        "critChance": 0,
+        "critMul": 0,
+        "procChance": 0,
+        "prjSpeed": 3
+      },
+      {
+        "name": "Bomblet Explosion",
+        "damage": {},
+        "fireRate": 0,
+        "critChance": 0,
+        "critMul": 0,
+        "procChance": 0,
+        "range": 2.1,
+        "falloff": [0, 2.1, 0.8]
+      }
+    ]
+  },
+  {
+    "name": "Sporelacer (Primary)",
+    "tags": ["Primary", "Shotgun"],
+    "traits": ["Infested"],
+    "disposition": 1.05,
+    "reload": 0,
+    "magazine": 0,
+    "maxAmmo": 130,
+    "modes": [
+      {
+        "damage": {},
+        "fireRate": 0,
+        "critChance": 0,
+        "critMul": 0,
+        "procChance": 0,
+        "prjSpeed": 50,
+        "falloff": [8, 16, 0]
+      },
+      {
+        "name": "Explosion",
+        "damage": {},
+        "fireRate": 0,
+        "critChance": 0,
+        "critMul": 0,
+        "procChance": 0,
+        "range": 2.1,
+        "falloff": [0, 2.1, 0.2]
       }
     ]
   },
@@ -14857,7 +15169,7 @@
         "critChance": 0.22,
         "critMul": 2,
         "procChance": 0.34,
-        "range": 36,
+        "range": 44.4,
         "prjSpeed": 120,
         "falloff": [18, 36, 0.5]
       }
@@ -15505,6 +15817,72 @@
             "procChance": 0.24
           }
         ]
+      }
+    ]
+  },
+  {
+    "name": "Tombfinger",
+    "tags": ["Secondary", "Pistol"],
+    "disposition": 0.65,
+    "reload": 0,
+    "magazine": 0,
+    "maxAmmo": 540,
+    "modes": [
+      {
+        "damage": {},
+        "fireRate": 0,
+        "critChance": 0,
+        "critMul": 0,
+        "procChance": 0,
+        "prjSpeed": 180
+      },
+      {
+        "name": "Explosion",
+        "damage": {},
+        "fireRate": 0,
+        "critChance": 0,
+        "critMul": 0,
+        "procChance": 0,
+        "range": 1.9,
+        "falloff": [0, 1.9, 0.3]
+      }
+    ]
+  },
+  {
+    "name": "Tombfinger (Primary)",
+    "tags": ["Primary", "Rifle", "Assault Rifle", "Launcher"],
+    "disposition": 0.95,
+    "reload": 0,
+    "magazine": 0,
+    "maxAmmo": 540,
+    "modes": [
+      {
+        "damage": {},
+        "fireRate": 0,
+        "critChance": 0,
+        "critMul": 0,
+        "procChance": 0,
+        "prjSpeed": 90
+      },
+      {
+        "name": "Quick Shot Explosion",
+        "damage": {},
+        "fireRate": 0,
+        "critChance": 0,
+        "critMul": 0,
+        "procChance": 0,
+        "range": 1.7,
+        "falloff": [0, 1.7, 0.25]
+      },
+      {
+        "name": "Charged Shot Explosion",
+        "damage": {},
+        "fireRate": 0,
+        "critChance": 0,
+        "critMul": 0,
+        "procChance": 0,
+        "range": 6.2,
+        "falloff": [0, 6.2, 0.7]
       }
     ]
   },
@@ -16494,6 +16872,36 @@
     ]
   },
   {
+    "name": "Vericres",
+    "tags": ["Melee", "Warfan"],
+    "traits": ["Tenno"],
+    "mastery": 8,
+    "disposition": 0.5,
+    "polarities": "rr",
+    "stancePolarity": "-",
+    "comboDur": 5,
+    "followThrough": 0.7,
+    "meleeRange": 1.8,
+    "slamAttack": 2,
+    "slamRadialDmg": 1,
+    "slamRadius": 6,
+    "heavyAttack": 4,
+    "windUp": 0.5,
+    "heavySlamAttack": 1,
+    "heavyRadialDmg": 1,
+    "heavySlamRadius": 8,
+    "slideAttack": 1,
+    "modes": [
+      {
+        "damage": { "Impact": 21.6, "Puncture": 28.8, "Slash": 129.6 },
+        "fireRate": 60,
+        "critChance": 0.22,
+        "critMul": 2,
+        "procChance": 0.2
+      }
+    ]
+  },
+  {
     "name": "Veritux",
     "tags": ["Arch-Melee"],
     "traits": ["Tenno"],
@@ -16527,6 +16935,53 @@
             "procChance": 0.2
           }
         ]
+      }
+    ]
+  },
+  {
+    "name": "Vermisplicer",
+    "tags": ["Secondary", "Pistol"],
+    "disposition": 1.05,
+    "reload": 0,
+    "magazine": 0,
+    "maxAmmo": 226,
+    "modes": [
+      {
+        "damage": {},
+        "fireRate": 0,
+        "critChance": 0,
+        "critMul": 0,
+        "procChance": 0,
+        "punchThrough": 1,
+        "pellets": 5,
+        "ammoCost": 0.5
+      }
+    ]
+  },
+  {
+    "name": "Vermisplicer (Primary)",
+    "tags": ["Primary", "Rifle", "Assault Rifle"],
+    "disposition": 0.85,
+    "reload": 0,
+    "magazine": 0,
+    "maxAmmo": 226,
+    "modes": [
+      {
+        "damage": {},
+        "fireRate": 0,
+        "critChance": 0,
+        "critMul": 0,
+        "procChance": 0,
+        "ammoCost": 0.5
+      },
+      {
+        "name": "Tendril",
+        "damage": {},
+        "fireRate": 0,
+        "critChance": 0,
+        "critMul": 0,
+        "procChance": 0,
+        "range": 6
       }
     ]
   },
@@ -16919,22 +17374,20 @@
       {
         "name": "Throw",
         "damage": { "Impact": 396.3, "Puncture": 23.4, "Slash": 357.3 },
-        "fireRate": 50,
         "critChance": 0.17,
         "critMul": 1.9,
         "procChance": 0.33,
         "range": 40,
-        "chargeTime": 1.2
+        "chargeTime": 0.75
       },
       {
-        "name": "Recall Explosion",
+        "name": "Heavy Recall Explosion",
         "damage": { "Blast": 777 },
-        "fireRate": 50,
-        "critChance": 0.17,
-        "critMul": 1.9,
-        "procChance": 0.33,
+        "critChance": 0.19,
+        "critMul": 2.1,
+        "procChance": 0.5,
         "range": 5,
-        "chargeTime": 1.2,
+        "chargeTime": 0.75,
         "falloff": [0, 5, 0]
       }
     ]
