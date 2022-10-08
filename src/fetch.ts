@@ -37,7 +37,7 @@ const fetchTargets = [
   //   dist: "de-Warframes.json",
   // },
   {
-    src: "https://warframe.huijiwiki.com/index.php?title=UserDict&action=raw",
+    src: "https://warframe.huijiwiki.com/wiki/Data:UserDict.json?action=raw",
     dist: "huiji-UserDict.json",
   },
   {
